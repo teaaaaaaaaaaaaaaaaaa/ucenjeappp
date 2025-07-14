@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/router';
+import { QuizProvider } from './contexts/QuizContext';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <h1 className="text-3xl bg-pink-700 font-bold text-amber-300">
-      React 19 with Tailwind CSS v4
-    </h1>
-  )
-}
+    <QuizProvider>
+      <RouterProvider router={router} />
+    </QuizProvider>
+  );
+};
 
-export default App
+export default App;

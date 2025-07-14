@@ -1,0 +1,1092 @@
+[
+  {
+    "id": 1,
+    "question": "Šta su GNU aluti?",
+    "answers": ["Skup alata za upravljanje i korišćenje sistema", "Linux kernel", "Grafički interfejs", "Set drajvera za hardver"],
+    "correctAnswer": "Skup alata za upravljanje i korišćenje sistema"
+  },
+  {
+    "id": 2,
+    "question": "Iako postoji više različitih distribucija, šta je zajedničko za sve njih?",
+    "answers": ["Isto grafičko okruženje", "Kernel", "Paket menadžer", "Desktop okruženje"],
+    "correctAnswer": "Kernel"
+  },
+  {
+    "id": 3,
+    "question": "Koji direktorijum se označava sa /?",
+    "answers": ["Home direktorijum", "Koreni (root) direktorijum", "Privremeni direktorijum", "Desktop"],
+    "correctAnswer": "Koreni (root) direktorijum"
+  },
+  {
+    "id": 4,
+    "question": "Šta radi komanda ls -la?",
+    "answers": ["Briše sve fajlove", "Prikazuje trenutno vreme", "Izlistava sadržaj direktorijuma i skrivenih fajlova uz detaljni prikaz", "Pokreće novi terminal"],
+    "correctAnswer": "Izlistava sadržaj direktorijuma i skrivenih fajlova uz detaljni prikaz"
+  },
+  {
+    "id": 5,
+    "question": "Šta radi komanda cd ../?",
+    "answers": ["Ulazi u poddirektorijum", "Pokreće root korisnika", "Prebacuje korisnika u nivo iznad", "Briše trenutni direktorijum"],
+    "correctAnswer": "Prebacuje korisnika u nivo iznad"
+  },
+  {
+    "id": 6,
+    "question": "Da li komanda cp uvek mora imati dva argumenta?",
+    "answers": ["Da", "Ne", "Samo ako je rekurzivna", "Samo ako kopira direktorijum"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 7,
+    "question": "Razlika između cp i mv?",
+    "answers": ["cp briše fajl, mv kopira fajl", "cp kopira fajl, mv premesta fajl", "cp premesta fajl, mv kopira fajl", "cp i mv su iste komande"],
+    "correctAnswer": "cp kopira fajl, mv premesta fajl"
+  },
+  {
+    "id": 8,
+    "question": "Šta radi man printf?",
+    "answers": ["Prikazuje uputstvo za C komandu printf", "Pokreće program printf", "Briše printf", "Instalira printf"],
+    "correctAnswer": "Prikazuje uputstvo za C komandu printf"
+  },
+  {
+    "id": 9,
+    "question": "Da li cat služi za prikaz direktorijuma?",
+    "answers": ["Da", "Ne", "Samo ako je direktorijum prazan", "Samo sa dodatnim opcijama"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 10,
+    "question": "Kako napraviti direktorijum \"Voce\" i u njemu direktorijume \"Jabuka\" i \"Kruska\"?",
+    "answers": ["mkdir -p Voce/{Jabuka,Kruska}", "mkdir Voce Jabuka Kruska", "mkdir Voce/Jabuka/Kruska", "mkdir -d Voce/Jabuka Kruska"],
+    "correctAnswer": "mkdir -p Voce/{Jabuka,Kruska}"
+  },
+  {
+    "id": 11,
+    "question": "Kada će pomoću naredbe echo biti ispisan datum?",
+    "answers": ["echo \"Danasnji datum je: $(date)\"", "echo \"Danasnji datum je: 'date'\"", "echo \"Danasnji datum je: date\"", "echo date"],
+    "correctAnswer": "echo \"Danasnji datum je: $(date)\""
+  },
+  {
+    "id": 12,
+    "question": "Za šta se koristi karakter pipe (|)?",
+    "answers": ["Za komentar", "Za prebacivanje u root", "Za prosleđivanje izlaza jedne komande ulazu druge", "Za arhiviranje fajlova"],
+    "correctAnswer": "Za prosleđivanje izlaza jedne komande ulazu druge"
+  },
+  {
+    "id": 13,
+    "question": "Kako se zove ponašanje kada više niti izvršava istu stvar, ne znajući jedna za drugu?",
+    "answers": ["Deadlock", "Semaphore", "Race condition", "Starvation"],
+    "correctAnswer": "Race condition"
+  },
+  {
+    "id": 14,
+    "question": "U pthread_create(), za šta služi četvrti parametar?",
+    "answers": ["Prioritet niti", "Povratna vrednost niti", "Argument prosleđen funkciji niti", "Ograničenje vremena izvršavanja"],
+    "correctAnswer": "Argument prosleđen funkciji niti"
+  },
+  {
+    "id": 15,
+    "question": "Gde se čuva izvršni fajl nakon kompajliranja cc program.c?",
+    "answers": ["/bin", "/usr/bin", "./a.out", "/usr/local/bin"],
+    "correctAnswer": "./a.out"
+  },
+  {
+    "id": 16,
+    "question": "Specijalni kod UNIX-a je napisan u kom jeziku?",
+    "answers": ["Asembler", "C", "Python", "Java"],
+    "correctAnswer": "C"
+  },
+  {
+    "id": 17,
+    "question": "Koji deo UNIX-a je napisan u asembleru?",
+    "answers": ["Kernel", "Shell", "Korisnički programi", "Biblioteke"],
+    "correctAnswer": "Kernel"
+  },
+  {
+    "id": 18,
+    "question": "Koliko osnovnih panela ima Fedora?",
+    "answers": ["Jedan", "Dva (gornji i donji)", "Tri", "Nula"],
+    "correctAnswer": "Dva (gornji i donji)"
+  },
+  {
+    "id": 19,
+    "question": "Šta se smešta u /etc?",
+    "answers": ["Korisnički fajlovi", "Sistemski konfiguracioni fajlovi", "Biblioteke", "Kernel fajlovi"],
+    "correctAnswer": "Sistemski konfiguracioni fajlovi"
+  },
+  {
+    "id": 20,
+    "question": "Da li ls -R izlistava sadržaj direktorijuma i svih poddirektorijuma?",
+    "answers": ["Da", "Ne", "Samo skrivenih fajlova", "Samo direktorijuma"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 21,
+    "question": "Šta ide uz tar za kreiranje arhive?",
+    "answers": ["tar -x", "tar c", "tar -r", "tar -z"],
+    "correctAnswer": "tar c"
+  },
+  {
+    "id": 22,
+    "question": "Da li treba znati sve Linux komande?",
+    "answers": ["Da", "Ne, postoji komanda man (info)", "Samo osnovne", "Samo grafičke"],
+    "correctAnswer": "Ne, postoji komanda man (info)"
+  },
+  {
+    "id": 23,
+    "question": "Da li cat ispisuje sadržaj direktorijuma?",
+    "answers": ["Da", "Ne", "Samo sa opcijom -a", "Samo root korisnik"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 24,
+    "question": "Da li vi ispisuje sadržaj direktorijuma?",
+    "answers": ["Da", "Ne", "Samo sa sudo", "Samo fajlove sa pravima za čitanje"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 25,
+    "question": "Da li je ternarni uslov u C isti kao if grana?",
+    "answers": ["Da", "Ne", "Zavisi od kompajlera", "Samo u nekim slučajevima"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 26,
+    "question": "Šta je zajedničko za Linux distribucije?",
+    "answers": ["Desktop okruženje", "Kernel", "Paket menadžer", "Verzija kernela"],
+    "correctAnswer": "Kernel"
+  },
+  {
+    "id": 27,
+    "question": "Razlika između cp i mv?",
+    "answers": ["cp briše fajl, mv kopira", "cp kopira fajl, mv premesta fajl", "Obe kopiraju fajlove", "Obe brišu fajlove"],
+    "correctAnswer": "cp kopira fajl, mv premesta fajl"
+  },
+  {
+    "id": 28,
+    "question": "Šta treba da stoji posle komande cd?",
+    "answers": ["Ime fajla", "Ime direktorijuma", "Komanda ls", "Putanja fajla"],
+    "correctAnswer": "Ime direktorijuma"
+  },
+  {
+    "id": 29,
+    "question": "Koje komande služe za ispis teksta u terminalu?",
+    "answers": ["echo, cat", "ls, cd", "mkdir, rm", "touch, vi"],
+    "correctAnswer": "echo, cat"
+  },
+  {
+    "id": 30,
+    "question": "Nalazite se u home/users. Šta će se prikazati nakon cd .. i pwd?",
+    "answers": ["/home/users", "/home", "/", "/users"],
+    "correctAnswer": "/home"
+  },
+  {
+    "id": 31,
+    "question": "Da li cp -h postoji?",
+    "answers": ["Da", "Ne", "Samo u starim verzijama", "Samo kao alias"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 32,
+    "question": "Gde se čuvaju programi nakon cc program.c?",
+    "answers": ["/bin", "a.out u trenutnom direktorijumu", "/usr/bin", "/tmp"],
+    "correctAnswer": "a.out u trenutnom direktorijumu"
+  },
+  {
+    "id": 33,
+    "question": "Pre UNIX-a, računari su bili?",
+    "answers": ["Jeftini i mali", "Skupi, svaki sa sopstvenim OS", "Samo za naučne svrhe", "Svi sa istim OS"],
+    "correctAnswer": "Skupi, svaki sa sopstvenim OS"
+  },
+  {
+    "id": 34,
+    "question": "Kod Linux-a, \"sve je fajl\"?",
+    "answers": ["Tačno", "Netačno", "Samo u root režimu", "Zavisi od distribucije"],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 35,
+    "question": "Koja su grafička okruženja kod Linux-a?",
+    "answers": ["Windows i MacOS", "KDE i GNOME", "DOS i Bash", "X11 i Wayland"],
+    "correctAnswer": "KDE i GNOME"
+  },
+  {
+    "id": 36,
+    "question": "Navedite neke distribucije Linux-a:",
+    "answers": ["Windows, MacOS", "Slackware, Debian, Ubuntu, SuSE, Mandriva, RedHat, Fedora", "Android, iOS", "ChromeOS, FreeBSD"],
+    "correctAnswer": "Slackware, Debian, Ubuntu, SuSE, Mandriva, RedHat, Fedora"
+  },
+  {
+    "id": 37,
+    "question": "Razlika između vi i cat?",
+    "answers": ["vi prikazuje sadržaj, cat menja fajl", "vi menja fajl, cat prikazuje sadržaj", "Obe prikazuju sadržaj", "Obe uređuju fajl"],
+    "correctAnswer": "vi menja fajl, cat prikazuje sadržaj"
+  },
+  {
+    "id": 38,
+    "question": "Šta ispisuje for(i=3; i>0; i--) print(i);?",
+    "answers": ["1 2 3", "3 2 1", "0 1 2", "Greška u sintaksi"],
+    "correctAnswer": "3 2 1"
+  },
+  {
+    "id": 39,
+    "question": "Da li pwd uvek prikazuje trenutni direktorijum?",
+    "answers": ["Da", "Ne", "Samo u root režimu", "Samo u home direktorijumu"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 40,
+    "question": "Da li tar -x raspakuje arhivu?",
+    "answers": ["Da", "Ne, ispravno je tar x (bez -)", "Samo za .zip fajlove", "Samo kao root"],
+    "correctAnswer": "Ne, ispravno je tar x (bez -)"
+  },
+  {
+    "id": 41,
+    "question": "Koja komanda preimenuje fajl?",
+    "answers": ["cp", "mv", "rm", "rename"],
+    "correctAnswer": "mv"
+  },
+  {
+    "id": 42,
+    "question": "Kako se označava korenski direktorijum?",
+    "answers": ["~", "/", ".", ".."],
+    "correctAnswer": "/"
+  },
+  {
+    "id": 43,
+    "question": "Grafičko okruženje u Fedori?",
+    "answers": ["KDE", "GNOME", "XFCE", "LXDE"],
+    "correctAnswer": "GNOME"
+  },
+  {
+    "id": 44,
+    "question": "Šta daje cc program.c?",
+    "answers": ["Izvršni fajl a.out", "Izvorni kod", "Log fajl", "Tar arhivu"],
+    "correctAnswer": "Izvršni fajl a.out"
+  },
+  {
+    "id": 45,
+    "question": "Šta je UNIX omogućio?",
+    "answers": ["Korišćenje programa na više računara", "Obučavanje korisnika za rad na svim sistemima", "Povezivanje računara u mreži", "Sve navedeno"],
+    "correctAnswer": "Sve navedeno"
+  },
+  {
+    "id": 46,
+    "question": "Na kom nivou radi man?",
+    "answers": ["1", "2", "3", "4"],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 47,
+    "question": "Gde tar raspakuje arhivu?",
+    "answers": ["U kućni direktorijum", "U trenutni direktorijum", "U /tmp", "U root direktorijum"],
+    "correctAnswer": "U trenutni direktorijum"
+  },
+  {
+    "id": 48,
+    "question": "Da li ls služi za arhiviranje?",
+    "answers": ["Da", "Ne, tar služi za arhiviranje", "Samo sa -a", "Samo root"],
+    "correctAnswer": "Ne, tar služi za arhiviranje"
+  },
+  {
+    "id": 49,
+    "question": "Ko je započeo Linux?",
+    "answers": ["Bill Gates", "Linus Torvalds", "Steve Jobs", "Dennis Ritchie"],
+    "correctAnswer": "Linus Torvalds"
+  },
+  {
+    "id": 50,
+    "question": "Koliko main() funkcija sme postojati u projektu?",
+    "answers": ["Neograničeno", "Samo jedna", "Tri", "Pet"],
+    "correctAnswer": "Samo jedna"
+  },
+  {
+    "id": 51,
+    "question": "Osnovna komanda za kretanje kroz direktorijume?",
+    "answers": ["ls", "cd", "pwd", "mv"],
+    "correctAnswer": "cd"
+  },
+  {
+    "id": 52,
+    "question": "Odnos terminala i grafičkog okruženja?",
+    "answers": ["Terminal je 3. nivo, grafičko 5. nivo", "Grafičko je 3. nivo, terminal 5. nivo", "Oba su isti nivo", "Terminal je grafičko okruženje"],
+    "correctAnswer": "Terminal je 3. nivo, grafičko 5. nivo"
+  },
+  {
+    "id": 53,
+    "question": "Koja dva okruženja postoje u Linuxu?",
+    "answers": ["Grafičko i tekstualno", "Windows i MacOS", "Server i Desktop", "Root i User"],
+    "correctAnswer": "Grafičko i tekstualno"
+  },
+  {
+    "id": 54,
+    "question": "Šta sadrži /boot?",
+    "answers": ["Fajlove za podizanje sistema i kernel", "Korisničke dokumente", "Privremene fajlove", "Konfiguracione fajlove"],
+    "correctAnswer": "Fajlove za podizanje sistema i kernel"
+  },
+  {
+    "id": 55,
+    "question": "Koja opcija označava interaktivni mod?",
+    "answers": ["-h", "-i", "-r", "-f"],
+    "correctAnswer": "-i"
+  },
+  {
+    "id": 56,
+    "question": "Da li cat služi za listanje direktorijuma?",
+    "answers": ["Da", "Ne", "Samo sa sudo", "Samo sa -l"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 57,
+    "question": "Koja komanda uređuje tekst?",
+    "answers": ["cat", "vi", "ls", "rm"],
+    "correctAnswer": "vi"
+  },
+  {
+    "id": 58,
+    "question": "Da li vi prikazuje sadržaj direktorijuma?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 59,
+    "question": "Da li cat prikazuje sadržaj direktorijuma?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 60,
+    "question": "Da li while petlja radi dok je uslov ispunjen?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 61,
+    "question": "Da li cp mora imati dva argumenta?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 62,
+    "question": "Da li preprocesor uklanja komentare?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 63,
+    "question": "Ko je pokrenuo razvoj Linuxa?",
+    "answers": ["Richard Stallman", "Linus Torvalds", "Dennis Ritchie", "Ken Thompson"],
+    "correctAnswer": "Linus Torvalds"
+  },
+  {
+    "id": 64,
+    "question": "Glavna karakteristika tar?",
+    "answers": ["Ne koristi - za opcije", "Koristi - za opcije", "Samo za kopiranje", "Samo za formatiranje"],
+    "correctAnswer": "Ne koristi - za opcije"
+  },
+  {
+    "id": 65,
+    "question": "Gde tar x raspakuje arhivu?",
+    "answers": ["U root direktorijum", "U kućni direktorijum", "U trenutni direktorijum", "U /tmp"],
+    "correctAnswer": "U trenutni direktorijum"
+  },
+  {
+    "id": 66,
+    "question": "Da li cp -h postoji?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 67,
+    "question": "Šta prikazuje ls -h?",
+    "answers": ["Skrivene fajlove", "Veličine u čitljivom formatu", "Samo direktorijume", "Samo fajlove"],
+    "correctAnswer": "Veličine u čitljivom formatu"
+  },
+  {
+    "id": 68,
+    "question": "Ko sponzoriše Fedoru?",
+    "answers": ["IBM", "Red Hat", "Microsoft", "Google"],
+    "correctAnswer": "Red Hat"
+  },
+  {
+    "id": 69,
+    "question": "Šta predstavlja root?",
+    "answers": ["Kućni direktorijum", "Koreni direktorijum", "Privremeni fajl", "Kernel"],
+    "correctAnswer": "Koreni direktorijum"
+  },
+  {
+    "id": 70,
+    "question": "Deo UNIX-a koji se menja zbog konfiguracija?",
+    "answers": ["Kernel", "Shell", "Biblioteke", "Korisnički programi"],
+    "correctAnswer": "Kernel"
+  },
+  {
+    "id": 71,
+    "question": "Čiji je klon Linux?",
+    "answers": ["Windows", "UNIX", "MacOS", "BSD"],
+    "correctAnswer": "UNIX"
+  },
+  {
+    "id": 72,
+    "question": "Prvi računarski sistemi bili su?",
+    "answers": ["Standardizovani", "Svaki računar imao poseban OS", "Jeftini", "Svi sa istim OS"],
+    "correctAnswer": "Svaki računar imao poseban OS"
+  },
+  {
+    "id": 73,
+    "question": "Podrazumevano grafičko okruženje Fedore?",
+    "answers": ["KDE", "GNOME", "XFCE", "LXDE"],
+    "correctAnswer": "GNOME"
+  },
+  {
+    "id": 74,
+    "question": "Komanda za kretanje kroz sistem?",
+    "answers": ["ls", "cd", "pwd", "mkdir"],
+    "correctAnswer": "cd"
+  },
+  {
+    "id": 75,
+    "question": "Šta radi cp -r?",
+    "answers": ["Kopira sa atributima", "Rekurzivno kopira direktorijume", "Premesta fajlove", "Briše fajlove"],
+    "correctAnswer": "Rekurzivno kopira direktorijume"
+  },
+  {
+    "id": 76,
+    "question": "Interaktivna opcija za potvrdu operacije?",
+    "answers": ["-r", "-i", "-f", "-h"],
+    "correctAnswer": "-i"
+  },
+  {
+    "id": 77,
+    "question": "Razlika less i vi?",
+    "answers": ["less dozvoljava izmene, vi ne", "vi dozvoljava izmene, less ne", "less prikazuje stranicu po stranicu, vi ceo sadržaj", "Ekvivalentni su"],
+    "correctAnswer": "vi dozvoljava izmene, less ne"
+  },
+  {
+    "id": 78,
+    "question": "Izlaz nakon cc program.c bez grešaka?",
+    "answers": ["Poruka o uspehu", "Ništa (nema ispisa)", "Greška kompajlera", "Izvršni fajl"],
+    "correctAnswer": "Ništa (nema ispisa)"
+  },
+  {
+    "id": 79,
+    "question": "Da li # u C označava komentar?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 80,
+    "question": "Komanda cd /trm?",
+    "answers": ["Kreira direktorijum trm", "Prebacuje u direktorijum trm", "Briše trm", "Menja permisije za trm"],
+    "correctAnswer": "Prebacuje u direktorijum trm"
+  },
+  {
+    "id": 81,
+    "question": "Značenje \"bafer\" u shmget(key, bafer, 0644 | IPC_CREAT)?",
+    "answers": ["Ključ segmenta", "Veličina memorijskog segmenta", "Prava pristupa", "Flag za kreiranje"],
+    "correctAnswer": "Veličina memorijskog segmenta"
+  },
+  {
+    "id": 82,
+    "question": "Opcija -L u gcc -L/usr/lib64 -o test program.c -lthread?",
+    "answers": ["Putanja do biblioteke", "Ime izlaznog fajla", "Linkovanje biblioteke", "Nivo optimizacije"],
+    "correctAnswer": "Putanja do biblioteke"
+  },
+  {
+    "id": 83,
+    "question": "Očekivane vrednosti u programu sa mutex-om?",
+    "answers": ["0 i 0", "0 i 1", "1 i 1", "-1 i 0"],
+    "correctAnswer": "0 i 1"
+  },
+  {
+    "id": 84,
+    "question": "Makefile sa dva pravila?",
+    "answers": ["Kompajlira oba pravila", "Kompajlira samo prvo pravilo", "Kompajlira samo drugo pravilo", "Ne kompajlira ništa"],
+    "correctAnswer": "Kompajlira samo prvo pravilo"
+  },
+  {
+    "id": 85,
+    "question": "Komanda echo \"Danasnji datum je: 'date'\"?",
+    "answers": ["Ispisuje tekst date", "Ispisuje trenutni datum", "Greška", "Ništa"],
+    "correctAnswer": "Ispisuje tekst date"
+  },
+  {
+    "id": 86,
+    "question": "Šta je /etc?",
+    "answers": ["Korisnički fajlovi", "Sistemske konfiguracije", "Pokretni programi", "Privremeni fajlovi"],
+    "correctAnswer": "Sistemske konfiguracije"
+  },
+  {
+    "id": 87,
+    "question": "Komanda ls -alR?",
+    "answers": ["Lista sve fajlove i direktorijume rekurzivno sa detaljima", "Lista samo vidljive fajlove", "Briše sve fajlove", "Kreira arhivu"],
+    "correctAnswer": "Lista sve fajlove i direktorijume rekurzivno sa detaljima"
+  },
+  {
+    "id": 88,
+    "question": "Efekat naredbi: cd /nesto; pwd; ls -a?",
+    "answers": ["Prelazak u /nesto, prikaz putanje i liste fajlova", "Kreiranje direktorijuma /nesto", "Brisanje /nesto", "Promena permisija"],
+    "correctAnswer": "Prelazak u /nesto, prikaz putanje i liste fajlova"
+  },
+  {
+    "id": 89,
+    "question": "Da li # u C označava direktivu pretprocesora?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 90,
+    "question": "Da li while petlja zahteva tačnu sintaksu uslova?",
+    "answers": ["Da", "Ne"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 91,
+    "question": "novo pitanje .... Šta predstavlja /etc/localtime u Linux sistemu?",
+    "answers": [
+      "Konfiguracioni fajl za sistemski sat",
+      "Simbolički link ka fajlu sa vremenskom zonom",
+      "Skriptu za sinhronizaciju vremena",
+      "Log fajl vremenskih promena"
+    ],
+    "correctAnswer": "Simbolički link ka fajlu sa vremenskom zonom"
+  },
+  {
+    "id": 92,
+    "question": "Šta omogućava komanda timedatectl?",
+    "answers": [
+      "Brisanje vremenskih logova",
+      "Upravljanje sistemskim vremenom i vremenskim zonom",
+      "Kalibriranje hardverskog sata",
+      "Automatsko ažuriranje vremena"
+    ],
+    "correctAnswer": "Upravljanje sistemskim vremenom i vremenskim zonom"
+  },
+  {
+    "id": 93,
+    "question": "Koju funkciju ima $PS1 promenljiva okruženja?",
+    "answers": [
+      "Definiše putanju do izvršnih fajlova",
+      "Konfiguriše izgled Bash prompta",
+      "Čuva istoriju komandi",
+      "Upravlja dozvolama za sudo"
+    ],
+    "correctAnswer": "Konfiguriše izgled Bash prompta"
+  },
+  {
+    "id": 94,
+    "question": "Šta će prikazati ls -d /etc/*?",
+    "answers": [
+      "Sadržaj svih poddirektorijuma u /etc",
+      "Samo imena direktorijuma i fajlova u /etc (bez rekurzije)",
+      "Skrivene fajlove u /etc",
+      "Detaljne informacije o /etc direktorijumu"
+    ],
+    "correctAnswer": "Samo imena direktorijuma i fajlova u /etc (bez rekurzije)"
+  },
+  {
+    "id": 95,
+    "question": "Kojom komandom se bezbedno uređuje /etc/sudoers fajl?",
+    "answers": [
+      "sudo nano /etc/sudoers",
+      "sudo visudo",
+      "sudo edit-sudoers",
+      "sudo config-sudo"
+    ],
+    "correctAnswer": "sudo visudo"
+  },
+  {
+    "id": 96,
+    "question": "Šta označava %wheel ALL=(ALL) ALL u /etc/sudoers?",
+    "answers": [
+      "Dozvoljava sudo samo za specifične komande",
+      "Daje puna sudo prava članovima wheel grupe",
+      "Ograničava sudo na lokalne sesije",
+      "Onemogućava sudo za root korisnika"
+    ],
+    "correctAnswer": "Daje puna sudo prava članovima wheel grupe"
+  },
+  {
+    "id": 97,
+    "question": "Kojom komandom dodajete korisnika \"admin1\" u sudo grupu?",
+    "answers": [
+      "sudo adduser admin1 sudo",
+      "sudo usermod -aG sudo admin1",
+      "sudo groupmod -a sudo admin1",
+      "sudo chown admin1:sudo /home/admin1"
+    ],
+    "correctAnswer": "sudo usermod -aG sudo admin1"
+  },
+  {
+    "id": 98,
+    "question": "Šta predstavlja drwxr-xr-x u izlazu ls -l?",
+    "answers": [
+      "Fajl sa svim dozvolama",
+      "Direktorijum sa read/write/execute za vlasnika",
+      "Direktorijum gde grupa ima samo read dozvolu",
+      "Simbolički link sa full dozvolama"
+    ],
+    "correctAnswer": "Direktorijum sa read/write/execute za vlasnika"
+  },
+  {
+    "id": 99,
+    "question": "Kojom komandom oduzimate execute dozvolu grupi za fajl \"skripta.sh\"?",
+    "answers": [
+      "chmod g-x skripta.sh",
+      "chmod 750 skripta.sh",
+      "chown :nogroup skripta.sh",
+      "chmod o+x skripta.sh"
+    ],
+    "correctAnswer": "chmod g-x skripta.sh"
+  },
+  {
+    "id": 100,
+    "question": "Šta radi chmod u=rw,go=r fajl.txt?",
+    "answers": [
+      "Daje read/write vlasnika, read grupi i ostalima",
+      "Briše sve dozvole za ostale",
+      "Oduzima write dozvolu grupi",
+      "Postavlja setuid bit"
+    ],
+    "correctAnswer": "Daje read/write vlasnika, read grupi i ostalima"
+  },
+  {
+    "id": 101,
+    "question": "Wildcard [![:digit:]]* odabira:",
+    "answers": [
+      "Fajlove koji počinju cifrom",
+      "Fajlove koji ne počinju cifrom",
+      "Fajlove sa barem jednom cifrom",
+      "Direktorijume bez cifara u nazivu"
+    ],
+    "correctAnswer": "Fajlove koji ne počinju cifrom"
+  },
+  {
+    "id": 102,
+    "question": "Koji wildcard odabire fajlove koji se završavaju sa \".txt\" ili \".log\"?",
+    "answers": [
+      "*.{txt,log}",
+      "*.txt|log",
+      "?.txt",
+      "[txt|log]"
+    ],
+    "correctAnswer": "*.{txt,log}"
+  },
+  {
+    "id": 103,
+    "question": "Šta izvršava ^old^new u komandnoj istoriji?",
+    "answers": [
+      "Brise sve komande sa \"old\"",
+      "Menja \"old\" u \"new\" u poslednjoj komandi",
+      "Kreira novu komandu \"new\"",
+      "Pronalazi komande sa \"new\""
+    ],
+    "correctAnswer": "Menja \"old\" u \"new\" u poslednjoj komandi"
+  },
+  {
+    "id": 104,
+    "question": "Šta prikazuje declare -p $PATH?",
+    "answers": [
+      "Vrednost $PATH promenljive",
+      "Tip podataka $PATH",
+      "Istoriju promena $PATH",
+      "Dozvole za $PATH"
+    ],
+    "correctAnswer": "Vrednost $PATH promenljive"
+  },
+  {
+    "id": 105,
+    "question": "Koju svrhu ima pushd i popd?",
+    "answers": [
+      "Upravljanje direktorijumskim stekom",
+      "Brisanje direktorijuma",
+      "Kompresiju fajlova",
+      "Upravljanje korisničkim sesijama"
+    ],
+    "correctAnswer": "Upravljanje direktorijumskim stekom"
+  },
+  {
+    "id": 106,
+    "question": "Šta čuva /var direktorijum?",
+    "answers": [
+      "Kernel fajlove",
+      "Promenljive i privremene fajlove",
+      "Korisničke dokumente",
+      "Backup sistema"
+    ],
+    "correctAnswer": "Promenljive i privremene fajlove"
+  },
+  {
+    "id": 107,
+    "question": "Kojom komandom proveravate da li korisnik \"pera\" pripada sudo grupi?",
+    "answers": [
+      "sudo -l -U pera",
+      "getent group sudo | grep pera",
+      "groups pera",
+      "id pera | grep sudo"
+    ],
+    "correctAnswer": "getent group sudo | grep pera"
+  },
+  {
+    "id": 108,
+    "question": "Šta omogućava useradd -m?",
+    "answers": [
+      "Kreira korisnika sa home direktorijumom",
+      "Postavlja lozinku automatski",
+      "Dodaje korisnika u sudo grupu",
+      "Onemogućava login"
+    ],
+    "correctAnswer": "Kreira korisnika sa home direktorijumom"
+  },
+  {
+    "id": 109,
+    "question": "Za šta se koristi !$ u Bash-u?",
+    "answers": [
+      "Prikaz poslednje izvršene komande",
+      "Zamena poslednjeg argumenta prethodne komande",
+      "Brisanje komandne istorije",
+      "Izlazak iz terminala"
+    ],
+    "correctAnswer": "Zamena poslednjeg argumenta prethodne komande"
+  },
+  {
+    "id": 110,
+    "question": "Šta znači d u drwxr-xr-x?",
+    "answers": [
+      "Da je fajl link",
+      "Da je direktorijum",
+      "Da ima setgid bit",
+      "Da je device fajl"
+    ],
+    "correctAnswer": "Da je direktorijum"
+  },
+  {
+    "id": 111,
+    "question": "Kako kreirati fajlove file01 do file10?",
+    "answers": [
+      "touch file{01..10}",
+      "mkdir file[1-10]",
+      "seq 1 10 | touch file$",
+      "for i in {1..10}; do touch file$i; done"
+    ],
+    "correctAnswer": "touch file{01..10}"
+  },
+  {
+    "id": 112,
+    "question": "Šta radi chown :developers projekat/?",
+    "answers": [
+      "Menja vlasnika direktorijuma",
+      "Menja grupu vlasnika direktorijuma",
+      "Daje dozvole grupi",
+      "Kreira novu grupu"
+    ],
+    "correctAnswer": "Menja grupu vlasnika direktorijuma"
+  },
+  {
+    "id": 113,
+    "question": "Koja komanda prikazuje vremensku zonu?",
+    "answers": [
+      "date --zone",
+      "timedatectl show",
+      "cat /etc/timezone",
+      "ls -l /etc/localtime"
+    ],
+    "correctAnswer": "ls -l /etc/localtime"
+  },
+  {
+    "id": 114,
+    "question": "Šta je svrha /opt direktorijuma?",
+    "answers": [
+      "Sistemske biblioteke",
+      "Dodatni softver van distribucije",
+      "Log fajlovi",
+      "Privremeni fajlovi"
+    ],
+    "correctAnswer": "Dodatni softver van distribucije"
+  },
+  {
+    "id": 115,
+    "question": "Kojom komandom menjate shell korisnika \"maja\"?",
+    "answers": [
+      "sudo chsh maja",
+      "sudo usermod -s /bin/zsh maja",
+      "sudo passwd --shell maja",
+      "sudo chsh -u maja"
+    ],
+    "correctAnswer": "sudo chsh maja"
+  },
+  {
+    "id": 116,
+    "question": "Šta odgovara chmod 2750 skripta.sh?",
+    "answers": [
+      "rwxr-s---",
+      "rwxr-xr--",
+      "rwxr-x---",
+      "rwsr-x---"
+    ],
+    "correctAnswer": "rwxr-s---"
+  },
+  {
+    "id": 117,
+    "question": "Wildcard [[:upper:]]* odabira:",
+    "answers": [
+      "Fajlove sa brojevima",
+      "Fajlove koji počinju velikim slovom",
+      "Direktorijume sa specijalnim karakterima",
+      "Fajlove sa ekstenzijom"
+    ],
+    "correctAnswer": "Fajlove koji počinju velikim slovom"
+  },
+  {
+    "id": 118,
+    "question": "Šta prikazuje file /etc/localtime?",
+    "answers": [
+      "Vremensku zonu",
+      "Tip fajla (simbolički link)",
+      "Veličinu fajla",
+      "Dozvole fajla"
+    ],
+    "correctAnswer": "Tip fajla (simbolički link)"
+  },
+  {
+    "id": 119,
+    "question": "Kako sa ls prikazati samo direktorijume?",
+    "answers": [
+      "ls -l | grep '^d'",
+      "ls -d */",
+      "ls -type d",
+      "ls --dir-only"
+    ],
+    "correctAnswer": "ls -d */"
+  },
+  {
+    "id": 120,
+    "question": "Šta čuva /etc/shadow?",
+    "answers": [
+      "Korisničke grupe",
+      "Enkriptovane lozinke",
+      "Sistemske konfiguracije",
+      "Historiju komandi"
+    ],
+    "correctAnswer": "Enkriptovane lozinke"
+  },
+  {
+    "id": 121,
+    "question": "Koju komandu izvršava !?servis??",
+    "answers": [
+      "Poslednju komandu koja sadrži \"servis\"",
+      "Komandu sa brojem 1 u istoriji",
+      "Restartuje servis",
+      "Pronalazi fajlove sa \"servis\""
+    ],
+    "correctAnswer": "Poslednju komandu koja sadrži \"servis\""
+  },
+  {
+    "id": 122,
+    "question": "Šta omogućava curl --mail-rcpt?",
+    "answers": [
+      "Slanje mejla",
+      "Preuzimanje fajla",
+      "Proveru SSL certifikata",
+      "Autentikaciju na server"
+    ],
+    "correctAnswer": "Slanje mejla"
+  },
+  {
+    "id": 123,
+    "question": "Kojom komandom proveravate da li je fajl simbolički link?",
+    "answers": [
+      "ls -l",
+      "file naziv_fajla",
+      "stat naziv_fajla",
+      "Svi odgovori su tačni"
+    ],
+    "correctAnswer": "Svi odgovori su tačni"
+  },
+  {
+    "id": 124,
+    "question": "Šta je svrha $HOME promenljive?",
+    "answers": [
+      "Čuva putanju do home direktorijuma",
+      "Definiše sistemski jezik",
+      "Upravlja PATH promenljivom",
+      "Čuva verziju kernela"
+    ],
+    "correctAnswer": "Čuva putanju do home direktorijuma"
+  },
+  {
+    "id": 125,
+    "question": "Kako postaviti dozvole rw-r----- numerički?",
+    "answers": [
+      "chmod 640",
+      "chmod 750",
+      "chmod 660",
+      "chmod 440"
+    ],
+    "correctAnswer": "chmod 640"
+  },
+  {
+    "id": 126,
+    "question": "Šta izvršava sudo !!?",
+    "answers": [
+      "Poslednju komandu sa sudo pravima",
+      "Restartuje terminal",
+      "Prikazuje sudo istoriju",
+      "Brise root fajlove"
+    ],
+    "correctAnswer": "Poslednju komandu sa sudo pravima"
+  },
+  {
+    "id": 127,
+    "question": "Kojom opcijom ls prikazuje veličine u KB/MB?",
+    "answers": [
+      "-h",
+      "-s",
+      "-k",
+      "-size"
+    ],
+    "correctAnswer": "-h"
+  },
+  {
+    "id": 128,
+    "question": "Šta odgovara chmod o=rx fajl?",
+    "answers": [
+      "r-x za ostale",
+      "rwx za ostale",
+      "--- za ostale",
+      "r-- za ostale"
+    ],
+    "correctAnswer": "r-x za ostale"
+  },
+  {
+    "id": 129,
+    "question": "Wildcard fajl[0-9][0-9][0-9] odabira:",
+    "answers": [
+      "fajl001, fajl999",
+      "fajl0, fajl9",
+      "fajl12345",
+      "fajlXYZ"
+    ],
+    "correctAnswer": "fajl001, fajl999"
+  },
+  {
+    "id": 130,
+    "question": "Šta čuva /etc/group?",
+    "answers": [
+      "Definicije korisničkih grupa",
+      "Enkriptovane lozinke",
+      "Sistemske servise",
+      "Konfiguraciju mreže"
+    ],
+    "correctAnswer": "Definicije korisničkih grupa"
+  },
+  {
+    "id": 131,
+    "question": "Kako kreirati direktorijum \"projekat\" sa poddirektorijumima \"src\" i \"docs\"?",
+    "answers": [
+      "mkdir -p projekat/{src,docs}",
+      "mkdir projekat; cd projekat; mkdir src docs",
+      "touch projekat/src projekat/docs",
+      "mkdirtree projekat/src projekat/docs"
+    ],
+    "correctAnswer": "mkdir -p projekat/{src,docs}"
+  },
+  {
+    "id": 132,
+    "question": "Šta je efekat chmod u+s program?",
+    "answers": [
+      "Postavlja setuid bit",
+      "Briše sve dozvole",
+      "Onemogućava izvršavanje",
+      "Menja vlasnika"
+    ],
+    "correctAnswer": "Postavlja setuid bit"
+  },
+  {
+    "id": 133,
+    "question": "Kojom komandom menjate primarnu grupu korisnika?",
+    "answers": [
+      "usermod -g grupa korisnik",
+      "chgrp korisnik grupa",
+      "groupmod -u korisnik grupa",
+      "useradd -G grupa korisnik"
+    ],
+    "correctAnswer": "usermod -g grupa korisnik"
+  },
+  {
+    "id": 134,
+    "question": "Šta prikazuje ls -l /dev/sda?",
+    "answers": [
+      "Particiju diska",
+      "Veličinu RAM-a",
+      "Detalje o CPU-u",
+      "Mrežne interfejse"
+    ],
+    "correctAnswer": "Particiju diska"
+  },
+  {
+    "id": 135,
+    "question": "Koju sintaksu koristi timedatectl list-timezones?",
+    "answers": [
+      "Prikaz svih vremenskih zona",
+      "Listanje sistemskog vremena",
+      "Ažuriranje vremena",
+      "Postavljanje vremenske zone"
+    ],
+    "correctAnswer": "Prikaz svih vremenskih zona"
+  },
+  {
+    "id": 136,
+    "question": "Šta radi !-2 u komandnoj istoriji?",
+    "answers": [
+      "Ponavlja komandu od pre 2 koraka",
+      "Briše poslednje 2 komande",
+      "Prikazuje istoriju za 2 dana",
+      "Izvršava komandu broj 2"
+    ],
+    "correctAnswer": "Ponavlja komandu od pre 2 koraka"
+  },
+  {
+    "id": 137,
+    "question": "Wildcard *[[:lower:]123] odabira:",
+    "answers": [
+      "Fajlove koji se završavaju malim slovom ili 1/2/3",
+      "Fajlove sa brojevima 1-3",
+      "Direktorijume sa malim slovima",
+      "Fajlove koji počinju brojem"
+    ],
+    "correctAnswer": "Fajlove koji se završavaju malim slovom ili 1/2/3"
+  },
+  {
+    "id": 138,
+    "question": "Kojom komandom proveravate trenutni shell?",
+    "answers": [
+      "echo $SHELL",
+      "ps -p $$",
+      "which bash",
+      "env | grep SHELL"
+    ],
+    "correctAnswer": "echo $SHELL"
+  },
+  {
+    "id": 139,
+    "question": "Šta je svrha $PWD promenljive?",
+    "answers": [
+      "Čuva trenutni radni direktorijum",
+      "Definiše PATH",
+      "Upravlja promptom",
+      "Čuva korisničko ime"
+    ],
+    "correctAnswer": "Čuva trenutni radni direktorijum"
+  },
+  {
+    "id": 140,
+    "question": "Kako postaviti rwxr-xr-- dozvole simbolički?",
+    "answers": [
+      "chmod u=rwx,g=rx,o=r fajl",
+      "chmod 754 fajl",
+      "chmod a+rwx fajl",
+      "chmod g-w,o+x fajl"
+    ],
+    "correctAnswer": "chmod u=rwx,g=rx,o=r fajl"
+  }
+] 

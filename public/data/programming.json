@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Koja od navedenih nije kontrolna struktura u programiranju?",
+    "answers": ["if-else", "switch", "for-loop", "array"],
+    "correctAnswer": "array"
+  },
+  {
+    "id": 2,
+    "question": "Šta je rekurzija?",
+    "answers": ["Funkcija koja poziva samu sebe", "Petlja koja se izvršava beskonačno", "Prenos podataka preko mreže", "Sistem za čuvanje podataka"],
+    "correctAnswer": "Funkcija koja poziva samu sebe"
+  },
+  {
+    "id": 3,
+    "question": "Koja je sintaksa za anonimnu funkciju u JavaScriptu?",
+    "answers": [],
+    "correctAnswer": "() => {}"
+  },
+  {
+    "id": 4,
+    "question": "Koji od navedenih nije programski jezik?",
+    "answers": ["Python", "HTML", "Java", "C++"],
+    "correctAnswer": "HTML"
+  },
+  {
+    "id": 5,
+    "question": "Šta je OOP?",
+    "answers": ["Objektno-orijentisano programiranje", "Optimizacija operativnih procesa", "Online operativni program", "Organizacija otvorenih projekata"],
+    "correctAnswer": "Objektno-orijentisano programiranje"
+  }
+] 
