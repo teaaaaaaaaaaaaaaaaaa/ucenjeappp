@@ -57,22 +57,36 @@ const Home: React.FC = () => {
   
   // Get emoji for subject
   const getEmoji = (subject: string) => {
-    const emojis: Record<string, string> = {
-      linux: '🐧',
-      'linux-deep': '🐧',
-      programming: '💻',
-      default: '📚'
-    };
-    
-    return emojis[subject] || emojis.default;
+    switch (subject) {
+      case 'linux':
+      case 'linux-deep':
+        return '🐧';
+      case 'programming':
+        return '💻';
+      case 'marketing':
+      case 'marketing-deep':
+        return '📈';
+      default:
+        return '🧠';
+    }
   };
   
   // Get display name for subject
   const getSubjectDisplayName = (subject: string) => {
-    if (subject === 'linux-deep') {
-      return 'Linux Deep';
+    switch (subject) {
+      case 'linux':
+        return 'Linux';
+      case 'linux-deep':
+        return 'Linux Deep';
+      case 'programming':
+        return 'Programranje nema pitanja jos uvek';
+      case 'marketing':
+        return 'Marketing';
+      case 'marketing-deep':
+        return 'Marketing Deep';
+      default:
+        return subject;
     }
-    return subject.charAt(0).toUpperCase() + subject.slice(1);
   };
   
   if (loading) {

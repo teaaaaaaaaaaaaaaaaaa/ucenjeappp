@@ -47,7 +47,9 @@ const InputView: React.FC<InputViewProps> = ({ question, onAnswer, onSkip }) => 
           </div>
           <div className="p-4 rounded-lg bg-[#EBF5FF] dark:bg-[#2563EB]/10 border border-[#2563EB]/20">
             <p className="text-sm text-[#6B7280] dark:text-gray-400 mb-1">Tačan odgovor:</p>
-            <p className="font-medium text-[#111827] dark:text-white">{question.correctAnswer}</p>
+            <p className="font-medium text-[#111827] dark:text-white">
+              {Array.isArray(question.correctAnswer) ? question.correctAnswer.join(', ') : question.correctAnswer}
+            </p>
           </div>
         </div>
 

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "question": "Koja komponenta 7C okvira se odnosi na vizuelni dizajn i korisničko iskustvo veb sajta?",
+    "answers": ["Context", "Content", "Community", "Customization"],
+    "correctAnswer": "Context"
+  },
+  {
+    "id": 2,
+    "question": "Šta predstavlja \"Content\" u 7C modelu?",
+    "answers": [
+      "Tehnička optimizacija sajta",
+      "Informacije, tekstovi i mediji koji angažuju korisnike",
+      "Proces online kupovine",
+      "Integracija sa društvenim mrežama"
+    ],
+    "correctAnswer": "Informacije, tekstovi i mediji koji angažuju korisnike"
+  },
+  {
+    "id": 3,
+    "question": "Koja komponenta omogućava personalizovane poruke korisnicima?",
+    "answers": ["Connection", "Commerce", "Customization", "Communication"],
+    "correctAnswer": "Customization"
+  },
+  {
+    "id": 4,
+    "question": "Šta karakteriše ATL (Above the Line) promociju?",
+    "answers": [
+      "Ciljano delovanje na individualne potrošače",
+      "Oglašavanje u masovnim medijima (TV, radio)",
+      "Direktna prodaja putem call centra",
+      "Promotivni događaji u prodavnicama"
+    ],
+    "correctAnswer": "Oglašavanje u masovnim medijima (TV, radio)"
+  },
+  {
+    "id": 5,
+    "question": "Koja aktivnost je primer BTL (Below the Line) komunikacije?",
+    "answers": [
+      "TV reklame tokom večernjeg programa",
+      "Besplatni uzorci u supermarketu",
+      "Sponzorstvo fudbalskog tima",
+      "Oglas u dnevnom listu"
+    ],
+    "correctAnswer": "Besplatni uzorci u supermarketu"
+  },
+  {
+    "id": 6,
+    "question": "Zašto se TTL (Through the Line) smatra najefikasnijim?",
+    "answers": [
+      "Kombinuje ATL i BTL instrumente",
+      "Koristi isključivo digitalne kanale",
+      "Fokusira se na jeftine medije",
+      "Ignoriše tradicionalne metode"
+    ],
+    "correctAnswer": "Kombinuje ATL i BTL instrumente"
+  },
+  {
+    "id": 7,
+    "question": "Koja aktivnost je usmerena ka distributerima?",
+    "answers": [
+      "Poklon uz proizvod za potrošače",
+      "Takmičenje među prodajnim timovima sa nagradama",
+      "Kuponi za sniženu cenu",
+      "Besplatni uzorci u časopisima"
+    ],
+    "correctAnswer": "Takmičenje među prodajnim timovima sa nagradama"
+  },
+  {
+    "id": 8,
+    "question": "Koja aktivnost je usmerena ka potrošačima?",
+    "answers": [
+      "Organizacija obuke za prodavce",
+      "Poklon-reklamni materijali u prodavnicama",
+      "Specijalni popusti za veletrgovce",
+      "Ugovori o ekskluzivnoj distribuciji"
+    ],
+    "correctAnswer": "Poklon-reklamni materijali u prodavnicama"
+  },
+  {
+    "id": 9,
+    "question": "Šta je ključna karakteristika unapređenja prodaje ka potrošačima?",
+    "answers": [
+      "Dugoročni ugovori",
+      "Kratkoročni podsticaji za brzu kupovinu",
+      "Fokus na B2B segment",
+      "Korišćenje masovnih medija"
+    ],
+    "correctAnswer": "Kratkoročni podsticaji za brzu kupovinu"
+  },
+  {
+    "id": 10,
+    "question": "Kako se prepoznaje komunikacija direktnog marketinga?",
+    "answers": [
+      "Korišćenje baze podataka za personalizovane poruke",
+      "Oglašavanje u nacionalnim novinama",
+      "Masovne SMS poruke bez segmentacije",
+      "Sponzorstvo kulturnih događaja"
+    ],
+    "correctAnswer": "Korišćenje baze podataka za personalizovane poruke"
+  },
+  {
+    "id": 11,
+    "question": "Koji kanal NIJE deo direktnog marketinga?",
+    "answers": [
+      "Telemarketing",
+      "E-mail kampanje",
+      "TV reklame tokom prime-timea",
+      "Katalozi za kućnu dostavu"
+    ],
+    "correctAnswer": "TV reklame tokom prime-timea"
+  },
+  {
+    "id": 12,
+    "question": "Koja je prednost direktnog marketinga?",
+    "answers": [
+      "Niska cena po kontaktu",
+      "Mogućnost testiranja različitih poruka",
+      "Brzo postizanje velike publike",
+      "Ne zahteva segmentaciju"
+    ],
+    "correctAnswer": "Mogućnost testiranja različitih poruka"
+  },
+  {
+    "id": 13,
+    "question": "Koja strategija se koristi za brendove luksuznih satova?",
+    "answers": [
+      "Intenzivna distribucija",
+      "Selektivna distribucija",
+      "Ekskluzivna distribucija",
+      "Horizontalni marketing"
+    ],
+    "correctAnswer": "Ekskluzivna distribucija"
+  },
+  {
+    "id": 14,
+    "question": "Šta karakteriše intenzivnu distribuciju?",
+    "answers": [
+      "Ograničen broj prodajnih mesta",
+      "Plasman na što više lokacija (npr. Coca-Cola)",
+      "Saradnja isključivo sa jednim distributerom",
+      "Fokus na online kanale"
+    ],
+    "correctAnswer": "Plasman na što više lokacija (npr. Coca-Cola)"
+  },
+  {
+    "id": 15,
+    "question": "Koji je cilj selektivne distribucije?",
+    "answers": [
+      "Maksimiziranje prodajnih mesta",
+      "Minimiziranje troškova uz odabir ograničenog broja distributera",
+      "Ekskluzivni ugovori sa jednim partnerom",
+      "Ignorisanje maloprodaje"
+    ],
+    "correctAnswer": "Minimiziranje troškova uz odabir ograničenog broja distributera"
+  },
+  {
+    "id": 16,
+    "question": "Šta opisuje termin \"earned media\"?",
+    "answers": [
+      "Plaćeni oglasi na društvenim mrežama",
+      "Organski sadržaj koji korisnici dele (recenzije, preporuke)",
+      "Veb sajt kompanije",
+      "E-mail marketing"
+    ],
+    "correctAnswer": "Organski sadržaj koji korisnici dele (recenzije, preporuke)"
+  },
+  {
+    "id": 17,
+    "question": "Koja tehnika spada u SEO strategiju?",
+    "answers": [
+      "Kupovina prostora na Google Display Network",
+      "Optimizacija ključnih reči na veb sajtu",
+      "Pokretanje influencerske kampanje",
+      "Direktna pošta kupcima"
+    ],
+    "correctAnswer": "Optimizacija ključnih reči na veb sajtu"
+  },
+  {
+    "id": 18,
+    "question": "Šta je DSP (Demand Side Platform)?",
+    "answers": [
+      "Softver za analizu društvenih mreža",
+      "Alat za programsku kupovinu oglasa",
+      "Sistem za upravljanje sadržajem",
+      "Platforma za e-mail marketing"
+    ],
+    "correctAnswer": "Alat za programsku kupovinu oglasa"
+  },
+  {
+    "id": 19,
+    "question": "Koja metoda se koristi u promotivnim porukama za stvaranje emocionalne privlačnosti?",
+    "answers": ["Ponavljanje", "Korišćenje humora", "Informisanje", "Argumentovanje"],
+    "correctAnswer": "Korišćenje humora"
+  },
+  {
+    "id": 20,
+    "question": "Šta meri model VIEW za pakovanje proizvoda?",
+    "answers": [
+      "Cenu proizvodnje",
+      "Vidljivost, informativnost, emocionalnu privlačnost, funkcionalnost",
+      "Broj distributera",
+      "Stopu povrata investicije"
+    ],
+    "correctAnswer": "Vidljivost, informativnost, emocionalnu privlačnost, funkcionalnost"
+  },
+  {
+    "id": 21,
+    "question": "Šta znači skraćenica CPM?",
+    "answers": [
+      "Cost Per Mille (cena po hiljadu prikaza)",
+      "Customer Purchase Model",
+      "Content Performance Metric",
+      "Consumer Promotion Method"
+    ],
+    "correctAnswer": "Cost Per Mille (cena po hiljadu prikaza)"
+  },
+  {
+    "id": 22,
+    "question": "Koja platforma se koristi za programsku kupovinu oglasa?",
+    "answers": [
+      "SEO alatke",
+      "Demand Side Platform (DSP)",
+      "Email marketing softver",
+      "CMS sistemi"
+    ],
+    "correctAnswer": "Demand Side Platform (DSP)"
+  },
+  {
+    "id": 23,
+    "question": "Šta je RTB (Real-Time Bidding)?",
+    "answers": [
+      "Direktna kupovina oglasa",
+      "Aukcija oglasa u realnom vremenu",
+      "Ručno pregovaranje o cenama",
+      "Fiksna cena za oglase"
+    ],
+    "correctAnswer": "Aukcija oglasa u realnom vremenu"
+  },
+  {
+    "id": 24,
+    "question": "Kako se naziva sistem gde proizvođač kontroliše sve nivoe distribucije?",
+    "answers": [
+      "Horizontalni marketing",
+      "Konvencionalni kanal",
+      "Korporativni vertikalni marketing",
+      "Franšizing"
+    ],
+    "correctAnswer": "Korporativni vertikalni marketing"
+  },
+  {
+    "id": 25,
+    "question": "Šta je prednost vertikalnog marketing sistema?",
+    "answers": [
+      "Smanjenje troškova izbegavanjem dupliranja funkcija",
+      "Veća autonomija distributera",
+      "Manja kontrola nad kanalom",
+      "Fokus na kratkoročne akcije"
+    ],
+    "correctAnswer": "Smanjenje troškova izbegavanjem dupliranja funkcija"
+  },
+  {
+    "id": 26,
+    "question": "Koji tip vertikalnog sistema koristi ugovorne odnose?",
+    "answers": ["Korporativni", "Administrativni", "Ugovorni", "Integrisani"],
+    "correctAnswer": "Ugovorni"
+  },
+  {
+    "id": 27,
+    "question": "Zašto se e-mail marketing naziva \"marketing uz dopuštenje\"?",
+    "answers": [
+      "Korisnici eksplicitno pristaju na primanje poruka",
+      "Koristi besplatne e-mail servise",
+      "Ne zahteva segmentaciju baze",
+      "Automatski šalje promocije"
+    ],
+    "correctAnswer": "Korisnici eksplicitno pristaju na primanje poruka"
+  },
+  {
+    "id": 28,
+    "question": "Koja faza NIJE deo e-mail kampanje?",
+    "answers": [
+      "Prikupljanje mejl adresa bez pristanka",
+      "Segmentacija baze podataka",
+      "Personalizacija poruka",
+      "Analiza otvorenosti i klikova"
+    ],
+    "correctAnswer": "Prikupljanje mejl adresa bez pristanka"
+  },
+  {
+    "id": 29,
+    "question": "Koja metrika se koristi za merenje uspeha e-mail kampanje?",
+    "answers": [
+      "Stopa otvorenosti",
+      "Broj pratilaca na društvenim mrežama",
+      "Ukupna prodaja u fizičkim prodavnicama",
+      "Broj TV reklama"
+    ],
+    "correctAnswer": "Stopa otvorenosti"
+  },
+  {
+    "id": 30,
+    "question": "Koja je faza procedure lične prodaje?",
+    "answers": [
+      "Stvaranje efektivnog kontakta",
+      "Masovno oglašavanje",
+      "Plaćanje medijskog prostora",
+      "Analiza društvenih mreža"
+    ],
+    "correctAnswer": "Stvaranje efektivnog kontakta"
+  },
+  {
+    "id": 31,
+    "question": "Koja osobina je ključna za prodavca?",
+    "answers": ["Empatija", "Tehničko znanje", "Pasivnost", "Neinteraktivnost"],
+    "correctAnswer": "Empatija"
+  },
+  {
+    "id": 32,
+    "question": "Koji aspekt lične prodaje se odnosi na moralna pravila?",
+    "answers": ["Etički aspekt", "Finansijski aspekt", "Pravni aspekt", "Marketinški aspekt"],
+    "correctAnswer": "Etički aspekt"
+  },
+  {
+    "id": 33,
+    "question": "Šta karakteriše tržišni publicitet?",
+    "answers": [
+      "Plaćanje za medijski prostor",
+      "Besplatno objavljivanje informacija u medijima",
+      "Direktna prodaja putem call centra",
+      "Korišćenje isključivo online kanala"
+    ],
+    "correctAnswer": "Besplatno objavljivanje informacija u medijima"
+  },
+  {
+    "id": 34,
+    "question": "Koja je prednost tržišnog publiciteta?",
+    "answers": [
+      "Potpuna kontrola nad sadržajem",
+      "Visoka verodostojnost poruka",
+      "Niska cena po kontaktu",
+      "Brzo postizanje ciljne grupe"
+    ],
+    "correctAnswer": "Visoka verodostojnost poruka"
+  },
+  {
+    "id": 35,
+    "question": "Koja aktivnost NIJE deo tržišnog publiciteta?",
+    "answers": [
+      "Objavljivanje press release-a",
+      "Sponzorstvo događaja",
+      "Plaćeni oglasi u novinama",
+      "Organizacija konferencija"
+    ],
+    "correctAnswer": "Plaćeni oglasi u novinama"
+  },
+  {
+    "id": 36,
+    "question": "Šta je franšizing?",
+    "answers": [
+      "Proizvođač kontroliše sve nivoe distribucije",
+      "Prodaja prava na korišćenje brenda i poslovnog modela",
+      "Direktna prodaja putem call centra",
+      "Oglašavanje u masovnim medijima"
+    ],
+    "correctAnswer": "Prodaja prava na korišćenje brenda i poslovnog modela"
+  },
+  {
+    "id": 37,
+    "question": "Koji brend je primer franšizinga?",
+    "answers": ["Zara", "McDonald's", "Apple Store", "Tesla"],
+    "correctAnswer": "McDonald's"
+  },
+  {
+    "id": 38,
+    "question": "Koja je prednost franšizinga za franšizera?",
+    "answers": [
+      "Brza ekspanzija sa manjim rizikom",
+      "Potpuna kontrola nad svim prodajnim mestima",
+      "Niska početna investicija",
+      "Neograničena autonomija franšiznog partnera"
+    ],
+    "correctAnswer": "Brza ekspanzija sa manjim rizikom"
+  },
+  {
+    "id": 39,
+    "question": "Koja je faza razvoja marketinga na društvenim mrežama?",
+    "answers": [
+      "Faza probe",
+      "Faza stagnacije",
+      "Faza povlačenja",
+      "Faza nasilnog širenja"
+    ],
+    "correctAnswer": "Faza probe"
+  },
+  {
+    "id": 40,
+    "question": "Koja platforma se koristi za horizontalnu komunikaciju?",
+    "answers": ["TV reklame", "Facebook i Instagram", "Direktna pošta", "Telemarketing"],
+    "correctAnswer": "Facebook i Instagram"
+  },
+  {
+    "id": 41,
+    "question": "Šta je ključno za uspeh na društvenim mrežama?",
+    "answers": [
+      "Kontinuirano objavljivanje sadržaja",
+      "Ignorisanje korisničkih komentara",
+      "Korišćenje isključivo plaćenih oglasa",
+      "Fokus na samo jednu platformu"
+    ],
+    "correctAnswer": "Kontinuirano objavljivanje sadržaja"
+  },
+  {
+    "id": 42,
+    "question": "Šta predstavlja marketing u metaverzumu?",
+    "answers": [
+      "Oglašavanje u štampi",
+      "Virtuelni brendovi i iskustva u 3D prostoru",
+      "Direktna prodaja putem call centra",
+      "Korišćenje isključivo radio reklama"
+    ],
+    "correctAnswer": "Virtuelni brendovi i iskustva u 3D prostoru"
+  },
+  {
+    "id": 43,
+    "question": "Koja je prednost metaverzuma za brendove?",
+    "answers": [
+      "Ograničena interaktivnost",
+      "Visoki troškovi ulaska",
+      "Kreiranje imersivnih iskustava",
+      "Niska penetracija kod korisnika"
+    ],
+    "correctAnswer": "Kreiranje imersivnih iskustava"
+  },
+  {
+    "id": 44,
+    "question": "Koji brend je aktivan u metaverzumu?",
+    "answers": ["Coca-Cola", "Nike", "Tesla", "Sve navedeno"],
+    "correctAnswer": "Sve navedeno"
+  },
+  {
+    "id": 45,
+    "question": "Šta karakteriše MLM?",
+    "answers": [
+      "Prodaja preko nezavisnih distributera koji regrutuju druge",
+      "Direktna prodaja od strane proizvođača",
+      "Oglašavanje u masovnim medijima",
+      "Isključivo online prodaja"
+    ],
+    "correctAnswer": "Prodaja preko nezavisnih distributera koji regrutuju druge"
+  },
+  {
+    "id": 46,
+    "question": "Koja je prednost MLM-a?",
+    "answers": [
+      "Niska početna investicija",
+      "Potpuna kontrola nad distribucijom",
+      "Neograničena fleksibilnost",
+      "Sve navedeno"
+    ],
+    "correctAnswer": "Sve navedeno"
+  },
+  {
+    "id": 47,
+    "question": "Koji brend koristi MLM model?",
+    "answers": ["Amway", "Apple", "Tesla", "Zara"],
+    "correctAnswer": "Amway"
+  },
+  {
+    "id": 48,
+    "question": "Šta je suština marketinga baziranog na sadržaju?",
+    "answers": [
+      "Plaćeni oglasi",
+      "Vrednosni sadržaj koji angažuje korisnike",
+      "Direktna prodaja",
+      "Masovne promocije"
+    ],
+    "correctAnswer": "Vrednosni sadržaj koji angažuje korisnike"
+  },
+  {
+    "id": 49,
+    "question": "Koji format sadržaja je najefikasniji?",
+    "answers": [
+      "Blogovi i video tutorijali",
+      "Štampani katalozi",
+      "Telefonski pozivi",
+      "Radio reklame"
+    ],
+    "correctAnswer": "Blogovi i video tutorijali"
+  },
+  {
+    "id": 50,
+    "question": "Koja je prednost marketinga baziranog na sadržaju?",
+    "answers": [
+      "Kratkoročni efekti",
+      "Izgradnja dugoročnih odnosa sa potrošačima",
+      "Niska angažovanost korisnika",
+      "Visoki troškovi proizvodnje"
+    ],
+    "correctAnswer": "Izgradnja dugoročnih odnosa sa potrošačima"
+  }
+] 

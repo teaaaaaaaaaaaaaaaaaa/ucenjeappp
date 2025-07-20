@@ -12,7 +12,7 @@ interface QuizContextType {
   error: string | null;
   initializeSession: (settings: QuizSettings) => Promise<void>;
   initializeRetrySession: (sessionId: string) => Promise<void>;
-  answerQuestion: (status: QuestionStatus, userAnswer?: string) => void;
+  answerQuestion: (status: QuestionStatus, userAnswer?: string | string[]) => void;
   skipQuestion: () => void;
   jumpToQuestion: (index: number) => void;
   resetSession: () => void;
@@ -226,7 +226,7 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
   
   // Answer the current question
-  const answerQuestion = (status: QuestionStatus, userAnswer?: string) => {
+  const answerQuestion = (status: QuestionStatus, userAnswer?: string | string[]) => {
     if (!activeSession) return;
     
     // Get the current question

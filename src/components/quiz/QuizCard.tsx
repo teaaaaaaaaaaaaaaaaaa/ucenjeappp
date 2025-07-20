@@ -8,7 +8,7 @@ interface QuizCardProps {
   question: Question;
   questionNumber: number;
   totalQuestions: number;
-  onAnswer: (status: QuestionStatus, userAnswer?: string) => void;
+  onAnswer: (status: QuestionStatus, userAnswer?: string | string[]) => void;
   onSkip: () => void;
   onJumpToQuestion: (index: number) => void;
   allQuestions: Question[];
@@ -78,7 +78,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
           </div>
           
           {isViewMultipleChoice ? (
-            <McqView question={question} onAnswer={onAnswer} onSkip={onSkip} />
+            <McqView question={question} onAnswer={onAnswer as (status: QuestionStatus, userAnswer: string[]) => void} onSkip={onSkip} />
           ) : (
             <InputView question={question} onAnswer={onAnswer} onSkip={onSkip} />
           )}

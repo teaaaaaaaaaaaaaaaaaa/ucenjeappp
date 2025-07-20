@@ -1,12 +1,19 @@
 import type { Question } from "../types/quiz";
 
+const SUBJECT_FILES: Record<string, string> = {
+  'linux': '/data/linux.json',
+  'linux-deep': '/data/linux-deep.json',
+  'programming': '/data/programming.json',
+  'marketing': '/data/marketing.json',
+  'marketing-deep': '/data/marketing-deep.json',
+};
+
 /**
  * Fetches available quiz subjects from the data directory
  */
 export const getAvailableSubjects = async (): Promise<string[]> => {
   try {
-    const subjects = ['linux', 'programming', 'linux-deep'];
-    return subjects;
+    return Object.keys(SUBJECT_FILES);
   } catch (error) {
     console.error('Error fetching available subjects:', error);
     throw new Error('Failed to fetch available subjects');
@@ -18,16 +25,20 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
  */
 export const loadQuestions = async (subject: string): Promise<Question[]> => {
   try {
-    const response = await fetch(`/data/${subject}.json`);
+    const filePath = SUBJECT_FILES[subject];
+    if (!filePath) {
+      throw new Error(`Subject '${subject}' not found.`);
+    }
+    const response = await fetch(filePath);
     if (!response.ok) {
-      throw new Error(`Failed to fetch ${subject} questions`);
+      throw new Error(`Failed to fetch ${subject} questions from ${filePath}`);
     }
     
     const data = await response.json();
     
     // Transform data to match our Question type
     const questions: Question[] = data.map((q: any, index: number) => ({
-      id: index + 1,
+      id: q.id || index + 1,
       question: q.question,
       answers: q.answers || [],
       correctAnswer: q.correctAnswer

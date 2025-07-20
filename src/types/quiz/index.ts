@@ -2,9 +2,9 @@ export interface Question {
   id: number;
   question: string;
   answers: string[]; // Empty array if it's an input question
-  correctAnswer: string;
+  correctAnswer: string | string[];
   status?: QuestionStatus;
-  userAnswer?: string;
+  userAnswer?: string | string[];
   timestamp?: number;
 }
 

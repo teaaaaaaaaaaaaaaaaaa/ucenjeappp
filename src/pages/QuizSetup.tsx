@@ -72,15 +72,18 @@ const QuizSetup: React.FC = () => {
   
   // Get emoji for subject
   const getEmoji = (subjectName: string | undefined) => {
-    const emojis: Record<string, string> = {
-      linux: '🐧',
-      'linux-deep': '🐧',
-      programming: '💻',
-      default: '📚'
-    };
-    
-    if (!subjectName) return emojis.default;
-    return emojis[subjectName] || emojis.default;
+    if (!subjectName) return '🧠';
+    switch (subjectName) {
+      case 'linux':
+      case 'linux-deep':
+        return '🐧';
+      case 'programming':
+        return '💻';
+      case 'marketing':
+        return '📈';
+      default:
+        return '🧠';
+    }
   };
   
   // Handle start quiz
