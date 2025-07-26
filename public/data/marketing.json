@@ -104,7 +104,7 @@
       "distributerima",
       "sopstvenoj prodajnoj snazi"
     ],
-    "correctAnswer": ["potrošačima"]
+    "correctAnswer": ["distributerima"]
   },
   {
     "id": 10,
@@ -327,388 +327,446 @@
   },
   {
     "id": 30,
-    "question": "Koji metod planiranja merketinga se koristi za planiranje prihoda, troškova, zone dobitaka i gubitaka:",
+    "question": "Šta je primarni cilj istraživanja distribucije?",
     "answers": [
-      "metod klasifikacije proizvoda",
-      "strukturna analiza grane",
-      "metod prelomne tačke",
-      "lanac vrednosti"
+      "Odrediti optimalne cene",
+      "Identifikovati pravu lokaciju i vreme prodaje",
+      "Analizirati konkurenciju",
+      "Kreirati promotivne kampanje"
     ],
-    "correctAnswer": ["metod prelomne tačke"]
+    "correctAnswer": "Identifikovati pravu lokaciju i vreme prodaje"
   },
   {
     "id": 31,
-    "question": "Proširenje tržišta za postojeće proizvode, razvoj novih proizvoda, napuštanje delova asortimana nekih proizvoda spada u:",
+    "question": "Koji kriterijum NIJE deo istraživanja distribucije?",
     "answers": [
-      "čisto marketinške ciljeve",
-      "marketinške ciljeve sa naglašenom finansijskom komponentom"
+      "Psihološke komponente proizvoda",
+      "Motivi kupovine",
+      "Prometne veze",
+      "Klimatski uslovi"
     ],
-    "correctAnswer": ["čisto marketinške ciljeve"]
+    "correctAnswer": "Prometne veze"
   },
   {
     "id": 32,
-    "question": "Marketing plan koji se odnosi na proizvode i usluge koji vec postoje:",
+    "question": "Šta karakteriše direktne (nivo 0) marketing kanale?",
     "answers": [
-      "analitički plan",
-      "godišnji marketing plan",
-      "situacioni plan"
+      "Posrednici između proizvođača i potrošača",
+      "Proizvođač prodaje direktno krajnjem kupcu",
+      "Višenivo distribucija",
+      "Isključivo online prodaja"
     ],
-    "correctAnswer": ["godišnji marketing plan"]
+    "correctAnswer": "Proizvođač prodaje direktno krajnjem kupcu"
   },
   {
     "id": 33,
-    "question": "Tražnja i trendovi tražnje za konkretnim proizvodom odnose se na:",
+    "question": "Franšizing u vertikalnom sistemu je primer:",
     "answers": [
-      "neutralno okruženje",
-      "konkurenciju",
-      "unutrašnje okruženje",
-      "situaciono okruženje"
+      "Korporativne integracije",
+      "Administrativnog sistema",
+      "Ugovornog sistema",
+      "Horizontalne saradnje"
     ],
-    "correctAnswer": ["situaciono okruženje"]
+    "correctAnswer": "Ugovornog sistema"
   },
   {
     "id": 34,
-    "question": "Interni faktori organizacije marketinga su:",
+    "question": "Marketing logistika se fokusira na:",
     "answers": [
-      "delatnost preduzeća",
-      "položaj preduzeća na tržištu",
-      "tržište prodaje",
-      "državna intervencija",
-      "miks proizvoda",
-      "način komunikacije sa kupcima"
+      "Smanjenje troškova skladištenja",
+      "Prilagođavanje isporuke potrošačkim zahtevima",
+      "Povećanje broja distributera",
+      "Smanjenje proizvodnje"
     ],
-    "correctAnswer": ["delatnost preduzeća", "položaj preduzeća na tržištu", "miks proizvoda", "način komunikacije sa kupcima"]
+    "correctAnswer": "Prilagođavanje isporuke potrošačkim zahtevima"
   },
   {
     "id": 35,
-    "question": "Prema Kotlerovim razvojnim fazama fje marketinga koja je faza savremeno marketing odeljenje:",
+    "question": "Tok vlasništva u kontroli kanala obuhvata:",
     "answers": [
-      "I",
-      "II",
-      "III",
-      "IV",
-      "V"
+      "Fizičko kretanje proizvoda",
+      "Prenos prava vlasništva između učesnika",
+      "Način plaćanja",
+      "Promociju u prodavnicama"
     ],
-    "correctAnswer": ["IV"]
+    "correctAnswer": "Prenos prava vlasništva između učesnika"
   },
   {
     "id": 36,
-    "question": "U strategijske aktivnosti u okviru funkcionalnog modela organizacije:",
+    "question": "Ekskluzivna distribucija je najčešća kod:",
     "answers": [
-      "prodaja i distribucija",
-      "istraživanje proizvoda",
-      "postprodajne usluge",
-      "nabavka",
-      "idejni razvoj novih proizvoda"
+      "Robe široke potrošnje (npr. Coca-Cola)",
+      "Luksuznih proizvoda (npr. Rolex)",
+      "Poljoprivrednih proizvoda",
+      "Tehnoloških komponenti"
     ],
-    "correctAnswer": ["prodaja i distribucija", "postprodajne usluge", "nabavka", "idejni razvoj novih proizvoda"]
+    "correctAnswer": "Luksuznih proizvoda (npr. Rolex)"
   },
   {
     "id": 37,
-    "question": "Ako je grupisanje izvršeno po tehnološkom principu onda može biti model:",
+    "question": "Multi-Level Marketing (MLM) karakteriše:",
     "answers": [
-      "rukovodilac proizvoda",
-      "proizvodna grupacija",
-      "prodajna grupacija",
-      "tržišna grupacija"
+      "Direktna prodaja bez posrednika",
+      "Zarada od regrutovanja novih članova",
+      "Fiksne plate prodavaca",
+      "Isključivo online prisustvo"
     ],
-    "correctAnswer": ["proizvodna grupacija", "tržišna grupacija"]
+    "correctAnswer": "Zarada od regrutovanja novih članova"
   },
   {
     "id": 38,
-    "question": "Pokazatelji kontrole marketing aktivnosti kao što su ostvareni prihod prodaje ili stopa prinosa na ulaganju spadaju u:",
+    "question": "Kvantitativna komponenta upravljanja prodajom odnosi se na:",
     "answers": [
-      "fizičke jedinice mere",
-      "vrednosne jedinice mere",
-      "troškovi",
-      "kvalitativni pokazatelji"
+      "Kvalitet usluge",
+      "Količinu proizvoda za tržište",
+      "Relacije sa kupcima",
+      "Dizajn prodajnog prostora"
     ],
-    "correctAnswer": ["vrednosne jedinice mere"]
+    "correctAnswer": "Količinu proizvoda za tržište"
   },
   {
     "id": 39,
-    "question": "U kontrolu godišnjeg plana spadaju:",
+    "question": "Koja funkcija pakovanja je kritična za parfeme?",
     "answers": [
-      "analiza proivoda",
-      "analiza prodaje",
-      "analiza tržišnog učešća",
-      "sistemska analiza",
-      "finansijska analiza",
-      "analiza troškova marketinga"
+      "Zaštita od oštećenja",
+      "Emocionalna privlačnost (luksuzni dizajn)",
+      "Niska cena proizvodnje",
+      "Jednostavno odlaganje"
     ],
-    "correctAnswer": ["analiza prodaje", "analiza tržišnog učešća", "finansijska analiza", "analiza troškova marketinga"]
+    "correctAnswer": "Emocionalna privlačnost (luksuzni dizajn)"
   },
   {
     "id": 40,
-    "question": "Ostvarena prodaja preduzeća izražena kao procenat ukupne ostvarene prodaje na tržištu koje je zainteresovano za ponudu preduzeća je:",
+    "question": "VIEW model za pakovanje obuhvata:",
     "answers": [
-      "ukupno tržišno učešće",
-      "učešće na opsluživanom tržištu",
-      "relativno učešće na tržištu"
+      "Veličinu, izdržljivost, ekonomičnost, težinu",
+      "Vidljivost, informativnost, emocionalnu privlačnost, funkcionalnost",
+      "Vreme isporuke, integritet, ekologiju, wabi-sabi",
+      "Vrednost, inovaciju, efikasnost, web integraciju"
     ],
-    "correctAnswer": ["učešće na opsluživanom tržištu"]
+    "correctAnswer": "Vidljivost, informativnost, emocionalnu privlačnost, funkcionalnost"
   },
   {
     "id": 41,
-    "question": "Marginalni kontribucioni rezultat po jedinici se dobija primenom:",
+    "question": "Strategija 'prestige pricing' koristi se za:",
     "answers": [
-      "metode ukupnih troškova",
-      "metode krajnjih troškova",
-      "metode direktnih troškova",
-      "metode jediničnih troškova"
+      "Jeftine proizvode široke potrošnje",
+      "Luksuzne proizvode (npr. Louis Vuitton)",
+      "Tehnološke novitete",
+      "Organsku hranu"
     ],
-    "correctAnswer": ["metode direktnih troškova"]
+    "correctAnswer": "Luksuzne proizvode (npr. Louis Vuitton)"
   },
   {
     "id": 42,
-    "question": "Tehnika koja omogućava kupcima da sami kreiraju svoje proizvode zove se:",
+    "question": "Ambijentalni element prodavnice luksuznih automobila uključuje:",
     "answers": [
-      "customer service",
-      "product design",
-      "mass customisation"
+      "Šarene reklame i akcijske ponude",
+      "Minimalistički dizajn, premium materijale, privatnost",
+      "Glasnu muziku i neon svetla",
+      "Samo online kataloge"
     ],
-    "correctAnswer": ["mass customisation"]
+    "correctAnswer": "Minimalistički dizajn, premium materijale, privatnost"
   },
   {
     "id": 43,
-    "question": "U postprodajne aktivnosti medjunarodnog marketinga spadaju:",
+    "question": "Koja od sledećih NIJE metoda kreativne strategije u oglašavanju?",
     "answers": [
-      "istraživanje tržišta",
-      "sklapanje prodajnog ugovora",
-      "prikupljanje povratnih informacija",
-      "obezbeđenje servisa i rezervnih delova",
-      "selekcija makrosegmenata",
-      "praćenje proizvoda tokom korišćenja"
+      "Šokantnost",
+      "Ponavljanje",
+      "Snižavanje kvaliteta",
+      "Korišćenje humora"
     ],
-    "correctAnswer": ["prikupljanje povratnih informacija", "obezbeđenje servisa i rezervnih delova", "praćenje proizvoda tokom korišćenja"]
+    "correctAnswer": "Snižavanje kvaliteta"
   },
   {
     "id": 44,
-    "question": "Ciljne grupe koje strategije čine potrošači sa jednakim stavom i kupovnim navikama u svim zemljama:",
+    "question": "'Davanje uzoraka' je aktivnost unapređenja prodaje usmerena ka:",
     "answers": [
-      "strategija adaptacije",
-      "strategija komunikacije",
-      "strategija standardizacije",
-      "strategija koleracije"
+      "Distributerima",
+      "Potrošačima",
+      "Dobavljačima",
+      "Konkurenciji"
     ],
-    "correctAnswer": ["strategija standardizacije"]
+    "correctAnswer": "Potrošačima"
   },
   {
     "id": 45,
-    "question": "U okviru koleracije proizvoda koja strategija podrazumeva promenu obeležja proizvoda i formulisanje različitih promocijskih strategija za nastup na različitim tržištima:",
+    "question": "Prednost lične prodaje u high-tech industriji je:",
     "answers": [
-      "adaptacija komunikacije",
-      "inovacija proizvoda",
-      "dvostruka adaptacija",
-      "adaptacija proizvoda"
+      "Mogućnost detaljnog objašnjenja kompleksnih funkcija",
+      "Nizak trošak po kontaktu",
+      "Automatizacija procesa",
+      "Širok doseg"
     ],
-    "correctAnswer": ["dvostruka adaptacija"]
+    "correctAnswer": "Mogućnost detaljnog objašnjenja kompleksnih funkcija"
   },
   {
     "id": 46,
-    "question": "Ofanzivne strategije medjunarodnog marketinga za kompanije koje imaju dominantnu poziciju:",
+    "question": "Tržišni publicitet se razlikuje od oglašavanja po tome što:",
     "answers": [
-      "korišćenje zakonskih normi radi smanjenja troškova",
-      "inovacije proizvoda",
-      "razvoj novih tržišnih segmenata",
-      "blokiranje konkurenata snižavanjem cena"
+      "Je plaćen",
+      "Ima nisku verodostojnost",
+      "Je besplatan i ima visoku verodostojnost",
+      "Koristi isključivo digitalne kanale"
     ],
-    "correctAnswer": ["inovacije proizvoda", "razvoj novih tržišnih segmenata"]
+    "correctAnswer": "Je besplatan i ima visoku verodostojnost"
   },
   {
     "id": 47,
-    "question": "Vrsta kompanije sledbenika koja kopira neke stvari od lidera, ali zadržava neke razlike je:",
+    "question": "Šta opisuje 'owned media'?",
     "answers": [
-      "klonovi",
-      "imitatori",
-      "adapteri"
+      "Plaćeni oglasi na Google-u",
+      "Brendov veb sajt i blog",
+      "Korisničke recenzije",
+      "Influencerski sadržaj"
     ],
-    "correctAnswer": ["imitatori"]
+    "correctAnswer": "Brendov veb sajt i blog"
   },
   {
     "id": 48,
-    "question": "Koja je sledbenička strategija u pitanju kada se ponudi isti proizvod ali po nižoj ceni:",
+    "question": "Ključna razlika između Web 1.0 i Web 2.0 je:",
     "answers": [
-      "imitacija",
-      "fokusiranje",
-      "dodavanje karakteristika",
-      "lišavanje"
+      "Statički vs. interaktivni sadržaj",
+      "Brzina interneta",
+      "Cena hostinga",
+      "Broj sajtova"
     ],
-    "correctAnswer": ["imitacija"]
+    "correctAnswer": "Statički vs. interaktivni sadržaj"
   },
   {
     "id": 49,
-    "question": "Spor prodor na odabrane segmente i fokus na tržište odabrane zemlje i nizak procenta učešća na globalnom tržištu naziva se:",
+    "question": "Navigacione ključne reči koriste se kada korisnik traži:",
     "answers": [
-      "adaptacija",
-      "strategijski plan",
-      "infiltracija",
-      "implikacija"
+      "Informacije (npr. 'šta je blockchain')",
+      "Određeni sajt (npr. 'Zara online shop')",
+      "Kupovinu (npr. 'kupi iPhone')",
+      "Zabavni sadržaj"
     ],
-    "correctAnswer": ["infiltracija"]
+    "correctAnswer": "Određeni sajt (npr. 'Zara online shop')"
   },
   {
     "id": 50,
-    "question": "Kada se isti marketing miks primenjuje za sva ciljna tržišta radi se o strategiji koja je:",
+    "question": "'Alt tag' za slike spada u:",
     "answers": [
-      "diferencirana",
-      "koncentrisana",
-      "nediferencirana",
-      "delimično diferencirana"
+      "Off-site SEO",
+      "On-site SEO",
+      "PPC kampanje",
+      "Display advertising"
     ],
-    "correctAnswer": ["nediferencirana"]
+    "correctAnswer": "On-site SEO"
   },
   {
     "id": 51,
-    "question": "Ako se prvo formira imidž o zemlji pa na osnovu toga stavovi o proizvodu reč je o:",
+    "question": "Programmatic advertising koristi:",
     "answers": [
-      "efektu implikacije",
-      "halo efektu",
-      "efektu pridodavanja karakteristika"
+      "Ručno pregovaranje o cenama",
+      "DSP platforme za aukcije u realnom vremenu",
+      "Isključivo print medije",
+      "Direktnu poštu"
     ],
-    "correctAnswer": ["halo efektu"]
+    "correctAnswer": "DSP platforme za aukcije u realnom vremenu"
   },
   {
     "id": 52,
-    "question": "U nekontrolisane varijable spadaju:",
+    "question": "Koja metrika se koristi za email kampanje?",
     "answers": [
-      "institucionalno uređenje",
-      "karakteristike proizvoda",
-      "pravni sistem",
-      "okolina",
-      "postprodajne aktivnosti"
+      "Stopa otvorenosti (open rate)",
+      "Broj pratilaca na TikTok-u",
+      "TV rejting",
+      "Radijski domet"
     ],
-    "correctAnswer": ["institucionalno uređenje", "pravni sistem", "okolina"]
+    "correctAnswer": "Stopa otvorenosti (open rate)"
   },
   {
     "id": 53,
-    "question": "Koja od ponudjenih strategija se odnosi na proširivajje proivodnog programa dodavanjem novih  proizvoda koji se razlikuju od postojećih:",
+    "question": "U kojoj fazi marketinga na društvenim mrežama kompanije postavljaju jasne ciljeve?",
     "answers": [
-      "strategija selekcije",
-      "strategija modifikacije",
-      "strategija diverzifikacije",
-      "strategija diferencijacije"
+      "Faza probe",
+      "Tranziciona faza",
+      "Strateška faza",
+      "Evaluaciona faza"
     ],
-    "correctAnswer": ["strategija diverzifikacije"]
+    "correctAnswer": "Strateška faza"
   },
   {
     "id": 54,
-    "question": "Interni faktori formiranja cena za medjunarodno tržište su:",
+    "question": "Koju distribucionu strategiju koristi Coca-Cola?",
     "answers": [
-      "postojeća regulativa",
-      "karakteristike postojećih kupaca",
-      "struktura troškova",
-      "poslovna filozofija organizacije",
-      "tržišni uslovi na ciljnim tržištima",
-      "ciljevi međunarodnih marketing aktivnosti"
+      "Ekskluzivna",
+      "Intenzivna",
+      "Selektivna",
+      "Direktna"
     ],
-    "correctAnswer": ["struktura troškova", "poslovna filozofija organizacije", "ciljevi međunarodnih marketing aktivnosti"]
+    "correctAnswer": "Intenzivna"
   },
   {
     "id": 55,
-    "question": "Osnovne cenovne strategije u međunarodnom marketingu su:",
+    "question": "Kako brend npr. Apple komunicira cenu novog iPhone-a?",
     "answers": [
-      "strategija formiranja cena",
-      "strategija konkurentski orijentisanih cena",
-      "strategija prihodno orijentisanih cena",
-      "strategija tržišno orijentisnaih cena",
-      "strategija troškovno orijentisanih cena",
-      "strategija translacionalnih cena"
+      "Snižavanjem cene prvog dana",
+      "Premium cenom kao indikator kvaliteta",
+      "Besplatnom distribucijom",
+      "Skrivanjem cene do kupovine"
     ],
-    "correctAnswer": ["strategija konkurentski orijentisanih cena", "strategija tržišno orijentisnaih cena", "strategija troškovno orijentisanih cena", "strategija translacionalnih cena"]
+    "correctAnswer": "Premium cenom kao indikator kvaliteta"
   },
   {
     "id": 56,
-    "question": "Kada se uravnotežuju strateški ciljevi kompanije sa razlikama u tržišnim uslovima u svakoj zemlji pojedinačno radi se:",
+    "question": "Zašto je 'optimizacija alt tagova' važna za SEO?",
     "answers": [
-      "uvođenje standarne cene za svetsko tržište",
-      "modifikovanje cene",
-      "utvrđivanje cene na bazi individualnih tržišta"
+      "Povećava broj plaćenih oglasa",
+      "Poboljšava pristupačnost i indeksiranje slika",
+      "Smanjuje troškove kampanje",
+      "Ubrzava društvena deljenja"
     ],
-    "correctAnswer": ["modifikovanje cene"]
+    "correctAnswer": "Poboljšava pristupačnost i indeksiranje slika"
   },
   {
     "id": 57,
-    "question": "Koji je najjednostavniji princip formiranja cene za međunarodno tržište koji ne zahteva opsežna istraživanja:",
+    "question": "Koje aktivnosti spadaju u BTL komunikaciju?",
     "answers": [
-      "tržišno formiranje cena",
-      "analiza odlučicvanja",
-      "princip obracunavanje troškova uvećanim za iznos profita"
+      "TV reklame",
+      "Besplatni uzorci u prodavnicama",
+      "Promotivni događaji",
+      "Press konferencije",
+      "SEO optimizacija"
     ],
-    "correctAnswer": ["princip obracunavanje troškova uvećanim za iznos profita"]
+    "correctAnswer": ["Besplatni uzorci u prodavnicama", "Promotivni događaji", "Press konferencije"]
   },
   {
     "id": 58,
-    "question": "Zaokruži ograničenja pri formiranju cena za medjunarodnmo tržište:",
+    "question": "Elementi VIEW modela za pakovanje su:",
     "answers": [
-      "revalvacija i devalvacija",
-      "infiltracija",
-      "inflacija",
-      "carine",
-      "administrativna kontrola cena"
+      "Vidljivost",
+      "Cena",
+      "Emocionalna privlačnost",
+      "Težina",
+      "Funkcionalnost",
+      "Informativnost"
     ],
-    "correctAnswer": ["revalvacija i devalvacija", "inflacija", "administrativna kontrola cena"]
+    "correctAnswer": ["Vidljivost", "Emocionalna privlačnost", "Funkcionalnost", "Informativnost"]
   },
   {
     "id": 59,
-    "question": "Neke od restriktivnih mera u trgovini su:",
+    "question": "Prednosti MLM modela su:",
     "answers": [
-      "bojkot",
-      "ogranicenje uvoza",
-      "spajanje firmi",
-      "ukidanje monopola",
-      "prodaja proizvoda ispod troškova proizvodnje"
+      "Fiksna plata",
+      "Fleksibilno radno vreme",
+      "Niska početna investicija",
+      "Zarada od mreže distributera",
+      "Potpuna kontrola brenda"
     ],
-    "correctAnswer": ["bojkot", "spajanje firmi"]
+    "correctAnswer": ["Fleksibilno radno vreme", "Niska početna investicija", "Zarada od mreže distributera"]
   },
   {
     "id": 60,
-    "question": "O kom vrstu dampinga se radi ako se prodaje višak proizvoda po bilo kojoj ceni koja se može dobiti na inostranom tržištu:",
+    "question": "Koji od navedenih nisu psihografski kriterijumi za segmentaciju drive-in restorana?",
     "answers": [
-      "grabežljivi",
-      "sporadični",
-      "nenamerni"
+      "Geografska lokacija",
+      "Način života",
+      "Lične karakteristike",
+      "Pripadnost društvenoj klasi"
     ],
-    "correctAnswer": ["sporadični"]
+    "correctAnswer": "Geografska lokacija"
   },
   {
     "id": 61,
-    "question": "Revalvacija treba da doprinese stimulisanju izvoza i destimulisanju uvoza,tako što domaća roba postaje jeftinija na inostranom tržištu, a strana roba postaje skuplja na domaćem:",
+    "question": "Primer modifikacije proizvoda zbog klimatskih uslova je:",
     "answers": [
-      "T",
-      "N"
+      "Promena ambalaže za transport",
+      "Prilagodavanje sastava kozmetičkih proizvoda",
+      "Smanjenje cene u siromašnim zemljama",
+      "Lokalizacija reklamnih poruka"
     ],
-    "correctAnswer": ["N"]
+    "correctAnswer": "Prilagodavanje sastava kozmetičkih proizvoda"
   },
   {
     "id": 62,
-    "question": "Kod kojih cena se u ugovor unosi reviziona klauzula:",
+    "question": "Koja od navedenih nije ključna karakteristika franšizing ugovora?",
     "answers": [
-      "transfernih",
-      "damping",
-      "vezane i slobodne",
-      "klizne i fiksne"
+      "Standardizacija usluge",
+      "Podela rizika",
+      "Potpuna autonomija franšizanta",
+      "Obuka i podrška"
     ],
-    "correctAnswer": ["klizne i fiksne"]
+    "correctAnswer": "Potpuna autonomija franšizanta"
   },
   {
     "id": 63,
-    "question": "Koja strategija za prodaju proizvoda na međunardnom tržištu se koristi radi smanjenja uvoznih carina ili jeftinije radne snage",
+    "question": "Koji tip ključne reči koristi korisnik koji želi da kupi proizvod?",
     "answers": [
-      "joint ventures (združeno poslovanje)",
-      "akvizicija",
-      "sklapanje proizvoda",
-      "strateška udruženja"
+      "Informaciona",
+      "Navigaciona",
+      "Transakciona",
+      "Istraživačka"
     ],
-    "correctAnswer": ["sklapanje proizvoda"]
+    "correctAnswer": "Transakciona"
   },
   {
     "id": 64,
-    "question": "Za predstavljanje industrijskih proizvoda ili skupih artikala pogodniji su:",
+    "question": "Threads platforma se razlikuje od Twittera po:",
     "answers": [
-      "sajmovi otvoreni za javnost",
-      "isključivo trgovinski sajmovi"
+      "Kraćim video formatima",
+      "Manjem broju karaktera po poruci",
+      "Integraciji sa Instagramom",
+      "Ograničenom dostupnosti"
     ],
-    "correctAnswer": ["isključivo trgovinski sajmovi"]
+    "correctAnswer": "Integraciji sa Instagramom"
+  },
+  {
+    "id": 65,
+    "question": "Koja od navedenih nije klasična metoda u promotivnim porukama?",
+    "answers": [
+      "Emocionalno pozivanje",
+      "Ponavljanje",
+      "Argumentovanje",
+      "Geotargeting"
+    ],
+    "correctAnswer": "Geotargeting"
+  },
+  {
+    "id": 66,
+    "question": "Koja komponenta 7C modela se odnosi na mogućnost interakcije korisnika?",
+    "answers": [
+      "Context",
+      "Community",
+      "Connection",
+      "Commerce"
+    ],
+    "correctAnswer": "Community"
+  },
+  {
+    "id": 67,
+    "question": "Primer BTL komunikacije je:",
+    "answers": [
+      "TV reklama tokom finala Lige šampiona",
+      "Promotivni štand u tržnom centru",
+      "Oglas u nacionalnim novinama",
+      "Rečeno oglašavanje na radiju"
+    ],
+    "correctAnswer": "Promotivni štand u tržnom centru"
+  },
+  {
+    "id": 68,
+    "question": "Šta obuhvata SEO strategija?",
+    "answers": [
+      "Kupovinu Google Ads oglasa",
+      "Optimizaciju sadržaja i tehničkih parametara sajta",
+      "Kreiranje influencer kampanja",
+      "Upravljanje društvenim mrežama"
+    ],
+    "correctAnswer": "Optimizaciju sadržaja i tehničkih parametara sajta"
+  },
+  {
+    "id": 69,
+    "question": "Marketing baziran na sadržaju se primarno fokusira na:",
+    "answers": [
+      "Direktnu prodaju proizvoda",
+      "Kreiranje vrednosnog edukativnog sadržaja",
+      "Masovno distribuirane flajere",
+      "Popuste za brzu kupovinu"
+    ],
+    "correctAnswer": "Kreiranje vrednosnog edukativnog sadržaja"
   }
 ] 

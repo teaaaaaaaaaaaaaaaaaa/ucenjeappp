@@ -520,5 +520,664 @@
     "question": "Da li kada se stavi # ispred nečeg u C to prepoznaje kao komentar?",
     "answers": ["Da", "Ne", "Samo za linijske komentare", "Samo u funkcijama"],
     "correctAnswer": "Ne"
+  },
+  {
+    "id": 88,
+    "question": "Komanda less služi za?",
+    "answers": [
+      "Vrši pregled teksta stranu po strani",
+      "Ispisuje ceo sadržaj tekstualnog fajla na terminalu",
+      "Briše fajl",
+      "Kopira fajl"
+    ],
+    "correctAnswer": "Vrši pregled teksta stranu po strani"
+  },
+  {
+    "id": 89,
+    "question": "Direktorijum za programe, biblioteke i dokumentaciju svih korisničkih programa je?",
+    "answers": [
+      "/usr",
+      "/bin",
+      "/opt",
+      "/var"
+    ],
+    "correctAnswer": "/usr"
+  },
+  {
+    "id": 90,
+    "question": "Direktorijum koji sadrži dodatni softver koji korisnik naknadno instalira je?",
+    "answers": [
+      "/opt",
+      "/usr",
+      "/var",
+      "/home"
+    ],
+    "correctAnswer": "/opt"
+  },
+  {
+    "id": 91,
+    "question": "Komanda ls služi za?",
+    "answers": [
+      "Izlistava sadržaj direktorijuma",
+      "Prikazuje tekstualni fajl",
+      "Kopira fajl",
+      "Pokreće program"
+    ],
+    "correctAnswer": "Izlistava sadržaj direktorijuma"
+  },
+  {
+    "id": 92,
+    "question": "Komanda ls -a služi za?",
+    "answers": [
+      "Izlistava sadržaj tekućeg direktorijuma i skrivene fajlove",
+      "Prikazuje veličinu fajlova",
+      "Briše skrivene fajlove",
+      "Prikazuje samo skrivene fajlove"
+    ],
+    "correctAnswer": "Izlistava sadržaj tekućeg direktorijuma i skrivene fajlove"
+  },
+  {
+    "id": 93,
+    "question": "Komanda ls -l služi za?",
+    "answers": [
+      "Izlistava sadržaj tekućeg direktorijuma uz detaljan prikaz",
+      "Izlistava samo skrivene fajlove",
+      "Prikazuje veličine fajlova u čitljivom formatu",
+      "Briše fajlove"
+    ],
+    "correctAnswer": "Izlistava sadržaj tekućeg direktorijuma uz detaljan prikaz"
+  },
+  {
+    "id": 94,
+    "question": "Komanda ls -d služi za?",
+    "answers": [
+      "Izlistava direktorijume, ali ne i njihov sadržaj",
+      "Prikazuje samo podatke o fajlovima u direktorijumu",
+      "Izlistava fajlove rekurzivno",
+      "Prikazuje detaljan prikaz direktorijuma"
+    ],
+    "correctAnswer": "Izlistava direktorijume, ali ne i njihov sadržaj"
+  },
+  {
+    "id": 95,
+    "question": "Šta znači izraz `expression1 ? expression2 : expression3` u C?",
+    "answers": [
+      "Ako je expression1 tačno, izvede se expression2, inače expression3",
+      "Ako je expression1 netačno, izvede se expression2, inače expression3",
+      "Uvek se izvršavaju oba izraza",
+      "Rezultat je zbir oba izraza"
+    ],
+    "correctAnswer": "Ako je expression1 tačno, izvede se expression2, inače expression3"
+  },
+  {
+    "id": 96,
+    "question": "Šta se smatra pravom operativnom revolucijom u razvoju računarskih sistema?",
+    "answers": [
+      "Uvođenje Unix operativnog sistema",
+      "Pojava grafičkog korisničkog interfejsa (GUI)",
+      "Razvoj mikroprocesora",
+      "Uvođenje multitaskinga i zaštićenog režima rada"
+    ],
+    "correctAnswer": "Uvođenje multitaskinga i zaštićenog režima rada"
+  },
+  {
+    "id": 97,
+    "question": "Kada je rođen Linus Torvalds?",
+    "answers": [
+      "28. decembar 1969.",
+      "1. januar 1970.",
+      "15. jun 1968.",
+      "2. februar 1972."
+    ],
+    "correctAnswer": "28. decembar 1969."
+  },
+  {
+    "id": 98,
+    "question": "Kada je rođen Dennis Ritchie?",
+    "answers": [
+      "9. septembar 1941.",
+      "10. februar 1943.",
+      "5. maja 1945.",
+      "12. mart 1940."
+    ],
+    "correctAnswer": "9. septembar 1941."
+  },
+  {
+    "id": 99,
+    "question": "Kada je rođen Ken Thompson?",
+    "answers": [
+      "4. februar 1943.",
+      "9. septembar 1941.",
+      "28. decembar 1969.",
+      "1. maj 1945."
+    ],
+    "correctAnswer": "4. februar 1943."
+  },
+  {
+    "id": 100,
+    "question": "Za šta se koristi Linux?",
+    "answers": [
+      "Serveri, desktop računari, ugrađeni sistemi, mobilni uređaji",
+      "Samo desktop računari",
+      "Samo serveri",
+      "Samo ugradni sistemi"
+    ],
+    "correctAnswer": "Serveri, desktop računari, ugrađeni sistemi, mobilni uređaji"
+  },
+  {
+    "id": 101,
+    "question": "Da li se # koristi za komentare u bash skriptama?",
+    "answers": [
+      "Da",
+      "Ne",
+      "Samo unutar navodnika",
+      "Samo za jednonitne komentare"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 102,
+    "question": "Šta predstavlja sledeći kod u C-u?\n#ifndef EXAMPLE_H\n#define EXAMPLE_H\n// ...\n#endif",
+    "answers": [
+      "Header guard za sprečavanje višestrukog uključenja istog zaglavlja",
+      "Makro za definisanje konstante",
+      "Početak i kraj funkcije main",
+      "Direktiva za uključivanje biblioteke"
+    ],
+    "correctAnswer": "Header guard za sprečavanje višestrukog uključenja istog zaglavlja"
+  },
+  {
+    "id": 103,
+    "question": "Šta prikazuje sledeći fragment koda u C-u u kontekstu thread_create?\npthread_create(&tid, NULL, worker, data);",
+    "answers": [
+      "Drugi parametar je atribute niti; NULL koristi podrazumevane",
+      "Četvrti parametar je pokazivač na podatke prosleđene funkciji niti",
+      "Prvi parametar je ID niti",
+      "Treći parametar je povratni tip funkcije niti"
+    ],
+    "correctAnswer": "Četvrti parametar je pokazivač na podatke prosleđene funkciji niti"
+  },
+  {
+    "id": 104,
+    "question": "Koje karakteristike ekspertnih sistema sa deljenom memorijom treba zaokružiti? (više tačnih)",
+    "answers": [
+      "Korišćenje globalnih promenljivih dostupnih svim komponentama",
+      "Centralizovana baza znanja",
+      "Asinhrono izvršavanje pravila",
+      "Ručno upravljanje memorijom"
+    ],
+    "correctAnswers": [
+      "Korišćenje globalnih promenljivih dostupnih svim komponentama",
+      "Centralizovana baza znanja"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Шта је оперативни систем?",
+    "answers": [
+      "Скуп програма који управљају хардвером и корисничким процесима",
+      "Библиотека за креирање графичког интерфејса",
+      "Програмски језик за пишење апликација",
+      "Мрежни протокол за пренос података"
+    ],
+    "correctAnswer": "Скуп програма који управљају хардвером и корисничким процесима"
+  },
+  {
+    "id": 106,
+    "question": "Шта је кернел?",
+    "answers": [
+      "Језгро ОС које апстрахује хардвер и повезује га са вишим слојевима",
+      "Графички интерфејс за кориснике",
+      "Командна линија",
+      "Алгоритам за компресију података"
+    ],
+    "correctAnswer": "Језгро ОС које апстрахује хардвер и повезује га са вишим слојевима"
+  },
+  {
+    "id": 107,
+    "question": "Шта је shell (шел) у контексту оперативног система?",
+    "answers": [
+      "Софтвер који омогућава комуникацију између корисника и кернела",
+      "Модул за управљање меморијом",
+      "Библиотека математичких функција",
+      "Веб прегледач"
+    ],
+    "correctAnswer": "Софтвер који омогућава комуникацију између корисника и кернела"
+  },
+  {
+    "id": 108,
+    "question": "Шта представља Linux?",
+    "answers": [
+      "Кернел оперативног система који је написао Linus Torvalds",
+      "Графичко окружење за ОС Windows",
+      "Програм за обраду текста",
+      "Мобилни оперативни систем"
+    ],
+    "correctAnswer": "Кернел оперативног система који је написао Linus Torvalds"
+  },
+  {
+    "id": 109,
+    "question": "Ко су Ken Thompson и Dennis Ritchie и шта су развили 1969. године?",
+    "answers": [
+      "Програмере који су направили Unix ОС у AT&T Bell лабораторијама",
+      "Тим који је креирао IBM 360 Mainframe",
+      "Ауторе првог C компајлера за Windows",
+      "Дизајнере првог личног рачунара"
+    ],
+    "correctAnswer": "Програмере који су направили Unix ОС у AT&T Bell лабораторијама"
+  },
+  {
+    "id": 110,
+    "question": "Ко је Richard Stallman и шта је GNU пројекат? (више тачних)",
+    "answers": [
+      "Оснивач пројекта за слободан софтвер GNU",
+      "Аутор првог Unix кернела",
+      "Борац за права корисника да мењају и деле софтвер",
+      "Креирао Linux дистрибуцију Ubuntu"
+    ],
+    "correctAnswers": [
+      "Оснивач пројекта за слободан софтвер GNU",
+      "Борац за права корисника да мењају и деле софтвер"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Какву лиценцу носи Linux кернел?",
+    "answers": [
+      "GNU GPL (General Public License)",
+      "MIT",
+      "Apache",
+      "Proprietary"
+    ],
+    "correctAnswer": "GNU GPL (General Public License)"
+  },
+  {
+    "id": 112,
+    "question": "Шта су бушене картице?",
+    "answers": [
+      "Картице са рупицама које представљају бинарне податке за рачунаре",
+      "Картице за приступ интернету",
+      "Графички уређај за унос текста",
+      "Тип флопи диска"
+    ],
+    "correctAnswer": "Картице са рупицама које представљају бинарне податке за рачунаре"
+  },
+  {
+    "id": 113,
+    "question": "Који од следећих рачунара су мејнфрејмови из ране ере информатике?",
+    "answers": [
+      "IBM 360 Mainframe, UNIVAC I, EDSAC",
+      "PC XT, Amiga, Atari ST",
+      "Macintosh, NeXT, Sun Spark",
+      "Raspberry Pi, Arduino, BeagleBone"
+    ],
+    "correctAnswer": "IBM 360 Mainframe, UNIVAC I, EDSAC"
+  },
+  {
+    "id": 114,
+    "question": "Шта је GNU/Linux дистрибуција?",
+    "answers": [
+      "Комплетан ОС који садржи Linux кернел и GNU алате",
+      "Само Linux кернел",
+      "Графичко окружење за Windows",
+      "Програми за продуктивност"
+    ],
+    "correctAnswer": "Комплетан ОС који садржи Linux кернел и GNU алате"
+  },
+  {
+    "id": 115,
+    "question": "Које одлике Linux-a су тачне? (више тачних)",
+    "answers": [
+      "Портабилност на различите архитектуре",
+      "Софтвер отвореног кода",
+      "Затворена заједница програмера",
+      "Велики број дистрибуција"
+    ],
+    "correctAnswers": [
+      "Портабилност на различите архитектуре",
+      "Софтвер отвореног кода",
+      "Велики број дистрибуција"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Зашто се Linux сматра безбедним ОС-ом?",
+    "answers": [
+      "Зато што је потребно админ привилегије за инсталирање и извршавање већине програма",
+      "Зато што не подржава мрежу",
+      "Зато што је написан у Асемблеру",
+      "Зато што нема датумску и временску функцију"
+    ],
+    "correctAnswer": "Зато што је потребно админ привилегије за инсталирање и извршавање већине програма"
+  },
+  {
+    "id": 117,
+    "question": "Шта значи UNIX принцип \"све је фајл\"?",
+    "answers": [
+      "Сваки ентитет у систему се третира као фајл",
+      "Само документа се чувају као фајлови",
+      "Фајлови се не могу избрисати",
+      "Фајлови морају имати екстензију"
+    ],
+    "correctAnswer": "Сваки ентитет у систему се третира као фајл"
+  },
+  {
+    "id": 118,
+    "question": "Зашто се конфигурације у UNIX-like системима чувају у чистом тексту?",
+    "answers": [
+      "Да би их администратор могао мењати у текст едитору",
+      "Зато што не постоје бинарне датотеке",
+      "Зато што систем не подржава шифровање",
+      "Да би били мањи по величини"
+    ],
+    "correctAnswer": "Да би их администратор могао мењати у текст едитору"
+  },
+  {
+    "id": 119,
+    "question": "Шта је основна идеја UNIX принципа \"мали, једноставни програми\"?",
+    "answers": [
+      "Креирати више малих алата који се могу комбиновати",
+      "Написати један велики програм за сваку функцију",
+      "Програме учинити статичким и монолитним",
+      "Избегавати коришћење командне линије"
+    ],
+    "correctAnswer": "Креирати више малих алата који се могу комбиновати"
+  },
+  {
+    "id": 120,
+    "question": "Шта су \"магични бројеви\" (Magic Numbers) у контексту фајлова?",
+    "answers": [
+      "Низ бајтова на почетку фајла који идентификују његов тип",
+      "Бројеви који одређују величину фајла",
+      "Секурити кодови за шифровање",
+      "Екстензије фајлова"
+    ],
+    "correctAnswer": "Низ бајтова на почетку фајла који идентификују његов тип"
+  },
+  {
+    "id": 121,
+    "question": "Који је корен (root) фајл-систем директоријум у Линукусу?",
+    "answers": [
+      "/",
+      "/home",
+      "/usr",
+      "/etc"
+    ],
+    "correctAnswer": "/"
+  },
+  {
+    "id": 122,
+    "question": "Шта се налази у директоријуму /etc?",
+    "answers": [
+      "Системске конфигурационе датотеке",
+      "Кориснички фајлови",
+      "Извршни програми",
+      "Привремене датотеке"
+    ],
+    "correctAnswer": "Системске конфигурационе датотеке"
+  },
+  {
+    "id": 123,
+    "question": "Шта приказује команда pwd?",
+    "answers": [
+      "Тренутну радну путању",
+      "Сат и датум",
+      "Садржај директоријума",
+      "Листу процеса"
+    ],
+    "correctAnswer": "Тренутну радну путању"
+  },
+  {
+    "id": 124,
+    "question": "Која екстензија се у Линукусу игнорише као значајна?",
+    "answers": [
+      "Ниједна – екстензија нема значење",
+      "'.' (тачка)",
+      "'~' (тилда)",
+      "'*' (звездица)"
+    ],
+    "correctAnswer": "Ниједна – екстензија нема значење"
+  },
+  {
+    "id": 125,
+    "question": "Која команда се користи за брисање фајлова у Linux-у?",
+    "answers": [
+      "rm",
+      "cp",
+      "mv",
+      "chmod"
+    ],
+    "correctAnswer": "rm"
+  },
+  {
+    "id": 126,
+    "question": "Шта је wildcard у shell-у и за шта служи?",
+    "answers": [
+      "Специјални карактер за груписање фајлова по шаблону",
+      "Код за покретање програма",
+      "Директоријум за привремене датотеке",
+      "Програм за копирање"
+    ],
+    "correctAnswer": "Специјални карактер за груписање фајлова по шаблону"
+  },
+  {
+    "id": 127,
+    "question": "Која променљива окружења показује хоме директоријум корисника?",
+    "answers": [
+      "$HOME",
+      "$PATH",
+      "$PWD",
+      "$SHELL"
+    ],
+    "correctAnswer": "$HOME"
+  },
+  {
+    "id": 128,
+    "question": "Шта је фајл дескриптор у Linux/UNIX систему?",
+    "answers": [
+      "Број који идентификује отворен фајл за процес",
+      "Назив фајла на диску",
+      "Адреса у меморији где се чува фајл",
+      "Тип фајла (директоријум или обичан фајл)"
+    ],
+    "correctAnswer": "Број који идентификује отворен фајл за процес"
+  },
+  {
+    "id": 129,
+    "question": "Који дескриптори представљају stdin, stdout и stderr?",
+    "answers": [
+      "0, 1 и 2",
+      "1, 2 и 3",
+      "2, 1 и 0",
+      "3, 2 и 1"
+    ],
+    "correctAnswer": "0, 1 и 2"
+  },
+  {
+    "id": 130,
+    "question": "Шта ради команда `ls > out.txt`?",
+    "answers": [
+      "Преусмерава stdout у фајл out.txt",
+      "Преузима out.txt као аргумент за ls",
+      "Брише out.txt",
+      "Додаје излаз ls на крај out.txt"
+    ],
+    "correctAnswer": "Преусмерава stdout у фајл out.txt"
+  },
+  {
+    "id": 131,
+    "question": "Шта ради команда `cat file.txt | wc`?",
+    "answers": [
+      "Пресређује садржај file.txt на wc да изброји редове, речи и карактере",
+      "Само броји редове",
+      "Форматира текст у wc",
+      "Синтакса грешка"
+    ],
+    "correctAnswer": "Пресређује садржај file.txt на wc да изброји редове, речи и карактере"
+  },
+  {
+    "id": 132,
+    "question": "Која команда служи за претрагу стрингова у тексту?",
+    "answers": [
+      "grep",
+      "tail",
+      "sort",
+      "uniq"
+    ],
+    "correctAnswer": "grep"
+  },
+  {
+    "id": 133,
+    "question": "Шта приказује команда `whoami`?",
+    "answers": [
+      "Корисничко име тренутног корисника",
+      "Списак свих корисника",
+      "IP адресу",
+      "Дом директоријум"
+    ],
+    "correctAnswer": "Корисничко име тренутног корисника"
+  },
+  {
+    "id": 134,
+    "question": "Која команда приказује инфо о дистрибуцији Linux-а?",
+    "answers": [
+      "lsb_release -a",
+      "uname -s",
+      "who",
+      "neofetch"
+    ],
+    "correctAnswer": "lsb_release -a"
+  },
+  {
+    "id": 135,
+    "question": "Која опција `uname` приказује архитектуру процесора?",
+    "answers": [
+      "-p",
+      "-s",
+      "-v",
+      "-o"
+    ],
+    "correctAnswer": "-p"
+  },
+  {
+    "id": 136,
+    "question": "Шта ради команда `neofetch` ако је инсталирана?",
+    "answers": [
+      "Приказује лепо форматиране системске информације",
+      "Текстуални менаџер фајлова",
+      "Монитор процеса",
+      "Графички Explorer"
+    ],
+    "correctAnswer": "Приказује лепо форматиране системске информације"
+  },
+  {
+    "id": 137,
+    "question": "Шта ради команда `echo $VARIABLE` у Bash-у?",
+    "answers": [
+      "Исписује вредност променљиве VARIABLE на stdout",
+      "Брише променљиву VARIABLE",
+      "Креира променљиву VARIABLE",
+      "Покреће скрипту VARIABLE"
+    ],
+    "correctAnswer": "Исписује вредност променљиве VARIABLE на stdout"
+  },
+  {
+    "id": 138,
+    "question": "Шта значи Shebang (`#!`) на почетку скрипте?",
+    "answers": [
+      "Означава који интерпретер ће извршити скрипту",
+      "Почиње коментар",
+      "Позива функцију glavna",
+      "Поставља ENV променљиву"
+    ],
+    "correctAnswer": "Означава који интерпретер ће извршити скрипту"
+  },
+  {
+    "id": 139,
+    "question": "Који оператори се користе за поређење бројева у Bash ако-изразу?",
+    "answers": [
+      "-eq, -ne, -lt, -gt, -le, -ge",
+      "==, !=, <, >, <=, >=",
+      "&&, ||, !",
+      "=, !=, =~"
+    ],
+    "correctAnswer": "-eq, -ne, -lt, -gt, -le, -ge"
+  },
+  {
+    "id": 140,
+    "question": "За шта служи команда `alias`?",
+    "answers": [
+      "Креира или приказује алијас",
+      "Брише фајлове",
+      "Покреће демон",
+      "Рестартује сервис"
+    ],
+    "correctAnswer": "Креира или приказује алијас"
+  },
+  {
+    "id": 141,
+    "question": "Cron израз за петак у 17:58 је?",
+    "answers": [
+      "58 17 * * 5 ./posalji_mejl.sh",
+      "17 58 * * 5 ./posalji_mejl.sh",
+      "*/5 17 * * * ./posalji_mejl.sh",
+      "58 5 * * 17 ./posalji_mejl.sh"
+    ],
+    "correctAnswer": "58 17 * * 5 ./posalji_mejl.sh"
+  },
+  {
+    "id": 142,
+    "question": "Шта ради команда `curl`?",
+    "answers": [
+      "Преноси податке користећи URL синтаксу",
+      "Броји речи",
+      "Листа процесе",
+      "Преусмерава stdout"
+    ],
+    "correctAnswer": "Преноси податке користећи URL синтаксу"
+  },
+  {
+    "id": 143,
+    "question": "Која команда приказује PID, TTY, STAT, TIME и CMD?",
+    "answers": [
+      "ps",
+      "top",
+      "ls",
+      "jobs"
+    ],
+    "correctAnswer": "ps"
+  },
+  {
+    "id": 144,
+    "question": "Шта ради `kill -TERM <PID>`?",
+    "answers": [
+      "Пошаље TERM сигнал процесу",
+      "Принтује процесе",
+      "Креира демон",
+      "Наставља процес"
+    ],
+    "correctAnswer": "Пошаље TERM сигнал процесу"
+  },
+  {
+    "id": 145,
+    "question": "Шта значи `&` на крају команде?",
+    "answers": [
+      "Покреће процес у позадини",
+      "Преусмерава излаз",
+      "Приказује PID",
+      "Пауzira шел"
+    ],
+    "correctAnswer": "Покреће процес у позадини"
+  },
+  {
+    "id": 146,
+    "question": "Kako se obeležavaju komentari u Linux-u (bash skriptama) i jeziku C?",
+    "answers": [
+      "U Linux-u sa #, u C-u sa // ili /* */",
+      "U Linux-u sa //, u C-u sa #",
+      "U oba slučaja sa //",
+      "U oba slučaja sa #"
+    ],
+    "correctAnswer": "U Linux-u sa #, u C-u sa // ili /* */"
   }
 ] 
