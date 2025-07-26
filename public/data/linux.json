@@ -1179,5 +1179,302 @@
       "U oba slučaja sa #"
     ],
     "correctAnswer": "U Linux-u sa #, u C-u sa // ili /* */"
+  },
+  {
+    "id": 147,
+    "question": "Šta `pthread_mutex_lock(&m)` radi?",
+    "answers": [
+      "Remontuje mutex",
+      "Zaključava mutex i blokira pozivajuću nit ako je već zaključan",
+      "Ubacuje vrednost u mutex",
+      "Otključava mutex"
+    ],
+    "correctAnswer": "Zaključava mutex i blokira pozivajuću nit ako je već zaključan"
+  },
+  {
+    "id": 148,
+    "question": "Koja je svrha `pthread_mutex_unlock(&m)`?",
+    "answers": [
+      "Pauzira sve niti",
+      "Kreira novu nit",
+      "Zaključava mutex",
+      "Otključava mutex, oslobađa jednu čekajuću nit"
+    ],
+    "correctAnswer": "Otključava mutex, oslobađa jednu čekajuću nit"
+  },
+  {
+    "id": 149,
+    "question": "Šta se dešava ako nit pozove `pthread_mutex_unlock()` na mutex koji nije zaključala?",
+    "answers": [
+      "Automatski se zaključava",
+      "Undefined behavior / runtime greška",
+      "Greška u prevodiocu",
+      "Niti ništa – gradi se lock-unlock par"
+    ],
+    "correctAnswer": "Undefined behavior / runtime greška"
+  },
+  {
+    "id": 150,
+    "question": "Šta `fork()` vraća u procesu roditelju?",
+    "answers": [
+      "Adresu deteta",
+      "-1",
+      "PID deteta (>0)",
+      "0"
+    ],
+    "correctAnswer": "PID deteta (>0)"
+  },
+  {
+    "id": 151,
+    "question": "Koja greška `fork()` vraća ako nije uspeo da kreira novi proces?",
+    "answers": [
+      "-1",
+      "0",
+      "errno = ESRCH",
+      "errno = EAGAIN"
+    ],
+    "correctAnswer": "errno = EAGAIN"
+  },
+  {
+    "id": 152,
+    "question": "Šta `execve()` očekuje kao treći argument?",
+    "answers": [
+      "Putanju do fajla",
+      "Broj argumenata",
+      "Niz pokazivača na environment varijable (`char *const envp[]`)",
+      "Niz fajl deskriptora"
+    ],
+    "correctAnswer": "Niz pokazivača na environment varijable (`char *const envp[]`)"
+  },
+  {
+    "id": 153,
+    "question": "U Makefile-u, šta označava linija sa tabulatorom na početku?",
+    "answers": [
+      "Definiciju promenljive",
+      "Komentar",
+      "Pravilo za uključivanje",
+      "Naredbu koju Make izvršava"
+    ],
+    "correctAnswer": "Naredbu koju Make izvršava"
+  },
+  {
+    "id": 154,
+    "question": "Šta znači cilj `all: prog1 prog2` u Makefile-u?",
+    "answers": [
+      "Briše prog1 i prog2",
+      "Pokreće prog1 i prog2",
+      "Generiše fajlove prog1 i prog2",
+      "Čeka da prog1 i prog2 postoje"
+    ],
+    "correctAnswer": "Generiše fajlove prog1 i prog2"
+  },
+  {
+    "id": 155,
+    "question": "Kako definišete promenljivu `CC` na `gcc` u Makefile-u?",
+    "answers": [
+      "export CC gcc",
+      "gcc = CC",
+      "CC = gcc",
+      "CC := gcc"
+    ],
+    "correctAnswer": "CC := gcc"
+  },
+  {
+    "id": 156,
+    "question": "Koja definicija najbolje opisuje proces?",
+    "answers": [
+      "Biblioteka funkcija",
+      "Samo kod programa",
+      "Program u izvršavanju, sa sopstvenim PCB",
+      "Pasivni fajl na disku"
+    ],
+    "correctAnswer": "Program u izvršavanju, sa sopstvenim PCB"
+  },
+  {
+    "id": 157,
+    "question": "Šta se čuva u Process Control Block‑u (PCB)?",
+    "answers": [
+      "Grafičko okruženje",
+      "Samo PID",
+      "Brojač instrukcija, registri, stanja, I/O status",
+      "Samo kod programa"
+    ],
+    "correctAnswer": "Brojač instrukcija, registri, stanja, I/O status"
+  },
+  {
+    "id": 158,
+    "question": "Koji korak u prevođenju C koda uklanja komentare i proširuje makroe?",
+    "answers": [
+      "Kompajliranje",
+      "Asembliranje",
+      "Linkovanje",
+      "Preprocesiranje"
+    ],
+    "correctAnswer": "Preprocesiranje"
+  },
+  {
+    "id": 159,
+    "question": "Šta se dobija izlazom iz faze kompajliranja (compilation)?",
+    "answers": [
+      "Objektni fajl (.o)",
+      "Izvršni fajl (.exe)",
+      ".i fajl",
+      "Asemblerski kod (.s)"
+    ],
+    "correctAnswer": "Asemblerski kod (.s)"
+  },
+  {
+    "id": 160,
+    "question": "Koja faza u prevodiocu pravi AST (abstract syntax tree)?",
+    "answers": [
+      "Back‑end optimizacija",
+      "Linker",
+      "Parser – parsiranje",
+      "Skener"
+    ],
+    "correctAnswer": "Parser – parsiranje"
+  },
+  {
+    "id": 161,
+    "question": "Šta radi faza 'linkovanja'?",
+    "answers": [
+      "Pretvara C u asemblerski kod",
+      "Proverava tipove",
+      "Uklanja komentare",
+      "Spaja objektne fajlove i biblioteke u izvršni fajl"
+    ],
+    "correctAnswer": "Spaja objektne fajlove i biblioteke u izvršni fajl"
+  },
+  {
+    "id": 162,
+    "question": "Kako u bash‑u izbrišete sve fajlove sa ekstenzijom `.tmp` iz tekućeg direktorijuma?",
+    "answers": [
+      "find . -name '*.tmp' -delete",
+      "grep -v '*.tmp'",
+      "rm *.tmp",
+      "delete *.tmp"
+    ],
+    "correctAnswer": "rm *.tmp"
+  },
+  {
+    "id": 163,
+    "question": "Koja komanda će ispisati samo linije koje ne počinju sa znakom `#` iz fajla `/etc/fstab`?",
+    "answers": [
+      "grep '^[^#]' /etc/fstab",
+      "awk '/#/ {print}' /etc/fstab",
+      "sed '/^#/p' /etc/fstab",
+      "grep -v '^#' /etc/fstab"
+    ],
+    "correctAnswer": "grep -v '^#' /etc/fstab"
+  },
+  {
+    "id": 164,
+    "question": "Šta radi `chmod 755 script.sh`?",
+    "answers": [
+      "Vlasnik: r-x, grupa: rwx, ostali: rwx",
+      "Vlasnik: rwx, grupa: rw-, ostali: rw-",
+      "Vlasnik: rwx, grupa: r-x, ostali: r-x",
+      "Vlasnik: rw-, grupa: r--, ostali: r--"
+    ],
+    "correctAnswer": "Vlasnik: rwx, grupa: r-x, ostali: r-x"
+  },
+  {
+    "id": 165,
+    "question": "Kako grep‑om tražite reč 'error' bez obzira na veličinu slova?",
+    "answers": [
+      "grep -r 'error' file.log",
+      "grep 'error' file.log",
+      "grep -i 'error' file.log",
+      "grep -v 'error' file.log"
+    ],
+    "correctAnswer": "grep -i 'error' file.log"
+  },
+  {
+    "id": 166,
+    "question": "Šta `ps aux | grep mysqld` radi?",
+    "answers": [
+      "Preusmerava izlaz mysqlda u grep",
+      "Ubija sve mysqld procese",
+      "Prikazuje procese koji u imenu sadrže 'mysqld'",
+      "Kopa fajlove mysqld"
+    ],
+    "correctAnswer": "Prikazuje procese koji u imenu sadrže 'mysqld'"
+  },
+  {
+    "id": 167,
+    "question": "Kako u C definišete makro PI sa vrednošću 3.14?",
+    "answers": [
+      "const float PI = 3.14;",
+      "macro PI 3.14",
+      "#define PI = 3.14",
+      "#define PI 3.14"
+    ],
+    "correctAnswer": "#define PI 3.14"
+  },
+  {
+    "id": 168,
+    "question": "Kako biste u jednom izrazu preusmerili samo stderr u fajl `error.log`?",
+    "answers": [
+      "command > error.log 2>&1",
+      "command 2> error.log",
+      "command &> error.log",
+      "command 1> error.log"
+    ],
+    "correctAnswer": "command 2> error.log"
+  },
+  {
+    "id": 169,
+    "question": "Kako u bashu testirate exit‑status poslednje komande?",
+    "answers": [
+      "$-",
+      "$!",
+      "$#",
+      "$?"
+    ],
+    "correctAnswer": "$?"
+  },
+  {
+    "id": 170,
+    "question": "Šta radi `uname -r`?",
+    "answers": [
+      "Ispisuje instalirane pakete",
+      "Ispisuje root direktorijum",
+      "Ispisuje registarski kod",
+      "Ispisuje verziju kernela"
+    ],
+    "correctAnswer": "Ispisuje verziju kernela"
+  },
+  {
+    "id": 171,
+    "question": "Kako u C otvarate fajl za čitanje?",
+    "answers": [
+      "open(\"file\",O_RDONLY);",
+      "open(\"file\",\"rw\");",
+      "fopen(\"file\",\"w\");",
+      "fopen(\"file\",\"r\");"
+    ],
+    "correctAnswer": "fopen(\"file\",\"r\");"
+  },
+  {
+    "id": 172,
+    "question": "Šta radi `grep --color=auto 'ERROR' log`?",
+    "answers": [
+      "Ne radi ništa",
+      "Boji reči ERROR u boji",
+      "Kopira log fajl",
+      "Preusmerava boju"
+    ],
+    "correctAnswer": "Boji reči ERROR u boji"
+  },
+  {
+    "id": 173,
+    "question": "Šta radi `uname -a`?",
+    "answers": [
+      "Prikazuje samo hostname",
+      "Prikazuje sve informacije o sistemu",
+      "Prikazuje verziju kernela",
+      "Prikazuje samo arhitekturu"
+    ],
+    "correctAnswer": "Prikazuje sve informacije o sistemu"
   }
-] 
+]
