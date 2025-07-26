@@ -27,7 +27,12 @@ const McqView: React.FC<McqViewProps> = ({ question, onAnswer, onSkip }) => {
     if (selectedAnswers.length === 0 || showResult) return;
 
     const correctAnswers = Array.isArray(question.correctAnswer) ? question.correctAnswer : [question.correctAnswer];
-    const correct = selectedAnswers.length === correctAnswers.length && selectedAnswers.every(answer => correctAnswers.includes(answer));
+    
+    // Sort both arrays to ensure order doesn't affect comparison
+    const sortedSelected = [...selectedAnswers].sort();
+    const sortedCorrect = [...correctAnswers].sort();
+
+    const correct = JSON.stringify(sortedSelected) === JSON.stringify(sortedCorrect);
     
     setIsCorrect(correct);
     setShowResult(true);

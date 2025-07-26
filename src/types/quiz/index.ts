@@ -4,7 +4,7 @@ export interface Question {
   answers: string[]; // Empty array if it's an input question
   correctAnswer: string | string[];
   status?: QuestionStatus;
-  userAnswer?: string | string[];
+  userAnswer?: any;
   timestamp?: number;
 }
 

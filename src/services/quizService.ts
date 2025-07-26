@@ -44,7 +44,7 @@ export const loadQuestions = async (subject: string): Promise<Question[]> => {
       id: q.id || index + 1,
       question: q.question,
       answers: q.answers || [],
-      correctAnswer: q.correctAnswer
+      correctAnswer: q.correctAnswer || q.correctAnswers,
     }));
     
     return questions;

@@ -58,27 +58,39 @@ const generateSessionName = (subject: string, type: QuizType): string => {
 
 export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [activeSession, setActiveSession] = useState<QuizSession | null>(null);
-  const [allSessions, setAllSessions] = useState<QuizSession[]>([]);
-  const [customQuizzes, setCustomQuizzes] = useState<CustomQuiz[]>([]);
-  const [unknownQuestionStats, setUnknownQuestionStats] = useState<UnknownQuestionStat[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  
-  // Load data from localStorage on mount
-  useEffect(() => {
+
+  const [allSessions, setAllSessions] = useState<QuizSession[]>(() => {
     try {
       const savedSessions = localStorage.getItem(SESSIONS_STORAGE_KEY);
-      if (savedSessions) setAllSessions(JSON.parse(savedSessions));
-
-      const savedCustomQuizzes = localStorage.getItem(CUSTOM_QUIZZES_STORAGE_KEY);
-      if (savedCustomQuizzes) setCustomQuizzes(JSON.parse(savedCustomQuizzes));
-      
-      const savedStats = localStorage.getItem(UNKNOWN_STATS_KEY);
-      if (savedStats) setUnknownQuestionStats(JSON.parse(savedStats));
+      return savedSessions ? JSON.parse(savedSessions) : [];
     } catch (err) {
-      console.error('Error loading data from localStorage:', err);
+      console.error('Error loading sessions from localStorage:', err);
+      return [];
     }
-  }, []);
+  });
+
+  const [customQuizzes, setCustomQuizzes] = useState<CustomQuiz[]>(() => {
+    try {
+      const savedCustomQuizzes = localStorage.getItem(CUSTOM_QUIZZES_STORAGE_KEY);
+      return savedCustomQuizzes ? JSON.parse(savedCustomQuizzes) : [];
+    } catch (err) {
+      console.error('Error loading custom quizzes from localStorage:', err);
+      return [];
+    }
+  });
+  
+  const [unknownQuestionStats, setUnknownQuestionStats] = useState<UnknownQuestionStat[]>(() => {
+    try {
+      const savedStats = localStorage.getItem(UNKNOWN_STATS_KEY);
+      return savedStats ? JSON.parse(savedStats) : [];
+    } catch (err) {
+      console.error('Error loading stats from localStorage:', err);
+      return [];
+    }
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   
   // Save sessions to localStorage
   useEffect(() => {
