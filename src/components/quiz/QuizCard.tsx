@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import type { Question, QuizType, QuestionStatus } from '../../types/quiz';
+import type { Question, QuestionStatus } from '../../types/quiz';
 import McqView from './McqView';
 import InputView from './InputView';
 import { sanitizeHtml } from '../../lib/sanitizeHtml';
+import AddToCustomQuizModal from './AddToCustomQuizModal';
+import { useQuiz } from '../../contexts/QuizContext';
 
 interface QuizCardProps {
   question: Question;
@@ -12,7 +14,6 @@ interface QuizCardProps {
   onSkip: () => void;
   onJumpToQuestion: (index: number) => void;
   allQuestions: Question[];
-  quizType: QuizType;
 }
 
 const QuizCard: React.FC<QuizCardProps> = ({
@@ -23,11 +24,11 @@ const QuizCard: React.FC<QuizCardProps> = ({
   onSkip,
   onJumpToQuestion,
   allQuestions,
-  quizType,
 }) => {
-  // Determine if this is a multiple choice question based on the quiz type
-  const isViewMultipleChoice = quizType === 'multiple-choice';
+  const { addQuestionToCustomQuiz, getCustomQuizzes } = useQuiz();
+  const isViewMultipleChoice = Array.isArray(question?.answers) && question.answers.length > 0;
   const [showJumpDialog, setShowJumpDialog] = useState(false);
+  const [showAddToQuizModal, setShowAddToQuizModal] = useState(false);
   const [jumpToIndex, setJumpToIndex] = useState<string>('');
   
   const handleJump = () => {
@@ -37,6 +38,11 @@ const QuizCard: React.FC<QuizCardProps> = ({
       setShowJumpDialog(false);
       setJumpToIndex('');
     }
+  };
+
+  const handleAddToQuiz = (quizId: string | null, newQuizName?: string) => {
+    addQuestionToCustomQuiz(question, quizId, newQuizName);
+    setShowAddToQuizModal(false);
   };
   
   return (
@@ -55,6 +61,15 @@ const QuizCard: React.FC<QuizCardProps> = ({
               <div className="text-sm font-medium px-3 py-1 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]">
                 {isViewMultipleChoice ? 'Ponuđeni odgovori' : 'Unos odgovora'}
               </div>
+              <button
+                onClick={() => setShowAddToQuizModal(true)}
+                className="p-2 rounded-full bg-[#F3F4F6] hover:bg-[#E5E7EB] dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
+                title="Dodaj u custom kviz"
+              >
+                <svg className="w-5 h-5 text-[#6B7280]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+              </button>
               <button 
                 onClick={() => setShowJumpDialog(true)}
                 className="p-2 rounded-full bg-[#F3F4F6] hover:bg-[#E5E7EB] dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
@@ -122,6 +137,14 @@ const QuizCard: React.FC<QuizCardProps> = ({
           </div>
         </div>
       )}
+
+      {/* Add to custom quiz modal */}
+      <AddToCustomQuizModal
+        isOpen={showAddToQuizModal}
+        onClose={() => setShowAddToQuizModal(false)}
+        onAddToQuiz={handleAddToQuiz}
+        customQuizzes={getCustomQuizzes()}
+      />
     </div>
   );
 };

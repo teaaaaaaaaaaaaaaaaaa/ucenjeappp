@@ -16,13 +16,13 @@ const Footer: React.FC = () => {
             <Link to="/" className="text-sm text-blue-200 hover:text-white transition-colors">
               🏠 Home
             </Link>
-            <Link to="/linux" className="text-sm text-blue-200 hover:text-white transition-colors">
+            <Link to="/setup/linux" className="text-sm text-blue-200 hover:text-white transition-colors">
               🐧 Linux Quiz
             </Link>
-            <Link to="/programming" className="text-sm text-blue-200 hover:text-white transition-colors">
+            <Link to="/setup/programming" className="text-sm text-blue-200 hover:text-white transition-colors">
               💻 Programming Quiz
             </Link>
-            <Link to="/marketing" className="text-sm text-blue-200 hover:text-white transition-colors">
+            <Link to="/setup/marketing" className="text-sm text-blue-200 hover:text-white transition-colors">
               📈 Marketing Quiz
             </Link>
           </div>

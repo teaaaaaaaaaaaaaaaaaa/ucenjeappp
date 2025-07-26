@@ -248,7 +248,6 @@ const Quiz: React.FC = () => {
             onSkip={skipQuestion}
             onJumpToQuestion={jumpToQuestion}
             allQuestions={getAllQuestions()}
-            quizType={activeSession.type}
           />
         </div>
       </div>

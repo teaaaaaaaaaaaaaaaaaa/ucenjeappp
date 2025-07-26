@@ -9,17 +9,20 @@ import { Slider } from '@/components/ui/Slider';
 const QuizSetup: React.FC = () => {
   const { subject } = useParams<{ subject: string }>();
   const navigate = useNavigate();
-  const { initializeSession, loading, error } = useQuiz();
+  const { initializeSession, loading, error, getCustomQuiz } = useQuiz();
   
-  const [quizType, setQuizType] = useState<'multiple-choice' | 'input'>('multiple-choice');
+  const [quizType, setQuizType] = useState<'multiple-choice' | 'input' | 'manual'>('multiple-choice');
   const [questionRange, setQuestionRange] = useState<[number, number]>([1, 10]);
   const [sessionName, setSessionName] = useState('');
   const [availableQuestions, setAvailableQuestions] = useState<{mcq: number, input: number, total: number}>({mcq: 0, input: 0, total: 0});
   const [maxQuestions, setMaxQuestions] = useState(20);
+
+  const isCustomQuiz = subject?.startsWith('custom-');
+  const customQuizId = isCustomQuiz ? subject?.replace('custom-', '') : undefined;
   
   useEffect(() => {
     async function fetchQuestionCounts() {
-      if (subject) {
+      if (subject && !isCustomQuiz) {
         try {
           const allQuestions = await loadQuestions(subject);
           const mcqQuestions = allQuestions.filter(q => q.answers.length > 0);
@@ -31,10 +34,20 @@ const QuizSetup: React.FC = () => {
         } catch (e) {
           console.error("Failed to load questions for count", e);
         }
+      } else if (isCustomQuiz && customQuizId) {
+        const customQuiz = getCustomQuiz(customQuizId);
+        if(customQuiz) {
+          setAvailableQuestions({
+            mcq: customQuiz.questions.length,
+            input: customQuiz.questions.length,
+            total: customQuiz.questions.length,
+          });
+          setQuizType('manual');
+        }
       }
     }
     fetchQuestionCounts();
-  }, [subject]);
+  }, [subject, isCustomQuiz, customQuizId, getCustomQuiz]);
   
   useEffect(() => {
     const currentMax = quizType === 'multiple-choice' ? availableQuestions.mcq : availableQuestions.input;
@@ -58,21 +71,31 @@ const QuizSetup: React.FC = () => {
     if (subject) {
       const typeNames = {
         'multiple-choice': 'Ponuđeni odgovori',
-        'input': 'Unos odgovora'
+        'input': 'Unos odgovora',
+        'manual': 'Ručni unos'
       };
       
       const date = new Date();
       const formattedDate = `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
       const formattedTime = `${date.getHours()}:${String(date.getMinutes()).padStart(2, '0')}`;
       
-      const displayName = subject === 'linux-deep' ? 'Linux Deep' : subject.charAt(0).toUpperCase() + subject.slice(1);
+      let displayName = 'Kviz';
+
+      if(isCustomQuiz && customQuizId) {
+        const customQuiz = getCustomQuiz(customQuizId);
+        displayName = customQuiz?.name || "Custom Kviz";
+      } else if(subject) {
+        displayName = subject === 'linux-deep' ? 'Linux Deep' : subject.charAt(0).toUpperCase() + subject.slice(1);
+      }
+      
       setSessionName(`${displayName} - ${typeNames[quizType]} (${formattedDate} ${formattedTime})`);
     }
-  }, [subject, quizType]);
+  }, [subject, quizType, isCustomQuiz, customQuizId, getCustomQuiz]);
   
   // Get emoji for subject
   const getEmoji = (subjectName: string | undefined) => {
     if (!subjectName) return '🧠';
+    if (isCustomQuiz) return '🛠️';
     switch (subjectName) {
       case 'linux':
       case 'linux-deep':
@@ -115,7 +138,7 @@ const QuizSetup: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-[#2563EB]/20 to-[#10B981]/20 rounded-full blur-xl opacity-70 animate-pulse"></div>
           </div>
           <h1 className="text-3xl font-bold text-[#111827] dark:text-white mb-2 capitalize">
-            {subject === 'linux-deep' ? 'Linux Deep' : subject} Kviz
+            {isCustomQuiz ? getCustomQuiz(customQuizId!)?.name : (subject === 'linux-deep' ? 'Linux Deep' : subject)} Kviz
           </h1>
           <p className="text-[#6B7280] dark:text-gray-300">
             Podesite parametre kviza pre početka
@@ -160,6 +183,7 @@ const QuizSetup: React.FC = () => {
                         ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
                         : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
                     }`}
+                    disabled={isCustomQuiz}
                   >
                     <div className="w-10 h-10 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-3 flex-shrink-0">
                       <svg className="w-5 h-5 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -182,6 +206,7 @@ const QuizSetup: React.FC = () => {
                         ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
                         : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
                     }`}
+                    disabled={isCustomQuiz}
                   >
                     <div className="w-10 h-10 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-3 flex-shrink-0">
                       <svg className="w-5 h-5 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -218,7 +243,7 @@ const QuizSetup: React.FC = () => {
                         max={maxQuestions}
                         step={1}
                         minStepsBetweenThumbs={1}
-                        disabled={maxQuestions === 0}
+                        disabled={maxQuestions === 0 || isCustomQuiz}
                     />
                 </div>
               </div>

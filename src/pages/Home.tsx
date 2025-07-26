@@ -9,7 +9,15 @@ import UnknownStats from '../components/stats/UnknownStats';
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
-  const { getSessions, continueSession, deleteSession, renameSession } = useQuiz();
+  const { 
+    getSessions, 
+    continueSession, 
+    deleteSession, 
+    renameSession,
+    getCustomQuizzes,
+    startCustomQuiz,
+    deleteCustomQuiz,
+  } = useQuiz();
   
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [availableSubjects, setAvailableSubjects] = useState<string[]>([]);
@@ -31,8 +39,14 @@ const Home: React.FC = () => {
     fetchSubjects();
   }, []);
   
-  // Get sessions for the selected subject
+  // Get sessions and custom quizzes for the selected subject
   const sessions = getSessions(selectedSubject || undefined);
+  const customQuizzes = getCustomQuizzes();
+
+  const handleStartCustomQuiz = (quizId: string) => {
+    startCustomQuiz(quizId);
+    navigate('/quiz/session');
+  };
   
   // Handle continue session
   const handleContinueSession = (sessionId: string) => {
@@ -50,11 +64,10 @@ const Home: React.FC = () => {
     renameSession(sessionId, newName);
   };
   
-  // Handle navigate to setup
   const handleNavigateToSetup = (subject: string) => {
     navigate(`/setup/${subject}`);
   };
-  
+
   // Get emoji for subject
   const getEmoji = (subject: string) => {
     switch (subject) {
@@ -66,6 +79,8 @@ const Home: React.FC = () => {
       case 'marketing':
       case 'marketing-deep':
         return '📈';
+      case 'custom':
+        return '🛠️';
       default:
         return '🧠';
     }
@@ -84,6 +99,8 @@ const Home: React.FC = () => {
         return 'Marketing';
       case 'marketing-deep':
         return 'Marketing Deep';
+      case 'custom':
+        return 'Custom';
       default:
         return subject;
     }
@@ -132,7 +149,7 @@ const Home: React.FC = () => {
           </div>
           
           <div className="p-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <button
                 onClick={() => setSelectedSubject(null)}
                 className={`p-4 rounded-lg border transition-all flex items-center ${
@@ -152,6 +169,26 @@ const Home: React.FC = () => {
                 </div>
               </button>
               
+              <button
+                  key="custom"
+                  onClick={() => setSelectedSubject('custom')}
+                  className={`p-4 rounded-lg border transition-all flex items-center ${
+                    selectedSubject === 'custom'
+                      ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
+                      : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
+                  }`}
+                >
+                  <div className="w-12 h-12 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-2xl">{getEmoji('custom')}</span>
+                  </div>
+                  <div className="text-left">
+                    <h3 className="font-medium text-[#111827] dark:text-white mb-1 capitalize">{getSubjectDisplayName('custom')}</h3>
+                    <p className="text-xs text-[#6B7280] dark:text-gray-400">
+                      {customQuizzes.length} {customQuizzes.length === 1 ? 'kviz' : customQuizzes.length > 1 && customQuizzes.length < 5 ? 'kviza' : 'kvizova'}
+                    </p>
+                  </div>
+                </button>
+
               {availableSubjects.map(subject => (
                 <button
                   key={subject}
@@ -191,59 +228,80 @@ const Home: React.FC = () => {
           </div>
         </div>
         
-        {/* Sessions */}
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden">
-          <div className="p-6 border-b border-gray-100 dark:border-gray-700">
-            <h2 className="text-xl font-bold text-[#111827] dark:text-white flex items-center">
-              <svg className="w-6 h-6 mr-2 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              {selectedSubject ? `${getSubjectDisplayName(selectedSubject)} sesije` : 'Sve sesije'}
-            </h2>
+        {/* Sessions Section */}
+        {selectedSubject !== 'custom' && (
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
+            <div className="p-6 border-b border-gray-100 dark:border-gray-700">
+              <h2 className="text-xl font-bold text-[#111827] dark:text-white flex items-center">
+                <svg className="w-6 h-6 mr-2 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                </svg>
+                Aktivne sesije
+              </h2>
+            </div>
+            <div className="p-6">
+              {sessions.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {sessions.map(session => (
+                    <SessionCard 
+                      key={session.id}
+                      session={session}
+                      onClick={handleContinueSession}
+                      onDelete={handleDeleteSession}
+                      onRename={handleRenameSession}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-12">
+                  <h3 className="text-lg font-medium text-[#6B7280] dark:text-gray-400">Nema aktivnih sesija za ovu temu.</h3>
+                  {selectedSubject && selectedSubject !== 'custom' && (
+                    <Button onClick={() => handleNavigateToSetup(selectedSubject)} className="mt-6">
+                      Započni prvi kviz
+                    </Button>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
-          
-          <div className="p-6">
-            {sessions.length > 0 ? (
+        )}
+
+        {/* Custom Quizzes */}
+        {(selectedSubject === 'custom' || !selectedSubject) && customQuizzes.length > 0 && (
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
+            <div className="p-6 border-b border-gray-100 dark:border-gray-700">
+              <h2 className="text-xl font-bold text-[#111827] dark:text-white flex items-center">
+                <svg className="w-6 h-6 mr-2 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                Custom Kvizovi
+              </h2>
+            </div>
+            <div className="p-6">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {sessions.map(session => (
-                  <SessionCard 
-                    key={session.id}
-                    session={session}
-                    onClick={handleContinueSession}
-                    onDelete={handleDeleteSession}
-                    onRename={handleRenameSession}
-                  />
+                {customQuizzes.map(quiz => (
+                  <div key={quiz.id} className="bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow cursor-pointer" onClick={() => handleStartCustomQuiz(quiz.id)}>
+                    <div className="p-6">
+                      <h3 className="font-bold text-lg text-[#111827] dark:text-white">{quiz.name}</h3>
+                      <p className="text-sm text-[#6B7280] dark:text-gray-400 mt-1">{quiz.questionsCount} pitanja</p>
+                    </div>
+                    <div className="px-6 py-3 bg-[#F9FAFB] dark:bg-gray-800/50 border-t border-gray-100 dark:border-gray-700 flex justify-between items-center">
+                      <span className="text-xs text-[#6B7280] dark:text-gray-400">Kreirano: {new Date(quiz.createdAt).toLocaleDateString()}</span>
+                      <Button variant="danger" size="sm" onClick={(e) => { e.stopPropagation(); deleteCustomQuiz(quiz.id); }}>Obriši</Button>
+                    </div>
+                  </div>
                 ))}
               </div>
-            ) : (
-              <div className="text-center py-12">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[#F3F4F6] dark:bg-gray-700 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-[#6B7280]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-medium text-[#111827] dark:text-white mb-2">Nema sesija</h3>
-                <p className="text-[#6B7280] dark:text-gray-400 mb-6">
-                  {selectedSubject 
-                    ? `Nema sačuvanih sesija za temu ${getSubjectDisplayName(selectedSubject)}.` 
-                    : 'Nema sačuvanih sesija. Započnite novi kviz da biste kreirali sesiju.'}
-                </p>
-                
-                {selectedSubject && (
-                  <Button 
-                    onClick={() => handleNavigateToSetup(selectedSubject)}
-                    className="bg-gradient-to-r from-[#2563EB] to-[#10B981] text-white hover:shadow-lg"
-                  >
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
-                    Započni prvi kviz
-                  </Button>
-                )}
-              </div>
-            )}
+            </div>
           </div>
-        </div>
+        )}
+        
+        {selectedSubject === 'custom' && customQuizzes.length === 0 && (
+           <div className="text-center py-12 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
+             <h3 className="text-lg font-bold text-[#111827] dark:text-white">Nema kreiranih custom kvizova.</h3>
+             <p className="mt-2 text-[#6B7280] dark:text-gray-400">Dodajte pitanja u novi kviz dok rešavate postojeće kvizove.</p>
+           </div>
+        )}
 
         {/* "Ovo ne znaš" Stats Section */}
         <UnknownStats />

@@ -27,7 +27,7 @@ export interface QuizSession {
   isCompleted: boolean;
 }
 
-export type QuizType = 'multiple-choice' | 'input' | 'manual';
+export type QuizType = 'multiple-choice' | 'input' | 'manual' | 'custom';
 
 export interface QuizSettings {
   subject: string;

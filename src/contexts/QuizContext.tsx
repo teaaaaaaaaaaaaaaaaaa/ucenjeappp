@@ -1,12 +1,14 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { Question, QuizSession, QuizType, QuizSettings, SessionSummary, QuestionStatus } from '../types/quiz';
 import type { UnknownQuestionStat } from '../types/stats';
+import type { CustomQuiz, CustomQuizSummary } from '../types/quiz/custom';
 import { loadQuestions } from '../services/quizService';
 import { v4 as uuidv4 } from 'uuid';
 
 interface QuizContextType {
   activeSession: QuizSession | null;
   allSessions: SessionSummary[];
+  customQuizzes: CustomQuizSummary[];
   unknownQuestionStats: UnknownQuestionStat[];
   loading: boolean;
   error: string | null;
@@ -21,6 +23,11 @@ interface QuizContextType {
   renameSession: (sessionId: string, newName: string) => void;
   resetUnknownStats: () => void;
   resetUnknownStatsForSubject: (subject: string) => void;
+  addQuestionToCustomQuiz: (question: Question, quizId: string | null, newQuizName?: string) => void;
+  deleteCustomQuiz: (quizId: string) => void;
+  getCustomQuizzes: () => CustomQuizSummary[];
+  getCustomQuiz: (quizId: string) => CustomQuiz | null;
+  startCustomQuiz: (quizId: string) => void;
   getCurrentQuestion: () => Question | null;
   getProgress: () => { completed: number; total: number; correct: number; incorrect: number; skipped: number; partiallyCorrect: number };
   getSessions: (subject?: string) => SessionSummary[];
@@ -30,6 +37,7 @@ interface QuizContextType {
 const QuizContext = createContext<QuizContextType | undefined>(undefined);
 
 const SESSIONS_STORAGE_KEY = 'quiz_sessions';
+const CUSTOM_QUIZZES_STORAGE_KEY = 'custom_quizzes';
 const UNKNOWN_STATS_KEY = 'unknown_question_stats';
 
 // Generate a default session name based on subject and type
@@ -37,7 +45,8 @@ const generateSessionName = (subject: string, type: QuizType): string => {
   const typeNames = {
     'multiple-choice': 'Ponuđeni odgovori',
     'input': 'Unos odgovora',
-    'manual': 'Ručni izbor'
+    'manual': 'Ručni izbor',
+    'custom': 'Custom'
   };
   
   const date = new Date();
@@ -50,27 +59,28 @@ const generateSessionName = (subject: string, type: QuizType): string => {
 export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [activeSession, setActiveSession] = useState<QuizSession | null>(null);
   const [allSessions, setAllSessions] = useState<QuizSession[]>([]);
+  const [customQuizzes, setCustomQuizzes] = useState<CustomQuiz[]>([]);
   const [unknownQuestionStats, setUnknownQuestionStats] = useState<UnknownQuestionStat[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
-  // Load sessions and stats from localStorage on mount
+  // Load data from localStorage on mount
   useEffect(() => {
     try {
       const savedSessions = localStorage.getItem(SESSIONS_STORAGE_KEY);
-      if (savedSessions) {
-        setAllSessions(JSON.parse(savedSessions));
-      }
+      if (savedSessions) setAllSessions(JSON.parse(savedSessions));
+
+      const savedCustomQuizzes = localStorage.getItem(CUSTOM_QUIZZES_STORAGE_KEY);
+      if (savedCustomQuizzes) setCustomQuizzes(JSON.parse(savedCustomQuizzes));
+      
       const savedStats = localStorage.getItem(UNKNOWN_STATS_KEY);
-      if (savedStats) {
-        setUnknownQuestionStats(JSON.parse(savedStats));
-      }
+      if (savedStats) setUnknownQuestionStats(JSON.parse(savedStats));
     } catch (err) {
       console.error('Error loading data from localStorage:', err);
     }
   }, []);
   
-  // Save sessions to localStorage whenever they change
+  // Save sessions to localStorage
   useEffect(() => {
     try {
       localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(allSessions));
@@ -79,7 +89,16 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, [allSessions]);
 
-  // Save stats to localStorage whenever they change
+  // Save custom quizzes to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(CUSTOM_QUIZZES_STORAGE_KEY, JSON.stringify(customQuizzes));
+    } catch (err) {
+      console.error('Error saving custom quizzes to localStorage:', err);
+    }
+  }, [customQuizzes]);
+
+  // Save stats to localStorage
   useEffect(() => {
     try {
       localStorage.setItem(UNKNOWN_STATS_KEY, JSON.stringify(unknownQuestionStats));
@@ -117,6 +136,78 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
         return [...prevStats, newStat];
       }
     });
+  };
+
+  const addQuestionToCustomQuiz = (question: Question, quizId: string | null, newQuizName?: string) => {
+    if (quizId) { // Add to existing quiz
+      setCustomQuizzes(prev => prev.map(quiz => {
+        if (quiz.id === quizId && !quiz.questions.some(q => q.id === question.id)) {
+          return {
+            ...quiz,
+            questions: [...quiz.questions, question],
+            lastUpdatedAt: Date.now()
+          };
+        }
+        return quiz;
+      }));
+    } else if (newQuizName) { // Create new quiz
+      const newQuiz: CustomQuiz = {
+        id: uuidv4(),
+        name: newQuizName,
+        subject: 'custom',
+        questions: [question],
+        createdAt: Date.now(),
+        lastUpdatedAt: Date.now(),
+      };
+      setCustomQuizzes(prev => [...prev, newQuiz]);
+    }
+  };
+
+  const deleteCustomQuiz = (quizId: string) => {
+    setCustomQuizzes(prev => prev.filter(quiz => quiz.id !== quizId));
+  };
+  
+  const getCustomQuizzes = (): CustomQuizSummary[] => {
+    return customQuizzes.map(quiz => ({
+      id: quiz.id,
+      name: quiz.name,
+      subject: quiz.subject,
+      questionsCount: quiz.questions.length,
+      createdAt: quiz.createdAt,
+      lastUpdatedAt: quiz.lastUpdatedAt,
+    })).sort((a, b) => b.lastUpdatedAt - a.lastUpdatedAt);
+  };
+
+  const getCustomQuiz = (quizId: string): CustomQuiz | null => {
+    return customQuizzes.find(q => q.id === quizId) || null;
+  };
+  
+  const startCustomQuiz = (quizId: string) => {
+    const quiz = getCustomQuiz(quizId);
+    if (!quiz) {
+      setError("Custom quiz not found.");
+      return;
+    }
+
+    const newSession: QuizSession = {
+      id: uuidv4(),
+      name: quiz.name,
+      subject: quiz.subject,
+      type: 'custom', 
+      questions: quiz.questions.map(q => ({ ...q, status: 'unanswered' })),
+      currentQuestionIndex: 0,
+      correctAnswers: 0,
+      partiallyCorrectAnswers: 0,
+      incorrectAnswers: 0,
+      skippedQuestions: 0,
+      remainingQuestions: [...quiz.questions],
+      createdAt: Date.now(),
+      lastUpdatedAt: Date.now(),
+      isCompleted: false,
+    };
+
+    setActiveSession(newSession);
+    setAllSessions(prev => [...prev, newSession]);
   };
 
   // Initialize a new quiz session
@@ -496,6 +587,7 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
         isCompleted: session.isCompleted
       };
     }),
+    customQuizzes: getCustomQuizzes(),
     unknownQuestionStats,
     loading,
     error,
@@ -510,6 +602,11 @@ export const QuizProvider: React.FC<{ children: React.ReactNode }> = ({ children
     renameSession,
     resetUnknownStats,
     resetUnknownStatsForSubject,
+    addQuestionToCustomQuiz,
+    deleteCustomQuiz,
+    getCustomQuizzes,
+    getCustomQuiz,
+    startCustomQuiz,
     getCurrentQuestion,
     getProgress,
     getSessions,

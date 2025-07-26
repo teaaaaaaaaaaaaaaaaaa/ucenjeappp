@@ -24,6 +24,9 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
  * Loads questions for a specific subject from its JSON file
  */
 export const loadQuestions = async (subject: string): Promise<Question[]> => {
+  if (subject === 'custom') {
+    return []; // Custom quizzes are handled by the context
+  }
   try {
     const filePath = SUBJECT_FILES[subject];
     if (!filePath) {
