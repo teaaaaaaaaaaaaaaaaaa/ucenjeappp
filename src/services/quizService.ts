@@ -6,6 +6,7 @@ const SUBJECT_FILES: Record<string, string> = {
   'programming': '/data/programming.json',
   'marketing': '/data/marketing.json',
   'marketing-deep': '/data/marketing-deep.json',
+  'aros': '/data/aros.json',
 };
 
 /**

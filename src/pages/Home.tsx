@@ -79,6 +79,8 @@ const Home: React.FC = () => {
       case 'marketing':
       case 'marketing-deep':
         return '📈';
+      case 'aros':
+        return '⚙️';
       case 'custom':
         return '🛠️';
       default:
@@ -99,6 +101,8 @@ const Home: React.FC = () => {
         return 'Marketing';
       case 'marketing-deep':
         return 'Marketing Deep';
+      case 'aros':
+        return 'Operativni Sistem';
       case 'custom':
         return 'Custom';
       default:

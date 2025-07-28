@@ -104,6 +104,8 @@ const QuizSetup: React.FC = () => {
         return '💻';
       case 'marketing':
         return '📈';
+      case 'aros':
+        return '⚙️';
       default:
         return '🧠';
     }

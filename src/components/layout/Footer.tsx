@@ -25,6 +25,9 @@ const Footer: React.FC = () => {
             <Link to="/setup/marketing" className="text-sm text-blue-200 hover:text-white transition-colors">
               📈 Marketing Quiz
             </Link>
+            <Link to="/setup/aros" className="text-sm text-blue-200 hover:text-white transition-colors">
+              ⚙️ OS Quiz
+            </Link>
           </div>
         </div>
         <div className="mt-6 pt-6 border-t border-blue-800 flex justify-center">

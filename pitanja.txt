@@ -1,0 +1,557 @@
+1.	(10 ponavljanja)
+Objasni rešenje problema međusobnog isključenja i sinhronizacije procesa koje je uveo E. Dijkstra — to je ono wait i post valjda.
+Dijkstra je uveo semafore kao celobrojne promenljive nad kojima se mogu vršiti operacije P (wait) i V (post). Semafor se inicijalizuje na neku nenegativnu vrednost. Operacija P(s) smanjuje vrednost semafora za 1; ako posle toga semafor postane negativan, pozivajući proces se blokira. Operacija V(s) povećava vrednost semafora za 1; ako je nova vrednost semafora ≤ 0, jedan od blokiranih procesa biva odblokiran. Negativna vrednost semafora označava broj procesa koji čekaju na odblokiranje. Ovim mehanizmom se obezbeđuje da se najviše onoliko procesa nađe u kritičnoj sekciji koliko je početna vrednost semafora, a svi ostali procesi koji pozovu P dok je semafor 0 ili negativan ostaju blokirani dok ih neka V ne odblokira.
+2.	(5 ponavljanja)
+Navesti funkcije preslikavanja kod upravljanja memorijom.
+1.	Preslikavanje imena – simboličke (programske) adrese pretvara u interne, jedinstvene identifikatore.
+2.	Preslikavanje adresa – interne ili programske adrese prevodi u fizičke memorijske adrese.
+3.	Preslikavanje sadržaja – fizičke memorijske adrese povezuje sa podacima (vrednostima) koje se čuvaju na tim adresama.
+3.	(5 ponavljanja)
+Objasni kako nastaje i kako se servisira stranični prekid.
+Stranični prekid (page fault) nastaje kada proces pokuša da pristupi stranici koja nije učitana u fizičku memoriju. Tada proces generiše prekid i prelazi u stanje blokiran. Servisiranje obuhvata sledeće korake:
+1.	Proveriti da li je tražena adresa validna; ako jeste, nastaviti dalje, a ako nije, prijaviti grešku.
+2.	Prekinuti izvršavanje procesa.
+3.	Naći slobodan okvir (frame) u RAM u; ako nema slobodnih, izabrati i izbaciti neku postojeću stranu.
+4.	Učitati traženu stranu sa diska u taj okvir.
+5.	Ažurirati tabelu stranica tako da sad pokazuje na novi okvir.
+6.	Ponovo pokrenuti instrukciju koja je izazvala prekid.
+4.	(4 ponavljanja)
+Prikaži komplementan model koji ima 2 stanja različitih stanja suspendovanih procesa, označi sve moguće prelaze između stanja procesa.
+/
+5.	(4 ponavljanja)
+Metode dodele prostora na disku koje koriste šeme sa indeksima svakom fajlu dodeljuju posebnu tabelu indeksa. Koja su moguća rešenja za dodelu prostora na disku tabeli indeksa?
+o	Kontiguirana (susедna) alokacija blokova
+o	Povezana lista blokova (fiksne veličine)
+o	Višeslojni (multilevel) indeks
+6.	(5 ponavljanja)
+Objasni šta su primarne particije na disku i šta su logičke particije na disku.
+o	Primarne particije – particije sa kojih se može podići operativni sistem; svaki disk mora imati bar jednu primarnu.
+o	Logičke particije – koriste se isključivo za skladištenje podataka i ne mogu služiti za pokretanje OS.
+7.	(3 ponavljanja)
+Da li neki od algoritama FCFS, SRTF ili RR može da dovede do gladovanja procesora? Obrazloži odgovor. (10p)
+Da, kod SRTF (Shortest Remaining Time First) kraći procesi se stalno schedul-uju ispred dužih, pa procesi sa većim preostalim vremenom izvršavanja mogu praktično nikada ne dobiti CPU – dolazi do starvation.
+8.	(3 ponavljanja)
+**T/N:
+o	Straničenje se rešava internu fragmentaciju jer su sve stranice iste veličine.
+o	Kernel je jezgro OS i vrši translaciju virtuelnih u fizičke adrese.
+o	Broj bita u datoj virtuelnoj adresi je uvek jednak broju bita odgovarajuće fizičke adrese.
+o	Trashing karakterišu spore performanse i visoka iskorišćenost centralnog procesora.**
+o	Straničenje rešava internu fragmentaciju… NETAČNO (straničenje uzrokuje internu fragmentaciju)
+o	Kernel vrši translaciju adresa… NETAČNO (to radi MMU)
+o	Broj bita u virtuelnoj i fizičkoj adresi je uvek isti… NETAČNO (zavisno od arhitekture)
+o	Trashing karakteriše sporo izvršavanje i niska iskorišćenost CPU… NETAČNO
+9.	(3 ponavljanja)
+Objasniti globalno i lokalno straničenje kao načine upravljanja OS zamenom stranica u operativnoj memoriji.
+o	Globalno straničenje – posle page fault a kandidat za izbacivanje može biti bilo koja strana iz celog sistema.
+o	Lokalno straničenje – kandidati za izbacivanje su samo strane koje pripadaju procesu koji je izazvao prekid.
+10.	(3 ponavljanja)
+Koje vrste organizacije virtuelne memorije postoje kod upravljanja memorijom.
+o	Segmentna
+o	Stranična
+o	Segmentno stranična
+11.	(2 ponavljanja)
+Prikazati dijagram stanja procesa, model sa 2 stanja suspendovanih procesa.
+/
+12.	(2 ponavljanja)
+Šta je deskriptor procesa ili Kontrolni blok procesa (KBP) i koje podatke sadrži?
+Kontrolni blok procesa (KBP) je struktura u OS u koja sadrži:
+o	PID i ime procesa
+o	Vlasnik (user)
+o	Prioritet, PSW
+o	Trenutno stanje i registarski kontekst
+o	Adresni prostor (program i podaci)
+13.	(2 ponavljanja)
+Objasni HPF algoritam dodele procesora.
+HPF (Highest Priority First) dodeljuje CPU procesu sa najvišim prioritetom; novi proces može preuzeti CPU ako ima veći prioritet od tekućeg.
+14.	(2 ponavljanja)
+Algoritmi dodele procesora ili algoritmi planiranja koriste se kod upravljanja izvršavanjem procesa u operativnim sistemima, tj. za dodelu procesorskog vremena procesima.
+/
+15.	(2 ponavljanja)
+Objasni način rada SCAN algoritma na dodelu diska.
+Glava diska se kreće u jednom smeru servisira zahteve uzduž traka od unutrašnje ka spoljašnjoj ili obrnuto, a kada stigne do kraja, menjа pravac i vraća se istim putem. Time se eliminiše starvation i redosled je predvidljiv.
+16.	(2 ponavljanja)
+Koji je problem karakterističan za SSTF algoritam, a rešen je primenom SCAN algoritma?
+Starvation (gladovanje) kraćih udaljenosti može beskonačno odgađati zahtev za udaljenijim cilindrima.
+17.	(2 ponavljanja)
+Dati sistem ima p procesa. Svakom procesu je potrebno najviše m resursa datog tipa. Ukupno je raspoloživo r resursa. Koji uslov mora biti ispunjen da se u datom sistemu ne može pojaviti DeadLock?
+r  ≥  p (m−1)  +  1 r \;\ge\; p\,(m-1)\;+\;1 
+18.	(2 ponavljanje)
+Koji je glavni nedostatak malog vremenskog kvantuma prilikom dodele procesora procesima?
+Previše čest context switching, što značajno smanjuje efikasnost CPU a.
+19.	(1 ponavljanje)
+Prikazati skup mogućih stanja sistema sa stanovišta potpunog zastoja.
+/
+20.	(1 ponavljanje)
+Objasniti kako nastaje efekat konvoja kod algoritma planiranja dodele procesora.
+Konvoj efekat nastaje kada dugi proces na CPU u sprečava kraće da se izvrše; pošto su kratki procesi “ispod” dugog, svi čekaju, pa nastaje zastoj gomile procesa.
+21.	(1 ponavljanje)
+Objasni značenje parametara koji se pokazuju kada se u Linuxu pozove ps aux — da prikaže PID, VIRT, PR, RES, S — to traže da se objasni.
+o	PID – identifikacioni broj procesa
+o	USER – vlasnik procesa
+o	PRI (Priority) – trenutni kernel prioritet
+o	NI (Nice) – korisnička nijansa za prioritet
+o	VIRT – ukupna virtuelna memorija koju proces koristi
+o	RES – fizička memorija (RAM) koju proces koristi
+o	SHR – deljena memorija
+o	S – status procesa (R/S/D/…)
+o	%CPU – procenat korišćenja CPU-a
+o	%MEM – procenat korišćenja memorije
+22.	(1 ponavljanje)
+Navesti potrebne i dovoljne uslove za nastanak potpunog zastoja (deadlock).
+o	Međusobno isključenje
+o	Posedovanje i čekanje
+o	Kružno čekanje
+o	Nema prekidanja (no preemption)
+23.	(1 ponavljanje)
+Objasni termine C program i Shell program.
+o	C program – skup instrukcija napisanih u jeziku C, kompajlira se u izvršnu datoteku.
+o	Shell program – komandna linija ili interfejs koji prevodi korisničke komande u pozive OS a.
+24.	(1 ponavljanje)
+Svaka nit (thread) ima svoj stack — T/N. Korišćenje manje veličine stranica povećava veličinu tabele stranica — T/N. Objasni.
+o	Svaka nit ima svoj stek. TAČNO
+o	Manja veličina stranica ⇒ više stranica za isti prostor ⇒ veća tabela stranica. TAČNO
+25.	(1 ponavljanje)
+Objasni termin trashing u okviru OS.
+Trashing je stanje kada OS veći deo vremena troši na servisiranje straničnih prekida, a najmanje na stvarno izvršavanje procesa. Rešava se smanjenjem stepena multiprogramiranja.
+26.	(1 ponavljanje)
+Neka je proces P u stanju spreman za izvršavanje i neka planer odluči da nastavi izvršavanje procesa P. Kako će OS odrediti adresu sledeće instrukcije za izvršavanje procesa P? Koja sistemska tabela se koristi? Obrazloži.
+OS postavlja Program Counter na virtuelnu adresu sledeće instrukcije, a MMU pomoću tabele stranica prevede tu virtuelnu adresu u fizičku.
+27.	(1 ponavljanje)
+U kom stanju se nalaze procesi koji čekaju da im OS dodeli CPU?
+SPREMAN
+28.	(1 ponavljanje)
+Koja je glavna prednost modela deljene memorije u komunikaciji između procesa (IPC)?
+Povećana efikasnost—procesi mogu direktno čitati i pisati iste memorijske lokacije bez dupliranja podataka.
+29.	(1 ponavljanje)
+Neka je dat sistem koji ima n procesa koji se izvršavaju na jednom centralnom procesoru. Koliki je broj mogućih načina za dodelu centralnog procesora?
+n! n! 
+30.	(1 ponavljanje)
+U kojim slučajevima se za komunikaciju između 2 procesa koristi deljena memorija umesto razmene poruka (message passing)? Obrazloži.
+o	Kada oba procesa rade na istom računaru i treba im visok protok podataka.
+o	Kada je cilj minimizacija kopiranja i latencije—deljena memorija omogućava direktan pristup bez sistemskih poziva.
+31.	(1 ponavljanje)
+Definisati P i V operacije koje se koriste pri radu sa semaforima.
+o	P(s) (Proberen/wait) – smanjuje semafor za 1; ako je rezultat neg., proces se blokira.
+o	V(s) (Verhogen/post) – povećava semafor za 1; ako je vrednost semafora ≤ 0, jedan blokirani proces biva odblokiran.
+32.	(1 ponavljanje)
+Navesti probleme koji postoje kod softverske realizacije algoritama za upravljanje kritičnim sekcijama.
+0.	Konstantno testiranje promenljivih (busy waiting) troši CPU.
+1.	Implementacija zavisi od programera, pa su greške česte.
+2.	Ne postoji način da se nametne protokol—programer može zaobići koji god deo želi.
+3.	Protokoli su često previše složeni.
+33.	(1 ponavljanje)
+Navesti koja je osnovna razlika između ext3 i ext2 sistema datoteka.
+EXT3 dodaje journaling (logovanje transakcija) na osnovu EXT2 strukture, čime poboljšava pouzdanost pri padu sistema.
+
+
+
+
+
+6. Nek je dat bafer kapaciteta C poruka, process S koji upisuje podatke u bafer i proces R koji cita
+poruke iz bafera. Nek je broj poruka u baferu oznacen sa N. Koji uslovi moraju biti ispunjeni da
+sistem pravilno funkcionise? Pošiljalac S ne sme da šalje poruke kada je bafer pun, jer bi se ona izgubila
+− Primalac R ne sme da uzima poruku kada je bafer prazan, jer bi to mogao protumačiti kao signal
+da treba da prestane sa radom
+− Procesi ne smeju istovremeno pristupati baferu
+− Vrednost promenljive N mora, u trenutku pristupa baferu bilo kog procesa, biti jednaka stvarnom
+broju poruka u baferu
+
+9. Koje vrste planera postoje kod OS? Dugoročni planer - selektuje procese koji su poslati na izvršavanje i prebacuje ih u red procesa spremnih za izvršavanje. Kratkoročni planer - selektuje proces iz reda procesa spremnih za izvršavanje i dodeljuje mu centralni procesor
+
+10. Navesti i objasniti osnovne metode dodele prostora na disku. − dodela susednih memorijskih lokacija (dodelom susednih blokova) − dodela povezanih blokova fiksne veličine (susedni blokovi se povezuju u povezanu listu, i koriste se blokovi iste veličine) − korišćenje šema sa indeksima (svaki indeks u tabeli indeksa pokazuje na blokove diska koji sadrže stvarne podatke date datoteke)
+
+ 
+19. U kom delu računara se nalaze procesi u stanju: 1) Blokiran / suspendovan 2) Spreman / suspendovan? Koja je razlika između ova dva stanja procesa? 1) Proces je u spoljnoj memoriji i čeka na događaj 2) Proces je u spoljnoj memoriji, ne čeka na događaje, ali će postati spreman za izvršavanje kada ga OS vrati u memoriju. Proces koji je suspendovan prestaje da se takmiči za resurse, oslobađaju se resursi.
+
+21. Algoritmi planiranja, kriterijumi? − Iskorišćenje CPU-a − Propusnost − Vreme provedeno u sistemu − Vreme čekanja − Vreme odziva
+
+23. Veličina sistema omogućava programima da u vreme izvršavanja alociraju dodatni memorijski prostor. Šta je potrebno za podršku dinamičke lokacije u sledećim slučajevima? a) Kontinualna alokacija memorije – prebacivanje celog programa b) Upravljanje pomoću segmenata – premeštanje celog programa c) Upravljanje pomoću stranice – inkrementalna alokacija novih stranica je moguća bez potrebe premeštanja celog programa
+
+26. Objasniti šta je zaposleno čekanje – busy wait. Zaposleno čekanje je situacija kada proces koji pokušava da izvrši P operaciju u situaciji kada je vrednost promenljive S jednaka 0, troši vreme centralnog procesora, pri čemu ne može da napreduje dalje, a istovremeno onemogućava ostale procese da se izvršavaju
+28. Pretpostavite da imate trag pristupa stranama jednog procesa kome je dodeljeno m okvira strana u
+memoriji (koji su na početku izvršavanja procesa prazni). Dužina traga pristupa stranama je p (znači da je
+bilo ukupno p pristupa memoriji), pri čemu broj različitih strana kojima se pristupilo iznosi n. Bez obzira
+na algoritam zamene strane navedite:
+ a) koja je donja granica broja straničnih prekida?
+ b) koja je gornja granica broja straničnih prekida?
+a) Donja granica je n. To je najmanji mogući broj pristupa glavnoj memoriji, jer se svaka različita stranica
+mora “load”-ovati u glavnu memoriju.
+b) Gornja granica zavisi od odnosa između m i n.
+− Ako je m>=n, tada je gornja granica n jer neće biti potrebno da se zameni bilo koja stranica (biće
+dovoljno mesta za sve).
+− Ako je m<n , tada je gornja granica p je se može za svaku stranicu pojaviti stranični prekid
+
+29. Zašto je značajno da se minimizira broj straničnih prekida? Kada nastane stranični prekid, podaci se prebacuju sa diska u glavnu memoriju. Kako je disk veoma spor uređaj, to za dati proces rezultuje u kašnjenju (od više miliona ciklusa). 30. Navesti pune nazive skraćenica STBR i STLR koje se koriste kod upravljanja memorijom pomoću segmenata. Šta sadrži STBR registar a šta STLR? • STBR: Segment Table Base Register - sadrži adresu tabele segmenata • STLR: Segment Table Length Register - sadrži broj segmenata za dati program 31. Šta je TLB? TLB (Translation Lookaside Buffer) je asocijativna memorija koja se koristi u radu sa tabelama stranica. Sadrži broj stranica i broj okvira. Broj asocijativnih registra i TLB-a je između 8 i 2048. Ukoliko broj stranice nije u TLB-u, tada se mora pročitati tabela stranica sa diska da bi se dobio broj okvira. Može se reći i da je TLB namenski keš za podatke iz tabele stranica koji služi da smanji broj pristupa disku prilikom pristupa određenoj adresi.
+
+32. U kom stanju se nalaze procesi koji čekaju da im operativni sistem dodeli CPU, koja je glavna
+prednost deljene memorije u komunikaciji između procesora?
+SPREMAN; Deljenje memorije može poboljšati efikasnost resursa jer procesi mogu pristupiti istim
+podacima bez potrebe za dupliranjem memorije.
+33. Objasniti značenja parametara:
+PID - identifikacioni broj procesa za svako izvršavanje procesa
+USER - predstavlja korisnika koji je vlasnik trenutnog procesa
+PRI (Priority) - predstavlja kernelov trenutni prioritet izvršavanja procesa
+NI (Nice value) - ova vrednost daje nagoveštaj kernelu koji proces treba da se sledeći izvrši. Ovom
+vrednošću može upravljati korisnik i na taj način uticati na odluku rasporeda izvršavanja procesa.
+Podrazumevana vrednost je 0 i ona ne utiče na odluku kernela, dok manja vrednost označava veći
+prioritet
+VIRT - predstavlja ukupan utrošak virtuelne memorije za izvršavanje procesa
+RES - predstavlja ukupan utrošak fizičke memorije za izvršavanje procesa
+SHR - predstavlja ukupan utrošak deljene memorije za izvršavanje procesa
+S - status procesa (R – Running, S – Sleeping)
+CPU% - predstavlja zauzetost procesora u procentima u toku izvršavanja procesa
+MEM% - predstavlja zauzetost memorije u procentima u toku izvršavanja procesa
+
+37. TAČNO / NETAČNO
+• Svaka nit ima svoj stek
+TAČNO: Svaka nit ima svoj stek. Stek je deo memorije koji se koristi za upravljanje pozivima funkcija,
+lokalnim promenljivama i kontrolom toka. Imati zaseban stek za svaku nit omogućava im nezavisno
+delovanje bez mešanja u lokalne promenljive i pozive funkcija drugih niti.
+• Korišćenje manje veličine stranica povećava veličinu tabele stranica
+TAČNO: Manje veličine stranica znače da je potrebno više stranica da se adresira ista količina memorije.
+Budući da svaka stranica zahteva unos u tabelu stranica, veći broj stranica povećava veličinu tabele
+stranica.
+• Straničenje rešava internu fragmentaciju jer su sve stranice iste veličine
+NETAČNO: Straničenje zapravo prouzrokuje internu fragmentaciju.
+• Kernel radi translaciju virtuelnih u fizičke adrese
+NETAČNO: Ovu translaciju obično obavlja jedinica za upravljanje memorijom – MMU.
+• Broj bita u datoj virtuelnoj adresi je uvek jednak broju bita u odgovarajućoj fizičkoj adresi
+NETAČNO: Broj bita u virtuelnoj adresi i fizičkoj adresi ne mora uvek biti isti. To zavisi od arhitekture
+računara i specifičnosti sistema.Trashing karakterišu spore performanse i visoka iskorišćenost centralnog
+procesora
+• Trashing karakterišu spore performanse i visoka iskorišćenost centralnog procesora
+NETAČNO: Trashing se javlja kada sistem ima nedovoljno fizičke memorije, a CPU provodi veći deo
+vremena čekajući da pristupi podacima koji se često nalaze na spoljnim uređajima. To dovodi do spore
+izvršenosti programa i niske iskorišćenosti CPU-a. 
+
+ 
+ 
+ 
+
+1.	Objasni FCFS algoritam planiranja procesora.
+najjednostavniji algoritam. procesor se dodeljuje procesu koji je prvi u redu čekanja procesa spremnih za izvršavanje. algoritam dozvoljava procesu koji trenutno koristi procesor da ga koristi sve dok mu je potreban, odnosno ne prekida se proces koji se izvršava (non preemptive). svi ostali procesi koji se kasnije pojave se stavljaju na kraj reda čekanja procesa koji su spremni na izvršavanje. kada se blokira proces koji se trenutno izvršava pri sledeći proces iz reda čekanja počinje sa izvršavanjem i kada blokirani proces postane spreman onda ide na kraj reda čekanja. svi spremni procesi se mogu predstaviti pomoću jednostruko spregnute liste. problem je što procesi koji kratko traju čekaju na završetak procesa koji dugo traju.
+2.	Objasni SJF (SPTF) algoritam planiranja procesora.
+planer iz reda čekanja poslova spremnih na izvršavanje bira onaj posao koji zahteva najmanje procesorskog vremena do završetka rada. ukoliko ima više procesa sa istim vremenom, primenjuje se FCFS. SJF minimizira prosečno vreme provedeno u sistemu. zove se i SPTF. algoritam radi bez prekidanja procesa kome je dodeljen procesor. nije jednostavna implementacija, jer nisu unapred poznata vremena izvršavanja svih procesa, odnosno SJF je optimalan kada su svi poslovi raspoloživi istovremeno; ako se neki posao pojavljuje naknadno, SJF ne mora biti optimalan. nedostatak je što u opštem slučaju ne može biti implementiran. moguće je i gladovanje (starvation), jer neki proces ne može da dobije procesor, jer se stalno pojavljuju procesi kojima je za završetak rada potrebno manje procesorskog vremena. SJF se često koristi u kombinaciji sa drugim algoritmima.
+3.	Objasni SRTF algoritam planiranja procesora.
+planer iz reda čekanja poslova spremnih na izvršavanje bira onaj posao koji zahteva najmanje preostalog procesorskog vremena do završetka. kod ovog algoritma je moguće prekidanje procesa koji se trenutno izvršava: ako u toku izvršavanja datog procesa stigne novi sa manjim preostalim vremenom, izvršavanje se prebacuje na novopridošli. i ovde je potrebno da unapred bude poznato vreme izvršavanja, ali ovakav preemptive SRTF omogućava kratak servis za kratke procese.
+4.	Objasni koncept semafora po Dajkstri i operacije P i V.
+edsger dajkstra je problem međusobnog isključenja i sinhronizacije procesa rešio kroz semafore. semafor je celobrojna promenljiva s operacijama
+o	P (wait): smanjuje vrednost semafora za 1; ako posle toga postane negativan, proces se blokira.
+o	V (post): povećava vrednost semafora za 1; ako je nova vrednost ≤ 0, jedan blokirani proces se odblokira.
+na početku se semafor inicijalizuje na nenegativan ceo broj, koji označava koliko procesa može istovremeno da uđe u kritičnu sekciju. negativna vrednost označava broj čekajućih procesa.
+5.	Odredi tačno/netačno navode o straničenju, MMU, veličini stranica i thread stack u.
+o	straničenje rešava internu fragmentaciju jer su sve stranice iste veličine. NETAČNO
+o	kernel operativnog sistema radi translaciju iz virtuelnih u fizičke adrese. NETAČNO
+o	broj bita u datoj virtuelnoj adresi jednak je broju bita u fizičkoj adresi. NETAČNO
+o	trashing karakterišu spore performanse i visoku iskorišćenost CPU a. NETAČNO
+o	svaka nit ima svoj stek. TAČNO
+o	korišćenje manje veličine stranica povećava veličinu tabele stranica. TAČNO
+6.	Objasni parametre koje prikazuje komanda ps aux: PID, TTY, STAT, TIME, CMD.
+o	PID – identifikator procesa
+o	TTY – terminal u kom je proces pokrenut
+o	STAT – status procesa (S = sleeping, R = running, …)
+o	TIME – količina CPU vremena koje je proces koristio
+o	CMD – komanda kojom je pokrenut proces
+7.	Objasni parametre koje prikazuje htop: USER, PRI, NI, VIRT, RES, SHR, CPU%, MEM%, S, COMMAND.
+o	USER – vlasnik procesa
+o	PRI – kernelov prioritet izvršavanja
+o	NI – nice vrednost kojom korisnik utiče na prioritet
+o	VIRT – ukupna virtuelna memorija procesa
+o	RES – fizička memorija (RAM) procesa
+o	SHR – deljena memorija procesa
+o	CPU% – procenat zauzeća CPU a
+o	MEM% – procenat zauzeća memorije
+o	S – status procesa
+o	COMMAND – naziv ili putanja komande
+8.	Prikaži skup mogućih stanja sistema sa stanovišta potpunog zastoja.
+strategija izbegavanja zastoja deli stanja sistema na:
+o	bezbedno
+o	nebezbedno
+o	zastoj
+9.	Objasni kako nastaje efekat konvoja kod algoritama za dodelu procesora.
+nastaje kada dug proces na CPU u blokira kratke procese iza sebe, pa se oni gomilaju u redu i čekaju na dugački proces – kao voz s vagonima (konvoj).
+10.	(nema teksta pitanja)
+/
+11.	Prikaži model sa dva stanja suspendovanih procesa.
+suspendovan – proces je na sekundarnoj memoriji i ne čeka događaj;
+blocked/suspended – proces je na sekundarnoj memoriji i čeka na događaj;
+prelazi između running, ready, blocked i ova dva suspendovana stanja.
+12.	Objasni sistemski poziv fork().
+fork() kreira kopiju trenutnog procesa (roditelj/dete), duplicira kontekst (PC, stack, heap, data). vraća PID deteta roditelju (> 0), 0 detetu, ili -1 pri grešci.
+13.	Navedi potrebne i dovoljne uslove za nastanak potpunog zastoja (deadlock).
+•	međusobno isključenje (mutual exclusion)
+•	posedovanje i čekanje (hold and wait)
+•	kružno čekanje (circular wait)
+•	nema prekidanja (no preemption)
+14.	Navedi funkcije preslikavanja kod upravljanja memorijom.
+•	preslikavanje imena – simboličke adrese → binarne (programske) adrese
+•	preslikavanje adresa – programske → fizičke memorijske adrese
+•	preslikavanje sadržaja – adrese → vrednosti (podatke)
+15.	Šta je deskriptor procesa (KBP) i koje podatke sadrži?
+KBP je struktura u OS u sa podacima o procesu: PID, vlasnik, prioritet, PSW, registar kontekst, oblast programa i podataka, logičko stanje, dodeljeni i potrebni resursi, itd.
+16.	Objasni termine C program i Shell program.
+•	C program – kod pisan u jeziku C, kompajlira se u izvršnu datoteku
+•	Shell program – interfejs komandne linije koji tumači korisničke komande i poziva sistemske pozive
+17.	Objasni razliku između kratkoročnog i dugoročnog planera u OS.
+•	Long term scheduler – prebacuje nove procese u red spremnih; poziva se retko (sekunde/minuti)
+•	Short term scheduler – bira proces iz spremnih i dodeljuje CPU; poziva se često (milisekunde)
+18.	Objasni šta je context switching.
+čuvanje stanja prethodnog procesa (registara, programa brojača) i učitavanje stanja novog; traje onoliko koliko OS u i MMU u treba, mora biti kratko zbog efikasnosti.
+19.	Šta je dispečer u OS u i koje su njegove funkcije?
+softverski modul koji prebacuje CPU sa jednog procesa na drugi: menja kontekst, ulazi u korisnički režim, skače na adresu narednog procesa; njegovo vreme trajanja je dispatch latency.
+20.	Objasni HPF (Highest Priority First) algoritam planiranja procesora.
+svaki proces ima prioritet; CPU dobija onaj s najvišim prioritetom. kod istih prioriteta primenjuje se FCFS. kod niskih prioriteta uvažava se i vreme provedeno u sistemu.
+21.	Objasni Round Robin (RR) algoritam planiranja procesora.
+procesi se dodeljuju CPU u na vremenske kvantume (time slices) u kružnom redu. ključna karakteristika je trajanje kvanta: previše kratak povećava context switching, previše dug smanjuje odziv kod interaktivnih procesa.
+22.	Objasni MLS (multi level scheduling) algoritam planiranja.
+procesi su raspoređeni u više redova (interaktivni, sistemski, paketni) s različitim kvantumima i prioritetima; CPU se deli procentualno ili na osnovu prioriteta reda.
+23.	Navedi i objasni kriterijume koji se koriste kod algoritma planiranja.
+•	iskorišćenje CPU (%)
+•	propusnost (throughput)
+•	vreme u sistemu
+•	vreme čekanja
+•	vreme odziva (response time)
+24.	Objasni pojam izgladnjivanja (starvation) u planiranju procesa.
+situacija kada proces (ili nit) nikad ne dobije CPU zbog kontinuiranog pojavljivanja drugih koji imaju prioritet ili kraće vreme izvršavanja, iako nema kružnog čekanja.
+25.	Objasni primarne, logičke i extended (dodatne) particije na disku.
+•	primarne – mogu služiti za boot OS, disk mora imati bar jednu
+•	logičke – za skladištenje podataka, ne mogu boot ovati OS
+•	extended – kontejner za više logičkih particija kad se dostigne limit primarnih
+26.	Objasni FCFS algoritam za raspoređivanje zahteva za disk.
+zahtevi se servisiraju onim redosledom kojim stignu; nema starvation i ne može se menjati redosled; pogodan za pojedinačne korisnike.
+27.	Objasni SSTF algoritam za raspoređivanje zahteva za disk.
+glava diska se premešta na najbližu traku u odnosu na trenutnu poziciju, minimizujući seek time; može dovesti do starvation i čestih promena smera rada.
+28.	Objasni SCAN algoritam za raspoređivanje zahteva za disk.
+glava skenira disk u jednom smeru servisirajući zahteve od krajnje spoljašnje trake ka unutrašnjoj, pa vraća i opet skenira; smanjuje varijansu čekanja i sprečava gladovanje.
+29.	Objasni C SCAN algoritam za raspoređivanje zahteva za disk.
+kao SCAN, ali pri povratku glava ide prazna do početka bez servisiranja, pa opet skenira u istom smeru; garantuje ujednačenije vreme čekanja.
+30.	Objasni LOOK algoritam za raspoređivanje zahteva za disk.
+modifikovani SCAN gde glava menja smer kada nema više zahteva po trenutnom putu, umesto da ide do fizičkog kraja diska.
+31.	Objasni sistemski poziv exec.
+menja adresni prostor trenutnog procesa novim programom (text, data, heap, stack); PID ostaje isti, ali kod i podaci se zamenjuju.
+32.	Objasni trashing i kako se rešava.
+događa se kada je zbir radnih skupa stranica svih procesa > RAM, što izaziva konstantne page fault ove i izbacivanje stranica; rešenje je smanjenje multiprogramiranja (swapovanje procesa na disk).
+33.	Kako OS određuje adresu sledeće instrukcije kada planira proces u stanju SPREMAN?
+OS u KBP u čuva vrednost brojača instrukcija (Program Counter); pri prebacivanju, vrednost iz KBP a se koristi da se PC postavi na adresu sledeće instrukcije.
+34.	Navedi i objasni osnovne metode dodele prostora na disku.
+•	kontiguirana alokacija – susedni blokovi; brzo direktno adresiranje; problem eksterne fragmentacije
+•	povezana lista blokova fiksne veličine – blokovi iste veličine povezani listom; rešava eksternu fragmentaciju; usporava direktan pristup
+•	šema sa indeksima – posebna tabela indeksa po fajlu; omogućava brz direktan pristup; zahteva metode kontiguirane, povezane ili višeslojnih indeksa za tabelu
+35.	Koji je glavni nedostatak malog vremenskog kvantuma kod RR algoritma?
+previše context switching a, što značajno smanjuje efikasnost CPU a.
+36.	Objasni globalno i lokalno straničenje.
+•	globalno: kandidati za izbacivanje stranica mogu biti bilo čije stranice iz celog sistema
+•	lokalno: kandidati su samo stranice procesa koji je izazvao page fault; štiti radne skupove drugih procesa
+37.	Prikaži rešenje međusobnog isključenja za n > 2 procesa koristeći binarni semafor i P/V operacije.
+var medisk: semaphore;
+begin
+  medisk := 1;
+  parbegin
+    pi: begin
+      repeat
+        p(medisk);
+        kritična_sekcija_i;
+        v(medisk);
+        ostale_naredbe_i;
+      until stop;
+    end;
+  parend;
+end;
+38.	U kom stanju se nalaze procesi koji čekaju dodelu CPU?
+nalaze se u stanju SPREMAN.
+39.	Koja je glavna prednost modela deljene memorije u IPC?
+omogućava procesima na istom računaru direktan pristup zajedničkom segmentu bez kopiranja kroz kernel, što je znatno brže od message passing a.
+40.	Objasni kako nastaje i kako se servisira stranični prekid.
+kada proces pokuša da pristupi stranici koja nije u RAM u, generiše page fault; OS:
+41.	proveri validnost adrese
+42.	prekine proces
+43.	nađe ili izbaci okvir
+44.	učita traženu stranu sa diska
+45.	ažurira tabelu stranica
+46.	nastavi izvršavanje instrukcije
+47.	Za bafer kapaciteta C poruka, objasni uslove koje S i R procesi moraju ispuniti.
+•	pošiljalac S ne sme slati kad je bafer pun
+•	primalac R ne sme čitati kad je bafer prazan
+•	ne smeju istovremeno pristupati baferu
+•	promenljiva N mora uvek odražavati stvarni broj poruka
+42.	Koje vrste organizacije virtuelne memorije postoje?
+•	segmentna
+•	stranična
+•	segmentno stranična
+43.	Navedi probleme kod softverske realizacije algoritama za kritične sekcije.
+•	busy waiting troši CPU
+•	zavisnost od implementacije, sklonost greškama
+•	nema nametnutog protokola (programer može zaobići)
+•	protokoli su često previše komplikovani
+44.	Objasni razliku između EXT2 i EXT3 sistema datoteka.
+EXT3 je proširenje EXT2 s journaling om (dnevnici transakcija), čime drastično smanjuje vreme oporavka posle pada sistema.
+45.	Dati sistem sa p procesa i m maksimalnih resursa po procesu: koji uslov sprečava deadlock?
+r  ≥  p (m−1)  +  1 r \;\ge\; p\,(m-1)\;+\;1 
+46.	Šta je potrebno za podršku dinamičke memorijske alokacije u:
+a) kontinuiranoj alokaciji,
+b) segmentima,
+c) straničenju?
+a) prebacivanje celog programa
+b) premeštanje celog segmenta
+c) inkrementalna alokacija novih stranica bez pomeranja ostatka programa
+1. Tipovi datoteka kod UNIX a
+Regularne datoteke, direktorijumi, specijalne datoteke i imenovane FIFO datoteke.
+________________________________________
+5. Osnovne funkcije savremenih operativnih sistema
+•	upravljanje procesima;
+•	upravljanje memorijom;
+•	upravljanje uređajima;
+•	upravljanje podacima;
+•	zaštita;
+•	komunikacija sa drugim računarima u mreži;
+•	upravljanje greškama i oporavak sistema
+________________________________________
+6. Sinhronizacija procesa
+Sinhronizacija procesa znači da određen proces ne može ići dalje od unapred definisane tačke bez eksplicitnog signala koji on sam ne može da generiše.
+________________________________________
+7. Kada su dva procesa blokirana?
+2 procesa su blokirana ako ni jedan od njih ne može da nastavi sa radom dok drugi proces ne nastavi sa radom.
+________________________________________
+8. Šta je inverzija prioriteta procesa? Objasniti kako nastaje.
+Ako proces višeg prioriteta zahteva pristup resursu koji je zauzet od procesa nižeg prioriteta, tada je proces višeg prioriteta blokiran procesom nižeg prioriteta, sve dok proces nižeg prioriteta ne završi rad i oslobodi resurs. Na taj način proces nižeg prioriteta ima “viši” prioritet.
+________________________________________
+9. Kako se može rešiti problem inverzije prioriteta procesa?
+Proces nižeg prioriteta koji pristupa datom resursu nasleđuje viši prioritet procesa koji zahteva pristup istom resursu, sve do završetka rada sa resursom. Na taj način se ubrzava izvršavanje procesa nižeg prioriteta. Kada proces nižeg prioriteta završi, njegov prioritet se vraća na originalnu vrednost. To je protokol nasleđivanja prioriteta.
+________________________________________
+10. Šta su “stack” i “heap” i čemu služe?
+Stack memorija služi za memorisanje parametara prilikom poziva procedura i za lokalne promenljive. Drugim rečima, za podatke koji se dinamički dodeljuju po unapred definisanom redosledu (predictable order). Ovom memorijom upravlja kompajler, a ne korisnik.
+Heap memorija se koristi za proizvoljne strukture podataka, kao što su LinkedList itd. Drugim rečima, za podatke koji se dinamički dodeljuju na način koji nije unapred definisan (unpredictable manner). Ovom memorijom upravlja korisnik.
+________________________________________
+11. Preslikavanje sadržaja
+Preslikavanje sadržaja se odnosi na preslikavanje memorijskih adresa u vrednosti (podatke) koje one sadrže, i vrši se u toku izvršenja programa.
+________________________________________
+12. Grafički prikazati i objasniti adresni prostor procesa
+Svaki proces u toku izvršavanja zahteva memoriju i zato se svakom procesu pridružuje memorijski adresni prostor.
+•	Tekst: mašinske instrukcije (fiksne veličine)
+•	Podaci: inicijalizovane promenljive
+•	Heap: dinamička alokacija (promenljive veličine)
+•	Stek: izvršni okviri funkcija (automatski se povećava i smanjuje)
+________________________________________
+13. Objasniti šta je zaposleno čekanje (“busy wait”).
+Zaposleno čekanje je situacija kada proces koji pokušava da izvrši P operaciju u situaciji kada je vrednost promenljive s jednaka nuli, troši vreme centralnog procesora, pri čemu ne može da napreduje dalje, a istovremeno onemogućava ostale procese da se izvršavaju.
+________________________________________
+14. Šta je deskriptor datoteke?
+Prilikom otvaranja neke datoteke od strane date aplikacije, kernel vraća celobrojnu nenegativnu vrednost koja se zove deskriptor datoteke i ona na jedinstven način identifikuje tu datoteku za sve naredne operacije.
+________________________________________
+15. Na koji način se operativni sistem “budi” iz stanja praznog hoda?
+Iz stanja praznog hoda operativni sistem se “budi”:
+•	prekidom dobijenim od nekog hardverskog uređaja
+•	pojavom izuzetka od nekog korisničkog programa
+•	sistemskim pozivom iz nekog korisničkog programa
+________________________________________
+16. Gde se koristi filesystem EXT2 i kakva je to struktura?
+ext2 je verzija Linux sistema datoteka koja se zasniva na strukturi podataka inode, koji se naziva indeksni čvor. Struktura zauzima ili 64 ili 128 B. Indeksni čvor postoji za svaku datoteku i sadrži najvažnije podatke o njoj. Struktura direktorijuma kod ext2 je hijerarhijska, počev od root direktorijuma (/).
+ext3 je proširenje sistema ext2 i koristi se u Debian, Red Hat i drugim distribucijama Linux a. Osnovna razlika između ext2 i ext3 je to što je dodat dnevnik transakcija.
+________________________________________
+17. U kojim stanjima mogu biti stranice u virtuelnoj memoriji?
+•	Preslikane u okvir fizičke memorije (željeno stanje)
+•	Inicijalno locirane na disku ili vraćene na disk (pri pristupu dolazi do straničnog prekida)
+•	Ne koriste se (dolazi do signal kill a)
+________________________________________
+18. Opisati “Best Fit” algoritam (algoritam najboljeg uklapanja).
+Kod “Best Fit” algoritma tabela slobodnog prostora uređuje se po rastućoj veličini slobodnog prostora. Ovaj algoritam se svodi na nalaženje najmanjeg dovoljno velikog slobodnog memorijskog prostora u koji može da se smesti novi program.
+________________________________________
+19. Opisati “First Fit” algoritam (algoritam prvog uklapanja).
+Kod “First Fit” algoritma operativni sistem vodi tabelu slobodnog prostora uređenu po rastućim adresama slobodnih delova memorije. Svodi se na pronalaženje prvog slobodnog prostora, računajući od početka memorije, koji je dovoljno veliki da prihvati dati program.
+________________________________________
+21. Prikazati kvaziparalelno izvršavanje programa na primeru P1, P2 i P3
+(procesi imaju isti prioritet u time sharing sistemu)
+________________________________________
+22. Prikazati paralelno izvršavanje programa na primeru P1, P2 i P3
+(isti primer, ali sa više procesora; svi se izvršavaju istovremeno)
+________________________________________
+30. Koje podatke sadrži tabela stranica pored adrese okvira?
+1.	“valid” bit – da li je stranica u RAM u
+2.	“dirty” bit – da li je stranica modifikovana (mora se vratiti na disk)
+3.	“referenced” bit – da li je stranica nedavno korišćena
+4.	dozvola pristupa (“read-only” ili “read-write”)
+5.	dodatni bita za adresiranje stranica
+________________________________________
+40. Vrste algoritama.
+•	FCFS First Come First Served
+•	SJF Shortest Job First
+•	Priority Scheduling
+•	HPF Highest Priority First
+•	RR Round robin
+•	SRTF Shortest Remaining Time First
+•	MLS Multilevel Strategy
+________________________________________
+41. Metode pristupa datotekama.
+•	sekvencijalni pristup (kod editora i programskih prevodilaca)
+•	direktan ili relativni pristup (kod baza podataka)
+•	indeksirani pristup (deo direktnog pristupa samo sa indeksima)
+________________________________________
+43. Šta je potrebno da se ostvari za upravljanje konkurentnim procesima?
+1.	Metod za deljenje vremena mora da omogući svakom procesu pristup sistemu
+2.	Procesi i resursi moraju biti zaštićeni međusobno
+3.	Sistem mora imati mehanizme prevencije potpunog zastoja između procesa
+________________________________________
+44. Razlika između fizičke i virtuelne adrese.
+Virtualna adresa je u programu i generiše je procesor, dok je fizička adresa u RAM u i puni se u MAR.
+________________________________________
+45. Vrste fragmentacije.
+•	interna fragmentacija – neiskorišćeni prostor unutar dodeljene particije/stranice
+•	eksterna fragmentacija – neiskorišćeni prostor između particija
+________________________________________
+46. Koji problem se javlja kod dinamičkih particija?
+Glavni problem je eksterna fragmentacija — zahteva kompakciju, usložnjava OS i povećava vreme alokacije.
+________________________________________
+47. Kada i kako se kod dinamičkih particija određuje veličina particije?
+•	Kada – pri unošenju programa u memoriju
+•	Kako – po veličini programa; koristi se algoritam (First Fit, Best Fit, Worst Fit)
+________________________________________
+49. Koja je razlika između prekida i izuzetaka?
+•	Prekid: asinhroni, dolazi od I/O uređaja
+•	Izuzetak: sinhroni, generiše ga procesor pri grešci u izvršenju koda
+________________________________________
+62. Šta je poziv FLock kod UNIX a?
+FLock (file lock) je sistemski poziv koji zaključava datu datoteku tako da je drugi procesi ne mogu otvoriti dok je zaključana.
+________________________________________
+63. Objasniti razliku između sinhronih i asinhronih mehanizama procesa.
+•	Sinhroni – poziv zahteva blokiranje dok se ne završi operacija
+•	Asinhroni – poziv ne blokira proces; operacija se obavlja u pozadini
+________________________________________
+64. Šta je kernel?
+Kernel je jezgro operativnog sistema, sa najčešće korišćenim funkcijama, i uvek se nalazi u fizičkoj memoriji.
+________________________________________
+65. Kako se može vršiti deljenje resursa?
+•	vremenskim multipleksiranjem (resurs se dodeljuje na određeno vreme)
+•	prostornim multipleksiranjem (resurs se deli na više delova)
+________________________________________
+68. Kolika je maksimalna veličina datoteka i particija kod FAT16 i FAT32?
+•	FAT16 – max veličina datoteke i particije je 2 GB
+•	FAT32 – max veličina datoteke 4 GB, particije 2 TB
+________________________________________
+69. Šta sve može biti interfejs?
+•	GUI (grafički korisnički interfejs)
+•	bilo koja korisnička aplikacija
+•	interpreter komandi
+•	1. Šta je inverzija prioriteta procesa? Objasniti kako nastaje.
+Ako proces višeg prioriteta zahteva pristup resursu koji je zauzet od procesa nižeg prioriteta, tada je proces višeg prioriteta blokiran procesom nižeg prioriteta, sve dok proces nižeg prioriteta ne završi rad sa resursom. Na taj način proces nižeg prioriteta ima “viši” prioritet.
+•	________________________________________
+•	2. Kako se može rešiti problem inverzije prioriteta procesa?
+Proces nižeg prioriteta koji pristupa datom resursu nasleđuje viši prioritet procesa koji zahteva pristup istom resursu, sve do završetka rada sa resursom. Na taj način se ubrzava izvršavanje procesa nižeg prioriteta. Kada proces nižeg prioriteta završi, njegov prioritet se vraća na originalnu vrednost. To je protokol nasleđivanja prioriteta.
+•	________________________________________
+•	21. U kojim slučajevima se za komunikaciju između 2 procesa koristi deljena memorija (shared memory) umesto razmene poruka (message passing)? Obrazložiti odgovor.
+/
+•	________________________________________
+•	24. Objasniti šta je tabela deskriptora datoteka.
+Prilikom otvaranja neke datoteke od strane date aplikacije, kernel vraća celobrojnu nenegativnu vrednost koja se zove deskriptor datoteke i ona na jedinstven način identifikuje tu datoteku za sve naredne operacije.
+•	________________________________________
+•	28. Koje se od sledećih komponenata stanja programa u toku izvršavanja dele između niti datog multithreaded procesa:
+a) vrednosti registara, b) heap memorija, c) globalne promenljive, d) stack memorija?
+b) c)
+•	________________________________________
+•	32. Razlika između sinhronog i asinhronog načina komuniciranja.
+Sinhroni – blokiranje procesa koji poziva drugi proces dok čeka da se inicirana operacija završi.
+Asinhroni – proces koji poziva drugi proces ne čeka završetak operacije.
+•	________________________________________
+•	37. Pod kojim uslovima je rad sa prekidima efikasniji od pollinga procesa? Kada je polling efikasniji?
+Polling je efikasniji kada postoji jedan proces, a prekidi kada ima više procesa koji rade.
+
+

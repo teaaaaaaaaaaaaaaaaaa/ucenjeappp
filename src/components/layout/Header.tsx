@@ -21,6 +21,9 @@ const Header: React.FC = () => {
           <Link to="/setup/marketing" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
             <span className="mr-1">📈</span> Marketing
           </Link>
+          <Link to="/setup/aros" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
+            <span className="mr-1">⚙️</span> OS
+          </Link>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 transition-colors font-medium flex items-center">
             <span className="mr-1">⭐</span> GitHub
           </a>

@@ -10,6 +10,7 @@ import Loader from '../components/shared/Loader';
 const subjectEmojis: Record<string, string> = {
   linux: '🐧',
   programming: '💻',
+  aros: '⚙️',
   default: '📚'
 };
 
