@@ -1,0 +1,1094 @@
+[
+  {
+    "id": 1,
+    "question": "Očekivana vrednost sredine uzorka je:",
+    "answers": [
+      "Jednaka očekivanoj vrednosti populacije",
+      "Manja od očekivane vrednosti populacije",
+      "Veća od očekivane vrednosti populacije",
+      "Uvek jednaka nuli"
+    ],
+    "correctAnswer": "Jednaka očekivanoj vrednosti populacije"
+  },
+  {
+    "id": 2,
+    "question": "Čemu je jednaka očekivana vrednost sredine uzorka E(x̄)?",
+    "answers": ["m", "nm", "m/n", "n/m"],
+    "correctAnswer": "m"
+  },
+  {
+    "id": 3,
+    "question": "Čemu je jednaka varijansa sredine uzorka Var(x̄)?",
+    "answers": ["σ²/n", "nσ²", "σ²/n²", "n²σ²"],
+    "correctAnswer": "σ²/n"
+  },
+  {
+    "id": 4,
+    "question": "Čemu je jednako očekivanje od varijanse uzorka E(S²)?",
+    "answers": ["((n-1)/n)σ²", "(n/(n-1))σ²", "σ²", "σ²/n"],
+    "correctAnswer": "((n-1)/n)σ²"
+  },
+  {
+    "id": 5,
+    "question": "Čemu je približno jednaka varijansa od varijanse uzorka Var(S²)?",
+    "answers": ["(μ₄ - σ⁴)/n", "(μ₄ + σ⁴)/n", "μ₄/n", "σ⁴/n"],
+    "correctAnswer": "(μ₄ - σ⁴)/n"
+  },
+  {
+    "id": 6,
+    "question": "Sa povećanjem veličine uzorka (n → ∞), varijansa sredine uzorka:",
+    "answers": [
+      "Teži 0",
+      "Teži 1",
+      "Teži beskonačnosti",
+      "Ostaje nepromenjena"
+    ],
+    "correctAnswer": "Teži 0"
+  },
+  {
+    "id": 7,
+    "question": "Šta je osnovni cilj statističkog zaključivanja?",
+    "answers": [
+      "Na osnovu podataka iz uzorka doneti zaključak o celoj populaciji.",
+      "Na osnovu podataka iz populacije doneti zaključak o uzorku.",
+      "Dokazati da su uzorak i populacija identični.",
+      "Izračunati tačne vrednosti svih parametara populacije."
+    ],
+    "correctAnswer": "Na osnovu podataka iz uzorka doneti zaključak o celoj populaciji."
+  },
+  {
+    "id": 8,
+    "question": "Parametri opšteg skupa (populacije) su promenljive koje zavise od:",
+    "answers": ["Populacije", "Uzorka", "Statističara", "Metode merenja"],
+    "correctAnswer": "Populacije"
+  },
+  {
+    "id": 9,
+    "question": "Šta tvrdi Centralna granična teorema?",
+    "answers": [
+      "Raspodela sredine uzorka teži normalnoj raspodeli kada veličina uzorka raste.",
+      "Svi uzorci iz normalne populacije imaju normalnu raspodelu.",
+      "Očekivana vrednost uzorka jednaka je nuli.",
+      "Varijansa populacije uvek je veća od varijanse uzorka."
+    ],
+    "correctAnswer": "Raspodela sredine uzorka teži normalnoj raspodeli kada veličina uzorka raste."
+  },
+  {
+    "id": 10,
+    "question": "Ukoliko posmatramo statistiku kao funkciju na uzorku, važi sledeće:",
+    "answers": [
+      "Jedna ista statistika ima različite raspodele za različite populacije.",
+      "Jedna ista statistika uvek ima normalnu raspodelu.",
+      "Sve statistike iz iste populacije imaju istu raspodelu.",
+      "Raspodela statistike ne zavisi od populacije."
+    ],
+    "correctAnswer": "Jedna ista statistika ima različite raspodele za različite populacije."
+  },
+  {
+    "id": 11,
+    "question": "Kako se definiše uzorak u statistici?",
+    "answers": [
+      "Podskup statističkog skupa na čijim elementima merimo vrednost obeležja.",
+      "Ceo statistički skup.",
+      "Skup svih mogućih ishoda.",
+      "Jedan element iz populacije."
+    ],
+    "correctAnswer": "Podskup statističkog skupa na čijim elementima merimo vrednost obeležja."
+  },
+  {
+    "id": 12,
+    "question": "Koji od navedenih tipova uzoraka NE SPADA u osnovne kategorije uzoraka?",
+    "answers": [
+      "Deterministički uzorak",
+      "Prost slučajan uzorak",
+      "Stratifikovan uzorak",
+      "Sistematski uzorak"
+    ],
+    "correctAnswer": "Deterministički uzorak"
+  },
+  {
+    "id": 13,
+    "question": "Glavna karakteristika prostog slučajnog uzorka je:",
+    "answers": [
+      "Izbor bilo kog elementa populacije ne zavisi od izbora drugih elemenata.",
+      "Na slučajan način se izabere prvi element, a zatim se uzima svaki k-ti.",
+      "Populacija se deli na homogene celine (stratum) iz kojih se bira.",
+      "Elementi se dele na skupine, pa se posmatra određena skupina."
+    ],
+    "correctAnswer": "Izbor bilo kog elementa populacije ne zavisi od izbora drugih elemenata."
+  },
+  {
+    "id": 14,
+    "question": "Prost slučajan uzorak je skup od n nezavisnih slučajnih promenljivih koje imaju:",
+    "answers": [
+      "Istu raspodelu, koja je raspodela populacije.",
+      "Različite raspodele.",
+      "Uvek normalnu raspodelu, bez obzira na populaciju.",
+      "Zavisne su jedna od druge."
+    ],
+    "correctAnswer": "Istu raspodelu, koja je raspodela populacije."
+  },
+  {
+    "id": 15,
+    "question": "Pri izboru elemenata, na slučajan način se odabere prvi element, a zatim se bira svaki k-ti element iz populacije. Ovo je:",
+    "answers": [
+      "Sistematski uzorak",
+      "Prost slučajan uzorak",
+      "Stratifikovan uzorak",
+      "Uzorak skupina"
+    ],
+    "correctAnswer": "Sistematski uzorak"
+  },
+  {
+    "id": 16,
+    "question": "Sa povećanjem obima uzorka, varijansa ocene parametra:",
+    "answers": ["Teži nuli", "Teži jedinici", "Raste", "Ostaje ista"],
+    "correctAnswer": "Teži nuli"
+  },
+  {
+    "id": 17,
+    "question": "Kakvu raspodelu ima uzorak izvučen iz populacije sa normalnom raspodelom?",
+    "answers": [
+      "Normalnu",
+      "Studentovu t-raspodelu",
+      "Hi-kvadrat raspodelu",
+      "Uniformnu raspodelu"
+    ],
+    "correctAnswer": "Normalnu"
+  },
+  {
+    "id": 18,
+    "question": "Šta predstavlja funkcija verodostojnosti (likelihood) uzorka?",
+    "answers": [
+      "Proizvod verovatnoća (ili funkcija gustine) za svaku opservaciju u uzorku.",
+      "Zbir verovatnoća za svaku opservaciju u uzorku.",
+      "Maksimalnu verovatnoću u uzorku.",
+      "Prosečnu vrednost verovatnoća u uzorku."
+    ],
+    "correctAnswer": "Proizvod verovatnoća (ili funkcija gustine) za svaku opservaciju u uzorku."
+  },
+  {
+    "id": 19,
+    "question": "Parametri osnovnog skupa (populacije) su:",
+    "answers": ["Konstante", "Promenljive", "Statistike", "Ocene"],
+    "correctAnswer": "Konstante"
+  },
+  {
+    "id": 20,
+    "question": "Šta je ocena u statistici?",
+    "answers": [
+      "Statistika definisana na uzorku koja se koristi za procenu parametra populacije.",
+      "Tačna vrednost parametra populacije.",
+      "Greška merenja.",
+      "Veličina uzorka."
+    ],
+    "correctAnswer": "Statistika definisana na uzorku koja se koristi za procenu parametra populacije."
+  },
+  {
+    "id": 21,
+    "question": "Šta od navedenog predstavlja parametar populacije, a ne ocenu dobijenu iz uzorka?",
+    "answers": ["β (beta)", "x̄ (sredina uzorka)", "S² (varijansa uzorka)", "r (koeficijent korelacije uzorka)"],
+    "correctAnswer": "β (beta)"
+  },
+  {
+    "id": 22,
+    "question": "Opšti problem teorije ocenjivanja je:",
+    "answers": [
+      "Na osnovu uzorka oceniti raspodelu i nepoznate parametre populacije.",
+      "Na osnovu populacije oceniti raspodelu i nepoznate parametre uzorka.",
+      "Na osnovu uzorka oceniti raspodelu samog uzorka.",
+      "Dokazati da je populacija normalno raspoređena."
+    ],
+    "correctAnswer": "Na osnovu uzorka oceniti raspodelu i nepoznate parametre populacije."
+  },
+  {
+    "id": 23,
+    "question": "Postupkom statističkog ocenjivanja dobijamo:",
+    "answers": [
+      "Tačkaste i intervalne ocene",
+      "Samo tačkaste ocene",
+      "Samo intervalne ocene",
+      "Grafičke prikaze podataka"
+    ],
+    "correctAnswer": "Tačkaste i intervalne ocene"
+  },
+  {
+    "id": 24,
+    "question": "Dobra ocena se karakteriše:",
+    "answers": [
+      "Što manjim varijabilitetom",
+      "Što većim varijabilitetom",
+      "Što manjom vrednošću",
+      "Što većom vrednošću"
+    ],
+    "correctAnswer": "Što manjim varijabilitetom"
+  },
+  {
+    "id": 25,
+    "question": "Kako obim uzorka utiče na preciznost ocene?",
+    "answers": [
+      "Povećanjem obima uzorka, preciznost ocene raste.",
+      "Povećanjem obima uzorka, preciznost ocene opada.",
+      "Preciznost ocene ne zavisi od obima uzorka.",
+      "Povećanjem obima uzorka, preciznost prvo raste pa opada."
+    ],
+    "correctAnswer": "Povećanjem obima uzorka, preciznost ocene raste."
+  },
+  {
+    "id": 26,
+    "question": "Koja je najpoželjnija osobina ocene u pogledu njene pristrasnosti?",
+    "answers": ["Nepristrasnost", "Pozitivna pristrasnost", "Negativna pristrasnost", "Maksimalna pristrasnost"],
+    "correctAnswer": "Nepristrasnost"
+  },
+  {
+    "id": 27,
+    "question": "Koji tip ocene pruža opseg vrednosti za nepoznati parametar populacije uz određeni nivo poverenja?",
+    "answers": ["Intervalna ocena", "Tačkasta ocena", "Standardna devijacija", "Medijana"],
+    "correctAnswer": "Intervalna ocena"
+  },
+  {
+    "id": 28,
+    "question": "Koja od navedenih osobina NIJE poželjna osobina ocene?",
+    "answers": ["Pristrasnost", "Saglasnost", "Nepristrasnost", "Efikasnost"],
+    "correctAnswer": "Pristrasnost"
+  },
+  {
+    "id": 29,
+    "question": "Osobina ocene koja se odnosi na to da njena vrednost teži pravoj vrednosti parametra kada veličina uzorka raste, naziva se:",
+    "answers": ["Saglasnost", "Nepristrasnost", "Efikasnost", "Postojanost"],
+    "correctAnswer": "Saglasnost"
+  },
+  {
+    "id": 30,
+    "question": "Varijansa uzorka S² je:",
+    "answers": [
+      "Negativno pristrasna ocena varijanse populacije",
+      "Pozitivno pristrasna ocena varijanse populacije",
+      "Nepristrasna ocena varijanse populacije",
+      "Uvek jednaka varijansi populacije"
+    ],
+    "correctAnswer": "Negativno pristrasna ocena varijanse populacije"
+  },
+  {
+    "id": 31,
+    "question": "Optimalna ocena nepoznatog parametra populacije, u klasi nepristrasnih ocena, je:",
+    "answers": [
+      "Nepristrasna ocena sa minimalnom varijansom",
+      "Nepristrasna ocena sa maksimalnom varijansom",
+      "Pristrasna ocena sa minimalnom varijansom",
+      "Bilo koja nepristrasna ocena"
+    ],
+    "correctAnswer": "Nepristrasna ocena sa minimalnom varijansom"
+  },
+  {
+    "id": 32,
+    "question": "Srednja kvadratna greška (MSE) nepristrasne ocene jednaka je:",
+    "answers": [
+      "Varijansi te ocene",
+      "Očekivanoj vrednosti te ocene",
+      "Nuli",
+      "Jedinici"
+    ],
+    "correctAnswer": "Varijansi te ocene"
+  },
+  {
+    "id": 33,
+    "question": "Sa povećanjem veličine uzorka, srednja kvadratna greška (MSE) saglasne ocene se:",
+    "answers": ["Smanjuje", "Povećava", "Ostaje ista", "Varira"],
+    "correctAnswer": "Smanjuje"
+  },
+  {
+    "id": 34,
+    "question": "Da bi ocena jednog parametra bila bolja od druge, potrebno je da ima:",
+    "answers": [
+      "Manju srednju kvadratnu grešku",
+      "Veću srednju kvadratnu grešku",
+      "Manju očekivanu vrednost",
+      "Veću očekivanu vrednost"
+    ],
+    "correctAnswer": "Manju srednju kvadratnu grešku"
+  },
+  {
+    "id": 35,
+    "question": "Kada kažemo da je jedna nepristrasna ocena efikasnija od druge?",
+    "answers": [
+      "Kada ima manju varijansu",
+      "Kada ima veću varijansu",
+      "Kada je izračunata na većem uzorku",
+      "Kada ima manju očekivanu vrednost"
+    ],
+    "correctAnswer": "Kada ima manju varijansu"
+  },
+  {
+    "id": 36,
+    "question": "Efikasnost ocene nepoznatog parametra populacije definiše se kao:",
+    "answers": [
+      "Količnik minimalno moguće varijanse i varijanse date ocene",
+      "Razlika minimalno moguće varijanse i varijanse date ocene",
+      "Zbir minimalno moguće varijanse i varijanse date ocene",
+      "Proizvod minimalno moguće varijanse i varijanse date ocene"
+    ],
+    "correctAnswer": "Količnik minimalno moguće varijanse i varijanse date ocene"
+  },
+  {
+    "id": 37,
+    "question": "Koja je formula za efikasnost ocene parametra θ?",
+    "answers": ["Ef(θ̂) = E(θ̂₀-θ)² / E(θ̂-θ)²", "Ef(θ̂) = E(θ̂-θ)² / E(θ̂₀-θ)²", "Ef(θ̂) = E(θ̂-θ)²", "Ef(θ̂) = 1 / E(θ̂-θ)²"],
+    "correctAnswer": "Ef(θ̂) = E(θ̂₀-θ)² / E(θ̂-θ)²"
+  },
+  {
+    "id": 38,
+    "question": "Efikasnost ocene se kreće u intervalu:",
+    "answers": ["[0, 1]", "[-1, 1]", "[0, ∞)", "(-∞, ∞)"],
+    "correctAnswer": "[0, 1]"
+  },
+  {
+    "id": 39,
+    "question": "Koja od navedenih metoda se koristi za dobijanje tačkastih ocena?",
+    "answers": [
+      "Metoda maksimalne verodostojnosti",
+      "Analiza varijanse (ANOVA)",
+      "Hi-kvadrat test",
+      "Konstrukcija intervala poverenja"
+    ],
+    "correctAnswer": "Metoda maksimalne verodostojnosti"
+  },
+  {
+    "id": 40,
+    "question": "Metoda maksimalne verodostojnosti se koristi za:",
+    "answers": [
+      "Izbor vrednosti parametra tako da funkcija verodostojnosti ima maksimalnu vrednost.",
+      "Minimizaciju sume kvadrata odstupanja.",
+      "Testiranje hipoteza o jednakosti srednjih vrednosti.",
+      "Određivanje intervala poverenja."
+    ],
+    "correctAnswer": "Izbor vrednosti parametra tako da funkcija verodostojnosti ima maksimalnu vrednost."
+  },
+  {
+    "id": 41,
+    "question": "Interval poverenja za srednju vrednost m kada je poznata varijansa σ² je:",
+    "answers": ["[x̄ - z₀(σ/√n), x̄ + z₀(σ/√n)]", "[x̄ - t₀(S/√(n-1)), x̄ + t₀(S/√(n-1))]", "[0, nS²/χ₀]", "(nS²/χ₂, nS²/χ₁)"],
+    "correctAnswer": "[x̄ - z₀(σ/√n), x̄ + z₀(σ/√n)]"
+  },
+  {
+    "id": 42,
+    "question": "Interval poverenja za srednju vrednost m kada NIJE poznata varijansa je:",
+    "answers": ["[x̄ - t₀(S/√(n-1)), x̄ + t₀(S/√(n-1))]", "[x̄ - z₀(σ/√n), x̄ + z₀(σ/√n)]", "[0, nS²/χ₀]", "(nS²/χ₂, nS²/χ₁)"],
+    "correctAnswer": "[x̄ - t₀(S/√(n-1)), x̄ + t₀(S/√(n-1))]"
+  },
+  {
+    "id": 43,
+    "question": "Jednostrani interval poverenja za nepoznatu varijansu σ² je:",
+    "answers": ["[0, nS²/χ₀]", "(nS²/χ₂, nS²/χ₁)", "[x̄ - z₀(σ/√n), x̄ + z₀(σ/√n)]", "[x̄ - t₀(S/√(n-1)), x̄ + t₀(S/√(n-1))]"],
+    "correctAnswer": "[0, nS²/χ₀]"
+  },
+  {
+    "id": 44,
+    "question": "Dvostrani interval poverenja za nepoznatu varijansu σ² je:",
+    "answers": ["(nS²/χ₂, nS²/χ₁)", "[0, nS²/χ₀]", "[x̄ - z₀(σ/√n), x̄ + z₀(σ/√n)]", "[x̄ - t₀(S/√(n-1)), x̄ + t₀(S/√(n-1))]"],
+    "correctAnswer": "(nS²/χ₂, nS²/χ₁)"
+  },
+  {
+    "id": 45,
+    "question": "Sa povećanjem nivoa poverenja (npr. sa 95% na 99%), dužina intervala poverenja se:",
+    "answers": ["Povećava", "Smanjuje", "Ostaje ista", "Ponekad povećava, ponekad smanjuje"],
+    "correctAnswer": "Povećava"
+  },
+  {
+    "id": 46,
+    "question": "Sa povećanjem obima uzorka, dužina intervala poverenja se:",
+    "answers": ["Smanjuje", "Povećava", "Ostaje ista", "Udvostručuje"],
+    "correctAnswer": "Smanjuje"
+  },
+  {
+    "id": 47,
+    "question": "Šta je greška prve vrste (Tip I) u testiranju hipoteza?",
+    "answers": [
+      "Verovatnoća odbacivanja nulte hipoteze (H₀) kada je ona tačna.",
+      "Verovatnoća prihvatanja nulte hipoteze (H₀) kada ona nije tačna.",
+      "Verovatnoća odbacivanja alternativne hipoteze (H₁) kada je ona tačna.",
+      "Verovatnoća prihvatanja alternativne hipoteze (H₁) kada ona nije tačna."
+    ],
+    "correctAnswer": "Verovatnoća odbacivanja nulte hipoteze (H₀) kada je ona tačna."
+  },
+  {
+    "id": 48,
+    "question": "Šta je greška druge vrste (Tip II) u testiranju hipoteza?",
+    "answers": [
+      "Verovatnoća prihvatanja nulte hipoteze (H₀) kada ona nije tačna.",
+      "Verovatnoća odbacivanja nulte hipoteze (H₀) kada je ona tačna.",
+      "Isto što i nivo značajnosti α.",
+      "Isto što i moć testa."
+    ],
+    "correctAnswer": "Verovatnoća prihvatanja nulte hipoteze (H₀) kada ona nije tačna."
+  },
+  {
+    "id": 49,
+    "question": "Moć testa (1-β) je:",
+    "answers": [
+      "Verovatnoća odbacivanja nulte hipoteze (H₀) kada ona nije tačna.",
+      "Verovatnoća prihvatanja nulte hipoteze (H₀) kada ona nije tačna.",
+      "Verovatnoća odbacivanja nulte hipoteze (H₀) kada je ona tačna.",
+      "Verovatnoća da je nulta hipoteza tačna."
+    ],
+    "correctAnswer": "Verovatnoća odbacivanja nulte hipoteze (H₀) kada ona nije tačna."
+  },
+  {
+    "id": 50,
+    "question": "Verovatnoća greške prve vrste (α) se nalazi u intervalu:",
+    "answers": ["[0, 1]", "[-1, 1]", "[0, 0.1]", "[0, 0.05]"],
+    "correctAnswer": "[0, 1]"
+  },
+  {
+    "id": 51,
+    "question": "Minimalna vrednost moći testa jednaka je:",
+    "answers": ["Grešci prve vrste (α)", "Grešci druge vrste (β)", "Nuli", "Jedinici"],
+    "correctAnswer": "Grešci prve vrste (α)"
+  },
+  {
+    "id": 52,
+    "question": "Nivo značajnosti testa je:",
+    "answers": [
+      "Verovatnoća greške prve vrste (α)",
+      "Verovatnoća greške druge vrste (β)",
+      "Moć testa (1-β)",
+      "Verovatnoća tačnog zaključka"
+    ],
+    "correctAnswer": "Verovatnoća greške prve vrste (α)"
+  },
+  {
+    "id": 53,
+    "question": "Šta se dešava sa greškom druge vrste (β) kada se smanjuje greška prve vrste (α), uz nepromenjenu veličinu uzorka?",
+    "answers": [
+      "Greška druge vrste (β) se povećava.",
+      "Greška druge vrste (β) se smanjuje.",
+      "Greška druge vrste (β) ostaje ista.",
+      "Greška druge vrste (β) postaje jednaka nuli."
+    ],
+    "correctAnswer": "Greška druge vrste (β) se povećava."
+  },
+  {
+    "id": 54,
+    "question": "Koje vrednosti može da uzme moć testa?",
+    "answers": ["[α, 1]", "[0, 1]", "[0, α]", "[-1, 1]"],
+    "correctAnswer": "[α, 1]"
+  },
+  {
+    "id": 55,
+    "question": "Parametarski testovi su statistički testovi koji se odnose na:",
+    "answers": [
+      "Testiranje hipoteza o određenim parametrima raspodele.",
+      "Testiranje oblika raspodele.",
+      "Testiranje nezavisnosti bez pretpostavki o raspodeli.",
+      "Samo na testove sa malim uzorcima."
+    ],
+    "correctAnswer": "Testiranje hipoteza o određenim parametrima raspodele."
+  },
+  {
+    "id": 56,
+    "question": "U anketi o mesečnim primanjima, želimo da uporedimo da li postoji razlika u primanjima između zaposlenih u privatnom i javnom sektoru. Koji test je najpogodniji?",
+    "answers": [
+      "t-test za dva nezavisna uzorka",
+      "ANOVA",
+      "Test koraka",
+      "Hi-kvadrat test"
+    ],
+    "correctAnswer": "Hi-kvadrat test"
+  },
+  {
+    "id": 57,
+    "question": "Kod analize varijanse (ANOVA), ukupan varijabilitet je jednak:",
+    "answers": [
+      "Zbiru varijabiliteta unutar grupa i varijabiliteta između grupa.",
+      "Razlici varijabiliteta između grupa i varijabiliteta unutar grupa.",
+      "Proizvodu varijabiliteta unutar grupa i varijabiliteta između grupa.",
+      "Samo varijabilitetu između grupa."
+    ],
+    "correctAnswer": "Zbiru varijabiliteta unutar grupa i varijabiliteta između grupa."
+  },
+  {
+    "id": 58,
+    "question": "Osnovna pretpostavka u analizi varijanse (ANOVA) je da su unutar grupa (tretmana) jednake:",
+    "answers": ["Varijanse", "Srednje vrednosti", "Veličine uzoraka", "Medijane"],
+    "correctAnswer": "Varijanse"
+  },
+  {
+    "id": 59,
+    "question": "Kod analize varijanse, ukoliko posmatrani faktor značajno utiče na obeležje:",
+    "answers": [
+      "Srednje vrednosti po grupama će se statistički značajno razlikovati.",
+      "Srednje vrednosti po grupama će biti jednake.",
+      "Varijanse po grupama će biti različite.",
+      "Srednje vrednosti nemaju veze sa faktorom."
+    ],
+    "correctAnswer": "Srednje vrednosti po grupama će se statistički značajno razlikovati."
+  },
+  {
+    "id": 60,
+    "question": "Kod analize varijanse, reziduali predstavljaju:",
+    "answers": [
+      "Efekte uticaja svih nekontrolisanih (nemerljivih) faktora.",
+      "Efekte uticaja kontrolisanih (merljivih) faktora.",
+      "Srednju vrednost cele populacije.",
+      "Razliku između najveće i najmanje vrednosti."
+    ],
+    "correctAnswer": "Efekte uticaja svih nekontrolisanih (nemerljivih) faktora."
+  },
+  {
+    "id": 61,
+    "question": "Varijabilitet između grupa u ANOVA-i se odnosi na:",
+    "answers": [
+      "Efekte uticaja merljivih, kontrolisanih faktora (tretmana).",
+      "Efekte uticaja nemerljivih, nekontrolisanih faktora.",
+      "Ukupnu grešku modela.",
+      "Standardnu devijaciju celog uzorka."
+    ],
+    "correctAnswer": "Efekte uticaja merljivih, kontrolisanih faktora (tretmana)."
+  },
+  {
+    "id": 62,
+    "question": "Kod ANOVA-e, slučajna promenljiva (greška) predstavlja efekte uticaja:",
+    "answers": [
+      "Nemerljivih faktora",
+      "Merljivih faktora",
+      "Prosečne vrednosti na celom skupu",
+      "Tretmana"
+    ],
+    "correctAnswer": "Prosečne vrednosti na celom skupu"
+  },
+  {
+    "id": 63,
+    "question": "Nulta hipoteza (H₀) za jednofaktorsku ANOVA-u glasi:",
+    "answers": [
+      "Srednje vrednosti svih posmatranih grupa su jednake.",
+      "Varijanse svih posmatranih grupa su jednake.",
+      "Bar dve srednje vrednosti grupa se razlikuju.",
+      "Faktor ima značajan uticaj na posmatrano obeležje."
+    ],
+    "correctAnswer": "Srednje vrednosti svih posmatranih grupa su jednake."
+  },
+  {
+    "id": 64,
+    "question": "Kritična oblast kod F-testa u ANOVA-i je:",
+    "answers": ["Desnostrana", "Levostrana", "Dvostrana", "Nema kritičnu oblast"],
+    "correctAnswer": "Desnostrana"
+  },
+  {
+    "id": 65,
+    "question": "Koje je NETAČNO tvrđenje vezano za ANOVA-u?",
+    "answers": [
+      "Faktor (nezavisna promenljiva) mora biti kontinualan.",
+      "Zavisna promenljiva treba da bude kontinualna.",
+      "Pretpostavlja se normalnost raspodele unutar grupa.",
+      "Pretpostavlja se jednakost varijansi (homoskedastičnost)."
+    ],
+    "correctAnswer": "Faktor (nezavisna promenljiva) mora biti kontinualan."
+  },
+  {
+    "id": 66,
+    "question": "Koja statistika se koristi za testiranje hipoteze o srednjoj vrednosti (m) kada je varijansa populacije (σ²) poznata?",
+    "answers": ["τ = (x̄-m)/(σ/√n)", "τ = (x̄-m)/(S/√(n-1))", "τ = nS²/σ₀²", "τ = (p̂-p₀)/√(p₀(1-p₀)/n)"],
+    "correctAnswer": "τ = (x̄-m)/(σ/√n)"
+  },
+  {
+    "id": 67,
+    "question": "Koja statistika se koristi za testiranje hipoteze o srednjoj vrednosti (m) kada varijansa populacije (σ²) NIJE poznata?",
+    "answers": ["τ = (x̄-m)/(S/√(n-1))", "τ = (x̄-m)/(σ/√n)", "τ = nS²/σ₀²", "τ = (p̂-p₀)/√(p₀(1-p₀)/n)"],
+    "correctAnswer": "τ = (x̄-m)/(S/√(n-1))"
+  },
+  {
+    "id": 68,
+    "question": "Koja statistika se koristi za testiranje hipoteze o varijansi (σ²)?",
+    "answers": ["τ = nS²/σ₀²", "τ = (x̄-m)/(S/√(n-1))", "τ = (x̄-m)/(σ/√n)", "τ = (p̂-p₀)/√(p₀(1-p₀)/n)"],
+    "correctAnswer": "τ = nS²/σ₀²"
+  },
+  {
+    "id": 69,
+    "question": "Koja statistika se koristi za testiranje hipoteze o proporciji (procentu)?",
+    "answers": ["τ = (p̂-p₀)/√(p₀(1-p₀)/n)", "τ = nS²/σ₀²", "τ = (x̄-m)/(S/√(n-1))", "τ = (x̄-m)/(σ/√n)"],
+    "correctAnswer": "τ = (p̂-p₀)/√(p₀(1-p₀)/n)"
+  },
+  {
+    "id": 70,
+    "question": "Koja statistika se koristi za testiranje hipoteze o nezavisnosti (koeficijent korelacije r)?",
+    "answers": ["τ = (r√(n-2))/√(1-r²)", "τ = nS²/σ₀²", "τ = (x̄-m)/(S/√(n-1))", "τ = (x̄-m)/(σ/√n)"],
+    "correctAnswer": "τ = (r√(n-2))/√(1-r²)"
+  },
+  {
+    "id": 71,
+    "question": "Test statistika za koeficijent korelacije (r) ima koju raspodelu?",
+    "answers": [
+      "Studentovu sa (n-2) stepeni slobode",
+      "Normalnu raspodelu",
+      "Hi-kvadrat sa (n-1) stepeni slobode",
+      "F-raspodelu"
+    ],
+    "correctAnswer": "Studentovu sa (n-2) stepeni slobode"
+  },
+  {
+    "id": 72,
+    "question": "Koju raspodelu ima test statistika za srednju vrednost populacije kada je varijansa nepoznata, a uzorak je mali?",
+    "answers": [
+      "Studentovu sa (n-1) stepeni slobode",
+      "Normalnu raspodelu",
+      "Hi-kvadrat sa (n-1) stepeni slobode",
+      "Studentovu sa n stepeni slobode"
+    ],
+    "correctAnswer": "Studentovu sa (n-1) stepeni slobode"
+  },
+  {
+    "id": 73,
+    "question": "Koeficijent determinacije (R²) predstavlja:",
+    "answers": [
+      "Kvadrat koeficijenta korelacije (r²)",
+      "Koren koeficijenta korelacije",
+      "Dvostruku vrednost koeficijenta korelacije",
+      "Logaritam koeficijenta korelacije"
+    ],
+    "correctAnswer": "Kvadrat koeficijenta korelacije (r²)"
+  },
+  {
+    "id": 74,
+    "question": "Na šta se odnose neparametarski testovi?",
+    "answers": [
+      "Na testiranje hipoteza o obliku celokupne raspodele, bez pretpostavki o parametrima.",
+      "Isključivo na testiranje hipoteza o srednjoj vrednosti.",
+      "Isključivo na testiranje hipoteza o varijansi.",
+      "Samo na podatke koji imaju normalnu raspodelu."
+    ],
+    "correctAnswer": "Na testiranje hipoteza o obliku celokupne raspodele, bez pretpostavki o parametrima."
+  },
+  {
+    "id": 75,
+    "question": "Kod Hi-kvadrat testa saglasnosti, ako su odstupanja izmerenih od očekivanih frekvencija mala:",
+    "answers": [
+      "Prihvatamo H₀ da obeležje ima pretpostavljenu raspodelu.",
+      "Odbacujemo H₀ da obeležje ima pretpostavljenu raspodelu.",
+      "Test je nevažeći.",
+      "Moramo povećati uzorak."
+    ],
+    "correctAnswer": "Prihvatamo H₀ da obeležje ima pretpostavljenu raspodelu."
+  },
+  {
+    "id": 76,
+    "question": "Hi-kvadrat test se zasniva na poređenju:",
+    "answers": [
+      "Empirijskih (izmerenih) i očekivanih apsolutnih frekvencija.",
+      "Empirijskih i očekivanih relativnih frekvencija.",
+      "Samo empirijskih frekvencija.",
+      "Samo očekivanih frekvencija."
+    ],
+    "correctAnswer": "Empirijskih (izmerenih) i očekivanih apsolutnih frekvencija."
+  },
+  {
+    "id": 77,
+    "question": "Test saglasnosti, kojim se proverava da li podaci iz uzorka odgovaraju nekoj teorijskoj raspodeli, spada u:",
+    "answers": [
+      "Hi-kvadrat testove",
+      "t-testove",
+      "F-testove",
+      "Z-testove"
+    ],
+    "correctAnswer": "Hi-kvadrat testove"
+  },
+  {
+    "id": 78,
+    "question": "Koji se test najčešće koristi za proveru saglasnosti empirijske sa teorijskom raspodelom?",
+    "answers": [
+      "Pirsonov Hi-kvadrat test",
+      "Studentov t-test",
+      "Fišerov F-test",
+      "Mann-Whitney U test"
+    ],
+    "correctAnswer": "Pirsonov Hi-kvadrat test"
+  },
+  {
+    "id": 79,
+    "question": "Test podobnosti modela, kojim se ocenjuje koliko dobro statistički model odgovara podacima, spada u:",
+    "answers": [
+      "Hi-kvadrat testove",
+      "t-testove",
+      "F-testove",
+      "Testove koraka"
+    ],
+    "correctAnswer": "Hi-kvadrat testove"
+  },
+  {
+    "id": 80,
+    "question": "Test kategorizovanih podataka, kao što je test nezavisnosti, spada u:",
+    "answers": [
+      "Hi-kvadrat testove",
+      "t-testove",
+      "ANOVA",
+      "Regresionu analizu"
+    ],
+    "correctAnswer": "Hi-kvadrat testove"
+  },
+  {
+    "id": 81,
+    "question": "Tabela kontingencije sadrži:",
+    "answers": [
+      "Kategorizovane podatke",
+      "Kontinualne podatke",
+      "Samo numeričke podatke",
+      "Rangirane podatke"
+    ],
+    "correctAnswer": "Kategorizovane podatke"
+  },
+  {
+    "id": 82,
+    "question": "Tabela kontingencije se koristi za:",
+    "answers": [
+      "Neparametarski test nezavisnosti za kategorijske podatke.",
+      "Parametarski test nezavisnosti za kontinualne podatke.",
+      "Poređenje srednjih vrednosti.",
+      "Modeliranje linearne veze."
+    ],
+    "correctAnswer": "Neparametarski test nezavisnosti za kategorijske podatke."
+  },
+  {
+    "id": 83,
+    "question": "Koji test je najpogodniji za utvrđivanje da li religijska pripadnost utiče na partijsku pripadnost?",
+    "answers": [
+      "Hi-kvadrat test nezavisnosti",
+      "t-test",
+      "ANOVA",
+      "Test korelacije"
+    ],
+    "correctAnswer": "Hi-kvadrat test nezavisnosti"
+  },
+  {
+    "id": 84,
+    "question": "Kolmogorov-Smirnov test se zasniva na utvrđivanju stepena slaganja između:",
+    "answers": [
+      "Empirijske kumulativne funkcije raspodele iz uzorka i teorijske kumulativne funkcije raspodele.",
+      "Srednje vrednosti uzorka i srednje vrednosti populacije.",
+      "Varijanse uzorka i varijanse populacije.",
+      "Apsolutnih frekvencija uzorka i populacije."
+    ],
+    "correctAnswer": "Empirijske kumulativne funkcije raspodele iz uzorka i teorijske kumulativne funkcije raspodele."
+  },
+  {
+    "id": 85,
+    "question": "Kod Kolmogorov-Smirnov testa, ako je vrednost statistike D=0, to znači da se empirijska i teorijska kumulativna raspodela frekvencija:",
+    "answers": [
+      "Potpuno poklapaju",
+      "Maksimalno razlikuju",
+      "Paralelne su",
+      "Ortogonalne su"
+    ],
+    "correctAnswer": "Potpuno poklapaju"
+  },
+  {
+    "id": 86,
+    "question": "Kolmogorov-Smirnov test spada u kategoriju:",
+    "answers": [
+      "Testova saglasnosti (goodness-of-fit)",
+      "Testova lokacije",
+      "Testova nezavisnosti",
+      "Parametarskih testova"
+    ],
+    "correctAnswer": "Testova saglasnosti (goodness-of-fit)"
+  },
+  {
+    "id": 87,
+    "question": "Statistika Kolmogorov-Smirnov testa (D) predstavlja:",
+    "answers": [
+      "Maksimalnu apsolutnu razliku između empirijske i teorijske kumulativne funkcije raspodele.",
+      "Sumu kvadrata razlika frekvencija.",
+      "Razliku srednjih vrednosti.",
+      "Koeficijent korelacije."
+    ],
+    "correctAnswer": "Maksimalnu apsolutnu razliku između empirijske i teorijske kumulativne funkcije raspodele."
+  },
+  {
+    "id": 88,
+    "question": "Nulta hipoteza za Kolmogorov-Smirnov test najčešće glasi:",
+    "answers": [
+      "Podaci iz uzorka potiču iz pretpostavljene (npr. normalne) raspodele.",
+      "Srednja vrednost uzorka jednaka je nuli.",
+      "Dve grupe imaju istu varijansu.",
+      "Ne postoji veza između dve promenljive."
+    ],
+    "correctAnswer": "Podaci iz uzorka potiču iz pretpostavljene (npr. normalne) raspodele."
+  },
+  {
+    "id": 89,
+    "question": "Ako je vrednost K-S statistike D=0.183, a kritična vrednost D₀=0.15, zaključujemo da:",
+    "answers": [
+      "Odbacujemo nultu hipotezu (obeležje ne podleže pretpostavljenoj raspodeli).",
+      "Prihvatamo nultu hipotezu (obeležje podleže pretpostavljenoj raspodeli).",
+      "Ne možemo doneti zaključak.",
+      "Test nije validan."
+    ],
+    "correctAnswer": "Odbacujemo nultu hipotezu (obeležje ne podleže pretpostavljenoj raspodeli)."
+  },
+  {
+    "id": 90,
+    "question": "Ako Kolmogorov-Smirnov test pokaže da podaci o potrošnji novca za muškarce i žene NE potiču iz normalne raspodele, koji test treba koristiti kao sledeći korak za poređenje grupa?",
+    "answers": [
+      "Mann-Whitney U test",
+      "t-test",
+      "ANOVA",
+      "Test koraka"
+    ],
+    "correctAnswer": "Mann-Whitney U test"
+  },
+  {
+    "id": 91,
+    "question": "Ako rezultati Kolmogorov-Smirnov testa (D < D₀) sugerišu da podaci potiču iz normalne raspodele, koji test se obično koristi za poređenje srednjih vrednosti dve nezavisne grupe?",
+    "answers": ["t-test", "Mann-Whitney U test", "Hi-kvadrat test", "Test koraka"],
+    "correctAnswer": "t-test"
+  },
+  {
+    "id": 92,
+    "question": "Koji test se koristi da se utvrdi da li je niz podataka slučajan, odnosno da li postoji neki trend ili periodičnost?",
+    "answers": [
+      "Test koraka (runs test)",
+      "t-test",
+      "Test korelacije",
+      "ANOVA"
+    ],
+    "correctAnswer": "Test koraka (runs test)"
+  },
+  {
+    "id": 93,
+    "question": "Ako je slučajnost u uzorku narušena zbog monotonosti (trenda), broj koraka će biti:",
+    "answers": ["Mali", "Veliki", "Jednak nuli", "Beskonačan"],
+    "correctAnswer": "Mali"
+  },
+  {
+    "id": 94,
+    "question": "Kod testa koraka, ako sumnjamo na monotonost (trend) u podacima, kritična oblast testa je:",
+    "answers": ["Levostrana", "Desnostrana", "Dvostrana", "Nije definisana"],
+    "correctAnswer": "Levostrana"
+  },
+  {
+    "id": 95,
+    "question": "Mann-Whitney U test se koristi za:",
+    "answers": [
+      "Testiranje jednakosti raspodela dve nezavisne grupe.",
+      "Testiranje jednakosti varijansi dve grupe.",
+      "Testiranje nezavisnosti dve kategorijske promenljive.",
+      "Testiranje korelacije između dve kontinualne promenljive."
+    ],
+    "correctAnswer": "Testiranje jednakosti raspodela dve nezavisne grupe."
+  },
+  {
+    "id": 96,
+    "question": "Koji od sledećih testova predstavlja neparametarsku zamenu za t-test za nezavisne uzorke?",
+    "answers": [
+      "Mann-Whitney U test",
+      "F-test",
+      "Z-test",
+      "Hi-kvadrat test"
+    ],
+    "correctAnswer": "Mann-Whitney U test"
+  },
+  {
+    "id": 97,
+    "question": "U linearnom regresionom modelu Y = αX + β + ε, kolika je očekivana vrednost slučajne greške ε?",
+    "answers": ["0", "1", "β", "α"],
+    "correctAnswer": "0"
+  },
+  {
+    "id": 98,
+    "question": "U linearnoj regresiji, kao ocene slučajnih odstupanja (grešaka) koriste se:",
+    "answers": [
+      "Reziduali",
+      "Koeficijenti regresije",
+      "Standardne devijacije",
+      "Srednje vrednosti"
+    ],
+    "correctAnswer": "Reziduali"
+  },
+  {
+    "id": 99,
+    "question": "Pretpostavka da je varijansa slučajne greške ε u regresionom modelu konstanta naziva se:",
+    "answers": [
+      "Homoskedastičnost",
+      "Heteroskedastičnost",
+      "Autokorelacija",
+      "Normalnost"
+    ],
+    "correctAnswer": "Homoskedastičnost"
+  },
+  {
+    "id": 100,
+    "question": "U prostom linearnom regresionom modelu, pretpostavlja se da slučajna greška ε ima:",
+    "answers": [
+      "Normalnu raspodelu N(0, σ²)",
+      "Studentovu t-raspodelu",
+      "Hi-kvadrat raspodelu",
+      "Uniformnu raspodelu"
+    ],
+    "correctAnswer": "Normalnu raspodelu N(0, σ²)"
+  },
+  {
+    "id": 101,
+    "question": "U modelu Y = αX + β + ε, parametar β predstavlja:",
+    "answers": [
+      "Odsečak na Y osi (vrednost Y kada je X=0)",
+      "Nagib prave",
+      "Koeficijent korelacije",
+      "Standardnu grešku"
+    ],
+    "correctAnswer": "Odsečak na Y osi (vrednost Y kada je X=0)"
+  },
+  {
+    "id": 102,
+    "question": "Metod najmanjih kvadrata se zasniva na:",
+    "answers": [
+      "Minimiziranju sume kvadrata vertikalnih odstupanja tačaka od regresione prave.",
+      "Minimiziranju sume kvadrata horizontalnih odstupanja.",
+      "Maksimiziranju koeficijenta korelacije.",
+      "Minimiziranju broja tačaka."
+    ],
+    "correctAnswer": "Minimiziranju sume kvadrata vertikalnih odstupanja tačaka od regresione prave."
+  },
+  {
+    "id": 103,
+    "question": "Ocene regresionih parametara (α i β) dobijene metodom najmanjih kvadrata su:",
+    "answers": [
+      "Nepristrasne",
+      "Negativno pristrasne",
+      "Pozitivno pristrasne",
+      "Uvek jednake nuli"
+    ],
+    "correctAnswer": "Nepristrasne"
+  },
+  {
+    "id": 104,
+    "question": "Metodom najmanjih kvadrata u prostom linearnom regresionom modelu dobijaju se:",
+    "answers": [
+      "Tačkaste ocene parametara",
+      "Intervalne ocene parametara",
+      "p-vrednosti",
+      "Standardne devijacije"
+    ],
+    "correctAnswer": "Tačkaste ocene parametara"
+  },
+  {
+    "id": 105,
+    "question": "Ako je koeficijent korelacije r = -0.95, smatramo da je linearna veza između promenljivih:",
+    "answers": [
+      "Jaka negativna",
+      "Slaba negativna",
+      "Jaka pozitivna",
+      "Nema veze"
+    ],
+    "correctAnswer": "Jaka negativna"
+  },
+  {
+    "id": 106,
+    "question": "U regresionom modelu, ako nezavisna promenljiva X raste, a zavisna promenljiva Y opada, onda je koeficijent nagiba α:",
+    "answers": ["α < 0", "α > 0", "α = 0", "α = 1"],
+    "correctAnswer": "α < 0"
+  },
+  {
+    "id": 107,
+    "question": "U regresionom modelu, ako nezavisna promenljiva X raste i zavisna promenljiva Y takođe raste, onda je koeficijent nagiba α:",
+    "answers": ["α > 0", "α < 0", "α = 0", "α = -1"],
+    "correctAnswer": "α > 0"
+  },
+  {
+    "id": 108,
+    "question": "U linearnoj regresiji, koeficijent nagiba α predstavlja:",
+    "answers": [
+      "Prosečnu promenu zavisne promenljive Y kada se nezavisna promenljiva X poveća za jednu jedinicu.",
+      "Prosečnu promenu nezavisne promenljive X kada se zavisna promenljiva Y poveća za jednu jedinicu.",
+      "Vrednost Y kada je X jednako nuli.",
+      "Jačinu veze između promenljivih."
+    ],
+    "correctAnswer": "Prosečnu promenu zavisne promenljive Y kada se nezavisna promenljiva X poveća za jednu jedinicu."
+  },
+  {
+    "id": 109,
+    "question": "U linearnoj regresiji, slučajna greška ε predstavlja:",
+    "answers": [
+      "Uticaj svih ostalih faktora na zavisnu promenljivu koji nisu uključeni u model.",
+      "Grešku merenja nezavisne promenljive.",
+      "Srednju vrednost zavisne promenljive.",
+      "Nagib regresione prave."
+    ],
+    "correctAnswer": "Uticaj svih ostalih faktora na zavisnu promenljivu koji nisu uključeni u model."
+  },
+  {
+    "id": 110,
+    "question": "Studenti dva fakulteta su ocenjivali uslugu mobilnog operatera na ordinalnoj skali od 1 do 5. Koji test je najpogodniji za poređenje njihovih ocena?",
+    "answers": [
+      "Mann-Whitney U test",
+      "t-test za nezavisne uzorke",
+      "ANOVA",
+      "Hi-kvadrat test"
+    ],
+    "correctAnswer": "Mann-Whitney U test"
+  },
+  {
+    "id": 111,
+    "question": "Šta od navedenog NIJE problem koji se rešava na osnovu Centralne granične teoreme?",
+    "answers": [
+      "Dokazivanje da populacija ima normalnu raspodelu.",
+      "Određivanje verovatnoće da će se sredina uzorka razlikovati od sredine populacije za manje od zadatog broja.",
+      "Određivanje intervala poverenja za srednju vrednost populacije.",
+      "Određivanje potrebnog obima uzorka za željenu preciznost ocene."
+    ],
+    "correctAnswer": "Dokazivanje da populacija ima normalnu raspodelu."
+  },
+  {
+    "id": 112,
+    "question": "Statistika je:",
+    "answers": [
+      "Funkcija definisana na uzorku, koja ne zavisi od nepoznatih parametara.",
+      "Parametar populacije.",
+      "Vrednost izmerena na jednom elementu.",
+      "Greška u merenju."
+    ],
+    "correctAnswer": "Funkcija definisana na uzorku, koja ne zavisi od nepoznatih parametara."
+  },
+  {
+    "id": 113,
+    "question": "Definicija nepristrasne ocene θ̂ za parametar θ je:",
+    "answers": [
+      "E(θ̂) = θ",
+      "Var(θ̂) = 0",
+      "E(θ̂) = 0",
+      "θ̂ = θ"
+    ],
+    "correctAnswer": "E(θ̂) = θ"
+  },
+  {
+    "id": 114,
+    "question": "Koju raspodelu koristi t-test?",
+    "answers": [
+      "Studentovu t-raspodelu",
+      "Normalnu raspodelu",
+      "Hi-kvadrat raspodelu",
+      "F-raspodelu"
+    ],
+    "correctAnswer": "Studentovu t-raspodelu"
+  },
+  {
+    "id": 115,
+    "question": "Moć statističkog testa može imati vrednosti u intervalu:",
+    "answers": ["[α, 1]", "[0, 1]", "[0, β]", "[-1, 1]"],
+    "correctAnswer": "[α, 1]"
+  },
+  {
+    "id": 116,
+    "question": "U analizi varijanse (ANOVA), kolika je očekivana vrednost slučajne greške (reziduala)?",
+    "answers": ["0", "1", "Jednaka broju grupa", "Jednaka varijansi"],
+    "correctAnswer": "0"
+  },
+  {
+    "id": 117,
+    "question": "Ako se nivo značajnosti α (greška prve vrste) poveća, šta se dešava sa moći testa (1-β)?",
+    "answers": [
+      "Moć testa se povećava.",
+      "Moć testa se smanjuje.",
+      "Moć testa ostaje ista.",
+      "Moć testa postaje jednaka α."
+    ],
+    "correctAnswer": "Moć testa se povećava."
+  }
+]

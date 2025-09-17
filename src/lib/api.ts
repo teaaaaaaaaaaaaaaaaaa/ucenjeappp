@@ -18,9 +18,7 @@ export async function fetchApi<T>(
 ): Promise<T> {
   const { method = 'GET', headers = {}, body } = options;
   
-  const url = `${API_BASE_URL}${endpoint.startsWith('/') ? endpoint : `/${endpoint}`}`;
-  
-  const requestOptions: RequestInit = {
+  const config: RequestInit = {
     method,
     headers: {
       'Content-Type': 'application/json',
@@ -30,11 +28,14 @@ export async function fetchApi<T>(
   };
   
   if (body && method !== 'GET') {
-    requestOptions.body = JSON.stringify(body);
+    config.body = JSON.stringify(body);
   }
-  
+
+  // Use relative path for local data files, otherwise use API_BASE_URL
+  const url = endpoint.startsWith('/data/') ? endpoint : `${API_BASE_URL}${endpoint}`;
+
   try {
-    const response = await fetch(url, requestOptions);
+    const response = await fetch(url, config);
     
     if (!response.ok) {
       // Attempt to parse error response

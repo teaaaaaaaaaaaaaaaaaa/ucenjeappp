@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "Kada se kaže da je struktura linearna, onda to znači da:",
+    "answers": [
+      "Svakom elementu odgovara najviše jedan prethodnik i najviše jedan sledbenik",
+      "Svi elementi su istog tipa",
+      "Elementi su sortirani",
+      "Ne postoji uređenje između elemenata"
+    ],
+    "correctAnswer": "Svakom elementu odgovara najviše jedan prethodnik i najviše jedan sledbenik"
+  },
+  {
+    "id": 2,
+    "question": "Sekvencijalno pretraživanje ima prosečnu kompleksnost?",
+    "answers": ["O(n)", "O((n+1)/2)", "O(1)", "O(log n)"],
+    "correctAnswer": "O((n+1)/2)"
+  },
+  {
+    "id": 3,
+    "question": "Koliko se u proseku koraka izvršava u slučaju niza od n elemenata kod sekvencijalnog pretraživanja?",
+    "answers": ["(n+1)/2", "n", "1", "n/2"],
+    "correctAnswer": "(n+1)/2"
+  },
+  {
+    "id": 4,
+    "question": "Kod O(n) notacije, šta predstavlja 'n'?",
+    "answers": [
+      "Veličinu ulaza ili broj elemenata",
+      "Konstantu",
+      "Broj operacija",
+      "Vreme izvršenja u sekundama"
+    ],
+    "correctAnswer": "Veličinu ulaza ili broj elemenata"
+  },
+  {
+    "id": 5,
+    "question": "Koja je najgora vremenska kompleksnost algoritma za pretraživanje kod jednostruko spregnute liste?",
+    "answers": ["O(n)", "O(1)", "O(log n)", "O(n^2)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 6,
+    "question": "Koja je najgora vremenska kompleksnost interpolacionog pretraživanja?",
+    "answers": ["O(n)", "O(log n)", "O(log(log n))", "O(1)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 7,
+    "question": "Koja je prosečna kompleksnost robusnog interpolacionog pretraživanja?",
+    "answers": ["O(log(log N))", "O((log N)^2)", "O(log N)", "O(N)"],
+    "correctAnswer": "O(log(log N))"
+  },
+  {
+    "id": 8,
+    "question": "Koji od navedenih algoritama za sortiranje pripada O(n log n) klasi?",
+    "answers": ["Merge sort", "Selection sort", "Bubble sort", "Insertion sort"],
+    "correctAnswer": "Merge sort"
+  },
+  {
+    "id": 9,
+    "question": "Koja je najgora vremenska kompleksnost Quick sort algoritma?",
+    "answers": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"],
+    "correctAnswer": "O(n^2)"
+  },
+  {
+    "id": 10,
+    "question": "Koja su tri osnovna načina apstrahovanja podataka?",
+    "answers": [
+      "Klasifikacija, Generalizacija, Agregacija",
+      "Enkapsulacija, Polimorfizam, Nasleđivanje",
+      "Kompilacija, Linkovanje, Izvršavanje",
+      "Stek, Red, Lista"
+    ],
+    "correctAnswer": "Klasifikacija, Generalizacija, Agregacija"
+  },
+  {
+    "id": 11,
+    "question": "Data je ciklična dvostruko spregnuta lista. Ako je 'L' pokazivač na prvi element, koji izraz pokazuje na poslednji element?",
+    "answers": ["L.prethodni", "L.sledeci", "L.prethodni.prethodni", "L.sledeci.sledeci"],
+    "correctAnswer": "L.prethodni"
+  },
+  {
+    "id": 12,
+    "question": "Ako imamo ljude koji čekaju u redu, ali službenik može u bilo kom trenutku da prozove bilo koga (ne nužno prvog), koja struktura je najpogodnija za implementaciju?",
+    "answers": [
+      "Dvostruko spregnuta lista",
+      "Stek",
+      "Red",
+      "Sve je jednako dobro"
+    ],
+    "correctAnswer": "Dvostruko spregnuta lista"
+  },
+  {
+    "id": 13,
+    "question": "Šta je struktura podataka?",
+    "answers": [
+      "Složeni tip podatka",
+      "Skup podataka",
+      "Vrednost podataka",
+      "Skup vrednosti podataka"
+    ],
+    "correctAnswer": "Složeni tip podatka"
+  },
+  {
+    "id": 14,
+    "question": "Šta je tip podataka?",
+    "answers": [
+      "Skup vrednosti i operacija nad tim vrednostima",
+      "Skup vrednosti koje imaju isto značenje",
+      "Skup operacija",
+      "Skup pokazivača"
+    ],
+    "correctAnswer": "Skup vrednosti i operacija nad tim vrednostima"
+  },
+  {
+    "id": 15,
+    "question": "Linearna struktura je najpogodnija da bi se predstavila:",
+    "answers": ["Rang lista", "Organizaciona struktura", "Porodični odnosi", "Sastav proizvoda"],
+    "correctAnswer": "Rang lista"
+  },
+  {
+    "id": 16,
+    "question": "Koje od navedenih su nelinearne strukture?",
+    "answers": [
+      "Stabla i grafovi",
+      "Nizovi i liste",
+      "Stekovi i redovi",
+      "Sve navedeno"
+    ],
+    "correctAnswer": "Stabla i grafovi"
+  },
+  {
+    "id": 17,
+    "question": "Kada se kaže da je neka struktura FIFO, onda to znači da se elementi mogu:",
+    "answers": [
+      "Ubacivati na jednom, a izbacivati na drugom kraju strukture",
+      "Ubacivati i izbacivati bilo gde u strukturi",
+      "Ubacivati i izbacivati na istom kraju strukture",
+      "Ni jedno od ponuđenog"
+    ],
+    "correctAnswer": "Ubacivati na jednom, a izbacivati na drugom kraju strukture"
+  },
+  {
+    "id": 18,
+    "question": "Koja je razlika između steka i reda?",
+    "answers": [
+      "Stek je LIFO, a red je FIFO",
+      "Stek je FIFO, a red je LIFO",
+      "Nema razlike",
+      "Obe su LIFO"
+    ],
+    "correctAnswer": "Stek je LIFO, a red je FIFO"
+  },
+  {
+    "id": 19,
+    "question": "Dat je niz elemenata : {9, 4, 12, 2, 6, 8, 18}. Kako ce izgledati niz nakon prvog prolaza kroz niz algoritmom selection sort?",
+    "answers": [
+      "2, 4, 12, 9, 6, 8, 18",
+      "9, 4, 12, 2, 6, 8, 18",
+      "4, 9, 12, 2, 6, 8, 18",
+      "2, 4, 9, 12, 6, 8, 18"
+    ],
+    "correctAnswer": "2, 4, 12, 9, 6, 8, 18"
+  },
+  {
+    "id": 20,
+    "question": "Koliko puta se najviše izvrši premeštanje elemenata kod Selection sorta nad n elemenata?",
+    "answers": ["n-1", "n", "1", "n/2"],
+    "correctAnswer": "n-1"
+  },
+  {
+    "id": 21,
+    "question": "Šta je osnovni princip Insertion sort algoritma?",
+    "answers": [
+      "Prolazak kroz nesortiran deo i ubacivanje sledećeg elementa u sortirani deo",
+      "Zamena susednih elemenata",
+      "Pronalaženje najmanjeg elementa i stavljanje na početak",
+      "Podela niza na dva dela"
+    ],
+    "correctAnswer": "Prolazak kroz nesortiran deo i ubacivanje sledećeg elementa u sortirani deo"
+  },
+  {
+    "id": 22,
+    "question": "Imamo red implementiran preko niza, kapaciteta 42, sa 10 elemenata (niz[0] do niz[9]). Sa koje pozicije će metoda dequeue() izbaciti element?",
+    "answers": ["niz[0]", "niz[9]", "niz[10]", "niz[1]"],
+    "correctAnswer": "niz[0]"
+  },
+  {
+    "id": 23,
+    "question": "Za binarno pretraživanje, neophodno je da niz bude:",
+    "answers": ["Sortiran", "Nesortiran", "Implementiran kao lista", "Kratak"],
+    "correctAnswer": "Sortiran"
+  },
+  {
+    "id": 24,
+    "question": "Šta je glavna karakteristika strukture podataka 'mreža' ili 'graf'?",
+    "answers": [
+      "Sastoji se od skupa čvorova (V) i skupa ivica (E) koje ih povezuju",
+      "Elementi su hijerarhijski organizovani",
+      "Svaki element ima tačno jednog prethodnika i sledbenika",
+      "Podaci se obrađuju po LIFO principu"
+    ],
+    "correctAnswer": "Sastoji se od skupa čvorova (V) i skupa ivica (E) koje ih povezuju"
+  },
+  {
+    "id": 25,
+    "question": "Koja notacija se koristi za opis gornje granice asimptotske kompleksnosti?",
+    "answers": ["Veliko O notacija (Big O)", "Omega notacija", "Theta notacija", "Mala o notacija"],
+    "correctAnswer": "Veliko O notacija (Big O)"
+  }
+]

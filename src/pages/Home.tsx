@@ -71,18 +71,32 @@ const Home: React.FC = () => {
   // Get emoji for subject
   const getEmoji = (subject: string) => {
     switch (subject) {
+      case 'aros':
+        return '💻';
       case 'linux':
+        return '🐧';
       case 'linux-deep':
         return '🐧';
-      case 'programming':
-        return '💻';
       case 'marketing':
-      case 'marketing-deep':
         return '📈';
-      case 'aros':
-        return '⚙️';
-      case 'custom':
-        return '🛠️';
+      case 'marketing-deep':
+        return '🎯';
+      case 'programming':
+        return '👨‍💻';
+      case 'statistika':
+        return '📊';
+      case 'statistika_test':
+        return '📝';
+      case 'strukturepodataka_pitanja_sa_1testa':
+        return '🔗';
+      case 'strukturepodataka_pitanja_sa_2testa':
+        return '📚';
+      case 'strukturepodataka_pitanja_sa_3testa':
+        return '🗂️';
+      case 'strukturepodataka_pitanja_sa_4testa':
+        return '📄';
+      case 'strukturepodataka_pitanja_sa_5testa':
+        return '📝';
       default:
         return '🧠';
     }
@@ -91,20 +105,32 @@ const Home: React.FC = () => {
   // Get display name for subject
   const getSubjectDisplayName = (subject: string) => {
     switch (subject) {
+      case 'aros':
+        return 'AROS';
       case 'linux':
         return 'Linux';
       case 'linux-deep':
         return 'Linux Deep';
-      case 'programming':
-        return 'Programranje nema pitanja jos uvek';
       case 'marketing':
         return 'Marketing';
       case 'marketing-deep':
         return 'Marketing Deep';
-      case 'aros':
-        return 'Operativni Sistem';
-      case 'custom':
-        return 'Custom';
+      case 'programming':
+        return 'Programming';
+      case 'statistika':
+        return 'Statistika';
+      case 'statistika_test':
+        return 'Statistika Test';
+      case 'strukturepodataka_pitanja_sa_1testa':
+        return 'Strukture Podataka - Test 1';
+      case 'strukturepodataka_pitanja_sa_2testa':
+        return 'Strukture Podataka - Test 2';
+      case 'strukturepodataka_pitanja_sa_3testa':
+        return 'Strukture Podataka - Test 3';
+      case 'strukturepodataka_pitanja_sa_4testa':
+        return 'Strukture Podataka - Test 4';
+      case 'strukturepodataka_pitanja_sa_5testa':
+        return 'Strukture Podataka - Test 5';
       default:
         return subject;
     }

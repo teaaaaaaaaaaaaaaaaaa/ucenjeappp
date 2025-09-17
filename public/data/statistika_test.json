@@ -1,0 +1,280 @@
+[
+  {
+    "id": 1,
+    "question": "Jedna nepristrasna ocena je bolja (efikasnija) od druge ako ima manju standardnu grešku.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 2,
+    "question": "Ako je α (alfa) regresioni koeficijent negativan, zavisna i nezavisna promenljiva su u direktnoj (pozitivnoj) vezi.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 3,
+    "question": "Hi-kvadrat test posmatra razlike između izmerenih i očekivanih:",
+    "answers": [
+      "Apsolutnih frekvencija",
+      "Relativnih frekvencija",
+      "Intervala poverenja",
+      "Medijana"
+    ],
+    "correctAnswer": "Apsolutnih frekvencija"
+  },
+  {
+    "id": 4,
+    "question": "Koja je jedna od osnovnih pretpostavki u Analizi varijanse (ANOVA)?",
+    "answers": [
+      "Jednakost varijansi unutar grupa",
+      "Jednakost srednjih vrednosti unutar grupa",
+      "Jednakost koeficijenata korelacije",
+      "Jednakost veličina uzoraka"
+    ],
+    "correctAnswer": "Jednakost varijansi unutar grupa"
+  },
+  {
+    "id": 5,
+    "question": "Kada nivo poverenja raste (npr. sa 95% na 99%), šta se dešava sa dužinom intervala poverenja?",
+    "answers": [
+      "Povećava se",
+      "Smanjuje se",
+      "Ostaje nepromenjen",
+      "Zavisi od veličine uzorka"
+    ],
+    "correctAnswer": "Povećava se"
+  },
+  {
+    "id": 6,
+    "question": "Ocene regresionih parametara dobijene metodom najmanjih kvadrata su:",
+    "answers": [
+      "Nepristrasne",
+      "Negativno pristrasne",
+      "Pozitivno pristrasne",
+      "Uvek jednake nuli"
+    ],
+    "correctAnswer": "Nepristrasne"
+  },
+  {
+    "id": 7,
+    "question": "Moć statističkog testa predstavlja:",
+    "answers": [
+      "Verovatnoću ispravnog odbacivanja netačne nulte hipoteze",
+      "Verovatnoću greške prve vrste (α)",
+      "Verovatnoću greške druge vrste (β)",
+      "Verovatnoću prihvatanja tačne nulte hipoteze"
+    ],
+    "correctAnswer": "Verovatnoću ispravnog odbacivanja netačne nulte hipoteze"
+  },
+  {
+    "id": 8,
+    "question": "Koja od navedenih osobina NIJE poželjna osobina ocene parametra?",
+    "answers": ["Pristrasnost", "Saglasnost", "Nepristrasnost", "Efikasnost"],
+    "correctAnswer": "Pristrasnost"
+  },
+  {
+    "id": 9,
+    "question": "U modelu Analize varijanse (ANOVA), kolika je očekivana vrednost slučajne greške (E(ε))?",
+    "answers": ["0", "1", "-1", "Zavisi od broja grupa"],
+    "correctAnswer": "0"
+  },
+  {
+    "id": 10,
+    "question": "Ako se greška prve vrste (α) poveća, a sve ostalo ostane nepromenjeno, šta se dešava sa moći testa (1-β)?",
+    "answers": [
+      "Moć testa raste",
+      "Moć testa opada",
+      "Moć testa ostaje ista",
+      "Moć testa postaje jednaka 0"
+    ],
+    "correctAnswer": "Moć testa raste"
+  },
+  {
+    "id": 11,
+    "question": "Minimalna vrednost moći testa je jednaka:",
+    "answers": [
+      "Grešci prve vrste (α)",
+      "Grešci druge vrste (β)",
+      "Nuli",
+      "Jedinici"
+    ],
+    "correctAnswer": "Grešci prve vrste (α)"
+  },
+  {
+    "id": 12,
+    "question": "U linearnom regresionom modelu, kada nezavisna promenljiva (X) raste, a zavisna promenljiva (Y) opada, koeficijent nagiba (α) je:",
+    "answers": ["α < 0", "α > 0", "α = 0", "α = 1"],
+    "correctAnswer": "α < 0"
+  },
+  {
+    "id": 13,
+    "question": "Neparametarski testovi se koriste za testiranje hipoteza o:",
+    "answers": [
+      "Obliku raspodele populacije",
+      "Srednjoj vrednosti populacije",
+      "Varijansi populacije",
+      "Isključivo o normalnosti raspodele"
+    ],
+    "correctAnswer": "Obliku raspodele populacije"
+  },
+  {
+    "id": 14,
+    "question": "Kako se računa ocena odsečka (β) u prostom linearnom regresionom modelu?",
+    "answers": [
+      "β̂ = ȳ - α̂x̄",
+      "β̂ = ȳ + α̂x̄",
+      "β̂ = α̂ - ȳx̄",
+      "β̂ = x̄ - α̂ȳ"
+    ],
+    "correctAnswer": "β̂ = ȳ - α̂x̄"
+  },
+  {
+    "id": 15,
+    "question": "Srednja kvadratna greška (MSE) nepristrasne ocene je jednaka:",
+    "answers": [
+      "Varijansi te ocene",
+      "Očekivanoj vrednosti te ocene",
+      "Standardnoj devijaciji",
+      "Nuli"
+    ],
+    "correctAnswer": "Varijansi te ocene"
+  },
+  {
+    "id": 16,
+    "question": "Optimalna ocena parametra u klasi nepristrasnih ocena je ona koja ima:",
+    "answers": [
+      "Minimalnu varijansu",
+      "Maksimalnu varijansu",
+      "Nultu varijansu",
+      "Pozitivnu pristrasnost"
+    ],
+    "correctAnswer": "Minimalnu varijansu"
+  },
+  {
+    "id": 17,
+    "question": "Kada se nivo značajnosti α (verovatnoća greške I vrste) smanjuje, šta se dešava sa greškom II vrste (β) i moći testa (1-β)?",
+    "answers": [
+      "Greška II vrste (β) raste, a moć testa opada.",
+      "Greška II vrste (β) opada, a moć testa raste.",
+      "Obe rastu.",
+      "Obe opadaju."
+    ],
+    "correctAnswer": "Greška II vrste (β) raste, a moć testa opada."
+  },
+  {
+    "id": 18,
+    "question": "Koeficijent determinacije (R²) se definiše kao:",
+    "answers": [
+      "Kvadrat koeficijenta korelacije",
+      "Kvadratni koren koeficijenta korelacije",
+      "Logaritam koeficijenta korelacije",
+      "Suma kvadrata reziduala"
+    ],
+    "correctAnswer": "Kvadrat koeficijenta korelacije"
+  },
+  {
+    "id": 19,
+    "question": "Pretpostavka homoskedastičnosti u linearnoj regresiji znači da je:",
+    "answers": [
+      "Varijansa slučajne greške konstantna za sve vrednosti nezavisne promenljive",
+      "Srednja vrednost slučajne greške jednaka nuli",
+      "Slučajna greška normalno raspoređena",
+      "Nema korelacije između uzastopnih vrednosti greške"
+    ],
+    "correctAnswer": "Varijansa slučajne greške konstantna za sve vrednosti nezavisne promenljive"
+  },
+  {
+    "id": 20,
+    "question": "Nulta hipoteza (H₀) za Kolmogorov-Smirnov test za jedan uzorak glasi:",
+    "answers": [
+      "Uzorak potiče iz pretpostavljene teorijske raspodele.",
+      "Uzorak ne potiče iz pretpostavljene teorijske raspodele.",
+      "Srednja vrednost uzorka je jednaka nuli.",
+      "Varijansa uzorka je jednaka jedinici."
+    ],
+    "correctAnswer": "Uzorak potiče iz pretpostavljene teorijske raspodele."
+  },
+  {
+    "id": 21,
+    "question": "Statistika Kolmogorov-Smirnov testa (D) se definiše na osnovu:",
+    "answers": [
+      "Maksimalne devijacije između empirijske i teorijske kumulativne funkcije",
+      "Minimalne devijacije između empirijske i teorijske kumulativne funkcije",
+      "Prosečne devijacije između funkcija",
+      "Sume kvadrata devijacija"
+    ],
+    "correctAnswer": "Maksimalne devijacije između empirijske i teorijske kumulativne funkcije"
+  },
+  {
+    "id": 22,
+    "question": "Koja test statistika se koristi za testiranje hipoteze o regresionom koeficijentu nagiba (α)?",
+    "answers": [
+      "Statistika koja sledi Studentovu t-raspodelu sa (n-2) stepeni slobode",
+      "Statistika koja sledi Normalnu raspodelu",
+      "Statistika koja sledi Hi-kvadrat raspodelu",
+      "Statistika koja sledi F-raspodelu"
+    ],
+    "correctAnswer": "Statistika koja sledi Studentovu t-raspodelu sa (n-2) stepeni slobode"
+  },
+  {
+    "id": 23,
+    "question": "Koja od navedenih mera NE spada u mere centralne tendencije?",
+    "answers": [
+      "Kvartilna devijacija",
+      "Medijana",
+      "Aritmetička sredina",
+      "Modus"
+    ],
+    "correctAnswer": "Kvartilna devijacija"
+  },
+  {
+    "id": 24,
+    "question": "Zbir odstupanja svake vrednosti obeležja od aritmetičke sredine tog obeležja (Σ(Xi - x̄)) uvek je jednak:",
+    "answers": ["0", "1", "Standardnoj devijaciji", "Varijansi"],
+    "correctAnswer": "0"
+  },
+  {
+    "id": 25,
+    "question": "Nulta hipoteza (H₀) kod testa koraka za jedan uzorak glasi:",
+    "answers": [
+      "Uzorak je slučajan",
+      "Uzorak nije slučajan",
+      "Uzorak ima trend rasta",
+      "Uzorak ima periodične promene"
+    ],
+    "correctAnswer": "Uzorak je slučajan"
+  },
+  {
+    "id": 26,
+    "question": "Mann-Whitney U test se bazira na:",
+    "answers": [
+      "Poređenju rangova vrednosti iz dva nezavisna uzorka",
+      "Poređenju srednjih vrednosti iz dva uzorka",
+      "Poređenju apsolutnih frekvencija",
+      "Poređenju varijansi"
+    ],
+    "correctAnswer": "Poređenju rangova vrednosti iz dva nezavisna uzorka"
+  },
+  {
+    "id": 27,
+    "question": "Što je vrednost koeficijenta determinacije (R²) bliža vrednosti 0, to je:",
+    "answers": [
+      "Udeo varijabiliteta zavisne promenljive koji je objašnjen modelom manji",
+      "Udeo varijabiliteta zavisne promenljive koji je objašnjen modelom veći",
+      "Model savršeno opisuje podatke",
+      "Veza između promenljivih je jaka"
+    ],
+    "correctAnswer": "Udeo varijabiliteta zavisne promenljive koji je objašnjen modelom manji"
+  },
+  {
+    "id": 28,
+    "question": "Koeficijent determinacije (R²) u linearnom regresionom modelu predstavlja:",
+    "answers": [
+      "Količnik objašnjenog i ukupnog varijabiliteta",
+      "Količnik neobjašnjenog i ukupnog varijabiliteta",
+      "Količnik objašnjenog i neobjašnjenog varijabiliteta",
+      "Kvadratni koren koeficijenta korelacije"
+    ],
+    "correctAnswer": "Količnik objašnjenog i ukupnog varijabiliteta"
+  }
+]

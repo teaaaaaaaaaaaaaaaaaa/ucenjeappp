@@ -97,15 +97,32 @@ const QuizSetup: React.FC = () => {
     if (!subjectName) return '🧠';
     if (isCustomQuiz) return '🛠️';
     switch (subjectName) {
+      case 'aros':
+        return '💻';
       case 'linux':
+        return '🐧';
       case 'linux-deep':
         return '🐧';
-      case 'programming':
-        return '💻';
       case 'marketing':
         return '📈';
-      case 'aros':
-        return '⚙️';
+      case 'marketing-deep':
+        return '🎯';
+      case 'programming':
+        return '👨‍💻';
+      case 'statistika':
+        return '📊';
+      case 'statistika_test':
+        return '📝';
+      case 'strukturepodataka_pitanja_sa_1testa':
+        return '🔗';
+      case 'strukturepodataka_pitanja_sa_2testa':
+        return '📚';
+      case 'strukturepodataka_pitanja_sa_3testa':
+        return '🗂️';
+      case 'strukturepodataka_pitanja_sa_4testa':
+        return '📄';
+      case 'strukturepodataka_pitanja_sa_5testa':
+        return '📝';
       default:
         return '🧠';
     }

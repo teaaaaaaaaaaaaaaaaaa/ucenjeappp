@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "question": "Data je dvostruko spregnuta lista u čijim elementima se nalaze otisci prstiju stanovništva. U slučaju primene algoritma za sekvencijalna pronalaženja počinilaca krivičnih dela, koja metoda od ponuđenih će dati najbolje rezultate?",
+    "answers": ["bilo koja od ponuđenih", "metoda transpozicije", "metoda zamene", "standardno sekvencijalno pretraživanje"],
+    "correctAnswer": "metoda transpozicije"
+  },
+  {
+    "id": 2,
+    "question": "Potrebno je spojiti dve liste, a da algoritam ima efikasnost O(1). Koja od ponuđenih struktura je najpogodnija?",
+    "answers": ["dvostruko-spregnuta lista", "lista implementirana pomoću niza", "jednostruko spregnuta lista", "dvostruko spregnuta ciklična lista"],
+    "correctAnswer": "dvostruko spregnuta ciklična lista"
+  },
+  {
+    "id": 3,
+    "question": "Koji od sledećih iskaza nije tačan?",
+    "answers": ["Novi element se uvek ubacuje na vrh steka", "Element se izbacuje sa dna steka", "Stek je LIFO struktura", "Jednostruko spregnuta lista se može koristiti za implementaciju steka"],
+    "correctAnswer": "Element se izbacuje sa dna steka"
+  },
+  {
+    "id": 4,
+    "question": "Koji od sledećih algoritama za sortiranje, implementiran pomoću spregnute liste, bi bio najefikasniji?",
+    "answers": ["Quick sort", "Insertion sort", "Heap sort", "Merge sort"],
+    "correctAnswer": "Merge sort"
+  },
+  {
+    "id": 5,
+    "question": "Kakva je prostorna kompleksnost algoritma za sekvencijalno pretraživanje niza koji ima n elemenata?",
+    "answers": ["O(n*n)", "O(n)", "O(log(n))", "O(1)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 6,
+    "question": "Kada se kaže da je neka struktura FIFO lista, onda to znači da se elementi mogu:",
+    "answers": ["ubacivati i izbacivati bilo gde u strukturi", "ubacivati i izbacivati na istom kraju strukture", "ubacivati na jednom, a izbacivati na drugom kraju strukture", "ni jedno od ponuđenih"],
+    "correctAnswer": "ubacivati na jednom, a izbacivati na drugom kraju strukture"
+  },
+  {
+    "id": 7,
+    "question": "Kakva je vremenska kompleksnost najboljeg mogućeg algoritma za pretraživanje dvostruko spregnute liste ili jednostruko spregnute liste koja ima n elemenata?",
+    "answers": ["O(n^2)", "O(log(n))", "O(n)", "O(1)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 8,
+    "question": "Merge sort i quick sort pripadaju istoj kategoriji algoritama. Koja je to kategorija?",
+    "answers": ["O(n log n)", "podeli-pa-vladaj sortiranja", "interchange sortiranja", "nista od ponudjenog"],
+    "correctAnswer": "podeli-pa-vladaj sortiranja"
+  },
+  {
+    "id": 9,
+    "question": "Niz elemenata {9, 4, 12, 2, 6, 8, 18}. Koliko ce zamena mesta elemenata ukupno izvrsili u prva dva prolaza kroz niz algoritmom Bubble sort?",
+    "answers": ["6", "5", "3", "4"],
+    "correctAnswer": "5"
+  },
+  {
+    "id": 10,
+    "question": "Asimptotska efikasnost algoritma koji ubacuje element na drugu poziciju u dvostruko spregnutoj listi",
+    "answers": ["O(1)", "O(n)", "O(n^2)", "O(n^3)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 11,
+    "question": "Dat je niz elemenata {9, 4, 12, 2, 6, 8, 18}. Kako ce izgledati niz nakon prvog prolaza kroz niz algoritmom Sink sort?",
+    "answers": ["2, 4, 9, 12, 6, 8, 18", "9, 4, 12, 2, 6, 8, 18", "4, 9, 12, 2, 6, 8, 18", "4, 9, 2, 6, 8, 12, 18"],
+    "correctAnswer": "4, 9, 2, 6, 8, 12, 18"
+  },
+  {
+    "id": 12,
+    "question": "Dat je niz u čijim elementima se nalaze otisci prstiju stanovništva. U slučaju primene algoritma za sekvencijalna pronalaženja počinilaca krivičnih dela, koja metoda od ponuđenih će dati najbolje rezultate?",
+    "answers": ["metoda transpozicije", "bilo koja od ponudjenih", "metoda zamene", "standardno sekvencijalno pretrazivanje"],
+    "correctAnswer": "metoda zamene"
+  },
+  {
+    "id": 13,
+    "question": "Koji od sledecih iskaza nije tacan u vezi sa spregnutom listom kada se poredi sa nizom?",
+    "answers": [
+      "niz bolje koristi memoriju, samim tim omogucava i bolje performanse",
+      "pristup elementima spregnute liste zahteva manje vremena u poredjenju sa pristupnom elementima niza",
+      "nasumican pristup elementima nije moguc pomocu spregnute liste implementirane na standardan nacin",
+      "u spregnutoj liste se lakse implementira dodavanje i izbacivanje elemenata iz strukture"
+    ],
+    "correctAnswer": "pristup elementima spregnute liste zahteva manje vremena u poredjenju sa pristupnom elementima niza"
+  },
+  {
+    "id": 14,
+    "question": "Dat je neki niz celih brojeva. Kolika je vrednost rezultata nakon izvrsenja ovog koda, ako su ulazni parametri b i 2?",
+    "answers": ["0", "23", "35", "46"],
+    "correctAnswer": "23"
+  },
+  {
+    "id": 15,
+    "question": "Koja od sledecih struktura se koristi za implementaciju rekurzije?",
+    "answers": ["dvostruko-spregnuta lista", "stek", "jednostruko-spregnuta", "red"],
+    "correctAnswer": "stek"
+  },
+  {
+    "id": 16,
+    "question": "Koji je osnovni preduslov koji mora biti ispunjen da bi se moglo koristiti binarno pretrazivanje nad nizovima?",
+    "answers": ["niz mora biti sortiran", "ne postoji preduslov", "kapacitet niza mora biti veci od 2", "niz mora imati najmanje 2 elementa"],
+    "correctAnswer": "niz mora biti sortiran"
+  },
+  {
+    "id": 17,
+    "question": "Kada se kaze da algoritam ima kompleksnost O(n) to znaci da:",
+    "answers": ["algoritam ima n ugnjezdenih petlji", "vreme izvrsavanja algoritma je manje od n sekundi", "broj naredbi koje algoritam izvrsi je proporcionalan sa n", "nijedno od ponudjenog"],
+    "correctAnswer": "broj naredbi koje algoritam izvrsi je proporcionalan sa n"
+  },
+  {
+    "id": 18,
+    "question": "Koji od navedenih algoritama se ne moze implementirati pomocu spregnute liste",
+    "answers": ["sekvencijalno pretrazivanje", "selection sort", "binarno pretrazivanje", "insertion sort"],
+    "correctAnswer": "binarno pretrazivanje"
+  },
+  {
+    "id": 19,
+    "question": "Koja je teoretski najbolja moguca prosecna efikasnost algoritma za sortiranje",
+    "answers": ["O(1)", "O(log(n))", "O(n*log(n))", "O(n)"],
+    "correctAnswer": "O(n*log(n))"
+  },
+  {
+    "id": 20,
+    "question": "Koja od sledecih struktura se koristi za implementaciju rekurzije?",
+    "answers": ["jednostruko-spregnuta lista", "stek", "dvostruko-spregnuta lista", "red"],
+    "correctAnswer": "stek"
+  },
+  {
+    "id": 21,
+    "question": "Koji od sledecih iskaza nije tacan?",
+    "answers": ["novi element se uvek ubacuje na vrh steka", "jednostruko-spregnuta lista se moze koristiti za implementaciju steka", "element se izbacuje sa dna steka", "stek je LIFO struktura"],
+    "correctAnswer": "element se izbacuje sa dna steka"
+  },
+  {
+    "id": 22,
+    "question": "Sta je tip podataka",
+    "answers": ["skup pokazivaca", "skup operacija", "skup vrednosti i operacija nad tim vrednostima", "skup vrednosti koje imaju isto znacenje"],
+    "correctAnswer": "skup vrednosti i operacija nad tim vrednostima"
+  },
+  {
+    "id": 23,
+    "question": "Struktura u koju se elementi mogu ubaciti i izbaciti sa oba kraja naziva se?",
+    "answers": ["red prioriteta", "dvostruki red", "ciklicni red", "red"],
+    "correctAnswer": "dvostruki red"
+  },
+  {
+    "id": 24,
+    "question": "Koja vrsta liste ce najbrze dati odgovor na pitanje “Koji je element na poziciji n?”?",
+    "answers": ["lista implementirana kao niz", "dvostruko spregnuta lista", "jednostruko spregnuta lista", "ijednostruko spregnuta i dvostruko spregnuta"],
+    "correctAnswer": "lista implementirana kao niz"
+  },
+  {
+    "id": 25,
+    "question": "Šta je tip podataka?",
+    "answers": ["Skup vrednosti i operacija nad tim vrednostima", "Skup vrednosti koje imaju isto značenje", "Skup operacija", "Skup pokazivača"],
+    "correctAnswer": "Skup vrednosti i operacija nad tim vrednostima"
+  },
+  {
+    "id": 26,
+    "question": "Kada se kaže da je struktura linearna, onda to znači da:",
+    "answers": ["Ne postoji uređenje između elemenata strukture", "Svakom elementu odgovara najviše jedan prethodnik i najviše jedan sledbenik", "Svaki element može imati jednog ili više prethodnika i sledbenika", "Ni jedno od ponuđenog"],
+    "correctAnswer": "Svakom elementu odgovara najviše jedan prethodnik i najviše jedan sledbenik"
+  },
+  {
+    "id": 27,
+    "question": "Pretpostavimo da imamo red implementiran preko niza , kapaciteta 42 i u njega 11 ubacenih elemenata (niz[2] do niz[11]). Na koju poziciju ce metoda enqueue unaciti novi element?",
+    "answers": ["niz[1]", "niz[11]", "niz[2]", "niz[12]"],
+    "correctAnswer": "niz[12]"
+  },
+  {
+    "id": 28,
+    "question": "Ako je red implemenitran preko niza, I ako je s index poslednjeg ubačenog elementa u niz, koja je formula za dobijanje sledećeg indeksa za ubacivanje?",
+    "answers": ["(s%1)+kapacitetNiza", "s%(1+kapacitetNiza)", "(s+1)%kapacitetNiza", "s+(1%kapacitetNiza)"],
+    "correctAnswer": "(s+1)%kapacitetNiza"
+  },
+  {
+    "id": 29,
+    "question": "Dat je niz elementata : 9 4 12 2 6 8 18. Kako ce izgledati niz nakon prvog prolaza kroz niz algoritmom selection sort?",
+    "answers": ["9,4,12,2,6,8,18", "4,9,12,2,6,8,18", "2,4,12,9,6,8,18", "2,4,9,12,6,8,18"],
+    "correctAnswer": "2,4,12,9,6,8,18"
+  },
+  {
+    "id": 30,
+    "question": "Dat je niz brojeva, implementiran preko reda (2,5,7,8,12) kapaciteta 7. Pokazivaci P na 2 i K na 12. Koji niz komandi daje niz (4,17,7,8,12,34,11) a pokazivaci P na 7 i K na 17?",
+    "answers": ["ubaci(34), izbaci(),ubaci(11),izbaci(),ubaci(4),ubaci(17)", "ubaci(25), izbaci(),ubaci(12),izbaci(),ubaci(9),ubaci(17)", "ubaci(37), izbaci(),ubaci(17),izbaci(),ubaci(5),ubaci(17)", "ubaci(65), izbaci(),ubaci(16),izbaci(),ubaci(7),ubaci(17)"],
+    "correctAnswer": "ubaci(34), izbaci(),ubaci(11),izbaci(),ubaci(4),ubaci(17)"
+  },
+  {
+    "id": 31,
+    "question": "Linearna struktura je najpogodnija da bi se predstavila:",
+    "answers": ["Organizaciona struktura", "Rang lista", "Porodični odnosi", "Sastav proizvoda"],
+    "correctAnswer": "Rang lista"
+  },
+  {
+    "id": 32,
+    "question": "Data je ciklicna DS lista. Ako je L pokazivac na prvi element, koji pokazuje na poslednji?",
+    "answers": ["L.sledeci.prethodni", "L.prethodni.prethodni", "L.sledeci.prethodni.prethodni = L.prethodni", "L.prethodni.sledeci"],
+    "correctAnswer": "L.sledeci.prethodni.prethodni = L.prethodni"
+  },
+  {
+    "id": 33,
+    "question": "Dati su elementi DS liste (1,2,3,4,5) sta radi sledeca metoda? x=prvi.sledeci.sledeci; x.sledeci=x.prethodni.sledeci; x.prethodni=x.sledeci.prethodni;",
+    "answers": ["1 2 4 5", "1 3 4 5", "1 2 3 5", "Nista od navedenog"],
+    "correctAnswer": "Nista od navedenog"
+  },
+  {
+    "id": 34,
+    "question": "Ako imamo ljude koji cekaju red u banci, i radnica na salteru svakog momenta može da prozove bilo koga ko stoji u redu (ili proziva onoga ko je na redu) da priđe šalteru za to je onda najbolje primeniti?",
+    "answers": ["Stek", "Red", "DS lista", "Sve je jednako dobro"],
+    "correctAnswer": "DS lista"
+  },
+  {
+    "id": 35,
+    "question": "Kada se kaze da algoritam ima vremensku kompleksnost O(n) onda to znaci da?",
+    "answers": ["Vreme izvrsavanja algoritma je manje od n sekundi", "Broj naredbi koje algoritam izvrši je proporcionalan sa n", "Algoritam ima n ugnjezdenih petlji", "Ni jedno od ponuđenog"],
+    "correctAnswer": "Broj naredbi koje algoritam izvrši je proporcionalan sa n"
+  },
+  {
+    "id": 36,
+    "question": "Koji algoritam sortiranja može u jednom prolazu da prepozna da je niz soritran?",
+    "answers": ["Merge sort", "Selection sort", "Insertion sort", "Quick sort"],
+    "correctAnswer": "Insertion sort"
+  },
+  {
+    "id": 37,
+    "question": "Dat je niz elemenata nakon prvog prolaza kroz Quick sort algoritmom za sortiranje 4, 0, 2, 11, 9, 7, 6, 18. Koji od datih elemenata predstavlja pivot na osnovu kog je dobijen dati niz?",
+    "answers": ["4", "18", "9", "11"],
+    "correctAnswer": "18"
+  },
+  {
+    "id": 38,
+    "question": "Data je DS ciklicna lista sa elementima 5, 2, 3, 4, 1. Kako ce izgledati lista kada se zavrsi sledeci blok naredbi? x= prvi.prethodni; x.sledeci.prethodni = x.prethodni; x.prethodni.sledeci = x.sledeci;",
+    "answers": ["5 3 4 1", "2 3 4 1", "5 2 3 4", "desice se greska"],
+    "correctAnswer": "5 2 3 4"
+  },
+  {
+    "id": 39,
+    "question": "Sekvencijalmo pretrazivanje ima prosecnu kompleksnost?",
+    "answers": ["O(n)", "O(1)", "O((n+1)/2)", "O(n*log(n))"],
+    "correctAnswer": "O((n+1)/2)"
+  },
+  {
+    "id": 40,
+    "question": "Selection i quick sort pripadaju istoj kategoriji algoritama. Koja je to kategorija?",
+    "answers": ["O(n log n)", "podeli-pa-vladaj sortiranja", "interchange sortiranja", "nista od ponudjenog"],
+    "correctAnswer": "interchange sortiranja"
+  },
+  {
+    "id": 41,
+    "question": "Optimalna kompleksnost najboljeg moguceg algoritma za pretrazivanje JS/DS liste koja ima n elemenata je?",
+    "answers": ["O(1)", "O(n)", "O(n*n)", "O (log (n))"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 42,
+    "question": "Najgora kompleksnost algoritma za pretrazivanje kod JS liste je?",
+    "answers": ["O(n*n)", "O(n)", "O(log (n))", "O(1)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 43,
+    "question": "Ako se redom ubace D, C, B, A u stek, sta ce uraditi metoda izbaci iz steka?",
+    "answers": ["ABCD", "DCBA", "CDAB", "ACBD"],
+    "correctAnswer": "ABCD"
+  },
+  {
+    "id": 44,
+    "question": "Sta je struktura podataka",
+    "answers": ["skup podataka", "slozeni tip podataka", "vredbost podataka", "skup vrednosti podataka"],
+    "correctAnswer": "slozeni tip podataka"
+  },
+  {
+    "id": 45,
+    "question": "Koji od sledećih algoritama za sortiranje, implementiran pomoću niza, bi bio najefikasniji?",
+    "answers": ["Quick sort", "Insertion sort", "Heap sort", "Merge sort"],
+    "correctAnswer": "Quick sort"
+  },
+  {
+    "id": 46,
+    "question": "Pretpostavimo da imamo stek kapaciteta 40, u njemu imamo 10 ubacenih elemenata na pozicijama (niz[0] do niz[9]), sa koje pozicije će pop metoda izbaciti element?",
+    "answers": ["niz[8]", "niz[0]", "niz[9]", "niz[10]"],
+    "correctAnswer": "niz[9]"
+  },
+  {
+    "id": 47,
+    "question": "Imamo red implementiran preko niza, kapaciteta 42 elemenata i u njega ubacenih 10 elemenata (niz[0] do niz[9]). Sa koje pozicije ce metoda dequeue() izbaciti element? Na koju poziciju ce metoda enque() ubaciti element?",
+    "answers": ["niz[10]", "Niz[0]", "Niz[9]", "Niz[11]"],
+    "correctAnswer": "niz[10]"
+  },
+  {
+    "id": 48,
+    "question": "Koji algoritam se ne može implementirati pomoću spregnute liste?",
+    "answers": ["Bubble sort", "Merge sort", "Pretrazivanje", "Insertion sort"],
+    "correctAnswer": "Pretrazivanje"
+  }
+]
