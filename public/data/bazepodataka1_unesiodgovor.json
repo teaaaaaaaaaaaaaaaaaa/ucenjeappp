@@ -243,7 +243,7 @@
     "id": 41,
     "question": "Navesti korake opšteg postupka optimizacije upita.",
     "answers": [],
-    "correctAnswer": "1. Parsiranje i prevođenje – proverava se sintaksa upita i prevodi se u internu reprezentaciju. 2. Prepisivanje upita – primena pravila transformacije radi dobijanja ekvivalentnih, efikasnijih izraza. 3. Odabir plana izvršenja – bira se strategija izvršavanja operatora (npr. tip JOIN-a, korišćenje indeksa). 4. Procena troškova – za svaki plan se računa očekivani trošak (vreme, broj I/O operacija). 5. Izbor optimalnog plana – bira se plan sa najmanjim procenjenim troškom."
+    "correctAnswer": "1.Generisanje izraza relacione algebre. 2.Transforma u inicijalno stablo upita. 3.Transformacija u finalno stablo upita. 4.Transformacija u plan/ove izvršenja upita: Izbor strategije izvrsenja upita Izbor plana sa najmanjom procenjenom cenom."
   },
   {
     "id": 42,
