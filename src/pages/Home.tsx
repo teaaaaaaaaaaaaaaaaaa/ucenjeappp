@@ -97,6 +97,10 @@ const Home: React.FC = () => {
         return '📄';
       case 'strukturepodataka_pitanja_sa_5testa':
         return '📝';
+      case 'bazepodataka1_ponudjeni':
+        return '📘';
+      case 'bazepodataka1_unesiodgovor':
+        return '✍️';
       default:
         return '🧠';
     }
@@ -131,6 +135,10 @@ const Home: React.FC = () => {
         return 'Strukture Podataka - Test 4';
       case 'strukturepodataka_pitanja_sa_5testa':
         return 'Strukture Podataka - Test 5';
+      case 'bazepodataka1_ponudjeni':
+        return 'Baze Podataka - Ponuđeni';
+      case 'bazepodataka1_unesiodgovor':
+        return 'Baze Podataka - Unesi';
       default:
         return subject;
     }

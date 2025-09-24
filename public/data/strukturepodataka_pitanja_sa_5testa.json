@@ -242,7 +242,7 @@
     "id": 40,
     "question": "Selection i quick sort pripadaju istoj kategoriji algoritama. Koja je to kategorija?",
     "answers": ["O(n log n)", "podeli-pa-vladaj sortiranja", "interchange sortiranja", "nista od ponudjenog"],
-    "correctAnswer": "interchange sortiranja"
+    "correctAnswer": "nista od ponudjenog"
   },
   {
     "id": 41,

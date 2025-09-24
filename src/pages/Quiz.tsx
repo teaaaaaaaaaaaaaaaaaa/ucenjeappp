@@ -108,6 +108,10 @@ const Quiz: React.FC = () => {
         return '📄';
       case 'strukturepodataka_pitanja_sa_5testa':
         return '📝';
+      case 'bazepodataka1_ponudjeni':
+        return '📘';
+      case 'bazepodataka1_unesiodgovor':
+        return '✍️';
       default:
         return '🧠';
     }

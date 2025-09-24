@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "question": "Koji od sledećih skupova atributa može biti kandidat za ključ u datoj relaciji?",
+    "answers": ["A", "D", "G", "A, D i G"],
+    "correctAnswer": "A, D i G"
+  },
+  {
+    "id": 2,
+    "question": "Koja od sledećih opcija predstavlja postupak normalizacije do BCNF forme?",
+    "answers": [
+      "Provera funkcionalnih zavisnosti i parcijalnih ključeva",
+      "Pronalaženje determinanti koje nisu superključevi i dekompozicija",
+      "Samo uklanjanje tranzitivnih zavisnosti",
+      "Dodavanje novih atributa dok relacija ne zadovolji 3NF"
+    ],
+    "correctAnswer": "Pronalaženje determinanti koje nisu superključevi i dekompozicija"
+  },
+  {
+    "id": 3,
+    "question": "Kada je plan izvršavanja transakcija konflikt-serijabilan?",
+    "answers": [
+      "Kada graf prethodjenja ima najmanje jedan ciklus",
+      "Kada graf prethodjenja nema cikluse",
+      "Kada svaka transakcija ima isključivo read operacije",
+      "Kada je broj transakcija paran"
+    ],
+    "correctAnswer": "Kada graf prethodjenja nema cikluse"
+  },
+  {
+    "id": 4,
+    "question": "outer join i outer union, Koje SQL operacije mogu proizvesti NULL vrednosti u rezultatu?",
+    "answers": ["INNER JOIN", "OUTER JOIN", "OUTER UNION", "Svi navedeni"],
+    "correctAnswer": "OUTER JOIN"
+  },
+  {
+    "id": 5,
+    "question": "(DELETE i CREATE su idempotentne)Koje od sledećih SQL naredbi su idempotentne (ponovljeno izvršavanje ne menja stanje)?",
+    "answers": [
+      "INSERT INTO tabela VALUES (...)",
+      "DELETE FROM tabela WHERE uslov",
+      "UPDATE tabela SET kolona = vrednost WHERE uslov",
+      "CREATE TABLE nova_tabela (...)"
+    ],
+    "correctAnswer": "DELETE FROM tabela WHERE uslov"
+  },
+  {
+    "id": 6,
+    "question": "Koja od sledećih tvrdnji opisuje konflikt-serijabilan raspored?",
+    "answers": [
+      "Svaka transakcija izvršava se izolovano",
+      "Redosled izvršenja je ekvivalentan nekom serijskom rasporedu",
+      "Transakcije se uvek izvršavaju paralelno",
+      "Postoji ciklus u grafu prethodjenja"
+    ],
+    "correctAnswer": "Redosled izvršenja je ekvivalentan nekom serijskom rasporedu"
+  },
+  {
+    "id": 7,
+    "question": "Koji nivo izolacije rešava problem fantomskih torki?",
+    "answers": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "correctAnswer": "Serializable"
+  },
+  {
+    "id": 8,
+    "question": "Koja od sledećih metoda spajanja tabela se koristi u SQL-u?",
+    "answers": ["Nested-loop join", "Sort-merge join", "Hash join", "Sve navedene"],
+    "correctAnswer": "Sve navedene"
+  },
+  {
+    "id": 9,
+    "question": "Ako jedna knjiga može imati više izdanja, a izdanje ima tačno jednog izdavača, koliko najmanje i najviše izdavača može postojati za 3 knjige?",
+    "answers": ["1", "2", "3", "Neograničeno"],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 10,
+    "question": "Koje od navedenog NIJE BASE osobina NoSQL baza podataka?",
+    "answers": ["Basically Available", "Soft-state", "Eventual consistency", "Durability"],
+    "correctAnswer": "Durability"
+  },
+  {
+    "id": 11,
+    "question": "Da li DROP briše redove u tabeli?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 12,
+    "question": "Da li je ALTER TABLE DML naredba?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 13,
+    "question": "Da li je nedostatak pogleda što se čuva iskompajliran?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 14,
+    "question": "Da li je indeksiranje moguće samo nad jednom kolonom?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 15,
+    "question": "Da li su KeyCompression i reverse key indeksi posebne vrste optimizacije indeksa?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 16,
+    "question": "Da li pogled predstavlja fizički pristup podacima?",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 17,
+    "question": "Koje operacije se koriste za održavanje referencijalnog integriteta u SQL-u?",
+    "answers": ["CASCADE", "SET NULL", "RESTRICT", "Sve navedene"],
+    "correctAnswer": "Sve navedene"
+  },
+  {
+    "id": 18,
+    "question": "Koji od sledećih algoritama sortiranja je najefikasniji u proseku za velike skupove podataka?",
+    "answers": ["Bubble sort", "Quick sort", "Merge sort", "Svi su jednaki"],
+    "correctAnswer": "Quick sort"
+  },
+  {
+    "id": 19,
+    "question": "Za dati redosled izvršavanja R1(A) R2(B) W1(B) R3(A) W1(B) R2(A) označiti sve grane koje se javljaju u okviru grafa prethodjenja transakcija i da li je izvršavanje konflikt serijabilno ili ne:",
+    "answers": [
+      "T3 → T2; T3 → T1; Nije konflikt serijabilno.",
+      "T1 → T3 ili T1 → T2; T2 → T3; Jeste konflikt serijabilno; T2 → T1."
+    ],
+    "correctAnswer": "T1 → T3 ili T1 → T2; T2 → T3; Jeste konflikt serijabilno; T2 → T1."
+  },
+  {
+    "id": 20,
+    "question": "ACID osobine transakcije su:",
+    "answers": ["Anomalija", "Atomicnost", "Decentralizovanost", "Integrisanost", "Trajnost", "Konzistentnost", "Izolovanost", "Distributivnost"],
+    "correctAnswer": ["Trajnost", "Konzistentnost", "Izolovanost", "Atomicnost"]
+  },
+  {
+    "id": 21,
+    "question": "Pogled ima za cilj da:",
+    "answers": ["predviđa unos podataka", "na osnovu postojećih izvršava rekurzivne upite", "omogućava obradu podataka unapred", "obezbedi logičku nezavisnost podataka", "podigne nivo apstrakcije još više", "brine o izvršenju transakcija"],
+    "correctAnswer": ["obezbedi logičku nezavisnost podataka", "podigne nivo apstrakcije još više"]
+  },
+  {
+    "id": 22,
+    "question": "Koje tehnike se koriste za rešavanje problema mrtvih lokota?",
+    "answers": ["Prekidanje transakcija posle isteka vremena", "Prljavo čitanje", "Prevencija lokota", "Fantomsko čitanje", "Nivoi izolovanosti", "Detekcija nivoa hijerarhije"],
+    "correctAnswer": ["Prekidanje transakcija posle isteka vremena", "Prevencija lokota", "Nivoi izolovanosti"]
+  },
+  {
+    "id": 23,
+    "question": "Tokom scenarija DA/NE u 2PC protokolu:",
+    "answers": ["Preskače se Faza 2 za drugu lokaciju, a prva lokacija se obaveštava o odustajanju (abort)", "Lokacije šalju glasove DA/NE", "Lokacije šalju glasove NE/NE", "Obe lokacije oslobađaju resurse (skidaju lokove)", "Lokacija sa NE oslobađa resurse (sklanja lokove)", "Koordinator zaboravlja transakciju nakon prijema Potvrde (Acknowledgement)"],
+    "correctAnswer": ["Lokacije šalju glasove DA/NE", "Lokacija sa NE oslobađa resurse (sklanja lokove)", "Koordinator zaboravlja transakciju nakon prijema Potvrde (Acknowledgement)"]
+  },
+  {
+    "id": 24,
+    "question": "Označiti tačne tvrdnje za baze zasnovane na dokumentu:",
+    "answers": ["podržano indeksiranje nad primarnim ključem i ključem kolona", "struktura dokumenta može varirati od rekorda do rekorda", "posebno razvijene za potrebe društvenih mreža", "svaki red ima svoju familiju kolona, pri čemu se familije kolona između različitih redova mogu razlikovati", "pogodne za guste podatke sa mnogo međusobnih veza", "model ovih baza može se predstaviti uređenim parom"],
+    "correctAnswer": ["podržano indeksiranje nad primarnim ključem i ključem kolona", "struktura dokumenta može varirati od rekorda do rekorda"]
+  },
+  {
+    "id": 25,
+    "question": "Date su relacije: Kurs(ID, Naziv, Trajanje, Cena, TipID) i Tip(TipID, Naziv, Nivo). Koji od ponuđenih iskaza prikazuju sve nazive i cene kurseva, kao i nazive tipova kurseva koji traju minimum 6 nedelja i čiji je tip naprednog nivoa. U rezultat je potrebno uključiti i sve kurseve koji nemaju nivo.",
+    "answers": ["n,c,t …", "SELECT K.NAZIV, K.CENA, T.NAZIV …", "(izrazi u relacijskoj algebri …)", "SELECT K.NAZIV, K.CENA, T.NAZIV FROM KURS K LEFT JOIN TIP T …", "k : Kurs, t : Tip WHERE ∀t …", "k : Kurs, t : Tip WHERE ∃t …"],
+    "correctAnswer": ["SELECT K.NAZIV, K.CENA, T.NAZIV …", "SELECT K.NAZIV, K.CENA, T.NAZIV FROM KURS K LEFT JOIN TIP T …", "k : Kurs, t : Tip WHERE ∃t …"]
+  },
+  {
+    "id": 26,
+    "question": "Označiti atribut(e) koji je(su) ključ relacije: Relacija R(A, B, C, D, E) sa zavisnostima: A -> B; B -> C; D -> E; A,D -> C; C -> A;",
+    "answers": ["E", "A", "B", "C", "D"],
+    "correctAnswer": "C"
+  },
+  {
+    "id": 27,
+    "question": "Dinamička pravila integriteta čine:",
+    "answers": ["Ograničenje", "Akcija", "Relacija", "Kardinalnost", "Operacija", "Agregacija"],
+    "correctAnswer": ["Ograničenje", "Akcija", "Kardinalnost"]
+  },
+  {
+    "id": 28,
+    "question": "U poslovna pravila integriteta spadaju:",
+    "answers": ["pravila preko kojih se specificiraju koje vrednosti postoje u domenu", "pravila integriteta nezavisnosti", "pravila integriteta na atributu", "pravila integriteta za bazu", "pravila konzistentnosti modela", "pravila integriteta za relacije"],
+    "correctAnswer": ["pravila preko kojih se specificiraju koje vrednosti postoje u domenu", "pravila integriteta na atributu", "pravila integriteta za bazu", "pravila integriteta za relacije"]
+  },
+  {
+    "id": 29,
+    "question": "Koja od sledećih tvrdnji o nivoima izolovanosti transakcija su tačne?",
+    "answers": [
+      "REPEATABLE READ rešava problem 'Neponovljivost čitanja'",
+      "READ UNCOMMITTED dozvoljava 'Prljavo čitanje'",
+      "READ COMMITTED rešava problem 'Prljavo čitanje'",
+      "SERIALIZABLE rešava probleme 'Prljavo čitanje', 'Neponovljivost čitanja' i 'Fantomske torke'",
+      "REPEATABLE READ ne rešava problem 'Fantomske torke'"
+    ],
+    "correctAnswer": [
+      "REPEATABLE READ rešava problem 'Neponovljivost čitanja'",
+      "READ UNCOMMITTED dozvoljava 'Prljavo čitanje'",
+      "READ COMMITTED rešava problem 'Prljavo čitanje'",
+      "SERIALIZABLE rešava probleme 'Prljavo čitanje', 'Neponovljivost čitanja' i 'Fantomske torke'",
+      "REPEATABLE READ ne rešava problem 'Fantomske torke'"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "SQL pogled se može ažurirati ako i samo ako:",
+    "answers": ["Pogled uključuje više baznih relacija", "Pogled ne uključuje agregatne funkcije", "Pogled isključuje grupisanje", "Pogled ne uključuje klauzulu DISTINCT", "Pogled uključuje klauzulu WHERE", "WHERE klauzula pogleda ne može da sadrži podupit koji se referencira direktno na tabelu u FROM-u upita"],
+    "correctAnswer": ["Pogled ne uključuje agregatne funkcije", "Pogled isključuje grupisanje", "Pogled ne uključuje klauzulu DISTINCT", "Pogled uključuje klauzulu WHERE"]
+  },
+  {
+    "id": 31,
+    "question": "CAP teorema obuhvata sledeće karakteristike:",
+    "answers": ["Konzistentnost", "Atomnost", "Postojanost", "Dostupnost", "Podeljenost mreže", "Celovitost"],
+    "correctAnswer": ["Konzistentnost", "Dostupnost", "Podeljenost mreže"]
+  },
+  {
+    "id": 32,
+    "question": "Označiti tačne tvrdnje za skeniranje indeksa po jedinstvenosti:",
+    "answers": ["Sprovodi se kada postoji UNIQUE ili PRIMARY KEY ograničenje", "Primenjuje se kada barem jedna kolona ima ograničenje NOT NULL", "Može vratiti više ROWID-eva/rekorda", "Može se primeniti samo sa 'ekvi' poređenjima", "Tip pretrage indeksa koji se može realizovati uz operatore =, <, >", "Kolone koje sadrže veliki broj NULL vrednosti, u slučaju kada se traže redovi koji sadrže upravo NULL vrednosti", "Vraća maksimalno jedan ROWID", "Primenjuje se kada nema indeksa nad tabelom"],
+    "correctAnswer": ["Sprovodi se kada postoji UNIQUE ili PRIMARY KEY ograničenje", "Može se primeniti samo sa 'ekvi' poređenjima", "Vraća maksimalno jedan ROWID"]
+  },
+  {
+    "id": 33,
+    "question": "Akronim BASE se odnosi na sledeće karakteristike transakcija:",
+    "answers": ["Eventual consistency", "Eventual durability", "Schema-less", "Security", "Basically-available", "Atomicity", "Soft-state", "Eventual availability"],
+    "correctAnswer": ["Eventual consistency", "Basically-available", "Soft-state"]
+  },
+  {
+    "id": 34,
+    "question": "Koje kolone su dobri predstavnici za uvođenje indeksa:",
+    "answers": ["Kolone koje sadrže veliki broj NULL vrednosti, u slučaju kada se traže redovi koji sadrže upravo NULL vrednosti", "Kolone koje se često koriste u ORDER BY klauzuli", "Kolone koje pripadaju tabelama sa velikom količinom rekorda", "Kolone koje se retko koriste u WHERE klauzuli", "Kolone koje sadrže uzak opseg vrednosti", "Kolone koje se u upitima često koriste u JOIN klauzuli"],
+    "correctAnswer": ["Kolone koje se često koriste u ORDER BY klauzuli", "Kolone koje pripadaju tabelama sa velikom količinom rekorda", "Kolone koje se u upitima često koriste u JOIN klauzuli"]
+  },
+  {
+    "id": 35,
+    "question": "U čemu se ogledaju izazovi distribuiranih baza podataka?",
+    "answers": ["Globalna atomičnost", "Lokalno beleženje vremena", "Globalni zastoji", "Lokalni zastoji", "Lokalno upisivanje nad objektom", "Globalna serijalizacija"],
+    "correctAnswer": ["Globalna atomičnost", "Globalni zastoji", "Globalna serijalizacija"]
+  },
+  {
+    "id": 36,
+    "question": "Date su relacije Q(Q1, Q2, Q3), Z(Z1, Z2, Q1), R(R1, R2, R3, Z1, Q1). Koje NF su narušene?",
+    "answers": ["3NF", "2NF", "4NF", "BCNF"],
+    "correctAnswer": ["2NF", "BCNF"]
+  },
+  {
+    "id": 37,
+    "question": "Pogled se može koristiti za:",
+    "answers": ["očuvanje privatnosti podataka", "izvršenje transakcije", "implementaciju veze agregacije", "kontrolu pristupa", "implementaciju veze generalizacije", "prikaz univerzalnih podataka dobijenih iz nekonzistentnih izvora"],
+    "correctAnswer": ["očuvanje privatnosti podataka", "kontrolu pristupa", "prikaz univerzalnih podataka dobijenih iz nekonzistentnih izvora"]
+  },
+  {
+    "id": 38,
+    "question": "Obeležiti iskaze koji se mogu dobiti prevođenjem datog SQL upita: SELECT M.NAZIV, O.KAPACITET FROM MODEL M JOIN OPREMA O ON (M.ŠIFRAMARKE = O.ŠIFRAMARKE AND M.ŠIFRAMODELA = O.ŠIFRAMODELA) WHERE LENGTH(M.DESIGN) > 10 OR O.KAPACITET BETWEEN 50 AND 120;",
+    "answers": ["πm.naziv, o.kapacitet ( … )", "πm.NAZIV, o.KAPACITET ( … )", "πm,k WHERE ∃ …", "πm.naziv, o.kapacitet ( … )"],
+    "correctAnswer": ["πm.naziv, o.kapacitet ( … )", "πm.NAZIV, o.KAPACITET ( … )", "πm,k WHERE ∃ …"]
+  },
+  {
+    "id": 39,
+    "question": "Zašto bi kohorta mogla da prekine izvršavanje?",
+    "answers": ["Zastoj", "Pad kohorte", "Trajnost kohorte", "Deljenje kohorte", "Konzistentna kohorta", "Neuspeh validacije"],
+    "correctAnswer": ["Zastoj", "Pad kohorte", "Neuspeh validacije"]
+  },
+  {
+    "id": 40,
+    "question": "Nad istim struktuiranim tipom može biti definisano više tabela tipa.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 41,
+    "question": "Distinkt tip je konstruisani tip u SQL-u.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 42,
+    "question": "Tip vrste je atomski konstruisani tip.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 43,
+    "question": "Promena definicije korisnički definisanih tipova se može izvršiti pomoću ALTER TYPE naredbe.",
+    "answers": ["Tačno", "Netačno"],
+    "correctAnswer": "Tačno"
+  }
+]

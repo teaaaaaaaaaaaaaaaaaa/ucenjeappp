@@ -15,6 +15,8 @@ const SUBJECT_FILES: Record<string, string> = {
   'strukturepodataka_pitanja_sa_3testa': '/data/strukturepodataka_pitanja_sa_3testa.json',
   'strukturepodataka_pitanja_sa_4testa': '/data/strukturepodataka_pitanja_sa_4testa.json',
   'strukturepodataka_pitanja_sa_5testa': '/data/strukturepodataka_pitanja_sa_5testa.json',
+  'bazepodataka1_ponudjeni': '/data/bazepodataka1_ponudjeni.json',
+  'bazepodataka1_unesiodgovor': '/data/bazepodataka1_unesiodgovor.json',
 };
 
 /**
@@ -51,6 +53,8 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'strukturepodataka_pitanja_sa_3testa',
       'strukturepodataka_pitanja_sa_4testa',
       'strukturepodataka_pitanja_sa_5testa',
+      'bazepodataka1_ponudjeni',
+      'bazepodataka1_unesiodgovor',
     ];
     return Promise.resolve(subjects);
   } catch (error) {
