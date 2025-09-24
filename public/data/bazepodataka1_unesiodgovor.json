@@ -27,7 +27,7 @@
     "id": 5,
     "question": "Objasnite kako se realizuje zaključavanje u sistemima baza podataka.",
     "answers": [],
-    "correctAnswer": "Zaključavanje se realizuje pomoću menadžera zaključavanja, dodeljivanjem deležnih i ekskluzivnih lokota nad objektima baze; koristi se dvostepeno zaključavanje (2PL)."
+    "correctAnswer": " u Sistemima baza podataka koristi se dvostepeno zaključavanje (2PL). Nakon što transakcija zaključa neki resurs, ne sme da oslobodi taj resurs dok ne završi sa radom. Ovde se koriste ekskluzivni i deljivi lokoti. "
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "id": 10,
     "question": "Navedite prednosti korišćenja pogleda i uslove pod kojima pogled može biti ažuriran.",
     "answers": [],
-    "correctAnswer": "Prednosti korišćenja pogleda Jednostavnost – korisnici rade sa uprošćenim tabelama koje je admin pripremio. Sigurnost – korisnicima se prikazuje samo deo podataka na koji imaju pravo. Performanse – pogledi se čuvaju u iskompajliranom obliku i ubrzavaju izvršavanje. Nezavisnost podataka – programi rade nad pogledom, pa promena baze ne traži promenu programa, već samo promenu definicije pogleda. Pogled je virtuelna tabela, ne čuva svoje podatke i ne zauzima memoriju. Uslovi da pogled bude ažuriran Mora biti zasnovan na jednoj bazičnoj tabeli. Mora sadržati ključ te tabele. Ne sme koristiti DISTINCT, GROUP BY, HAVING ili agregatne funkcije. WHERE deo ne sme imati podupite koji se pozivaju na istu tabelu iz FROM dela"
+    "correctAnswer": "Prednosti korišćenja pogleda: Jednostavnost – korisnici rade sa uprošćenim tabelama koje je admin pripremio. Sigurnost – korisnicima se prikazuje samo deo podataka na koji imaju pravo. Performanse – pogledi se čuvaju u iskompajliranom obliku i ubrzavaju izvršavanje. Nezavisnost podataka – programi rade nad pogledom, pa promena baze ne traži promenu programa, već samo promenu definicije pogleda. Pogled je virtuelna tabela, ne čuva svoje podatke i ne zauzima memoriju. Uslovi da pogled bude ažuriran: Mora biti zasnovan na jednoj bazičnoj tabeli. Mora sadržati ključ te tabele. Ne sme koristiti DISTINCT, GROUP BY, HAVING ili agregatne funkcije. WHERE deo ne sme imati podupite koji se pozivaju na istu tabelu iz FROM dela."
   },
   {
     "id": 11,
@@ -105,7 +105,7 @@
     "id": 18,
     "question": "Objasniti pojmove „živi“ i „mrtvi“ lokot. Navesti i objasniti tehnike za rešavanje „mrtvog lokota“.",
     "answers": [],
-    "correctAnswer": "„Živi lokot” (livelock) predstavlja situaciju gde neka transakcija neprekidno ostaje u stanju čekanja (uvek je pretekne druga transakcija pri zaključavanju potrebnog resursa). Rešava se uvođenjem fiksnog reda zaključavanja (FIFO redosled). „Mrtvi lokot” (deadlock) nastaje kada skup transakcija međusobno blokira jedna drugu (ciklična čekanja). Tehnike razrešenja mrtvog lokota: (a) detekcija i prekid – npr. prekidanje transakcije nakon isteka timeout intervala, (b) prevencija – npr. obavezno zaključavanje resursa u istom globalnom redosledu, (c) oporavak – npr. korišćenje grafa čekanja za otkrivanje ciklusa i zatim prekid jedne od transakcija."
+    "correctAnswer": "„Živi lokot” (livelock) predstavlja situaciju gde neka transakcija neprekidno ostaje u stanju čekanja (uvek je pretekne druga transakcija pri zaključavanju potrebnog resursa). Rešava se uvođenjem fiksnog reda zaključavanja (FIFO redosled). „Mrtvi lokot” (deadlock) nastaje kada skup transakcija međusobno blokira jedna drugu (ciklična čekanja). Tehnike za rešavanje problema mrtvog lokota: 1. Prekidanje transakcija posle isteka intervala vremena 2. Prevencija lokota 3. Detekcija “mrtvog čvora”"
   },
   {
     "id": 19,
@@ -135,7 +135,7 @@
     "id": 23,
     "question": "Poslovna pravila integriteta relacionog modela. Navesti primer za svaki podtip ograničenja.",
     "answers": [],
-    "correctAnswer": "Poslovna (specifična) ograničenja dele se na (a) ograničenja za domene (definišu dozvoljene vrednosti domena; primer: domen za ocenu može ograničiti opseg vrednosti), (b) ograničenja za atribute (definišu dozvoljene vrednosti za dati atribut nezavisno od drugih; primer: pravilo da ocena studenta mora biti ≥6), (c) ograničenja za relacije (povezuju vrednosti dva atributa unutar iste relacije; primer: “ako je student na smeru X, onda starost < 28”), (d) ograničenja za celu bazu (povezuju vrednosti atributa iz više relacija; primer: “ako je student na smeru X, onda mora imati položene određene ispite u tabeli Prijava”)."
+    "correctAnswer": "Uobičajeno je da se ova pravila integriteta podele na sledeće podtipove: • Pravila integriteta za domene, preko kojih se specifikuje koje vrednosti postoje u domenu; • Pravila integriteta za atribute, preko kojih se definišu dozvoljene vrednosti nekog atributa nezavisno od vrednosti drugih atributa u bazi; • Pravila integriteta za relacije, preko kojih je moguće vezati vrednost jednog, za vrednost drugog atributa u jednoj relaciji; • Pravila integriteta za bazu, preko kojih je moguće povezati vrednosti atributa iz više relacija."
   },
   {
     "id": 24,
@@ -195,43 +195,43 @@
     "id": 33,
     "question": "Semantika i obrada ECA pravila.",
     "answers": [],
-    "correctAnswer": "U aktivnim bazama podataka, pravila su definisana po ECA modelu (Event-Condition-Action pravila) – svako pravilo ima određeni događaj okidanja, uslov koji se proverava po nastanku događaja i akciju koja se izvršava ako je uslov zadovoljen. Sistem prvo mora detektovati primitivne događaje (npr. izvršenje operacije nad bazom, protek vremena ili aplikativni signal), koje se zatim mogu kombinovati u složene događaje. Obrada ECA pravila: nakon nastanka definisanog događaja, automatski se izvršava odgovarajuća akcija, odmah ili odloženo u skladu sa transakcionim načinom povezivanja (npr. AFTER trigger u SQL izvršava akciju nakon uspešnog izvršenja događaja)."
+    "correctAnswer": "U aktivnim bazama podataka, pravila su definisana po ECA modelu (Event-Condition-Action pravila) – svako pravilo ima određeni događaj okidanja, uslov koji se proverava po nastanku događaja i akciju koja se izvršava ako je uslov zadovoljen. Sistem prvo mora detektovati primitivne događaje (npr. izvršenje operacije nad bazom, protek vremena ili aplikativni signal), koje se zatim mogu kombinovati u složene događaje. Obrada ECA pravila: nakon nastanka definisanog događaja, automatski se izvršava odgovarajuća akcija, odmah ili odloženo u skladu sa transakcionim načinom povezivanja (npr. AFTER trigger u SQL izvršava akciju nakon uspešnog izvršenja događaja). Dinamičko pravilo integriteta čini trojka <Ograničenje, Operacija, Akcija> preko koje se iskazuje koja se akcija preduzima kada neka operacija naruši definisano ograničenje."
   },
   {
     "id": 34,
     "question": "Navesti naziv i objašnjenje uslova koji mora biti ispunjen da bi se izvršila operacija diferencije.",
     "answers": [],
-    "correctAnswer": "Za operaciju diferencije (R – S) potrebno je da relacije R i S imaju: - Isti skup atributa (isti naziv i isti domen vrednosti). - Kompatibilne šeme – da atributi na istim pozicijama imaju iste tipove podataka. Drugim rečima, operacija diferencije se može izvršiti samo nad relacijama istog reda (degree) i sa istim domenima atributa. U suprotnom, rezultat ne može biti definisan."
+    "correctAnswer": "Diferencija. Date su relacije R1 i R2 koje zadovoljavaju navedeni uslov kompatibilnosti. Rezultat operacije diferencije R3 := R1 - R2 su n-torke relacije R1 koje nisu istovremeno i n-torke relacije R2."
   },
   {
     "id": 35,
     "question": "U strukturnim dinamičkim pravilima integriteta, navesti i objasniti akcije koje se preduzimaju kada neka od navedenih operacija naruši kardinalnost preslikavanja.",
     "answers": [],
-    "correctAnswer": "Kada neka operacija naruši kardinalnost preslikavanja (npr. veza 1:N, N:M, 1:1), SUBP preduzima sledeće akcije: 1. Restrict – zabrana izvršenja operacije koja bi narušila kardinalnost. 2. Cascade – automatsko propagiranje izmene (npr. brisanje roditelja povlači brisanje dece). 3. Set Null – podešavanje vrednosti stranog ključa na NULL kada je veza narušena. 4. Set Default – podešavanje stranog ključa na podrazumevanu vrednost."
+    "correctAnswer": "Akcije za sprečavanje narušivanja kardinalnosti preslikavanja: - RESTRICT - Operacija se ne izvršava ako narušava odgovarajući strukturni integritet. Na primer, ne dozvoljava se brisanje nekog pojavljivanja ako postoji njegov preslikani deo. - CASCADE - Operacija se prenosi na objekat kodomen da bi se zadovoljio strukturni model. - SETNULL - Uspostavlja se veza sa “nepoznatim objektom” objektom (“nula objektom”) - SETDEFAULT - Uspostavlja se veza sa “default” objektom kodomena, pod pretpostavkom da je “default” pojavljivanje klase kodomena definisano."
   },
   {
     "id": 36,
     "question": "Normalizacija se tretira kao postupak kojim se odstranjuju tzv. \"anomalije u održavanju (ažuriranju)\" relacija do kojih dolazi zbog redundanse podataka u bazi podataka. Navesti i objasniti koje sve anomalije u održavanju se mogu javiti.",
     "answers": [],
-    "correctAnswer": "Postoje tri glavne anomalije: 1. Anomalija pri unosu (Insert anomaly) – nemogućnost unosa podatka zbog zavisnosti od drugih podataka. - Primer: ne možemo uneti novog studenta dok ne postoji predmet koji sluša. 2. Anomalija pri brisanju (Delete anomaly) – brisanjem jednog podatka gubimo i druge važne informacije. - Primer: ako obrišemo poslednjeg studenta koji sluša predmet, brišemo i sam podatak o predmetu. 3. Anomalija pri ažuriranju (Update anomaly) – podatak koji se ponavlja mora se menjati na više mesta, pa može doći do nedoslednosti. - Primer: promena adrese profesora mora se menjati u svim redovima gde se on pojavljuje."
+    "correctAnswer": "Termin „normalizovana relacija” se koristi za relacije u prvoj normalnoj formi. Ostale normalne forme relacija, nisu zahtev samog relacionog modela, već predstavljaju način da se iskažu kriterijumi za dobru praksu konceptualnog modelovanja, odnosno logičkog projektovanja relacionog baze podataka. Uobičajeno je da se normalizacija tretira kao postupak kojim se odstranjuju tzv. „anomalije u održavanju (ažuriranju)” relacija do kojih dolazi zbog redundanse podataka u bazi podataka. Osnovne operacije održavanja (ažuriranja) baze podataka u relacionom modelu su dodavanje nove n-torke u relaciju, izbacivanje neke n-torke iz relacije i izmena vrednosti nekog atributa u relaciji. Redundansa podataka je osnovni uzrok sledećih anomalija u održavanju: • Anomalije u dodavanju su naziv za situaciju u kojoj u bazu podataka nije moguće ubaciti neki logički skup podataka, a da se pri tome, zbog strukture relacija, ne zahteva i ubacivanje nekih drugih podataka. • Anomalije u izbacivanju su naziv za situaciju u kojoj izbacivanje nekog logičkog skupa podataka iz baze, prouzrokuje i neželjeno izbacivanje nekih drugih podataka. • Anomalije u promeni sadržaja su situacija u kojoj promena jednog podatka zahteva i promenu nekih drugih podataka u bazi."
   },
   {
     "id": 37,
     "question": "Navesti i objasniti tehnike za generisanje strategije kod optimizacije upita.",
     "answers": [],
-    "correctAnswer": "Glavne tehnike su: 1. Heuristička optimizacija – primena pravila za preuređivanje upita (npr. pomeranje selekcija što bliže izvoru podataka, spajanje projekcija, eliminacija redundanse). 2. Optimizacija zasnovana na trošku – bira se strategija izvršenja koja ima najmanju procenjenu cenu (računa se na osnovu veličine tabela, indeksa i kardinalnosti). 3. Transformaciona optimizacija – upiti se prepisuju u ekvivalentne, ali efikasnije oblike (npr. zamena podupita sa JOIN-om)."
+    "correctAnswer": "Tehnike za generisanje strategije: • Heuristička optimizacija – primena heurističkih pravila za redefinisanje redosleda operacija u stablu upita i planu izvršenja upita – u znatnom broju slučajeva ostvaruju prihvatljive rezultate, ali to ne mora važiti uvek • Optimizacija zasnovana ceni – sistematska procena cene primene raspoloživih strategija, tj. planova izvršenja upita – Izbor strategije, tj. plana izvršenja upita, s najmanjom procenjenom cenom U praksi konkretnih RSUBP, optimizatori upita kombinuju obe tehnike."
   },
   {
     "id": 38,
     "question": "Ako pretpostavimo da transakcije Ti i Tj pripadaju nekom izvršenju, navesti i objasniti kombinacije parova operacija koje NEĆE biti u konfliktu.",
     "answers": [],
-    "correctAnswer": "Par operacija nije u konfliktu ako ispunjavaju jedan od uslova: - Operacije su nad različitim atributima (različiti podaci). - Operacije su nad istim atributom, ali su obe READ (čitanje). Dakle, konflikt nastaje samo kada: - jedna operacija menja podatak (WRITE), a druga ga čita (READ), ili - obe operacije menjaju isti podatak (WRITE, WRITE). Sve ostale kombinacije nisu konfliktne."
+    "correctAnswer": "Ako pretpostavimo da transakcije Ti i Tj pripadaju nekom izvršenju, tada sledeći parovi operacija neće biti u konfliktu: 1. ri(X), rj(Y) nije konflikt čak i kada je X=Y jer ni jedna ni druga operacija ne manjaju stanje baze podataka 2. ri(X), wj(Y) nije konflikt pod pretpostavkom X ≠ Y 3. wi(X), rj(Y) nije konflikt pod pretpostavkom X ≠ Y 4. wi(X), wj(Y) nije konflikt pod pretpostavkom X ≠ Y. Opštije, dve susedne operacije različitih transakcija mogu da zamene mesta ako NIJE zadovoljen jedan od uslova: 1. Operacije se obavljaju nad istim elementom 2. Barem jedna od njih je upisivanje"
   },
   {
     "id": 39,
     "question": "Objasniti pojam granularnosti zaključavanja, hijerarhijskog zaključavanja i navesti dodatne vrste lokota koji se definišu za taj protokol zaključavanja.",
     "answers": [],
-    "correctAnswer": "- Granularnost zaključavanja – nivo na kome se zaključava podatak (npr. cela baza, tabela, stranica, red, atribut). Manja granularnost → veća konkurentnost, ali i više troškova zaključavanja. - Hijerarhijsko zaključavanje – zaključavanje se organizuje hijerarhijski (baza → tabela → stranica → red). Lokoti na višem nivou obuhvataju niže nivoe. Dodatne vrste lokota: - Intention lokoti (IS, IX, SIX) – koriste se da označe nameru zaključavanja nižeg nivoa. - Lokoti na nivou atributa – retki u praksi, omogućavaju zaključavanje pojedinačne kolone."
+    "correctAnswer": "Granularnost zaključavanja - nivo (opštost) resursa zaključavanja: - nivo pojedinačnog podatka, vrednosti obeležja - nivo torke - nivo bloka BP - nivo tabele (relacije) - nivo baze podataka. Pored ekskluzivnog lokota (XL) i deljivog lokota (SL) za ovaj protokol se definišu i sledeće vrste lokota: - ISL - nameravani deljivi lokot: transakcija namerava da postavi deljivi lokotni element baze podataka - IXL - nameravani ekskluzivni lokot: transakcija namerava da postavi ekskluzivni lokot na element baze podataka - SIXL - nameravano deljivo-ekskluzivno zaključavanje: transakcija namerava da postavi deljivi lokot na element baze podataka X i eksluzivni lokot na neki element na nižem nivou granularnosti koji je deo elementa X."
   },
   {
     "id": 40,
@@ -243,19 +243,19 @@
     "id": 41,
     "question": "Navesti korake opšteg postupka optimizacije upita.",
     "answers": [],
-    "correctAnswer": "1. Parsiranje i prevođenje – proverava se sintaksa upita i prevodi se u internu reprezentaciju. 2. Prepisivanje upita – primena pravila transformacije radi dobijanja ekvivalentnih, efikasnijih izraza. 3. Odabir plana izvršenja – bira se strategija izvršavanja operatora (npr. tip JOIN-a, korišćenje indeksa). 4. Procena troškova – za svaki plan se računa očekivani trošak (vreme, broj I/O operacija). 5. Izbor optimalnog plana – bira se plan sa najmanjim procenjenim troškom."
+    "correctAnswer": "1. Generisanje izraza relacione algebre od teksta upita 2. Transformacija u inicijalno stablo upita 3. Transformacija u finalno stablo upita 4. Transformacija u plan(ove) izvršenja upita • izbor strategije izvršenja upita • izbor (formiranje) plana izvršenja upita s najboljom ocenom efikasnosti, odnosno, najmanjom cenom izvršavanja."
   },
   {
     "id": 42,
     "question": "Opisati navedene korake procesiranja SQL upita: a) Parsiranje b) Skeniranje",
     "answers": [],
-    "correctAnswer": "- Parsiranje – proverava se ispravnost sintakse upita i izrađuje se parse stablo. Takođe, proverava se da li tabele i atributi postoje i da li su tipovi podataka kompatibilni. - Skeniranje – čitanje ulaznog upita, tokenizacija i prepoznavanje ključnih reči, operatora i atributa. Predstavlja prvi korak u parsiranju."
+    "correctAnswer": "Parsiranje... je provera sintaksne ispravnosti upita. Skeniranje... je identifikacija tokena u tekstu upita (SQL ključnih reči, imena atributa i tabela). Validacija... je provera semantičke ispravnosti imena u šemi baze podataka (uvidom u rečnik podataka). Povezivanje (binding)... je zamena promenljivih iz spoljnjeg okruženja (host variables) konkretnim vrednostima (formiranje teksta SQL upita u direktnoj formi)."
   },
   {
     "id": 43,
     "question": "Dati definicije diferencije i možda spajanja.",
     "answers": [],
-    "correctAnswer": "- Diferencija (R – S): rezultat su svi torkovi (redovi) koji pripadaju relaciji R, a ne pripadaju relaciji S. Moguća je samo ako R i S imaju istu šemu. - Spajanje (JOIN): binarna operacija koja kombinuje redove dve relacije na osnovu zadatog uslova (npr. jednakost vrednosti ključeva). Posebni slučajevi: inner join, left/right join, full join, natural join."
+    "correctAnswer": "1. Rezultat operacije diferencije (razlike) R3 := R1 - R2 je relacija R3 koja ima kao elemente sve elemente relacije R1 koji nisu elementi relacije R2. 2. Kod možda spajanja selektuju se one n-torke relacije za koje se predikat spajanja, na osnovu trovrednosnih tablica istinitosti, sračunava u “nula vrednost”."
   },
   {
     "id": 44,
@@ -268,5 +268,47 @@
     "question": "Navesti i objasniti vrste lokota u protokolu zaključavanja.",
     "answers": [],
     "correctAnswer": "1. Deljeni lokot (S – Shared lock): više transakcija može čitati podatak, ali nijedna ne može menjati dok je zaključan. 2. Ekskluzivni lokot (X – Exclusive lock): samo jedna transakcija može menjati podatak, i nijedna druga ne može ni čitati ni pisati. 3. Namerni lokoti (Intention locks – IS, IX, SIX): koriste se u hijerarhijskom zaključavanju da označe nameru transakcije da zaključa niže nivoe. 4. Lokoti na nivou tabele, stranice ili reda: definišu granularnost zaključavanja."
+  },
+  {
+    "id": 46,
+    "question": "Pogled ima za cilj da:",
+    "answers": [],
+    "correctAnswer": "Pogled ima za cilj da podigne nivo apstrakcije još više, i obezbedi nam logičku nezavisnost podataka."
+  },
+  {
+    "id": 47,
+    "question": "U čemu se ogledaju izazovi distribuiranih baza podataka?",
+    "answers": [],
+    "correctAnswer": "Svaka lokalna BP (SUBP) podržava ACID lokalno za svaku podtransakciju i eliminiše lokalne zastoje. U čemu se onda ogledaju izazovi? Globalna atomičnost: sve kohorte moraju prekinuti ili se sve obavežu, Globalni zastoji: ne sme biti zastoja koji uključuje više lokacija, Globalna serijalizacija: distribuirana transakcija mora da se globalno serijalizuje."
+  },
+  {
+    "id": 48,
+    "question": "Označiti tačne tvrdnje za skeniranje indeksa po jedinstvenosti:",
+    "answers": [],
+    "correctAnswer": "- Sprovodi se kada postoji UNIQUE ili PRIMARY KEY ograničenje - Može se primeniti samo sa “ekvi” poređenjima - Vraća maksimalno jedan ROWID"
+  },
+  {
+    "id": 49,
+    "question": "CAP teorema obuhvata sledeće karakteristike:",
+    "answers": [],
+    "correctAnswer": "Consistency (konzistentnost) - svako čitanje prihvata podataka sa poslednjeg upisivanja ili grešku. Više čvorova se ažurira pre nego što se omogući dalje čitanje. Availability (dostupnost) - Svaki zahtev prihvata odgovor (bez greške) - bez garancije da sadrži podatak sa poslednjeg upisivanja. Tolerance to network Partitions (tolerancija ka „deljenju“ mreže, podeljenost mreže NIJE ISTO može da vas zbuni samo) - Sistem funkcioniše bez obzira na proizvoljan broj poruka koje su odbačene (ili kasne) od strane mreže koja povezuje čvorove."
+  },
+  {
+    "id": 50,
+    "question": "Navesti i objasniti dve komponente modela podataka.",
+    "answers": [],
+    "correctAnswer": "Svaki model podataka poseduje tri osnovne komponente: - Strukturu modela, - Ograničenja - semantička ograničenja na vrednosti podataka koja se ne mogu predstaviti samom strukturom modela, - Operacije nad konceptima strukture preko kojih je moguće prikazati i menjati vrednosti podataka u modelu. Detaljnije: 1. Struktura modela Struktura modela predstavlja način na koji su podaci organizovani i prikazani u okviru sistema za upravljanje bazama podataka. Ona definiše osnovne elemente podataka i odnose između njih. Na primer: - Entiteti predstavljaju objekte u stvarnom svetu (npr. korisnici, proizvodi, narudžbine), dok atributi opisuju svojstva tih entiteta (npr. ime korisnika, cena proizvoda). - Struktura modela obuhvata i odnose između entiteta (npr. jedan-na-jedan, jedan-na-više, više-na-više). - U nekim modelima, entiteti mogu biti organizovani u hijerarhiju (npr. kategorije i potkategorije) ili agregirani u složenije strukture (npr. objekti koji sadrže druge objekte). 2. Ograničenja Ograničenja u modelu podataka definišu pravila i uslove koji se moraju poštovati kako bi podaci bili ispravni i dosledni. Ova ograničenja često uključuju: - Ograničenja koja se ne mogu izraziti samom strukturom modela, već se odnose na značenje podataka. Na primer, datum rođenja korisnika mora biti u prošlosti, ili količina naručenih proizvoda mora biti pozitivna vrednost. - Pravila koja garantuju tačnost i konzistentnost podataka, kao što su: - Vrednosti u određenoj koloni moraju biti jedinstvene. - Jedan ili više atributa koji jedinstveno identifikuju svaki red u tabeli. - Vezivanje atributa iz jedne tabele na primarni ključ druge tabele radi održavanja referencijalnog integriteta."
+  },
+  {
+    "id": 51,
+    "question": "Zašto bi kohorta mogla da prekine izvršavnje?",
+    "answers": [],
+    "correctAnswer": "- Odložena evaluacija ograničenja integriteta - Neuspeh validacije (optimistična kontrola) - Zastoj - Pad kohorte - Neuspeh sprečava komunikaciju sa kohortom"
+  },
+  {
+    "id": 52,
+    "question": "Pogled se može koristiti za:",
+    "answers": [],
+    "correctAnswer": "- očuvanje privatnosti podataka, - kontrolu pristupa, - implementaciju veze generalizacije."
   }
 ]
