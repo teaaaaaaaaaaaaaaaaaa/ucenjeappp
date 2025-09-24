@@ -243,7 +243,11 @@
     "id": 41,
     "question": "Navesti korake opšteg postupka optimizacije upita.",
     "answers": [],
+<<<<<<< HEAD
     "correctAnswer": "1. Generisanje izraza relacione algebre od teksta upita 2. Transformacija u inicijalno stablo upita 3. Transformacija u finalno stablo upita 4. Transformacija u plan(ove) izvršenja upita • izbor strategije izvršenja upita • izbor (formiranje) plana izvršenja upita s najboljom ocenom efikasnosti, odnosno, najmanjom cenom izvršavanja."
+=======
+    "correctAnswer": "1.Generisanje izraza relacione algebre. 2.Transforma u inicijalno stablo upita. 3.Transformacija u finalno stablo upita. 4.Transformacija u plan/ove izvršenja upita: Izbor strategije izvrsenja upita Izbor plana sa najmanjom procenjenom cenom."
+>>>>>>> a0c8afe87b20558d03152ec2a075a779e9764a47
   },
   {
     "id": 42,
