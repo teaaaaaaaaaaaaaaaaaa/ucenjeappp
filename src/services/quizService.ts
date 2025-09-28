@@ -17,6 +17,9 @@ const SUBJECT_FILES: Record<string, string> = {
   'strukturepodataka_pitanja_sa_5testa': '/data/strukturepodataka_pitanja_sa_5testa.json',
   'bazepodataka1_ponudjeni': '/data/bazepodataka1_ponudjeni.json',
   'bazepodataka1_unesiodgovor': '/data/bazepodataka1_unesiodgovor.json',
+  'ofm_rokovi': '/data/ofm_rokovi.json',
+  'ofm_drinki2': '/data/ofm_drinki2.json',
+  'ofm_drinki1': '/data/ofm_drinki1.json',
 };
 
 /**
@@ -55,6 +58,9 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'strukturepodataka_pitanja_sa_5testa',
       'bazepodataka1_ponudjeni',
       'bazepodataka1_unesiodgovor',
+      'ofm_rokovi',
+      'ofm_drinki2',
+      'ofm_drinki1',
     ];
     return Promise.resolve(subjects);
   } catch (error) {

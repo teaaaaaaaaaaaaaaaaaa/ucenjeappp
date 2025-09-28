@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "question": "Tržište na kome se trguje kratkoročnim novčanim sredstvima?",
+    "answers": ["Sekundarno tržište kapitala", "Novčano tržište", "Berzansko tržište", "Emisiono trž kapitala", "Devizno tržište"],
+    "correctAnswer": "Novčano tržište"
+  },
+  {
+    "id": 2,
+    "question": "Tekuća finansijska politika obuhvata:",
+    "answers": ["Pol obrta kapitala", "Pol maks profitabilnosti", "Pol likvidnosti", "Pol pravila finansiranja", "Pol upravljanja finansijama"],
+    "correctAnswer": ["Pol obrta kapitala", "Pol likvidnosti"]
+  },
+  {
+    "id": 3,
+    "question": "Ugovor kojim se vrši prodaja aktive po fiksnoj ceni za aktivu čija je cena varijab:",
+    "answers": ["Opcija", "Forvard", "Obveznica", "Svop", "Fjučers"],
+    "correctAnswer": "Forvard"
+  },
+  {
+    "id": 4,
+    "question": "Unapred naplaćeni prihodi se tretiraju kao (PVR-OBAVEZE):",
+    "answers": ["Imovina i novčani priliv", "Obaveza i novčani priliv", "Stavka bilansa uspeha i nov. priliv", "Ništa od ponuđenog"],
+    "correctAnswer": "Obaveza I novčani priliv"
+  },
+  {
+    "id": 5,
+    "question": "Investicione banke:",
+    "answers": ["Učestvuju u restrukturiranju preduzeca", "Trguju HOV", "Utvrđuju deviznu i monetarnu pol", "Emituju HOV", "Kreiraju depozite po viđenju (komercijalne)"],
+    "correctAnswer": ["Učestvuju u restrukturiranju preduzeca", "Trguju HOV", "Emituju HOV"]
+  },
+  {
+    "id": 6,
+    "question": "Politike likvidnosti, fin. Stabilnosti I obrta kapitala čine:",
+    "answers": ["Investicionu politiku", "Osn fin politiku", "Tekuću fin pol", "Pol upravljanja kapitalom", "Ništa od navedenog"],
+    "correctAnswer": "Tekuću fin pol"
+  },
+  {
+    "id": 7,
+    "question": "Menična radnja koja se pokreće u slučaju gubitka menice:",
+    "answers": ["Amortizacija menice", "Avaliranje menice", "Protest menice", "Akceptiranje menice", "indosiranje menice"],
+    "correctAnswer": "Amortizacija menice"
+  },
+  {
+    "id": 8,
+    "question": "Prema tome da li se obezbeđuje uvozni ili izvozni posao, akreditivi mogu biti:",
+    "answers": ["Vrsta i oročeni", "Prenosivi i neprenosivi", "Potvrđeni i nepotvrđeni", "Nostro i loro", "Opozivi i neopozivi"],
+    "correctAnswer": "Nostro I loro"
+  },
+  {
+    "id": 9,
+    "question": "Kredit koji se odobrava po tekucem računu između 2 preduzeca sa ustaljenim odnosom:",
+    "answers": ["Avalni", "Lombardni", "Eskontni", "Kontno-korentni", "Hipotekarni"],
+    "correctAnswer": "Kontno-korentni"
+  },
+  {
+    "id": 10,
+    "question": "Racio koji pokazuje vreme od nabavke resursa do prodaje gotovih proizvoda?",
+    "answers": ["Prosečan period isplate", "Koeficijent obrta zaliha", "Koeficijent obrta kupaca", "Neto obrtna sredstva", "Prosečan period obrta zaliha"],
+    "correctAnswer": "Prosečan period obrta zaliha"
+  },
+  {
+    "id": 11,
+    "question": "Prema stepenu institucionalizovanosti finansijska tržišta mogu biti:",
+    "answers": ["Berzanska", "Primarna", "Vanberzanska", "Sekundarna", "Tržišta kapitala"],
+    "correctAnswer": ["Berzanska", "Vanberzanska"]
+  },
+  {
+    "id": 12,
+    "question": "Faktor totalnog levridža 4, prihod od prodaje se poveća za 1%→za 4% se menjaju:",
+    "answers": ["troškovi kamata", "fiksni troškovi", "bruto dobit", "poslovna dobit", "dobit pre oporezivanja"],
+    "correctAnswer": "dobit pre oporezivanja"
+  },
+  {
+    "id": 13,
+    "question": "Politike pravila finansiranja, pravila fin poslovanja i upravljanja fin čine:",
+    "answers": ["Razvojnu politiku", "Pol upravljanja kapitalom", "Osn fin pol", "Investicionu", "Ništa od navedenog"],
+    "correctAnswer": "Osn fin pol"
+  },
+  {
+    "id": 14,
+    "question": "U slučaju prodaje osn sredstava po ceni višoj od njihove sadašnje vrednosti→",
+    "answers": ["Finansijski prihod", "Dobitak kod prodaje", "Poslovni prihod", "Gubitak kod prodaje", "Neposlovni prihod"],
+    "correctAnswer": ["Dobitak kod prodaje", "Neposlovni prihod"]
+  },
+  {
+    "id": 15,
+    "question": "Pozitivna razlika posl Prihoda I rashoda:",
+    "answers": ["Poslovna dobit", "Bruto dobit", "Neraspoređena dobit", "Neto dobit", "Dobit pre oporezivanja"],
+    "correctAnswer": "Poslovna dobit"
+  },
+  {
+    "id": 16,
+    "question": "U kratkoročne obaveze preduzeća se ubrajaju:",
+    "answers": ["Kratkoročni plasmani", "Ažio", "Slobodne reserve", "Emitovani i prodati komercijalni zapisi", "Ukalkulisane obaveze"],
+    "correctAnswer": ["Emitovani I prodati komercijalni zapisi", "Ukalkulisane obaveze"]
+  },
+  {
+    "id": 17,
+    "question": "Pomoćne knjigovodstvene evidencije su:",
+    "answers": ["Evidencija o materijalu", "Izveštaj o novčanim tokovima", "Dnevnik", "Skladišna knjiga", "Glavna knjiga"],
+    "correctAnswer": "Skladišna knjiga"
+  },
+  {
+    "id": 18,
+    "question": "Kada je HOV po naredbi to znači da se:",
+    "answers": ["Forvard", "Prenosi avaluiranjem", "Prenosi indosiranjem (kad je po naredbi)", "Prenosi predajom (kad je na donosioca)", "Presnosi cesijom (kad je na ime)"],
+    "correctAnswer": "Prenosi indosiranjem (kad je po naredbi)"
+  },
+  {
+    "id": 19,
+    "question": "Indirektna metoda sastavljanja izveštaja o novčanim tokovima:",
+    "answers": ["Pristup odozdo nagore", "Pogodna za interne potrebe pred (direktna)", "Kompleksnija od direktne (direktna je kompleksnija)", "Prati bruto tokove gotovine (direktna)", "Jednostavnija od direktne"],
+    "correctAnswer": ["Pristup odozdo nagore", "Jednostavnija od direktne"]
+  },
+  {
+    "id": 20,
+    "question": "Praćenje razvoja I evaluacija performansi su ključne f-je:",
+    "answers": ["Plana neto dobiti", "Budžeta", "Plana troškova", "Operativnog plana", "Plana likvidnosti"],
+    "correctAnswer": "Budžeta"
+  },
+  {
+    "id": 21,
+    "question": "Rast amortizacije kao fiksnog troška uslovljava I porast:",
+    "answers": ["Koeficijenta obrta zaliha", "Racija pokrića kamata", "Brzog rakija likvidnosti", "Faktora posl levridža", "Neto obrtnih sredstava"],
+    "correctAnswer": "Faktora posl levridža"
+  },
+  {
+    "id": 22,
+    "question": "Pro forma račun Prihoda I pro forma bilans stanja je rezultat:",
+    "answers": ["Profitnog planiranja", "Kratkoročnog fin planiranja", "Dugoročnog fin planiranja", "Inovativnim planiranjem", "Optimalnim planiranjem"],
+    "correctAnswer": "Profitnog planiranja"
+  },
+  {
+    "id": 23,
+    "question": "Za preduzeće koje nema zalihe:",
+    "answers": ["Iznos neto obrtnih sredstava je nula", "Opšti racio likvidnosti je nula", "Brzi racio likvidnosti je nula", "Iznos obrtnih sredstava je nula", "ORL=BRL"],
+    "correctAnswer": "ORL=BRL"
+  },
+  {
+    "id": 24,
+    "question": "Emisija efekata za sopstveni račun:",
+    "answers": ["Aktivni posao banke", "Sopstveni", "Pasivni", "Neutralni", "Eskontni"],
+    "correctAnswer": "Pasivni"
+  },
+  {
+    "id": 25,
+    "question": "Neutralni bankarski poslovi su:",
+    "answers": ["Eskontni poslovi (pasivan)", "Inkaso poslovi", "Otvaranje akreditiva", "Izdavanje kreditnih pisama", "Emitovanje obveznica (pasivan)"],
+    "correctAnswer": ["Inkaso poslovi", "Otvaranje akreditiva", "Izdavanje kreditnih pisama"]
+  },
+  {
+    "id": 26,
+    "question": "U 5K kreditnoj analizi, kapital označava:",
+    "answers": ["Dovoljnost novčanih tokova", "Dovoljnost obrtnih sredstava", "Dovoljnost ostvarenih Prihoda", "Dovoljnost spostvenog kapitala", "Dovoljnost osnovnih sredstava"],
+    "correctAnswer": "Dovoljnost spostvenog kapitala"
+  },
+  {
+    "id": 27,
+    "question": "Činjenica da je hipoteka pravo samo ako postoji potraživanje za njom je:",
+    "answers": ["Pravo obezbeđenja", "Ekstenzivno pravo", "Nedeljivo pravo", "Akcesorno parvo", "Stvarno pravo"],
+    "correctAnswer": "Akcesorno parvo"
+  },
+  {
+    "id": 28,
+    "question": "Banke koje prikupljaju kapital, plasiraju HOV I pružaju brokersko-dilerske usl:",
+    "answers": ["Centralne", "Komercijalne", "Investicione", "Akceptne", "Univerzalne"],
+    "correctAnswer": "Investicione"
+  },
+  {
+    "id": 29,
+    "question": "Broker:",
+    "answers": ["Ne sme da kupuje (prodaje) iz svog portfelja HOV", "Operiše kao agent", "Operiše kao principal (diler)", "Kupuje i prod HOV u svoje ime (diler)", "Ne sme da vrši kupoprod za druge"],
+    "correctAnswer": ["Ne sme da kupuje (prodaje) iz svog portfelja HOV", "Operiše kao agent"]
+  },
+  {
+    "id": 30,
+    "question": "Derivativne HOV su:",
+    "answers": ["Certifikat o depozitu", "Svopovi", "Komercijalni zapisi", "Opcije", "Blagajnički zapisi"],
+    "correctAnswer": ["Svopovi", "Opcije"]
+  },
+  {
+    "id": 31,
+    "question": "Krajnji finansijski ciljevi su:",
+    "answers": ["Finansijska snaga", "Brz obrt sredstava (pocetni)", "Maksimizacija profitabilnosti", "Minimizacija troškova (prelazni)", "Solventnost (prelazni)"],
+    "correctAnswer": ["Finansijska snaga", "Maksimizacija profitabilnosti"]
+  },
+  {
+    "id": 32,
+    "question": "Računanje udela 1 bilansne pozicije u njenoj sintetičkoj kategoriji je:",
+    "answers": ["Racio analiza", "Analiza budućih performansi", "Horizontalna analiza (trenda)", "Analiza prošlih performansi", "Vertikalna analiza (structure)"],
+    "correctAnswer": "Vertikalna analiza (structure)"
+  },
+  {
+    "id": 33,
+    "question": "Gotovina po osnovu prodaje je:",
+    "answers": ["Tok gotovine iz aktivnosti finansiranja", "Iz poslovnih aktivnosti", "Iz neposlovnih aktivnosti", "Iz investicionih aktivnosti", "Ništa od navedenog"],
+    "correctAnswer": "Iz poslovnih aktivnosti"
+  },
+  {
+    "id": 34,
+    "question": "U sredstva preduzeća se ubrajaju:",
+    "answers": ["Kratkoročna potraživanja", "Kratkoročna fin ulaganja", "Sporna potraživanja", "Menične obaveze", "Prodaja proizvoda"],
+    "correctAnswer": ["Kratkoročna potraživanja", "Kratkoročna fin ulaganja", "Sporna potraživanja"]
+  },
+  {
+    "id": 35,
+    "question": "Osnovna finansijska politika obuhvata:",
+    "answers": ["Pol upravljanja finansijama", "Pol maksimiziranja profitabilnosti (razvojna)", "Pol pravila finansiranja", "Pol upravljanja kapitalom (podela po zadacim)", "Pol likvidnosti (tekuca)"],
+    "correctAnswer": "Pol pravila finansiranja"
+  },
+  {
+    "id": 36,
+    "question": "Ako se dug po menici ne isplati u roku pokreće se koja menična radnja?",
+    "answers": ["Zastarelost menice", "Akceptiranje menice", "Amortizacija menice", "Indosiranje menice", "Protest menice"],
+    "correctAnswer": "Protest menice"
+  },
+  {
+    "id": 37,
+    "question": "Ako vrednost neto obrtnih sredstava raste to nužno znači da:",
+    "answers": ["Vrednost ORL ne može da opada", "Neminovno ostaje isti ORL", "Neminovno opada vrednost ORL", "Neminovno raste vrednost ORL", "Vrednost ORL može da raste, opada, I ostane ista"],
+    "correctAnswer": "Vrednost ORL može da raste, opada, I ostane ista"
+  },
+  {
+    "id": 38,
+    "question": "Kada se devizni kurs vezuje za vrednost strane valute u rasponu manjem od 2.25:",
+    "answers": ["Fiksni", "Fluktuirajući", "Fleksibilni", "Ograničeni", "Višestruki"],
+    "correctAnswer": "Fiksni"
+  },
+  {
+    "id": 39,
+    "question": "Međusobno prebijanje potraživanja I dugovanja obavlja se putem:",
+    "answers": ["Rambursiranja", "Fjučerisa", "Svopova", "Otvaranja akreditiva", "Kliringa"],
+    "correctAnswer": "Kliringa"
+  },
+  {
+    "id": 40,
+    "question": "Bilansna pozicija dugoročnih rez. Je:",
+    "answers": ["Obrtno sredstvo", "Sopstveni kapital", "Obaveza", "Osnovno sredstvo", "Prihod"],
+    "correctAnswer": "Obaveza"
+  },
+  {
+    "id": 41,
+    "question": "Rezultat odnosa neto dobiti I angažovanih sopstvenih sredstava:",
+    "answers": ["Ekonomska dodata vrednost", "Stopa prinosa na poslovna sredstva", "Stopa prinosa na sopstvena sredstva (ROE)", "Stopa neto dobiti", "Pokazatelj profitabilnosti"],
+    "correctAnswer": "Stopa prinosa na sopstvena sredstva- (ROE)"
+  },
+  {
+    "id": 42,
+    "question": "Početni finansijski ciljevi su:",
+    "answers": ["Solventnost", "Likvidnost", "Maksimiziranje profitabilnosti", "Brz obrt sredstava", "Optimalna struktura sr"],
+    "correctAnswer": ["Likvidnost", "Optimalna struktura sr"]
+  },
+  {
+    "id": 43,
+    "question": "Kupovinom potraživanja pre roka dospeća se bave:",
+    "answers": ["Eskontne banke", "Investicione", "Lombardne", "Komercijalne", "Akceptne"],
+    "correctAnswer": "Eskontne banke"
+  },
+  {
+    "id": 44,
+    "question": "Kada pred ima pozitivna neto obrtna sredstva (OBS) to znači da se:",
+    "answers": ["OBS u celosti finansiraju kratk. Izvorima", "OBS delom finansiraju dugoročnim izv", "OBS u celosti finansiraju dug izvorima", "OBS delom finansiraju kratk. Izvorima", "Ništa od navedenog"],
+    "correctAnswer": ["OBS delom finansiraju dugoročnim izv", "OBS delom finansiraju kratk. Izvorima"]
+  },
+  {
+    "id": 45,
+    "question": "Prema čvrstini obaveze koju na sebe uzima akr. banka akreditivi mogu biti:",
+    "answers": ["Vrsta I oročeni", "Prenosivi I neprenosivi", "Potvrđeni I nepotvrđeni", "Nostro I loro", "opozivi I neopozivi"],
+    "correctAnswer": "opozivi I neopozivi"
+  },
+  {
+    "id": 46,
+    "question": "Posredovanje u emisiji I prodaji HOV:",
+    "answers": ["Osiguravajuća banka", "Kreditno štedne institucije", "Komercijalne banke", "Investicione banke", "Penzioni fondovi"],
+    "correctAnswer": "Investicione banke"
+  },
+  {
+    "id": 47,
+    "question": "Rashodi po osnovu korišć kreditnih izvor:",
+    "answers": ["Indirektni troškovi", "Poslovni rashodi", "Finansijski rashodi", "Direktni troškovi", "Troškovi nabavke"],
+    "correctAnswer": "Finansijski rashodi"
+  },
+  {
+    "id": 48,
+    "question": "U obrtna sredstva spadaju:",
+    "answers": ["Kratkoročni fin plasmani", "Nedovršena proizvodnja", "Učešća u drugim privr. Društvima", "Rezervisanja", "Menične obaveze"],
+    "correctAnswer": ["Kratkoročni fin plasmani", "Nedovršena proizvodnja"]
+  },
+  {
+    "id": 49,
+    "question": "Nedepozitne fin. Institucije su:",
+    "answers": ["Kreditno-štedne institucije", "Penzijski fondovi", "Komercijalne banke", "Osiguravajuća društva", "Investicioni fondovi"],
+    "correctAnswer": ["Penzijski fondovi", "Osiguravajuća društva", "Investicioni fondovi"]
+  },
+  {
+    "id": 50,
+    "question": "Koje HOV izdaju isključivo banke?",
+    "answers": ["Blagajničke zapise", "Komercijalne zapise", "Obveznice", "Certifikat o depozitu", "Opcije"],
+    "correctAnswer": ["Blagajničke zapise", "Certifikat o depozitu"]
+  },
+  {
+    "id": 51,
+    "question": "Postojanje kamate kao osnovnog Prihoda za banku predstavlja:",
+    "answers": ["Aktivni posao", "Pasivni posao", "Neutralni posao", "Sopstveni posao", "Ništa od navedenog"],
+    "correctAnswer": "Aktivni posao"
+  },
+  {
+    "id": 52,
+    "question": "Ugovor po kome kupac ima pravo da kupi ili proda određenu aktivu, ali ne I obavezu je:",
+    "answers": ["Opcija", "Forvard ugovor", "Terminski ugovor", "Fjučers", "Svop"],
+    "correctAnswer": "Opcija"
+  },
+  {
+    "id": 53,
+    "question": "Prema kriterijumu dinamičnosti fin pol nismo sigurni:",
+    "answers": ["Pol nabavke, upotrebe i upravlj kapitala", "Dugoroč pol strukture i kratk likvidnosti", "Finansiranja, investiciona i tekuća", "Osnovna tekuća i razvojna politika", "Ništa od navedenog"],
+    "correctAnswer": "Osnovna tekuća I razvojna politika"
+  },
+  {
+    "id": 54,
+    "question": "Izdavanje bankarskih garancija je:",
+    "answers": ["Aktivni bankarski posao", "Pasivni bankarski posao", "Neutralni bankarski posao", "Sopstveni bankarski posao", "Ništa od navedenog"],
+    "correctAnswer": "Neutralni bankarski posao"
+  },
+  {
+    "id": 55,
+    "question": "Stopa prinosa na sopstvena sr se dobija:",
+    "answers": ["Iz odnosa neto dobiti I sopstvenog kap (ROE)", "Neto dobiti I poslovnih sredstava", "Poslovne dobiti I spostvenog kapitala", "Poslovne dobiti I poslovnih sredstava (ROA)", "Ništa od navedenog"],
+    "correctAnswer": "Iz odnosa neto dobiti I sopstvenog kap(ROE)"
+  },
+  {
+    "id": 56,
+    "question": "Lice koje daje nalog da se u njegovo ime izvrši isplata po menici je:",
+    "answers": ["Trasat (placa)", "Remitent (Njemu se placa)", "Akceptant", "Trasant (izdaje)", "Indosant"],
+    "correctAnswer": "Trasant (izdaje)"
+  },
+  {
+    "id": 57,
+    "question": "Fin izveštaj za određeni period (god):",
+    "answers": ["Bilans stanja", "Bilans uspeha", "Izveštaj o novčanim tokovima", "Izveštaj o promenama na kapitalu", "Napomene uz finansijski izveštaj"],
+    "correctAnswer": "Bilans uspeha"
+  },
+  {
+    "id": 58,
+    "question": "Vrsta kredita za prekomorski uvoz:",
+    "answers": ["Rambursni kredit", "Eskontni", "Lombardni", "Konto. Korentni", "Avalni"],
+    "correctAnswer": "Rambursni kredit"
+  },
+  {
+    "id": 59,
+    "question": "Prema ročnosti sredstava fin trž:",
+    "answers": ["Tržišta novca", "Primarna", "Berzanska", "Tržišta kapitala", "Sekundarna"],
+    "correctAnswer": ["Tržišta novca", "Tržišta kapitala"]
+  },
+  {
+    "id": 60,
+    "question": "Pravo konverzije deviza se odnosi I na strane I na domaće rezidente:",
+    "answers": ["Eksterna konvertabilnost", "Interna", "Ograničena", "Neograničena", "Opšta"],
+    "correctAnswer": "Opšta"
+  },
+  {
+    "id": 61,
+    "question": "Ciljevi menadžmenta za obrt sredstava:",
+    "answers": ["Koeficient obrta dobavljača što viši (treba sto nizi da se duze koriste sredstva)", "Koeficijent obrta kupaca što viši", "Prosečan Period obrta zaliha što duži", "Prosečan period naplate što kraći", "Ništa od navedenog"],
+    "correctAnswer": ["Koeficijent obrta kupaca što viši", "Prosečan period naplate što kraći"]
+  },
+  {
+    "id": 62,
+    "question": "Odnos posl dobiti I pre oporezivanja:",
+    "answers": ["Faktor finansijskog levridža", "Ekonomska dodata vrednost", "Stopa prinosa na posl sredstva", "Racio pokrića duga", "Ništa od navedenog"],
+    "correctAnswer": "Ništa od navedenog"
+  },
+  {
+    "id": 63,
+    "question": "Devizni kurs koji se formira u širim rasponima od utvrđenog pariteta:",
+    "answers": ["Fluktuirajući", "Ograničeni", "Fiksni", "Višestruki", "Fleksibilni"],
+    "correctAnswer": "Fleksibilni"
+  },
+  {
+    "id": 64,
+    "question": "Kada je opšti racio likvidnosti 2:1 tada je vrednost neto obrtnih sredstava:",
+    "answers": ["Manja od 1", "Jednaka 1", "Veća od 1", "Između 0 I 1", "Nemoguće je izvesti zaključak"],
+    "correctAnswer": "Veća od 1"
+  },
+  {
+    "id": 65,
+    "question": "Kada je vrednost faktora poslovnog leverindža 2.5, a očekivani rast Prihoda od prodaje 10% to znači da će se za 25% povećati:",
+    "answers": ["Poslovna dobit", "Neto dobit", "Dobit pre oporezivanja", "Bruto dobit", "Marginalna dobit"],
+    "correctAnswer": "Poslovna dobit"
+  },
+  {
+    "id": 66,
+    "question": "Nove emisije HOV se obavljaju na:",
+    "answers": ["Sekundarnom tržištu kapitala", "Međubankarskom trž", "Novčanom trž", "Primarnom tržištu kapitala", "Deviznom tržištu"],
+    "correctAnswer": "Primarnom tržištu kapitala"
+  },
+  {
+    "id": 67,
+    "question": "Za revolving kredite karakteristično je:",
+    "answers": ["Banka se ne obavezuje da će sredstva uvek biti dostupna", "Aranžman pravi na duži period", "Na neiskorišćeni deo se plaća kamata", "Najčešće varijabilna kamatna stopa", "Ništa od navedenog nije tačno"],
+    "correctAnswer": ["Aranžman pravi na duži period", "Najčešće varijabilna kamatna stopa"]
+  },
+  {
+    "id": 68,
+    "question": "Pravo konverzije samo za strane reziden:",
+    "answers": ["Opšta konvertabilnost", "Neograničena", "Eksterna", "Ograničena", "Interna"],
+    "correctAnswer": "Eksterna"
+  },
+  {
+    "id": 69,
+    "question": "Direktna I indirektna metoda se koriste pri sagledavanju:",
+    "answers": ["Napomena uz finansijske izveštaje", "Bilansa stanja", "Izveštaja o promenama na kapitalu", "Bilansa uspeha", "Izveštaja o novčanim tokovima"],
+    "correctAnswer": "Izveštaja o novčanim tokovima"
+  },
+  {
+    "id": 70,
+    "question": "Povećano zaduživanje prema DuPont:",
+    "answers": ["Povećava profitabilnost", "Smanjuje profitabilnost", "Povećava marginalnu dobit", "Povećava koeficijent obrta", "Povećava multiplicator sops. Sredstava"],
+    "correctAnswer": ["Povećava profitabilnost", "Povećava multiplicator sops. Sredstava"]
+  },
+  {
+    "id": 71,
+    "question": "Kad HOV glasi “na ime” prenosi se:",
+    "answers": ["Akceptiranjem", "Predajom", "Indosiranjem", "Cesijom", "Avaliranjem"],
+    "correctAnswer": "Cesijom"
+  },
+  {
+    "id": 72,
+    "question": "HOV može da glasi (oređiv. poverioca)",
+    "answers": ["Na donosioca", "Na ime", "Po naredbi", "samo na donosioca"],
+    "correctAnswer": ["Na donosioca", "Na ime", "Po naredbi"]
+  },
+  {
+    "id": 73,
+    "question": "Razvojna finansijska politika obuhvata:",
+    "answers": ["Politiku upravljanja finansijama (osnovna)", "Politiku finansijske snage (razvojna)", "Politiku likvidnosti (tekuca)", "Pol maksimiziranja profitabilnosti (razvojna)", "Pol pravila finansiranja (osnovna)"],
+    "correctAnswer": ["Politiku finansijske snage (razvojna)", "Pol maksimiziranja profitabilnosti (razvojna)"]
+  },
+  {
+    "id": 74,
+    "question": "Prema zadacima, finansijska pol:",
+    "answers": ["Politika nabavke, upotrebe I upravljanja kapitalom (prema zadacima)", "Dugoročnu I kratkoročnu (prema vremenu)", "Politiku pravila finansiranja, pravila fin. Poslovanja I upravljanja finansijama (osnovna politika)", "Politiku likvidnosti, finansijske stabilnosti I obrta kapitala (tekuca politika)", "Osnovna, tekuća, razvojna (po dinamicnosti)"],
+    "correctAnswer": "Politika nabavke, upotrebe I upravljanja kapitalom( prema zadacima)"
+  },
+  {
+    "id": 75,
+    "question": "Lice koje izdaje nalog da se iz njegovog pokrica po ceku isplati neko drugo lice na koje je cek trasiran:",
+    "answers": ["Trasat (placa)", "Remitent (Njemu se placa)", "Akceptant", "Trasant (izdaje)", "Indosant"],
+    "correctAnswer": "Trasant (izdaje)"
+  },
+  {
+    "id": 76,
+    "question": "Pozitivnu razliku ukupnih Prihoda I ukupnih rashoda nazivamo:",
+    "answers": ["Neto dobit", "Bruto dobit", "Dobit pre oporezivanja", "Nerasporedjena dobit", "Poslovna dobit"],
+    "correctAnswer": "Neto dobit"
+  },
+  {
+    "id": 77,
+    "question": "Okvir za odgovarajuce reakcije preduzeca u uslovima neizvesnosti uspostavlja se:",
+    "answers": ["Optimalnim planiranjem", "Inovativnim/adaptivno planiranjem"],
+    "correctAnswer": "Inovativnim/adaptivno planiranjem"
+  },
+  {
+    "id": 78,
+    "question": "Kada se bilansne vrednosti analiziraju tokom niza obracunskih perioda, pri cemu se jedan uzima kao bazni:",
+    "answers": ["Racio Analiza", "Horizontalna analiza", "Vertikalna analiza", "Analiza proslih performansi", "Analiza buducih performansi"],
+    "correctAnswer": "Horizontalna analiza"
+  },
+  {
+    "id": 79,
+    "question": "Trzisna vrednost akcije zavisi od:",
+    "answers": ["Ponude I traznje na trzistu", "Kamatne I Dividendne stope", "Samo ponude", "Samo traznje"],
+    "correctAnswer": ["Ponude I traznje na trzistu", "Kamatne I Dividendne stope"]
+  }
+]

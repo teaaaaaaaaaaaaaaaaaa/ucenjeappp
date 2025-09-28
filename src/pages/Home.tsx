@@ -101,6 +101,12 @@ const Home: React.FC = () => {
         return '📘';
       case 'bazepodataka1_unesiodgovor':
         return '✍️';
+      case 'ofm_rokovi':
+        return '💰';
+      case 'ofm_drinki2':
+        return '💧';
+      case 'ofm_drinki1':
+        return '🌊';
       default:
         return '🧠';
     }
@@ -139,6 +145,12 @@ const Home: React.FC = () => {
         return 'Baze Podataka - Ponuđeni';
       case 'bazepodataka1_unesiodgovor':
         return 'Baze Podataka - Unesi';
+      case 'ofm_rokovi':
+        return 'OFM Rokovi';
+      case 'ofm_drinki2':
+        return 'OFM Drinki 2';
+      case 'ofm_drinki1':
+        return 'OFM Drinki 1';
       default:
         return subject;
     }

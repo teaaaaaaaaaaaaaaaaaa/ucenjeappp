@@ -112,6 +112,12 @@ const Quiz: React.FC = () => {
         return '📘';
       case 'bazepodataka1_unesiodgovor':
         return '✍️';
+      case 'ofm_rokovi':
+        return '💰';
+      case 'ofm_drinki2':
+        return '💧';
+      case 'ofm_drinki1':
+        return '🌊';
       default:
         return '🧠';
     }

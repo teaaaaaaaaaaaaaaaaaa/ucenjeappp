@@ -213,7 +213,7 @@
     "id": 36,
     "question": "Normalizacija se tretira kao postupak kojim se odstranjuju tzv. \"anomalije u održavanju (ažuriranju)\" relacija do kojih dolazi zbog redundanse podataka u bazi podataka. Navesti i objasniti koje sve anomalije u održavanju se mogu javiti.",
     "answers": [],
-    "correctAnswer": "Termin „normalizovana relacija” se koristi za relacije u prvoj normalnoj formi. Ostale normalne forme relacija, nisu zahtev samog relacionog modela, već predstavljaju način da se iskažu kriterijumi za dobru praksu konceptualnog modelovanja, odnosno logičkog projektovanja relacionog baze podataka. Uobičajeno je da se normalizacija tretira kao postupak kojim se odstranjuju tzv. „anomalije u održavanju (ažuriranju)” relacija do kojih dolazi zbog redundanse podataka u bazi podataka. Osnovne operacije održavanja (ažuriranja) baze podataka u relacionom modelu su dodavanje nove n-torke u relaciju, izbacivanje neke n-torke iz relacije i izmena vrednosti nekog atributa u relaciji. Redundansa podataka je osnovni uzrok sledećih anomalija u održavanju: • Anomalije u dodavanju su naziv za situaciju u kojoj u bazu podataka nije moguće ubaciti neki logički skup podataka, a da se pri tome, zbog strukture relacija, ne zahteva i ubacivanje nekih drugih podataka. • Anomalije u izbacivanju su naziv za situaciju u kojoj izbacivanje nekog logičkog skupa podataka iz baze, prouzrokuje i neželjeno izbacivanje nekih drugih podataka. • Anomalije u promeni sadržaja su situacija u kojoj promena jednog podatka zahteva i promenu nekih drugih podataka u bazi."
+    "correctAnswer": "1. Anomalija u dodavanju (Insert anomaly) Problem: ne možeš uneti jedan podatak bez drugog. Ako želim da dodam podatak o novom predmetu i njegovom profesoru, moram da unesem i studenta, iako još nijedan student ne sluša taj predmet. 2. Anomalija u izbacivanju (Delete anomaly) Problem: ako obrišeš jedan podatak, nehotice brišeš i drugi važan podatak. Primer: U istoj tabeli, ako obrišem poslednjeg studenta koji sluša predmet „Matematika“, zajedno s njim nestaje i informacija da predmet Matematika uopšte postoji i da ga predaje određeni profesor. 3. Anomalija u promeni sadržaja (Update anomaly) Problem: isti podatak se ponavlja na više mesta, pa moraš da ga menjaš svuda. Primer: Ako profesor „Petrović“ predaje više predmeta i njegovo ime „Petrović“ se upisuje u svakoj vrsti, promena prezimena u „Petrovski“ zahteva da promeniš sve redove gde se pojavljuje."
   },
   {
     "id": 37,
@@ -243,11 +243,7 @@
     "id": 41,
     "question": "Navesti korake opšteg postupka optimizacije upita.",
     "answers": [],
-<<<<<<< HEAD
-    "correctAnswer": "1. Generisanje izraza relacione algebre od teksta upita 2. Transformacija u inicijalno stablo upita 3. Transformacija u finalno stablo upita 4. Transformacija u plan(ove) izvršenja upita • izbor strategije izvršenja upita • izbor (formiranje) plana izvršenja upita s najboljom ocenom efikasnosti, odnosno, najmanjom cenom izvršavanja."
-=======
     "correctAnswer": "1.Generisanje izraza relacione algebre. 2.Transforma u inicijalno stablo upita. 3.Transformacija u finalno stablo upita. 4.Transformacija u plan/ove izvršenja upita: Izbor strategije izvrsenja upita Izbor plana sa najmanjom procenjenom cenom."
->>>>>>> a0c8afe87b20558d03152ec2a075a779e9764a47
   },
   {
     "id": 42,
