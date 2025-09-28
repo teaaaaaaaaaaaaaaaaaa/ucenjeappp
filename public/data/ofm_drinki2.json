@@ -1,0 +1,740 @@
+[
+  {
+    "id": 1,
+    "question": "Postojanje unutrašnjeg i spoljašnjeg kontrolnog limita koji nagoveštava potrebu konverzije gotovine u kratkoročne HOV?",
+    "answers": ["EOQ model", "Miler-Orov model", "Baumolov model", "Stounov model", "ABC model"],
+    "correctAnswer": "Miler-Orov model"
+  },
+  {
+    "id": 2,
+    "question": "Primena EOQ metode za određivanje optimalnog salda gotovine se u finansijskoj teoriji naziva:",
+    "answers": ["ABC model", "Miler-Orov model", "Baumolov model", "EOQ model", "Stounov model"],
+    "correctAnswer": "Baumolov model"
+  },
+  {
+    "id": 3,
+    "question": "Gotovinski ciklus predstavlja:",
+    "answers": ["razliku operativnog ciklusa i perioda isplate obaveza", "period koji bi trebalo što više produžiti", "period koji protekne od isplate obaveza do naplate potraživanja", "period koji protekne od prodaje do naplate potraživanja", "razliku operativnog ciklusa i perioda naplate potraživanja"],
+    "correctAnswer": ["razliku operativnog ciklusa i perioda isplate obaveza", "period koji protekne od isplate obaveza do naplate potraživanja"]
+  },
+  {
+    "id": 4,
+    "question": "Beta kao mera pokazuje:",
+    "answers": ["sistematski rizik", "rizik koji je moguće izbeći diverzifikovanjem", "rizik investiranja u ukupni tržišni portfolio", "rizik investiranja u konkretno sredstvo", "nesistematski rizik"],
+    "correctAnswer": "sistematski rizik"
+  },
+  {
+    "id": 5,
+    "question": "Operativni lizing podrazumeva da se:",
+    "answers": ["kao predmet ugovora javljaju trajna dobra", "računovodstveno tretira kao sredstvo/izvor sredstava u bilansu stanja", "ništa od navedenog", "rizik i korist padaju na teret primaoca lizinga", "otkazivanje može vršiti bez posebnih restrikcija"],
+    "correctAnswer": "otkazivanje može vršiti bez posebnih restrikcija"
+  },
+  {
+    "id": 6,
+    "question": "Korišćenje usluga investicionih garanta (underwritter) je karakteristično za:",
+    "answers": ["direktnu prodaju", "ništa od navedenog", "svaku prodaju kratkoročnih HOV", "privilegovanu emisiju", "javnu emisiju"],
+    "correctAnswer": "javnu emisiju"
+  },
+  {
+    "id": 7,
+    "question": "Bankarski akcept je HOV:",
+    "answers": ["koja glasi na rok od 90 do 270 dana", "čija utrživost zavisi od ugleda kompanije koja ga emituje", "koja se najčešće koristi u spoljnoj trgovini", "kojom se dug emitenta konvertuje u zaduženje banke", "koja može da se prenosi beskonačno mnogo puta"],
+    "correctAnswer": ["koja se najčešće koristi u spoljnoj trgovini", "kojom se dug emitenta konvertuje u zaduženje banke", "koja može da se prenosi beskonačno mnogo puta"]
+  },
+  {
+    "id": 8,
+    "question": "Metoda koja najbolje rangira investicije je:",
+    "answers": ["cena kapitala", "neto sadašnja vrednost", "indeks profitabilnosti", "prosečan period povraćaja", "interna stopa prinosa"],
+    "correctAnswer": "neto sadašnja vrednost"
+  },
+  {
+    "id": 9,
+    "question": "Koji od navedenih projekata (A;B;C;D) najvise uvećava vrednost preduzeća:",
+    "answers": ["C: NSV=150.000; PPP=15 godina", "D: NSV=100.000; PPP=6 meseci", "B: NSV=450.000; PPP=2 godine", "A: NSV=500.000; PPP=32 godine", "nijedan projekat ne uvećava vrednost preduzeća"],
+    "correctAnswer": "A: NSV=500.000; PPP=32 godine"
+  },
+  {
+    "id": 10,
+    "question": "Metoda koja zahteva poznat trošak kapitala da bi se procenila isplativost:",
+    "answers": ["nijedna", "interna stopa prinosa", "prosečan period povraćaja", "neto sadašnja vrednost", "indeks profitabilnosti"],
+    "correctAnswer": ["neto sadašnja vrednost", "indeks profitabilnosti"]
+  },
+  {
+    "id": 11,
+    "question": "Kod konzervativne finansijske politike:",
+    "answers": ["rizik od insolventnosti je relativno najviši", "ništa od navedenog nije tačno", "neto obrtna sredstva su relativno najviša", "profitabilnost je relativno najviša", "troškovi finansiranja su relativno najviši"],
+    "correctAnswer": ["neto obrtna sredstva su relativno najviša", "troškovi finansiranja su relativno najviši"]
+  },
+  {
+    "id": 12,
+    "question": "Kupovina dugoročnog potraživanja kojom se na specijalizovanu agenciju prenosi rizik naplate…:",
+    "answers": ["avaliranje", "konsignacija", "forfeting", "indosiranje", "akceptiranje"],
+    "correctAnswer": "forfeting"
+  },
+  {
+    "id": 13,
+    "question": "Suština hedžing pristupa je:",
+    "answers": ["da dugoročnim izvorima budu finansirana trajna obrtna sredstva", "da kratkoročnim izvorima budu finansirane povremena obrta sredstva", "ništa od navedenog", "da dugoročnim izvorima budu finansirane potrebe potrebe za ....", "da dugoročnim izvorima budu finansirana osnovna sredstva"],
+    "correctAnswer": ["da dugoročnim izvorima budu finansirana trajna obrtna sredstva", "da kratkoročnim izvorima budu finansirane povremena obrta sredstva"]
+  },
+  {
+    "id": 14,
+    "question": "Dividende predstavljaju:",
+    "answers": ["distribuciju bogatstva akcionarima", "nerecipročan transfer prema akcionarima (sa spekta akcionarskog društva)", "sve navedeno", "rashod preduzeća", "jedini izvor uvećanja bogatstva akcionara"],
+    "correctAnswer": ["distribuciju bogatstva akcionarima", "nerecipročan transfer prema akcionarima (sa spekta akcionarskog društva)"]
+  },
+  {
+    "id": 15,
+    "question": "Minimalni troškovi zaliha prema EOQ modelu je:",
+    "answers": ["minimum troškova ponovnog naručivanja", "presek funkcije troškova držanja i ponovnog naručivanja zaliha", "minimum troškova držanja zaliha", "nijedan odgovor", "prvi izvod funkcije ukupnih troškova zaliha"],
+    "correctAnswer": ["prvi izvod funkcije ukupnih troškova zaliha", "presek funkcije troškova držanja i ponovnog naručivanja zaliha"]
+  },
+  {
+    "id": 16,
+    "question": "Spontani izvori finansiranja su:",
+    "answers": ["komercijalni zapisi (tržišni)", "komercijalni krediti dobavljača", "privatni krediti", "pasivna vremenska razgraničenja (AKRUALI)", "najjeftiniji izvori finansiranja"],
+    "correctAnswer": ["komercijalni krediti dobavljača", "pasivna vremenska razgraničenja (AKRUALI)", "najjeftiniji izvori finansiranja"]
+  },
+  {
+    "id": 17,
+    "question": "Kada je vrednost beta koeficijenta<1, to znači da prinos na akcije:",
+    "answers": ["je jednak bezrizičnoj stopi investiranja", "ništa od navedenog", "nema statistički značajnu korelaciju sa kretanjem prinosa na obveznice", "se kreće u istom smeru kao i prinos na obveznice tog preduzeća", "se kreće u suprotnom smeru kao i prinos na obveznice tog preduzeća"],
+    "correctAnswer": "ništa od navedenog"
+  },
+  {
+    "id": 18,
+    "question": "Koja od navedenih karakteristika se odnosi na finansijski lizing?",
+    "answers": ["sredstvo na kraju roka otplate ostaje davaocu lizinga", "ništa od navedenog", "rok ugovora je približno jednak veku trajanja dobra", "računovodstveno se tretira kao rashod u bilansu uspeha", "otkazivanje je moguće bez većih restrikcija"],
+    "correctAnswer": "rok ugovora je približno jednak veku trajanja dobra"
+  },
+  {
+    "id": 19,
+    "question": "U 5K kreditnoj analizi, kapital označava:",
+    "answers": ["dovoljnost novčanih tokova", "dovoljnost obrtnih sredstava", "dovoljnost ostvarenih prihoda", "dovoljnost osnovnih sredstava", "dovoljnost sopstvenih sredstava"],
+    "correctAnswer": "dovoljnost sopstvenih sredstava"
+  },
+  {
+    "id": 20,
+    "question": "Pravila vertikalnog metoda finansiranja su:",
+    "answers": ["Zlatno bankarsko pravilo finansiranja", "Pravila za odnos sopstveno i tuđeg kapitala", "Pravila za odnos osnovnog kapitala i rezervi", "Pravila za odnos dugoročnog prema kratkoročnom kapitalu", "Zlatno bilansno pravilo"],
+    "correctAnswer": ["Pravila za odnos sopstveno i tuđeg kapitala", "Pravila za odnos osnovnog kapitala i rezervi", "Pravila za odnos dugoročnog prema kratkoročnom kapitalu"]
+  },
+  {
+    "id": 21,
+    "question": "Pravila horizontalnog metoda finansiranja su:",
+    "answers": ["Zlatno bankarsko pravilo finansiranja", "Pravila za odnos sopstveno i tuđeg kapitala", "Pravila za odnos osnovnog kapitala i rezervi", "Pravila za odnos dugoročnog prema kratkoročnom kapitalu", "Zlatno bilansno pravilo"],
+    "correctAnswer": ["Zlatno bankarsko pravilo finansiranja", "Zlatno bilansno pravilo"]
+  },
+  {
+    "id": 22,
+    "question": "U ABC metodi, šta predstavlja A:",
+    "answers": ["zalihe čija je vrednost po jedinici visoka", "koeficijent obrta zaliha brz", "zalihe čija je vrednost po jedinici jako niska", "koeficijent obrta zaliha spor", "zahtevaju visoku kontrolu"],
+    "correctAnswer": ["zalihe čija je vrednost po jedinici visoka", "koeficijent obrta zaliha spor", "zahtevaju visoku kontrolu"]
+  },
+  {
+    "id": 23,
+    "question": "Kakav treba biti odnos sredstava u preduzeću da ono posluje na zadovoljavajućem nivou:",
+    "answers": ["1:1 između pozajmljenih i sopstvenih sredstava", "ponuđeno i za likvidnost", "balans izmedju rizika i prinosa", "da maksimizira vrednost akcija"],
+    "correctAnswer": ["balans izmedju rizika i prinosa", "da maksimizira vrednost akcija"]
+  },
+  {
+    "id": 24,
+    "question": "Preferencijalne akcije obezbeđuju vlasniku:",
+    "answers": ["Sigurnost zarade na uložen kapital, fiksnost prinosa", "prioritetno pravo namirenja iz likvidacione i stečajne mase u odnosu na obične", "pravo glasa u skupštini akcionara", "promenljivu dividendu"],
+    "correctAnswer": ["Sigurnost zarade na uložen kapital, fiksnost prinosa", "prioritetno pravo namirenja iz likvidacione i stečajne mase u odnosu na obične"]
+  },
+  {
+    "id": 25,
+    "question": "Agresivna metoda karakteristike:",
+    "answers": ["Najprofitabilnija", "Najniži rizik od insolventnosti", "Trajna obrtna sredstva se finansiraju iz kratokorčnih", "Najmanja profitabilnost"],
+    "correctAnswer": ["Najprofitabilnija", "Najveći rizik od insolventnosti", "Trajna obrtna sredstva se finansiraju iz kratokorčnih"]
+  },
+  {
+    "id": 26,
+    "question": "Kako se zove proces u kom varijabilna kamata postaje fiksna:",
+    "answers": ["Smanjivanje marže", "Smanjivanje kragne", "Fiksiranje kamate", "Konverzija"],
+    "correctAnswer": "Smanjivanje kragne"
+  },
+  {
+    "id": 27,
+    "question": "Koja metoda je najmanje rizična za zalog imovine:",
+    "answers": ["Hipoteka", "Prijem na skladištenje", "Primanje pod nadzor", "Pravo zadržavanja"],
+    "correctAnswer": "Pravo zadržavanja"
+  },
+  {
+    "id": 28,
+    "question": "Šta je zlatno bankarsko pravilo:",
+    "answers": ["Pravilo da se primljeni tuđi kapital ne sme koristiti vremenski nepovoljnije nego što je dobijen", "Pravilo da se osnovna sredstva finansiraju sopstvenim kapitalom", "Pravilo da se kratkoročni krediti koriste za finansiranje dugoročnih investicija", "Pravilo da se dugoročni krediti koriste za finansiranje kratkoročnih potreba"],
+    "correctAnswer": "Pravilo da se primljeni tuđi kapital ne sme koristiti vremenski nepovoljnije nego sto je dobijen"
+  },
+  {
+    "id": 29,
+    "question": "Koji model ne razmatra vremensku dimenziju (VVN)",
+    "answers": ["Neto sadašnja vrednost", "Interna stopa prinosa", "Indeks profitabilnosti", "Period povraćaja"],
+    "correctAnswer": "Period povraćaja"
+  },
+  {
+    "id": 30,
+    "question": "Šta dividenda predstavlja za akcionara?",
+    "answers": ["Rashod akcionarskog društva", "Nagrada za učešće u upravljanju društvom", "Dobit na osnovu udela u kapitalu društva", "Uplaćeni osnovni kapital"],
+    "correctAnswer": "Dobit na osnovu udela u kapitalu društva"
+  },
+  {
+    "id": 31,
+    "question": "Šta dividenda predstavlja za akcionarsko društvo?",
+    "answers": ["Rashod pre oporezivanja", "Raspodelu dobiti akcionarima", "Trošak kapitala koji smanjuje dobit", "Otplatu glavnice kredita"],
+    "correctAnswer": "Raspodelu dobiti akcionarima"
+  },
+  {
+    "id": 32,
+    "question": "Kad je politika preduzeća konzervativna, onda ono NOS>0:",
+    "answers": ["NOS su relativno najviša (kod konz.)", "finansiraju se stalna sredstva, trajna obrtna i deo povremeno potrebnih iz dugoročnih izvora, a ostatak obrtnih iz kratkoročnih", "rizik od insolventnosti je najveći", "profitabilnost je najveća"],
+    "correctAnswer": ["NOS su relativno najviša (kod konz.)", "finansiraju se stalna sredstva, trajna obrtna i deo povremeno potrebnih iz dugoročnih izvora, a ostatak obrtnih iz kratkoročnih"]
+  },
+  {
+    "id": 33,
+    "question": "Koje metode se vezuju za vreme (malo nejasno pitanje):",
+    "answers": ["NSV", "Interna stopa prinosa", "Indeks profitabilnosti", "Period povraćaja", "Diskontovani period povraćaja"],
+    "correctAnswer": ["NSV", "Interna stopa prinosa", "Indeks profitabilnosti", "Diskontovani period povraćaja"]
+  },
+  {
+    "id": 34,
+    "question": "Ako je saldo gotovine toliki da se njime mogu izmirivati troškovi, koji su razlozi držanja gotovine u pitanju?",
+    "answers": ["Transakcioni (izmirenje obaveza)", "Kompenzacioni (imovina na računima-vezano za banke)", "Predostrožnost (nepredviđene situacije)", "Špekulativni (vezano za popuste)"],
+    "correctAnswer": "Transakcioni (izmirenje obaveza)"
+  },
+  {
+    "id": 35,
+    "question": "Kad se smanjuje cena akcija?",
+    "answers": ["Kada se isplaćuje niži iznos dividende nego inače (niža dividenda/bez dividendi - pad cene akcija)", "nakon datuma objavljivanja ako se objave dividende nižeg iznosa nego inače", "nakon datuma bez dividende", "kada se isplaćuje viši iznos dividende davaocu lizinga"],
+    "correctAnswer": ["Kada se isplaćuje niži iznos dividende nego inače (niža dividenda/bez dividendi - pad cene akcija)", "nakon datuma objavljivanja ako se objave dividende nižeg iznosa nego inače", "nakon datuma bez dividende"]
+  },
+  {
+    "id": 36,
+    "question": "Na koga ide rizik kod operativnog lizinga?",
+    "answers": ["na primaoca lizinga", "na davaoca lizinga", "rizik se deli", "na banku"],
+    "correctAnswer": "na davaoca lizinga"
+  },
+  {
+    "id": 37,
+    "question": "Koliko teško može da se otkaže operativni lizing?",
+    "answers": ["Operativni lizing se teško otkazuje", "Operativni lizing se lako otkazuje, ali finansijski teško", "Zavisi od ugovora", "Nikako se ne može otkazati"],
+    "correctAnswer": "Operativni lizing se lako otkazuje, ali finansijski teško"
+  },
+  {
+    "id": 38,
+    "question": "Operativni ciklus (poslovni) sta je?",
+    "answers": ["Period izmedju nabavke resursa do prodaje proizvoda", "Period izmedju nabavke resursa do naplate prodatih proizvoda sacinjenih na bazi pribavljenih resursa.", "Period od početka proizvodnje do naplate potraživanja", "Vreme potrebno za obrt obrtnih sredstava"],
+    "correctAnswer": "Period izmedju nabavke resursa do naplate prodatih proizvoda sacinjenih na bazi pribavljenih resursa."
+  },
+  {
+    "id": 39,
+    "question": "Troškovi držanja zaliha su:",
+    "answers": ["Kalo, rastur, lom, kvar, troškovi skladištenja, administracije, osiguranja, održavanja", "Troškovi nabavke i transporta", "Troškovi popusta i bonusa", "Samo troškovi skladištenja"],
+    "correctAnswer": "Kalo, rastur, lom, kvar, troškovi skladištenja, administracije, osiguranja, održavanja"
+  },
+  {
+    "id": 40,
+    "question": "B- koeficijent -",
+    "answers": ["Premija na rizik (i mera sistemskog rizika)", "Mera nesistematskog rizika", "Mera likvidnosti", "Mera profitabilnosti"],
+    "correctAnswer": "Premija na rizik (i mera sistemskog rizika)"
+  },
+  {
+    "id": 41,
+    "question": "Najliberalniji vid prodaje:",
+    "answers": ["Aukcija", "Tender", "Konsignacija", "Direktna prodaja"],
+    "correctAnswer": "Konsignacija"
+  },
+  {
+    "id": 42,
+    "question": "Zarada po akciji –",
+    "answers": ["Neto dobit / Broj običnih akcija", "Bruto dobit / Broj običnih akcija", "Dividenda / Broj običnih akcija", "Neto dobit / Ukupan kapital"],
+    "correctAnswer": "Neto dobit/Broj obicnih akcija"
+  },
+  {
+    "id": 43,
+    "question": "Razlozi za isplatu posebnih dividendi:",
+    "answers": ["finansijska iskrenost, nagrađivanje akcionara, rast cene akcija", "pokrivanje gubitaka", "smanjenje kapitala", "povećanje zaduženosti"],
+    "correctAnswer": "finansijska iskrenost, nagradjivanje akcionara, rast cene akcija"
+  },
+  {
+    "id": 44,
+    "question": "Kod kredita sa anuitetnom isplatom u zavrsnim periodima otplate u odnosu na pocetne:",
+    "answers": ["dolazi do opadanja kamate, a porasta glavnice", "Manja je otplata kamate i veca je otplata glavnice", "kamata i glavnica ostaju iste", "kamata raste, a glavnica opada"],
+    "correctAnswer": ["dolazi do opadanja kamate, a porasta glavnice", "Manja je otplata kamate i veca je otplata glavnice"]
+  },
+  {
+    "id": 45,
+    "question": "Pravo zadržavanja –",
+    "answers": ["potraživanje prema celokupnom inventaru u slučaju zalaganja inventara", "pravo banke da zadrži depozit", "pravo kupca da zadrži robu", "pravo dobavljača da zadrži robu"],
+    "correctAnswer": "potrazivanje prema celokupnom inventaru u slucaju zalaganja inventara"
+  },
+  {
+    "id": 46,
+    "question": "Metoda kojom se SV budućih prihoda izjednačava sa kapitalnim izdatkom je:",
+    "answers": ["neto sadašnja vrednost (NPV)", "interna stopa prinosa (IRR)", "indeks profitabilnosti", "prosečan period povraćaja"],
+    "correctAnswer": "interna stopa prinosa (IRR)"
+  },
+  {
+    "id": 47,
+    "question": "Instrument kojim se obveznica moze konvertovati u obicnu akciju –",
+    "answers": ["opcija", "varant", "futurs", "svop"],
+    "correctAnswer": "varant"
+  },
+  {
+    "id": 48,
+    "question": "Koja metoda najbolje rangira investicije:",
+    "answers": ["interna stopa prinosa (IRR)", "neto sadašnja vrednost (NPV)", "indeks profitabilnosti", "prosečan period povraćaja"],
+    "correctAnswer": "neto sadašnja vrednost (NPV)"
+  },
+  {
+    "id": 49,
+    "question": "Kod zajma s jednakim plaćanjima rata (anuitetna):",
+    "answers": ["prva plaćanja sadrže veći iznos kamate nego završna plaćanja", "prva plaćanja sadrže niži iznos otplate glavnice nego završna plaćanja", "kamata i glavnica su jednake tokom celog perioda", "poslednja rata je uvek veća"],
+    "correctAnswer": ["prva plaćanja sadrže veći iznos kamate nego završna plaćanja", "prva plaćanja sadrže niži iznos iznos otplate glavnice nego završna plaćanja"]
+  },
+  {
+    "id": 50,
+    "question": "Optimalna struktura kapitala je:",
+    "answers": ["optimalan balans između rizika i prinosa", "ona koja maksimizira cenu akcije", "odnos 1:1 između sopstvenog i tuđeg kapitala", "struktura koja obezbeđuje najveću likvidnost"],
+    "correctAnswer": ["optimalan balans između rizika i prinosa", "ona koja maksimizira cenu akcije"]
+  },
+  {
+    "id": 51,
+    "question": "Ako se deo trajnih obrtnih sredstava finansira kratkoročnim izvorima, to je:",
+    "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1"],
+    "correctAnswer": "Agresivna finansijska politika"
+  },
+  {
+    "id": 52,
+    "question": "Ako se trajna obrtna sredstva i osnovna sredstva finansiraju dugoročnim izvorima, to je:",
+    "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1"],
+    "correctAnswer": "Hedzing"
+  },
+  {
+    "id": 53,
+    "question": "Šta su investicije?",
+    "answers": ["sadašnja ulaganja koja se vrše u materijalna, nematerijalna ili finansijska sredstva radi dobijanja određenih efekata u budućnosti", "budući prihodi", "samo ulaganja u nekretnine", "samo ulaganja u akcije"],
+    "correctAnswer": "sadašnja ulaganja koja se vrše u materijalna, nematerijalna ili finansijska sredstva radi dobijanja određenih efekata u budućnosti"
+  },
+  {
+    "id": 54,
+    "question": "Struktura kapitala preduzeća predstavlja:",
+    "answers": ["samo sopstveni kapital", "samo dug", "miks kapitala preduzeća i duga", "ukupna imovina preduzeća"],
+    "correctAnswer": "miks kapitala preduzeća i duga"
+  },
+  {
+    "id": 55,
+    "question": "Kod konzervativne finansijske politike neto obrtna sredstva (NOS) su:",
+    "answers": ["Relativno najviša", "Relativno najniža", "Uvek negativna", "Uvek jednaka nuli"],
+    "correctAnswer": "Relativno najviša"
+  },
+  {
+    "id": 56,
+    "question": "Koja od sledecih metoda za ocenu investicije ne uvazava vremensku vrednost novca?",
+    "answers": ["prosečan period povraćaja", "interna stopa prinosa", "indeks profitabilnosti", "neto sadašnja vrednost"],
+    "correctAnswer": "prosečan period povraćaja"
+  },
+  {
+    "id": 57,
+    "question": "Zlatno (bankarsko) pravilo finansiranja:",
+    "answers": ["Kratkoročna dobijena sredstva treba da budu uložena samo kratkoročno, a dugoročni krediti da budu odobravani samo iz dugoročno primljenih sredstava", "Zahtev da se vrši dugoročno sopstveno finansiranje samo osnovnih sredstava, a obrtna imovina samo kratkoročnim ili ukupnim tuđim kapitalom", "Primljeni tuđi kapital ne sme se dugoročnije koristiti nego što je dobijen", "Sredstva za finansiranje i njihovo vremensko korišćenje moraju odgovarati po ročnosti", "Dugoročno vezana imovina, treba da bude finansirana iz dugoročnih izvora, a kratkoročno vezana kratkoročnim kapitalom"],
+    "correctAnswer": ["Kratkoročna dobijena sredstva treba da budu uložena samo kratkoročno, a dugoročni krediti da budu odobravani samo iz dugoročno primljenih sredstava", "Primljeni tuđi kapital ne sme se dugoročnije koristiti nego što je dobijen", "Sredstva za finansiranje i njihovo vremensko korišćenje moraju odgovarati po ročnosti"]
+  },
+  {
+    "id": 58,
+    "question": "Ako se deo trajnih obrtnih sredstava finansira kratkoročnim izvorima, to je:",
+    "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1", "Ništa od navedenog"],
+    "correctAnswer": "Agresivna finansijska politika"
+  },
+  {
+    "id": 59,
+    "question": "Preduzeće može istu imovinu položi kao zalog pri uzimanju više kredita istovremeno:",
+    "answers": ["Ne", "Da (uz uslov da ukupna vrednost svih kredita ne sme da pređe ukupnu vrednost založene imovine)", "Da, samo u slučaju imovine velike vrednosti", "Da, ako je imovina stavljena pod nadzor", "Da, ako preduzeće stavi hipoteku nad imovinom"],
+    "correctAnswer": "Da (uz uslov da ukupna vrednost svih kredita ne sme da pređe ukupnu vrednost založene imovine)"
+  },
+  {
+    "id": 60,
+    "question": "U pravila horizontalnog metoda finansiranja spadaju:",
+    "answers": ["Pravilo finansiranja 1:1", "Pravilo finansiranja 2:1", "Pravila za odnos osnovnog kapitala i rezervi (vertikalna metoda)", "Zlatno bilansno pravilo"],
+    "correctAnswer": "Zlatno bilansno pravilo"
+  },
+  {
+    "id": 61,
+    "question": "Akumulirana dobit je:",
+    "answers": ["Reinvestirani deo dobiti pre poreza", "Reinvestirani deo neto dobiti pre isplate dividendi", "Reinvestirani deo neto dobiti nakon isplate dividendi", "Reinvestirani deo dobiti posle oporezivanja", "Ništa od prethodno navedenog"],
+    "correctAnswer": "Reinvestirani deo neto dobiti nakon isplate dividendi"
+  },
+  {
+    "id": 62,
+    "question": "Dividenda je:",
+    "answers": ["Postotak bruto profita koji preduzeće isplaćuje svojim akcionarima", "Dobit na osnovu udela u akcionarskom kapitalu", "Promenljiv prihod, srazmeran udelu koje akcije imaju u akcionarskom kapitalu", "Motiv i razlog za ulaganje u akcionarska društva", "Učešće u godišnjoj bruto dobiti koju skupština odredi za deobu akcionarima"],
+    "correctAnswer": ["Dobit na osnovu udela u akcionarskom kapitalu", "Promenljiv prihod, srazmeran udelu koje akcije imaju u akcionarskom kapitalu", "Motiv i razlog za ulaganje u akcionarska društva"]
+  },
+  {
+    "id": 63,
+    "question": "Pravilo za odnos dugoročnog prema kratkoročnom kapitalu:",
+    "answers": ["Sredstva za finansiranje i njihovo vremensko korišćenje moraju odgovarati po ročnosti", "Odnos između dugoročnog i kratkoročnog kapitala treba da bude postavljen u skladu sa potrebama pokrića, koje proizilazi iz strukture imovine", "Kratkoročni i dugoročni dugovi moraju biti u jednom normalnom međusobnom odnosu prema aktivnoj mogućnosti pokrića, koja odgovara samom preduzeću", "Primljeni kratkoročni kapital ne sme se dugoročnije koristiti nego to je dobijen", "Ukoliko je dugoročni kapital veći u odnosu na kratkoročni, utoliko je preduzeće solidnije"],
+    "correctAnswer": ["Odnos između dugoročnog i kratkoročnog kapitala treba da bude postavljen u skladu sa potrebama pokrića, koje proizilazi iz strukture imovine", "Kratkoročni i dugoročni dugovi moraju biti u jednom normalnom međusobnom odnosu prema aktivnoj mogućnosti pokrića, koja odgovara samom preduzeću"]
+  },
+  {
+    "id": 64,
+    "question": "Struktura kapitala preduzeća predstavlja:",
+    "answers": ["Strukturu koja obezbeđuje najveću likvidnost", "Strukturu koja maksimizira cenu akcije (optimalna struktura)", "Optimalan balans između rizika i prinosa (optimalna struktura)", "Miks kapitala preduzeća i duga", "Odnos 1:1 između sopstvenog i tuđeg kapitala"],
+    "correctAnswer": "Miks kapitala preduzeća i duga"
+  },
+  {
+    "id": 65,
+    "question": "Ukoliko se trajna obrtna sredstva i osnovna sredstva finansiraju dugoročnim izvorima to je:",
+    "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1", "Ništa od navedenog"],
+    "correctAnswer": "Hedžing finansijska politika"
+  },
+  {
+    "id": 66,
+    "question": "U pravila vertikalnog metoda finansiranja spadaju:",
+    "answers": ["Pravilo finansiranja 2:1", "Pravila za odnos sopstvenog i tuđeg kapitala", "Pravilo finansiranja 1:1", "Zlatno bilansno pravilo", "Pravila za odnos osnovnog kapitala i rezervi"],
+    "correctAnswer": ["Pravila za odnos sopstvenog i tuđeg kapitala", "Pravila za odnos osnovnog kapitala i rezervi"]
+  },
+  {
+    "id": 67,
+    "question": "Sopstveni izvori dugoročnog finansiranja su:",
+    "answers": ["Ostvarena poslovna dobit", "Amortizacija", "Reinvestirana dobit", "Akcijski kapital", "Sve navedeno"],
+    "correctAnswer": ["Amortizacija", "Reinvestirana dobit", "Akcijski kapital"]
+  },
+  {
+    "id": 68,
+    "question": "Kratkoročni izvori finansiranja su značajni za poslovanje preduzeća iz sledećih razloga:",
+    "answers": ["Pružaju visoku finansijsku fleksibilnost", "Najlakše su dostupni", "Preduzećima koja ih koriste pružaju prestiž", "Imaju najniže troškove", "Ne postoji finansijski limit kod njihove emisije"],
+    "correctAnswer": ["Pružaju visoku finansijsku fleksibilnost", "Imaju najniže troškove"]
+  },
+  {
+    "id": 69,
+    "question": "Zaokružite osnovne investicione kriterijume:",
+    "answers": ["Interna stopa povraćaja", "Stvarna stopa prinosa na postojeća ulaganja", "Standardna stopa prinosa", "Cena kapitala", "Oportunitetni trošak"],
+    "correctAnswer": ["Interna stopa povraćaja", "Cena kapitala", "Oportunitetni trošak"]
+  },
+  {
+    "id": 70,
+    "question": "Investitor kupuje akcije očekujući da ostvari prihod u obliku:",
+    "answers": ["Dividende", "Dela likvidacione kvote", "Kapitalne dobiti", "Dela dobiti"],
+    "correctAnswer": ["Dividende", "Kapitalne dobiti"]
+  },
+  {
+    "id": 71,
+    "question": "U trgovačkom izrazu 5/10 neto 30, broj 10 označava:",
+    "answers": ["veličinu kasa skonta", "diskontni period", "rok za korišćenje popusta", "rok za otplatu ukupnog duga", "kreditni period"],
+    "correctAnswer": ["diskontni period", "rok za korišćenje popusta"]
+  },
+  {
+    "id": 72,
+    "question": "Korišćenje diskontovanja kao tehnike je karakteristično za sledeće metode:",
+    "answers": ["prosečan period povraćaja", "interna stopa prinosa", "indeks profitabilnosti", "ponderisana cena kapitala", "neto sadašnja vrednost"],
+    "correctAnswer": ["interna stopa prinosa", "indeks profitabilnosti", "neto sadašnja vrednost"]
+  },
+  {
+    "id": 73,
+    "question": "Metoda(e) koja se zasniva na konceptu vremenske vrednosti novca je:",
+    "answers": ["prosečan period povraćaja", "indeks profitabilnosti", "neto sadašnja vrednost", "interna stopa prinosa", "cena kapitala"],
+    "correctAnswer": ["indeks profitabilnosti", "neto sadašnja vrednost", "interna stopa prinosa"]
+  },
+  {
+    "id": 74,
+    "question": "Kod operativnog lizinga, karakteristično je sledeće:",
+    "answers": ["sredstvo po isteku lizinga ostaje davaocu lizinga", "rizik i koristi padaju na primaoca lizinga", "rok trajanja ugovora je približno jednak veku trajanja sredstva", "predmet lizinga su trajna dobra", "računovodstveno se tretira kao rashod"],
+    "correctAnswer": ["sredstvo po isteku lizinga ostaje davaocu lizinga", "računovodstveno se tretira kao rashod"]
+  },
+  {
+    "id": 75,
+    "question": "U slučaju postojanja ustaljenih poslovnih odnosa (strateškog partnerstva) I visokog kreditnog skora kupca, kao instrument…:",
+    "answers": ["sopstvena menica", "garancija", "vučena menica", "otvoreni račun", "akreditiv"],
+    "correctAnswer": "otvoreni račun"
+  },
+  {
+    "id": 76,
+    "question": "Kada preduzeće gotovinu na računu drži da bi depozitom obezbedilo dobijanje kredita, takav razlog je:",
+    "answers": ["špekulativni", "razlog predostrožnosti", "depozitni", "kompenzacioni", "transkacioni"],
+    "correctAnswer": "kompenzacioni"
+  },
+  {
+    "id": 77,
+    "question": "Kada se izvestan saldo gotovine u preduzeću drži sa ciljem dnevnih izmirivanja dospelih obaveza, takav se razlog naziva:",
+    "answers": ["špekulativni", "razlog predostrožnosti", "depozitni", "kompenzacioni", "transakcioni"],
+    "correctAnswer": "transakcioni"
+  },
+  {
+    "id": 78,
+    "question": "Tržišna vrednost određene akcije zavisi od:",
+    "answers": ["buduće zarađivačke moći i sposobnosti agencije da generiše zaradu i da raste dividenda", "samo od ponude i tražnje", "samo od knjigovodstvene vrednosti", "samo od nominalne vrednosti"],
+    "correctAnswer": "buduće zarađivačke moći I sposobnosti agencije da generiše zaradu I da raste dividenda"
+  },
+  {
+    "id": 79,
+    "question": "Kategorija zaliha C u ABC modelu su:",
+    "answers": ["zalihe sa najmanjom jediničnom vrednošću", "zalihe koje se moraju strogo kontrolisati", "zalihe sa najmanjim obrtom", "zalihe sa najvećom jediničnom vrednošću", "zalihe sa najvećim obrtom"],
+    "correctAnswer": ["zalihe sa najmanjom jediničnom vrednošću", "zalihe sa najvećim obrtom"]
+  },
+  {
+    "id": 80,
+    "question": "Odnos diskontovanih tokova novca I početnog troška naziva se:",
+    "answers": ["indeks profitabilnosti", "neto sadašnja vrednost", "interna stopa prinosa", "prosečan period povraćaja"],
+    "correctAnswer": "indeks profitabilnosti"
+  },
+  {
+    "id": 81,
+    "question": "Za revolving kredite je karakteristično da se:",
+    "answers": ["ništa od navedenog nije tačno", "banka ne obavezuje prema klijentu da će mu sredstva biti stalno dostupna", "aranžman pravi na duži period", "na neiskorišćeni deo plaća kamata", "najčešće koristi varijabilna kamatna stopa"],
+    "correctAnswer": ["aranžman pravi na duži period", "najčešće koristi varijabilna kamatna stopa"]
+  },
+  {
+    "id": 82,
+    "question": "Racio koji pokazuje koliko je učešće dividend u ukupnom ostvarenom profit naziva se:",
+    "answers": ["racio isplate dividende", "zarada po akciji", "prinos u vidu dividende", "stopa zadržane dobiti"],
+    "correctAnswer": "racio isplate dividende"
+  },
+  {
+    "id": 83,
+    "question": "Preduzeće može istu imovinu da položi kao zalog pri uzimanju više kredita istovremeno:",
+    "answers": ["Ne", "Da", "Da, samo u slučaju imovine velike vrednosti", "Da, ako je imovina stavljena pod nadzor", "Da, ako preduzeće stavi imovinu pod hipoteku"],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 84,
+    "question": "Zlatno bankarsko pravilo finansiranja:",
+    "answers": ["Kratkoročna dobijena sredstva treba da budu uložena samo kratkoročno, a dugoročni krediti da budu odobravani samo iz dugoročno primljenih izvora sredstava", "Zahtev da se vrši dugoročno sopstveno finansiranje samo osnovnih sredstava, a obrtna sredstva samo kratkoročnim ili ukupnim tuđim kapitalom", "Primljeni tuđi kapital ne sme se dugoročnije koristiti nego što je dobijen", "Sredstva za finansiranje I njihovo vremensko korišćenje moraju odgovarati po ročnosti", "Dugoročno vezana imovina treba da bude finansirana iz dugoročnih izvora, a kratkoročna vezana kratkoročnim kapitalom"],
+    "correctAnswer": ["Kratkoročna dobijena sredstva treba da budu uložena samo kratkoročno, a dugoročni krediti da budu odobravani samo iz dugoročno primljenih izvora sredstava", "Primljeni tuđi kapital ne sme se dugoročnije koristiti nego što je dobijen", "Sredstva za finansiranje I njihovo vremensko korišćenje moraju odgovarati po ročnosti"]
+  },
+  {
+    "id": 85,
+    "question": "Optimalna struktura kapitala je:",
+    "answers": ["miks kapitala preduzeća i duga", "struktura koja obezbeđuje najveću likvidnost", "struktura koja maksimizira cenu akcije", "optimalan balans između rizika I prinosa", "odnos 1:1 između sopstvenog I tuđeg kapitala"],
+    "correctAnswer": ["struktura koja maksimizira cenu akcije", "optimalan balans između rizika I prinosa"]
+  },
+  {
+    "id": 86,
+    "question": "Odnos diskontovanih tokova novca I početnog troška naziva se:",
+    "answers": ["indeks profitabilnosti", "neto sadašnja vrednost", "interna stopa prinosa", "prosečan period povraćaja"],
+    "correctAnswer": "indeks profitabilnosti"
+  },
+  {
+    "id": 87,
+    "question": "Period koji protekne od nabavke resursa do naplate potraživanja je:",
+    "answers": ["gotovinski ciklus", "operativni ciklus", "period naplate potraživanja", "period isplate", "period obrta zaliha"],
+    "correctAnswer": "operativni ciklus"
+  },
+  {
+    "id": 88,
+    "question": "Kod konzervativne finansijske politike:",
+    "answers": ["neto obrtna sredstva su relativno najviša", "rizik od insolventnosti je relativno najviši", "troškovi finansiranja su relativno najviši", "profitabilnost je relativno najviša", "ništa od navedenog nije tačno"],
+    "correctAnswer": ["neto obrtna sredstva su relativno najviša", "troškovi finansiranja su relativno najviši"]
+  },
+  {
+    "id": 89,
+    "question": "Zaštita zajmodavca može se postići korišćenjem:",
+    "answers": ["kape kamatne stope", "široke kragne kamatne stope", "uske kragne kamatne stope", "poda kamatne stope", "nijedne od ovih metoda"],
+    "correctAnswer": ["široke kragne kamatne stope", "uske kragne kamatne stope", "poda kamatne stope"]
+  },
+  {
+    "id": 90,
+    "question": "Metoda kojom se sadašnja vrednost budućih priliva izjednačava sa kapitalnim izdatkom, naziva se:",
+    "answers": ["neto sadašnja vrednost", "period povraćaja", "indeks profitabilnosti", "interna stopa prinosa", "trošak kapitala"],
+    "correctAnswer": "interna stopa prinosa"
+  },
+  {
+    "id": 91,
+    "question": "Potraživanje prema celokupnom inventaru u slučaju zalaganja inventara naziva se:",
+    "answers": ["nijedan od ponuđenih odgovora", "hipoteka nad pokretnom imovinom", "prijem na skladištenje", "primanje pod nadzor", "pravo zadržavanja"],
+    "correctAnswer": "pravo zadržavanja"
+  },
+  {
+    "id": 92,
+    "question": "Za obezbeđenje kratkoročnih izvora finansiranja banke traže zalog na delom imovine ili kompletnom imovinom:",
+    "answers": ["KOLATERAL", "Hipoteka", "Garancija", "Akreditiv"],
+    "correctAnswer": "KOLATERAL"
+  },
+  {
+    "id": 93,
+    "question": "Metak zajam:",
+    "answers": ["isplaćuje se kamata, a glavnica na rok dospeća, vid ekstremnog slučaja balona", "zajam sa fiksnim ratama", "kratkoročni zajam", "dugoročni zajam"],
+    "correctAnswer": "isplaćuje se kamata, a glavnica na rok dospeća, vid ekstremnog slučaja balona"
+  },
+  {
+    "id": 94,
+    "question": "Čiste ili vanila obaveznice:",
+    "answers": ["imaju fiksnu kamatnu stopu i glavnica se isplaćuje u celosti na datum dospeća", "imaju varijabilnu kamatnu stopu", "nemaju rok dospeća", "su konvertibilne u akcije"],
+    "correctAnswer": "imaju fiksnu kamatnu stopu i glavnica se isplaćuje u celosti na datum dospeća"
+  },
+  {
+    "id": 95,
+    "question": "AUTSORSING:",
+    "answers": ["angažovanje specijalizovanih agencija za naplatu potraživanja", "prodaja potraživanja bankama", "otkupljivanje dugoročnih sredstava", "kupovina kratkoročnih HOV"],
+    "correctAnswer": "angažovanje specijalizovanih agencija za naplatu potraživanja"
+  },
+  {
+    "id": 96,
+    "question": "FAKTORING:",
+    "answers": ["prodaja potraživanja bankama i spec. agencijama", "angažovanje specijalizovanih agencija za naplatu potraživanja", "otkupljivanje dugoročnih sredstava", "kupovina kratkoročnih HOV"],
+    "correctAnswer": "prodaja potraživanja bankama i spec. agencijama"
+  },
+  {
+    "id": 97,
+    "question": "FORFETING:",
+    "answers": ["otkupljivanje dugoročnih sredstava", "prodaja potraživanja bankama", "angažovanje specijalizovanih agencija za naplatu potraživanja", "kupovina kratkoročnih HOV"],
+    "correctAnswer": "otkupljivanje dugoročnih sredstava"
+  },
+  {
+    "id": 98,
+    "question": "Koji su razlozi za kontrakciju (zatezanje kredita)?",
+    "answers": ["troškovi finansiranja potraživanja", "administrativni troškovi", "popusti", "gubici zbog nenaplativih potraživanja"],
+    "correctAnswer": ["troškovi finansiranja potraživanja", "administrativni troškovi", "popusti", "gubici zbog nenaplativih potraživanja"]
+  },
+  {
+    "id": 99,
+    "question": "KRATKOROČNI IZVORI FINANSIRANJA:",
+    "answers": ["OBEZBEĐENI (krediti obezbeđeni)", "NEOBEZBEĐENI (TRŽIŠNI I SPONTANI)", "samo bankarski krediti", "samo sopstveni kapital"],
+    "correctAnswer": ["OBEZBEĐENI (krediti obezbeđeni)", "NEOBEZBEĐENI (TRŽIŠNI I SPONTANI)"]
+  },
+  {
+    "id": 100,
+    "question": "TRŽIŠNI KRATKOROČNI IZVORI:",
+    "answers": ["krediti sa jednikratnom optlatom", "revolving krediti", "kreditna linija", "dugoročni krediti"],
+    "correctAnswer": ["krediti sa jednikratnom optlatom", "revolving krediti", "kreditna linija"]
+  },
+  {
+    "id": 101,
+    "question": "TRGOVINSKI KREDITI PREMA PRAVNOM UGOVORU:",
+    "answers": ["OTVORENI RAČUN (posle isporuke robe, faktura se šalje)", "potpisivanje sopstvene menice", "vučena menica (pre isporuke se naplaćuje)", "bankarska garancija", "hipoteka"],
+    "correctAnswer": ["OTVORENI RAČUN (posle isporuke robe, faktura se šalje)", "potpisivanje sopstvene menice", "vučena menica (pre isporuke se naplaćuje)", "bankarska garancija"]
+  },
+  {
+    "id": 102,
+    "question": "OBEZBEĐENI KRATKOROČNI KREDITI:",
+    "answers": ["krediti obezbeđeni potraživanjima", "otkup potraživanja", "zalaganje inventara", "neobezbeđeni krediti"],
+    "correctAnswer": ["krediti obezbeđeni potraživanjima", "otkup potraživanja", "zalaganje inventara"]
+  },
+  {
+    "id": 103,
+    "question": "AKCIJE MOGU DA IMAJU:",
+    "answers": ["NOMINALNU VREDNOST", "KNJIGOVDSTVENU", "TRŽIŠNU (sluzi da se predvidi mogućnost zarade)", "samo jednu vrednost"],
+    "correctAnswer": ["NOMINALNU VREDNOST", "KNJIGOVDSTVENU", "TRŽIŠNU (sluzi da se predvidi mogućnost zarade)"]
+  },
+  {
+    "id": 104,
+    "question": "OBAVEZNICE KOJE NEMAJU NAZANČEN ROK DOSPEĆA:",
+    "answers": ["perpetualne obaveznice", "dugoročne obaveznice", "kratkoročne obaveznice", "konvertibilne obaveznice"],
+    "correctAnswer": "perpetualne obaveznice"
+  },
+  {
+    "id": 105,
+    "question": "Funkcija za računanje kamate je:",
+    "answers": ["PPMT", "IPMT", "PMT", "RATE"],
+    "correctAnswer": "IPMT"
+  },
+  {
+    "id": 106,
+    "question": "Funkcija za računanje otplate je:",
+    "answers": ["PPMT", "IPMT", "PMT", "RATE"],
+    "correctAnswer": "PPMT"
+  },
+  {
+    "id": 107,
+    "question": "Funkcija za anuitet je:",
+    "answers": ["PPMT", "IPMT", "PMT", "RATE"],
+    "correctAnswer": "PMT"
+  },
+  {
+    "id": 108,
+    "question": "Funkcija za stopu prinosa ili kamatnu stopu je:",
+    "answers": ["RATE/12", "IPMT", "PMT", "NPV"],
+    "correctAnswer": "RATE/12"
+  },
+  {
+    "id": 109,
+    "question": "Za diskontnu stopu je:",
+    "answers": ["RATE", "IPMT", "PMT", "NPV"],
+    "correctAnswer": "NPV"
+  },
+  {
+    "id": 110,
+    "question": "Optimalni saldo gotovine je EUR 100.000. Gornji unutrašnji saldo je na EUR 200.000, a gornji spoljašnji saldo na EUR 230.000. Ako je nivo gotovine na današnji dan dostigao EUR 200.000, Stounov model predviđa da se:",
+    "answers": ["dalje razmotri kretanje novčanih tokova u narednih nekoliko dana", "izvrši razoročavanje prethodno oročene gotovine", "gotovina oroči na kratak rok", "ne preduzima nikakva akcija", "predefiniše optimalni saldo gotovine"],
+    "correctAnswer": "dalje razmotri kretanje novčanih tokova u narednih nekoliko dana"
+  },
+  {
+    "id": 111,
+    "question": "U trgovinskom preduzeću ABC, osnovna sredstva iznose EUR 100.000, trajna obrtna sredstva EUR 40.000 a povremena potrebna variranja do +50% vrednosti trajnih obrtnih sredstava. Ako preduzeće koristi hedžing metodu finansiranja obrtnih sredstava, kolika je vrednost neto obrtnih sredstava?",
+    "answers": ["140.000", "30.000", "70.000", "40.000", "100.000"],
+    "correctAnswer": "40.000"
+  },
+  {
+    "id": 112,
+    "question": "Ponderisana prosečna cena kapitala (WACC) u kompaniji ZZZ 10%. Kompanija u svom prtfoliju ima samo tri investicije( A.B,C) jednake vrednosti. Ako je interna stopa prinosa investicija A =8%. B=10%, kolika minimalno mora da bude interna stopa prinosa?",
+    "answers": ["10%", "11%", "12%", "8%", "9%"],
+    "correctAnswer": "10%"
+  },
+  {
+    "id": 113,
+    "question": "Ako je prosečan period povraćaja jednak životnom veku projekta. onda je neto sadašnja vrednost:",
+    "answers": ["strogo manja od nule", "strogo veća od nule", "jednaka nuli", "isključivo veća ili jednaka nuli", "ništa od navedenog nije tačno"],
+    "correctAnswer": "strogo manja od nule"
+  },
+  {
+    "id": 114,
+    "question": "Ako je prosečna ponderisana cena kapitala 8%, investicije se prihvataju:",
+    "answers": ["Samo ako imaju stopu prinosa veću od 8%", "Samo ako imaju stopu prinosa manju od 8%", "Samo ako imaju stopu prinosa jednaku 8%", "Ako imaju stopu prinosa veću od 12%, kada se doda premija rizika od 4%"],
+    "correctAnswer": ["Samo ako imaju stopu prinosa veću od 8%", "Ako imaju stopu prinosa veću od 12%, kada se doda premija rizika od 4%"]
+  },
+  {
+    "id": 115,
+    "question": "Konzervativna finansijska politika karakteriše se:",
+    "answers": ["Najvišim neto obrtnim sredstvima", "Najvećim rizikom insolventnosti", "Najmanjom profitabilnošću", "Najvećom profitabilnošću"],
+    "correctAnswer": ["Najvišim neto obrtnim sredstvima", "Najmanjom profitabilnošću"]
+  },
+  {
+    "id": 116,
+    "question": "Interkalarne dividende su:",
+    "answers": ["Dividende koje se isplaćuju iz neto dobiti nakon završetka poslovne godine", "Dividende koje se isplaćuju iz opštih troškova poslovanja", "Dividende koje se isplaćuju pre završetka poslovne godine", "Dividende koje se finansiraju iz akumulirane dobiti"],
+    "correctAnswer": ["Dividende koje se isplaćuju iz opštih troškova poslovanja", "Dividende koje se isplaćuju pre završetka poslovne godine"]
+  },
+  {
+    "id": 117,
+    "question": "U pravila horizontalnog metoda finansiranja spadaju:",
+    "answers": ["Zlatno pravilo likvidnosti", "Zlatno bankarsko pravilo", "Zlatno bilansno pravilo", "Pravilo 1:1 između dugoročnog i kratkoročnog kapitala"],
+    "correctAnswer": ["Zlatno bankarsko pravilo", "Zlatno bilansno pravilo"]
+  },
+  {
+    "id": 118,
+    "question": "Zlatno bilansno pravilo se deli na:",
+    "answers": ["Uže i šire", "Kratkoročno i dugoročno", "Horizontalno i vertikalno", "Bilansno i bankarsko"],
+    "correctAnswer": "Uže i šire"
+  },
+  {
+    "id": 119,
+    "question": "Zlatno bilansno pravilo u užem smislu podrazumeva da:",
+    "answers": ["Osnovna sredstva treba da se finansiraju dugoročnim izvorima", "Osnovna i obrtna sredstva treba da se finansiraju kratkoročnim izvorima", "Obrtna sredstva treba da se finansiraju dugoročnim izvorima", "Sve imovinske pozicije treba da se finansiraju sopstvenim kapitalom"],
+    "correctAnswer": "Osnovna sredstva treba da se finansiraju dugoročnim izvorima"
+  },
+  {
+    "id": 120,
+    "question": "Zlatno bilansno pravilo u širem smislu podrazumeva da:",
+    "answers": ["Osnovna sredstva i trajno vezani deo obrtnih sredstava treba finansirati dugoročnim izvorima", "Samo obrtna sredstva treba finansirati kratkoročnim kapitalom", "Samo osnovna sredstva treba finansirati dugoročnim kapitalom", "Sve obaveze treba finansirati sopstvenim kapitalom"],
+    "correctAnswer": "Osnovna sredstva i trajno vezani deo obrtnih sredstava treba finansirati dugoročnim izvorima"
+  },
+  {
+    "id": 121,
+    "question": "Pravila vertikalnog metoda finansiranja posmatraju:",
+    "answers": ["Odnos sopstvenog i tuđeg kapitala", "Odnos osnovnog kapitala i rezervi", "Odnos dugoročnog prema kratkoročnom kapitalu", "Odnos likvidne i nelikvidne imovine"],
+    "correctAnswer": ["Odnos sopstvenog i tuđeg kapitala", "Odnos osnovnog kapitala i rezervi", "Odnos dugoročnog prema kratkoročnom kapitalu"]
+  },
+  {
+    "id": 122,
+    "question": "Šta pokazuje odnos rezervi i sopstvenog kapitala (pravila vertikalnog metoda)?",
+    "answers": ["Stepen finansijske stabilnosti preduzeća", "Da veći udeo rezervi u kapitalu znači veću solidnost", "Da veći udeo kapitala u rezervama znači manju stabilnost", "Nema značaja za finansijsku stabilnost"],
+    "correctAnswer": ["Stepen finansijske stabilnosti preduzeća", "Da veći udeo rezervi u kapitalu znači veću solidnost"]
+  },
+  {
+    "id": 123,
+    "question": "Kapital se smatra obezbeđenim od gubitka ako rezerve iznose:",
+    "answers": ["25% sopstvenog kapitala", "50% sopstvenog kapitala", "25% angažovanog kapitala", "50% angažovanog kapitala"],
+    "correctAnswer": ["50% sopstvenog kapitala", "25% angažovanog kapitala"]
+  }
+]

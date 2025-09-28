@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "question": "Preduzeće „doo“ razmatra investiciju koja danas zahteva investicioni izdatak od 4.000 EUR. Investicija će nakon prve godine generisati neto novčani tok od 2.000 EUR. Finansijski direktor je odlučio da se ovih 2.000 EUR oroči na štednom računu u banci na period od 1 godine po kamatnoj stopi od 7%. Dodatno, investicija će na kraju druge godine generisati 4.000 EUR. Finansijski direktor je izračunao internu stopu prinosa i ona iznosi približno 28,08%. Koliko je prosečan godišnji prinos koji preduzeće ostvaruje od investicije u analiziranom dvogodišnjem periodu?",
+    "answers": ["Približno 50%", "Više od 28,08%", "Približno 23,9%", "Ništa od ponuđenog pod A, B i C", "Ne znam"],
+    "correctAnswer": "Približno 23,9%"
+  },
+  {
+    "id": 2,
+    "question": "Zaokruži tačan odgovor:",
+    "answers": ["Opšti racio likvidnosti je uglavnom manji od brzog racija likvidnosti", "Ako je stopa prinosa na ukupna sredstva (ROA) 12%, to znači da preduzeće na svakih 1.000 RSD ostvari 120 RSD poslovnog dobitka", "Ako se tokom 2023. godine stopa prinosa na vlasnički kapital (ROE) povećala u odnosu na 2022. godinu, pri čemu su profitabilnost i zaduženost skoro nepromenjeni, onda pada efikasnost upravljanja ukupnim sredstvima preduzeća", "U uslovima smanjenja tražnje za preduzeće je bolje da ima veći koeficijent poslovnog leveridža", "Ne znam"],
+    "correctAnswer": "Ako je stopa prinosa na ukupna sredstva (ROA) 12%, to znači da preduzeće na svakih 1.000 RSD ostvari 120 RSD poslovnog dobitka"
+  },
+  {
+    "id": 3,
+    "question": "Odaberite tačne tvrdnje vezane za anuitetnu otplatu bankarskih kredita: (Select one or more)",
+    "answers": ["Nijedan od ponuđenih odgovora nije tačan", "Otplata glavnice u završnim fazama otplate su veće nego u početnim", "Poslednja rata kredita se razlikuje od ostalih", "Otplata kamate u završnim fazama otplate su veće nego u početnim", "Otplata rate kredita u završnim fazama otplate su veće nego u početnim"],
+    "correctAnswer": "Otplata glavnice u završnim fazama otplate su veće nego u početnim"
+  },
+  {
+    "id": 4,
+    "question": "Standardizovani ugovor kojim se kupac i prodavac obavezuju da izvrše promet određene aktive po utvrđenoj ceni u određenom periodu u budućnosti se naziva:",
+    "answers": ["Swap", "Forward", "Fjuceres tacan odgovor", "Obveznica"],
+    "correctAnswer": "Fjuceres tacan odgovor"
+  },
+  {
+    "id": 5,
+    "question": "Prenošenje prava po osnovu menice se vrši radnjom koja se naziva:",
+    "answers": ["Izdaja menice", "Akceptiranje menice", "Protest", "Indosiranje"],
+    "correctAnswer": "Indosiranje"
+  },
+  {
+    "id": 6,
+    "question": "Ako vrednost neto obrtnih sredstava raste, to nužno znači da:",
+    "answers": ["neminovno opada vrednost ORL", "vrednost ORL ne može da opada", "neminovno raste i vrednost opšteg racija likvidnosti (ORL)", "neminovno ostaje isti ORL", "vrednost ORL može da raste, opada i ostane ista"],
+    "correctAnswer": "vrednost ORL može da raste, opada i ostane ista"
+  },
+  {
+    "id": 7,
+    "question": "Zaokružiti poželjne finansijske ishode vezane za gotovinski ciklus:",
+    "answers": ["ništa od navedenog", "povećanje perioda naplate potraživanja", "povećanje operativnog ciklusa", "smanjenje koeficijenta obrta kupaca", "smanjenje gotovinskog ciklusa"],
+    "correctAnswer": "smanjenje gotovinskog ciklusa"
+  },
+  {
+    "id": 8,
+    "question": "Kada je opšti racio likvidnosti 2:1, to znači da je vrednost neto obrtnih sredstava:",
+    "answers": ["manja od jedan", "između nula i jedan", "jednaka jedan", "veća od jedan", "nemoguće je izvući bilo kakav zaključak"],
+    "correctAnswer": "veća od jedan"
+  },
+  {
+    "id": 9,
+    "question": "Kod revolving kredita kao cena se uobičajeno javlja:",
+    "answers": ["samo kamata na iskorišćeni deo kredita", "kamata na ukupan garantovani iznos kredita", "provizija na ukupan garantovani iznos kredita", "provizija na iskorišćeni deo kredita", "kamata na iskorišćeni deo, a provizija na garantovani iznos kredita"],
+    "correctAnswer": "kamata na iskorišćeni deo, a provizija na garantovani iznos kredita"
+  },
+  {
+    "id": 10,
+    "question": "Koja od sledećih metoda za ocenu investicija ne uvažava vremensku vrednost novca:",
+    "answers": ["prosečan period povraćaja", "indeks profitabilnosti", "interna stopa prinosa", "sve metode uvažavaju vremensku vrednost novca", "neto sadašnja vrednost"],
+    "correctAnswer": "prosečan period povraćaja"
+  },
+  {
+    "id": 11,
+    "question": "Kada je vrednost β (beta) koeficijenta manja od 1, to znači da prinos na akcije nekog preduzeća:",
+    "answers": ["ništa od navedenog nije tačno", "je jednak bezrizičnoj stopi investiranja", "nema statistički značajnu korelaciju sa kretanjem prinosa na obveznice tog preduzeća", "se kreće u istom smeru kao i prinos na obveznice tog preduzeća", "se kreće u suprotnom smeru kao i prinos na obveznice tog preduzeća"],
+    "correctAnswer": "ništa od navedenog nije tačno"
+  },
+  {
+    "id": 12,
+    "question": "Do očekivanog pada cena akcija dolazi nakon:",
+    "answers": ["datuma bez dividende", "datuma objavljivanja dividendi, ako se objavi veći iznos od očekivanog", "datuma registracije", "datuma objavljivanja dividendi, ako se objavi manji iznos od očekivanog", "datuma isplate dividendi"],
+    "correctAnswer": ["datuma bez dividende", "datuma objavljivanja dividendi, ako se objavi manji iznos od očekivanog"]
+  },
+  {
+    "id": 13,
+    "question": "Pro forma račun prihoda i pro forma bilans stanja rezultat je:",
+    "answers": ["kratkoročnog finansijskog planiranja", "inovativnim planiranjem", "dugoročnog finansijskog planiranja", "profitnog planiranja", "optimalnim planiranjem"],
+    "correctAnswer": "profitnog planiranja"
+  },
+  {
+    "id": 14,
+    "question": "Bankarski akcept je hartija od vrednosti:",
+    "answers": ["koja glasi na rok od 90 do 270 dana", "koja može da se prenosi beskonačno mnogo puta", "čija utrživost zavisi od ugleda kompanije koja ga emituje", "koja se najčešće koristi u spoljnoj trgovini", "kojom se dug emitenta konvertuje u zaduženje banke"],
+    "correctAnswer": ["koja može da se prenosi beskonačno mnogo puta", "koja se najčešće koristi u spoljnoj trgovini", "kojom se dug emitenta konvertuje u zaduženje banke"]
+  },
+  {
+    "id": 15,
+    "question": "Ako vrednost neto obrtnih sredstava raste, to nužno znači da:",
+    "answers": ["neminovno opada vrednost ORL", "vrednost ORL ne može da opada", "neminovno raste i vrednost opšteg racija likvidnosti (ORL)", "neminovno ostaje isti ORL", "vrednost ORL može da raste, opada i ostane ista"],
+    "correctAnswer": "vrednost ORL može da raste, opada i ostane ista"
+  },
+  {
+    "id": 16,
+    "question": "Ako je prosečan period povraćaja jednak životnom veku projekta, onda je neto sadašnja vrednost:",
+    "answers": ["jednaka nuli", "isključivo veća ili jednaka od nule", "strogo manja od nule", "strogo veća od nule", "ništa od navedenog nije tačno"],
+    "correctAnswer": "jednaka nuli"
+  },
+  {
+    "id": 17,
+    "question": "Vreme koje protekne od nabavke sirovina do naplate potraživanja se naziva:",
+    "answers": ["gotovinski ciklus", "period isplate dobavljača", "operativni ciklus", "period obrta zaliha", "period naplate potraživanja"],
+    "correctAnswer": "operativni ciklus"
+  },
+  {
+    "id": 18,
+    "question": "Na dan 31. marta 2024. godine preduzeće Lasta doo je dalo avans u iznosu od 30.000 EUR dobavljaču u inostranstvu za isporuku robe koja će uslediti najkasnije do 30. juna 2024. godine. Avans je isplaćen sa raspoloživih sredstava na tekućem računu preduzeća. Istog dana je preduzeće Lasta doo uzelo kratkoročni kredit od OTP banke u iznosu od 40.000 EUR koji je banka uplatila na tekući račun preduzeća. Šta je od navedenog tačno:",
+    "answers": ["Obrtna sredstva se povećavaju za 40.000 EUR", "Kratkoročne obaveze preduzeća se povećavaju za 70.000 EUR", "Nema promene ukupnih sredstava preduzeća", "Kapital preduzeća se smanjuje za 30.000 EUR", "Ne znam"],
+    "correctAnswer": "Obrtna sredstva se povećavaju za 40.000 EUR"
+  },
+  {
+    "id": 19,
+    "question": "Utvrđeno je da su neto obrtna sredstva preduzeća na dan 31.7.2025. godine negativna i da iznose 200.000 EUR. Pred finansijskim menadžerom je zadatak ročnog usklađivanja bilansa. Šta biste uradili na njegovom mestu?",
+    "answers": ["Konverzija kratkoročnih finansijskih obaveza u dugoročni kredit u iznosu ne manjem od 200.000 EUR", "Refinansiranje kratkoročnih finansijskih obaveza u vidu jednog dugoročnog kredita u odnosu manjem od 1:1", "Uzimanje dugoročnog kredita za proširenje proizvodne hale u iznosu od 200.000 EUR", "Naplata potraživanja od kupaca u iznosu većem od 200.000 EUR", "Ne znam"],
+    "correctAnswer": "Konverzija kratkoročnih finansijskih obaveza u dugoročni kredit u iznosu ne manjem od 200.000 EUR"
+  },
+  {
+    "id": 20,
+    "question": "Izdvojeni su podaci iz finansijskog izveštaja preduzeća, uz napomenu da tokom godine nije bilo raspodele neto dobitka vlasnicima: Kratkoročne obaveze (31.12.2024): 6.000.000 RSD, Dugoročne obaveze (31.12.2024): 4.000.000 RSD, Osnovni kapital (31.12.2024): 500.000 RSD, Neraspoređeni dobitak (31.12.2024): 300.000 RSD, Ukupni prihodi (01.01.2024 – 31.12.2024): 4.300.000 RSD, Ukupni rashodi (01.01.2024 – 31.12.2024): 5.000.000 RSD. Na osnovu navedenih podataka, finansijski direktor može da zaključi da ukupna sredstva preduzeća na kraju 2024. godine iznose:",
+    "answers": ["1.400.000 RSD", "2.100.000 RSD", "2.800.000 RSD"],
+    "correctAnswer": "1.400.000 RSD"
+  },
+  {
+    "id": 21,
+    "question": "Na dan 31. jula 2024. godine preduzeće je isplatilo avans u iznosu od 200.000 RSD dobavljaču za materijal koji će biti isporučen 1. septembra 2024. godine. Sutradan je na tekući račun preduzeća banka uplatila 2 miliona RSD dugoročnog kredita koje je preduzeće uzelo za izgradnju hale. Šta je od navedenog tačno:",
+    "answers": ["Likvidna obrtna sredstva se povećavaju za 2 miliona RSD", "Vrednost ukupnih obrtnih sredstava ostaje nepromenjena", "Kapital preduzeća se povećava za 800.000 RSD", "Kratkoročni izvori finansiranja se povećavaju za 200.000 RSD", "Ne znam"],
+    "correctAnswer": "Likvidna obrtna sredstva se povećavaju za 2 miliona RSD"
+  },
+  {
+    "id": 22,
+    "question": "Tokom 2024. godine (360 dana), preduzeće je imalo koeficijent obrta kupaca 6. Poznato je da je prosečan period trajanja nabavke zaliha do trenutka njihove prodaje 80 dana. Ako je gotovinski ciklus 100 dana, direktor preduzeća će najverovatnije zaključiti da je:",
+    "answers": ["Preduzeće je likvidno, opšti racio likvidnosti = 6:1", "Prosečan period plaćanja obaveza prema dobavljačima je duži od mesec dana", "Poslovni ciklus = 180 dana", "Preduzeće u 2024. godini je ostvarilo poslovni gubitak", "Ne znam"],
+    "correctAnswer": "Prosečan period plaćanja obaveza prema dobavljačima je duži od mesec dana"
+  },
+  {
+    "id": 23,
+    "question": "Menadžment preduzeća Sinergija doo razmatra da osnuje zavisno preduzeće u Srbiji ili u Sloveniji. Pod pretpostavkom da je očekivana visina i struktura prihoda i rashoda identična bez obzira u kojoj je državi preduzeće osnovano, pri čemu je stopa poreza na dobit u Srbiji 15%, a u Sloveniji 19%, menadžment preduzeća može zaključiti sledeće:",
+    "answers": ["Ako se poveća prihod preduzeća za 10%, više će se promeniti poslovni dobitak ako je preduzeće osnovano u Srbiji nego da je osnovano u Sloveniji", "Ako se poveća prihod preduzeća za 10%, više će se promeniti neto dobitak ako je preduzeće osnovano u Sloveniji nego da je osnovano u Srbiji", "Ako se poveća poslovni dobitak preduzeća za 20%, neto dobitak će se jednako promeniti nezavisno od toga da li je preduzeće osnovano u Srbiji ili u Sloveniji", "Ako se smanji poslovni dobitak preduzeća za 20%, neto dobitak će se više smanjiti ako je preduzeće osnovano u Sloveniji nego da je osnovano u Srbiji", "Ne znam"],
+    "correctAnswer": "Ako se poveća poslovni dobitak preduzeća za 20%, neto dobitak će se jednako promeniti nezavisno od toga da li je preduzeće osnovano u Srbiji ili u Sloveniji"
+  },
+  {
+    "id": 24,
+    "question": "Kada preduzeće gotovinu na računu drži da bi depozitom obezbedilo dobijanje kredita, takav razlog je:",
+    "answers": ["transakcioni", "razlog predostrožnosti", "depozitni", "špekulativni", "kompenzacioni"],
+    "correctAnswer": "kompenzacioni"
+  },
+  {
+    "id": 25,
+    "question": "Kod operativnog lizinga karakteristično je sledeće:",
+    "answers": ["rizik i koristi padaju na primaoca lizinga", "sredstvo po isteku lizinga ostaje davaocu lizinga", "računovodstveno se tretira kao rashod", "predmet lizinga su trajna dobra", "rok trajanja ugovora je približno jednak veku trajanja sredstva"],
+    "correctAnswer": "sredstvo po isteku lizinga ostaje davaocu lizinga"
+  },
+  {
+    "id": 26,
+    "question": "Prema vremensko-genetičkom aspektu, finansijska politika se deli na:",
+    "answers": ["investicionu politiku, politiku finansiranja, tekuću finansijsku politiku", "ništa od navedenog", "dugoročnu politiku strukture, kratkoročnu politiku likvidnosti", "kratkoročnu, srednjoročnu i dugoročnu", "osnovnu, tekuću, razvojnu"],
+    "correctAnswer": "investicionu politiku, politiku finansiranja, tekuću finansijsku politiku"
+  },
+  {
+    "id": 27,
+    "question": "Koje od navedenih preduzeće će najverovatnije imati negativna neto obrtna sredstva?",
+    "answers": ["Preduzeće koje se bavi pružanjem IT usluga (npr. usluga programiranja)", "Preduzeće koje se bavi maloprodajom robe široke potrošnje (tačan odgovor)", "Preduzeće koje se bavi poljoprivredom (npr. gajenjem žitarica)", "Preduzeće koje se bavi građevinskom delatnošću (npr. izgradnjom i prodajom stanova)", "Ne znam"],
+    "correctAnswer": "Preduzeće koje se bavi maloprodajom robe široke potrošnje (tačan odgovor)"
+  },
+  {
+    "id": 28,
+    "question": "Preduzeće doo razmatra investiciju koja danas zahteva investicioni izdatak od 4.000 EUR. Investicija generiše neto novčani tok od 2.000 EUR na kraju prve godine, 4.000 EUR na kraju druge godine. Finansijski direktor je izračunao internu stopu prinosa i ona iznosi približno 28,08%. Koliko je prosečan godišnji prinos koji preduzeće ostvaruje od investicije u analiziranom dvogodišnjem periodu?",
+    "answers": ["Približno 50%", "Više od 28,08%", "Približno 23,9%", "Ništa od ponuđenog pod A, B i C", "Ne znam"],
+    "correctAnswer": "Približno 23,9%"
+  },
+  {
+    "id": 29,
+    "question": "Vreme koje protekne od nabavke sirovina do naplate potraživanja se naziva:",
+    "answers": ["period isplate dobavljača", "gotovinski ciklus", "period naplate potraživanja", "operativni ciklus", "period obrta zaliha"],
+    "correctAnswer": "operativni ciklus"
+  },
+  {
+    "id": 30,
+    "question": "Devizni kurs koji se formira u širim rasponima od utvrđenog pariteta je:",
+    "answers": ["fleksibilni", "fiksni", "ograničeni", "višestruki", "fluktuirajući"],
+    "correctAnswer": "fleksibilni"
+  },
+  {
+    "id": 31,
+    "question": "Student je po povratku sa W&T programa doneo zarađenih 8.000 EUR. Taj novac je stavio na štednju u banci na 3 godine sa godišnjom kamatnom stopom od 5%. Posle 3 godine, student podiže 2.000 EUR sa štednog računa kako bi prijatelju vratio dug, a preostalih 6.000 EUR ostavlja na štednji po novim uslovima — 3 godine po godišnjoj kamatnoj stopi od 6%. Nakon isteka 6. godine štednje, koliko će približno novca imati na štednom računu?",
+    "answers": ["Između 7.501 i 8.000 EUR", "Između 8.001 i 8.500 EUR", "Između 8.501 i 9.000 EUR", "Više od 10.000 EUR", "Ne znam"],
+    "correctAnswer": "Između 8.001 i 8.500 EUR"
+  },
+  {
+    "id": 32,
+    "question": "Lolek i Bolek osnivaju preduzeće X doo. Lolek kao vlasnički ulog unosi opremu za pakovanje robe koja vredi 250.000 RSD, a Bolek 150.000 RSD u gotovini. Nabavljaju robu iz Kine po nabavnoj vrednosti od 160.000 RSD. Nabavljenje robe će platiti za 90 dana. Uskoro preduzeće nabavlja dodatnu robu vrednosti 100.000 RSD, koju je platilo 60% odmah, a preostalo plaćanje obavlja za dva meseca. Kako je trenutno finansijsko stanje u preduzeću?",
+    "answers": ["Ukupna poslovna imovina preduzeća iznosi 560.000 RSD", "Sopstveni kapital iznosi 420.000 RSD", "Pozajmljeni izvori finansiranja (obaveze) iznose 180.000 RSD", "Preduzeće ima 150.000 RSD na tekućem računu", "Ništa od navedenog"],
+    "correctAnswer": "Sopstveni kapital iznosi 420.000 RSD"
+  },
+  {
+    "id": 33,
+    "question": "Finansijski direktor preduzeća Alfa doo raspolaže sa sledećim podacima: Stalna sredstva na kraju godine 1.000 EUR, Osnovni kapital na kraju godine 500 EUR, Obrtna sredstva na kraju godine 4.000 EUR, Ukupni prihodi tokom godine 3.000 EUR, Ukupni rashodi tokom godine 2.800 EUR. Tokom godine nije bilo raspodele neto dobitka vlasnicima. Finansijski direktor može zaključiti da su ukupne obaveze preduzeća na kraju godine jednake:",
+    "answers": ["4.000 EUR", "4.300 EUR", "4.500 EUR", "5.300 EUR", "Ne znam"],
+    "correctAnswer": "4.300 EUR"
+  },
+  {
+    "id": 34,
+    "question": "Stopa finansijskog popusta koja opada što je plaćanje udaljenije od diskontnog perioda se naziva:",
+    "answers": ["ništa od navedenog", "zatezna kamata", "faktoring stopa", "anticipativna stopa", "kasa-skonto"],
+    "correctAnswer": "kasa-skonto"
+  },
+  {
+    "id": 35,
+    "question": "Koja od sledećih metoda za ocenu investicija ne uvažava vremensku vrednost novca:",
+    "answers": ["indeks profitabilnosti", "neto sadašnja vrednost", "prosečan period povraćaja", "interna stopa prinosa", "sve metode uvažavaju vremensku vrednost novca"],
+    "correctAnswer": "prosečan period povraćaja"
+  },
+  {
+    "id": 36,
+    "question": "Ako je sadašnja vrednost 125 EUR, a buduća vrednost nakon 2 godine iznosi 137,8125 EUR, šta od navedenog je tačno:",
+    "answers": ["Godišnja kamatna stopa na štednju iznosi približno 10%", "Faktor kapitalizacije iznosi 1,05", "Diskontni faktor iznosi približno 0,9070", "Diskontna stopa iznosi 1,05", "Ne znam"],
+    "correctAnswer": "Diskontni faktor iznosi približno 0,9070"
+  },
+  {
+    "id": 37,
+    "question": "Radnja kojom se gotovinski ček pretvara u obračunski se naziva:",
+    "answers": ["bariranje", "cediranje", "amortizacija", "indosiranje", "protest"],
+    "correctAnswer": "bariranje"
+  },
+  {
+    "id": 38,
+    "question": "Primеnom konzervativne politike finansiranja obrtnih sredstava postiže se:",
+    "answers": ["povećanje profitabilnosti", "povećanje obrta sredstava", "diversifikacija rizika investiranja", "smanjenje troškova finansiranja", "smanjenje rizika od insolventnosti"],
+    "correctAnswer": "smanjenje rizika od insolventnosti"
+  },
+  {
+    "id": 39,
+    "question": "Optimalna struktura kapitala je:",
+    "answers": ["odnos 1:1 između sopstvenog i tuđeg kapitala", "optimalan balans između rizika i prinosa", "struktura koja obezbeđuje najveću likvidnost", "struktura koja maksimizira cenu akcije", "miks kapitala preduzeća i duga"],
+    "correctAnswer": ["optimalan balans između rizika i prinosa", "struktura koja maksimizira cenu akcije"]
+  },
+  {
+    "id": 40,
+    "question": "Na dan 01. januara 2024. godine preduzeće Bežanijski doo je nabavilo opremu čija je nabavna vrednost 65.000 EUR, a procenjeni vek trajanja 10 godina. Pod pretpostavkom da preduzeće obračunava amortizaciju primenom linearne metode, šta je od navedenog tačno:",
+    "answers": ["Na dan 31.12.2024. godine nabavna vrednost opreme u aktivi bilansa stanja će iznositi 58.500 EUR", "Tokom 2024. godine ukupan zbir po osnovu troškova amortizacije će iznositi 6.500 EUR", "Na dan 31.12.2024. godine knjigovodstvena vrednost opreme preduzeća u aktivi bilansa stanja će iznositi 58.500 EUR", "Na dan 31.12.2024. godine, nabavna vrednost opreme u aktivi bilansa stanja će biti veća od nabavne vrednosti opreme na dan 31.12.2024. godine", "Ne znam"],
+    "correctAnswer": "Na dan 31.12.2024. godine knjigovodstvena vrednost opreme preduzeća u aktivi bilansa stanja će iznositi 58.500 EUR"
+  },
+  {
+    "id": 41,
+    "question": "U slučaju zalaganja inventara, potraživanja prema celokupnom inventaru zajmoprimca se naziva:",
+    "answers": ["hipoteka nad pokretnom imovinom", "primanje pod nadzor", "prijem na skladištenje", "ništa od navedenog", "pravo zadržavanja"],
+    "correctAnswer": "pravo zadržavanja"
+  },
+  {
+    "id": 42,
+    "question": "Stopa finansijskog popusta koja opada što je plaćanje udaljenije od diskontnog perioda se naziva:",
+    "answers": ["ništa od navedenog", "zatezna kamata", "faktoring stopa", "anticipativna stopa", "kasa-skonto"],
+    "correctAnswer": "kasa-skonto"
+  },
+  {
+    "id": 43,
+    "question": "Koja od sledećih metoda za ocenu investicija ne uvažava vremensku vrednost novca:",
+    "answers": ["indeks profitabilnosti", "neto sadašnja vrednost", "prosečan period povraćaja", "interna stopa prinosa", "sve metode uvažavaju vremensku vrednost novca"],
+    "correctAnswer": "prosečan period povraćaja"
+  },
+  {
+    "id": 44,
+    "question": "Dati su podaci za dva preduzeća za računovodstvenu godinu koja je završena 31.12.2023. godine: Pokazatelj Grundfos doo Magna doo ROE 18% 12% Stopa neto dobitka 4% 6% Ukupna aktiva / Kapital 3,0 1,5 Na osnovu podataka najverovatnije može da se zaključi sledeće:",
+    "answers": ["Preduzeće Grundfos doo ima veći koeficijent obrta ukupnih sredstava od preduzeća Magna doo.", "Preduzeće Grundfos doo je ostvarilo veću neto dobit tokom 2023. godine od preduzeća Magna doo.", "Preduzeće Magna doo ima veći kapital na dan 31.12.2023. godine od preduzeća Grundfos doo.", "Preduzeće Magna doo je ostvarilo veću neto dobit tokom 2023. godine od preduzeća Magna doo.", "Ne znam"],
+    "correctAnswer": "Preduzeće Grundfos doo ima veći koeficijent obrta ukupnih sredstava od preduzeća Magna doo."
+  },
+  {
+    "id": 45,
+    "question": "Finansijski direktor preduzeća je izračunao da opšti racio likvidnosti preduzeća na dan 31.12.2023. godine iznosi 2,4. Na osnovu ovog pokazatelja finansijski direktor će najverovatnije zaključiti:",
+    "answers": ["Preduzeće je solventno.", "Preduzeće je likvidno.", "Brzi racio likvidnosti je manji od 2,4.", "Neto obrtna sredstva su negativna.", "Ne znam."],
+    "correctAnswer": "Preduzeće je likvidno."
+  },
+  {
+    "id": 46,
+    "question": "U obrtna sredstva se ubrajaju:",
+    "answers": ["nedovršena proizvodnja", "menične obaveze", "učešća u drugim privrednim društvima", "rezervisanja", "kratkoročni finansijski plasmani"],
+    "correctAnswer": ["nedovršena proizvodnja", "kratkoročni finansijski plasmani"]
+  },
+  {
+    "id": 47,
+    "question": "Kod revolving kredita kao cena se uobičajeno javlja:",
+    "answers": ["samo kamata na iskorišćeni deo kredita", "kamata na ukupan garantovani iznos kredita", "provizija na ukupan garantovani iznos kredita", "provizija na iskorišćeni deo kredita", "kamata na iskorišćeni deo, a provizija na garantovani iznos kredita"],
+    "correctAnswer": "kamata na iskorišćeni deo, a provizija na garantovani iznos kredita"
+  },
+  {
+    "id": 48,
+    "question": "Kod operativnog lizinga karakteristično je sledeće:",
+    "answers": ["rizik i koristi padaju na primaoca lizinga", "sredstvo po isteku lizinga ostaje davaocu lizinga", "računovodstveno se tretira kao rashod", "predmet lizinga su trajna dobra", "rok trajanja ugovora je približno jednak veku trajanja sredstva"],
+    "correctAnswer": "sredstvo po isteku lizinga ostaje davaocu lizinga"
+  },
+  {
+    "id": 49,
+    "question": "Prema vremensko-genetičkom aspektu, finansijska politika se deli na:",
+    "answers": ["investicionu politiku, politiku finansiranja, tekuću finansijsku politiku", "ništa od navedenog", "dugoročnu politiku strukture, kratkoročnu politiku likvidnosti", "kratkoročnu, srednjoročnu i dugoročnu", "osnovnu, tekuću, razvojnu"],
+    "correctAnswer": "investicionu politiku, politiku finansiranja, tekuću finansijsku politiku"
+  },
+  {
+    "id": 50,
+    "question": "Korišćenje diskontovanja kao tehnike je karakteristično za:",
+    "answers": ["indeks profitabilnosti", "interna stopa prinosa", "prosečan period povraćaja", "neto sadašnja vrednost", "cena kapitala"],
+    "correctAnswer": ["indeks profitabilnosti", "interna stopa prinosa", "neto sadašnja vrednost"]
+  },
+  {
+    "id": 51,
+    "question": "Koja od navedenih promena povećava neto imovinu preduzeća:",
+    "answers": ["Prenos sredstava iz uzetog dugoročnog kredita na tekući račun preduzeća", "Prodaja robe kupcima u zemlji, za gotovinu, pri čemu je prodajna cena robe veća od nabavne cene robe", "Nabavka opreme finansirana iz kombinacije dugoročnog i kratkoročnog kredita", "Primljen avans od kupaca u inostranstvu za usluge koje će biti izvršene u naredna dva meseca", "Ne znam"],
+    "correctAnswer": "Prodaja robe kupcima u zemlji, za gotovinu, pri čemu je prodajna cena robe veća od nabavne cene robe"
+  },
+  {
+    "id": 52,
+    "question": "Student je po povratku sa W&T programa doneo zarađenih 8.000 EUR. Taj novac je stavio na štednju u banci na 3 godine sa godišnjom kamatnom stopom od 5%. Posle 3 godine student podiže 2.000 EUR sa štednog računa kako bi prijatelju vratio pozajmljeni dug, a preostalih 6.000 EUR ostavlja na štednji po novim uslovima — još 3 godine sa godišnjom kamatnom stopom od 6%. Nakon isteka 6. godine štednje, koliko će približno novca imati na štednom računu?",
+    "answers": ["Između 7.501 i 8.000 EUR", "Između 8.001 i 8.500 EUR", "Između 8.501 i 9.000 EUR", "Više od 10.000 EUR", "Ne znam"],
+    "correctAnswer": "Između 8.501 i 9.000 EUR"
+  },
+  {
+    "id": 53,
+    "question": "U „5K“ kreditnoj analizi, kapital označava:",
+    "answers": ["dovoljnost ostvarenih prihoda", "dovoljnost obrtnih sredstava", "dovoljnost osnovnih sredstava", "dovoljnost novčanih tokova", "dovoljnost sopstvenog kapitala"],
+    "correctAnswer": "dovoljnost sopstvenog kapitala"
+  },
+  {
+    "id": 54,
+    "question": "Banke čiji je primarni posao prikupljanje kapitala i plasman hartija od vrednosti, kao i pružanje brokersko-dilerskih usluga se nazivaju:",
+    "answers": ["komercijalne banke", "centralne banke", "investicione banke", "akceptne banke", "univerzalne banke"],
+    "correctAnswer": ["investicione banke", "univerzalne banke"]
+  },
+  {
+    "id": 55,
+    "question": "Prenošenje prava po osnovu menice se vrši radnjom koja se naziva:",
+    "answers": ["isplata menice", "akceptiranje menice", "protest", "indosiranje menice", "avaliranje menice"],
+    "correctAnswer": "indosiranje menice"
+  },
+  {
+    "id": 56,
+    "question": "Hedžing metoda za finansiranje obrtnih sredstava:",
+    "answers": ["podrazumeva da se trajna obrtna sredstva finansiraju kratkoročnim izvorima", "je najmanje rizična", "podrazumeva da se trajna obrtna sredstva finansiraju dugoročnim izvorima", "podrazumeva da se trajna obrtna sredstva finansiraju i kratkoročnim i dugoročnim izvorima", "je najprofitabilnija"],
+    "correctAnswer": "podrazumeva da se trajna obrtna sredstva finansiraju dugoročnim izvorima"
+  },
+  {
+    "id": 57,
+    "question": "Finansijski direktor razmatra investiciju koja danas zahteva investicioni izdatak od 80.000 EUR. Investicija generiše neto novčani tok od 40.000 EUR na kraju prve godine i 60.000 EUR na kraju druge godine. Prilikom diskontovanja priliva od 40.000 EUR, finansijski direktor planira da obračuna prinos na period od 1 godine i kamatnu stopu od 6%. Na osnovu navedenih podataka finansijski direktor će zaključiti sledeće:",
+    "answers": ["Interna stopa prinosa iznosi približno 18%", "Prosečan godišnji prinos od investicije u analiziranom dvogodišnjem periodu iznosi 15,4%", "Investicija nije prihvatljiva", "Ništa od navedenog nije tačno", "Ne znam"],
+    "correctAnswer": "Ništa od navedenog nije tačno"
+  },
+  {
+    "id": 58,
+    "question": "Promena koja se izdvaja priliv gotovine iz poslovnih aktivnosti je:",
+    "answers": ["Obračunata je bruto zarada za prošli mesec u iznosu od 230.000 RSD", "Primljena je faktura od građevinske firme za izvođenje pripremne građevinske radove na projektu izgradnje nove poslovne zgrade u iznosu od 2.900.000 RSD", "Izmirene su obaveze prema dobavljačima u iznosu od 500.000 RSD po osnovu prošlogodišnje nabavke materijala", "Dobavljač robe kojom trguje preduzeće kasni u isporuci i time krši ugovornu obavezu i vraća avans koji je preduzeće uplatilo krajem prošle godine", "Ne znam"],
+    "correctAnswer": "Dobavljač robe kojom trguje preduzeće kasni u isporuci i time krši ugovornu obavezu i vraća avans koji je preduzeće uplatilo krajem prošle godine"
+  },
+  {
+    "id": 59,
+    "question": "Odnos ukupno isplaćene dividende i broja običnih akcija objašnjava sledeći pokazatelj:",
+    "answers": ["dividenda po akciji", "prinos u vidu dividende", "zarada po akciji", "tržišna dodata vrednost", "racio isplate dividendi"],
+    "correctAnswer": "dividenda po akciji"
+  },
+  {
+    "id": 60,
+    "question": "Najrestriktivniji način zadržavanja inventara kao zaloga je:",
+    "answers": ["pravo zadržavanja", "sve navedeno je jednako restriktivno", "hipoteka nad pokretnom imovinom", "primanje pod nadzor", "prijem na skladištenje"],
+    "correctAnswer": "primanje pod nadzor"
+  },
+  {
+    "id": 61,
+    "question": "Kada je vrednost β (beta) koeficijenta manja od 1, to znači da je prinos na akcije nekog preduzeća:",
+    "answers": ["ništa od navedenog nije tačno", "je jednak bezrizičnoj stopi investiranja", "nema statistički značajnu korelaciju sa kretanjem prinosa na obveznice tog preduzeća", "se kreće u istom smeru kao i prinos na obveznice tog preduzeća", "se kreće u suprotnom smeru kao i prinos na obveznice tog preduzeća"],
+    "correctAnswer": "ništa od navedenog nije tačno"
+  },
+  {
+    "id": 62,
+    "question": "Do očekivanog pada cena akcija dolazi nakon:",
+    "answers": ["datuma bez dividende", "datuma objavljivanja dividendi, ako se objavi veći iznos od očekivanog", "datuma registracije", "datuma objavljivanja dividendi, ako se objavi manji iznos od očekivanog", "datuma isplate dividendi"],
+    "correctAnswer": ["datuma bez dividende", "datuma objavljivanja dividendi, ako se objavi manji iznos od očekivanog"]
+  },
+  {
+    "id": 63,
+    "question": "Hedžing metoda za finansiranje obrtnih sredstava:",
+    "answers": ["podrazumeva da se trajna obrtna sredstva finansiraju kratkoročnim izvorima", "je najmanje rizična", "podrazumeva da se trajna obrtna sredstva finansiraju dugoročnim izvorima", "podrazumeva da se trajna obrtna sredstva finansiraju i kratkoročnim i dugoročnim izvorima", "je najprofitabilnija"],
+    "correctAnswer": "podrazumeva da se trajna obrtna sredstva finansiraju dugoročnim izvorima"
+  },
+  {
+    "id": 64,
+    "question": "Koja od navedenih promena će izazvati priliv gotovine iz poslovnih aktivnosti?",
+    "answers": ["Obračunata amortizacija u iznosu od 870.000 RSD.", "Nabavljena roba od dobavljača po nabavnoj vrednosti 800.000 RSD. Sa dobavljačem je dogovoreno odloženo plaćanje od 70 dana.", "Naplaćeno je potraživanje od kupaca u iznosu od 7.000.000 RSD po osnovu robe koja je prodata prošle godine.", "Uzet je dugoročni kredit od banke u iznosu od 3.000.000 RSD. Banka je uplatila kredit na tekući račun preduzeća.", "Ne znam."],
+    "correctAnswer": "Naplaćeno je potraživanje od kupaca u iznosu od 7.000.000 RSD po osnovu robe koja je prodata prošle godine."
+  },
+  {
+    "id": 65,
+    "question": "Jovan je osnovao preduzeće (DOO) tako što je svoj stan preneo u vlasništvo preduzeća koji će biti korišćen kao poslovni prostor. Prema proceni sudskog veštaka vrednost stana iznosi 150.000 EUR. Preduzeće je primilo avans od kupca u iznosu od 40.000 EUR. Preduzeće je nabavilo robu od dobavljača u zemlji čija je nabavna vrednost 100.000 EUR. Roba će biti plaćena u roku od 30 dana. Roba je prodata kupcu za 70.000 EUR. Roba je prodata kupcu koji je uplatio avans. Nakon navedenih promena, možemo zaključiti sledeće:",
+    "answers": ["Ukupan kapital preduzeća iznosi 200.000 EUR", "Obaveze preduzeća prema dobavljačima iznose 30.000 EUR", "Stanje robe u magacinu iznosi 100.000 EUR", "Preostali iznos potraživanja od kupca za naplatu iznosi 50.000 EUR", "Ne znam"],
+    "correctAnswer": "Obaveze preduzeća prema dobavljačima iznose 30.000 EUR"
+  },
+  {
+    "id": 66,
+    "question": "Tokom 2023. godine preduzeće je imalo koeficijent obrta kupaca 3, koeficijent obrta zaliha 12 i koeficijent obrta obaveza 6. Direktor preduzeća zaključuje da je prosečno vreme koje prođe od nabavke robe, preko prodaje na odloženo plaćanje, do naplate potraživanja od kupaca jednako:",
+    "answers": ["30 dana", "60 dana", "90 dana", "120 dana", "Ne znam"],
+    "correctAnswer": "120 dana"
+  },
+  {
+    "id": 67,
+    "question": "Finansijski direktor razmatra investiciju koja danas zahteva investicioni izdatak od 60.000 EUR. Investicija generiše neto novčani tok od 10.000 EUR na kraju prve godine, 30.000 EUR na kraju druge godine, i 50.000 EUR na kraju treće godine, pri čemu je stopa diskontovanja 15%. Finansijski direktor je prilikom analize ove investicije utvrdio da sadašnja vrednost investicije iznosi 1,31541 EUR koristeći diskontnu stopu od 15,0% koja je data u tabeli sadašnjih vrednosti faktora kapitalizacije. Finansijski direktor će najverovatnije zaključiti sledeće:",
+    "answers": ["Interna stopa prinosa je manja od 15%", "Prosečan godišnji prinos je manji od 15%", "Projekat nije prihvatljiv jer je sadašnja vrednost manja (1,31541 EUR) a investicioni izdatak 60.000 EUR", "Ništa od ponuđenih odgovora pod A, B i C nije tačno", "Ne znam"],
+    "correctAnswer": "Ništa od ponuđenih odgovora pod A, B i C nije tačno"
+  }
+]
