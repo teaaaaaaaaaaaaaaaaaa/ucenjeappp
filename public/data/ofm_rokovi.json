@@ -177,13 +177,13 @@
     "id": 30,
     "question": "Devizni kurs koji se formira u širim rasponima od utvrđenog pariteta je:",
     "answers": ["fleksibilni", "fiksni", "ograničeni", "višestruki", "fluktuirajući"],
-    "correctAnswer": "fleksibilni"
+    "correctAnswer": "ograničeni"
   },
   {
     "id": 31,
     "question": "Student je po povratku sa W&T programa doneo zarađenih 8.000 EUR. Taj novac je stavio na štednju u banci na 3 godine sa godišnjom kamatnom stopom od 5%. Posle 3 godine, student podiže 2.000 EUR sa štednog računa kako bi prijatelju vratio dug, a preostalih 6.000 EUR ostavlja na štednji po novim uslovima — 3 godine po godišnjoj kamatnoj stopi od 6%. Nakon isteka 6. godine štednje, koliko će približno novca imati na štednom računu?",
     "answers": ["Između 7.501 i 8.000 EUR", "Između 8.001 i 8.500 EUR", "Između 8.501 i 9.000 EUR", "Više od 10.000 EUR", "Ne znam"],
-    "correctAnswer": "Između 8.001 i 8.500 EUR"
+    "correctAnswer": "Između 8.501 i 9.000 EUR"
   },
   {
     "id": 32,
@@ -321,7 +321,7 @@
     "id": 54,
     "question": "Banke čiji je primarni posao prikupljanje kapitala i plasman hartija od vrednosti, kao i pružanje brokersko-dilerskih usluga se nazivaju:",
     "answers": ["komercijalne banke", "centralne banke", "investicione banke", "akceptne banke", "univerzalne banke"],
-    "correctAnswer": ["investicione banke", "univerzalne banke"]
+    "correctAnswer": ["investicione banke"]
   },
   {
     "id": 55,
