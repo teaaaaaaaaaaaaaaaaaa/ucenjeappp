@@ -177,7 +177,7 @@
     "id": 30,
     "question": "Devizni kurs koji se formira u širim rasponima od utvrđenog pariteta je:",
     "answers": ["fleksibilni", "fiksni", "ograničeni", "višestruki", "fluktuirajući"],
-    "correctAnswer": "ograničeni"
+    "correctAnswer": "fleksibilni"
   },
   {
     "id": 31,

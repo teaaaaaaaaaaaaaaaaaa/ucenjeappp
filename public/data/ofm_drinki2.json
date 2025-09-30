@@ -75,7 +75,7 @@
     "id": 13,
     "question": "Suština hedžing pristupa je:",
     "answers": ["da dugoročnim izvorima budu finansirana trajna obrtna sredstva", "da kratkoročnim izvorima budu finansirane povremena obrta sredstva", "ništa od navedenog", "da dugoročnim izvorima budu finansirane potrebe potrebe za ....", "da dugoročnim izvorima budu finansirana osnovna sredstva"],
-    "correctAnswer": ["da dugoročnim izvorima budu finansirana trajna obrtna sredstva", "da kratkoročnim izvorima budu finansirane povremena obrta sredstva"]
+    "correctAnswer": ["da dugoročnim izvorima budu finansirana trajna obrtna sredstva", "da kratkoročnim izvorima budu finansirane povremena obrta sredstva", "da dugoročnim izvorima budu finansirana osnovna sredstva"]
   },
   {
     "id": 14,
