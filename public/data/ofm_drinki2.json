@@ -165,7 +165,7 @@
     "id": 28,
     "question": "Šta je zlatno bankarsko pravilo:",
     "answers": ["Pravilo da se primljeni tuđi kapital ne sme koristiti vremenski nepovoljnije nego što je dobijen", "Pravilo da se osnovna sredstva finansiraju sopstvenim kapitalom", "Pravilo da se kratkoročni krediti koriste za finansiranje dugoročnih investicija", "Pravilo da se dugoročni krediti koriste za finansiranje kratkoročnih potreba"],
-    "correctAnswer": "Pravilo da se primljeni tuđi kapital ne sme koristiti vremenski nepovoljnije nego sto je dobijen"
+    "correctAnswer": "Pravilo da se primljeni tuđi kapital ne sme koristiti vremenski nepovoljnije nego što je dobijen"
   },
   {
     "id": 29,
@@ -249,7 +249,7 @@
     "id": 42,
     "question": "Zarada po akciji –",
     "answers": ["Neto dobit / Broj običnih akcija", "Bruto dobit / Broj običnih akcija", "Dividenda / Broj običnih akcija", "Neto dobit / Ukupan kapital"],
-    "correctAnswer": "Neto dobit/Broj obicnih akcija"
+    "correctAnswer": "Neto dobit / Broj običnih akcija"
   },
   {
     "id": 43,
@@ -387,7 +387,7 @@
     "id": 65,
     "question": "Ukoliko se trajna obrtna sredstva i osnovna sredstva finansiraju dugoročnim izvorima to je:",
     "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1", "Ništa od navedenog"],
-    "correctAnswer": "Hedžing finansijska politika"
+    "correctAnswer": "Konzervativna finansijska politika"
   },
   {
     "id": 66,

@@ -21,7 +21,7 @@
     "id": 4,
     "question": "Unapred naplaćeni prihodi se tretiraju kao (PVR-OBAVEZE):",
     "answers": ["Imovina i novčani priliv", "Obaveza i novčani priliv", "Stavka bilansa uspeha i nov. priliv", "Ništa od ponuđenog"],
-    "correctAnswer": "Obaveza I novčani priliv"
+    "correctAnswer": "Obaveza i novčani priliv"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "id": 8,
     "question": "Prema tome da li se obezbeđuje uvozni ili izvozni posao, akreditivi mogu biti:",
     "answers": ["Vrsta i oročeni", "Prenosivi i neprenosivi", "Potvrđeni i nepotvrđeni", "Nostro i loro", "Opozivi i neopozivi"],
-    "correctAnswer": "Nostro I loro"
+    "correctAnswer": "Nostro i loro"
   },
   {
     "id": 9,
@@ -93,13 +93,13 @@
     "id": 16,
     "question": "U kratkoročne obaveze preduzeća se ubrajaju:",
     "answers": ["Kratkoročni plasmani", "Ažio", "Slobodne reserve", "Emitovani i prodati komercijalni zapisi", "Ukalkulisane obaveze"],
-    "correctAnswer": ["Emitovani I prodati komercijalni zapisi", "Ukalkulisane obaveze"]
+    "correctAnswer": ["Emitovani i prodati komercijalni zapisi", "Ukalkulisane obaveze"]
   },
   {
     "id": 17,
     "question": "Pomoćne knjigovodstvene evidencije su:",
     "answers": ["Evidencija o materijalu", "Izveštaj o novčanim tokovima", "Dnevnik", "Skladišna knjiga", "Glavna knjiga"],
-    "correctAnswer": "Skladišna knjiga"
+    "correctAnswer": "Evidencija o materijalu"
   },
   {
     "id": 18,
@@ -243,7 +243,7 @@
     "id": 41,
     "question": "Rezultat odnosa neto dobiti I angažovanih sopstvenih sredstava:",
     "answers": ["Ekonomska dodata vrednost", "Stopa prinosa na poslovna sredstva", "Stopa prinosa na sopstvena sredstva (ROE)", "Stopa neto dobiti", "Pokazatelj profitabilnosti"],
-    "correctAnswer": "Stopa prinosa na sopstvena sredstva- (ROE)"
+    "correctAnswer": "Stopa prinosa na sopstvena sredstva (ROE)"
   },
   {
     "id": 42,
@@ -315,7 +315,7 @@
     "id": 53,
     "question": "Prema kriterijumu dinamičnosti fin pol nismo sigurni:",
     "answers": ["Pol nabavke, upotrebe i upravlj kapitala", "Dugoroč pol strukture i kratk likvidnosti", "Finansiranja, investiciona i tekuća", "Osnovna tekuća i razvojna politika", "Ništa od navedenog"],
-    "correctAnswer": "Osnovna tekuća I razvojna politika"
+    "correctAnswer": "Osnovna tekuća i razvojna politika"
   },
   {
     "id": 54,
@@ -327,7 +327,7 @@
     "id": 55,
     "question": "Stopa prinosa na sopstvena sr se dobija:",
     "answers": ["Iz odnosa neto dobiti I sopstvenog kap (ROE)", "Neto dobiti I poslovnih sredstava", "Poslovne dobiti I spostvenog kapitala", "Poslovne dobiti I poslovnih sredstava (ROA)", "Ništa od navedenog"],
-    "correctAnswer": "Iz odnosa neto dobiti I sopstvenog kap(ROE)"
+    "correctAnswer": "Iz odnosa neto dobiti I sopstvenog kap (ROE)"
   },
   {
     "id": 56,
@@ -367,9 +367,9 @@
   },
   {
     "id": 62,
-    "question": "Odnos posl dobiti I pre oporezivanja:",
+    "question": "Odnos poslovne dobiti I dobiti pre oporezivanja:",
     "answers": ["Faktor finansijskog levridža", "Ekonomska dodata vrednost", "Stopa prinosa na posl sredstva", "Racio pokrića duga", "Ništa od navedenog"],
-    "correctAnswer": "Ništa od navedenog"
+    "correctAnswer": "Faktor finansijskog levridža"
   },
   {
     "id": 63,
