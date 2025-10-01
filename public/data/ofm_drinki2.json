@@ -266,7 +266,7 @@
   {
     "id": 45,
     "question": "Pravo zadržavanja –",
-    "answers": ["potraživanje prema celokupnom inventaru u slučaju zalaganja inventara", "pravo banke da zadrži depozit", "pravo kupca da zadrži robu", "pravo dobavljača da zadrži robu"],
+    "answers": ["potraživanje prema celokupnom inventaru u slucaju zalaganja inventara", "pravo banke da zadrži depozit", "pravo kupca da zadrži robu", "pravo dobavljača da zadrži robu"],
     "correctAnswer": "potrazivanje prema celokupnom inventaru u slucaju zalaganja inventara"
   },
   {
@@ -291,7 +291,7 @@
     "id": 49,
     "question": "Kod zajma s jednakim plaćanjima rata (anuitetna):",
     "answers": ["prva plaćanja sadrže veći iznos kamate nego završna plaćanja", "prva plaćanja sadrže niži iznos otplate glavnice nego završna plaćanja", "kamata i glavnica su jednake tokom celog perioda", "poslednja rata je uvek veća"],
-    "correctAnswer": ["prva plaćanja sadrže veći iznos kamate nego završna plaćanja", "prva plaćanja sadrže niži iznos iznos otplate glavnice nego završna plaćanja"]
+    "correctAnswer": ["prva plaćanja sadrže veći iznos kamate nego završna plaćanja", "prva plaćanja sadrže niži iznos otplate glavnice nego završna plaćanja"]
   },
   {
     "id": 50,
@@ -309,7 +309,7 @@
     "id": 52,
     "question": "Ako se trajna obrtna sredstva i osnovna sredstva finansiraju dugoročnim izvorima, to je:",
     "answers": ["Konzervativna finansijska politika", "Hedžing finansijska politika", "Agresivna finansijska politika", "Pravilo 1:1"],
-    "correctAnswer": "Hedzing"
+    "correctAnswer": "Hedžing finansijska politika"
   },
   {
     "id": 53,
@@ -380,8 +380,8 @@
   {
     "id": 64,
     "question": "Struktura kapitala preduzeća predstavlja:",
-    "answers": ["Strukturu koja obezbeđuje najveću likvidnost", "Strukturu koja maksimizira cenu akcije (optimalna struktura)", "Optimalan balans između rizika i prinosa (optimalna struktura)", "Miks kapitala preduzeća i duga", "Odnos 1:1 između sopstvenog i tuđeg kapitala"],
-    "correctAnswer": "Miks kapitala preduzeća i duga"
+    "answers": ["Strukturu koja obezbeđuje najveću likvidnost", "Strukturu koja maksimizira cenu akcije", "Optimalan balans između rizika i prinosa", "Miks kapitala preduzeća i duga", "Odnos 1:1 između sopstvenog i tuđeg kapitala"],
+    "correctAnswer": ["Strukturu koja maksimizira cenu akcije", "Optimalan balans između rizika i prinosa"]
   },
   {
     "id": 65,

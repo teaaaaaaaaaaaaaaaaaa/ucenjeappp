@@ -27,7 +27,7 @@
     "id": 5,
     "question": "Koje tvrđenje je tačno?",
     "answers": ["Svako binarno stablo je ili kompletno ili striktno binarno", "Svako kompletno binarno stablo je i striktno binarno", "Svako striktno binarno stablo je i kompletno binarno stablo", "Nijedno binarno stablo ne može biti i kompletno i striktno binarno"],
-    "correctAnswer": "Nijedno binarno stablo ne može biti i kompletno i striktno binarno"
+    "correctAnswer": "Svako kompletno binarno stablo je i striktno binarno"
   },
   {
     "id": 6,
@@ -56,8 +56,8 @@
   {
     "id": 10,
     "question": "Jedna od osnovnih karakteristika matrice susedstva kao načina implementacije:",
-    "answers": ["Složena za manipulaciju", "Prostorna kompleksnost O(n)", "Prostorna kompleksnost O(n²)", "Za pamćenje elemenata koristi se jedan bit"],
-    "correctAnswer": "Prostorna kompleksnost O(n²)"
+    "answers": ["Složena za manipulaciju", "Prostorna kompleksnost O(n)", "Efikasno koriscenje memorije", "Za pamćenje elemenata koristi se jedan bit"],
+    "correctAnswer": "Za pamćenje elemenata koristi se jedan bit"
   },
   {
     "id": 11,
@@ -159,7 +159,7 @@
     "id": 27,
     "question": "AVL stablo je visine 3. Koji je najveći broj čvorova koje može da ima?",
     "answers": ["15", "7", "8", "12"],
-    "correctAnswer": "15"
+    "correctAnswer": "7"
   },
   {
     "id": 28,
