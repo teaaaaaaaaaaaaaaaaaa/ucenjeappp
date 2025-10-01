@@ -111,7 +111,7 @@
     "id": 19,
     "question": "AVL stablo je visine 3. Koji je najveći broj čvorova koje može da ima?",
     "answers": ["15", "7", "8", "12"],
-    "correctAnswer": "15"
+    "correctAnswer": "7"
   },
   {
     "id": 20,
@@ -159,7 +159,7 @@
     "id": 27,
     "question": "Koje od sledećih tvrdjenja NIJE tačno:",
     "answers": ["Sekundarna kolizija se javlja kada se sudare ključevi koji imaju iste h(k)", "Problem kolizije se javlja kod ubacivanja i pretraživanja zapisa", "Otvoreno adresiranje može da generiše primarnu koliziju", "Problem kolizije se rešava uvođenjem posebne zone za zapise koji dobiju istu adresu"],
-    "correctAnswer": "Problem kolizije se rešava uvođenjem posebne zone za zapise koji dobiju istu adresu"
+    "correctAnswer": "Sekundarna kolizija se javlja kada se sudare ključevi koji imaju iste h(k)"
   },
   {
     "id": 28,
@@ -170,8 +170,8 @@
   {
     "id": 29,
     "question": "Dato je kompletno binarno stablo sa n elemenata. Visina stabla je:",
-    "answers": ["n", "n/2", "(int)(log n) + 1", "2^n – 1"],
-    "correctAnswer": "(int)(log n) + 1"
+    "answers": ["n", "n/2", "(log n) + 1", "2^n – 1"],
+    "correctAnswer": "(log n) + 1"
   },
   {
     "id": 30,
@@ -225,7 +225,7 @@
     "id": 38,
     "question": "Koji je minimalan broj čvorova u skoro kompletnom binarnom stablu čija je visina jednaka 4?",
     "answers": ["16", "15", "7", "8"],
-    "correctAnswer": "8"
+    "correctAnswer": "15"
   },
   {
     "id": 39,
