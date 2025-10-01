@@ -118,6 +118,14 @@ const Quiz: React.FC = () => {
         return '💧';
       case 'ofm_drinki1':
         return '🌊';
+      case 'spa_2_deo_teorija1':
+        return '🌳';
+      case 'spa_2_deo_teorija2':
+        return '🌲';
+      case 'spa2_deo_teorija3':
+        return '🌿';
+      case 'spa2_deo_teorija4':
+        return '⚛️';
       default:
         return '🧠';
     }

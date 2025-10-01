@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "question": "Nivo čvora je?",
+    "answers": ["visina stabla", "broj čvorova koji se prođu od korena do tog čvora", "maksimalni nivo na kome se nalazi čvor koji nije list", "1"],
+    "correctAnswer": "broj čvorova koji se prođu od korena do tog čvora"
+  },
+  {
+    "id": 2,
+    "question": "Posmatrajmo čvor potpunog binarnog stabla, implementiranog preko niza, čija je vrednost sačuvana u `niz[i]`. Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["niz[i+1]", "niz[2*i+1]", "niz[i+2]", "niz[2*i+2]"],
+    "correctAnswer": "niz[2*i+2]"
+  },
+  {
+    "id": 3,
+    "question": "Koje tvrđenje je tačno za B-stablo?",
+    "answers": ["Svi čvorovi sadrže isti broj ključeva", "Svi listovi su na istoj dubini", "Svi čvorovi koji nisu list imaju isti broj dece", "Svi ključevi u čvoru su veći ili jednaki ključevima u desnom detetu"],
+    "correctAnswer": "Svi listovi su na istoj dubini"
+  },
+  {
+    "id": 4,
+    "question": "Stablo za binarno pretraživanje ima ukupno M čvorova, a visinu K. Vreme potrebno za pronalaženje nekog čvora u stablu je proporcionalno sa:",
+    "answers": ["M+K", "M", "M*K", "K"],
+    "correctAnswer": "K"
+  },
+  {
+    "id": 5,
+    "question": "Koje tvrđenje je ispravno?",
+    "answers": ["Svako binarno stablo je ili kompletno ili striktno binarno", "Svako kompletno binarno stablo je i striktno binarno stablo", "Svako striktno binarno stablo je i kompletno binarno stablo", "Nijedno binarno stablo ne može biti i kompletno i striktno binarno"],
+    "correctAnswer": "Svako kompletno binarno stablo je i striktno binarno stablo"
+  },
+  {
+    "id": 6,
+    "question": "Dat je graf:\n\n```\nA → B, C, D\nB → E\nC → E\nD → E\nE → F, H, G\nF → I\nG → I\nH → I\n\n```\n\nKoji od prolaza nije prolaz po dubini kroz graf?",
+    "answers": ["ACEGIFHDB", "ABEFIGHCD", "ABEFGIHCD", "ADEGIFHCB"],
+    "correctAnswer": "ABEFGIHCD"
+  },
+  {
+    "id": 7,
+    "question": "Sekundarna kolizija se javlja kada:",
+    "answers": ["se sudare ključevi koji imaju različite h(k)", "različiti ključevi imaju iste adrese", "kada se koristi metod olančavanja", "sve navedeno"],
+    "correctAnswer": "se sudare ključevi koji imaju različite h(k)"
+  },
+  {
+    "id": 8,
+    "question": "Data je metoda:\n\n```java\nvoid quiz(int i) {\n    if (i > 1) {\n        quiz(i / 2);\n        quiz(i / 2);\n    }\n    System.out.print(\"*\");\n}\n```\n\nKoliko zvezdica će se ispisati ako pozovemo metodu `quiz(4)`?",
+    "answers": ["4", "8", "7", "Neki drugi broj"],
+    "correctAnswer": "7"
+  },
+  {
+    "id": 9,
+    "question": "Nivo čvora je?",
+    "answers": ["Nivo čvora je 1 ako je koren, ili je jednak broju čvorova koji se prodju na putu od korena do datog čvora.", "Nivo čvora je uvek jednak dubini stabla.", "Nivo čvora je broj potomaka tog čvora.", "Nivo čvora je broj listova u stablu."],
+    "correctAnswer": "Nivo čvora je 1 ako je koren, ili je jednak broju čvorova koji se prodju na putu od korena do datog čvora."
+  },
+  {
+    "id": 10,
+    "question": "Visina stabla je?",
+    "answers": ["visina ili dubina stabla je maksimalni nivo na kome se nalazi neki čvor stabla.", "maksimalni nivo cvora koji nije list", "broj cvorova koji se prodje od korena do datog cvora", "broj nivoa u stablu umanjen za 1", "minimalni nivo na kome se nalazi neki list"],
+    "correctAnswer": "visina ili dubina stabla je maksimalni nivo na kome se nalazi neki čvor stabla."
+  },
+  {
+    "id": 11,
+    "question": "Posmatrajmo čvor potpunog binarnog stabla implementiranog preko niza, čija je vrednost sačuvana u `niz[i]`. Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["niz[2*i+2] (desno dete)", "niz[i+1]", "niz[i+2]", "niz[2*i+1] (levo dete)"],
+    "correctAnswer": "niz[2*i+2] (desno dete)"
+  },
+  {
+    "id": 12,
+    "question": "Koje tvrdjenje za B stablo je tačno?",
+    "answers": ["Svi cvorovi sadrze isti broj kljuceva", "Svi listovi su na istoj dubini", "Svi cvorovi koji nisu list imaju isti broj dece", "Svi kljucevi u cvoru su veci ili jednaki kljucevima u desnom detetu"],
+    "correctAnswer": "Svi listovi su na istoj dubini"
+  },
+  {
+    "id": 13,
+    "question": "Stablo za binarno pretraživanje ima ukupno M čvorova, a visinu K. Vreme potrebno za pronalaženje nekog čvora je proporcionalno sa?",
+    "answers": ["K", "M", "M*K", "M+K"],
+    "correctAnswer": "K"
+  },
+  {
+    "id": 14,
+    "question": "Koje tvrdjenje je tačno?",
+    "answers": ["Svako kompletno binarno stablo je i striktno binarno", "Svako striktno binarno stablo je i kompletno", "Nijedno binarno stablo ne može biti kompletno", "Svako binarno stablo je ili striktno ili kompletno"],
+    "correctAnswer": "Svako kompletno binarno stablo je i striktno binarno"
+  },
+  {
+    "id": 15,
+    "question": "Sekundarna kolizija se javlja kada:",
+    "answers": ["Se sudare ključevi koji imaju različite h(k)", "Kada različiti ključevi imaju iste adrese (primarna kolizija)", "Kada se koristi metoda ulančavanja", "Sve navedeno"],
+    "correctAnswer": "Se sudare ključevi koji imaju različite h(k)"
+  },
+  {
+    "id": 16,
+    "question": "Primarna kolizija je?",
+    "answers": ["Kada različiti ključevi imaju istu adresu", "Kada se sudaraju ključevi koji imaju različite h(k) (sekundarna)", "Kada se koristi metoda ulančavanja", "Sve navedeno"],
+    "correctAnswer": "Kada različiti ključevi imaju istu adresu"
+  },
+  {
+    "id": 17,
+    "question": "Posmatrajmo čvor kompletnog binarnog stabla, implementiranog preko niza, čija je vrednost sačuvana u `niz[4]`. Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["10 (niz[2*i+2])", "9", "17", "18"],
+    "correctAnswer": "10 (niz[2*i+2])"
+  },
+  {
+    "id": 18,
+    "question": "Dato je kompeltno stablo binarno sa `n` elemenata. Visina stabla je?",
+    "answers": ["n", "n/2", "(int) (log n)+1", "(2^n)-1"],
+    "correctAnswer": "(int) (log n)+1"
+  },
+  {
+    "id": 19,
+    "question": "Efikasnost hashing algoritma je?",
+    "answers": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 20,
+    "question": "Striktno binarno je",
+    "answers": ["binarno", "n-arnog tipa", "linearna lista", "usmereni graf"],
+    "correctAnswer": "binarno"
+  },
+  {
+    "id": 21,
+    "question": "Heap je",
+    "answers": ["binarno", "uvek balansirano, ali ne nužno binarno", "lista", "ne može biti implementiran preko niza"],
+    "correctAnswer": "binarno"
+  },
+  {
+    "id": 22,
+    "question": "BST je",
+    "answers": ["binarno", "višegransko", "balansirano po definiciji", "uvek kompletno"],
+    "correctAnswer": "binarno"
+  },
+  {
+    "id": 23,
+    "question": "Balansirano je",
+    "answers": ["binarno", "graf", "lista", "n-arno"],
+    "correctAnswer": "binarno"
+  },
+  {
+    "id": 24,
+    "question": "AVL stablo je:",
+    "answers": ["balansirano i BST", "samo balansirano", "samo BST", "ni balansirano ni BST"],
+    "correctAnswer": "balansirano i BST"
+  },
+  {
+    "id": 25,
+    "question": "Kompletno binarno stablo je:",
+    "answers": ["skoro kompletno i striktno binarno", "skoro kompletno, ali ne i striktno", "striktno, ali ne i skoro kompletno", "ni jedno od navedenog"],
+    "correctAnswer": "skoro kompletno i striktno binarno"
+  },
+  {
+    "id": 26,
+    "question": "Skoro kompletno stablo je:",
+    "answers": ["balansirano", "uvek striktno", "uvek kompletno", "nije binarno"],
+    "correctAnswer": "balansirano"
+  },
+  {
+    "id": 27,
+    "question": "B stablo reda n je višegransko stablo reda n kod koga važi:",
+    "answers": ["svi listovi na istoj visini", "svaki čvor (izuzev korena) ima minimalno n/2 ključeva", "svi čvorovi imaju isti broj ključeva", "svi čvorovi imaju najviše jedan ključ"],
+    "correctAnswer": ["svi listovi na istoj visini", "svaki čvor (izuzev korena) ima minimalno n/2 ključeva"]
+  },
+  {
+    "id": 28,
+    "question": "AVL stablo ima ukupno `m` čvorova i visinu `k`. Vreme potrebno za pronalaženje nekog čvora u stablu proporcionalno je sa?",
+    "answers": ["K", "M", "M*K", "log M"],
+    "correctAnswer": "K"
+  },
+  {
+    "id": 29,
+    "question": "Dato je BST stablo. Ako se izbacuje koren, koji čvor iz levog podstabla će doći na njegovu poziciju?",
+    "answers": ["Najveći element iz levog podstabla", "Najmanji element iz levog podstabla", "Bilo koji list", "Uvek se briše cela leva grana"],
+    "correctAnswer": "Najveći element iz levog podstabla"
+  },
+  {
+    "id": 30,
+    "question": "Izjave u vezi sa stablima?",
+    "answers": ["Svako kompletno binarno stablo je i striktno binarno stablo", "Svako binarno stablo je ili striktno ili kompletno", "Svako striktno je i kompletno", "Nijedno nije ni striktno ni kompletno"],
+    "correctAnswer": "Svako kompletno binarno stablo je i striktno binarno stablo"
+  },
+  {
+    "id": 31,
+    "question": "Dato je binarno stablo – prefiksni prolaz ispisuje?",
+    "answers": ["Koren, Levo, Desno", "Levo, Koren, Desno", "Levo, Desno, Koren", "Desno, Koren, Levo"],
+    "correctAnswer": "Koren, Levo, Desno"
+  },
+  {
+    "id": 32,
+    "question": "Posmatrajmo čvor skoro kompletnog binarnog stabla, implementiranog preko niza, čija je vrednost sačuvana u `niz[7]`. Posmatrano od ovog čvora, gde će biti sačuvana vrednost njegovog roditelja?",
+    "answers": ["3", "2", "4", "1"],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 33,
+    "question": "Date su izjave za B stablo?",
+    "answers": ["Svi čvorovi nisu na istom nivou.", "Čvorovi koji nisu roditelji imaju isti broj dece.", "Stablo reda 22 ima čvor sa 1 ključem", "Svi čvorovi na istom nivou."],
+    "correctAnswer": "Stablo reda 22 ima čvor sa 1 ključem"
+  },
+  {
+    "id": 34,
+    "question": "Kao i uvek `quiz` metoda (varijanta 1):\n```java\nvoid quiz(int i){\n    System.out.println(\"*\");\n    if (i>1){\n        quiz(i/2);\n        System.out.println(\"*\");\n        quiz(i/2);\n    }\n}\n```\nZa `quiz(4)` ispisuje:",
+    "answers": ["10 zvezdica", "7 zvezdica", "8 zvezdica", "Ništa od navedenog"],
+    "correctAnswer": "10 zvezdica"
+  },
+  {
+    "id": 35,
+    "question": "Date su izjave u vezi sa stablima pa da se zaokruži tačna?",
+    "answers": ["Kompletno binarno stablo je specijalan slučaj skoro kompletnog binarnog stabla", "Skoro kompletno je specijalan slučaj kompletnog", "Striktno je specijalan slučaj kompletnog", "Ni jedno od navedenog"],
+    "correctAnswer": "Kompletno binarno stablo je specijalan slučaj skoro kompletnog binarnog stabla"
+  },
+  {
+    "id": 36,
+    "question": "Šta se ispisuje ako je `i = 5`? (varijanta 2)\n```java\npublic static void quiz(int i) {\n    if(i>1) {\n        quiz(i/2);\n        System.out.println(\"*\");\n        quiz(i/2);\n    }\n    System.out.println(\"*\");\n}\n```",
+    "answers": ["10 zvezdica", "7 zvezdica", "8 zvezdica", "5 zvezdica"],
+    "correctAnswer": "10 zvezdica"
+  },
+  {
+    "id": 37,
+    "question": "Štampanje zvezdica (varijanta 3)\n```java\nvoid quiz(int i) {\n    if (i > 1) {\n        quiz(i / 2);\n        System.out.println(\"*\");\n        quiz(i / 2);\n    }\n}\n```\nOdrediti `quiz(5)`:",
+    "answers": ["3 zvezdice", "4 zvezdice", "7 zvezdica", "10 zvezdica"],
+    "correctAnswer": "3 zvezdice"
+  },
+  {
+    "id": 38,
+    "question": "Ako je skoro kompletno stablo implementirano preko niza i čvor ima indeks `5`, kog će indeksa biti **desno dete njegovog roditelja**?",
+    "answers": ["6", "4", "5", "7"],
+    "correctAnswer": "6"
+  },
+  {
+    "id": 39,
+    "question": "Koje tvrdjenje NIJE tačno za B stablo?",
+    "answers": ["svi listovi se nalaze na istoj dubini,", "ne moraju svi čvorovi imati isti broj ključeva,", "svi čvorovi osim listova imaju isti broj dece", "postoji čvor sa jednim ključem stabla reda 22"],
+    "correctAnswer": "svi čvorovi osim listova imaju isti broj dece"
+  },
+  {
+    "id": 40,
+    "question": "`quiz(int i)` (varijanta 4)\n```java\nquiz(int i){\n    if(i>1){\n        quiz(i/2);\n        quiz(i/2);\n        System.out.println(\"*\");\n    }\n    System.out.println(\"*\");\n}\n```",
+    "answers": ["10 zvezdica", "7 zvezdica", "8 zvezdica", "4 zvezdice"],
+    "correctAnswer": "10 zvezdica"
+  },
+  {
+    "id": 41,
+    "question": "Jedna od osnovnih karakterstika matrice susedstva kao načina implementacije",
+    "answers": ["Složena za manipulaciju", "Prostorna kompleksnost O(n)", "Prostorna kompleksnost O(n^2)", "Efikasno korišćenje memorije", "Za pamćenje elemenata koristi se jedan bit po mogućoj vezi"],
+    "correctAnswer": "Prostorna kompleksnost O(n^2)"
+  },
+  {
+    "id": 42,
+    "question": "Ako je visina kompletnog binarnog stabla 7, koliko ima čvorova to stablo?",
+    "answers": ["127 (2^7 - 1)", "64", "255", "128"],
+    "correctAnswer": "127 (2^7 - 1)"
+  },
+  {
+    "id": 43,
+    "question": "Dat je graf i uz ponuđene odgovore prepoznati prolaz po širini ili dubini?",
+    "answers": ["„po širini: prvo svi susedi, pa susedi suseda; po dubini: ide se do kraja jednom granom“.", "samo dubinski: prvo jedan sused, pa drugi, pa tek onda njihovi susedi", "samo širinski: obilazi jedan sused do kraja pa se vraća", "ništa od navedenog"],
+    "correctAnswer": "„po širini: prvo svi susedi, pa susedi suseda; po dubini: ide se do kraja jednom granom“."
+  },
+  {
+    "id": 44,
+    "question": "Prefiksni prolaz kroz stablo – koji je od ponuđenih odgovora?",
+    "answers": ["Koren – Levo – Desno", "Levo – Koren – Desno", "Levo – Desno – Koren", "Desno – Levo – Koren"],
+    "correctAnswer": "Koren – Levo – Desno"
+  },
+  {
+    "id": 45,
+    "question": "Ako je indeks čvora 5, koliki će biti indeks **desnog deteta njegovog roditelja**?",
+    "answers": ["6", "4", "5", "7"],
+    "correctAnswer": "6"
+  },
+  {
+    "id": 46,
+    "question": "Ako BST ima `n` elemenata, kolika je njegova maksimalna visina?",
+    "answers": ["n", "log n", "n/2", "n-1"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 47,
+    "question": "Heap stablo — je stablo za koga važi da je vrednost svakog čvora veća od svih vrednosti u njegovom levom i desnom podstablu.",
+    "answers": ["Opisuje max-heap (svojstvo roditelja ≥ dece)", "Opisuje min-heap (roditelj ≤ deca)", "Opisuje BST", "Ne važi za potpuna binarna stabla"],
+    "correctAnswer": "Opisuje max-heap (svojstvo roditelja ≥ dece)"
+  }
+]

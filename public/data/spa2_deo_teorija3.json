@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "question": "Ako binarno stablo nije skoro kompletno, koje izmene je potrebno napraviti na strukturi da bi se lakše pristupalo čvorovima u stablu?",
+    "answers": ["Koristiti istovremeno još jedan niz u kome će se čuvati stablo", "Svaki čvor treba da čuva podatke o postojanju njegove “dece”", "Napraviti odvojenu tabelu u kome će se čuvati lokacija “dece”", "Nije potrebna nikakva promena. Pristupa se sa 2i i 2i+1 (ako je čvor i)"],
+    "correctAnswer": "Svaki čvor treba da čuva podatke o postojanju njegove “dece”"
+  },
+  {
+    "id": 2,
+    "question": "Ako je broj čvorova u BST stablu n, koja je maksimalna moguća visina tog stabla?",
+    "answers": ["(log n) + 1", "n", "n²", "n + n"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 3,
+    "question": "Biće korišćena sledeća notacija: A <: B znači da je A podtip od B A -> B predstavlja tip funkcije koja kao ulaz prima vrednost tipa A, a kao izlaz vraća vrednost tipa B. Pretpostavimo da imamo sledeće tipove: Windows 10 <: Operativni Sistem <: Softver Koji od ponuđenih odgovora **NE** predstavlja podtip funkcije Operativni Sistem -> Operativni sistem?",
+    "answers": ["Operativni Sistem -> Windows 10", "Softver -> Operativni sistem", "Softver -> Windows 10", "Operativni Sistem -> Softver"],
+    "correctAnswer": "Operativni Sistem -> Softver"
+  },
+  {
+    "id": 4,
+    "question": "Šta od ponuđenih opcija predstavlja nedostatak implementacije niza pomoću stabla?",
+    "answers": ["Teška je za implementaciju", "Potrebno je unapred znati najveći mogući broj čvorova stabla", "Teško je doći do “dece” od nekog čvora", "Teško je pronaći “roditelja” od nekog čvora"],
+    "correctAnswer": "Potrebno je unapred znati najveći mogući broj čvorova stabla"
+  },
+  {
+    "id": 5,
+    "question": "Vremenska kompleksnost iterativnog prefiksnog prolaza kroz BST stablo je:",
+    "answers": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 6,
+    "question": "Koje tvrdjenje je tačno za B stablo?",
+    "answers": ["Svi čvorovi sadrže isti broj ključeva", "Koren može imati najmanje 1 ključ za stablo reda 16", "Listovi ne moraju da budu na istoj dubini", "Svi čvorovi koji nisu listovi imaju isti broj dece"],
+    "correctAnswer": "Koren može imati najmanje 1 ključ za stablo reda 16"
+  },
+  {
+    "id": 7,
+    "question": "Red stabla predstavlja:",
+    "answers": ["Linearna struktura za čuvanje elemenata u određenom redosledu", "Struktura koja se koristi za balansiranje stabla", "Tip stabla sa više od dva deteta", "Metoda za optimizaciju pretrage"],
+    "correctAnswer": "Linearna struktura za čuvanje elemenata u određenom redosledu"
+  },
+  {
+    "id": 8,
+    "question": "Koji od ponuđenih odgovora predstavlja pseudokod za izračunavanje broja elemenata u stablu?",
+    "answers": ["find_size(root_node -> left_node) + find_size(root_node->right_node)", "find_size(root_node -> left_node) + 1 + find_size(root_node->right_node)", "find_size(root_node -> right_node) - 1", "find_size(root_node -> left_node) + 1"],
+    "correctAnswer": "find_size(root_node -> left_node) + 1 + find_size(root_node->right_node)"
+  },
+  {
+    "id": 9,
+    "question": "Data je metoda:\n```java\nvoid quiz(int i) { \n if (i >= 1) { \n  quiz(i/2); \n  System.out.print(i); \n  quiz(i/2); \n } \n}\n```\nŠta će se ispisati ako pozovemo metodu quiz(5)?",
+    "answers": ["1215121", "1125211", "5211211", "5221111"],
+    "correctAnswer": "1215121"
+  },
+  {
+    "id": 10,
+    "question": "Ako je broj čvorova u BST stablu n, koja je maksimalna moguća visina tog stabla?",
+    "answers": ["(log n) + 1", "n", "n²", "n+n"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 11,
+    "question": "Vremenska kompleksnost iterativnog prefiksnog prolaza kroz BST stablo je:",
+    "answers": ["O(log n)", "O(n)", "O(1)", "O(n log n)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 12,
+    "question": "Vremenska kompleksnost iterativnog prefiksnog prolaza kroz binarno stablo je:",
+    "answers": ["O(1)", "O(log n)", "O(n log n)", "O(n)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 13,
+    "question": "Koji od ponuđenih odgovora predstavlja dobru osobinu hash funkcije?",
+    "answers": ["Brzo se računa", "Nema uniformnu raspodelu", "Nijedan od ponuđenih odgovora", "Ima tačku nagomilavanja"],
+    "correctAnswer": "Brzo se računa"
+  },
+  {
+    "id": 14,
+    "question": "Stablo za binarno pretraživanje ima ukupno M čvorova, a visinu K. Vreme potrebno za pronalaženje nekog čvora u stablu je proporcionalno sa:",
+    "answers": ["M*K", "K", "M", "M + K"],
+    "correctAnswer": "K"
+  },
+  {
+    "id": 15,
+    "question": "Ako je visina kompletnog binarnog stabla 7, koliko ima čvorova to stablo?",
+    "answers": ["127", "64", "255", "128"],
+    "correctAnswer": "127"
+  },
+  {
+    "id": 16,
+    "question": "Jedna od osnovnih karakteristika matrice susedstva kao načina implementacije:",
+    "answers": ["Složena za manipulaciju", "Prostorna kompleksnost O(n)", "Efikasno korišćenje memorije", "Za pamćenje elemenata"],
+    "correctAnswer": "Efikasno korišćenje memorije"
+  },
+  {
+    "id": 17,
+    "question": "Sekundarna kolizija se javlja kada:",
+    "answers": ["Se sudare ključevi koji imaju različite h(k)", "Različiti ključevi imaju iste adrese", "Kada se koristi metod ulančavanja", "Sve navedeno"],
+    "correctAnswer": "Se sudare ključevi koji imaju različite h(k)"
+  },
+  {
+    "id": 18,
+    "question": "Koje je tvrdjenje tačno za B stablo reda 22?",
+    "answers": ["Nijedan čvor ne može imati manje od 22/2 ključeva", "Čvorovi na svim nivoima ne moraju da imaju isti broj ključeva", "Svi čvorovi sadrže isti broj ključeva", "Svi listovi su na različitim dubinama"],
+    "correctAnswer": "Čvorovi na svim nivoima ne moraju da imaju isti broj ključeva"
+  },
+  {
+    "id": 19,
+    "question": "AVL stablo je visine 3. Koji je najveći broj čvorova koje može da ima?",
+    "answers": ["15", "7", "8", "12"],
+    "correctAnswer": "15"
+  },
+  {
+    "id": 20,
+    "question": "Šta ne važi za AVL stablo?",
+    "answers": ["Razlika među nivoima treba da bude veća od 1", "Balans faktor je između -1 i 1", "Stablo je balansirano", "Svaki čvor ima definisan balans faktor"],
+    "correctAnswer": "Razlika među nivoima treba da bude veća od 1"
+  },
+  {
+    "id": 21,
+    "question": "Ako BST stablo ima n elemenata i visinu H, od čega će zavisiti vreme prolaska kroz stablo?",
+    "answers": ["n", "H", "n*H", "log n"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 22,
+    "question": "Efikasnost hashing algoritma je?",
+    "answers": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 23,
+    "question": "Kada se javlja sekundarna kolizija?",
+    "answers": ["Kada se dogodi sudar između dva ili više ključeva koji imaju istu hash vrednost.", "Kada različiti ključevi imaju istu adresu.", "Kada se koristi linearno adresiranje.", "Kada je hash tabela puna."],
+    "correctAnswer": "Kada se dogodi sudar između dva ili više ključeva koji imaju istu hash vrednost."
+  },
+  {
+    "id": 24,
+    "question": "Primarna kolizija je?",
+    "answers": ["Kada različiti ključevi imaju istu adresu.", "Kada se sudare ključevi koji imaju različite hash vrednosti.", "Kada se koristi lančano rešavanje kolizija.", "Kada je veličina hash tabele prevelika."],
+    "correctAnswer": "Kada različiti ključevi imaju istu adresu."
+  },
+  {
+    "id": 25,
+    "question": "Dato je skoro kompletno binarno stablo, implementirano preko niza. Ako je čvor sačuvan u nizu na poziciji 7, na kojoj poziciji u nizu se nalazi levo dete njegovog roditelja?",
+    "answers": ["3", "4", "7", "8"],
+    "correctAnswer": "7"
+  },
+  {
+    "id": 26,
+    "question": "Neka binarno stablo pretrage ima ukupno N čvorova, a visinu H. Vreme potrebno za pronalaženje nekog čvora u stablu je proporcionalno sa:",
+    "answers": ["N", "N*H", "N+H", "H"],
+    "correctAnswer": "H"
+  },
+  {
+    "id": 27,
+    "question": "Koje od sledećih tvrdjenja NIJE tačno:",
+    "answers": ["Sekundarna kolizija se javlja kada se sudare ključevi koji imaju iste h(k)", "Problem kolizije se javlja kod ubacivanja i pretraživanja zapisa", "Otvoreno adresiranje može da generiše primarnu koliziju", "Problem kolizije se rešava uvođenjem posebne zone za zapise koji dobiju istu adresu"],
+    "correctAnswer": "Problem kolizije se rešava uvođenjem posebne zone za zapise koji dobiju istu adresu"
+  },
+  {
+    "id": 28,
+    "question": "Efikasnost najgoreg i prosečnog slučaja pretrage u BST stablu je:",
+    "answers": ["O(n), O(log n)", "O(n), O(n)", "O(log n), O(log n)", "O(log n), O(n)"],
+    "correctAnswer": "O(n), O(log n)"
+  },
+  {
+    "id": 29,
+    "question": "Dato je kompletno binarno stablo sa n elemenata. Visina stabla je:",
+    "answers": ["n", "n/2", "(int)(log n) + 1", "2^n – 1"],
+    "correctAnswer": "(int)(log n) + 1"
+  },
+  {
+    "id": 30,
+    "question": "Heap stablo – je stablo za koga važi da je vrednost svakog čvora veća od svih vrednosti u njegovom levom i desnom podstablu.",
+    "answers": ["Opisuje max-heap (roditelj ≥ deca)", "Opisuje min-heap (roditelj ≤ deca)", "Opisuje BST", "Ne važi za potpuna binarna stabla"],
+    "correctAnswer": "Opisuje max-heap (roditelj ≥ deca)"
+  },
+  {
+    "id": 31,
+    "question": "Dato je skoro kompletno binarno stablo, implementirano preko niza. Ako je čvor sačuvan u nizu na poziciji sa indeksom 5, na kojoj poziciji u nizu se nalazi desno dete njegovog roditelja?",
+    "answers": ["16", "2", "6", "15"],
+    "correctAnswer": "6"
+  },
+  {
+    "id": 32,
+    "question": "Ako binarno stablo nije skoro kompletno, koje izmene je potrebno napraviti na strukturi da bi se lakše pristupilo čvorovima u stablu u nizu?",
+    "answers": ["Nije potrebna nikakva promena. Pristupa se sa 2i i 2i + 1 (ako je čvor i)", "Koristiti istovremeno još jedan niz u kome će se čuvati stablo", "Svaki čvor treba da čuva podatke o postojanju njegove “dece”", "Napraviti odvojenu tabelu u kojoj će se čuvati lokacija “dece”"],
+    "correctAnswer": "Svaki čvor treba da čuva podatke o postojanju njegove “dece”"
+  },
+  {
+    "id": 33,
+    "question": "Ako je pozicija elementa niza 10, na kojoj poziciji će se nalaziti desno dete njegovog roditelja?",
+    "answers": ["4", "5", "9", "10"],
+    "correctAnswer": "10"
+  },
+  {
+    "id": 34,
+    "question": "Ako je indeks čvora 5, koliki će biti indeks desnog deteta njegovog roditelja?",
+    "answers": ["7", "4", "5", "6"],
+    "correctAnswer": "6"
+  },
+  {
+    "id": 35,
+    "question": "Infiks, prefiks i postfiks prolaz kroz stablo:",
+    "answers": ["Infiks: L - K - D; Prefiks: K - L - D; Postfiks: L - D - K", "Infiks: K - L - D; Prefiks: L - K - D; Postfiks: D - L - K", "Infiks: D - K - L; Prefiks: L - D - K; Postfiks: K - D - L", "Ništa od navedenog"],
+    "correctAnswer": "Infiks: L - K - D; Prefiks: K - L - D; Postfiks: L - D - K"
+  },
+  {
+    "id": 36,
+    "question": "Koje tvrdjenje za B stablo je tačno?",
+    "answers": ["Svi čvorovi sadrže isti broj ključeva", "Svi listovi su na istoj dubini", "Svi čvorovi koji nisu list imaju isti broj dece", "Svi ključevi u čvoru su veći ili jednaki ključevima u desnom detetu"],
+    "correctAnswer": "Svi listovi su na istoj dubini"
+  },
+  {
+    "id": 37,
+    "question": "Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["niz[i+1]", "niz[i+2]", "niz[2*i+1] (levo dete)", "niz[2*i+2] (desno dete)"],
+    "correctAnswer": "niz[2*i+2] (desno dete)"
+  },
+  {
+    "id": 38,
+    "question": "Koji je minimalan broj čvorova u skoro kompletnom binarnom stablu čija je visina jednaka 4?",
+    "answers": ["16", "15", "7", "8"],
+    "correctAnswer": "8"
+  },
+  {
+    "id": 39,
+    "question": "Netačno tvrdjenje za hash funkciju:",
+    "answers": ["Sekundarna kolizija nije sudaranje", "Hash funkcija je uvek uniformna", "Hash funkcija je spora za računanje", "Hash funkcija uvek generiše jedinstvene vrednosti"],
+    "correctAnswer": "Sekundarna kolizija nije sudaranje"
+  },
+  {
+    "id": 40,
+    "question": "Obeležiti tačnu definiciju za visinu stabla:",
+    "answers": ["Visina stabla je maksimalni nivo na kome se nalazi neki čvor stabla", "Visina stabla je broj grana od korena do najdaljeg lista", "Visina stabla je ukupan broj čvorova", "Visina stabla je broj listova"],
+    "correctAnswer": "Visina stabla je maksimalni nivo na kome se nalazi neki čvor stabla"
+  },
+  {
+    "id": 41,
+    "question": "Šta je nivo čvora?",
+    "answers": ["Nivo čvora je 1 ako je koren ili jednak broju čvorova koji se prođu na putu od korena do datog čvora", "Nivo čvora je uvek jednak dubini stabla", "Nivo čvora je broj potomaka tog čvora", "Nivo čvora je broj listova u stablu"],
+    "correctAnswer": "Nivo čvora je 1 ako je koren ili jednak broju čvorova koji se prođu na putu od korena do datog čvora"
+  },
+  {
+    "id": 42,
+    "question": "Dva stabla su slična ako:",
+    "answers": ["Imaju istu strukturu", "Imaju identičan informacioni sadržaj", "Ništa od ponuđenog", "Imaju istu visinu"],
+    "correctAnswer": "Imaju istu strukturu"
+  },
+  {
+    "id": 43,
+    "question": "Šta od ponuđenih opcija predstavlja nedostatak implementacije niza pomoću stabla?",
+    "answers": ["Teška je za implementaciju", "Teško je doći do “dece” od nekog čvora", "Potrebno je unapred znati najveći mogući broj čvorova", "Teško je pronaći “roditelja” od nekog čvora"],
+    "correctAnswer": "Potrebno je unapred znati najveći mogući broj čvorova"
+  },
+  {
+    "id": 44,
+    "question": "Obeleži tačne formule za indekse:\n- Levo dete: indeks * 2 (u slučaju da koren stabla ima indeks 1)  \n- Desno dete: indeks * 2 + 1  \n- Indeks roditelja = (indeks - 1) / 2",
+    "answers": ["Levo dete: indeks * 2, Desno dete: indeks * 2 + 1, Indeks roditelja = (indeks - 1) / 2", "Levo dete: indeks + 1, Desno dete: indeks + 2, Indeks roditelja = indeks - 1", "Sve formule su netačne", "Nijedna od navedenih formula nije tačna"],
+    "correctAnswer": "Levo dete: indeks * 2, Desno dete: indeks * 2 + 1, Indeks roditelja = (indeks - 1) / 2"
+  },
+  {
+    "id": 45,
+    "question": "Prostorna kompleksnost matrice susedstva:",
+    "answers": ["O(n²)", "O(n)", "O(log n)", "O(1)"],
+    "correctAnswer": "O(n²)"
+  },
+  {
+    "id": 46,
+    "question": "Data je metoda:\n```java\nvoid quiz(int i) {\n if (i >= 1) {\n  quiz(i/2);\n  System.out.print(\"*\");\n  quiz(i/2);\n }\n}\n```\nKoliko zvezdica će se ispisati ako pozovemo metodu quiz(5)?",
+    "answers": ["14", "7", "Neki drugi broj", "10"],
+    "correctAnswer": "Neki drugi broj"
+  },
+  {
+    "id": 47,
+    "question": "Koje tvrdjenje je tačno za B stablo?",
+    "answers": ["Svi čvorovi sadrže isti broj ključeva", "Koren može imati najmanje 1 ključ za stablo reda 16", "Listovi ne moraju da budu na istoj dubini", "Svi čvorovi koji nisu listovi imaju isti broj dece"],
+    "correctAnswer": "Koren može imati najmanje 1 ključ za stablo reda 16"
+  },
+  {
+    "id": 48,
+    "question": "Šta ispisuje sledeća metoda?\n```java\ntest(int n){ \n if (n>0) \n  test(n-2); \n System.out.println(n + \" \");\n}\n```\nZa n=4, ispis je:",
+    "answers": ["0 2 4", "4 2 0", "0 4 2", "2 0 4"],
+    "correctAnswer": "0 2 4"
+  },
+  {
+    "id": 49,
+    "question": "Koje tvrdjenje NIJE tačno za B stablo?",
+    "answers": ["Svi članovi ne moraju da sadrže isti broj ključeva", "Svi članovi koji nisu listovi moraju da imaju isti broj dece", "Može da postoji čvor sa 1 ključem za stablo reda 22", "Svi listovi su na istoj dubini"],
+    "correctAnswer": "Svi članovi koji nisu listovi moraju da imaju isti broj dece"
+  }
+]

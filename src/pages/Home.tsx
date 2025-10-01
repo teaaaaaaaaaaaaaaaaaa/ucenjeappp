@@ -107,6 +107,14 @@ const Home: React.FC = () => {
         return '💧';
       case 'ofm_drinki1':
         return '🌊';
+      case 'spa_2_deo_teorija1':
+        return '🌳';
+      case 'spa_2_deo_teorija2':
+        return '🌲';
+      case 'spa2_deo_teorija3':
+        return '🌿';
+      case 'spa2_deo_teorija4':
+        return '⚛️';
       default:
         return '🧠';
     }
@@ -151,6 +159,14 @@ const Home: React.FC = () => {
         return 'OFM Drinki 2';
       case 'ofm_drinki1':
         return 'OFM Drinki 1';
+      case 'spa_2_deo_teorija1':
+        return 'SPA 2 Deo Teorija 1';
+      case 'spa_2_deo_teorija2':
+        return 'SPA 2 Deo Teorija 2';
+      case 'spa2_deo_teorija3':
+        return 'SPA 2 Deo Teorija 3';
+      case 'spa2_deo_teorija4':
+        return 'SPA 2 Deo Teorija 4';
       default:
         return subject;
     }

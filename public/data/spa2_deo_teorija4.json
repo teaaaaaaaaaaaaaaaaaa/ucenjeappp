@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "question": "Nivo čvora je:",
+    "answers": ["Visina čvora", "Broj čvorova koji se prođu od korena do datog čvora", "max nivo na kome se nalazi čvor koji nije list", "1"],
+    "correctAnswer": "Broj čvorova koji se prođu od korena do datog čvora"
+  },
+  {
+    "id": 2,
+    "question": "Posmatrajmo čvor potpunog binarnog stabla implementiranog preko niza, čija je vrednost sačuvana u niz[i]. Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["niz[i+1]", "niz[i+2]", "niz[2*i+1] LEVO DETE", "niz[2*i+2] DESNO DETE"],
+    "correctAnswer": "niz[2*i+2] DESNO DETE"
+  },
+  {
+    "id": 3,
+    "question": "Koje tvrdjenje za B stablo je tačno?",
+    "answers": ["Svi čvorovi sadrže isti broj ključeva", "Svi listovi su na istoj dubini", "Svi čvorovi koji nisu listovi imaju isti broj dece", "Svi ključevi u čvoru su veći ili jednaki ključevima u desnom detetu"],
+    "correctAnswer": "Svi listovi su na istoj dubini"
+  },
+  {
+    "id": 4,
+    "question": "Stablo za binarno pretraživanje ima ukupno M čvorova, a visinu K. Vreme potrebno za pronalaženje nekog čvora je proporcionalno sa:",
+    "answers": ["M*K", "K", "M", "M+K"],
+    "correctAnswer": "K"
+  },
+  {
+    "id": 5,
+    "question": "Koje tvrdjenje je tačno?",
+    "answers": ["Svako binarno stablo je ili kompletno ili striktno binarno", "Svako kompletno binarno stablo je i striktno binarno", "Svako striktno binarno stablo je kompletno", "Niti jedno nije tačno"],
+    "correctAnswer": "Svako kompletno binarno stablo je i striktno binarno"
+  },
+  {
+    "id": 6,
+    "question": "Sekundarna kolizija se javlja kada:",
+    "answers": ["Se sudare ključevi koji imaju različite h(k)", "Različiti ključevi imaju iste adrese", "Kada se koristi metoda ulančavanja", "Sve navedeno"],
+    "correctAnswer": "Se sudare ključevi koji imaju različite h(k)"
+  },
+  {
+    "id": 7,
+    "question": "Primarna kolizija je:",
+    "answers": ["Kada se sudare ključevi koji imaju različite h(k)", "Kada se koristi metoda ulančavanja", "Kada različiti ključevi imaju istu adresu", "Sve navedeno"],
+    "correctAnswer": "Kada različiti ključevi imaju istu adresu"
+  },
+  {
+    "id": 8,
+    "question": "Efikasnost hashing algoritma je:",
+    "answers": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "id": 9,
+    "question": "Posmatrajmo čvor kompletnog binarnog stabla implementiranog preko niza, čija je vrednost sačuvana u niz[4]. Ako taj čvor ima desno dete, gde će biti sačuvana njegova vrednost?",
+    "answers": ["9", "10", "17", "18"],
+    "correctAnswer": "10"
+  },
+  {
+    "id": 10,
+    "question": "Jedna od osnovnih karakteristika matrice susedstva kao načina implementacije:",
+    "answers": ["Složena za manipulaciju", "Prostorna kompleksnost O(n²)", "Efikasno korišćenje memorije", "Za pamćenje elemenata koristi se jedan bit"],
+    "correctAnswer": "Prostorna kompleksnost O(n²)"
+  },
+  {
+    "id": 11,
+    "question": "Dato je kompletno binarno stablo sa n elemenata. Visina stabla je:",
+    "answers": ["n", "n/2", "(int)(log n)+1", "2^n - 1"],
+    "correctAnswer": "(int)(log n)+1"
+  },
+  {
+    "id": 12,
+    "question": "Ako je visina stabla h, broj čvorova je:",
+    "answers": ["2^h - 1", "h", "2h", "h+1"],
+    "correctAnswer": "2^h - 1"
+  },
+  {
+    "id": 13,
+    "question": "Šta je visina stabla?",
+    "answers": ["Maksimalni nivo lista", "Minimalni nivo lista", "Broj grana", "Broj čvorova"],
+    "correctAnswer": "Maksimalni nivo lista"
+  },
+  {
+    "id": 14,
+    "question": "Koji je minimalan broj čvorova u skoro kompletnom binarnom stablu čija je visina jednaka 4?",
+    "answers": ["16", "15", "7", "8"],
+    "correctAnswer": "8"
+  },
+  {
+    "id": 15,
+    "question": "Koji od ponuđenih odgovora predstavlja dobru osobinu hash funkcije?",
+    "answers": ["Brzo se računa", "Nema uniformnu raspodelu", "Nijedan od ponuđenih odgovora", "Ima tačku nagomilavanja"],
+    "correctAnswer": "Brzo se računa"
+  },
+  {
+    "id": 16,
+    "question": "Vremenska kompleksnost iterativnog prefiksnog prolaza kroz binarno stablo je:",
+    "answers": ["O(1)", "O(log n)", "O(n log n)", "O(n)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 17,
+    "question": "Vremenska kompleksnost iterativnog prefiksnog prolaza kroz BST stablo je:",
+    "answers": ["O(1)", "O(log n)", "O(n log n)", "O(n)"],
+    "correctAnswer": "O(n)"
+  },
+  {
+    "id": 18,
+    "question": "Šta od ponuđenih opcija predstavlja nedostatak implementacije niza pomoću stabla?",
+    "answers": ["Teška za implementaciju", "Potrebno je unapred znati najveći mogući broj čvorova stabla", "Teško je doći do “dece” od nekog čvora", "Teško je pronaći “roditelja” od nekog čvora"],
+    "correctAnswer": "Potrebno je unapred znati najveći mogući broj čvorova stabla"
+  },
+  {
+    "id": 19,
+    "question": "Biće korišćena sledeća notacija: A <: B znači da je A podtip od B A -> B predstavlja tip funkcije koja kao ulaz prima vrednost tipa A, a kao izlaz vraća vrednost tipa B. Pretpostavimo da imamo sledeće tipove: Windows 10 <: Operativni Sistem <: Softver Koji od ponuđenih odgovora **NE** predstavlja podtip funkcije Operativni Sistem -> Operativni sistem?",
+    "answers": ["Operativni Sistem -> Windows 10", "Softver -> Operativni sistem", "Softver -> Windows 10", "Operativni Sistem -> Softver"],
+    "correctAnswer": "Operativni Sistem -> Softver"
+  },
+  {
+    "id": 20,
+    "question": "Ako je broj čvorova u BST stablu n, koja je maksimalna moguća visina tog stabla?",
+    "answers": ["(log n) + 1", "n", "n²", "n+n"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 21,
+    "question": "Prostorna kompleksnost matrice susedstva je?",
+    "answers": ["O(n²)", "O(n)", "O(log n)", "O(1)"],
+    "correctAnswer": "O(n²)"
+  },
+  {
+    "id": 22,
+    "question": "Šta je AVL stablo?",
+    "answers": ["Balansirano i BST stablo", "Nebalansirano stablo", "Samo BST stablo", "Stablo sa više od dva deteta"],
+    "correctAnswer": "Balansirano i BST stablo"
+  },
+  {
+    "id": 23,
+    "question": "Dva stabla su slična ako:",
+    "answers": ["Imaju istu strukturu", "Imaju identičan informacioni sadržaj", "Ništa od ponuđenog", "Imaju istu visinu"],
+    "correctAnswer": "Imaju istu strukturu"
+  },
+  {
+    "id": 24,
+    "question": "Koliki je minimalan broj čvorova ako je visina binarnog stabla h?",
+    "answers": ["h", "2h", "h+1", "2^h - 1"],
+    "correctAnswer": "h"
+  },
+  {
+    "id": 25,
+    "question": "Koliki je maksimalan broj čvorova ako je visina binarnog stabla h?",
+    "answers": ["2^h - 1", "h", "h+1", "2h"],
+    "correctAnswer": "2^h - 1"
+  },
+  {
+    "id": 26,
+    "question": "Ako je visina h u potpunom binarnom stablu, koliko ima čvorova?",
+    "answers": ["2^h - 1", "h", "2h", "h+1"],
+    "correctAnswer": "2^h - 1"
+  },
+  {
+    "id": 27,
+    "question": "Ako je visina h u skoro kompletnom stablu, koliko ima čvorova?",
+    "answers": ["2^h - 1", "h", "2h", "h+1"],
+    "correctAnswer": "2^h - 1"
+  },
+  {
+    "id": 28,
+    "question": "Ako binarno stablo ima n čvorova, kolika je njegova maksimalna visina?",
+    "answers": ["n", "log₂ n", "n/2", "2n"],
+    "correctAnswer": "n"
+  },
+  {
+    "id": 29,
+    "question": "Ako binarno stablo ima n čvorova, kolika je njegova minimalna visina?",
+    "answers": ["log₂ n", "n", "n/2", "2n"],
+    "correctAnswer": "log₂ n"
+  },
+  {
+    "id": 30,
+    "question": "Ako AVL stablo ima visinu h, koliki je maksimalan broj čvorova?",
+    "answers": ["2^(h+1) - 1", "h", "2h", "2^h"],
+    "correctAnswer": "2^(h+1) - 1"
+  },
+  {
+    "id": 31,
+    "question": "Ako AVL stablo ima visinu h=3, koliki je maksimalan broj čvorova?",
+    "answers": ["2^(3+1) - 1 = 15", "7", "8", "10"],
+    "correctAnswer": "2^(3+1) - 1 = 15"
+  },
+  {
+    "id": 32,
+    "question": "Ako je h=1, koliko čvorova ima AVL stablo?",
+    "answers": ["1", "2", "3", "4"],
+    "correctAnswer": "1"
+  },
+  {
+    "id": 33,
+    "question": "Ako je h=2, koliko čvorova ima AVL stablo?",
+    "answers": ["2", "1", "3", "4"],
+    "correctAnswer": "2"
+  }
+]

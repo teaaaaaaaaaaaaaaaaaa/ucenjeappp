@@ -20,6 +20,10 @@ const SUBJECT_FILES: Record<string, string> = {
   'ofm_rokovi': '/data/ofm_rokovi.json',
   'ofm_drinki2': '/data/ofm_drinki2.json',
   'ofm_drinki1': '/data/ofm_drinki1.json',
+  'spa_2_deo_teorija1': '/data/spa_2_deo_teorija1.json',
+  'spa_2_deo_teorija2': '/data/spa_2_deo_teorija2.json',
+  'spa2_deo_teorija3': '/data/spa2_deo_teorija3.json',
+  'spa2_deo_teorija4': '/data/spa2_deo_teorija4.json',
 };
 
 /**
@@ -61,6 +65,10 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'ofm_rokovi',
       'ofm_drinki2',
       'ofm_drinki1',
+      'spa_2_deo_teorija1',
+      'spa_2_deo_teorija2',
+      'spa2_deo_teorija3',
+      'spa2_deo_teorija4',
     ];
     return Promise.resolve(subjects);
   } catch (error) {
