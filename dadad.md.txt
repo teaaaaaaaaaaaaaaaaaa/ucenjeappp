@@ -1,0 +1,546 @@
+Hvala koleginici Ivi Dinić koja je napisala originalnu skriptu sa odgovorima, a ja
+ću je updatovati vremenom i dodavati još pitanja. Ko god nađe još neko pitanje i
+odgovori, može da mi pošalje poruku da dodam.
+- Ari
+1. Sta su atributi softverskog sistema?
+Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju
+strukturu sistema
+
+2. Sistemske operacije
+Softverski sistem se sastoji od atributa i sistemskih operacija. Sistemske
+operacije opisuju ponašanje sistema I predstavljaju osnovne (atomske) funkcije
+sistema koje se mogu koristiti iz okruženja sistema.
+
+3. Dopustivi ulazi u softverski sistem
+Dopustivi ulaz u softverski sistem je definisan potpisom (signaturom), koji sadrži
+naziv sistemske operacije koja se poziva i skupom ulaznih argumenata.
+
+4. Sta je izlaz iz softverskog sistema?
+Izlaz iz softverskog sistema je predstavljen preko skupa izlaznih argumenata.
+Izlaz se dobija kao rezultat izvršenja neke od sistemskih operacija nad atributima
+sistema.
+
+5. Sta su funckionalni i nefunkcionalni zahtevi?
+Funkcionalni zahtevi definišu zahtevane funkcije sistema, dok nefunkcionalni
+zahtevi definišu sve ostale zahteve. Nefunkcionalni zahtevi kao što su
+upotrebljivost, pouzdanost, performanse i podrživost sistema predstavljaju
+atribute
+kvaliteta (quality attributes) softverskog sistema. Funkcionalni zahtevi se
+opisuju preko modela slučaja korišćenja.
+
+6. Sta predstavlja FURPS+ model.
+U FURPS+ modelu znak ‘+’ ukazuje na pomoćne zahteve koji se odnose na:
+• Implementaciju (Implementation) sistema – do kojih granica se mogu
+koristiti raspoloživi resursi (resource limitations). Koji se programski jezici
+(programming languages) i alati (tools) mogu koristiti. Pored toga
+implemantacioni zahtevi se odnose I na hardver (hardware) koji će se
+koristiti.
+• Interfejs (Interface) sistema – ograničenja koja postoje u komunikaciji
+sistema sa njegovim okruženjem (eksternim sistemima).
+• Operacije (Operations) sistema – upravljanje sistemom i njegovim
+operacijama.
+• Pakovanje (Packaging) sistema – način fizičkog organizovanja sistema u
+pakete, koji predstavljaju upravljive jedinice sistema.
+• Legalnost (Legal) – mogućnost upotrebe sistema u smislu njegove
+legalnosti (licence i prava korišćenja sistema).
+
+7. Pouzdanost održivog softverskog sistema.
+Pouzdanost predstavlja sposobnost sistema da može uspešno obraditi problem
+(failure) koji se dešava u toku izvršenja sistema. U tom smislu sistem mora da
+obezbedi način oporavka (recoverability) podataka u slučaju nasilnog prekida
+rada sistema. Takođe sistem treba da omogući predviđanje (predictability)
+mogućih ponašanja sistema.
+
+8. Objasniti model slučajeva korišćenja, šta opisuje SK, sta opisuje jedan
+scenario SK.
+Slučaj korišćenja opisuje skup scenarija (use-case pojavljivanja), odnosno skup
+željenih korišćenja sistema od strane aktora.
+
+Scenario opisuje jedno željeno korišćenje sistema od strane aktora. Slučaj
+korišćenja ima jedan glavni i više alternativnih scenarija. Scenario je opisan
+preko: a) sekcence akcija i b) interakcija između aktora i sistema.
+
+9. Definicije aktora, osnovnog scenaria, alternativnog scenaria.
+Aktor (učesnik) predstavlja spoljnog korisnika sistema. On postavlja zahtev
+sistemu da izvrši jednu ili više sistemskih operacija, po unapred definisanom
+scenariju. Sistem odgovara na postavljeni zahtev aktora, šaljući mu vrednost
+izlaznih argumenata kao rezultat izvršenja operacija. Aktor se obično definiše
+kao neko ili nešto (npr: ljudi, računarski sistemi ili organizaciona jedinica) što ima
+ponašanje. Scenario opisuje jedno željeno korišćenje sistema od strane aktora.
+Slučaj korišćenja ima jedan glavni i više alternativnih scenarija. Scenario je
+opisan preko: a) sekcence akcija i b) interakcija između aktora i sistema.
+
+10. Glass&#39;s law?
+Nedostaci kod definisanja zahteva su osnovni razlog mogućeg neuspeha u
+razvoju projekta (programa).
+
+11. Boehm&#39;s first law i second law?
+Boehm&#39;s first law: Ukoliko se ne uoče greške u toku definisanja zahteva, iste se
+veoma teško mogu ukloniti u kasnijim fazama razvoja programa.
+Boehm&#39;s second law: Pravljenje prototipova značajno smanjuje moguće greške
+kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog
+interfejsa.
+
+12. Kako se tekstualno predstavlja slučaj korišćenja?
+SK se u početnim fazama razvoja softvera predstavljaju tekstualno dok se
+kasnije oni predstavljaju preko sekvencnih dijagrama, dijagrama saradnje,
+dijagrama prelaza stanja ili dijagrama aktivnosti.
+Teksualni opis SK ima sledeću strukturu:
+• Naziv SK.
+• Aktore SK.
+• Učesnike SK.
+• Preduslovi koji moraju biti zadovoljeni da bi SK počeo da se izvršava.
+• Osnovni scenario izvršenja SK.
+• Postuslovi koji moraju biti zadovoljeni da bi se potvrdilo da je SK uspešno
+izvršen.
+• Alternativna scenarija izvršenja SK.
+• Specijalni zahtevi.
+• Tehnološki zahtevi.
+• Otvorena pitanja.
+13. Konceptualno da se objasni sta se radi u fazi analize i sta je rezultat faze
+analize.
+Faza analize opisuje logičku strukturu i ponašanje softverskog sistema (poslovnu
+logiku soft. sistema). Struktura softerskog sistema se opisuje pomoću
+konceptualnog I relacionog modela. Ponašanje softverskog sistema je opisano
+pomoću sistemskih dijagrama sekvenci I preko sistemskih operacija.
+Rezultat faze analize su struktura softverskog sistema opisana preko dijagrama
+klasa I relacionog modela, i ponašanje softverskog sistema opisano na osnovu
+dijagrama sekvenci I sistemskih operacija
+
+14. Sekvencni dijagrami da se objasne
+Sekvencni dijagrami, iz faze analize, se dobijaju na osnovu scenarija slučajeva
+korišćenja I opisuju interakciju između objekata (aktora i softverskog sistema).
+15. Primer nekog SK i kako cete napraviti na osnovu tog SK sekvencni dijagram.
+
+16.
+
+Sistemske operacije (preduslovi, postuslovi) i ugovori za sistemske operacije.
+Ugovori se prave za sistemske operacije i oni opisuju njeno ponašanje. Ugovori
+opisuju šta operacija treba da radi, bez objašnjenja kako će to da radi. Jedan
+ugovor je vezan za jednu sistemsku operaciju.
+Ugovori se sastoje iz sledećih sekcija:
+• Operacija – ime operacije i njeni ulazni i izlazni argumenti
+• Veza sa SK – imena SK u kojima se poziva sistemska operacija
+• Preduslov – pre izvršenja sistemske operacije moraju biti zadovoljeni
+određeni preduslovi (sistem mora biti u odgovarajućem stanju).
+• Postuslovi – posle izvršenja sistemske operacije u sistemu moraju biti
+zadovoljeni određeni postuslovi (sistem mora biti u odgovarajućem stanju
+ili se poništava rezultat operacije).
+Preduslovi SO ukazuju na to šta je trebalo da se desi, kako bi SO mogla da se
+
+izvrši, a ne kako se to desilo.
+Postuslovi SO ukazuju na to šta treba da se desi nakon izvršenja SO, a ne kako
+će to da se desi. Postuslovi se izražavaju u prošlom vremenu, kako bi se
+naglasilo da je objekat došao u novo stanje, a ne da će doći u novo stanje.
+
+17. Sta je asocijacija kod konceptualnih klasa?
+Asocijacija je veza između konceptulanih klasa. Svaki kraj asocijacije
+predstavlja ulogu koncepta koji učestvuje u asocijaciji. Uloga sadrži ime,
+preslikavanje i navigaciju.
+- Ime uloge je zasnovano na formatu: ImeKoncKlase1 – Glagol –
+ImeKoncKlase2, gde glagol opisuje odnos između konceptualnih klasa u datom
+kontekstu.
+- Preslikavanje definiše koliko mnogo pojavljivanja konceptualne klase A može
+biti
+pridruženo jednom pojavljivanju konceptualne klase B.
+- Navigacija ukazuje na jednosmerne veze između konceptualnih klasa.
+
+18. Transformacija konceptualnog u relacioni model.
+Na osnovu konceptualnog modela može se napraviti relacioni model, koji će da
+predstavlja osnovu za projektovanje relacione baze podataka. (primer neki)
+
+Na osnovu datog konceptualnog modela (Racun, StavkeRacuna) pravi se
+relacioni model:
+Racun(BrojRacuna, NazivPartnera,UkupnaVrednost,Obradjen,Storniran);
+StavkaRacuna(BrojRacuna,RB,SifraProizvoda,Kolicina,ProdajnaCena,ProdajnaV
+rednost)
+
+19. Tronivojska arhitektura.
+Tronivojska arhitektura se sastoji iz sledećih nivoа:
+1. Korisničkog interfejsa koji predstavlja ulazno – izlaznu reprezentaciju
+softverskog sistema.
+2. Aplikacione logike koja opisuje strukturu i ponašanje softverskog sistema.
+3. Skladišta podataka koji čuva stanje atributa softverskog sistema.
+
+Pravila:
+- Aplikaciona logika se projektuje nezavisno od korisničkog interfejsa I obrnuto.
+- Aplikaciona logika može da ima različite ulazno-izlazne reprezentacije.
+- Aplikaciona logika (model) nema znanja o tome gde se nalazi korisnički interfejs
+(pogled).
+Na osnovu tronivojske arhitekture su napravljeni savremeni aplikacioni serveri.
+
+Kontroler je odgovoran da prihvati zahtev za izvršenje sistemske operacije od
+klijenta i da ga prosledi do poslovne logike koja je odgovorna za izvršenje
+sistemske operacije.
+Poslovna logika je opisana strukturom (domenskim klasama) i ponašanjem
+(sistemskim operacijama).
+Broker baze podataka je odgovoran za komunikaciju između poslovne logike i
+skladišta podataka.
+
+20. Ekranske forme kod korisnickog interfejsa.
+Ekranske forma je odgovorna da:
+a) prihvata podatke koje unosi aktor,
+b) prihvata događaje koje pravi aktor,
+c) poziva kontrolera grafičkog interfejsa, prosleđujući mu prihvaćene podatke
+d) prikazuje podatke koje je dobio od kontrolera grafičkog interfejsa.
+Postoje dva aspekta projektovanja ekranske forme:
+a) Projektovanje scenarija SK koji se izvode preko ekranske forme.
+b) Projektovanje metoda ekranske forme.
+
+21. Sta je korisnicki interfejs?
+
+Korisnički interfejs predstavlja realizaciju ulaza i/ili izlaza softverskog sistema.
+Može se implementirati korišćenjem raznih tehnologija (npr. Swing, JSP,...).
+Korisnički interfejs je definisan preko skupa ekranskih formi.
+Korisnički interfejs se sastoji od:
+1. Ekranske forme
+2. Kontrolora korisničkog interfejsa
+
+22. Objasniti sta je kontroler korisnickog interfejsa, kontroler aplikacione logike.
+Kontroler korisničkog interfejsa je odgovoran da:
+a) prihvati podatke koje šalje ekranska forma,
+b) konvertuje podatke u objekat koji predstavlja ulazni argument SO koja će biti
+pozvana,
+c) šalje zahtev za izvršenje SO do aplikacionog servera (softverskog sistema),
+d) prihvata objekat (izlaz) softverskog sistema koji nastaje kao rezultat izvršenja
+SO i
+e) konvertuje objekat u podatke grafičkih elemenata.
+Kontroler aplikacione logike treba da podigne serverski soket koji će da
+osluškuje mrežu. Kada klijent (klijentski soket) uspostavi konekciju sa
+kontrolerom (serverskim soketom), tada kontroler treba da generiše nit koja će
+uspostaviti dvosmernu vezu sa klijentom (ulaznu i izlaznu). Slanje i primanje
+podataka od klijenta se ostvaruje preko soketa. Klijent šalje zahtev za izvršenje
+neke od SO do odgovarajuće niti (koju smo nazvali “nit klijenta”), koja je
+povezana sa tim klijentom. “Nit klijenta” prima zahtev i dalje ga preusmerava do
+klasa koje su odgovorne za izvršenje SO. Nakon izvršenja SO rezultat se vraća
+do aplikacione logike, odnosno do “niti klijenta”, koja taj rezultat šalje nazad do
+klijenta.
+
+23. Open-closed princip.
+Princip Otvoreno – Zatvoreno: Modul treba da bude otvoren za proširenje ali i
+zatvoren za modifikaciju.
+U navedenom primeru klasa (modul) OpstaSO je zatvorena za promenu njenog
+ponašanja ali je u isto vreme i otvorena za promenu njenog ponašanja u
+klasama koje su iz nje izvedena kao što je npr. klasa KreirajNovi:
+abstract class OpstaSO
+{
+...
+synchronized static String opsteIzvrsenjeSO(OpstiDomenskiObjekat rac,
+OpstaSO os)
+{ if (!os.otvoriBazu()) return os.vratiPorukuMetode();
+if (!os.izvrsenjeSO(rac) &amp;&amp; transakcija)
+{ signal = os.rollbackTransakcije();
+return os.vratiPorukuMetode();
+}
+if (transakcija) os.commitTransakcije();
+return os.vratiPorukuMetode();
+}
+abstract boolean izvrsenjeSO(OpstiDomenskiObjekat rac);
+boolean otvoriBazu()
+{ ... }
+boolean commitTransakcije()
+{ ... }
+boolean rollbackTransakcije()
+{ ... }
+String vratiPorukuMetode()
+{ ... }
+}
+class KreirajNovi extends OpstaSO
+{
+public static String kreirajNovi(OpstiDomenskiObjekat odo)
+{ KreirajNovi kn = new KreirajNovi();
+OpstaSO.transakcija = true;
+return OpstaSO.opsteIzvrsenjeSO(odo,kn);
+}
+// Prekrivanje metode klase OpstaSO
+boolean izvrsenjeSO(OpstiDomenskiObjekat odo)
+{ if (!BBP.kreirajSlog(odo))
+
+{ PorukaIzvrsenjeSO(&quot;Sistem ne moze da kreira &quot; +
+odo.vratiNazivNovogObjekta() + &quot;.&quot;);
+return false;
+}
+PorukaIzvrsenjeSO(&quot;Sistem je kreirao &quot; + odo.vratiNazivNovogObjekta() + &quot;.&quot;);
+return true;
+}
+}
+
+24. Spojenost i kohezija.
+U razvoju objektno-orijentisanog softvera potrebno je postići dva cilja:
+a) treba izgraditi klase koje imaju visoku koheziju (high cohesion).
+b) klase treba da budu slabo povezane ( weak coupling).
+
+SPOJ1.1: Kohezija
+Klasa X je odgovorna da obezbedi neko ponašanje m1().
+class X
+{ public
+m1(){}
+}
+Ukoliko u realizaciji navedenog ponašanja učestvuju ostale metode (m11,m12 i
+m13) klase X,
+
+class X
+{ public
+m1(){m11();m12();m13();...}
+private
+m11(){...}
+m12(){...}
+m13(){...}
+}
+onda za takvu klasu možemo da kažemo da ima visoku koheziju.
+
+Na osnovu navedenog primera možemo da zaključimo da je kohezija mera
+kojom se utvrđujekoliko su metode unutar klase međusobno povezane. U
+navedenom primeru možemo videti da su metode m11,m12 i m13 međusobno
+povezane jer zajedno obezbeđuju neko ponašanje koje je definisano metodom
+m1. Takođe metoda m1 je povezana sa metodama m11,m12 i m13 jer one
+obezbeđuju njeno ponašanje. U navedenom primeru ne postoji nijedna metoda
+koja nije u funkciji realizaciji metode m1.
+Gubitak kohezije znači da je neka klasa X odgovorna da obezbedi više različitih
+ponašanjam1, m2 i m3 koja nisu između sebe povezana. Ovakva klasa je je
+teška za održavanje I nadogradnju.
+Zaključak: Treba praviti klase koje imaju jaku koheziju kako bi njima lakše
+upravljalo (kako bi se one lako održavale i nadograđivale).
+SPOJ1.2: Spojenost
+Spojenost (kuplovanje) znači da su klase u međusobnoj zavisnosti. To znači da
+klasa ne može da obavi neku operaciju ako ne postoji neka druga klasa.
+Na primer klasa X je odgovorna da obezbedi neko ponašanje definisano
+metodom m1() tako što poziva metodu m2() klase Y. Klasa X je zavisna od klase
+Y.
+class X
+{ Y y;
+X(){y=new Y();}
+public
+m1(){y.m2();}
+}
+class Y
+{
+m2(){...}
+}
+
+Kuplovanje je mera vezanosti klase sa drugim klasama, kojom se utvrđuje koliko
+je jako klasa povezana sa drugim klasama (zavisna od njih). Klasa sa visokom
+(high coupling) ili snažnom (strong coupling) povezanošću zavisi od drugih
+klasa. Takva klasa nije poželjna, jer dovodi do
+sledećih problema:
+
+• Promene povezanih klasa utiču na promenu klasa koje su zavisne od njih.
+• Teško je takvu klasu posmatrati izolovanu.
+• Teško je ponovo koristiti takvu klasu jer ona zahteva prisustvo drugih klasa
+od kojih zavisi.
+Klasa sa niskom (low coupling) ili slabom (weak coupling) povezanošću ne
+zavisi “mnogo” od drugih klasa. Klase koje su slabo povezane mogu se lakše
+ponovo koristiti u razvoju drugih aplikacija.
+Zaključak: Softverski sistem treba da sadrži klase koje su nezavisne ili su
+međusobno slabo zavisne.
+
+25. Nacrtati I ukratko objasniti sliku razvoja softverskog sistema
+Razvoj (životni ciklus) softverskog sistema se sastoji iz sledećih faza (Slika
+RASS):
+• Prikupljanja zahteva od korisnika (uslovi koje sistem treba da zadovolji)
+• Analize (logička struktura i ponašanje softverskog sistema, odnosno
+poslovna logika sistema)
+• Projektovanja (opis tronivojske strukture sistema)
+• Implementacije (prave se implementacione komponente u nekoj od
+tehnologija JAVA ili .NET)
+• Testiranja (svaka od komponenti se testira tako što za svaku od njih se
+prave: test slučajevi, test prodecure i test komponente)
+Razvoj softverskog sistema kod Larmanove metoda ima jasan logički sled.
+
+26. Definicija projektovanja softvera?
+Projektovanje softvera se u kontekstu softverskog inženjerstva definiše kao:
+- proces definisanja arhitekture, komponenti, interfejsa i drugih osobina sistema
+- rezultat tog procesa
+
+Softver se sastoji od dve aktivnosti:
+1. Projektovanje softverske arhitekture opisuje strukturu i organizaciju
+softvera na najvišem nivou.
+2. Detaljno projektovanje softvera opisuje svaku komponentu do nivoa
+detaljnosti koji je dovoljan da se ona može konstruisati.
+
+27. Šta opisuje strukturu softverskog sistema u fazi ‘Analiza’?
+Faza analize opisuje logičku strukturu i ponašanje sistema. Struktura
+softverskog sistema je opisana pomoću konceptualnog i relacionog modela.
+Ponašanje sistema je opisano pomoću sistemskih dijagrama sekvenci i preko
+sistemskih operacija.
+
+28. Odnos izmedju softverskog I informacionog sistema (Isto pitanje: Razvoj
+softverskog sistema – sve faze, šta se radi u kojoj fazi, koji se dijagrami koriste)
+
+Informacioni sistem (IS) se pravi kako bi se olakšao rad i upravljanje nekim
+realnim
+poslovnim sistemom. Poslovni sistem u najopštijem smislu ima svoju strukturu i
+ponašanje. Struktura i ponašanje poslovnog sistema se modeliraju preko modela
+podataka i modela procesa IS-a.
+Prva faza u razvoju softverskog sistema, prikupljanje zahteva, se opisuje preko
+modela slučaja korišćenja (SK) koji se dobija na osnovu specifikacije osnovnih
+procesa.
+U fazi analize softverskog sistema, na osnovu modela SK se određuje model
+podataka (strukture) i model ponašanja softverskog sistema. Model podataka
+softverskog sistema se opisuje pomoću proširenog modela objekti veze (PMOV),
+relacionog modela (RM), objektnog modela (OM), itd. Relacioni model je podržan
+SQL upitnim jezikom. Relacioni model se može dobiti na osnovu PMOV-a. Model
+ponašanja softverskog sistema se opisuje pomoću sistemskih operacija. Model
+podataka i model ponašanja softverskog sistema opisuju poslovnu logiku
+softverskog sistema.
+U fazi projektovanja softverskog sistema se definiše tronivojska arhitektura koja
+se sastoji od: korisničkog interfejsa, aplikacione logike i skladišta podataka.
+Projektovanje scenarija korišćenja ekranskih formi korisničkog interfejsa se radi
+
+na osnovu SK-a. Aplikaciona logika se pravi na osnovu poslovne logike
+softverskog Sistema. U skladištu podataka se čuvaju podaci. Skladište podataka
+može biti realizovano preko sistema za upravljanje bazom podataka, sistemom
+datoteka, itd.
+Strukturna sistemska analiza se radi u fazi analize IS-a.
+Faza prikupljanja zahteva i analiza softverskog sistema se iz perspektive IS-a
+nazivaju faza logičkog projektovanja IS-a.
+Faza projektovanja softverskog sistema se iz perspektive IS-a naziva faza
+fizičkog projektovanja IS-a.
+Faza implementacije softverskog sistema se iz perspektive IS-a naziva faza
+implementacije IS-a.
+
+29. Šta radi kontroler aplikacione logike?
+Kontroler aplikacione logike treba da podigne serverski soket koji će da
+osluškuje mrežu. Kada klijent (klijentski soket) uspostavi konekciju sa
+kontrolerom (serverski soket), tada kontroler treba da generiše nit koja će
+uspostaviti dvosmernu vezu s klijentom (ulaznu i izlaznu).
+
+30. Vrste akcija u scenariju slučaja korišćenja
+- Aktor izvodi jednu od tri vrste akcija:
+1) Aktor Priprema Ulaz (Ulazne Argumente) za Sistemsku Operaciju (APUSO).
+2) Aktor Poziva sistem da izvrši Sistemsku Operaciju (APSO).
+3) Aktor izvršava NeSistemsku Operaciju (ANSO).
+- Sistem izvodi dve akcije u kontinuitetu:
+1) Sistem izvršava Sistemsku Operaciju(SO):
+2) Rezultat sistemske operacije (Izlazni argumenti (IA)) se prosleđuje do aktora.
+
+31. Šta je konceptualni model?
+Konceptualni model opisuje konceptualne klase domena problema.
+Konceptualni model sadrži konceptualne klase (domenske objekte) i asocijacije
+između konceptualnih klasa. Često se za konceptualne modele kaže da su to
+domenski modeli ili modeli objektne analize.
+
+32. Dijagram sekvenci u fazi ‘Analiza’?
+Sistemski dijagram sekvenci prikazuje, za izdvojeni scenario SK, događaje u
+određenom redosledu, koji uspostavljaju interakciju između aktora i softverskog
+sistema.
+
+33. Arhitektura softverskog sistema
+Tronivojska arhitektura se sastoji iz sledećih nivoa:
+1. Korisničkog interfejsa koji predstavlja ulazno-izlaznu reprezentaciju
+softverskog sistema.
+2. Aplikacione logike koja opisuje strukturu i ponašanje softverskog sistema.
+3. Skladišta podataka koji čuva stanje atributa softverskog sistema.
+
+34. Od čega se sastoji softverski sistem?
+Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju
+strukturu sistema, dok sistemske operacije opisuju ponašanje sistema.
+Dopustivi ulaz u softverski sistem je definisan potpisom (signaturom), koji sadrži
+naziv sistemske operacije koja se poziva i skupom ulaznih argumenata. Izlaz iz
+softverskog sistema je predstavljen preko skupa izlaznih argumenata. Izlaz se
+dobija kao rezultat izvršenja neke od sistemskih operacija nad atributima
+sistema.
+
+35. Šta su zahtevi?
+Zahtevi predstavljaju svojstva i uslove koje sistem ili šire gledajući projekat mora
+da zadovolji. Postoje različiti tipovi zahteva koje sistem mora da zadovolji i oni su
+kategorizovani prema FURPS+ (Functional - Funkcionalnost, Usability -
+Upotrebljivost, Reliability - Pouzdanost, Performance - Performanse,
+Supportability - Podrživost) modelu.
+Zahtevi se često kategorizuju kao funkcionalni i ne-funkcionalni zahtevi.
+Funkcionalni zahtevi se opisuju preko modela slučajeva korišćenja, dok ne-
+funkcionalni zahtevi definišu sve ostale zahteve. U tom smislu ne-funkcionalni
+zahtevi (upotrebljivost, pouzdanost, performanse i podrživost sistema)
+predstavljaju atribute kvaliteta (quality attributes) softverskog sistema.
+U FURPS+ modelu znak ‘+’ ukazuje na pomoćne zahteve koji se odnose na
+implementaciju, interfejs, operacije, pakovanje, legalnost.
+
+36. Koliko ima osnovnih, a koliko alternativnih scenarija?
+Slučaj korišćenja ima jedan glavni i više alternativnih scenaria.
+
+37. Opisati dijagram sekvenci I nacrtati primer
+Sistemski dijagram sekvenci prikazuje, za izdvojeni scenario SK, događaje u
+određenom redosledu, koji uspostavljaju interakciju između aktora i softverskog
+sistema.
+
+U toku izvršenja sistemske operacije nad strukturom softverskog sistema podaci
+moraju da ostanu konzistentni, odnosno moraju da budu zadovoljena vrednosna i
+strukturna organičenja definisana nad podacima.
+Vrednosna ograničenja se odnose na dozvoljene vrednosti atributa domenskih
+klasa (tabela) i ona se dele na:
+• prosta vrednosna ograničenja - ograničenja vezana za domen (tip) atributa
+i vrednost atributa.
+• složena vrednosna ograničenja - ograničenja vezana za međuzavisnost
+atributa.
+
+Strukturna organičenja su definisana preko kardinalnosti preslikavanja između
+domenskih klasa (tabela).
+Pri izvršenju operacija ubaci i promeni objekat (slog) proveravaju se i vrednosna
+i strukturna ograničenja. Ove provere se rade u odeljku preduslovi kod ugovora
+za sistemske operacije. U odeljku postuslovi se navodi rezultat operacija ubaci i
+promeni.
+Pri izvršenju operacije obriši objekat (slog) proveravaju se strukturna
+ograničenja. Ova provera se radi u odeljku preduslovi ili u odeljku postuslovi
+kod ugovora za sistemske operacije. U odeljku postuslovi se navodi rezultat
+operacija obriši.
+Pri izvršenju operacije izveštavanja ne proveravaju se vrednosna i strukturna
+ograničenja. Kod ugovora za sistemske operacije u odeljcima postuslovi i
+preduslovi ništa se ne navodi.
+
+42. Šta je rezultat faze ‘Analiza’?
+Kao rezultat analize scenarija SK dobijaju se zahtevi za izvršenje sistemskih
+operacija. Za svaku sistemsku operaciju se prave ugovori(kontrakti).
+
+43. Navesti I objasniti akcije aktora
+Aktor izvodi jednu od tri vrste akcija:
+a) Aktor Priprema Ulaz (Ulazne Argumente) za Sistemsku Operaciju (APUSO).
+b) Aktor Poziva sistem da izvrši Sistemsku Operaciju (APSO).
+
+c) Aktor izvršava NeSistemsku Operaciju (ANSO).
+Sistem izvodi dve akcije u kontinuitetu:
+a) Sistem izvršava Sistemsku Operaciju(SO):
+b) Rezultat sistemske operacije (Izlazni argumenti (IA)) se prosleđuje do aktora.
+Aktor (učesnik) predstavlja spoljnog korisnika sistema. On postavlja zahtev
+sistemu da izvrši jednu ili više sistemskih operacija, po unapred definisanom
+scenariu . Sistem odgovara na postavljeni zahtev aktora, šaljući mu vrednost
+izlaznih argumenata kao rezultat izvršenja operacija.
+Aktor se obično definiše kao neko ili nešto (npr: ljudi, računarski sistemi ili
+organizaciona jedinica) što ima ponašanje.
+
+44. Koliko ima sekvencijalnih dijagrama u analizi za jedan slučaj korišćenja?
+Jedan za glavni scenario i po jedan za alternativni.
+
+45. Navesti I objasniti akcije sistema
+Aktor izvodi jednu od tri vrste akcija:
+a) Aktor Priprema Ulaz (Ulazne Argumente) za Sistemsku Operaciju (APUSO).
+b) Aktor Poziva sistem da izvrši Sistemsku Operaciju (APSO).
+c) Aktor izvršava NeSistemsku Operaciju (ANSO).
+Sistem izvodi dve akcije u kontinuitetu:
+a) Sistem izvršava Sistemsku Operaciju(SO):
+b) Rezultat sistemske operacije (Izlazni argumenti (IA)) se prosleđuje do
+aktora.
+
+46. Medjuzavisnost elemenata u razvoju softverskog sistema – slika I objašnjenje
+U fazi projektovanja se pravi arhitektura softverskog sistema koja je tronivojska
+
+(korisnički interfejs, aplikaciona logika i skladište podataka). Korisnički interfejs je
+definisan preko skupa ekranskih formi. Scenarija korišćenja ekranskih formi je
+direktno povezan sa scenarijima slučajeva korišćenja. Poslovna logika, koja se
+dobija u fazi analize, se prenosi u fazu projektovanja i postaje sastavni deo
+aplikacione logike. Skladište podataka se projektuje na osnovu relacionog
+modela. Implementacione komponente, iz faze implementacije, treba da realizuju
+komponente koje su dobijene u fazi projektovanja. Svaka od implementacionih
+komponenti se testira u fazi testiranja.
+
+47. Od čega se sastoji Model SK?
+Model SK se sastoji od skupa slučaja korišćenja (SK), aktora (AK) i veza između
+
+slučaja korišćenja i aktora.
+
+48. Šta je softverski sistem?
+Softverski sistem je sistem međusobno povezanih komponenti zasnovanih na
+softveru koji čini deo računarskog sistema (kombinacija hardvera i softvera). On
+se sastoji od većeg broja zasebnih programa, konfiguracionih fajlova, koji se
+koriste za podešavanje ovih programa, sistemske dokumentacije, koja opisuje
+strukturu sistema, i koriničke dokumentacije, koja objašnjava kako se sistem
+koristi.

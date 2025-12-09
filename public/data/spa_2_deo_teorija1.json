@@ -104,14 +104,14 @@
   {
     "id": 18,
     "question": "Visina kompletnog binarnog stabla?",
-    "answers": ["⌊log₂(n)⌋", "n/2", "n", "2n"],
-    "correctAnswer": "⌊log₂(n)⌋"
+    "answers": ["⌊log₂(n)⌋+1", "n/2", "n", "2n"],
+    "correctAnswer": "⌊log₂(n)⌋+1"
   },
   {
     "id": 19,
     "question": "Dato binarno stablo – izbaciti koren?",
     "answers": ["Zameni sa najvećim u levom podstablu", "Zameni sa najmanjim u desnom podstablu", "Obriši čitavo stablo", "Ukloni samo levo dete"],
-    "correctAnswer": "Zameni sa najvećim u levom podstablu"
+    "correctAnswer": "Zameni sa najvećim u levom podstablu,"
   },
   {
     "id": 20,

@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "question": "Šta je softverski sistem?",
+    "answers": [],
+    "correctAnswer": "Softverski sistem je sistem međusobno povezanih komponenti zasnovanih na softveru koji čini deo računarskog sistema (kombinacija hardvera i softvera). On se sastoji od većeg broja zasebnih programa, konfiguracionih fajlova, koji se koriste za podešavanje ovih programa, sistemske dokumentacije, koja opisuje strukturu sistema, i koriničke dokumentacije, koja objašnjava kako se sistem koristi."
+  },
+  {
+    "id": 2,
+    "question": "Od čega se sastoji softverski sistem?",
+    "answers": [],
+    "correctAnswer": "Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju strukturu sistema, dok sistemske operacije opisuju ponašanje sistema."
+  },
+  {
+    "id": 3,
+    "question": "Šta su atributi softverskog sistema?",
+    "answers": [],
+    "correctAnswer": "Atributi opisuju strukturu sistema i predstavljaju koncepte realnog sistema koji opisuju statičke karakteristike sistema."
+  },
+  {
+    "id": 4,
+    "question": "Sistemske operacije",
+    "answers": [],
+    "correctAnswer": "Sistemske operacije opisuju ponašanje sistema i predstavljaju osnovne (atomske) funkcije sistema koje se mogu koristiti iz okruženja sistema."
+  },
+  {
+    "id": 5,
+    "question": "Dopustivi ulazi u softverski sistem",
+    "answers": [],
+    "correctAnswer": "Dopustivi ulaz u softverski sistem je definisan potpisom (signaturom), koji sadrži naziv sistemske operacije koja se poziva i skupom ulaznih argumenata."
+  },
+  {
+    "id": 6,
+    "question": "Šta je izlaz iz softverskog sistema?",
+    "answers": [],
+    "correctAnswer": "Izlaz iz softverskog sistema je predstavljen preko skupa izlaznih argumenata. Izlaz se dobija kao rezultat izvršenja neke od sistemskih operacija nad atributima sistema."
+  },
+  {
+    "id": 7,
+    "question": "Uprošćena Larmanova metoda i faze razvoja softvera",
+    "answers": [],
+    "correctAnswer": "Razvoj (životni ciklus) softverskog sistema se sastoji iz sledećih faza (Slika RASS): Prikupljanja zahteva od korisnika, Analize, Projektovanja, Implementacije, Testiranja."
+  },
+  {
+    "id": 8,
+    "question": "Šta su funckionalni i nefunkcionalni zahtevi?",
+    "answers": [],
+    "correctAnswer": "Funkcionalni zahtevi definišu zahtevane funkcije sistema, dok nefunkcionalni zahtevi definišu sve ostale zahteve. Nefunkcionalni zahtevi kao što su upotrebljivost, pouzdanost, performanse i podrživost sistema predstavljaju atribute kvaliteta softverskog sistema. Funkcionalni zahtevi se opisuju preko modela slučaja korišćenja."
+  },
+  {
+    "id": 9,
+    "question": "Šta predstavlja FURPS+ model?",
+    "answers": [],
+    "correctAnswer": "U FURPS+ modelu znak '+' ukazuje na pomoćne zahteve koji se odnose na: Implementaciju, Interfejs, Operacije, Pakovanje, Legalnost. (F-Functional, U-Usability, R-Reliability, P-Performance, S-Supportability)."
+  },
+  {
+    "id": 10,
+    "question": "Pouzdanost održivog softverskog sistema",
+    "answers": [],
+    "correctAnswer": "Pouzdanost predstavlja sposobnost sistema da može uspešno obraditi problem (failure) koji se dešava u toku izvršenja sistema. U tom smislu sistem mora da obezbedi način oporavka (recoverability) podataka u slučaju nasilnog prekida rada sistema. Takođe sistem treba da omogući predviđanje (predictability) mogućih ponašanja sistema."
+  },
+  {
+    "id": 11,
+    "question": "Objasniti model slučajeva korišćenja, šta opisuje SK, šta opisuje jedan scenario SK",
+    "answers": [],
+    "correctAnswer": "Slučaj korišćenja opisuje skup scenarija (use-case pojavljivanja), odnosno skup željenih korišćenja sistema od strane aktora. Scenario opisuje jedno željeno korišćenje sistema od strane aktora. Scenario je opisan preko: a) sekvence akcija i b) interakcija između aktora i sistema."
+  },
+  {
+    "id": 12,
+    "question": "Tipovi akcija koje izvodi aktor (APSO, IA, ANSO)",
+    "answers": [],
+    "correctAnswer": "Aktor izvodi: APUSO (Aktor Priprema Ulaz za Sistemsku Operaciju), APSO (Aktor Poziva Sistemsku Operaciju), ANSO (Aktor izvršava NeSistemsku Operaciju). Sistem izvodi: SO (Sistem izvršava Sistemsku Operaciju), IA (Izlazni Argumenti se prosleđuju aktoru)."
+  },
+  {
+    "id": 13,
+    "question": "Definicije aktora, osnovnog scenaria, alternativnog scenaria",
+    "answers": [],
+    "correctAnswer": "Aktor (učesnik) predstavlja spoljnog korisnika sistema koji postavlja zahtev sistemu. Osnovni scenario opisuje tipičan uspeh, dok alternativni scenariji opisuju ređe situacije ili greške. Slučaj korišćenja ima jedan glavni i više alternativnih scenarija."
+  },
+  {
+    "id": 14,
+    "question": "Glass's law",
+    "answers": [],
+    "correctAnswer": "Nedostaci kod definisanja zahteva su osnovni razlog mogućeg neuspeha u razvoju projekta (programa)."
+  },
+  {
+    "id": 15,
+    "question": "Boehm's first and second law",
+    "answers": [],
+    "correctAnswer": "Boehm's first law: Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa. Boehm's second law: Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa."
+  },
+  {
+    "id": 16,
+    "question": "Kako se tekstualno predstavlja slučaj korišćenja?",
+    "answers": [],
+    "correctAnswer": "Tekstualni opis SK ima strukturu: Naziv SK, Aktore SK, Učesnike SK, Preduslovi, Osnovni scenario, Postuslovi, Alternativna scenarija, Specijalni zahtevi, Tehnološki zahtevi, Otvorena pitanja."
+  },
+  {
+    "id": 17,
+    "question": "Konceptualno da se objasni sta se radi u fazi analize i šta je rezultat faze analize",
+    "answers": [],
+    "correctAnswer": "Faza analize opisuje logičku strukturu i ponašanje softverskog sistema (poslovnu logiku). Struktura se opisuje pomoću konceptualnog i relacionog modela. Ponašanje se opisuje pomoću sistemskih dijagrama sekvenci i sistemskih operacija. Rezultat su: dijagram klasa (konceptualni model), relacioni model, dijagrami sekvenci i ugovori sistemskih operacija."
+  },
+  {
+    "id": 18,
+    "question": "Sekvencni dijagrami da se objasne",
+    "answers": [],
+    "correctAnswer": "Sistemski dijagram sekvenci prikazuje, za izdvojeni scenario SK, događaje u određenom redosledu, koji uspostavljaju interakciju između aktora i softverskog sistema. Dobijaju se na osnovu scenarija SK (samo APSO i IA akcije)."
+  },
+  {
+    "id": 19,
+    "question": "Sistemske operacije (preduslovi, postuslovi) i ugovori za sistemske operacije",
+    "answers": [],
+    "correctAnswer": "Ugovori opisuju šta operacija treba da radi. Sekcije: Operacija, Veza sa SK, Preduslov (stanje pre izvršenja), Postuslov (stanje posle izvršenja). Preduslovi ukazuju šta je trebalo da se desi da bi se SO izvršila. Postuslovi ukazuju šta treba da se desi nakon izvršenja SO."
+  },
+  {
+    "id": 20,
+    "question": "Šta su strukturna ograničenja, kako se proveravaju vrednosna i strukturna ograničenja?",
+    "answers": [],
+    "correctAnswer": "Vrednosna ograničenja se odnose na dozvoljene vrednosti atributa (prosta i složena). Strukturna ograničenja su definisana kardinalnostima preslikavanja. Kod UBACI i PROMENI proveravaju se i vrednosna i strukturna (u preduslovima). Kod OBRIŠI proveravaju se strukturna (u preduslovima). Kod PRETRAŽI/PRIKAŽI se ne proveravaju."
+  },
+  {
+    "id": 21,
+    "question": "Šta je konceptualni model?",
+    "answers": [],
+    "correctAnswer": "Konceptualni model opisuje konceptualne klase domena problema. Sadrži konceptualne klase (domenske objekte) i asocijacije između njih."
+  },
+  {
+    "id": 22,
+    "question": "Šta je asocijacija kod konceptualnih klasa?",
+    "answers": [],
+    "correctAnswer": "Asocijacija je veza između konceptualnih klasa. Svaki kraj asocijacije predstavlja ulogu (ime, preslikavanje, navigaciju)."
+  },
+  {
+    "id": 23,
+    "question": "Transformacija konceptualnog u relacioni model",
+    "answers": [],
+    "correctAnswer": "Na osnovu konceptualnog modela pravi se relacioni model (baza podataka). Primer: Klasa Racun postaje tabela Racun, Klasa StavkaRacuna postaje tabela StavkaRacuna sa stranim ključem ka Racunu."
+  },
+  {
+    "id": 24,
+    "question": "Troniovojska arhitektura",
+    "answers": [],
+    "correctAnswer": "Sastoji se od: 1. Korisničkog interfejsa (UI), 2. Aplikacione logike (struktura i ponašanje), 3. Skladišta podataka (baza). Pravila: AL nezavisna od KI; AL može imati više KI; Model ne zna za View."
+  },
+  {
+    "id": 25,
+    "question": "Objasniti aplikacionu logiku",
+    "answers": [],
+    "correctAnswer": "Aplikaciona logika opisuje strukturu i ponašanje sistema. Sastoji se od kontrolera aplikacione logike, poslovne logike (domenske klase i sistemske operacije) i brokera baze podataka."
+  },
+  {
+    "id": 26,
+    "question": "Ekranske forme kod korisničkog interfejsa",
+    "answers": [],
+    "correctAnswer": "Ekranska forma je odgovorna da prihvata podatke i događaje od aktora, poziva kontrolera UI i prikazuje podatke. Dva aspekta: Projektovanje scenarija SK (kako se koristi forma) i projektovanje metoda forme."
+  },
+  {
+    "id": 27,
+    "question": "Šta je korisnički interfejs?",
+    "answers": [],
+    "correctAnswer": "Korisnički interfejs predstavlja realizaciju ulaza i/ili izlaza softverskog sistema. (Definicija LAZ1). NIJE deo softverskog sistema."
+  },
+  {
+    "id": 28,
+    "question": "Objasniti šta je kontroler korisničkog interfejsa i kontroler aplikacione logike",
+    "answers": [],
+    "correctAnswer": "Kontroler KI: prihvata podatke od forme, konvertuje u domenski objekat, šalje zahtev aplikacionom serveru, prihvata odgovor i konvertuje za prikaz. Kontroler AL: podiže serverski soket, osluškuje mrežu, za svakog klijenta kreira nit (NitKlijenta) koja uspostavlja vezu."
+  },
+  {
+    "id": 29,
+    "question": "Template method pattern",
+    "answers": [],
+    "correctAnswer": "Definiše kostur (skelet) algoritma u operaciji, prepuštajući definisanje nekih koraka potklasama. Template Method omogućava potklasama da redefinišu određene korake algoritma bez promene strukture algoritma."
+  },
+  {
+    "id": 30,
+    "question": "Open-closed princip",
+    "answers": [],
+    "correctAnswer": "Modul treba da bude otvoren za proširenje, ali zatvoren za modifikaciju. (Open for extension, closed for modification)."
+  },
+  {
+    "id": 31,
+    "question": "Spojenost i kohezija",
+    "answers": [],
+    "correctAnswer": "Kohezija: mera povezanosti metoda unutar klase (želimo VISOKU koheziju - metode rade zajedno na jednom zadatku). Spojenost (Coupling): mera zavisnosti između klasa (želimo SLABU spojenost - klase su nezavisne)."
+  },
+  {
+    "id": 32,
+    "question": "Šta je rezultat faze projektovanja?",
+    "answers": [],
+    "correctAnswer": "Arhitektura softverskog sistema (tronivojska), definisane komponente, interfejsi, ekranske forme, detaljno projektovanje klasa i baze podataka."
+  },
+  {
+    "id": 33,
+    "question": "Koliko niti se izvršava na serverskoj strani? Obrazloži",
+    "answers": [],
+    "correctAnswer": "Izvršava se 1 (glavna nit koja osluškuje port) + N (niti klijenata), gde je N broj aktivnih klijentskih konekcija. Svaki klijent dobija svoju nit za komunikaciju."
+  },
+  {
+    "id": 34,
+    "question": "Holivudski princip",
+    "answers": [],
+    "correctAnswer": "\"Don't call us, we'll call you.\" Komponente višeg nivoa ne zavise od komponenti nižeg nivoa. Niži nivo se poziva samo kad je potrebno (inverzija kontrole). Primer: Broker baze podataka."
+  },
+  {
+    "id": 35,
+    "question": "Napisati kod genericke metode izmeniSlog (promeniSlog)",
+    "answers": [],
+    "correctAnswer": "public boolean promeniSlog(OpstiDomenskiObjekat odo) { String upit = \"UPDATE \" + odo.vratiImeKlase() + \" SET \" + odo.postaviVrednostiAtributa() + \" WHERE \" + odo.vratiUslovZaNadjiSlog(); st.executeUpdate(upit); ... }"
+  },
+  {
+    "id": 36,
+    "question": "Da li u jednom izvrsenju SK mogu da se izvrse 2 scenarija?",
+    "answers": [],
+    "correctAnswer": "Ne mogu, jer svaki slučaj korišćenja se sastoji iz glavnog i alternativnog scenarija koji se međusobno isključuju."
+  },
+  {
+    "id": 37,
+    "question": "Zašto je uveden kontrolor APL?",
+    "answers": [],
+    "correctAnswer": "Da bi se sve odvijalo preko jednostavnog interfejsa. On krije poslovnu logiku sistema i pruža korisniku što jednostavnije korišćenje sistema. Takođe upravlja mrežnom komunikacijom (soketi)."
+  },
+  {
+    "id": 38,
+    "question": "Zašto je potrebno da se def. relacioni model u fazi analize?",
+    "answers": [],
+    "correctAnswer": "Zato što se na osnovu njega kasnije projektuje relaciona baza podataka. Baza je temelj; ako nije dobro projektovana, kasnije promene su skupe."
+  },
+  {
+    "id": 39,
+    "question": "Da li iste akcije mogu da se koriste u više scenarija istog SK?",
+    "answers": [],
+    "correctAnswer": "Da."
+  },
+  {
+    "id": 40,
+    "question": "Da li u jednom SK moze da se ponovi ista akcija?",
+    "answers": [],
+    "correctAnswer": "Da, npr. kod logovanja ukoliko šifra nije dobra, prikazuje se greška i ponovo se unosi šifra."
+  },
+  {
+    "id": 41,
+    "question": "Šta se dešava sa SO kad preduslovi nisu zadovoljeni?",
+    "answers": [],
+    "correctAnswer": "Sistemska operacija se neće izvršiti. Preduslovi garantuju da je sistem u odgovarajućem stanju za izvršenje operacije."
+  },
+  {
+    "id": 42,
+    "question": "Da li je KI deo softverskog sistema?",
+    "answers": [],
+    "correctAnswer": "Ne. KI nije deo softverskog sistema; sistem nema predstavu gde se KI nalazi (Model-View Separation)."
+  },
+  {
+    "id": 43,
+    "question": "Od čega se sastoji Model SK?",
+    "answers": [],
+    "correctAnswer": "Od skupa slučajeva korišćenja (SK), aktora (AK) и veza između slučajeva korišćenja i aktora."
+  },
+  {
+    "id": 44,
+    "question": "Da li klase SO pozivaju jedna drugu?",
+    "answers": [],
+    "correctAnswer": "Ne. Sistemske operacije su nezavisne (obično)."
+  },
+  {
+    "id": 45,
+    "question": "Zašto je svaka SO implementirana u posebnoj klasi?",
+    "answers": [],
+    "correctAnswer": "Radi lakšeg održavanja, modularnosti i izbegavanja dupliranja koda (ako se koristi nasleđivanje/Template method)."
+  },
+  {
+    "id": 46,
+    "question": "Čemu služi DBBR (Broker Baze Podataka)?",
+    "answers": [],
+    "correctAnswer": "Služi kao posrednik između baze i softverskog sistema. Zadužen је za sve operacije nad bazom (select, insert, update, delete)."
+  },
+  {
+    "id": 47,
+    "question": "Zašto se AL projektuje nezavisno od KI?",
+    "answers": [],
+    "correctAnswer": "Radi fleksibilnosti (različiti interfejsi za istu logiku) i lakšeg održavanja (promena UI ne utiče na logiku)."
+  },
+  {
+    "id": 48,
+    "question": "U kakvoj su vezi redundansa i održavanje sistema?",
+    "answers": [],
+    "correctAnswer": "Nezavisnost scenarija povećava redundansu ali olakšava održavanje. Redundansa i lakoća održavanja su često obrnuto srazmerni u ovom kontekstu (veća redundansa, lakše lokalno održavanje, teže globalne izmene? - Ili obrnuto: ako su scenarija spregnuta, održavanje je teže)."
+  },
+  {
+    "id": 49,
+    "question": "Princip inverzije zavisnosti (Dependency Inversion)",
+    "answers": [],
+    "correctAnswer": "1. Moduli višeg nivoa ne treba da zavise od modula nižeg nivoa. Oba treba da zavise od apstrakcije. 2. Apstrakcije ne treba da zavise od detalja. Detalji treba da zavise od apstrakcije."
+  },
+  {
+    "id": 50,
+    "question": "Iskodirati glavnu i pomoćnu nit",
+    "answers": [],
+    "correctAnswer": "Glavna: while(true){ socket.accept(); new Thread(client).start(); } Pomoćna (run metoda): while(uslov) { ...radi... }"
+  },
+  {
+    "id": 51,
+    "question": "Šta su aplikacioni serveri?",
+    "answers": [],
+    "correctAnswer": "Aplikacioni serveri su softverski okviri napravljeni na osnovu tronivojske arhitekture odgovorni da obezbede servise za realizaciju aplikacione logike. Sastoje se iz tri dela: dela za komunikaciju sa klijentom, dela za komunikaciju sa bazom i dela koji sadrži poslovnu logiku."
+  },
+  {
+    "id": 52,
+    "question": "Kako se šalje objekat domenske klase od klijenta do servera?",
+    "answers": [],
+    "correctAnswer": "Šalje se preko soketa korišćenjem objektih tokova (ObjectOutputStream). Klasa objekta mora biti serijalizabilna (implementirati Serializable interfejs). Klijent konvertuje objekat u niz bajtova (serijalizacija) i šalje ga mrežom, a server ga prima i rekonstruiše (deserijalizacija)."
+  },
+  {
+    "id": 53,
+    "question": "Šta je serijalizacija?",
+    "answers": [],
+    "correctAnswer": "Serijalizacija je proces konvertovanja objekta u niz bajtova kako bi se mogao sačuvati u fajl ili poslati preko mreže. Deserijalizacija je obrnut proces."
+  },
+  {
+    "id": 54,
+    "question": "Primer za generisanje i prijem događaja",
+    "answers": [],
+    "correctAnswer": "Grafički korisnički interfejs (forme) generiše događaje (npr. klik na dugme). Kontroler korisničkog interfejsa prima te događaje, obrađuje ih i putem soketa šalje zahteve serveru."
+  },
+  {
+    "id": 55,
+    "question": "Dati primer realizacije neke SO koja je predstavljena preko sekvencnog dijagrama",
+    "answers": [],
+    "correctAnswer": "InsertSistemskaOperacija: 1. insert -> ubaciSlog(Artikal), 2. -> DBBroker (poziv brokera), 3. <-- signal (povratna informacija o uspešnosti)."
+  },
+  {
+    "id": 56,
+    "question": "Šta se dobija na osnovu sekvencnog dijagrama u fazi analize?",
+    "answers": [],
+    "correctAnswer": "Dobijaju se sistemske operacije koje treba projektovati (i njihovi potpisi)."
+  },
+  {
+    "id": 57,
+    "question": "Ako se ne naprave ugovori koji bi problemi bili?",
+    "answers": [],
+    "correctAnswer": "Ne bi se tačno znalo šta SO treba da radi, koje su veze sa drugim SK, i najvažnije, ne bi se znali postuslovi (šta je rezultat SO), što bi dovelo do problema u projektovanju i implementaciji."
+  },
+  {
+    "id": 58,
+    "question": "Da li su akcije koje izvodi aktor kontinualne?",
+    "answers": [],
+    "correctAnswer": "Ne, zahtev za izvršenje SO se ne odigrava kontinualno nego diskretno. Korisnik interaktivno poziva jednu po jednu sistemsku operaciju u diskretnim vremenskim intervalima."
+  },
+  {
+    "id": 59,
+    "question": "Dijagram prelaza stanja",
+    "answers": [],
+    "correctAnswer": "Koristi se za modelovanje dinamičkog ponašanja objekta. Prikazuje stanja kroz koja objekat prolazi tokom svog životnog ciklusa kao odgovor na događaje."
+  },
+  {
+    "id": 60,
+    "question": "Transakcije commit, rollback",
+    "answers": [],
+    "correctAnswer": "Commit potvrđuje da su sve operacije u okviru transakcije uspešno izvršene i trajno čuva promene. Rollback poništava sve efekte operacija u okviru transakcije ako dođe do greške, vraćajući sistem u prethodno stanje."
+  },
+  {
+    "id": 61,
+    "question": "Ako ne postoji DBBR (Broker Baze), koji su problemi?",
+    "answers": [],
+    "correctAnswer": "Znatno teže bi bilo održavanje sistema jer bi SQL kod bio izmešan sa poslovnom logikom. Imali bismo više posla da dodamo novu funkcionalnost i teže bi se upravljalo materijalizacijom i dematerijalizacijom objekata."
+  },
+  {
+    "id": 62,
+    "question": "Može li sistem imati više scenarija?",
+    "answers": [],
+    "correctAnswer": "Da, sistem se sastoji od skupa Slučajeva Korišćenja, a svaki SK ima jedan glavni i više alternativnih scenarija."
+  },
+  {
+    "id": 63,
+    "question": "Šta je generička metoda?",
+    "answers": [],
+    "correctAnswer": "Metoda projektovana da radi sa opštim tipom (interfejsom ili apstraktnom klasom, npr. OpstiDomenskiObjekat) umesto sa konkretnim tipom, čime se omogućava njena primena na različite klase bez dupliranja koda."
+  },
+  {
+    "id": 64,
+    "question": "Objasniti preko koda kontroler aplikacione logike",
+    "answers": [],
+    "correctAnswer": "Kontroler AL podiže ServerSocket(port). U petlji čeka klijente (ss.accept()). Kada se klijent poveže, kreira novu nit (Klijent) i prosleđuje joj soket. Nit (run metoda) čita zahteve (readObject), poziva odgovarajuće SO (npr. KreirajNovi.kreirajNovi) i vraća odgovor (writeObject)."
+  },
+  {
+    "id": 65,
+    "question": "Šta podrazumeva zadatak prevođenja konceptualnog modela u relacioni model?",
+    "answers": [],
+    "correctAnswer": "Na osnovu datog konceptualnog modela (klase i veze) treba napisati relacioni model (tabele, primarne ključeve, spoljne ključeve), pazeći na prenošenje ključeva kod nasleđivanja i jakih/slabih objekata."
+  },
+  {
+    "id": 66,
+    "question": "Šta je ključno znati kod definisanja tabele strukturnih ograničenja?",
+    "answers": [],
+    "correctAnswer": "Mora se znati pravila za INSERT, UPDATE i DELETE (npr. Restrict, Cascade) za definisani relacioni model."
+  },
+  {
+    "id": 67,
+    "question": "Na šta treba posebno obratiti pažnju kod crtanja sistemskog dijagrama sekvenci?",
+    "answers": [],
+    "correctAnswer": "Treba paziti na alternativne scenarije (grananje) na osnovu datog Slučaja Korišćenja."
+  },
+  {
+    "id": 68,
+    "question": "Koje dve metode razvoja softvera treba znati objasniti (uz slike)?",
+    "answers": [],
+    "correctAnswer": "SILAB metodu razvoja softvera i Uprošćenu Larmanovu metodu."
+  },
+  {
+    "id": 69,
+    "question": "Šta je konzistentnost podataka (definicija iz beleški)?",
+    "answers": [],
+    "correctAnswer": "Stanje u kome je sve u skladu sa strukturnim ograničenjima."
+  },
+  {
+    "id": 70,
+    "question": "Kako glasi definicija Brokera baze podataka od dve reči (trik pitanje)?",
+    "answers": [],
+    "correctAnswer": "Generički i Perzistentni okvir."
+  },
+  {
+    "id": 71,
+    "question": "Koji principi projektovanja se uče (samo prva dva)?",
+    "answers": [],
+    "correctAnswer": "Apstrakcija i Spojenost (Coupling) i Kohezija."
+  },
+  {
+    "id": 72,
+    "question": "Koji principi OO projektovanja klasa se uče (prva 4)?",
+    "answers": [],
+    "correctAnswer": "Open-Closed Principle, Liskov Substitution Principle, Dependency Inversion Principle, Dependency Injection Principle."
+  },
+  {
+    "id": 73,
+    "question": "Šta je Singleton patern (definicija)?",
+    "answers": [],
+    "correctAnswer": "Obezbeđuje klasi samo jedno pojavljivanje (instancu) i globalni pristup do nje."
+  },
+  {
+    "id": 74,
+    "question": "Šta je Abstract Factory patern (definicija)?",
+    "answers": [],
+    "correctAnswer": "Obezbeđuje interfejs za kreiranje familije povezanih ili zavisnih objekata bez navođenja (specifikovanja) njihovih konkretnih klasa."
+  },
+  {
+    "id": 75,
+    "question": "Šta je MVC (Model-View-Controller) patern?",
+    "answers": [],
+    "correctAnswer": "To je makroarhitekturni patern koji deli softverski sistem na tri dela: Model (podaci/stanje), View (prikaz/ekranska forma) i Controller (upravljač koji prima zahteve i povezuje Model i View)."
+  },
+  {
+    "id": 76,
+    "question": "Šta je Factory Method patern?",
+    "answers": [],
+    "correctAnswer": "Definiše interfejs za kreiranje objekata, ali omogućava podklasama da donesu odluku koju klasu će instancirati (prenosi nadležnost instanciranja na podklase)."
+  },
+  {
+    "id": 77,
+    "question": "Šta je Adapter patern?",
+    "answers": [],
+    "correctAnswer": "Konvertuje interfejs neke klase u drugi interfejs koji klijent očekuje. On prilagođava nekompatibilne interfejse."
+  },
+  {
+    "id": 78,
+    "question": "Šta je Facade patern?",
+    "answers": [],
+    "correctAnswer": "Obezbeđuje jedinstven interfejs za skup interfejsa nekog podsistema, definišući interfejs visokog nivoa koji omogućava lakše korišćenje podsistema."
+  },
+  {
+    "id": 79,
+    "question": "Šta je Observer patern?",
+    "answers": [],
+    "correctAnswer": "Definiše jedan-više zavisnost između objekata, tako da promena stanja nekog objekta utiče automatski na promenu stanja svih drugih objekata koji su povezani sa njim."
+  }
+]

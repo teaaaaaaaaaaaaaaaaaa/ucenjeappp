@@ -24,6 +24,7 @@ const SUBJECT_FILES: Record<string, string> = {
   'spa_2_deo_teorija2': '/data/spa_2_deo_teorija2.json',
   'spa2_deo_teorija3': '/data/spa2_deo_teorija3.json',
   'spa2_deo_teorija4': '/data/spa2_deo_teorija4.json',
+  'projektovanje_softvera': '/data/projektovanje_softvera.json',
 };
 
 /**
