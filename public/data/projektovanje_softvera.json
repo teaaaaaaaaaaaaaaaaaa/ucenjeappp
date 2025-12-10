@@ -15,7 +15,7 @@
     "id": 3,
     "question": "Šta su atributi softverskog sistema?",
     "answers": [],
-    "correctAnswer": "Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju strukturu sistema"
+    "correctAnswer": "Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju strukturu sistema i oni predstavljaju koncepte realnog sistema koji opisuju staticke karakteristike sistema (npr. Racun, Partner, ...)."
   },
   {
     "id": 4,
@@ -51,7 +51,7 @@
     "id": 9,
     "question": "Šta predstavlja FURPS+ model?",
     "answers": [],
-    "correctAnswer": "U FURPS+ modelu znak '+' ukazuje na pomoćne zahteve koji se odnose na: Implementaciju, Interfejs, Operacije, Pakovanje, Legalnost. (F-Functional, U-Usability, R-Reliability, P-Performance, S-Supportability)."
+    "correctAnswer": "FURPS+ model je model prema kome se kategorizuju zahtevi koje sistem treba da zadovolji i sastoji se iz sledecih tipova: Functional - Fukcionalnost predstavlja sposobnost sistema da obezbedi zahtevane funkcije (ponašanje sistema); Usability - Upotrebljivost predstavlja sposobnost sistema da se jednostavno koristi; Reliability - Pouzdanost predstavlja sposobnost sistema da moze uspesno obraditi problem koji se javlja u toku izvrsenja programa, sistem mora obezbediti način oporavka podataka u slučaju nasilnog prekida rada sistema i omogucuje predviđanje ponašanja sistema; Performance - Performnse sistema se odnose na vreme odziva zahtevanih funkcija, tacnost izvrsenja funkcija, raspolozivost funkcija, propusnu moc mreze kroz koju prolaze podaci i nacin koriscenja raspolozivih resursa ; Supportability - Podrzivost sistema se odnosi na lakocu njegovog prilagodjavanja i odrzavanja, internacionalizaciju (prilagodjavanje razlicitim znakovnim sistemima) i nacinu konfigurisanja. znak '+' ukazuje na pomoćne zahteve koji se odnose na: Implementaciju, Interfejs, Operacije, Pakovanje, Legalnost."
   },
   {
     "id": 10,
