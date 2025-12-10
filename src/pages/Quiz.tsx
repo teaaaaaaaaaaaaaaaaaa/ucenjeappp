@@ -128,6 +128,8 @@ const Quiz: React.FC = () => {
         return '⚛️';
       case 'projektovanje_softvera':
         return '🏗️';
+      case 'projektovanje_softvera_ponudjeni':
+        return '🏗️';
       default:
         return '🧠';
     }

@@ -25,6 +25,7 @@ const SUBJECT_FILES: Record<string, string> = {
   'spa2_deo_teorija3': '/data/spa2_deo_teorija3.json',
   'spa2_deo_teorija4': '/data/spa2_deo_teorija4.json',
   'projektovanje_softvera': '/data/projektovanje_softvera.json',
+  'projektovanje_softvera_ponudjeni': '/data/projektovanje_softvera_ponudjeni.json',
 };
 
 /**
@@ -71,6 +72,7 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'spa2_deo_teorija3',
       'spa2_deo_teorija4',
       'projektovanje_softvera',
+      'projektovanje_softvera_ponudjeni',
     ];
     return Promise.resolve(subjects);
   } catch (error) {
