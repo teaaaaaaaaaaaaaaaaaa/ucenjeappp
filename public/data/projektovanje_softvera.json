@@ -15,7 +15,7 @@
     "id": 3,
     "question": "Šta su atributi softverskog sistema?",
     "answers": [],
-    "correctAnswer": "Atributi opisuju strukturu sistema i predstavljaju koncepte realnog sistema koji opisuju statičke karakteristike sistema."
+    "correctAnswer": "Softverski sistem se sastoji od atributa i sistemskih operacija. Atributi opisuju strukturu sistema"
   },
   {
     "id": 4,

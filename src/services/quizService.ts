@@ -70,6 +70,7 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'spa_2_deo_teorija2',
       'spa2_deo_teorija3',
       'spa2_deo_teorija4',
+      'projektovanje_softvera',
     ];
     return Promise.resolve(subjects);
   } catch (error) {

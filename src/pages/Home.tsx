@@ -115,6 +115,8 @@ const Home: React.FC = () => {
         return '🌿';
       case 'spa2_deo_teorija4':
         return '⚛️';
+      case 'projektovanje_softvera':
+        return '🏗️';
       default:
         return '🧠';
     }
@@ -167,6 +169,8 @@ const Home: React.FC = () => {
         return 'SPA 2 Deo Teorija 3';
       case 'spa2_deo_teorija4':
         return 'SPA 2 Deo Teorija 4';
+      case 'projektovanje_softvera':
+        return 'Projektovanje Softvera';
       default:
         return subject;
     }
