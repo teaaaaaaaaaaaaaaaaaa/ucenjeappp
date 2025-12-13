@@ -117,6 +117,18 @@ const Home: React.FC = () => {
         return '⚛️';
       case 'projektovanje_softvera':
         return '🏗️';
+      case 'RMT_sa_modlla':
+        return '🌐';
+      case 'RMT_Podebljano_al_sivo':
+        return '📡';
+      case 'RMT_otvorena_':
+        return '📝';
+      case 'RMT_kvizlet_random':
+        return '🎲';
+      case 'RMT_prepravljeno_TEA':
+        return '📚';
+      case 'RMT_sa_modlla_dva':
+        return '🌍';
       default:
         return '🧠';
     }
@@ -171,6 +183,18 @@ const Home: React.FC = () => {
         return 'SPA 2 Deo Teorija 4';
       case 'projektovanje_softvera':
         return 'Projektovanje Softvera';
+      case 'RMT_sa_modlla':
+        return 'RMT - Računarske Mreže i Telekomunikacije';
+      case 'RMT_Podebljano_al_sivo':
+        return 'RMT - Podebljano (Sivo)';
+      case 'RMT_otvorena_':
+        return 'RMT - Otvorena Pitanja';
+      case 'RMT_kvizlet_random':
+        return 'RMT - Kvizlet Random';
+      case 'RMT_prepravljeno_TEA':
+        return 'RMT - Prepravljeno TEA';
+      case 'RMT_sa_modlla_dva':
+        return 'RMT - Sa Modula 2';
       default:
         return subject;
     }

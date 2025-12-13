@@ -1,0 +1,547 @@
+[
+  {
+    "id": 1,
+    "question": "10BaseT Eternet je LAN:",
+    "answers": [
+      "zvezda topologije",
+      "topologije prstena",
+      "linearne topologije (magistrala)",
+      "nijedno od toga"
+    ],
+    "correctAnswer": "zvezda topologije"
+  },
+  {
+    "id": 2,
+    "question": "Ako posmatramo mrežu koja se sastoji od više povezanih 10BaseT hub-ova, i ne sadrži ni jedan bridge ili ruter. Onda možemo da kažemo da ova mreža ima jedan kolizioni domen?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 3,
+    "question": "Ako posmatramo ruter sa višestrukim ARP tabelama, svaka za pojedinačni interfejs. Ni jedna od tih ARP tabela ne može da sadrži istu LAN adresu?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 4,
+    "question": "Ako razmatramo slanje 1300 bajtova preko linka koji koristi MTU veličine 500 bajtova biće:",
+    "answers": [
+      "tri segmenta sa offset-ovima 0, 500, 1000",
+      "tri segmenta sa offset-ovima 0, 480, 960",
+      "tri segmenta sa offset-ovima 0, 460, 920"
+    ],
+    "correctAnswer": "tri segmenta sa offset-ovima 0, 480, 960"
+  },
+  {
+    "id": 5,
+    "question": "Ako se veb stranica sastoji od tačno jednog objekta, tada nepostojane i postojane konekcije imaju tačno isto vreme odgovora?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 6,
+    "question": "ARP upitni paket (query packet) je enkapsuliran u:",
+    "answers": [
+      "IP datagramu",
+      "U okviru data-linka adresiranog na specifični adapter",
+      "u cirkularnom (broadcast) okviru data-linka",
+      "nijedno od navedenog"
+    ],
+    "correctAnswer": "u cirkularnom (broadcast) okviru data-linka"
+  },
+  {
+    "id": 7,
+    "question": "CRC detekcija greške, koja se koristi u Eternetu, je uvek u mogućnosti da detektuje grešku u okviru?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 8,
+    "question": "Da li je MSS vrednost kod TCP protokola fiksna?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 9,
+    "question": "Da li je u GBN protokolu moguće da pošiljalac primi ACK za paket van njegovog trenutnog prozora?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 10,
+    "question": "Da li je u protokolu za selektivno ponavljanje moguće da pošiljalac primi ACK za paket van njegovog trenutnog prozora?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 11,
+    "question": "Da li može parna shema parity bit-a da ispravi grešku jednog bit-a?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 12,
+    "question": "Da li ruteri imaju IP adrese?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 13,
+    "question": "DNS server sadrži tabele uređenih parova:",
+    "answers": [
+      "FQDN i IP adrese",
+      "FQDN i MAC adrese",
+      "MAC adrese i IP adrese",
+      "Ništa od navedenog"
+    ],
+    "correctAnswer": "FQDN i IP adrese"
+  },
+  {
+    "id": 14,
+    "question": "Ethernet i 802.11 koriste istu strukturu okvira?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 15,
+    "question": "ICMP protokol koristi:",
+    "answers": [
+      "UDP pakete",
+      "IP pakete",
+      "TCP pakete",
+      "nijedno od ponuđenih"
+    ],
+    "correctAnswer": "IP pakete"
+  },
+  {
+    "id": 16,
+    "question": "Kada TCP segment stigne na host, socket na koji će segment biti poslat zavisi od:",
+    "answers": [
+      "polazne IP adrese datagrama u kome je enkapsuliran segment",
+      "broja polaznog porta",
+      "broja dolaznog porta",
+      "od svega prethodnog"
+    ],
+    "correctAnswer": "od svega prethodnog"
+  },
+  {
+    "id": 17,
+    "question": "Kada UDP segment stigne do hosta, da bi poslao segment na odgovarajući socket OS koristi:",
+    "answers": [
+      "broj dolaznog porta",
+      "izvorišnu IP adresu",
+      "izvorišni broj porta",
+      "sve zajedno"
+    ],
+    "correctAnswer": "broj dolaznog porta"
+  },
+  {
+    "id": 18,
+    "question": "Kod virtual-circuit packet-switched mreža, switch održava stanje za svaku konekciju koja prolazi kroz ruter.",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 19,
+    "question": "Koje od navedenih servisa Eternet obezbeđuje mrežnom sloju?",
+    "answers": [
+      "Pouzdani transfer podataka",
+      "detekciju greške",
+      "kontrolu toka",
+      "sve gore navedeno"
+    ],
+    "correctAnswer": "detekciju greške"
+  },
+  {
+    "id": 20,
+    "question": "Koje od sledećih karakteristika ima UDP:",
+    "answers": [
+      "regulisanu brzinu protoka",
+      "sinhronizaciju u tri koraka za uspostavu veze",
+      "stanje konekcije na serveru",
+      "ništa od navedenog"
+    ],
+    "correctAnswer": "ništa od navedenog"
+  },
+  {
+    "id": 21,
+    "question": "Koji pristupi kontroli zagušenja postoje na osnovu toga da li transportni sloj dobija bilo kakvu explicitnu pomoć od mrežnog sloja u svrhu kontrole zagušenja?",
+    "answers": [
+      "Kontrola zagušenja pomoću IP mapiranja",
+      "Kontrola zagušenja pomoću mreže",
+      "Kontrola zagušenja sa kraja na kraj",
+      "Kontrola zagušenja pomoću kontrole toka"
+    ],
+    "correctAnswer": ["Kontrola zagušenja pomoću mreže", "Kontrola zagušenja sa kraja na kraj"]
+  },
+  {
+    "id": 22,
+    "question": "Koliki je IPv6 adresni prostor?",
+    "answers": [
+      "2^32",
+      "2^128",
+      "2^64",
+      "2^256"
+    ],
+    "correctAnswer": "2^128"
+  },
+  {
+    "id": 23,
+    "question": "Koliko je veliki IPv4 adresni prostor?",
+    "answers": [
+      "2^32",
+      "2^64",
+      "2^128",
+      "2^48"
+    ],
+    "correctAnswer": "2^32"
+  },
+  {
+    "id": 24,
+    "question": "Koliko je veliki MAC adresni prostor?",
+    "answers": [
+      "2^32",
+      "2^64",
+      "2^128",
+      "2^48"
+    ],
+    "correctAnswer": "2^48"
+  },
+  {
+    "id": 25,
+    "question": "Mrežni deo IP adrese je isti za sve računare iste IP mreže?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 26,
+    "question": "MSS vrednost predstavlja:",
+    "answers": [
+      "maksimalna velicina TCP segmenta",
+      "maksimalna kolicina podataka aplikacionog sloja u TCP segmentu"
+    ],
+    "correctAnswer": "maksimalna kolicina podataka aplikacionog sloja u TCP segmentu"
+  },
+  {
+    "id": 27,
+    "question": "Pipelining (cevovod) zahteva sledeće karakteristike?",
+    "answers": [
+      "slanje više paketa pre prijema potvrde",
+      "jedinstveni broj sekvence za svaki paket u tranzitu",
+      "baferovanje nepotvrđenih paketa na strani servera",
+      "sve prethodno navedeno"
+    ],
+    "correctAnswer": "sve prethodno navedeno"
+  },
+  {
+    "id": 28,
+    "question": "Pretpostavimo da računar A šalje računaru B dva TCP segmenta jedan za drugim preko TCP konekcije. Prvi segment ima redni broj 90, drugi ima redni broj 110. Koliko podataka sadrži prvi segment?",
+    "answers": [
+      "10",
+      "20",
+      "0",
+      "30"
+    ],
+    "correctAnswer": "20"
+  },
+  {
+    "id": 29,
+    "question": "Pretpostavimo da računar A šalje računaru B dva TCP segmenta jedan za drugim preko TCP konekcije. Prvi segment ima redni broj 90, drugi ima redni broj 110. Uzmimo da se prvi segment izgubi, ali da drugi segment stigne do B. Koji je broj potvrde koju će računar B poslati računaru A?",
+    "answers": [
+      "ack number = 110",
+      "ack number = 1",
+      "ack number = 90",
+      "ack number = 20"
+    ],
+    "correctAnswer": "ack number = 90"
+  },
+  {
+    "id": 30,
+    "question": "Pretpostavimo da ruter ima n ulaznih portova sa identičnim brzinama, n izlaznih portova sa takođe identičnim brzinama, i brzina izlaznog porta je n puta veća od brzine ulaznog porta. Takođe pretpostavimo da je komutaciona matrica (switching fabric) n puta brža od brzine na ulaznom portu. Onda:",
+    "answers": [
+      "se čekanje u redu može pojaviti na izlaznim portovima",
+      "se čekanje u redu može pojaviti na ulaznim portovima",
+      "se čekanje u redu može pojaviti u komutacionoj matrici (switching fabric)",
+      "nema redova čekanja u ruteru"
+    ],
+    "correctAnswer": "nema redova čekanja u ruteru"
+  },
+  {
+    "id": 31,
+    "question": "Pretpostavimo da u nekom linku koji predstavlja usko grlo sa brzinom R b/s postoje dve TCP konekcije. Svaka od njih šalje veliku datoteku... Prenos počinje u isto vreme. Kakvu brzinu prenosa bi TCP pokušao da dodeli svakoj od ovih konekcija?",
+    "answers": [
+      "R b/s",
+      "R/2 b/s",
+      "R/4 b/s",
+      "R/3 b/s"
+    ],
+    "correctAnswer": "R/2 b/s"
+  },
+  {
+    "id": 32,
+    "question": "Pretpostavimo da u nekom linku koji predstavlja usko grlo sa brzinom R b/s postoje tri TCP konekcije. Svaka od njih šalje veliku datoteku... Prenos počinje u isto vreme. Kakvu brzinu prenosa bi TCP pokušao da dodeli svakoj od ovih konekcija?",
+    "answers": [
+      "R b/s",
+      "R/2 b/s",
+      "R/3 b/s",
+      "R/4 b/s"
+    ],
+    "correctAnswer": "R/3 b/s"
+  },
+  {
+    "id": 33,
+    "question": "Pretpostavite da informacioni deo paketa sadrži 10 bajtova koji se sastoje od 8-bitnih binarnih prezentacija (bez znaka) celih brojeva od 0 do 9. Kada izračunate Internet kontrolni zbir za ove podatke on ima vrednost?",
+    "answers": [
+      "11101011 11100110",
+      "00010100 00011001",
+      "11101011 00011001",
+      "00010100 11100110"
+    ],
+    "correctAnswer": "11101011 11100110"
+  },
+  {
+    "id": 34,
+    "question": "Pretpostavite da između izvorišnog i odredišnog računara postoje 3 rutera. Ako zanemarimo fragmentaciju, preko koliko interfejsa će preći IP segment koji se pošalje od izvornog do odredišnog računara? Koliko tabela pretraživanja će se indeksirati da bi se datagram preneo od izvora do odredišta?",
+    "answers": [
+      "6 interfejsa, 3 tabele napredovanja",
+      "8 interfejsa, 1 tabela napredovanja",
+      "6 interfejsa, 1 tabela napredovanja",
+      "8 interfejsa, 3 tabele napredovanja"
+    ],
+    "correctAnswer": "8 interfejsa, 3 tabele napredovanja"
+  },
+  {
+    "id": 35,
+    "question": "Pretpostavite da se veb stranica sastoji od 10 objekata od kojih je svaki veličine O bitova. Za postojani HTTP, deo vremena odgovora koji otpada na RTT iznosi 20 RTT?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 36,
+    "question": "Prilikom upisivanja brojeva potvrda kod TCP protokola, treba voditi racuna o tome da:",
+    "answers": [
+      "je broj potvrde koji jedan racunar upisuje u svoj segment zapravo redni broj sledeceg bajta koji ocekuje",
+      "je broj potvrde koji jedan racunar upisuje u svoj segment zapravo redni broj paketa koji je poslednji uspesno primljen",
+      "je broj potvrde koji jedan racunar upisuje u svoj segment zapravo redni broj sledeceg paketa koji ocekuje"
+    ],
+    "correctAnswer": "je broj potvrde koji jedan racunar upisuje u svoj segment zapravo redni broj sledeceg bajta koji ocekuje"
+  },
+  {
+    "id": 37,
+    "question": "Propusni opseg ADSL konekcije se deli.",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 38,
+    "question": "Protokol particionisanja kanala ima koje od sledećih karakteristika:",
+    "answers": [
+      "Svi transmisioni čvorovi imaju istu količinu propusne moći",
+      "ne generiše kolizije",
+      "nema master čvora",
+      "sve prethodno navedeno"
+    ],
+    "correctAnswer": "sve prethodno navedeno"
+  },
+  {
+    "id": 39,
+    "question": "Protokol sa naizmeničnim bitovima isto je što i GBN protokol gde je veličina prozora pošiljioca i primaoca jednaka 1.",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 40,
+    "question": "Protokol sa naizmeničnim bitovima je što i protokol sa selektivnim ponavljanjima gde je veličina prozora pošiljioca i primaoca jednaka 1.",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 41,
+    "question": "Razmotrite prenošenje ogromne datoteke od L bajtova sa računara A na računar B. Pretpostavite da MSS iznosi 1460 bajtova. Kolika je najveća vrednost L takva da se ne utroše svi TCP-ovi redni brojevi?",
+    "answers": [
+      "L = 2^32",
+      "L = (2^32)/1460",
+      "L = 2^32 + ((2^32)/1460)*TCPZaglavlje(66 B)"
+    ],
+    "correctAnswer": "L = 2^32"
+  },
+  {
+    "id": 42,
+    "question": "Redni broj segmenta kod TCP paketa je:",
+    "answers": [
+      "redni broj paketa",
+      "redni broj prvog bajta u toku podataka",
+      "redni broj prvog bajta u segmentu unutar toka bajtova"
+    ],
+    "correctAnswer": "redni broj prvog bajta u segmentu unutar toka bajtova"
+  },
+  {
+    "id": 43,
+    "question": "Setite se da kod protokola CSMA/CD, adapter čeka K*512 vremena trajanja jednog bita posle kolizije, gde je K slučajan broj. Za K=100, koliko dugo adapter čeka do vraćanja za postupak 2 za Ethernet od 10Mb/s?",
+    "answers": [
+      "512 msec",
+      "5.12 msec",
+      "0.512 msec",
+      "51.2 msec"
+    ],
+    "correctAnswer": "5.12 msec"
+  },
+  {
+    "id": 44,
+    "question": "\"Stop-and-wait\" protokol je krajnje neefikasan:",
+    "answers": [
+      "kada je velika razdaljina između izvora i odredišta i mali prenos",
+      "kada je kratka razdaljina između izvora i odredišta i mali prenos",
+      "kada je kratka razdaljina između izvora i odredišta i veliki prenos",
+      "kada je velika razdaljina između izvora i odredišta i visok prenos"
+    ],
+    "correctAnswer": "kada je velika razdaljina između izvora i odredišta i visok prenos"
+  },
+  {
+    "id": 45,
+    "question": "Svaki LAN adapter ima jedinstvenu LAN adresu?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 46,
+    "question": "Svi protokoli data-link nivoa imaju istu strukturu okvira (na pr, dužinu okvira broj i dužinu polja zaglavlja..)",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 47,
+    "question": "TCP konekcija izmedju klijenta i servera zapocinje:",
+    "answers": [
+      "slanjem ACK paketa",
+      "slanjem RST paketa",
+      "slanjem SYN paketa"
+    ],
+    "correctAnswer": "slanjem SYN paketa"
+  },
+  {
+    "id": 48,
+    "question": "TCP segment ima u svom zaglavlju polje za RcvWindow",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 49,
+    "question": "U CSMA/CD protokolu, pretpostavimo da čvor napravi okvir i onda primeti da je kanal zauzet:",
+    "answers": [
+      "adapter će čekati dok se kanal ne oslobodi i poslaće okvir",
+      "adapter ulazi u eksponencijalno odstupanje (BackOff)",
+      "adapter počinje sa slanjem okvira",
+      "nijedno od navedenog"
+    ],
+    "correctAnswer": "adapter će čekati dok se kanal ne oslobodi i poslaće okvir"
+  },
+  {
+    "id": 50,
+    "question": "U Eternetu, ako adapter odredi da je okvir koji je upravo stigao adresiran na neki drugi adapter uradi će:",
+    "answers": [
+      "proslediće okvir mrežnom sloju, i preputićemu odluku šta da uradi sa paketom",
+      "poslaće NACK računaru pošiljiocu",
+      "odbaciće okvir i poruku o grešci mrežnom sloju",
+      "odbaciće okvir bez slanja poruke o grešci mrežnom sloju"
+    ],
+    "correctAnswer": "odbaciće okvir bez slanja poruke o grešci mrežnom sloju"
+  },
+  {
+    "id": 51,
+    "question": "U ruteru red za čekanje se može formirati na:",
+    "answers": [
+      "Na ulaznim portovima",
+      "na izlaznim portovima",
+      "u unutrašnjoj mreži rutera",
+      "u svima navedenim"
+    ],
+    "correctAnswer": "u svima navedenim"
+  },
+  {
+    "id": 52,
+    "question": "U visoko perfomansnim ruterima kopija ruting tabele se čuva u:",
+    "answers": [
+      "Ulaznim portovima",
+      "Izlaznim portovima",
+      "U komutacinoj matrici (switching fabric)",
+      "u svemu navedenom"
+    ],
+    "correctAnswer": "Ulaznim portovima"
+  },
+  {
+    "id": 53,
+    "question": "Uzmimo slanje jednog objekta veličine O od servera u čitač preko TCP-a. Ako je O > S, gde je S maksim... (maksimalni segment):",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 54,
+    "question": "Veličina TCP prijemnog prozora RCVWindow se nikad ne menja tokom cele konekcije",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  }
+]

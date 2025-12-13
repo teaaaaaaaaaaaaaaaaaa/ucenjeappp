@@ -26,6 +26,12 @@ const SUBJECT_FILES: Record<string, string> = {
   'spa2_deo_teorija4': '/data/spa2_deo_teorija4.json',
   'projektovanje_softvera': '/data/projektovanje_softvera.json',
   'projektovanje_softvera_ponudjeni': '/data/projektovanje_softvera_ponudjeni.json',
+  'RMT_sa_modlla': '/data/RMT_sa_modlla.json',
+  'RMT_Podebljano_al_sivo': '/data/RMT_Podebljano_al_sivo.json',
+  'RMT_otvorena_': '/data/RMT_otvorena_.json',
+  'RMT_kvizlet_random': '/data/RMT_kvizlet_random.json',
+  'RMT_prepravljeno_TEA': '/data/RMT_prepravljeno_TEA.json',
+  'RMT_sa_modlla_dva': '/data/RMT_sa_modlla_dva.json',
 };
 
 /**
@@ -73,6 +79,12 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'spa2_deo_teorija4',
       'projektovanje_softvera',
       'projektovanje_softvera_ponudjeni',
+      'RMT_sa_modlla',
+      'RMT_Podebljano_al_sivo',
+      'RMT_otvorena_',
+      'RMT_kvizlet_random',
+      'RMT_prepravljeno_TEA',
+      'RMT_sa_modlla_dva',
     ];
     return Promise.resolve(subjects);
   } catch (error) {

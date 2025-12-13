@@ -1,0 +1,269 @@
+[
+  {
+    "id": 1,
+    "question": "Na kojim slojevima radi switch ?",
+    "answers": [
+      "transportni",
+      "sloj linka podataka",
+      "aplikacioni",
+      "fizički",
+      "mrežni"
+    ],
+    "correctAnswer": ["sloj linka podataka", "fizički"]
+  },
+  {
+    "id": 2,
+    "question": "U ruteru red za čekanje se može formirati na:",
+    "answers": [
+      "u unutrašnjoj mreži rutera",
+      "u svim navedenima",
+      "na izlaznim portovima",
+      "na ulaznim portovima"
+    ],
+    "correctAnswer": "u svim navedenima"
+  },
+  {
+    "id": 3,
+    "question": "Da li ruteri imaju IP adrese ?",
+    "answers": [
+      "tačno",
+      "netačno"
+    ],
+    "correctAnswer": "tačno"
+  },
+  {
+    "id": 4,
+    "question": "U visoko preformansnim ruterima kopija ruting tabele se čuva u:",
+    "answers": [
+      "ulaznim portovima",
+      "izlaznim portovima",
+      "u svemu navedenome",
+      "u komutacionoj matrici (switching fabric)"
+    ],
+    "correctAnswer": "ulaznim portovima"
+  },
+  {
+    "id": 5,
+    "question": "Koliko je veliki IPv4 adresni prostor ?",
+    "answers": [
+      "2^48",
+      "2^128",
+      "2^64",
+      "2^32"
+    ],
+    "correctAnswer": "2^32"
+  },
+  {
+    "id": 6,
+    "question": "Ako razmatramo slanje 1300 bajtova preko linka koji koristi MTU veličine 500 bajtova biće:",
+    "answers": [
+      "tri segmenta sa offset-ovima 0, 480, 960",
+      "tri segmenta sa offset-ovima 0, 460, 920",
+      "tri segmenta sa offset-ovima 0, 500, 100"
+    ],
+    "correctAnswer": "tri segmenta sa offset-ovima 0, 480, 960"
+  },
+  {
+    "id": 7,
+    "question": "Kada TCP segment stigne na host, socket na koji će se segment poslati zavisi od",
+    "answers": [
+      "broja polaznog porta",
+      "od svega prethodnog",
+      "polazne IP adrese datagrama u kome je enkapsuliran segment",
+      "broja dolaznog porta"
+    ],
+    "correctAnswer": "od svega prethodnog"
+  },
+  {
+    "id": 8,
+    "question": "Koliko je veliki MAC adresni prostor ?",
+    "answers": [
+      "2^48",
+      "2^128",
+      "2^64",
+      "2^32"
+    ],
+    "correctAnswer": "2^48"
+  },
+  {
+    "id": 9,
+    "question": "Koliki je IPv6 adresni prostor ?",
+    "answers": [
+      "2^32",
+      "2^64",
+      "2^128",
+      "2^256"
+    ],
+    "correctAnswer": "2^128"
+  },
+  {
+    "id": 10,
+    "question": "MSS vrednost predstavlja:",
+    "answers": [
+      "maksimalna kolicina podataka aplikacionog sloja u TCP segmentu",
+      "maksimalna velicina celog TCP segmenta"
+    ],
+    "correctAnswer": "maksimalna kolicina podataka aplikacionog sloja u TCP segmentu"
+  },
+  {
+    "id": 11,
+    "question": "Pretpostavimo da računar A šalje računaru B dva TCP segmenta jedan za drugim preko TCP konekcije. Prvi segment ima redni broj 90; drugi ima redni broj 110. Uzmimo da se prvi segment izgubi, ali da drugi segment stigne do B. Koji je broj potvrde koju će računar B poslati računaru A?",
+    "answers": [
+      "ack number = 110",
+      "ack number = 1",
+      "ack number = 90",
+      "ack number = 20"
+    ],
+    "correctAnswer": "ack number = 90"
+  },
+  {
+    "id": 12,
+    "question": "U odgovoru hosta na TCP zahtev za uspostavljanje konekcije koji bitovi TCP headera će biti setovani na 1:",
+    "answers": [
+      "FYN",
+      "PSH",
+      "SYN",
+      "ACK",
+      "RST",
+      "URG"
+    ],
+    "correctAnswer": ["SYN", "ACK"]
+  },
+  {
+    "id": 13,
+    "question": "Kod TCP-a, u prvom koraku trostrukog usaglašavanja koji bit ima vrednost 1? Odaberite jedan odgovor",
+    "answers": [
+      "FYN",
+      "URG",
+      "SYN",
+      "PSH",
+      "ACK"
+    ],
+    "correctAnswer": "SYN"
+  },
+  {
+    "id": 14,
+    "question": "Koji od navedenih softvera spada u sniffer-e ?",
+    "answers": [
+      "Skype",
+      "NS Lookup",
+      "Firewall",
+      "Wireshark"
+    ],
+    "correctAnswer": "Wireshark"
+  },
+  {
+    "id": 15,
+    "question": "ADSL koristi sledecu tehnologiju :",
+    "answers": [
+      "Komutiranje vodova",
+      "Komutiranje paketa",
+      "Komutiranje po vremenu pristizanja",
+      "Komutiranje po prioritetu sadržaja"
+    ],
+    "correctAnswer": ["Komutiranje vodova", "Komutiranje paketa"]
+  },
+  {
+    "id": 16,
+    "question": "Prilikom fragmentacije IP datagrama , ukoliko jedan ili više fragmenata ne stigne do odredišta Odaberite jedan odgovor",
+    "answers": [
+      "Nepotpuni datagram se predaje transportnom sloju uz upozorenje",
+      "Nepotpuni datagram se odbacuje i ne predaje transportnom sloju",
+      "Nepotpuni datagram se predaje transportnom sloju"
+    ],
+    "correctAnswer": "Nepotpuni datagram se odbacuje i ne predaje transportnom sloju"
+  },
+  {
+    "id": 17,
+    "question": "Protokol koji zahteva vece zauzece resursa je:",
+    "answers": [
+      "TCP",
+      "UDP"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 18,
+    "question": "Koje od sledećih karakteristika ima UDP:",
+    "answers": [
+      "sinhronizaciju u tri koraka za uspostavu veze",
+      "stanje konekcije na serveru",
+      "ništa od navedenog",
+      "regulisanu brzinu protoka"
+    ],
+    "correctAnswer": "ništa od navedenog"
+  },
+  {
+    "id": 19,
+    "question": "Karakteristike UDP servisa su:",
+    "answers": [
+      "Nema kontrole zagušenja mreže",
+      "Pre komunikacije uspostavi se konekcija",
+      "Nema garancije pouzdanog prenosa podataka",
+      "Garantuje se vreme stizanja paket"
+    ],
+    "correctAnswer": ["Nema kontrole zagušenja mreže", "Nema garancije pouzdanog prenosa podataka"]
+  },
+  {
+    "id": 20,
+    "question": "Propusni opseg ADSL konekcije se deli.",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 21,
+    "question": "Kako glasi naredba u programskom jeziku JAVA, koja inicira očekivanje zahteva za uspostavljanjem TCP konekcije ?",
+    "answers": [
+      "Socket socket = server.accept();",
+      "ServerSocket socket = new ServerSocket(6789);",
+      "Socket socket = new Socket(\"localhost\",6789);",
+      "BufferedReader in FromClient = new Buffered Reader(new InputStreamReader(socket.getInputStream()));"
+    ],
+    "correctAnswer": "ServerSocket socket = new ServerSocket(6789);"
+  },
+  {
+    "id": 22,
+    "question": "Datagram od 4000 bajtova (20 bajtova IP zaglavlje + 3980 bajtova IP kodova podataka) stize na ruter i mora da se prosledi na … MTU … od 1500 bajtova. Na koliko fragmenata ce ruter podeliti datagram? (Hint: 4000B treba da prebacis, a maksimalno mozes 1500B, sto znaci da datagram treba da ti se podeli na 3 dela - 1500 u prvom prebacivanju, 1500 u drugom i ostaje 1000B za treci. MTU je Maximum Transmission Unit)",
+    "answers": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 23,
+    "question": "Prilikom upisivanja brojeva potvrda kod TCP protokola, treba voditi racuna o toke da je broj potvrde koji jedan racunar upisuje u svoj segment zapravo redni broj:",
+    "answers": [
+      "sledeceg bajta koji ocekuje",
+      "paketa koji je poslednji uspesno primljen",
+      "sledeceg paketa koji ocekuje"
+    ],
+    "correctAnswer": "sledeceg bajta koji ocekuje"
+  },
+  {
+    "id": 24,
+    "question": "Kako se zove paket mreznog sloja?",
+    "answers": [
+      "datagram",
+      "segment",
+      "okvir",
+      "poruka"
+    ],
+    "correctAnswer": "datagram"
+  },
+  {
+    "id": 25,
+    "question": "TCP konekcija izmedju klijenta i servera zapocinje?",
+    "answers": [
+      "slanjem RST paketa",
+      "slanjem ACK paketa",
+      "slanjem SYN paketa"
+    ],
+    "correctAnswer": "slanjem SYN paketa"
+  }
+]
