@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "question": "Redni broj segmenta kod TCP paketa je?",
+    "answers": [
+      "redni broj prvog bajta u segmentu unutar toka bajtova",
+      "redni broj prvog bajta u toku podataka",
+      "redni broj paketa"
+    ],
+    "correctAnswer": "redni broj prvog bajta u segmentu unutar toka bajtova"
+  },
+  {
+    "id": 2,
+    "question": "Kako glasi naredba u programskom jeziku JAVA, koja prihvata zahtev i uspostavlja novu TCP konekciju?",
+    "answers": [
+      "BufferedReader inFromClient = new BufferedReader(new InputStreamReader(socket.getInputStream()));",
+      "Socket socket = server.accept();",
+      "ServerSocket socket = new ServerSocket(6789);",
+      "Socket socket = new Socket(\"localhost\",6789);"
+    ],
+    "correctAnswer": "Socket socket = server.accept();"
+  },
+  {
+    "id": 3,
+    "question": "Kada se između web čitača i servera uspostavi nepostoyana konekcija, jedan TCP segment može da prenese dve različite HTTP poruke sa zahtevima:",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "ne"
+  },
+  {
+    "id": 4,
+    "question": "Ukoliko dva UDP segmenta pristigla na računar A imaju različitu izvornu IP adresu, oni će biti usmereni:",
+    "answers": [
+      "Na isti socket ako imaju isti odredišni broj porta",
+      "Na isti socket ako imaju isti izvorni broj porta",
+      "Uvek na dva različita soketa"
+    ],
+    "correctAnswer": "Na isti socket ako imaju isti odredišni broj porta"
+  },
+  {
+    "id": 5,
+    "question": "Protokol koji zahteva veće zauzeće resursa je:",
+    "answers": [
+      "TCP",
+      "UDP"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 6,
+    "question": "Koja je brzina Ethernet LAN mreže:",
+    "answers": [
+      "1 Gbps",
+      "100 Mbps",
+      "10 Mbps, 100 Mbps, 1Gbps, 10 Gbps",
+      "samo 10 Mbps"
+    ],
+    "correctAnswer": "10 Mbps, 100 Mbps, 1Gbps, 10 Gbps"
+  },
+  {
+    "id": 7,
+    "question": "Koje od navedenih tehnologija spadaju u bežične tehnologije:",
+    "answers": [
+      "ADSL",
+      "DSL",
+      "Dial-Up modem",
+      "WLAN",
+      "WAP",
+      "UMTS"
+    ],
+    "correctAnswer": ["WLAN", "WAP", "UMTS"]
+  },
+  {
+    "id": 8,
+    "question": "Koji su slojevi u familiji Internet protokola zaduženi za proces rutiranja?",
+    "answers": [
+      "aplikacioni",
+      "fizicki",
+      "sloj veze podataka",
+      "transportni",
+      "mrezni"
+    ],
+    "correctAnswer": ["fizicki", "sloj veze podataka", "mrezni"]
+  },
+  {
+    "id": 9,
+    "question": "Kako se zove paket mrežnog sloja?",
+    "answers": [
+      "datagram",
+      "segment",
+      "okvir",
+      "poruka"
+    ],
+    "correctAnswer": "datagram"
+  },
+  {
+    "id": 10,
+    "question": "IP protokol garantuje isporuku paketa preko mreže?",
+    "answers": [
+      "tacno",
+      "netacno"
+    ],
+    "correctAnswer": "netacno"
+  },
+  {
+    "id": 11,
+    "question": "ADSL koristi sledecu tehnologiju:",
+    "answers": [
+      "Komutiranje vodova",
+      "Komutiranje paketa",
+      "Komutiranje po vremenu pristizanja",
+      "Komutiranje po prioritetu sadržaja"
+    ],
+    "correctAnswer": ["Komutiranje vodova", "Komutiranje paketa"]
+  },
+  {
+    "id": 12,
+    "question": "Ako se ulogujemo na mejl i pritisnemo ono accept, šta će se dešavati svaki put s našim username i pass?",
+    "answers": [
+      "cookie",
+      "session",
+      "cache",
+      "token"
+    ],
+    "correctAnswer": "cookie"
+  },
+  {
+    "id": 13,
+    "question": "Ako se veb stranica sastoji od tačno jednog objekta, tada nepostojane i postojane konekcije imaju tačno isto vreme odgovora?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 14,
+    "question": "Broj porta je 16-bitni broj u rasponu:",
+    "answers": [
+      "0 - 1023",
+      "0 - 65535",
+      "0 - 255",
+      "1024 - 65535"
+    ],
+    "correctAnswer": "0 - 65535"
+  },
+  {
+    "id": 15,
+    "question": "Broj porta je identifikator:",
+    "answers": [
+      "izvornog racunara",
+      "aplikacije",
+      "soketa",
+      "odredisnog racunara"
+    ],
+    "correctAnswer": "soketa"
+  },
+  {
+    "id": 16,
+    "question": "byte[] data = new byte[1024]; InetAddress IPAddress = InetAdress.getByName(\"localhost\"); DatagramPacket packet = new DatagramPacket(data, data.length, IPAdress, 9876);",
+    "answers": [
+      "deklariše varijablu packet kao TCP paket za prijem",
+      "deklariše varijablu packet kao UDP paket za slanje",
+      "deklariše varijablu packet kao UDP paket za prijem",
+      "deklariše varijablu packet kao TCP paket za slanje"
+    ],
+    "correctAnswer": "deklariše varijablu packet kao UDP paket za slanje"
+  },
+  {
+    "id": 17,
+    "question": "Da bi napravio mrežnu igru programer mora da zna:",
+    "answers": [
+      "kako funkcionise ARP protokol",
+      "kako da iskoristi usluge koje nude protokoli transportnog sloja",
+      "sve tipove rutera kroz koje treba da prolaze podaci njegove mrežne igre",
+      "tip medijuma na fizickom sloju preko koga se prenose podaci"
+    ],
+    "correctAnswer": "kako da iskoristi usluge koje nude protokoli transportnog sloja"
+  },
+  {
+    "id": 18,
+    "question": "Da bi se uspešno uspostavila slobodna mreža, potrebno je:",
+    "answers": [
+      "da klijent i server poštuju RFC dokumenta",
+      "samo klijent poštuje",
+      "samo server poštuje",
+      "ne mora niko"
+    ],
+    "correctAnswer": "da klijent i server poštuju RFC dokumenta"
+  },
+  {
+    "id": 19,
+    "question": "Da li dva različita web browser-a mogu da prikažu istu web stranu na dva različita načina?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 20,
+    "question": "Da li FON poseduje sopstveni centralizovani DNS server?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 21,
+    "question": "Da li je downloadovanje kod ADSL-a brže od uploada?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "da"
+  },
+  {
+    "id": 22,
+    "question": "Da li je moguće pristupiti mejlu korišćenjem IMAP protokola, bez interneta?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "ne"
+  },
+  {
+    "id": 23,
+    "question": "Da li je stariji FTP ili HTTP?",
+    "answers": [
+      "FTP (1971. godina)",
+      "HTTP",
+      "Podjednako stari"
+    ],
+    "correctAnswer": "FTP (1971. godina)"
+  },
+  {
+    "id": 24,
+    "question": "Da li je Web server krajnji sistem (host)?",
+    "answers": [
+      "Ne",
+      "Da"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 25,
+    "question": "Da li kuki može ugroziti privatnost korisnika?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 26,
+    "question": "Da li nam socket omogućava da biramo port preko kojeg ćemo da radimo?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "ne"
+  },
+  {
+    "id": 27,
+    "question": "(ISPRAVLJENO) Da li nepostojanom vezom mogu dva objekta da se pošalju?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "da"
+  },
+  {
+    "id": 28,
+    "question": "Da li protokol HTTP definiše način na koji web browser prikazuje strane?",
+    "answers": [
+      "Samo ako strana ima CSS fajl",
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 29,
+    "question": "Da li više različitih servera može imati isto kanonicko ime?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "da"
+  },
+  {
+    "id": 30,
+    "question": "Današnji internet je zasnovan na:",
+    "answers": [
+      "komutaciji cvorova",
+      "komutaciji linkova",
+      "komutaciji paketa",
+      "komutaciji vodova"
+    ],
+    "correctAnswer": ["komutaciji paketa", "komutaciji vodova"]
+  },
+  {
+    "id": 31,
+    "question": "Datagram je vrsta:",
+    "answers": [
+      "konektivnog servisa",
+      "nekonektivnog servisa",
+      "sigurnog prenosa",
+      "pouzdanog prenosa"
+    ],
+    "correctAnswer": "nekonektivnog servisa"
+  },
+  {
+    "id": 32,
+    "question": "DatagramSocket serverSocket = new DatagramSocket(9876);",
+    "answers": [
+      "priprema UDP socket za slanje podataka",
+      "priprema UDP socket za prijem podataka",
+      "priprema TCP socket za slanje podataka",
+      "priprema TCP socket za prijem podataka"
+    ],
+    "correctAnswer": "priprema UDP socket za prijem podataka"
+  },
+  {
+    "id": 33,
+    "question": "Dat primer SMTP, pitanje je kome se šalje poruka:",
+    "answers": [
+      "Samo onima koji su pomenuti komandom RCPT TO",
+      "Svima u CC listi",
+      "Svima u BCC listi",
+      "Svima koji su pomenuti u Subject polju"
+    ],
+    "correctAnswer": "Samo onima koji su pomenuti komandom RCPT TO"
+  },
+  {
+    "id": 34,
+    "question": "DNS je?",
+    "answers": [
+      "protokol transportnog sloja",
+      "protokol aplikativnog sloja",
+      "distribuirana, hijerarhijska baza podataka",
+      "Data Network Storage"
+    ],
+    "correctAnswer": ["protokol aplikativnog sloja", "distribuirana, hijerarhijska baza podataka"]
+  },
+  {
+    "id": 35,
+    "question": "DNS koristi port broj:",
+    "answers": [
+      "20",
+      "25",
+      "53",
+      "80"
+    ],
+    "correctAnswer": "53"
+  },
+  {
+    "id": 36,
+    "question": "DNS se na transportnom sloju oslanja na TCP protokol.",
+    "answers": [
+      "Tačno",
+      "Pogrešno"
+    ],
+    "correctAnswer": "Pogrešno"
+  },
+  {
+    "id": 37,
+    "question": "DNS serveri domena najvišeg nivoa (TLD serveri) su odgovorni za domene:",
+    "answers": [
+      "com",
+      "org",
+      "edu",
+      "sve navedene"
+    ],
+    "correctAnswer": "sve navedene"
+  },
+  {
+    "id": 38,
+    "question": "DNS server sadrži tabele uređenih parova:",
+    "answers": [
+      "MAC adrese i IP adrese",
+      "FQDN i MAC adrese",
+      "Ništa od navedenog",
+      "FQDN i IP adrese"
+    ],
+    "correctAnswer": "FQDN i IP adrese"
+  },
+  {
+    "id": 39,
+    "question": "DNS zapis koji se odnosi na mailserver:",
+    "answers": [
+      "A",
+      "CNAME",
+      "MX"
+    ],
+    "correctAnswer": "MX"
+  },
+  {
+    "id": 40,
+    "question": "Dobro poznati portovi se nalaze na rasponu:",
+    "answers": [
+      "0 - 1023",
+      "1024 - 49151",
+      "49152 - 65535",
+      "0 - 255"
+    ],
+    "correctAnswer": "0 - 1023"
+  },
+  {
+    "id": 41,
+    "question": "Dopuniti tipom sledeći DNS zapis o resursu: mmklab.fon.bg.ac.rs, 147.91.131.110, ____",
+    "answers": [
+      "A",
+      "MX",
+      "CNAME",
+      "NS"
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": 42,
+    "question": "Ethernet pruža mrežnom sloju:",
+    "answers": [
+      "nepouzdanu uslugu bez konekcije",
+      "pouzdanu uslugu bez konekcije",
+      "nepouzdanu uslugu sa konekcijom",
+      "pouzdanu uslugu sa konekcijom"
+    ],
+    "correctAnswer": "nepouzdanu uslugu bez konekcije"
+  },
+  {
+    "id": 43,
+    "question": "Fiksna internet telefonija koristi:",
+    "answers": [
+      "FDM",
+      "TDM",
+      "i jedno i drugo koristi"
+    ],
+    "correctAnswer": "FDM"
+  },
+  {
+    "id": 44,
+    "question": "FTP ima dve TCP konekcije:",
+    "answers": [
+      "jednu za kontrolne informacije i jednu za podatke",
+      "samo jednu konekciju",
+      "tri konekcije",
+      "ne koristi TCP"
+    ],
+    "correctAnswer": "jednu za kontrolne informacije i jednu za podatke"
+  },
+  {
+    "id": 45,
+    "question": "FTP je protokol koji održava posebnu kontrolnu konekciju, kojom šalje kontrolne informacije. Zato se kaže da je u pitanju?",
+    "answers": [
+      "protokol u opsegu",
+      "protokol izvan opsega"
+    ],
+    "correctAnswer": "protokol izvan opsega"
+  },
+  {
+    "id": 46,
+    "question": "FTP komanda USER koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika do servera",
+      "slanje lozinke korisnika serveru",
+      "preuzimanje datoteke iz tekućeg direktorijuma na udaljenom računaru",
+      "snimanje datoteke u tekući direktorijum na udaljenom računaru"
+    ],
+    "correctAnswer": "slanje identifikacije korisnika do servera"
+  },
+  {
+    "id": 47,
+    "question": "FTP komanda PASS koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika do servera",
+      "slanje lozinke korisnika serveru",
+      "preuzimanje datoteke",
+      "listanje direktorijuma"
+    ],
+    "correctAnswer": "slanje lozinke korisnika serveru"
+  },
+  {
+    "id": 48,
+    "question": "FTP komanda LIST koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika",
+      "slanje lozinke",
+      "preuzimanje datoteke",
+      "spisak svih datoteka iz tekućeg direktorijuma na udaljenom računaru"
+    ],
+    "correctAnswer": "spisak svih datoteka iz tekućeg direktorijuma na udaljenom računaru"
+  },
+  {
+    "id": 49,
+    "question": "FTP komanda RETR koristi se za:",
+    "answers": [
+      "preuzimanje datoteke iz tekućeg direktorijuma na udaljenom računaru",
+      "slanje datoteke",
+      "brisanje datoteke",
+      "listanje direktorijuma"
+    ],
+    "correctAnswer": "preuzimanje datoteke iz tekućeg direktorijuma na udaljenom računaru"
+  },
+  {
+    "id": 50,
+    "question": "FTP komanda STOR koristi se za:",
+    "answers": [
+      "preuzimanje datoteke",
+      "snimanje (tj. stavljanje) datoteke u tekući direktorijum na udaljenom računaru",
+      "brisanje datoteke",
+      "promena direktorijuma"
+    ],
+    "correctAnswer": "snimanje (tj. stavljanje) datoteke u tekući direktorijum na udaljenom računaru"
+  },
+  {
+    "id": 51,
+    "question": "FTP koristi port:",
+    "answers": [
+      "20",
+      "21",
+      "20 i 21",
+      "80"
+    ],
+    "correctAnswer": "20 i 21"
+  },
+  {
+    "id": 52,
+    "question": "Gde se cuva kolacic (cookie)?",
+    "answers": [
+      "Na serveru",
+      "Na mrežnom sloju",
+      "Na lokalnom racunaru",
+      "U inbox-u"
+    ],
+    "correctAnswer": "Na lokalnom racunaru"
+  },
+  {
+    "id": 53,
+    "question": "Gde se nalazi socket (između kojih slojeva)?",
+    "answers": [
+      "između fizičkog i sloja linka",
+      "između mrežnog i transportnog",
+      "između aplikativnog i transportnog",
+      "između transportnog i mrežnog"
+    ],
+    "correctAnswer": "između aplikativnog i transportnog"
+  },
+  {
+    "id": 54,
+    "question": "Geostacionarni sateliti:",
+    "answers": [
+      "nalaze se na 36000km",
+      "menjaju poziciju",
+      "ne služe za prenos TCP segmenta",
+      "nalaze se na 36000km i ne menjaju položaj"
+    ],
+    "correctAnswer": "nalaze se na 36000km i ne menjaju položaj"
+  },
+  {
+    "id": 55,
+    "question": "HTML strana ima 2 JPEG slike, 3 GIF slike, 1 Java applet i 1 zvučnu datoteku. Koliko će HTTP zahteva biti upućeno za kompletan prenos ove strane?",
+    "answers": [
+      "6",
+      "8",
+      "5",
+      "7"
+    ],
+    "correctAnswer": "8"
+  },
+  {
+    "id": 56,
+    "question": "HTML strana ima 5 JPEG slika, 3 GIF slike, 2 Java applet-a, 2 linka i 1 zvučnu datoteku. Koliko će HTTP zahteva biti upućeno za kompletan prenos ove strane?",
+    "answers": [
+      "12",
+      "10",
+      "14",
+      "8"
+    ],
+    "correctAnswer": "14"
+  },
+  {
+    "id": 57,
+    "question": "HTTP poruka sa zahtevom se naziva poruka sa uslovnim preuzimanjem ukoliko:",
+    "answers": [
+      "Sadrži red zaglavlja If-Modified-Since",
+      "Koristi metod GET",
+      "Sadrži red zaglavlja If-Used-Since",
+      "Sadrži red zaglavlja If-Updated-Since"
+    ],
+    "correctAnswer": ["Sadrži red zaglavlja If-Modified-Since", "Koristi metod GET"]
+  },
+  {
+    "id": 58,
+    "question": "HTTP protokol:",
+    "answers": [
+      "ima stanje, ima konekciju",
+      "ima stanje, nema konekciju",
+      "nema stanje, ima konekciju",
+      "nema stanje, nema konekciju"
+    ],
+    "correctAnswer": "nema stanje, ima konekciju"
+  },
+  {
+    "id": 59,
+    "question": "HTTP protokol je protokol bez stanja:",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 60,
+    "question": "HTTP radi:",
+    "answers": [
+      "izvan opsega",
+      "unutar opsega"
+    ],
+    "correctAnswer": "unutar opsega"
+  },
+  {
+    "id": 61,
+    "question": "HTTP se implementira u:",
+    "answers": [
+      "I klijentskom i serverskom programu",
+      "Serverskom programu",
+      "Klijentskom programu"
+    ],
+    "correctAnswer": "I klijentskom i serverskom programu"
+  },
+  {
+    "id": 62,
+    "question": "IETF standardi se nazivaju:",
+    "answers": [
+      "RFC dokumenti",
+      "IEEE standardi",
+      "ISO standardi",
+      "W3C preporuke"
+    ],
+    "correctAnswer": "RFC dokumenti"
+  },
+  {
+    "id": 63,
+    "question": "InetAddress IPAddress = InetAdress.getByName(\"localhost\");",
+    "answers": [
+      "isto što i nslookup localhost",
+      "generiše ime hosta za datu IP adresu",
+      "generiše DNS upit i dovlači IP adresu hosta localhost",
+      "kreira localhost interfejs"
+    ],
+    "correctAnswer": "generiše DNS upit i dovlači IP adresu hosta localhost"
+  },
+  {
+    "id": 64,
+    "question": "ISP drugog reda:",
+    "answers": [
+      "može da se poveže sa drugim ISP drugog reda",
+      "mora da usmeri saobraćaj kroz ISP prvog reda",
+      "mora da bude povezan sa svim ISP prvog reda"
+    ],
+    "correctAnswer": ["može da se poveže sa drugim ISP drugog reda", "mora da usmeri saobraćaj kroz ISP prvog reda"]
+  },
+  {
+    "id": 65,
+    "question": "Izaberite tačna tvrđenja:",
+    "answers": [
+      "DHCP protokol je ekstenzija DNS protokola",
+      "DHCP je protokol za prevođenje MAC adresa u IP adrese",
+      "DHCP je klijentsko-serverski protokol",
+      "DHCP omogućava klijentima plug and play funkcionalnost"
+    ],
+    "correctAnswer": ["DHCP je klijentsko-serverski protokol", "DHCP omogućava klijentima plug and play funkcionalnost"]
+  },
+  {
+    "id": 66,
+    "question": "Izabrati tačna tvrđenja:",
+    "answers": [
+      "Jednom TCP vezom je moguće ostvariti prenos podataka od jednog pošiljaoca ka više primalaca.",
+      "TCP vezu može da prekine proces koji ima ulogu servera",
+      "TCP vezu može da prekine proces koji ima ulogu klijenta"
+    ],
+    "correctAnswer": ["TCP vezu može da prekine proces koji ima ulogu servera", "TCP vezu može da prekine proces koji ima ulogu klijenta"]
+  },
+  {
+    "id": 67,
+    "question": "Izabrati tvrđenje koje nije tačno:",
+    "answers": [
+      "Računar A šalje veliki fajl računaru B preko TCP veze. Pretpostavimo da računar B nema podataka koje bi slao računaru A. Računar B neće računaru A slati potvrde prijema jer ne može da ih šlepuje uz podatke.",
+      "TCP segment ima u svom zaglavlju polje za RCV Window",
+      "Pretpostavimo da računar A šalje veliki fajl računaru B preko TCP veze. Broj nepotvrđenih bajtova koje A šalje ne može da premaši veličinu prijemne privremene memorije"
+    ],
+    "correctAnswer": "Računar A šalje veliki fajl računaru B preko TCP veze. Pretpostavimo da računar B nema podataka koje bi slao računaru A. Računar B neće računaru A slati potvrde prijema jer ne može da ih šlepuje uz podatke."
+  },
+  {
+    "id": 68,
+    "question": "Kada protokol UDP koristi handshake?",
+    "answers": [
+      "Samo kada ga poziva HTTP",
+      "Kada aplikacija V sloja koja ga koristi sprovodi uslugu sigurnog prenosa",
+      "Uvek",
+      "Nikad"
+    ],
+    "correctAnswer": "Nikad"
+  },
+  {
+    "id": 69,
+    "question": "Kada se intenzitet saobraćaja približava 1:",
+    "answers": [
+      "nastaje srazmerno veliko rast kašnjenja",
+      "nastaje nesrazmerno veliko rast kašnjenja",
+      "kašnjenje opada",
+      "kašnjenje ostaje konstantno"
+    ],
+    "correctAnswer": "nastaje nesrazmerno veliko rast kašnjenja"
+  },
+  {
+    "id": 70,
+    "question": "Kada virusni program napada tj. naši paketi ne stižu do servera već ti virusni, to je:",
+    "answers": [
+      "plavljivanje vezama",
+      "napad na ranjive delove mreže",
+      "smanjenje propusnog opsega"
+    ],
+    "correctAnswer": "smanjenje propusnog opsega"
+  },
+  {
+    "id": 71,
+    "question": "Kad torrent bira na 30 sekundi nasumično, koji je to tip?",
+    "answers": [
+      "standardno neprigušen",
+      "optimistično neprigušen",
+      "nasumično odabran",
+      "prioritetno odabran"
+    ],
+    "correctAnswer": "optimistično neprigušen"
+  },
+  {
+    "id": 72,
+    "question": "Kako glasi naredba u programskom jeziku JAVA, koja inicira očekivanje zahteva za uspostavljanjem TCP konekcije?",
+    "answers": [
+      "Socket socket = server.accept();",
+      "ServerSocket socket = new ServerSocket(6789);",
+      "Socket socket = new Socket(\"localhost\",6789);",
+      "BufferedReader in FromClient = new Buffered Reader(new InputStreamReader(socket.getInputStream()));"
+    ],
+    "correctAnswer": "ServerSocket socket = new ServerSocket(6789);"
+  },
+  {
+    "id": 73,
+    "question": "Kako se zove vreme potrebno za prelazak jednog bita od početka linka do sledećeg rutera:",
+    "answers": [
+      "kašnjenje usled prostiranja",
+      "kašnjenje usled obrade",
+      "kašnjenje usled prenosa",
+      "kašnjenje usled čekanja u redu"
+    ],
+    "correctAnswer": "kašnjenje usled prostiranja"
+  },
+  {
+    "id": 74,
+    "question": "Karakteristike TCP servisa su:",
+    "answers": [
+      "Garantuje se vreme stizanja paketa",
+      "Nema kontrole zagušenja mreže",
+      "Nema garancije pouzdanog prenosa podataka",
+      "Pre komunikacije, uspostavlja se konekcija"
+    ],
+    "correctAnswer": "Pre komunikacije, uspostavlja se konekcija"
+  },
+  {
+    "id": 75,
+    "question": "Karakteristike UDP servisa su:",
+    "answers": [
+      "Nema kontrole zagušenja mreže",
+      "Pre komunikacije uspostavi se konekcija",
+      "Nema garancije pouzdanog prenosa podataka",
+      "Garantuje se vreme stizanja paketa"
+    ],
+    "correctAnswer": ["Nema kontrole zagušenja mreže", "Nema garancije pouzdanog prenosa podataka"]
+  },
+  {
+    "id": 76,
+    "question": "Kod elektronske pošte zasnovane na Webu, komunikacija između korisnika i servera se odvija putem protokola:",
+    "answers": [
+      "HTTP",
+      "SMTP",
+      "POP3",
+      "IMAP"
+    ],
+    "correctAnswer": "HTTP"
+  },
+  {
+    "id": 77,
+    "question": "Kod HTTP poruke sa zahtevom, telo poruke prazno je kod metode:",
+    "answers": [
+      "GET",
+      "Nijedne od ponuđenih metoda",
+      "PUT",
+      "POST"
+    ],
+    "correctAnswer": "GET"
+  },
+  {
+    "id": 78,
+    "question": "Kod klijent-server obradne paradigme, klijentski program:",
+    "answers": [
+      "inicira zahtev",
+      "odgovara na zahtev",
+      "i inicira i odgovara na zahtev"
+    ],
+    "correctAnswer": "inicira zahtev"
+  },
+  {
+    "id": 79,
+    "question": "Kod uspostavljanja konektivnog servisa, za koliko učesnika se traži potpuna saglasnost?",
+    "answers": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 80,
+    "question": "Koja aplikacija je sniffer?",
+    "answers": [
+      "Wireshark",
+      "Skype",
+      "NS Lookup",
+      "Firewall"
+    ],
+    "correctAnswer": "Wireshark"
+  },
+  {
+    "id": 81,
+    "question": "Koja komanda izlistava sve u FTP protokolu?",
+    "answers": [
+      "LIST",
+      "RETR",
+      "STOR",
+      "GET"
+    ],
+    "correctAnswer": "LIST"
+  },
+  {
+    "id": 82,
+    "question": "Koja od sledećih tvrdnji je tačna?",
+    "answers": [
+      "I kontrola toka i kontrola zaglušenja se obavljaju na linku, s tim što se kontrola toka obavlja statistički.",
+      "Kontrola zaglušenja nastoji da spreči da pošiljalac preplavi privrememnu memoriju primaoca, a kontrola toka otklanja usporenja.",
+      "I kontrola toka i kontrola zaglušenja se obavljaju na linku",
+      "Kontrola toka se obavlja sa kraja na kraj, a kontrola zagušenja se obavlja na linku"
+    ],
+    "correctAnswer": "Kontrola zaglušenja nastoji da spreči da pošiljalac preplavi privrememnu memoriju primaoca, a kontrola toka otklanja usporenja."
+  },
+  {
+    "id": 83,
+    "question": "Koja su od navedenih kašnjenja paketa promenljiva?",
+    "answers": [
+      "kašnjenje usled prenosa",
+      "kašnjenje usled čekanja u redu",
+      "kašnjenje usled obrade",
+      "kašnjenje usled prosleđivanja"
+    ],
+    "correctAnswer": "kašnjenje usled čekanja u redu"
+  },
+  {
+    "id": 84,
+    "question": "Koje od navedenih aplikacija koriste TCP protokol:",
+    "answers": [
+      "elektronska pošta",
+      "WWW",
+      "Video stream-ing",
+      "DNS",
+      "Telnet",
+      "Instant (Voice) Messaging"
+    ],
+    "correctAnswer": ["elektronska pošta", "WWW", "Telnet"]
+  },
+  {
+    "id": 85,
+    "question": "Koje od navedenih aplikacija koriste UDP protokol:",
+    "answers": [
+      "elektronska pošta",
+      "WWW",
+      "Video stream-ing",
+      "DNS",
+      "Telnet",
+      "Instant (Voice) Messaging"
+    ],
+    "correctAnswer": ["Video stream-ing", "DNS", "Instant (Voice) Messaging"]
+  },
+  {
+    "id": 86,
+    "question": "Koje od navedenih komandi su podržane HTTP/1.1 verzijom protokola?",
+    "answers": [
+      "GET, POST, HEAD, OPTIONS, PUT, DELETE, TRACE, CONNECT",
+      "GET, POST",
+      "GET, POST, HEAD"
+    ],
+    "correctAnswer": "GET, POST, HEAD, OPTIONS, PUT, DELETE, TRACE, CONNECT"
+  },
+  {
+    "id": 87,
+    "question": "Koje od ovih naredbi su podržane HTTP/1.0 verzijom protokola?",
+    "answers": [
+      "GET, POST, HEAD, OPTIONS, PUT, DELETE, TRACE, CONNECT",
+      "GET, POST",
+      "GET, POST, HEAD"
+    ],
+    "correctAnswer": "GET, POST, HEAD"
+  },
+  {
+    "id": 88,
+    "question": "Koje od sledećih karakteristika ima UDP:",
+    "answers": [
+      "sinhronizaciju u tri koraka za uspostavu veze",
+      "stanje konekcije na serveru",
+      "ništa od navedenog",
+      "regulisanu brzinu protoka"
+    ],
+    "correctAnswer": "ništa od navedenog"
+  },
+  {
+    "id": 89,
+    "question": "Koje vrste DNS upita postoje?",
+    "answers": [
+      "rekurzivni i iterativni",
+      "rezervni i iterativni",
+      "rekurzivni i inkrementalni"
+    ],
+    "correctAnswer": "rekurzivni i iterativni"
+  },
+  {
+    "id": 90,
+    "question": "Koji DNS zapis se koristi sve do pretposlednje naredbe prilikom DNS upita?",
+    "answers": [
+      "Type A",
+      "Type MX",
+      "Type NS (traži nadležni DNS server za određeni domen)",
+      "Type CNAME"
+    ],
+    "correctAnswer": "Type NS (traži nadležni DNS server za određeni domen)"
+  },
+  {
+    "id": 91,
+    "question": "Koji kuki (cookie) može ugroziti privatnost korisnika?",
+    "answers": [
+      "Kuki koji šalje stranica",
+      "Kuki treće strane (3rd party)",
+      "Oba navedena"
+    ],
+    "correctAnswer": "Oba navedena"
+  },
+  {
+    "id": 92,
+    "question": "Koji od navedenih protokola aplikativnog sloja koristi BitTorrent klijent:",
+    "answers": [
+      "UDP",
+      "BitTorrent",
+      "TCP",
+      "IGMP"
+    ],
+    "correctAnswer": "BitTorrent"
+  },
+  {
+    "id": 93,
+    "question": "Koji od navedenih protokola mora da podržava ruter?",
+    "answers": [
+      "IP",
+      "HTTP, TCP, UDP, IP",
+      "TCP, HTTP, UDP",
+      "IP, TCP, UDP"
+    ],
+    "correctAnswer": "IP"
+  },
+  {
+    "id": 94,
+    "question": "Koji od navedenih softvera spada u sniffer-e?",
+    "answers": [
+      "Skype",
+      "NS Lookup",
+      "Firewall",
+      "Wireshark"
+    ],
+    "correctAnswer": "Wireshark"
+  },
+  {
+    "id": 95,
+    "question": "Koji od sledećih HTTP statusnih kodova se ne odnosi na serverske greške:",
+    "answers": [
+      "400 Bad Request",
+      "401 Not Authorized",
+      "500 Internal Server Error",
+      "505 HTTP Version Not Supported"
+    ],
+    "correctAnswer": ["400 Bad Request", "401 Not Authorized"]
+  },
+  {
+    "id": 96,
+    "question": "Koji podrazumevani protokol transportnog sloja se koristi za slanje DNS poruka?",
+    "answers": [
+      "TCP",
+      "HTTP",
+      "UDP"
+    ],
+    "correctAnswer": "UDP"
+  },
+  {
+    "id": 97,
+    "question": "Koji protokoli se nalaze na aplikativnom sloju?",
+    "answers": [
+      "HTTP, DNS, FTP, SMTP, Telnet, POP3, IMAP",
+      "TCP, UDP",
+      "IP, ICMP",
+      "Ethernet, WiFi"
+    ],
+    "correctAnswer": "HTTP, DNS, FTP, SMTP, Telnet, POP3, IMAP"
+  },
+  {
+    "id": 98,
+    "question": "Koji protokol omogućava čuvanje poruka na udaljenom serveru, njihovo premestanje i menjanje?",
+    "answers": [
+      "POP3",
+      "IMAP",
+      "SMTP",
+      "HTTP"
+    ],
+    "correctAnswer": "IMAP"
+  },
+  {
+    "id": 99,
+    "question": "Koji protokol se nalazi ispod HTTP-a?",
+    "answers": [
+      "UDP",
+      "TCP",
+      "IP",
+      "DNS"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 100,
+    "question": "Koji se od sledećih protokola transportnog sloja uobičajeno koristi za slanje i prijem elektronske pošte?",
+    "answers": [
+      "SMTP",
+      "IP",
+      "TCP",
+      "UDP"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 101,
+    "question": "Koji su mogući tipovi zapisa u DNS bazi?",
+    "answers": [
+      "MX",
+      "TTL",
+      "A",
+      "B",
+      "NS",
+      "CNAME",
+      "NX"
+    ],
+    "correctAnswer": ["MX", "A", "NS", "CNAME"]
+  },
+  {
+    "id": 102,
+    "question": "Koji su standardni brojevi portova, dodeljeni HTTP i SMTP protokolu?",
+    "answers": [
+      "80, 25",
+      "80, 110",
+      "25, 85",
+      "1000, 105",
+      "8080, 25"
+    ],
+    "correctAnswer": "80, 25"
+  },
+  {
+    "id": 103,
+    "question": "Koliko paralelnih TCP konekcija se minimalno održava tokom jednog FTP transfera?",
+    "answers": [
+      "Jedna",
+      "Tri",
+      "Nijedan od ponuđenih odgovora",
+      "Dve"
+    ],
+    "correctAnswer": "Dve"
+  },
+  {
+    "id": 104,
+    "question": "Kom sloju pripada DNS?",
+    "answers": [
+      "fizičkom",
+      "sloju linka",
+      "mrežnom",
+      "aplikativnom"
+    ],
+    "correctAnswer": "aplikativnom"
+  },
+  {
+    "id": 105,
+    "question": "Koristimo SMTP protokol, šaljemo mail, tj. HTTP stranicu koja se sastoji od 5 objekata:",
+    "answers": [
+      "koristimo UDP",
+      "šalje se jedna TCP veza",
+      "šalje se pet paralelnih TCP veza",
+      "šalje se pet zasebnih TCP veza"
+    ],
+    "correctAnswer": "šalje se jedna TCP veza"
+  },
+  {
+    "id": 106,
+    "question": "Logička povezanost između aplikacija se ostvaruje na kom sloju?",
+    "answers": [
+      "Na transportnom",
+      "Na aplikativnom",
+      "Na mrežnom",
+      "Na sloju linka"
+    ],
+    "correctAnswer": "Na transportnom"
+  },
+  {
+    "id": 107,
+    "question": "Logičku komunikaciju između računara obezbeđuje:",
+    "answers": [
+      "Transportni sloj",
+      "Sloj veze podataka",
+      "Mrežni sloj"
+    ],
+    "correctAnswer": "Mrežni sloj"
+  },
+  {
+    "id": 108,
+    "question": "Način pretrazivanja P2P sistema, nezavisno od arhitekture je?",
+    "answers": [
+      "hijerarhijskim preklapanjem",
+      "ništa od ponuđenog",
+      "umnožavanjem upita",
+      "korišćenjem centralizovanog diska"
+    ],
+    "correctAnswer": ["hijerarhijskim preklapanjem", "umnožavanjem upita", "korišćenjem centralizovanog diska"]
+  },
+  {
+    "id": 109,
+    "question": "Na host pristižu fragmentisani datagrami. Kada se korisni podaci iz datagrama predaju transportnom sloju:",
+    "answers": [
+      "Nakon prijema ACK potvrde za dati fragment",
+      "Odmah po pristizanju pojedinačnog fragmentisanog paketa",
+      "Tek pošto mrežni sloj potpuno ponovo sastavi prvobitni IP datagram"
+    ],
+    "correctAnswer": "Tek pošto mrežni sloj potpuno ponovo sastavi prvobitni IP datagram"
+  },
+  {
+    "id": 110,
+    "question": "Na kojem sloju je SMTP protokol u odnosu na UDP protokol?",
+    "answers": [
+      "SMTP - aplikativni, UDP - transportni",
+      "SMTP - transportni, UDP - aplikativni",
+      "Oba su na aplikativnom sloju",
+      "Oba su na transportnom sloju"
+    ],
+    "correctAnswer": "SMTP - aplikativni, UDP - transportni"
+  },
+  {
+    "id": 111,
+    "question": "Na koji je način moguće proveriti da li je došlo do promene originalnog resursa na web serveru?",
+    "answers": [
+      "Slanjem HEAD HTTP zahteva",
+      "Slanjem POST HTTP zahteva sa If-Modified-Since zaglavljem",
+      "Slanjem GET HTTP zahteva sa Cookie zaglavljem",
+      "Slanjem GET HTTP zahteva sa If-Modified-Since zaglavljem"
+    ],
+    "correctAnswer": "Slanjem GET HTTP zahteva sa If-Modified-Since zaglavljem"
+  },
+  {
+    "id": 112,
+    "question": "Na kojim slojevima rade ruteri?",
+    "answers": [
+      "fizičkom",
+      "sloju veze podataka",
+      "mrežnom",
+      "transportnom",
+      "aplikativnom"
+    ],
+    "correctAnswer": ["fizičkom", "sloju veze podataka", "mrežnom"]
+  },
+  {
+    "id": 113,
+    "question": "Na kojim slojevima radi switch?",
+    "answers": [
+      "transportni",
+      "sloj linka podataka",
+      "aplikacioni",
+      "fizički",
+      "mrežni"
+    ],
+    "correctAnswer": ["sloj linka podataka", "fizički"]
+  },
+  {
+    "id": 114,
+    "question": "Na koji način klijent po pokretanju .torrent datoteke uspostavlja komunikaciju sa ostalim peer-ovima?",
+    "answers": [
+      "Uspostavlja vezu sa klijentima sa kojima inače komunicira i traži da i oni podele sa njim listu svojih peer-ova sa kojima on da uspostavlja konekciju",
+      "Upita server koji je predodređen da čuva listu korisnika koji seed-uju ili cele ili kompletno kompletirane fajlove opisane u .torrent fajlu i on da uspostavlja konekciju sa njima",
+      "Pročita listu klijenata koji seed-uju ili cele delimično kompletirane fajlove iz .torrent fajla i pokuša sa njima da uspostavi konekciju"
+    ],
+    "correctAnswer": "Pročita listu klijenata koji seed-uju ili cele delimično kompletirane fajlove iz .torrent fajla i pokuša sa njima da uspostavi konekciju"
+  },
+  {
+    "id": 115,
+    "question": "Na koju email adresu će se poslati ovaj mejl (pitanje sa vežbi kada je pokazao kako se šalje mejl preko komandne linije)?",
+    "answers": [
+      "MAIL FROM",
+      "RCPT TO",
+      "DATA",
+      "SUBJECT"
+    ],
+    "correctAnswer": "RCPT TO"
+  },
+  {
+    "id": 116,
+    "question": "Na kom portu radi HTTP?",
+    "answers": [
+      "20",
+      "21",
+      "80",
+      "443"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "id": 117,
+    "question": "Nakon što klijent unese svoj username i šifru, koje komande ispisuje FTP klijent?",
+    "answers": [
+      "GET, POST, PUT",
+      "LIST, RETR, STOR",
+      "SEND, RECEIVE, DELETE",
+      "CONNECT, DISCONNECT, TRANSFER"
+    ],
+    "correctAnswer": "LIST, RETR, STOR"
+  },
+  {
+    "id": 118,
+    "question": "Na računaru X se izvršava web server WS, na portu 80. U momentu posmatranja prima zahteve od dva računara, A i B. Da li se svi HTTP zahtevi, bez obzira na računar sa kojeg stižu, prenose kroz isti socket na portu 80?",
+    "answers": [
+      "Tačno",
+      "Pogrešno"
+    ],
+    "correctAnswer": "Pogrešno"
+  },
+  {
+    "id": 119,
+    "question": "Navedite tačan redosled SMTP komandi:",
+    "answers": [
+      "HELO, DATA, MAIL FROM, QUIT, RCPT TO",
+      "HELO, MAIL FROM, QUIT, RCPT TO, DATA",
+      "DATA, HELO, MAIL FROM, QUIT, RCPT TO",
+      "HELO, MAIL FROM, RCPT TO, DATA, QUIT"
+    ],
+    "correctAnswer": "HELO, MAIL FROM, RCPT TO, DATA, QUIT"
+  },
+  {
+    "id": 120,
+    "question": "Nedostaci korišćenja centralizovanog indeksa za pronalaženje informacija su:",
+    "answers": [
+      "Oslanjanje na jednu tačku",
+      "Veliki broj koraka do pronalaženja sadržaja",
+      "Kvalitet odgovora",
+      "Visoka cena"
+    ],
+    "correctAnswer": ["Oslanjanje na jednu tačku", "Veliki broj koraka do pronalaženja sadržaja"]
+  },
+  {
+    "id": 121,
+    "question": "Neizostavan deo svake P2P konekcije je:",
+    "answers": [
+      "Server",
+      "Tracker",
+      "Router",
+      "Switch"
+    ],
+    "correctAnswer": "Tracker"
+  },
+  {
+    "id": 122,
+    "question": "Objekat koji treba da bude vraćen HTTP klijentu se nalazi:",
+    "answers": [
+      "u zaglavlju HTTP odgovora",
+      "pre zaglavlja HTTP odgovora",
+      "iza zaglavlja, u telu poruke"
+    ],
+    "correctAnswer": "iza zaglavlja, u telu poruke"
+  },
+  {
+    "id": 123,
+    "question": "Objekti se nalaze u kojem delu poruke kod SMTP protokola?",
+    "answers": [
+      "Header deo",
+      "Data deo",
+      "Subject deo",
+      "From deo"
+    ],
+    "correctAnswer": "Data deo"
+  },
+  {
+    "id": 124,
+    "question": "Osnovni deo svakog peer to peer sistema zasnovanog na torrent tehnologiji je:",
+    "answers": [
+      "Server za upravljanje",
+      "Server za pretraživanje",
+      "MP3 muzika",
+      "Tracker"
+    ],
+    "correctAnswer": "Tracker"
+  },
+  {
+    "id": 125,
+    "question": "PING koristi protokol:",
+    "answers": [
+      "TCP",
+      "UDP",
+      "ICMP (mrežni sloj) – Internet Control Message Protocol",
+      "HTTP"
+    ],
+    "correctAnswer": "ICMP (mrežni sloj) – Internet Control Message Protocol"
+  },
+  {
+    "id": 126,
+    "question": "POP3 protokol radi na portu:",
+    "answers": [
+      "25",
+      "53",
+      "80",
+      "110"
+    ],
+    "correctAnswer": "110"
+  },
+  {
+    "id": 127,
+    "question": "Port SMTP protokola:",
+    "answers": [
+      "20",
+      "21",
+      "25",
+      "53"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "id": 128,
+    "question": "Pouzdan prenos podataka preko mreže garantuje?",
+    "answers": [
+      "UDP protokol",
+      "TCP protokol",
+      "IP protokol"
+    ],
+    "correctAnswer": "TCP protokol"
+  },
+  {
+    "id": 129,
+    "question": "Prednosti DNS keširanja su:",
+    "answers": [
+      "Povećava ažurnost podataka",
+      "Smanjuje broj DNS poruka koje se kreću Internetom",
+      "Povećava efikasnost DNS usluge",
+      "Pojednostavljuje održavanje DNS baze"
+    ],
+    "correctAnswer": ["Smanjuje broj DNS poruka koje se kreću Internetom", "Povećava efikasnost DNS usluge"]
+  },
+  {
+    "id": 130,
+    "question": "Prednosti komutiranja vodova u odnosu na komutiranje paketa su:",
+    "answers": [
+      "Resursi koji obezbeđuju komunikaciju ostaju rezervisani sve vreme trajanja komunikacione sesije",
+      "Resursi koji obezbeđuju komunikaciju ne ostaju rezervisani sve vreme trajanja komunikacione sesije",
+      "Resursi koji obezbeđuju komunikaciju nisu rezervisani na celoj dužini putanje paketa",
+      "Resursi koji obezbeđuju komunikaciju su rezervisani na celoj dužini putanje paketa"
+    ],
+    "correctAnswer": "Resursi koji obezbeđuju komunikaciju ostaju rezervisani sve vreme trajanja komunikacione sesije"
+  },
+  {
+    "id": 131,
+    "question": "Predpostavimo da je neki korisnik zatražio web stranu koja se sastoji od tekstualnog dela i dve slike. Za ovu stranu klijent šalje jednu poruku a prima tri:",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 132,
+    "question": "Pre nego što stanica 802.11 pošalje okvir podataka, ona mora prvo da pošalje RTS okvir i primi CTS okvir:",
+    "answers": [
+      "tacno",
+      "netacno"
+    ],
+    "correctAnswer": "netacno"
+  },
+  {
+    "id": 133,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 1000km i da su povezana direktnim linkom brzine R = 1 Mb/s. Takođe ćemo pretpostaviti i to da brzina propagacije linka iznosi 4.5*10^6 m/s. Kolika je širina (rastojanje) između pojedinih bitova (u metrima) na linku?",
+    "answers": [
+      "450m",
+      "45m",
+      "4.5m",
+      "250m"
+    ],
+    "correctAnswer": "4.5m"
+  },
+  {
+    "id": 134,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10000km i da su povezana direktnim linkom brzine R = 2 Mb/s. Takođe ćemo pretpostaviti i to da brzina propagacije linka iznosi 2*10^8 m/s. Izračunajte proizvod propusnog opsega i kašnjenja:",
+    "answers": [
+      "35000 bitova",
+      "100000 bitova",
+      "75000 bitova",
+      "40000 bitova"
+    ],
+    "correctAnswer": "100000 bitova"
+  },
+  {
+    "id": 135,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10 000 kilometara i da su povezana direktnim linkom brzine R=1Mb/s. Takođe ćemo predpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Izračunajte proizvod propusnog opsega i kašnjenja.",
+    "answers": [
+      "45000 bitova",
+      "30000 bitova",
+      "35000 bitova",
+      "40000 bitova"
+    ],
+    "correctAnswer": "40000 bitova"
+  },
+  {
+    "id": 136,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10 000 kilometara i da su povezana direktnim linkom brzine R=1Mb/s. Takođe ćemo predpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Kolika je širina (rastojanje) između pojedinih bitova (u metrima) na linku?",
+    "answers": [
+      "275 m",
+      "500 m",
+      "300 m",
+      "250 m"
+    ],
+    "correctAnswer": "250 m"
+  },
+  {
+    "id": 137,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10.000 kilometara i da su povezana direktnim linkom brzine R=1 Mb/s. Takođe ćemo predpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Proizvod propusne moći i kašnjenja predstavlja:",
+    "answers": [
+      "minimalni broj bitova koji se može naći na linku",
+      "prosečni broj bitova koji se može naći na linku",
+      "maksimalni broj bitova koji se može naći na linku"
+    ],
+    "correctAnswer": "maksimalni broj bitova koji se može naći na linku"
+  },
+  {
+    "id": 138,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10.000 kilometara i da su povezana direktnim linkom brzine R=1 Mb/s. Takođe ćemo predpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Opšti izraz za izračunavanje širine bitova, na osnovu brzine propagacije s, propusnog opsega R i dužine linka m je:",
+    "answers": [
+      "sm/R",
+      "s/R",
+      "Rm/s",
+      "R/sm"
+    ],
+    "correctAnswer": "s/R"
+  },
+  {
+    "id": 139,
+    "question": "Pretpostavimo da su dva računara međusobno udaljena 10.000 kilometara i da su povezana direktnim linkom brzine R=1 Mb/s. Takođe ćemo predpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Od računara A do računara B treba poslati datoteku od 350000 bitova. Predpostavimo da se ova datoteka šalje kao jedna velika kontinuirana poruka. Koji je maksimalan broj bitova koji u bilo kom trenutku može da se nađe na linku?",
+    "answers": [
+      "35000 bitova",
+      "30000 bitova",
+      "45000 bitova",
+      "40000 bitova"
+    ],
+    "correctAnswer": "40000 bitova"
+  },
+  {
+    "id": 140,
+    "question": "Pretpostavimo da su dva racunara medusobno udaljena 10.000 kilometara i da su povezana direktnim linkom brzine R=1 Mb/s. Takode cemo pretpostaviti i to da brzina propagacije linka iznosi 2,5 * 10^8 m/s. Opšti izraz za izracunavanje dužine bitova, na osnovu brzine propagacije s, propusnog opsega R i dužine linka m je:",
+    "answers": [
+      "s/R",
+      "Rm/s",
+      "R/sm",
+      "sm/R"
+    ],
+    "correctAnswer": "Rm/s"
+  },
+  {
+    "id": 141,
+    "question": "Pretpostavite da se veb stranica sastoji od 10 objekata od kojih je svaki veličine O bitova. Za postojani HTTP, deo vremena odgovora koji otpada na RTT iznosi 20 RTT?",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Netačno"
+  },
+  {
+    "id": 142,
+    "question": "Prilikom web zahteva istom postojanom vezom mogu da se pošalju dve različite web strane:",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Da"
+  },
+  {
+    "id": 143,
+    "question": "Procesi šalju poruke u mrežu i primaju poruke iz mreže preko softverskog interfejsa koji se naziva:",
+    "answers": [
+      "socket",
+      "port",
+      "protokol",
+      "kanal"
+    ],
+    "correctAnswer": "socket"
+  },
+  {
+    "id": 144,
+    "question": "Protokol BitTorrent upotrebljava se za:",
+    "answers": [
+      "distribuciju fajlova",
+      "pravljenje fajlova",
+      "pretrazivanje fajlova",
+      "nista od navedenog"
+    ],
+    "correctAnswer": "distribuciju fajlova"
+  },
+  {
+    "id": 145,
+    "question": "Protokol HTTP rešava problem provere aktuelnosti objekata koje predaje čitaču pomoću:",
+    "answers": [
+      "web keširanja",
+      "cevovodne obrade",
+      "uslovnog preuzimanja"
+    ],
+    "correctAnswer": "uslovnog preuzimanja"
+  },
+  {
+    "id": 146,
+    "question": "Protokoli za preuzimanje elektronske pošte su:",
+    "answers": [
+      "SMTP, HTTP, IMAP",
+      "SMTP, POP3, IMAP",
+      "POP3, HTTP, SMTP",
+      "POP3, IMAP, HTTP"
+    ],
+    "correctAnswer": "POP3, IMAP, HTTP"
+  },
+  {
+    "id": 147,
+    "question": "Protokol sa naizmeničnim bitovima je što i protokol sa selektivnom ponavljanjem gde je veličina prozora pošiljioca i primaoca jednaka 1:",
+    "answers": [
+      "tačno",
+      "netačno"
+    ],
+    "correctAnswer": "netačno"
+  },
+  {
+    "id": 148,
+    "question": "DHCP protokol služi za:",
+    "answers": [
+      "automatsko dodeljivanje adrese",
+      "prenos datoteka",
+      "slanje elektronske pošte",
+      "razrešavanje imena domena"
+    ],
+    "correctAnswer": "automatsko dodeljivanje adrese"
+  },
+  {
+    "id": 149,
+    "question": "FTP protokol služi za:",
+    "answers": [
+      "prenos datoteka i koristi dve konekcije, jednu za prenos i jednu za kontrolne informacije",
+      "prenos datoteka i koristi jednu konekciju",
+      "slanje elektronske pošte",
+      "razrešavanje imena domena"
+    ],
+    "correctAnswer": "prenos datoteka i koristi dve konekcije, jednu za prenos i jednu za kontrolne informacije"
+  },
+  {
+    "id": 150,
+    "question": "RTP protokol koristi sledeći protokol transportnog sloja:",
+    "answers": [
+      "UDP",
+      "TCP"
+    ],
+    "correctAnswer": "UDP"
+  },
+  {
+    "id": 151,
+    "question": "RTP protokol se nalazi:",
+    "answers": [
+      "iznad UDP socket-a",
+      "ispod UDP socket-a"
+    ],
+    "correctAnswer": "iznad UDP socket-a"
+  },
+  {
+    "id": 152,
+    "question": "RTSP protokol je protokol bez stanja:",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "ne"
+  },
+  {
+    "id": 153,
+    "question": "RTSP protokol koristi sledeći protokol transportnog sloja:",
+    "answers": [
+      "UDP",
+      "TCP"
+    ],
+    "correctAnswer": ["UDP", "TCP"]
+  },
+  {
+    "id": 154,
+    "question": "RTT obuhvata sledeca kasnjenja:",
+    "answers": [
+      "usled prostiranja paketa, usled stajanja u redu, usled obrade",
+      "kasnjenje usled prostiranja paketa, kasnjenje usled stajanja u redu",
+      "kasnjenje usled prostiranja paketa, kasnjenje usled obrade"
+    ],
+    "correctAnswer": "usled prostiranja paketa, usled stajanja u redu, usled obrade"
+  },
+  {
+    "id": 155,
+    "question": "Selektujte protokole aplikativnog sloja:",
+    "answers": [
+      "UDP",
+      "WWW",
+      "DNS",
+      "TCP",
+      "IP",
+      "FTP",
+      "SMTP",
+      "ARP",
+      "HTTP"
+    ],
+    "correctAnswer": ["DNS", "FTP", "SMTP", "HTTP"]
+  },
+  {
+    "id": 156,
+    "question": "Selektujte protokole transportnog sloja:",
+    "answers": [
+      "SMTP",
+      "FTP",
+      "WWW",
+      "UDP",
+      "DNS",
+      "IP",
+      "ARP",
+      "HTTP",
+      "TCP"
+    ],
+    "correctAnswer": ["UDP", "TCP"]
+  },
+  {
+    "id": 157,
+    "question": "Serveri za elektronsku poštu međusobno šalju podatke korišćenjem:",
+    "answers": [
+      "SMTP",
+      "POP3",
+      "IMAP",
+      "HTTP"
+    ],
+    "correctAnswer": "SMTP"
+  },
+  {
+    "id": 158,
+    "question": "ServerSocket welcomeSocket = new ServerSocket(6789);",
+    "answers": [
+      "inicijalizuje TCP serverski socket",
+      "započinje osluškivanje zahteva za TCP konekcijom",
+      "pokreće prijem podataka na serveru putem TCP protokola"
+    ],
+    "correctAnswer": "inicijalizuje TCP serverski socket"
+  },
+  {
+    "id": 159,
+    "question": "Server za veb keširanje ima ulogu:",
+    "answers": [
+      "Servera",
+      "I klijenta i servera",
+      "Klijenta"
+    ],
+    "correctAnswer": "I klijenta i servera"
+  },
+  {
+    "id": 160,
+    "question": "Servis koji obezbeđuje translaciju kanoničkog imena u IP adresu, se zove:",
+    "answers": [
+      "DMS",
+      "MAC",
+      "DNS",
+      "FQDN"
+    ],
+    "correctAnswer": "DNS"
+  },
+  {
+    "id": 161,
+    "question": "Set karaktera koji se mogu poslati putem SMTP-a predstavlja:",
+    "answers": [
+      "8-bitni UNICODE",
+      "7-bitni ASCII",
+      "8-bitni ASCII",
+      "16-bitni UNICODE"
+    ],
+    "correctAnswer": "7-bitni ASCII"
+  },
+  {
+    "id": 162,
+    "question": "Slanje priloga uz elektronsku poštu, upotrebom MIME ekstenzija, predstavlja:",
+    "answers": [
+      "podelu priloga na više poruka",
+      "kodiranje binarnog sadržaja u 7-bitni ASCII",
+      "kompresiju binarnog sadržaja u 7-bitni ASCII"
+    ],
+    "correctAnswer": "kodiranje binarnog sadržaja u 7-bitni ASCII"
+  },
+  {
+    "id": 163,
+    "question": "SMTP protokol koristi port broj _____ za slanje maila (e-pošte):",
+    "answers": [
+      "20",
+      "21",
+      "25",
+      "53"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "id": 164,
+    "question": "SMTP protokol služi za preuzimanje elektronske pošte?",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 165,
+    "question": "Socket connectionSocket = welcomeSocket.accept();",
+    "answers": [
+      "isto što i nslookup localhost",
+      "uspostavlja TCP konekciju",
+      "započinje osluškivanje zahteva za TCP konekcijom",
+      "Inicijalizuje TCP serverski socket"
+    ],
+    "correctAnswer": "uspostavlja TCP konekciju"
+  },
+  {
+    "id": 166,
+    "question": "Socket postavlja vezu između aplikativnog i transportnog sloja:",
+    "answers": [
+      "tacno",
+      "netacno"
+    ],
+    "correctAnswer": "tacno"
+  },
+  {
+    "id": 167,
+    "question": "Socket socket = new Socket(\"localhost\",6789);",
+    "answers": [
+      "instancira TCP klijentski socket",
+      "instancira UDP klijentski socket",
+      "instancira TCP serverski socket",
+      "instancira UDP serverski socket"
+    ],
+    "correctAnswer": "instancira TCP klijentski socket"
+  },
+  {
+    "id": 168,
+    "question": "SSH protokol za udaljeni pristup podrazumevano radi na portu:",
+    "answers": [
+      "23",
+      "22",
+      "25",
+      "53"
+    ],
+    "correctAnswer": "22"
+  },
+  {
+    "id": 169,
+    "question": "Šta browser radi sa kukijem?",
+    "answers": [
+      "šalje ga serveru prilikom svakog zahteva",
+      "očitava identifikaciju korisnika",
+      "čuva ga na lokalnom hard disku"
+    ],
+    "correctAnswer": ["šalje ga serveru prilikom svakog zahteva", "čuva ga na lokalnom hard disku"]
+  },
+  {
+    "id": 170,
+    "question": "Šta će se desiti ako, ukoliko pokrenemo program TCPKlijent, koji uspostavlja konekciju ka zadatom serveru, a TCPServer nije pokrenut?",
+    "answers": [
+      "Program će javiti grešku",
+      "Program neće javiti grešku, ali podaci neće stizati do servera",
+      "Po pokretanju servera program će neometano nastaviti rad"
+    ],
+    "correctAnswer": "Program će javiti grešku"
+  },
+  {
+    "id": 171,
+    "question": "Šta će se desiti ako, ukoliko pokrenemo program UDPKlijent, koji uspostavlja konekciju ka zadatom serveru, a UDPServer nije pokrenut?",
+    "answers": [
+      "Program će javiti grešku",
+      "Program neće javiti grešku, ali podaci neće stizati do servera",
+      "Po pokretanju servera program će neometano nastaviti rad"
+    ],
+    "correctAnswer": ["Program neće javiti grešku, ali podaci neće stizati do servera", "Po pokretanju servera program će neometano nastaviti rad"]
+  },
+  {
+    "id": 172,
+    "question": "Šta je DNS?",
+    "answers": [
+      "Domain Name System",
+      "protokol aplikativnog sloja",
+      "Data Network Storage",
+      "Distributed Name Service"
+    ],
+    "correctAnswer": ["Domain Name System", "protokol aplikativnog sloja"]
+  },
+  {
+    "id": 173,
+    "question": "Šta je if-modified-since?",
+    "answers": [
+      "pita proxy server da li je objekat ažuriran od nekog datuma (ovo se nalazi u http zahtevakoja šalje proxy izvornom serveru)",
+      "šalje informaciju o vremenu kad je datoteka poslednji put ažurirana",
+      "traži listu svih verzija objekta",
+      "traži informaciju o autoru objekta"
+    ],
+    "correctAnswer": "pita proxy server da li je objekat ažuriran od nekog datuma (ovo se nalazi u http zahtevakoja šalje proxy izvornom serveru)"
+  },
+  {
+    "id": 174,
+    "question": "Šta je to IP Spoofing?",
+    "answers": [
+      "napad koji onesposobljava mrežu, računar ili neki drugi deo infrastrukture",
+      "zakrčenje propusnog opsega",
+      "ubacivanje paketa na internet sa lažnom izvorišnom adresom",
+      "krađa IP adresa korisnicima neke mreže"
+    ],
+    "correctAnswer": "ubacivanje paketa na internet sa lažnom izvorišnom adresom"
+  },
+  {
+    "id": 175,
+    "question": "Šta označava Date u zaglavlju HTTP?",
+    "answers": [
+      "Kada je server napravio i poslao HTTP odgovor",
+      "Kada je datoteka poslednji put izmenjena",
+      "Kada je klijent poslao zahtev",
+      "Datum isteka objekta"
+    ],
+    "correctAnswer": "Kada je server napravio i poslao HTTP odgovor"
+  },
+  {
+    "id": 176,
+    "question": "Šta radi sledeća komanda (JAVA): DatagramSocket clientSocket = new datagramSocket(); DatagramPacket packet; clientSocket.send(packet);",
+    "answers": [
+      "prima paket preko TCP protokola",
+      "prima paket preko UDP protokola",
+      "šalje paket preko TCP protokola",
+      "šalje paket preko UDP protokola"
+    ],
+    "correctAnswer": "šalje paket preko UDP protokola"
+  },
+  {
+    "id": 177,
+    "question": "Šta se nalazi u segmentu transportnog sloja:",
+    "answers": [
+      "broj izvornog porta i broj odredišnog porta",
+      "IP adrese",
+      "MAC adrese",
+      "kontrolni zbir"
+    ],
+    "correctAnswer": "broj izvornog porta i broj odredišnog porta"
+  },
+  {
+    "id": 178,
+    "question": "Šta TCP ne obezbeđuje?",
+    "answers": [
+      "Propusnu moć",
+      "bezbednost",
+      "vreme ograničenja",
+      "pouzdani prenos"
+    ],
+    "correctAnswer": ["Propusnu moć", "bezbednost", "vreme ograničenja"]
+  },
+  {
+    "id": 179,
+    "question": "Šta traži komanda: nslookup -type=NS gmail.com?",
+    "answers": [
+      "DNS servere za domen gmail.com",
+      "Mail servere za domen gmail.com",
+      "Web servere za domen gmail.com"
+    ],
+    "correctAnswer": "DNS servere za domen gmail.com"
+  },
+  {
+    "id": 180,
+    "question": "TCP ne pruža:",
+    "answers": [
+      "Nikakve garancije u pogledu kašnjenja paketa",
+      "Garancije isporuke niza bajtova bez gubitaka",
+      "Uslugu konekcije",
+      "Garancije pouzdanog transporta",
+      "Garancije u pogledu minimalne brzine transporta"
+    ],
+    "correctAnswer": ["Nikakve garancije u pogledu kašnjenja paketa", "Garancije u pogledu minimalne brzine transporta"]
+  },
+  {
+    "id": 181,
+    "question": "TCP protokol može da radi preko GPRS-a?",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "da"
+  },
+  {
+    "id": 182,
+    "question": "TLD serveri pristupaju kojem daljem serveru?",
+    "answers": [
+      "Korenskim serverima (viši nivo, iznad njih)",
+      "nadležni DNS serveri (niži nivo, ispod njih)",
+      "lokalnim DNS serverima",
+      "autoritativnim DNS serverima"
+    ],
+    "correctAnswer": "nadležni DNS serveri (niži nivo, ispod njih)"
+  },
+  {
+    "id": 183,
+    "question": "U čemu je prednost mreža sa komutaturanjem vodova u odnosu na mreže sa komutatiranjem paketa?",
+    "answers": [
+      "garantovan protok",
+      "kontrola greške",
+      "garantovana isporuka"
+    ],
+    "correctAnswer": "garantovan protok"
+  },
+  {
+    "id": 184,
+    "question": "U čemu je razlika između hosta i krajnjeg sistema?",
+    "answers": [
+      "nema razlike",
+      "host je stalno u mreži, a krajnji sistem nije",
+      "host ne mogu koristiti korisnici, krajnji sistemi mogu"
+    ],
+    "correctAnswer": "nema razlike"
+  },
+  {
+    "id": 185,
+    "question": "U DNS zapisu o resursu, polje TTL prikazuje:",
+    "answers": [
+      "kada treba ukloniti dati zapis iz keširane memorije",
+      "IP adresu za dato ime računara",
+      "ime računara za datu IP adresu"
+    ],
+    "correctAnswer": "kada treba ukloniti dati zapis iz keširane memorije"
+  },
+  {
+    "id": 186,
+    "question": "UDP segment sadrži polje za UDP kontrolni zbir, koji se koristi za proveru da li je u segmentu došlo do greške prilikom prenosa.",
+    "answers": [
+      "Tačno",
+      "Netačno"
+    ],
+    "correctAnswer": "Tačno"
+  },
+  {
+    "id": 187,
+    "question": "U jednom cvoru kašnjenje usled obrade je zanemarljivo (~0), kašnjenje usled čekanja u redu je 0.001s Dužina paketa je 100 bit dok je propusna moć linka R = 28kb/s. Rastojanje linka između tog cvora i sledećeg je 900km čija je brzina propagacije 2.5*10^8m/s. Koliko je ukupno kašnjenje u tom cvoru?",
+    "answers": [
+      "0.0049s",
+      "0.029s",
+      "0.0078s",
+      "0.025s"
+    ],
+    "correctAnswer": "0.0049s"
+  },
+  {
+    "id": 188,
+    "question": "(ISPRAVLJENO) U jednom cvoru kašnjenje usled obrade je zanemarljivo (~0), kašnjenje usled čekanja u redu je 0.001 s. Dužina paketa je 100 bitova dok je propusna moć linka R=28kb/s. Rastojanje linka između tog cvora i sledećeg je 900km čija je brzina propagacije 2.5 * 10^8 m/s. Koliko je ukupno kašnjenje u tom cvoru?",
+    "answers": [
+      "0,025 s",
+      "0,0049 s",
+      "0,029 s",
+      "0,00817 s"
+    ],
+    "correctAnswer": "0,00817 s"
+  },
+  {
+    "id": 189,
+    "question": "U klijent-server paradigmi, klijent:",
+    "answers": [
+      "inicira zahtev",
+      "odgovara na zahtev",
+      "i inicira i odgovara na zahtev"
+    ],
+    "correctAnswer": "inicira zahtev"
+  },
+  {
+    "id": 190,
+    "question": "Ukoliko klijent pošalje zahtev IF-MODIFIED-SINCE naredbom, odgovor od servera će biti:",
+    "answers": [
+      "Samo ako je traženi resurs menjan posle navedenog datuma",
+      "U oba slučaja će server vratiti resurs, ali će naznačiti da li je bilo promene od navedenog datuma",
+      "Samo ako je traženi resurs menjan pre navedenog datuma"
+    ],
+    "correctAnswer": "Samo ako je traženi resurs menjan posle navedenog datuma"
+  },
+  {
+    "id": 191,
+    "question": "Ukoliko na klijentskom računaru postoji kolačić vezan za konkretan Web sajt, koji će se od ova tri scenarija odigrati?",
+    "answers": [
+      "Identifikator kolačića se prosleđuje Web sajtu prilikom upućivanja svakog HTTP zahteva",
+      "Identifikator se ne prosleđuje, već se sadržaj kolačića dinamički menja prilikom svake posete",
+      "Identifikator kolačića se prosleđuje Web sajtu samo prilikom prvog HTTP zahteva"
+    ],
+    "correctAnswer": "Identifikator kolačića se prosleđuje Web sajtu prilikom upućivanja svakog HTTP zahteva"
+  },
+  {
+    "id": 192,
+    "question": "U kom slučaju UDP može da omogući pouzdan prenos podataka?",
+    "answers": [
+      "Nikada, UDP je nepouzdan protokol",
+      "Bolji je za vremenski zavisne tj. multimedijalne aplikacije",
+      "Samo kod velikih fajlova",
+      "Samo u lokalnoj mreži"
+    ],
+    "correctAnswer": "Bolji je za vremenski zavisne tj. multimedijalne aplikacije"
+  },
+  {
+    "id": 193,
+    "question": "U mrežnom programiranju, soketi predstavljaju vezu između transportnog i mrežnog sloja:",
+    "answers": [
+      "da",
+      "ne"
+    ],
+    "correctAnswer": "ne"
+  },
+  {
+    "id": 194,
+    "question": "U oblasti računarskih mreža, vođeni fizički medijumi su:",
+    "answers": [
+      "Bežični LAN",
+      "Koaksijalni kabl",
+      "Upredena parica",
+      "Digitalni satelitski kanal",
+      "Optička vlakna"
+    ],
+    "correctAnswer": ["Koaksijalni kabl", "Upredena parica", "Optička vlakna"]
+  },
+  {
+    "id": 195,
+    "question": "U slučaju ADSL tehnologije brzina downloada je uobičajeno:",
+    "answers": [
+      "veća od brzine uploada",
+      "manja od brzine uploada",
+      "ista kao i brzina uploada"
+    ],
+    "correctAnswer": "veća od brzine uploada"
+  },
+  {
+    "id": 196,
+    "question": "Usluge kontrole toka i kontrole zagušenja nudi protokol?",
+    "answers": [
+      "IP",
+      "UDP",
+      "SMTP",
+      "TCP"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 197,
+    "question": "U svom podrazumevanom režimu, HTTP 1.1 koristi:",
+    "answers": [
+      "nepostojane cevovodne veze",
+      "postojane cevovodne veze",
+      "postojane veze bez cevovodne obrade"
+    ],
+    "correctAnswer": "postojane cevovodne veze"
+  },
+  {
+    "id": 198,
+    "question": "Veb server za keširanje je:",
+    "answers": [
+      "Proxy server",
+      "Aplikativni server",
+      "Nalazi se na klijentskom računaru",
+      "Server za upravljanje bazom podataka"
+    ],
+    "correctAnswer": "Proxy server"
+  },
+  {
+    "id": 199,
+    "question": "Vreme koje je potrebno malom paketu za put od klijenta do servera i nazad:",
+    "answers": [
+      "RTT",
+      "TTL",
+      "latency",
+      "delay"
+    ],
+    "correctAnswer": "RTT"
+  },
+  {
+    "id": 200,
+    "question": "Web server apache radi na portu:",
+    "answers": [
+      "20",
+      "21",
+      "80",
+      "443"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "id": 201,
+    "question": "Zadatak isporučivanja podataka iz segmenata transportnog sloja u odgovarajući socket naziva se:",
+    "answers": [
+      "IP spoofing",
+      "demultipleksiranje",
+      "skeniranje portova",
+      "multipleksiranje"
+    ],
+    "correctAnswer": "demultipleksiranje"
+  },
+  {
+    "id": 202,
+    "question": "Zaglavlje DATE: u HTTP protokolu pokazuje kada je objekat koji se nalazi u odgovoru poslednji put izmenjen:",
+    "answers": [
+      "Da",
+      "Ne"
+    ],
+    "correctAnswer": "Ne"
+  },
+  {
+    "id": 203,
+    "question": "Zamislite dva računara A i B koji su povezani jednim linkom čija je brzina prenosa R b/s. Pretpostavimo da su ova dva računara međusobno udaljena m metara i da je brzina propagacije linka s metara u sekundi. Računar A treba da pošalje paket dužine L bitova računaru B. Pretpostavimo da je s=2.5*10^8, L = 100 bitova, R = 30kb/s. Odrediti udaljenost m, tako da Dprop bude jednako sa Dprenos:",
+    "answers": [
+      "925km",
+      "150km",
+      "805km",
+      "833km"
+    ],
+    "correctAnswer": "833km"
+  },
+  {
+    "id": 204,
+    "question": "Zamislite dva računara A i B, koji su povezani jednim linkom čija je brzina prenosa R b/s. Pretpostavimo da su ova dva računara međusobno udaljena m metara i da je brzina propagacije linka s metara u sekundi. Računar A treba da pošalje paket dužine L bitova računaru B. Koliko je kašnjenje usled propagacije u funkciji m i s?",
+    "answers": [
+      "D = m + s",
+      "D = m - s",
+      "D = m * s",
+      "D = m / s"
+    ],
+    "correctAnswer": "D = m / s"
+  },
+  {
+    "id": 205,
+    "question": "Zamislite dva računara A i B, koji su povezani jednim linkom čija je brzina prenosa R b/s. Pretpostavimo da su ova dva računara međusobno udaljena m metara i da je brzina propagacije linka s metara u sekundi. Računar A treba da pošalje paket dužine L bitova računaru B. Koliko traje prenos paketa u funkciji L i R?",
+    "answers": [
+      "D = L + R (sekundi)",
+      "D = L * R (sekundi)",
+      "D = L / R (sekundi)",
+      "D = L ^ R (sekundi)"
+    ],
+    "correctAnswer": "D = L / R (sekundi)"
+  },
+  {
+    "id": 206,
+    "question": "Zamislite dva računara A i B, koji su povezani jednim linkom čija je brzina prenosa R b/s. Pretpostavimo da su ova dva računara međusobno udaljena m metara i da je brzina propagacije linka s metara u sekundi. Računar A treba da pošalje paket dužine L bitova računaru B. Pretpostavimo da je s=2,5 * 10^8, L = 100 bitova, R=28 kb/s. Odrediti udaljenost m, tako da Dprop bude jednako Dprenos?",
+    "answers": [
+      "893 km",
+      "905 km",
+      "923 km",
+      "765 km"
+    ],
+    "correctAnswer": "893 km"
+  },
+  {
+    "id": 207,
+    "question": "Za preuzimanje DNS upita u lancu upita koristi se?",
+    "answers": [
+      "zapis tipa MX",
+      "zapis tipa A",
+      "zapis tipa NS",
+      "zapis tipa C"
+    ],
+    "correctAnswer": "zapis tipa NS"
+  },
+  {
+    "id": 208,
+    "question": "Za razliku od UDP protokola, TCP protokol uslovni rečeno garantuje stizanje paketa do odredišta. TCP će više puta poslati isti segment dok:",
+    "answers": [
+      "ne dobije potvrdu da je segment primljen, dok ne istekne TCP timeout",
+      "ne dobije potvrdu da je segment primljen, bez obzira na vreme koje je potrebno da se isporuka izvrši",
+      "ne dođe do maksimalnog broja ponovo poslatih segmenata.",
+      "ne istekne TCP timeout"
+    ],
+    "correctAnswer": "ne dobije potvrdu da je segment primljen, bez obzira na vreme koje je potrebno da se isporuka izvrši"
+  },
+  {
+    "id": 209,
+    "question": "Za torrente ako je B optimistično neprigušen a koji ima dovoljno veliku brzinu on postaje računaru A:",
+    "answers": [
+      "neprigušen",
+      "prigušen",
+      "blokiran",
+      "nedostupan"
+    ],
+    "correctAnswer": "neprigušen"
+  },
+  {
+    "id": 210,
+    "question": "Za uspešno multipleksiranje potrebno je znati:",
+    "answers": [
+      "samo polje broja izvornog porta",
+      "samo polje broja odredišnog porta",
+      "polje broja izvornog porta i polje broja odredišnog porta",
+      "MAC adresu"
+    ],
+    "correctAnswer": "polje broja izvornog porta i polje broja odredišnog porta"
+  },
+  {
+    "id": 211,
+    "question": "Zbog čega se streaming u savremenom internetu sve više obavlja putem TCP protokola, a ne preko UDP protokola?",
+    "answers": [
+      "Zato što TCP ima statističke metode za upravljanje multimedijalnim sadržajem.",
+      "Zato što je UDP zastareli protokol koji služi isključivo za broadcast.",
+      "Zato što je internet konekcija dovoljno brza da se gubici u brzini nastali u sinhronizaciji i kontroli paketa ne osećaju prilikom puštanja stream-a.",
+      "Zato što TCP protokol ima kontrolu zagušenja."
+    ],
+    "correctAnswer": "Zato što je internet konekcija dovoljno brza da se gubici u brzini nastali u sinhronizaciji i kontroli paketa ne osećaju prilikom puštanja stream-a."
+  },
+  {
+    "id": 212,
+    "question": "Zlonamerni softver koji u uređaj može da prodre bez izričitog učešća korisnika je:",
+    "answers": [
+      "Trojanski konj",
+      "Virus",
+      "Crv"
+    ],
+    "correctAnswer": "Crv"
+  }
+]

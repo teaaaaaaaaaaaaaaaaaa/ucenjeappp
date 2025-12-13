@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1,
+    "question": "DHCP protokol služi za:",
+    "answers": [
+      "automatsko dodeljivanje adrese",
+      "prenos datoteka",
+      "slanje elektronske pošte",
+      "razrešavanje imena domena"
+    ],
+    "correctAnswer": "automatsko dodeljivanje adrese"
+  },
+  {
+    "id": 2,
+    "question": "FTP protokol služi za prenos datoteka i koristi:",
+    "answers": [
+      "jednu konekciju",
+      "dve konekcije, jednu za prenos i jednu za kontrolne informacije",
+      "tri konekcije",
+      "ne koristi konekcije"
+    ],
+    "correctAnswer": "dve konekcije, jednu za prenos i jednu za kontrolne informacije"
+  },
+  {
+    "id": 3,
+    "question": "Broj porta je:",
+    "answers": [
+      "8-bitni broj u rasponu od 0 - 255",
+      "16-bitni broj u rasponu od 0 - 65535",
+      "32-bitni broj u rasponu od 0 - 4294967295",
+      "64-bitni broj"
+    ],
+    "correctAnswer": "16-bitni broj u rasponu od 0 - 65535"
+  },
+  {
+    "id": 4,
+    "question": "Dobro poznati portovi se nalaze u rasponu:",
+    "answers": [
+      "0 - 1023",
+      "1024 - 49151",
+      "49152 - 65535",
+      "0 - 255"
+    ],
+    "correctAnswer": "0 - 1023"
+  },
+  {
+    "id": 5,
+    "question": "Web server Apache radi na portu:",
+    "answers": [
+      "20",
+      "21",
+      "80",
+      "443"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "id": 6,
+    "question": "POP3 protokol radi na portu broj:",
+    "answers": [
+      "25",
+      "53",
+      "80",
+      "110"
+    ],
+    "correctAnswer": "110"
+  },
+  {
+    "id": 7,
+    "question": "SMTP protokol koristi port broj za slanje maila (e-pošta):",
+    "answers": [
+      "20",
+      "21",
+      "25",
+      "53"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "id": 8,
+    "question": "DNS koristi port broj:",
+    "answers": [
+      "20",
+      "25",
+      "53",
+      "80"
+    ],
+    "correctAnswer": "53"
+  },
+  {
+    "id": 9,
+    "question": "FTP protokol koristi port:",
+    "answers": [
+      "20",
+      "21",
+      "20 i 21",
+      "80"
+    ],
+    "correctAnswer": "20 i 21"
+  },
+  {
+    "id": 10,
+    "question": "Da li FON ima svoj DNS?",
+    "answers": [
+      "Ima",
+      "Nema"
+    ],
+    "correctAnswer": "Ima"
+  },
+  {
+    "id": 11,
+    "question": "Koji protokoli se nalaze na aplikativnom sloju?",
+    "answers": [
+      "TCP, UDP",
+      "IP, ICMP",
+      "HTTP, DNS, FTP, SMTP, Telnet, POP3",
+      "Ethernet, WiFi"
+    ],
+    "correctAnswer": "HTTP, DNS, FTP, SMTP, Telnet, POP3"
+  },
+  {
+    "id": 12,
+    "question": "Koji protokoli se nalaze na transportnom sloju?",
+    "answers": [
+      "HTTP, FTP",
+      "TCP, UDP",
+      "IP, ICMP",
+      "DNS, SMTP"
+    ],
+    "correctAnswer": "TCP, UDP"
+  },
+  {
+    "id": 13,
+    "question": "U kom slučaju UDP može da omogući pouzdan prenos podataka?",
+    "answers": [
+      "Nikada, UDP je nepouzdan protokol",
+      "Bolji je za vremenski zavisne tj. multimedijalne aplikacije",
+      "Samo kod velikih fajlova",
+      "Samo u lokalnoj mreži"
+    ],
+    "correctAnswer": "Bolji je za vremenski zavisne tj. multimedijalne aplikacije"
+  },
+  {
+    "id": 14,
+    "question": "Koji protokol se nalazi ispod HTTP-a?",
+    "answers": [
+      "UDP",
+      "TCP",
+      "IP",
+      "DNS"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "id": 15,
+    "question": "Nakon što klijent unese svoj username i šifru, koje komande ispisuje FTP klijent?",
+    "answers": [
+      "GET, POST, PUT",
+      "LIST, RETR, STOR",
+      "SEND, RECEIVE, DELETE",
+      "CONNECT, DISCONNECT, TRANSFER"
+    ],
+    "correctAnswer": "LIST, RETR, STOR"
+  },
+  {
+    "id": 16,
+    "question": "FTP komanda USER koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika do servera",
+      "slanje lozinke korisnika serveru",
+      "preuzimanje datoteke",
+      "slanje datoteke"
+    ],
+    "correctAnswer": "slanje identifikacije korisnika do servera"
+  },
+  {
+    "id": 17,
+    "question": "FTP komanda PASS koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika",
+      "slanje lozinke korisnika serveru",
+      "preuzimanje datoteke",
+      "listanje direktorijuma"
+    ],
+    "correctAnswer": "slanje lozinke korisnika serveru"
+  },
+  {
+    "id": 18,
+    "question": "FTP komanda LIST koristi se za:",
+    "answers": [
+      "slanje identifikacije korisnika",
+      "slanje lozinke",
+      "preuzimanje datoteke",
+      "spisak svih datoteka iz tekućeg direktorijuma na udaljenom računaru"
+    ],
+    "correctAnswer": "spisak svih datoteka iz tekućeg direktorijuma na udaljenom računaru"
+  },
+  {
+    "id": 19,
+    "question": "FTP komanda RETR koristi se za:",
+    "answers": [
+      "preuzimanje datoteke iz tekućeg direktorijuma na udaljenom računaru",
+      "slanje datoteke",
+      "brisanje datoteke",
+      "listanje direktorijuma"
+    ],
+    "correctAnswer": "preuzimanje datoteke iz tekućeg direktorijuma na udaljenom računaru"
+  },
+  {
+    "id": 20,
+    "question": "FTP komanda STOR koristi se za:",
+    "answers": [
+      "preuzimanje datoteke",
+      "snimanje (tj. stavljanje) datoteke u tekući direktorijum na udaljenom računaru",
+      "brisanje datoteke",
+      "promena direktorijuma"
+    ],
+    "correctAnswer": "snimanje (tj. stavljanje) datoteke u tekući direktorijum na udaljenom računaru"
+  },
+  {
+    "id": 21,
+    "question": "Logička povezanost između aplikacija se ostvaruje na:",
+    "answers": [
+      "fizičkom sloju",
+      "mrežnom sloju",
+      "transportnom sloju",
+      "aplikativnom sloju"
+    ],
+    "correctAnswer": "aplikativnom sloju"
+  },
+  {
+    "id": 22,
+    "question": "Ping koristi protokol:",
+    "answers": [
+      "TCP",
+      "UDP",
+      "ICMP (mrežni sloj) – Internet Control Message Protocol",
+      "HTTP"
+    ],
+    "correctAnswer": "ICMP (mrežni sloj) – Internet Control Message Protocol"
+  },
+  {
+    "id": 23,
+    "question": "Neizostavan deo svake P2P konekcije je:",
+    "answers": [
+      "Server",
+      "Tracker",
+      "Router",
+      "Switch"
+    ],
+    "correctAnswer": "Tracker"
+  },
+  {
+    "id": 24,
+    "question": "Koji DNS zapis se koristi sve do pretposlednje naredbe prilikom DNS upita?",
+    "answers": [
+      "Type A",
+      "Type MX",
+      "Type NS (traži nadležni DNS server za određeni domen)",
+      "Type CNAME"
+    ],
+    "correctAnswer": "Type NS (traži nadležni DNS server za određeni domen)"
+  },
+  {
+    "id": 25,
+    "question": "Za uspešno multipleksiranje potrebno je znati:",
+    "answers": [
+      "samo polje broja izvornog porta",
+      "samo polje broja odredišnog porta",
+      "polje broja izvornog porta i polje broja odredišnog porta",
+      "MAC adresu"
+    ],
+    "correctAnswer": "polje broja izvornog porta i polje broja odredišnog porta"
+  },
+  {
+    "id": 26,
+    "question": "Na koju email adresu će se poslati mejl prilikom slanja preko komandne linije?",
+    "answers": [
+      "MAIL FROM",
+      "RCPT TO",
+      "DATA",
+      "SUBJECT"
+    ],
+    "correctAnswer": "RCPT TO"
+  },
+  {
+    "id": 27,
+    "question": "Današnji internet je zasnovan na:",
+    "answers": [
+      "komutiranju kola",
+      "komutiranju paketa",
+      "komutiranju poruka",
+      "broadcast prenosa"
+    ],
+    "correctAnswer": "komutiranju paketa"
+  },
+  {
+    "id": 28,
+    "question": "Ukoliko je intenzitet saobraćaja veći od 1, kašnjenje je:",
+    "answers": [
+      "srazmerno veće",
+      "nesrazmerno veće",
+      "malo veće",
+      "konstantno"
+    ],
+    "correctAnswer": "nesrazmerno veće"
+  },
+  {
+    "id": 29,
+    "question": "Kada UDP koristi handshaking?",
+    "answers": [
+      "uvek",
+      "samo pri uspostavljanju konekcije",
+      "ne koristi",
+      "samo pri zatvaranju konekcije"
+    ],
+    "correctAnswer": "ne koristi"
+  },
+  {
+    "id": 30,
+    "question": "Kom sloju pripada DNS?",
+    "answers": [
+      "fizičkom",
+      "sloju linka",
+      "mrežnom",
+      "aplikativnom"
+    ],
+    "correctAnswer": "aplikativnom"
+  },
+  {
+    "id": 31,
+    "question": "Da bi se uspešno uspostavila \"slobodna\" mreža, potrebno je:",
+    "answers": [
+      "da samo klijent poštuje RFC dokumenta",
+      "da samo server poštuje RFC dokumenta",
+      "da klijent i server poštuju RFC dokumenta",
+      "ne mora niko da poštuje RFC dokumenta"
+    ],
+    "correctAnswer": "da klijent i server poštuju RFC dokumenta"
+  },
+  {
+    "id": 32,
+    "question": "DNS zapis koji se odnosi na mailserver je:",
+    "answers": [
+      "A",
+      "CNAME",
+      "MX",
+      "NS"
+    ],
+    "correctAnswer": "MX"
+  },
+  {
+    "id": 33,
+    "question": "Gde se nalazi socket (između kojih slojeva)?",
+    "answers": [
+      "između fizičkog i sloja linka",
+      "između mrežnog i transportnog",
+      "između aplikativnog i transportnog",
+      "između transportnog i mrežnog"
+    ],
+    "correctAnswer": "između aplikativnog i transportnog"
+  },
+  {
+    "id": 34,
+    "question": "Da li je stariji FTP ili HTTP protokol?",
+    "answers": [
+      "HTTP",
+      "FTP (1971. god)",
+      "Podjednako stari",
+      "Zavisi od implementacije"
+    ],
+    "correctAnswer": "FTP (1971. god)"
+  },
+  {
+    "id": 35,
+    "question": "Propusna moć mreže (sa 2 računara i 2 rutera) se određuje na osnovu:",
+    "answers": [
+      "najveće brzine između komponenti",
+      "prosečne brzine",
+      "najmanje brzine između 2 komutatora",
+      "zbira svih brzina"
+    ],
+    "correctAnswer": "najmanje brzine između 2 komutatora"
+  },
+  {
+    "id": 36,
+    "question": "Kad torrent bira na 30 sekundi nasumično, koji je to tip?",
+    "answers": [
+      "standardno neprigušen",
+      "optimistično neprigušen",
+      "nasumično odabran",
+      "prioritetno odabran"
+    ],
+    "correctAnswer": "optimistično neprigušen"
+  }
+]
