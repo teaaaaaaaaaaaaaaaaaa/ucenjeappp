@@ -130,6 +130,18 @@ const Quiz: React.FC = () => {
         return '🏗️';
       case 'projektovanje_softvera_ponudjeni':
         return '🏗️';
+      case 'RMT_sa_modlla':
+        return '📡';
+      case 'RMT_Podebljano_al_sivo':
+        return '📡';
+      case 'RMT_otvorena_':
+        return '📡';
+      case 'RMT_kvizlet_random':
+        return '📡';
+      case 'RMT_prepravljeno_TEA':
+        return '📡';
+      case 'RMT_sa_modlla_dva':
+        return '📡';
       default:
         return '🧠';
     }

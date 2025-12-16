@@ -184,7 +184,7 @@ const Home: React.FC = () => {
       case 'projektovanje_softvera':
         return 'Projektovanje Softvera';
       case 'RMT_sa_modlla':
-        return 'RMT - Računarske Mreže i Telekomunikacije';
+        return 'RMT - sa moodla';
       case 'RMT_Podebljano_al_sivo':
         return 'RMT - Podebljano (Sivo)';
       case 'RMT_otvorena_':
@@ -194,7 +194,7 @@ const Home: React.FC = () => {
       case 'RMT_prepravljeno_TEA':
         return 'RMT - Prepravljeno TEA';
       case 'RMT_sa_modlla_dva':
-        return 'RMT - Sa Modula 2';
+        return 'RMT - Sa moodla 2';
       default:
         return subject;
     }
