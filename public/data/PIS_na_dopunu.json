@@ -1,0 +1,800 @@
+[
+  {
+    "id": 1,
+    "question": "U zavisnosti od daljeg grananja, specijalizacija, generalizacija može biti:",
+    "answers": [],
+    "correctAnswer": "obavezna i neobavezna"
+  },
+  {
+    "id": 2,
+    "question": "Za pozivanje ali operacija koristi se oznaka:",
+    "answers": [],
+    "correctAnswer": "->"
+  },
+  {
+    "id": 3,
+    "question": "Za opis strukture i sadržaja tokova i skladišta podataka u SSA se koristi:",
+    "answers": [],
+    "correctAnswer": "rečnik podataka"
+  },
+  {
+    "id": 4,
+    "question": "U UML 2.0 u dijagrame interakcije, pored dijagrama komunikacije spada i:",
+    "answers": [],
+    "correctAnswer": "dijagram sekvenci"
+  },
+  {
+    "id": 5,
+    "question": "U rečniku podataka || je oznaka za:",
+    "answers": [],
+    "correctAnswer": "neekskluzivnu specijalizaciju"
+  },
+  {
+    "id": 6,
+    "question": "Operacija upisivanja u OVT može biti:",
+    "answers": [],
+    "correctAnswer": "isključivo redosledna"
+  },
+  {
+    "id": 7,
+    "question": "U SSA interfejs mora imati bar:",
+    "answers": [],
+    "correctAnswer": "1 ulazni ili bar 1 izlazni tok"
+  },
+  {
+    "id": 8,
+    "question": "Obavezna i ekskluzivna specijalizacija na PDV određena je:",
+    "answers": [],
+    "correctAnswer": "1,1"
+  },
+  {
+    "id": 9,
+    "question": "Model za opis strukture sistema je:",
+    "answers": [],
+    "correctAnswer": "dijagram klasa"
+  },
+  {
+    "id": 10,
+    "question": "Simbol (crni ispunjeni krug) na dijagramu prelaza stanja označava:",
+    "answers": [],
+    "correctAnswer": "krajnje stanje"
+  },
+  {
+    "id": 11,
+    "question": "Agregacija je u UML dijagramu klasa:",
+    "answers": [],
+    "correctAnswer": "vrsta veze"
+  },
+  {
+    "id": 12,
+    "question": "Modifikacija softvera radi postizanja održivosti:",
+    "answers": [],
+    "correctAnswer": "perfektivno održavanje"
+  },
+  {
+    "id": 13,
+    "question": "Šta se u OCL označava sa Sequence(T):",
+    "answers": [],
+    "correctAnswer": "uređena kolekcija, dozvoljeni duplikati"
+  },
+  {
+    "id": 14,
+    "question": "UML 2.0 dijagram za opis interakcije koji prikazuje vremenski redosled poruka je:",
+    "answers": [],
+    "correctAnswer": "dijagram sekvenci"
+  },
+  {
+    "id": 15,
+    "question": "U UML se pored generalizacije i realizacije definišu i sledeći tipovi veza:",
+    "answers": [],
+    "correctAnswer": "asocijacija i veza zavisnosti"
+  },
+  {
+    "id": 16,
+    "question": "Šta od navedenog nije karakteristika agilnog razvoja softvera:",
+    "answers": [],
+    "correctAnswer": "dugoročno planiranje"
+  },
+  {
+    "id": 17,
+    "question": "U četvoroslojnoj hijerarhiji, model sistema se nalazi na nivou:",
+    "answers": [],
+    "correctAnswer": "M1 (M1 – sistem, M2 – meta model, M3 – meta-meta model)"
+  },
+  {
+    "id": 18,
+    "question": "Grafički simbol (ispunjeni romb) na UML dijagramu klasa označava:",
+    "answers": [],
+    "correctAnswer": "composition vezu"
+  },
+  {
+    "id": 19,
+    "question": "Šta se od navedenog koristi za definisanje OCL ograničenja koje treba da bude zadovoljeno tokom celokupnog životnog ciklusa objekta:",
+    "answers": [],
+    "correctAnswer": "invariant"
+  },
+  {
+    "id": 20,
+    "question": "Šta ne spada u načine dekomponovanja dijagrama prelaza stanja:",
+    "answers": [],
+    "correctAnswer": "nivelacija stanja"
+  },
+  {
+    "id": 21,
+    "question": "U rečniku podataka <> je oznaka za:",
+    "answers": [],
+    "correctAnswer": "agregaciju"
+  },
+  {
+    "id": 22,
+    "question": "Modifikacija softverskog proizvoda radi popravke otkrivenih grešaka naziva se:",
+    "answers": [],
+    "correctAnswer": "korektivno održavanje"
+  },
+  {
+    "id": 23,
+    "question": "Kojom ulogom kod Scrum metode se predstavljaju zainteresovane strane ili poslodavci:",
+    "answers": [],
+    "correctAnswer": "Product Owner"
+  },
+  {
+    "id": 24,
+    "question": "U SSA proces se može direktno povezati tokom podataka sa:",
+    "answers": [],
+    "correctAnswer": "sve navedeno (interfejsom, skladištem, drugim procesom)"
+  },
+  {
+    "id": 25,
+    "question": "Po UML standardu simbol (krug sa linijom ispod) je:",
+    "answers": [],
+    "correctAnswer": "nije podržan (samo u Idefix)"
+  },
+  {
+    "id": 26,
+    "question": "U SSA proces:",
+    "answers": [],
+    "correctAnswer": "mora imati bar 1 ulazni i bar 1 izlazni tok"
+  },
+  {
+    "id": 27,
+    "question": "Grafički simbol dva pravougaonika jedan u drugom u SSA se koristi za prikaz:",
+    "answers": [],
+    "correctAnswer": "ne koristi se"
+  },
+  {
+    "id": 28,
+    "question": "Stereotip veze zavisnosti koja referencira (ubacuje) moguće dodatno ponašanje opisano u posebnom apstraktnom SK, u osnovi SK:",
+    "answers": [],
+    "correctAnswer": "<<extend>>"
+  },
+  {
+    "id": 29,
+    "question": "Akcija koja ne menja stanje sistema:",
+    "answers": [],
+    "correctAnswer": "interna tranzicija"
+  },
+  {
+    "id": 30,
+    "question": "Više vrednosti jedne komponente koja se u dijagramu strukture komponenata može pojaviti više puta:",
+    "answers": [],
+    "correctAnswer": "Skup"
+  },
+  {
+    "id": 31,
+    "question": "UML element kojim se definišu vrednosti za svaki atribut klase:",
+    "answers": [],
+    "correctAnswer": "slot"
+  },
+  {
+    "id": 32,
+    "question": "U zavisnosti od vrednosti gornje kardinalnosti specijalizacija i generalizacija može biti:",
+    "answers": [],
+    "correctAnswer": "ekskluzivna i neekskluzivna"
+  },
+  {
+    "id": 33,
+    "question": "U rečniku podataka {} je oznaka za:",
+    "answers": [],
+    "correctAnswer": "skup"
+  },
+  {
+    "id": 34,
+    "question": "UML 2.0 dijagram koji se koristi za statički opis implementacije sistema je:",
+    "answers": [],
+    "correctAnswer": "dijagram komponenti"
+  },
+  {
+    "id": 35,
+    "question": "U SSA dozvoljeno je da tok podataka direktno povezuje:",
+    "answers": [],
+    "correctAnswer": "dva procesa"
+  },
+  {
+    "id": 36,
+    "question": "U UML 2.0 direktno instanciranje interfejsa:",
+    "answers": [],
+    "correctAnswer": "nije moguće"
+  },
+  {
+    "id": 37,
+    "question": "Šta se u OCL označava sa Set(T):",
+    "answers": [],
+    "correctAnswer": "neuređena kolekcija, nisu dozvoljeni duplikati"
+  },
+  {
+    "id": 38,
+    "question": "Composition part of se u UML dijagramu klasa koristi za opis:",
+    "answers": [],
+    "correctAnswer": "jake povezanosti"
+  },
+  {
+    "id": 39,
+    "question": "Sprint je osnovna jedinica u procesu razvoja primenom:",
+    "answers": [],
+    "correctAnswer": "Scrum metode"
+  },
+  {
+    "id": 40,
+    "question": "Neobavezna i ekskluzivna specijalizacija na PDV je:",
+    "answers": [],
+    "correctAnswer": "0,1"
+  },
+  {
+    "id": 41,
+    "question": "U SSA dijagram toka podataka najvišeg nivoa apstrakcije se naziva:",
+    "answers": [],
+    "correctAnswer": "dijagram konteksta"
+  },
+  {
+    "id": 42,
+    "question": "Jedan slučaj korišćenja predstavlja skup, jedna sekvenca događaja se naziva:",
+    "answers": [],
+    "correctAnswer": "scenario"
+  },
+  {
+    "id": 43,
+    "question": "Stereotip u UML dijagramu klasa kojim se označava da su instance klase takođe klase:",
+    "answers": [],
+    "correctAnswer": "<<metaclass>>"
+  },
+  {
+    "id": 44,
+    "question": "\"Interna tranzicija\" u UML dijagramu promene stanja predstavlja:",
+    "answers": [],
+    "correctAnswer": "akciju koja ne menja stanje sistema"
+  },
+  {
+    "id": 45,
+    "question": "Definicija {a,b,c} u rečniku označava da:",
+    "answers": [],
+    "correctAnswer": "može uzeti 1 ili nijedno pojavljivanje"
+  },
+  {
+    "id": 46,
+    "question": "Sprint kod Scrum agilne metode traje:",
+    "answers": [],
+    "correctAnswer": "od 1 nedelje do mesec dana"
+  },
+  {
+    "id": 47,
+    "question": "Povezati: Link se koristi u kom dijagramu?",
+    "answers": [],
+    "correctAnswer": "UML dijagram objekata"
+  },
+  {
+    "id": 48,
+    "question": "Povezati: Instance klase se koriste u kojim dijagramima?",
+    "answers": [],
+    "correctAnswer": "PDV, UML dijagram objekata, UML dijagram sekvenci"
+  },
+  {
+    "id": 49,
+    "question": "Povezati: Klasa se koristi u kom dijagramu?",
+    "answers": [],
+    "correctAnswer": "UML dijagram klasa"
+  },
+  {
+    "id": 50,
+    "question": "Povezati: Veza zavisnosti se koristi u kojim dijagramima?",
+    "answers": [],
+    "correctAnswer": "UML dijagram slučaja korišćenja, UML dijagram klasa"
+  },
+  {
+    "id": 51,
+    "question": "Povezati: Interfejs se koristi u kojim dijagramima?",
+    "answers": [],
+    "correctAnswer": "SSA, UML dijagram klasa"
+  },
+  {
+    "id": 52,
+    "question": "Povezati: Veza agregacije se koristi u kojim dijagramima?",
+    "answers": [],
+    "correctAnswer": "PDV, UML dijagram klasa"
+  },
+  {
+    "id": 53,
+    "question": "U SSA @pre klauzula može da se koristi:",
+    "answers": [],
+    "correctAnswer": "isključivo u postcondition ograničenjima"
+  },
+  {
+    "id": 54,
+    "question": "IDEF1X je standard koji se koristi za kreiranje:",
+    "answers": [],
+    "correctAnswer": "modela podataka"
+  },
+  {
+    "id": 55,
+    "question": "Na UML 2.5 dijagramu, poruka \"5: (x is not null) poruka 5()\" u dijagramu sekvenci pripada:",
+    "answers": [],
+    "correctAnswer": "i alt i loop <<[]>>"
+  },
+  {
+    "id": 56,
+    "question": "Kod generalizacije, slučaj kada instance neke od podklasa ne može biti ujedno i instance neke druge podklase predstavlja se ključnom rečju:",
+    "answers": [],
+    "correctAnswer": "disjoint"
+  },
+  {
+    "id": 57,
+    "question": "UML 2.5 dijagram za opis funkcija sistema:",
+    "answers": [],
+    "correctAnswer": "slučajevi korišćenja"
+  },
+  {
+    "id": 58,
+    "question": "UML profili se koriste za:",
+    "answers": [],
+    "correctAnswer": "prilagođavanje meta modela konkretnim platformama"
+  },
+  {
+    "id": 59,
+    "question": "U rečniku podataka [] je oznaka za:",
+    "answers": [],
+    "correctAnswer": "ekskluzivnu specijalizaciju"
+  },
+  {
+    "id": 60,
+    "question": "Koji standard omogućava preslikavanje MOF modela u Javu u cilju održavanja MOF metamodela:",
+    "answers": [],
+    "correctAnswer": "JMI"
+  },
+  {
+    "id": 61,
+    "question": "Grafički simbol pravougaonika u SSA koristimo za:",
+    "answers": [],
+    "correctAnswer": "interfejs"
+  },
+  {
+    "id": 62,
+    "question": "Grafički simbol romba na PDV je:",
+    "answers": [],
+    "correctAnswer": "veza"
+  },
+  {
+    "id": 63,
+    "question": "Za opisivanje dinamike slučaja korišćenja koriste se UML:",
+    "answers": [],
+    "correctAnswer": "dijagram sekvenci"
+  },
+  {
+    "id": 64,
+    "question": "PDV služi za kreiranje:",
+    "answers": [],
+    "correctAnswer": "modela podataka"
+  },
+  {
+    "id": 65,
+    "question": "Za kreiranje konceptualnog modela koristi se UML dijagram:",
+    "answers": [],
+    "correctAnswer": "klasa"
+  },
+  {
+    "id": 66,
+    "question": "U UML 2.0 postoji generalizacija:",
+    "answers": [],
+    "correctAnswer": "aktera i slučajeva korišćenja"
+  },
+  {
+    "id": 67,
+    "question": "Odnosi dva slučaja korišćenja u UML 2.0 koriste se sledeće stereotipne veze:",
+    "answers": [],
+    "correctAnswer": "<<extend>> i <<include>>"
+  },
+  {
+    "id": 68,
+    "question": "Dijagram sekvenci prikazuje komunikaciju između:",
+    "answers": [],
+    "correctAnswer": "objekata"
+  },
+  {
+    "id": 69,
+    "question": "Na dijagramu slučajeva korišćenja u UML 2.0 dozvoljena je direktna asocijacija između:",
+    "answers": [],
+    "correctAnswer": "aktera i slučaja korišćenja"
+  },
+  {
+    "id": 70,
+    "question": "Strelica u SSA služi za:",
+    "answers": [],
+    "correctAnswer": "tok podataka"
+  },
+  {
+    "id": 71,
+    "question": "Dijagrami toka podataka u SSA služe za kreiranje:",
+    "answers": [],
+    "correctAnswer": "modela procesa"
+  },
+  {
+    "id": 72,
+    "question": "U UML 2.0 između klase i interfejsa uspostavlja se veza:",
+    "answers": [],
+    "correctAnswer": "<<implementation>>"
+  },
+  {
+    "id": 73,
+    "question": "U SSA funkcije koje se dalje ne dekomponuju su:",
+    "answers": [],
+    "correctAnswer": "primitivne funkcije"
+  },
+  {
+    "id": 74,
+    "question": "U SSA pored funkcija mogu se dekomponovati još:",
+    "answers": [],
+    "correctAnswer": "tokovi i skladišta"
+  },
+  {
+    "id": 75,
+    "question": "U UML 2.0 u dijagrame interakcije pored dijagrama sekvenci spada i:",
+    "answers": [],
+    "correctAnswer": "dijagram komunikacije"
+  },
+  {
+    "id": 76,
+    "question": "OCL se koristi za definisanje ograničenja:",
+    "answers": [],
+    "correctAnswer": "nad svim UML dijagramima"
+  },
+  {
+    "id": 77,
+    "question": "U UML dijagramu klasa, ukoliko ne istaknemo vidljivost podrazumeva se:",
+    "answers": [],
+    "correctAnswer": "privatna vidljivost"
+  },
+  {
+    "id": 78,
+    "question": "Jedan od dijagrama interakcije je:",
+    "answers": [],
+    "correctAnswer": "vremenski dijagram"
+  },
+  {
+    "id": 79,
+    "question": "Uzimajući u obzir {a,b,c,d,e,f} koje pojave komponente nisu validne:",
+    "answers": [],
+    "correctAnswer": "a,c,d,e"
+  },
+  {
+    "id": 80,
+    "question": "Koja veza ne postoji u dijagramu slučajeva korišćenja:",
+    "answers": [],
+    "correctAnswer": "agregacije"
+  },
+  {
+    "id": 81,
+    "question": "U dijagramu sekvenci, poruke koje nisu potvrđene ni poslate su:",
+    "answers": [],
+    "correctAnswer": "nepoznate"
+  },
+  {
+    "id": 82,
+    "question": "Više specijalizacije koje postoje u IDEF1X su:",
+    "answers": [],
+    "correctAnswer": "ne postoji specijalizacija u IDEF1X"
+  },
+  {
+    "id": 83,
+    "question": "Grafički simbol elipsa u SSA koristi se za prikaz:",
+    "answers": [],
+    "correctAnswer": "procesa"
+  },
+  {
+    "id": 84,
+    "question": "Public vidljivost operacija u UML 2.0 se predstavlja:",
+    "answers": [],
+    "correctAnswer": "sa znakom (+)"
+  },
+  {
+    "id": 85,
+    "question": "IDEF2 standard se koristi za modelovanje:",
+    "answers": [],
+    "correctAnswer": "dinamike sistema"
+  },
+  {
+    "id": 86,
+    "question": "U UML-u se pored asocijacije i veze zavisnosti definiše i sledeći tip veze:",
+    "answers": [],
+    "correctAnswer": "generalizacija i realizacija"
+  },
+  {
+    "id": 87,
+    "question": "Protected vidljivost operacija u UML 2.0 se predstavlja:",
+    "answers": [],
+    "correctAnswer": "sa znakom sharp (#)"
+  },
+  {
+    "id": 88,
+    "question": "Grafički simbol (pravougaonik sa manjim pravougaonikom unutra) na PDV-u predstavlja:",
+    "answers": [],
+    "correctAnswer": "slab objekat"
+  },
+  {
+    "id": 89,
+    "question": "Koji pattern predlaže razdvajanje funkcionalnosti korisničkog interfejsa na pogled koji sadrži samo stanja i prezenter koji sadrži svu prezentacionu logiku uključujući i mehanizam povezivanja:",
+    "answers": [],
+    "correctAnswer": "MVP – Pasivni pogled"
+  },
+  {
+    "id": 90,
+    "question": "Kardinalnost na slici iz IDEF1X dijagrama odgovara kojoj kardinalnosti u dijagramu klasa:",
+    "answers": [],
+    "correctAnswer": "0..1"
+  },
+  {
+    "id": 91,
+    "question": "Šta od navedenog ne predstavlja zasebnu fazu u metodologiji životnog ciklusa kod vodopad modela procesa razvoja IS:",
+    "answers": [],
+    "correctAnswer": "testiranje"
+  },
+  {
+    "id": 92,
+    "question": "Koji model u MDA (Model driven architecture) definiše pravila za izgradnju pravila za formulisanje konstrukcija u novom modelu (MOF)?",
+    "answers": [],
+    "correctAnswer": "M3"
+  },
+  {
+    "id": 93,
+    "question": "Prema IDEF1X standardu, na slici je prikazana veza:",
+    "answers": [],
+    "correctAnswer": "nula ili jedna; jedna ili više"
+  },
+  {
+    "id": 94,
+    "question": "Ukoliko se u UML dijagramu klasa za generalizaciju postavi complete ograničenje, to znači da:",
+    "answers": [],
+    "correctAnswer": "svaka instanca nadklase mora biti ujedno i instanca bar jedne podklase"
+  },
+  {
+    "id": 95,
+    "question": "Poruka u okviru dijagrama sekvenci koja NE pripada podeli u zavisnosti od prisustva događaja:",
+    "answers": [],
+    "correctAnswer": "poruka zauzetosti (availability message)"
+  },
+  {
+    "id": 96,
+    "question": "Uzimajući u obzir sledeću strukturu iz rečnika podataka <F, {U}, U, [P,Q]> koje pojavljivanje komponente nije validno:",
+    "answers": [],
+    "correctAnswer": "FMUPQ"
+  },
+  {
+    "id": 97,
+    "question": "Na dijagramu komunikacije poruka sa sekvencijalnim izrazom 5.3.1 sledi poruku sa sekvencijalnom oznakom:",
+    "answers": [],
+    "correctAnswer": "5.3"
+  },
+  {
+    "id": 98,
+    "question": "Ukoliko se u UML dijagramu klasa za generalizaciju postavi incomplete ograničenje, tada to znači da:",
+    "answers": [],
+    "correctAnswer": "svaka instanca nadklase ne mora biti ujedno i instanca od podklasa"
+  },
+  {
+    "id": 99,
+    "question": "Ukoliko je reč o dijagramu objekata, na slici je dat primer:",
+    "answers": [],
+    "correctAnswer": "nulobjekta"
+  },
+  {
+    "id": 100,
+    "question": "Pattern MVP se sastoji od sledećih komponenti:",
+    "answers": [],
+    "correctAnswer": "View, Presenter, Model"
+  },
+  {
+    "id": 101,
+    "question": "U dijagramu komunikacije se petlja označava sa:",
+    "answers": [],
+    "correctAnswer": "*[uslov]"
+  },
+  {
+    "id": 102,
+    "question": "Prikazani koncept IDEF1X dijagrama označava:",
+    "answers": [],
+    "correctAnswer": "neidentifikujuća veza jedan: nula ili više"
+  },
+  {
+    "id": 103,
+    "question": "Šta od navedenog nije koncept koji se koristi u UML profilu:",
+    "answers": [],
+    "correctAnswer": "<<subtype>>"
+  },
+  {
+    "id": 104,
+    "question": "Simbol na slici na interaction overview dijagramu predstavlja:",
+    "answers": [],
+    "correctAnswer": "activity final node"
+  },
+  {
+    "id": 105,
+    "question": "Package vidljivost atributa u dijagramu klasa se predstavlja znakom:",
+    "answers": [],
+    "correctAnswer": "~"
+  },
+  {
+    "id": 106,
+    "question": "Dinamički opis aspekta projektovanja ne predstavlja se preko:",
+    "answers": [],
+    "correctAnswer": "dijagrama klasa"
+  },
+  {
+    "id": 107,
+    "question": "Kod dijagrama sekvenci kog operatora označava da kombinovani fragment predstavlja izbor nekog ponašanja:",
+    "answers": [],
+    "correctAnswer": "ALT"
+  },
+  {
+    "id": 108,
+    "question": "Aspekt koji predstavlja komponente i fajlove preko kojih se štiti fizičke celine je:",
+    "answers": [],
+    "correctAnswer": "aspekt implementacije"
+  },
+  {
+    "id": 109,
+    "question": "Konvencionalna metoda za modelovanje funkcija sistema je:",
+    "answers": [],
+    "correctAnswer": "SSA (Strukturna sistemska analiza)"
+  },
+  {
+    "id": 110,
+    "question": "Tačna tvrdnja o <<extend>> stereotipu:",
+    "answers": [],
+    "correctAnswer": "<<extend>> uvodi moguće dodatno ponašanje opisano u posmatranom apstraktnom SK, u osnovi SK"
+  },
+  {
+    "id": 111,
+    "question": "Za konstruisanje konceptualnog modela se NE koristi:",
+    "answers": [],
+    "correctAnswer": "SSA"
+  },
+  {
+    "id": 112,
+    "question": "Postupak kojim se od nekog implementacionog modela (gotovog softverskog proizvoda) formira njegova specifikacija je:",
+    "answers": [],
+    "correctAnswer": "inverzno inženjerstvo"
+  },
+  {
+    "id": 113,
+    "question": "Generalizacije se mogu grupisati kako bi se kreirale odgovarajuće dimenzije generalizacije i takva kreirana grupa se predstavlja pomoću:",
+    "answers": [],
+    "correctAnswer": "Generalization Set"
+  },
+  {
+    "id": 114,
+    "question": "Izvedene vrednosti se označavaju sa:",
+    "answers": [],
+    "correctAnswer": "/"
+  },
+  {
+    "id": 115,
+    "question": "Tačna tvrdnja o kompoziciji:",
+    "answers": [],
+    "correctAnswer": "Kompozicija predstavlja jake posedovnosti"
+  },
+  {
+    "id": 116,
+    "question": "Osnovni pojmovi dijagrama objekata su:",
+    "answers": [],
+    "correctAnswer": "objekat, slot, link"
+  },
+  {
+    "id": 117,
+    "question": "Entity bean predstavlja:",
+    "answers": [],
+    "correctAnswer": "poslovni entitet koji postoji u bazi"
+  },
+  {
+    "id": 118,
+    "question": "Podrazumevani tip za extension vezu je:",
+    "answers": [],
+    "correctAnswer": "non-required extension"
+  },
+  {
+    "id": 119,
+    "question": "Tačna tvrdnja za OCL:",
+    "answers": [],
+    "correctAnswer": "deklarativan jezik"
+  },
+  {
+    "id": 120,
+    "question": "MOF (Meta object facility) je standardni jezik za:",
+    "answers": [],
+    "correctAnswer": "specifikaciju meta modela"
+  },
+  {
+    "id": 121,
+    "question": "Ključna reč self sa slike odnosi se na:",
+    "answers": [],
+    "correctAnswer": "instancu tipa PlanUcenika"
+  },
+  {
+    "id": 122,
+    "question": "Precondition predstavlja ograničenje koje mora biti zadovoljeno:",
+    "answers": [],
+    "correctAnswer": "u trenutku izvršavanja operacije"
+  },
+  {
+    "id": 123,
+    "question": "Tačna tvrdnja o Primitivnim tipovima:",
+    "answers": [],
+    "correctAnswer": "Primitivni types se nalaze u okviru UML Infrastructure"
+  },
+  {
+    "id": 124,
+    "question": "Kod MVP paterna:",
+    "answers": [],
+    "correctAnswer": "Presenter sadrži logiku kojom reaguje na akcije korisnika"
+  },
+  {
+    "id": 125,
+    "question": "Zajedničko svim paternima je da:",
+    "answers": [],
+    "correctAnswer": "model upravlja ponašanjem, strukturi i podacima"
+  },
+  {
+    "id": 126,
+    "question": "Označiti pattern čija je karakteristika da sadrži samo stanje:",
+    "answers": [],
+    "correctAnswer": "MVP pasivni pogled"
+  },
+  {
+    "id": 127,
+    "question": "Kod paterna prezentacionog modela komponente su:",
+    "answers": [],
+    "correctAnswer": "pogled i prezentacioni model"
+  },
+  {
+    "id": 128,
+    "question": "Kod MVVM paterna, sloj u sredini predstavlja:",
+    "answers": [],
+    "correctAnswer": "view model"
+  },
+  {
+    "id": 129,
+    "question": "Označiti tačnu tvrdnju za agilne metode:",
+    "answers": [],
+    "correctAnswer": "Agile metode su grupa metodologija koje se zasnivaju na iterativnom i inkrementalnom razvoju"
+  },
+  {
+    "id": 130,
+    "question": "U okviru Manifesta agilnog razvoja veliku vrednost ima (nabrojati 4 stavke):",
+    "answers": [],
+    "correctAnswer": "pojedinci i interakcija od procesa i alata; primenjiv softver od obimne dokumentacije; saradnja sa klijentima od ugovornih odnosa; reakcija na promene od pridržavanja plana"
+  },
+  {
+    "id": 131,
+    "question": "Faza Scrum procesa u okviru koje se vrši neprekidna kontrola bitnih parametara i koja predstavlja crnu kutiju u kojoj se može očekivati nepredvidivo ponašanje je:",
+    "answers": [],
+    "correctAnswer": "faza razvoja (faza igre)"
+  },
+  {
+    "id": 132,
+    "question": "Programiranje u paru i samo onda kada se pojavi potreba za nekom funkcionalnošću jedne su od odlika koje agilne metode:",
+    "answers": [],
+    "correctAnswer": "XP (Extreme Programming)"
+  },
+  {
+    "id": 133,
+    "question": "MoSCoW metoda se sastoji od:",
+    "answers": [],
+    "correctAnswer": "Must, Should, Could, Won't"
+  }
+]

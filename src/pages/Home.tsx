@@ -9,20 +9,20 @@ import UnknownStats from '../components/stats/UnknownStats';
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
-  const { 
-    getSessions, 
-    continueSession, 
-    deleteSession, 
+  const {
+    getSessions,
+    continueSession,
+    deleteSession,
     renameSession,
     getCustomQuizzes,
     startCustomQuiz,
     deleteCustomQuiz,
   } = useQuiz();
-  
+
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [availableSubjects, setAvailableSubjects] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
-  
+
   // Fetch available subjects on mount
   useEffect(() => {
     const fetchSubjects = async () => {
@@ -35,10 +35,10 @@ const Home: React.FC = () => {
         setLoading(false);
       }
     };
-    
+
     fetchSubjects();
   }, []);
-  
+
   // Get sessions and custom quizzes for the selected subject
   const sessions = getSessions(selectedSubject || undefined);
   const customQuizzes = getCustomQuizzes();
@@ -47,23 +47,23 @@ const Home: React.FC = () => {
     startCustomQuiz(quizId);
     navigate('/quiz/session');
   };
-  
+
   // Handle continue session
   const handleContinueSession = (sessionId: string) => {
     continueSession(sessionId);
     navigate('/quiz/session');
   };
-  
+
   // Handle delete session
   const handleDeleteSession = (sessionId: string) => {
     deleteSession(sessionId);
   };
-  
+
   // Handle rename session
   const handleRenameSession = (sessionId: string, newName: string) => {
     renameSession(sessionId, newName);
   };
-  
+
   const handleNavigateToSetup = (subject: string) => {
     navigate(`/setup/${subject}`);
   };
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
         return '🧠';
     }
   };
-  
+
   // Get display name for subject
   const getSubjectDisplayName = (subject: string) => {
     switch (subject) {
@@ -199,7 +199,7 @@ const Home: React.FC = () => {
         return subject;
     }
   };
-  
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#F9FAFB] to-[#EEF2FF] dark:from-[#111827] dark:to-[#1F2937] flex items-center justify-center">
@@ -216,7 +216,7 @@ const Home: React.FC = () => {
       </div>
     );
   }
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#F9FAFB] to-[#EEF2FF] dark:from-[#111827] dark:to-[#1F2937] py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
@@ -230,7 +230,7 @@ const Home: React.FC = () => {
           <h1 className="text-3xl font-bold text-[#111827] dark:text-white mb-2">Dobrodošli u Kviz Aplikaciju</h1>
           <p className="text-[#6B7280] dark:text-gray-300">Izaberite temu i započnite novi kviz ili nastavite sa postojećom sesijom.</p>
         </div>
-        
+
         {/* Subject selection */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mb-12">
           <div className="p-6 border-b border-gray-100 dark:border-gray-700">
@@ -241,16 +241,15 @@ const Home: React.FC = () => {
               Izaberite temu
             </h2>
           </div>
-          
+
           <div className="p-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <button
                 onClick={() => setSelectedSubject(null)}
-                className={`p-4 rounded-lg border transition-all flex items-center ${
-                  selectedSubject === null
+                className={`p-4 rounded-lg border transition-all flex items-center ${selectedSubject === null
                     ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
                     : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
-                }`}
+                  }`}
               >
                 <div className="w-12 h-12 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-4 flex-shrink-0">
                   <span className="text-2xl">📚</span>
@@ -262,36 +261,34 @@ const Home: React.FC = () => {
                   </p>
                 </div>
               </button>
-              
+
               <button
-                  key="custom"
-                  onClick={() => setSelectedSubject('custom')}
-                  className={`p-4 rounded-lg border transition-all flex items-center ${
-                    selectedSubject === 'custom'
-                      ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
-                      : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
+                key="custom"
+                onClick={() => setSelectedSubject('custom')}
+                className={`p-4 rounded-lg border transition-all flex items-center ${selectedSubject === 'custom'
+                    ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
+                    : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
                   }`}
-                >
-                  <div className="w-12 h-12 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-4 flex-shrink-0">
-                    <span className="text-2xl">{getEmoji('custom')}</span>
-                  </div>
-                  <div className="text-left">
-                    <h3 className="font-medium text-[#111827] dark:text-white mb-1 capitalize">{getSubjectDisplayName('custom')}</h3>
-                    <p className="text-xs text-[#6B7280] dark:text-gray-400">
-                      {customQuizzes.length} {customQuizzes.length === 1 ? 'kviz' : customQuizzes.length > 1 && customQuizzes.length < 5 ? 'kviza' : 'kvizova'}
-                    </p>
-                  </div>
-                </button>
+              >
+                <div className="w-12 h-12 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-4 flex-shrink-0">
+                  <span className="text-2xl">{getEmoji('custom')}</span>
+                </div>
+                <div className="text-left">
+                  <h3 className="font-medium text-[#111827] dark:text-white mb-1 capitalize">{getSubjectDisplayName('custom')}</h3>
+                  <p className="text-xs text-[#6B7280] dark:text-gray-400">
+                    {customQuizzes.length} {customQuizzes.length === 1 ? 'kviz' : customQuizzes.length > 1 && customQuizzes.length < 5 ? 'kviza' : 'kvizova'}
+                  </p>
+                </div>
+              </button>
 
               {availableSubjects.map(subject => (
                 <button
                   key={subject}
                   onClick={() => setSelectedSubject(subject)}
-                  className={`p-4 rounded-lg border transition-all flex items-center ${
-                    selectedSubject === subject
+                  className={`p-4 rounded-lg border transition-all flex items-center ${selectedSubject === subject
                       ? 'border-[#2563EB] bg-[#EBF5FF] dark:bg-[#2563EB]/20 text-[#2563EB] dark:text-[#60A5FA]'
                       : 'border-gray-200 dark:border-gray-700 text-[#6B7280] dark:text-gray-300 hover:bg-[#F9FAFB] dark:hover:bg-gray-700/50'
-                  }`}
+                    }`}
                 >
                   <div className="w-12 h-12 rounded-full bg-[#EBF5FF] dark:bg-[#2563EB]/20 flex items-center justify-center mr-4 flex-shrink-0">
                     <span className="text-2xl">{getEmoji(subject)}</span>
@@ -305,10 +302,10 @@ const Home: React.FC = () => {
                 </button>
               ))}
             </div>
-            
+
             {selectedSubject && (
               <div className="mt-6 flex justify-end">
-                <Button 
+                <Button
                   onClick={() => handleNavigateToSetup(selectedSubject)}
                   className="bg-gradient-to-r from-[#2563EB] to-[#10B981] text-white hover:shadow-lg"
                 >
@@ -321,7 +318,7 @@ const Home: React.FC = () => {
             )}
           </div>
         </div>
-        
+
         {/* Sessions Section */}
         {selectedSubject !== 'custom' && (
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
@@ -337,7 +334,7 @@ const Home: React.FC = () => {
               {sessions.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {sessions.map(session => (
-                    <SessionCard 
+                    <SessionCard
                       key={session.id}
                       session={session}
                       onClick={handleContinueSession}
@@ -389,12 +386,12 @@ const Home: React.FC = () => {
             </div>
           </div>
         )}
-        
+
         {selectedSubject === 'custom' && customQuizzes.length === 0 && (
-           <div className="text-center py-12 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
-             <h3 className="text-lg font-bold text-[#111827] dark:text-white">Nema kreiranih custom kvizova.</h3>
-             <p className="mt-2 text-[#6B7280] dark:text-gray-400">Dodajte pitanja u novi kviz dok rešavate postojeće kvizove.</p>
-           </div>
+          <div className="text-center py-12 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mt-12">
+            <h3 className="text-lg font-bold text-[#111827] dark:text-white">Nema kreiranih custom kvizova.</h3>
+            <p className="mt-2 text-[#6B7280] dark:text-gray-400">Dodajte pitanja u novi kviz dok rešavate postojeće kvizove.</p>
+          </div>
         )}
 
         {/* "Ovo ne znaš" Stats Section */}

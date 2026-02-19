@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "question": "Koja metoda se poziva da bi nit prešla u izvršno stanje?",
+    "answers": [
+      "run()",
+      "start()",
+      "execute()",
+      "begin()"
+    ],
+    "correctAnswer": "start()"
+  },
+  {
+    "id": 2,
+    "question": "Kada se koristi interfejs Runnable pri kreiranju niti, koja metoda MORA biti implementirana?",
+    "answers": [
+      "start()",
+      "run()",
+      "execute()",
+      "init()"
+    ],
+    "correctAnswer": "run()"
+  },
+  {
+    "id": 3,
+    "question": "U kom stanju je nit nakon kreiranja sa 'new Thread()' pre poziva start()?",
+    "answers": [
+      "RUNNABLE",
+      "NEW",
+      "BLOCKED",
+      "WAITING"
+    ],
+    "correctAnswer": "NEW"
+  },
+  {
+    "id": 4,
+    "question": "Koja metoda prekida nit koja je u sleep() stanju?",
+    "answers": [
+      "stop()",
+      "destroy()",
+      "interrupt()",
+      "terminate()"
+    ],
+    "correctAnswer": "interrupt()"
+  },
+  {
+    "id": 5,
+    "question": "Koji izuzetak se baca kada se pozove interrupt() na niti koja je u sleep() stanju?",
+    "answers": [
+      "RuntimeException",
+      "ThreadException",
+      "InterruptedException",
+      "IllegalThreadStateException"
+    ],
+    "correctAnswer": "InterruptedException"
+  },
+  {
+    "id": 6,
+    "question": "Koliko milisekundi traje: Thread.sleep(5000);",
+    "answers": [
+      "500 ms",
+      "5000 ms (5 sekundi)",
+      "50 ms",
+      "0.5 sekundi"
+    ],
+    "correctAnswer": "5000 ms (5 sekundi)"
+  },
+  {
+    "id": 7,
+    "question": "Šta radi metoda join() kada se pozove na niti?",
+    "answers": [
+      "Pokreće nit",
+      "Zaustavlja nit",
+      "Čeka da se nit završi",
+      "Prekida nit"
+    ],
+    "correctAnswer": "Čeka da se nit završi"
+  },
+  {
+    "id": 8,
+    "question": "Šta vraća metoda isAlive() kada je nit startovana i još radi?",
+    "answers": [
+      "false",
+      "true",
+      "null",
+      "0"
+    ],
+    "correctAnswer": "true"
+  },
+  {
+    "id": 9,
+    "question": "Kada nit prelazi u BLOCKED stanje?",
+    "answers": [
+      "Kada se pozove start()",
+      "Kada se završi run()",
+      "Kada se pozove sleep() ili wait()",
+      "Kada se kreira sa new"
+    ],
+    "correctAnswer": "Kada se pozove sleep() ili wait()"
+  },
+  {
+    "id": 10,
+    "question": "Kako se nit koja je pozvala wait() može deblokirati?",
+    "answers": [
+      "Pozivom start()",
+      "Pozivom notify() ili notifyAll()",
+      "Pozivom interrupt()",
+      "Automatski nakon 1 sekunde"
+    ],
+    "correctAnswer": "Pozivom notify() ili notifyAll()"
+  },
+  {
+    "id": 11,
+    "question": "Šta znači synchronized ključna reč kod metode?",
+    "answers": [
+      "Metoda se izvršava brže",
+      "Samo jedna nit može biti u toj metodi objekta u isto vreme",
+      "Metoda se izvršava u posebnoj niti",
+      "Metoda ne može baciti izuzetke"
+    ],
+    "correctAnswer": "Samo jedna nit može biti u toj metodi objekta u isto vreme"
+  },
+  {
+    "id": 12,
+    "question": "Šta je deadlock?",
+    "answers": [
+      "Nit koja spava",
+      "Dva procesa zauzmu resurse međusobno i čekaju se da oslobode te resurse",
+      "Nit koja se završila",
+      "Greška u sintaksi"
+    ],
+    "correctAnswer": "Dva procesa zauzmu resurse međusobno i čekaju se da oslobode te resurse"
+  },
+  {
+    "id": 13,
+    "question": "Šta je starvation (gladovanje)?",
+    "answers": [
+      "Nit nema dovoljno memorije",
+      "Proces uzme resurs i ne dozvoljava drugim procesima da ga koriste",
+      "Nit spava previše dugo",
+      "CPU je preopterećen"
+    ],
+    "correctAnswer": "Proces uzme resurs i ne dozvoljava drugim procesima da ga koriste"
+  },
+  {
+    "id": 14,
+    "question": "Koja metoda ServerSocket klase blokira nit dok se klijent ne poveže?",
+    "answers": [
+      "connect()",
+      "listen()",
+      "accept()",
+      "wait()"
+    ],
+    "correctAnswer": "accept()"
+  },
+  {
+    "id": 15,
+    "question": "Od čega se sastoji adresa soketa?",
+    "answers": [
+      "Samo IP adrese",
+      "Samo porta",
+      "IP adrese i porta",
+      "Samo hostname-a"
+    ],
+    "correctAnswer": "IP adrese i porta"
+  },
+  {
+    "id": 16,
+    "question": "Koja klasa se koristi na serverskoj strani za prihvatanje klijentskih konekcija?",
+    "answers": [
+      "Socket",
+      "ServerSocket",
+      "ClientSocket",
+      "NetworkSocket"
+    ],
+    "correctAnswer": "ServerSocket"
+  },
+  {
+    "id": 17,
+    "question": "Kako se klijent povezuje na server pomoću soketa?",
+    "answers": [
+      "new Socket(\"localhost\", 9000)",
+      "new ServerSocket(9000)",
+      "new Client(\"localhost\", 9000)",
+      "Socket.connect(\"localhost\", 9000)"
+    ],
+    "correctAnswer": "new Socket(\"localhost\", 9000)"
+  },
+  {
+    "id": 18,
+    "question": "Zašto accept() metoda ne sme biti pozvana u main niti?",
+    "answers": [
+      "Zato što je brza",
+      "Zato što blokira nit i može zamrznuti program",
+      "Zato što troši previše memorije",
+      "Zato što baca exception"
+    ],
+    "correctAnswer": "Zato što blokira nit i može zamrznuti program"
+  },
+  {
+    "id": 19,
+    "question": "Koja metoda InetAddress klase proverava da li je računar dostupan?",
+    "answers": [
+      "ping()",
+      "isReachable()",
+      "isConnected()",
+      "checkConnection()"
+    ],
+    "correctAnswer": "isReachable()"
+  },
+  {
+    "id": 20,
+    "question": "Kako se kreira objekat InetAddress za IP adresu u byte[] formatu?",
+    "answers": [
+      "new InetAddress(byteArray)",
+      "InetAddress.create(byteArray)",
+      "InetAddress.getByAddress(byteArray)",
+      "InetAddress.parse(byteArray)"
+    ],
+    "correctAnswer": "InetAddress.getByAddress(byteArray)"
+  },
+  {
+    "id": 21,
+    "question": "Koja klasa se koristi za povezivanje Java programa sa bazom podataka?",
+    "answers": [
+      "DatabaseConnection",
+      "Connection",
+      "JDBC",
+      "SQLConnection"
+    ],
+    "correctAnswer": "Connection"
+  },
+  {
+    "id": 22,
+    "question": "Kako se dobija Connection objekat za povezivanje sa bazom?",
+    "answers": [
+      "new Connection(url, user, pass)",
+      "Connection.create(url, user, pass)",
+      "DriverManager.getConnection(url, user, pass)",
+      "JDBC.connect(url, user, pass)"
+    ],
+    "correctAnswer": "DriverManager.getConnection(url, user, pass)"
+  },
+  {
+    "id": 23,
+    "question": "Koja klasa se koristi za izvršavanje SQL upita?",
+    "answers": [
+      "Query",
+      "Statement",
+      "SQLExecutor",
+      "DatabaseQuery"
+    ],
+    "correctAnswer": "Statement"
+  },
+  {
+    "id": 24,
+    "question": "Kako se kreira Statement objekat?",
+    "answers": [
+      "new Statement()",
+      "connection.getStatement()",
+      "connection.createStatement()",
+      "Statement.create(connection)"
+    ],
+    "correctAnswer": "connection.createStatement()"
+  },
+  {
+    "id": 25,
+    "question": "Šta vraća metoda executeQuery() kada se izvrši SELECT upit?",
+    "answers": [
+      "ArrayList",
+      "ResultSet",
+      "Statement",
+      "Connection"
+    ],
+    "correctAnswer": "ResultSet"
+  },
+  {
+    "id": 26,
+    "question": "Koje dve komponente su potrebne za povezivanje Java programa sa bazom podataka?",
+    "answers": [
+      "JDBC API i drajver",
+      "Samo JDBC API",
+      "Samo drajver",
+      "Connection i Statement"
+    ],
+    "correctAnswer": "JDBC API i drajver"
+  },
+  {
+    "id": 27,
+    "question": "Čemu služi drajver u JDBC povezivanju?",
+    "answers": [
+      "Za kreiranje tabela",
+      "Za prevođenje Java zahteva u naredbe koje baza razume",
+      "Za brisanje podataka",
+      "Za backup baze"
+    ],
+    "correctAnswer": "Za prevođenje Java zahteva u naredbe koje baza razume"
+  },
+  {
+    "id": 28,
+    "question": "Koja metoda ThreadGroup klase vraća broj aktivnih niti u grupi?",
+    "answers": [
+      "getCount()",
+      "activeCount()",
+      "size()",
+      "threadCount()"
+    ],
+    "correctAnswer": "activeCount()"
+  },
+  {
+    "id": 29,
+    "question": "Koje klase se koriste za komunikaciju između dve niti pomoću pipe?",
+    "answers": [
+      "InputStream i OutputStream",
+      "PipedInputStream i PipedOutputStream",
+      "ThreadInputStream i ThreadOutputStream",
+      "PipeReader i PipeWriter"
+    ],
+    "correctAnswer": "PipedInputStream i PipedOutputStream"
+  },
+  {
+    "id": 30,
+    "question": "Šta se dešava kada se pozove Thread.currentThread().join()?",
+    "answers": [
+      "Nit čeka samu sebe - DEADLOCK",
+      "Nit se normalno završava",
+      "Nit se restartuje",
+      "Ništa se ne dešava"
+    ],
+    "correctAnswer": "Nit čeka samu sebe - DEADLOCK"
+  },
+  {
+    "id": 31,
+    "question": "Gde se NE sme pozivati accept() metoda?",
+    "answers": [
+      "U main niti",
+      "U posebnoj niti",
+      "U run() metodi",
+      "U konstruktoru"
+    ],
+    "correctAnswer": "U main niti"
+  },
+  {
+    "id": 32,
+    "question": "Kada nit prelazi u stanje DEAD (svršeno)?",
+    "answers": [
+      "Kada se pozove start()",
+      "Kada se run() metoda završi",
+      "Kada se pozove sleep()",
+      "Kada se pozove wait()"
+    ],
+    "correctAnswer": "Kada se run() metoda završi"
+  },
+  {
+    "id": 33,
+    "question": "Šta je ispravna tipična serverska šema za rad sa više klijenata?",
+    "answers": [
+      "while(true) { Socket s = accept(); new Thread(new Handler(s)).start(); }",
+      "Socket s = accept(); new Thread().start();",
+      "while(true) { new Thread().start(); }",
+      "accept(); start();"
+    ],
+    "correctAnswer": "while(true) { Socket s = accept(); new Thread(new Handler(s)).start(); }"
+  },
+  {
+    "id": 34,
+    "question": "Koliko niti se izvršava na serverskoj strani kada se poveže 5 klijenata (ako svaki klijent dobije svoju nit)?",
+    "answers": [
+      "1 nit (samo main)",
+      "5 niti",
+      "6 niti (1 main + 5 za klijente)",
+      "10 niti"
+    ],
+    "correctAnswer": "6 niti (1 main + 5 za klijente)"
+  },
+  {
+    "id": 35,
+    "question": "Koja metoda se koristi za razbijanje String IP adrese '147.91.134.39' po tačkama?",
+    "answers": [
+      "split('.')",
+      "split('\\\\.')",
+      "divide('.')",
+      "parse('.')"
+    ],
+    "correctAnswer": "split('\\\\.')"
+  },
+  {
+    "id": 36,
+    "question": "Ako je nit blokirana pozivom sleep(), kako se prekida?",
+    "answers": [
+      "Pozivom stop()",
+      "Pozivom interrupt() - baca InterruptedException",
+      "Pozivom resume()",
+      "Automatski nakon isteka vremena"
+    ],
+    "correctAnswer": "Pozivom interrupt() - baca InterruptedException"
+  },
+  {
+    "id": 37,
+    "question": "Koji je ISPRAVAN obrazac za implementaciju run() metode sa mogućnošću prekida?",
+    "answers": [
+      "while(true) { doWork(); }",
+      "try { while(!Thread.currentThread().isInterrupted()) { Thread.sleep(1000); } } catch(InterruptedException e) {}",
+      "while(signal) { sleep(1000); }",
+      "run() { sleep(5000); }"
+    ],
+    "correctAnswer": "try { while(!Thread.currentThread().isInterrupted()) { Thread.sleep(1000); } } catch(InterruptedException e) {}"
+  },
+  {
+    "id": 38,
+    "question": "Šta se dešava ako se try-catch stavi UNUTAR while petlje kod prekida niti?",
+    "answers": [
+      "Nit se pravilno gasi",
+      "GREŠKA - nit se ne gasi, nastavlja se izvršavanje while petlje",
+      "Baca exception",
+      "Program se ruši"
+    ],
+    "correctAnswer": "GREŠKA - nit se ne gasi, nastavlja se izvršavanje while petlje"
+  },
+  {
+    "id": 39,
+    "question": "Šta radi PipedInputStream kada nema podataka u pipe-u?",
+    "answers": [
+      "Baca exception",
+      "Vraća null",
+      "BLOKIRA čitanje dok ne stignu podaci",
+      "Vraća prazan string"
+    ],
+    "correctAnswer": "BLOKIRA čitanje dok ne stignu podaci"
+  },
+  {
+    "id": 40,
+    "question": "Kako se kreira ThreadGroup?",
+    "answers": [
+      "new ThreadGroup()",
+      "ThreadGroup.create('ime')",
+      "new ThreadGroup('imeGrupe')",
+      "Thread.createGroup('ime')"
+    ],
+    "correctAnswer": "new ThreadGroup('imeGrupe')"
+  },
+  {
+    "id": 41,
+    "question": "Šta je nit (thread)?",
+    "answers": [
+      "Proces koji se izvršava samostalno",
+      "Deo programa koji može istovremeno da se izvršava sa drugim nitima istog programa",
+      "Poseban program",
+      "Funkcija koja se izvršava u petlji"
+    ],
+    "correctAnswer": "Deo programa koji može istovremeno da se izvršava sa drugima nitima istog programa"
+  },
+  {
+    "id": 42,
+    "question": "Koliko stanja može imati nit?",
+    "answers": [
+      "2 stanja",
+      "3 stanja",
+      "4 stanja",
+      "5 stanja"
+    ],
+    "correctAnswer": "4 stanja"
+  },
+  {
+    "id": 43,
+    "question": "Na koja dva načina se nit može napraviti u Javi?",
+    "answers": [
+      "Samo proširenjem klase Thread",
+      "Realizacijom interfejsa Runnable ili proširenjem klase Thread",
+      "Samo realizacijom interfejsa Runnable",
+      "Korišćenjem ExecutorService"
+    ],
+    "correctAnswer": "Realizacijom interfejsa Runnable ili proširenjem klase Thread"
+  },
+  {
+    "id": 44,
+    "question": "Kada je nit izvršena?",
+    "answers": [
+      "Kada se pozove start()",
+      "Kada se kreira sa new Thread()",
+      "Kada se run() metoda izvrši",
+      "Kada se pozove sleep()"
+    ],
+    "correctAnswer": "Kada se run() metoda izvrši"
+  },
+  {
+    "id": 45,
+    "question": "Šta metoda start() radi?",
+    "answers": [
+      "Izvršava run() u trenutnoj niti",
+      "Kreira novu nit i poziva run() u posebnoj niti",
+      "Zaustavlja nit",
+      "Blokira nit"
+    ],
+    "correctAnswer": "Kreira novu nit i poziva run() u posebnoj niti"
+  },
+  {
+    "id": 46,
+    "question": "Šta znači 'signal = true' u kontekstu izvršavanja niti?",
+    "answers": [
+      "Nit je završena",
+      "Nit se izvršava i dalje dokle god je signal true",
+      "Nit je blokirana",
+      "Nit čeka na input"
+    ],
+    "correctAnswer": "Nit se izvršava i dalje dokle god je signal true"
+  },
+  {
+    "id": 47,
+    "question": "Koliko niti se izvršava na serverskoj strani kada je povezano 3 klijenta?",
+    "answers": [
+      "1 nit (samo main)",
+      "3 niti",
+      "4 niti (1 glavna + 3 za klijente)",
+      "6 niti"
+    ],
+    "correctAnswer": "4 niti (1 glavna + 3 za klijente)"
+  },
+  {
+    "id": 48,
+    "question": "Šta je sinhronizacija?",
+    "answers": [
+      "Pokretanje više niti odjednom",
+      "Mehanizam koji sprečava da više niti istovremeno koriste isti zajednički resurs",
+      "Zaustavljanje niti",
+      "Povezivanje više programa"
+    ],
+    "correctAnswer": "Mehanizam koji sprečava da više niti istovremeno koriste isti zajednički resurs"
+  },
+  {
+    "id": 49,
+    "question": "Šta radi metoda getLocalHost()?",
+    "answers": [
+      "Prikazuje internet adresu udaljenog računara",
+      "Prikazuje internet adresu lokalne mašine",
+      "Prikazuje port",
+      "Prikazuje naziv protokola"
+    ],
+    "correctAnswer": "Prikazuje internet adresu lokalne mašine"
+  },
+  {
+    "id": 50,
+    "question": "Šta radi metoda getByName()?",
+    "answers": [
+      "Prikazuje port",
+      "Prikazuje internet adresu simboličke adrese",
+      "Prikazuje lokalni host",
+      "Briše DNS keš"
+    ],
+    "correctAnswer": "Prikazuje internet adresu simboličke adrese"
+  },
+  {
+    "id": 51,
+    "question": "Šta radi metoda getHostName()?",
+    "answers": [
+      "Prikazuje IP adresu",
+      "Prikazuje simboličku adresu",
+      "Prikazuje port",
+      "Prikazuje protokol"
+    ],
+    "correctAnswer": "Prikazuje simboličku adresu"
+  },
+  {
+    "id": 52,
+    "question": "Šta radi metoda getHostAddress()?",
+    "answers": [
+      "Prikazuje simboličku adresu",
+      "Prikazuje IP adresu",
+      "Prikazuje port",
+      "Prikazuje naziv hosta"
+    ],
+    "correctAnswer": "Prikazuje IP adresu"
+  },
+  {
+    "id": 53,
+    "question": "Za šta se koristi URL adresa?",
+    "answers": [
+      "Samo za web stranice",
+      "Za pristup do određenih servisa i datoteka na računaru",
+      "Samo za slanje email-a",
+      "Za šifrovanje podataka"
+    ],
+    "correctAnswer": "Za pristup do određenih servisa i datoteka na računaru"
+  },
+  {
+    "id": 54,
+    "question": "Od koliko delova se sastoji URL adresa?",
+    "answers": [
+      "2 dela",
+      "3 dela",
+      "4 dela",
+      "5 delova"
+    ],
+    "correctAnswer": "4 dela"
+  },
+  {
+    "id": 55,
+    "question": "Koji su delovi URL adrese?",
+    "answers": [
+      "Samo protokol i adresa",
+      "Protokol, adresa računara, broj porta, putanja do datoteke",
+      "Samo adresa i port",
+      "Protokol i putanja"
+    ],
+    "correctAnswer": "Protokol, adresa računara, broj porta, putanja do datoteke"
+  },
+  {
+    "id": 56,
+    "question": "Šta je soket?",
+    "answers": [
+      "Fajl na disku",
+      "Mehanizam koji omogućava komunikaciju između programa na različitim računarima u mreži",
+      "Tip podataka",
+      "Baza podataka"
+    ],
+    "correctAnswer": "Mehanizam koji omogućava komunikaciju između programa na različitim računarima u mreži"
+  },
+  {
+    "id": 57,
+    "question": "Od čega se sastoji adresa soketa?",
+    "answers": [
+      "Samo od IP adrese",
+      "Samo od porta",
+      "Od adrese računara i broja porta",
+      "Od protokola i porta"
+    ],
+    "correctAnswer": "Od adrese računara i broja porta"
+  },
+  {
+    "id": 58,
+    "question": "Kod povezivanja serverskog i klijentskog programa preko soketa, šta treba prvo pokrenuti?",
+    "answers": [
+      "Klijentski program",
+      "Serverski program",
+      "Svejedno je",
+      "Oba istovremeno"
+    ],
+    "correctAnswer": "Serverski program"
+  },
+  {
+    "id": 59,
+    "question": "Kada je konekcija između dva programa ostvarena?",
+    "answers": [
+      "Kada se kreira soket",
+      "Kada se uspostavi veza između njihovih soketa",
+      "Kada se pokrene server",
+      "Kada se zatvori konekcija"
+    ],
+    "correctAnswer": "Kada se uspostavi veza između njihovih soketa"
+  },
+  {
+    "id": 60,
+    "question": "Koje su dve komponente za povezivanje bilo koje baze podataka i programa u Javi?",
+    "answers": [
+      "Samo JDBC API",
+      "JDBC API i upravljački program (drajver)",
+      "Samo drajver",
+      "Connection i Statement"
+    ],
+    "correctAnswer": "JDBC API i upravljački program (drajver)"
+  },
+  {
+    "id": 61,
+    "question": "Šta je drajver?",
+    "answers": [
+      "Baza podataka",
+      "Softverski modul koji omogućava komunikaciju između aplikacije i baze podataka",
+      "Java klasa",
+      "SQL upit"
+    ],
+    "correctAnswer": "Softverski modul koji omogućava komunikaciju između aplikacije i baze podataka"
+  },
+  {
+    "id": 62,
+    "question": "Za šta služi JDBC drajver?",
+    "answers": [
+      "Za kreiranje baze",
+      "Omogućava Java aplikaciji da se poveže sa bazom i šalje SQL upite",
+      "Za brisanje tabela",
+      "Za optimizaciju SQL upita"
+    ],
+    "correctAnswer": "Omogućava Java aplikaciji da se poveže sa bazom i šalje SQL upite"
+  },
+  {
+    "id": 63,
+    "question": "Šta je serijalizacija?",
+    "answers": [
+      "Proces brisanja objekta",
+      "Proces prevođenja objekta u niz bajtova kako bi mogao da se pošalje i/ili sačuva",
+      "Proces kreiranja objekta",
+      "Proces sortiranja objekata"
+    ],
+    "correctAnswer": "Proces prevođenja objekta u niz bajtova kako bi mogao da se pošalje i/ili sačuva"
+  },
+  {
+    "id": 64,
+    "question": "Šta je holivudski princip?",
+    "answers": [
+      "Ti pozovi nas, mi ćemo odgovoriti",
+      "Ne zovi ti nas, mi ćemo zvati tebe",
+      "Pozovi sve funkcije odjednom",
+      "Nemoj pozivati funkcije"
+    ],
+    "correctAnswer": "Ne zovi ti nas, mi ćemo zvati tebe"
+  },
+  {
+    "id": 65,
+    "question": "Šta holivudski princip znači u praksi?",
+    "answers": [
+      "Korisnik uvek poziva okvir",
+      "Korisnički definisane klase ne pozivaju predefinisane klase okvira, već obrnuto",
+      "Sve klase se pozivaju istovremeno",
+      "Framework ne poziva ništa"
+    ],
+    "correctAnswer": "Korisnički definisane klase ne pozivaju predefinisane klase okvira, već obrnuto"
+  },
+  {
+    "id": 66,
+    "question": "Šta su paterni (patterns)?",
+    "answers": [
+      "Greške u kodu",
+      "Rešenja nekog problema koja se mogu ponovo iskoristiti za rešavanje novih problema",
+      "Vrste baza podataka",
+      "Tipovi promenljivih"
+    ],
+    "correctAnswer": "Rešenja nekog problema koja se mogu ponovo iskoristiti za rešavanje novih problema"
+  },
+  {
+    "id": 67,
+    "question": "Šta predstavlja MODEL u MVC paternu?",
+    "answers": [
+      "Korisnički interfejs",
+      "Stanje sistema",
+      "Kontroler zahteva",
+      "Bazu podataka"
+    ],
+    "correctAnswer": "Stanje sistema"
+  },
+  {
+    "id": 68,
+    "question": "Šta predstavlja VIEW u MVC paternu?",
+    "answers": [
+      "Stanje sistema",
+      "Obezbeđuje korisniku interfejs (ekransku formu)",
+      "Obrađuje zahteve",
+      "Čuva podatke"
+    ],
+    "correctAnswer": "Obezbeđuje korisniku interfejs (ekransku formu)"
+  },
+  {
+    "id": 69,
+    "question": "Šta predstavlja CONTROLLER u MVC paternu?",
+    "answers": [
+      "Korisnički interfejs",
+      "Stanje sistema",
+      "Osluškuje i prihvata zahtev od klijenta za izvršenje operacije",
+      "Čuva podatke"
+    ],
+    "correctAnswer": "Osluškuje i prihvata zahtev od klijenta za izvršenje operacije"
+  },
+  {
+    "id": 70,
+    "question": "U kom stanju nit prelazi nakon što se pozove metoda start()?",
+    "answers": [
+      "NEW",
+      "RUNNABLE",
+      "BLOCKED",
+      "TERMINATED"
+    ],
+    "correctAnswer": "RUNNABLE"
+  }
+]

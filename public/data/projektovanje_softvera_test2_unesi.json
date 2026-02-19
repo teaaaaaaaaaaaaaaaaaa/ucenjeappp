@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "question": "Popunite kod: Koja metoda se poziva da bi se nit pokrenula?\n\nThread nit = new Thread();\nnit.______();",
+    "answers": [],
+    "correctAnswer": "start"
+  },
+  {
+    "id": 2,
+    "question": "Dopunite: Koliko stanja niti postoji u Java programu?",
+    "answers": [],
+    "correctAnswer": "4"
+  },
+  {
+    "id": 3,
+    "question": "Popunite kod: Kako nit spava 5 sekundi?\n\nThread.______(5000);",
+    "answers": [],
+    "correctAnswer": "sleep"
+  },
+  {
+    "id": 4,
+    "question": "Dopunite: Koji izuzetak se baca kada se prekine nit koja spava?\n\n________Exception",
+    "answers": [],
+    "correctAnswer": "Interrupted"
+  },
+  {
+    "id": 5,
+    "question": "Popunite: Metoda koja čeka da se nit završi je:\n\nt.______();",
+    "answers": [],
+    "correctAnswer": "join"
+  },
+  {
+    "id": 6,
+    "question": "Dopunite kod: Metoda koja vraća true ako je nit startovana i još radi:\n\nif (t.______()) { ... }",
+    "answers": [],
+    "correctAnswer": "isAlive"
+  },
+  {
+    "id": 7,
+    "question": "Dopunite: Kada dva procesa zauzmu resurse međusobno i čekaju se, to se zove:\n\n________",
+    "answers": [],
+    "correctAnswer": "deadlock"
+  },
+  {
+    "id": 8,
+    "question": "Popunite: Kada proces uzme resurs i ne dozvoljava drugim procesima da ga koriste, to se zove:\n\n________",
+    "answers": [],
+    "correctAnswer": "starvation"
+  },
+  {
+    "id": 9,
+    "question": "Dopunite kod: Koja metoda se mora implementirati kod interfejsa Runnable?\n\npublic void ______() { ... }",
+    "answers": [],
+    "correctAnswer": "run"
+  },
+  {
+    "id": 10,
+    "question": "Popunite: U kom stanju je nit nakon 'new Thread()' a pre poziva start()?\n\n________",
+    "answers": [],
+    "correctAnswer": "NEW"
+  },
+  {
+    "id": 11,
+    "question": "Dopunite: Metoda koja prekida nit je:\n\nnit.______();",
+    "answers": [],
+    "correctAnswer": "interrupt"
+  },
+  {
+    "id": 12,
+    "question": "Popunite kod: Kako se deblocira nit koja je pozvala wait()?\n\n______() ili notifyAll()",
+    "answers": [],
+    "correctAnswer": "notify"
+  },
+  {
+    "id": 13,
+    "question": "Dopunite: Ključna reč koja omogućava da samo jedna nit bude u metodi objekta je:\n\n________ void metoda() { ... }",
+    "answers": [],
+    "correctAnswer": "synchronized"
+  },
+  {
+    "id": 14,
+    "question": "Popunite kod: Kreiranje ServerSocket-a na portu 9000:\n\nServerSocket ss = new ________(9000);",
+    "answers": [],
+    "correctAnswer": "ServerSocket"
+  },
+  {
+    "id": 15,
+    "question": "Dopunite: Metoda koja blokira nit dok se klijent ne poveže je:\n\nSocket s = serverSocket.______();",
+    "answers": [],
+    "correctAnswer": "accept"
+  },
+  {
+    "id": 16,
+    "question": "Popunite kod: Povezivanje klijenta na localhost port 9000:\n\nSocket s = new Socket(\"localhost\", ______);",
+    "answers": [],
+    "correctAnswer": "9000"
+  },
+  {
+    "id": 17,
+    "question": "Dopunite: Adresa soketa se sastoji od IP adrese i ________",
+    "answers": [],
+    "correctAnswer": "porta"
+  },
+  {
+    "id": 18,
+    "question": "Dopunite: Protokol koji se koristi za komunikaciju putem soketa je:\n\nTCP/______",
+    "answers": [],
+    "correctAnswer": "IP"
+  },
+  {
+    "id": 19,
+    "question": "Popunite kod: Metoda koja proverava dostupnost računara:\n\nip.________(5000)",
+    "answers": [],
+    "correctAnswer": "isReachable"
+  },
+  {
+    "id": 20,
+    "question": "Dopunite: Klasa koja predstavlja Internet adresu u Javi je:\n\n________ ip = InetAddress.getByAddress(byteArray);",
+    "answers": [],
+    "correctAnswer": "InetAddress"
+  },
+  {
+    "id": 21,
+    "question": "Popunite kod: Povezivanje sa MySQL bazom:\n\nConnection conn = DriverManager.________(url, user, pass);",
+    "answers": [],
+    "correctAnswer": "getConnection"
+  },
+  {
+    "id": 22,
+    "question": "Dopunite: Kreiranje Statement objekta:\n\nStatement stmt = conn.________();",
+    "answers": [],
+    "correctAnswer": "createStatement"
+  },
+  {
+    "id": 23,
+    "question": "Dopunite: Metoda koja izvršava SELECT upit i vraća rezultate:\n\nResultSet rs = stmt.________(\"SELECT * FROM tabela\");",
+    "answers": [],
+    "correctAnswer": "executeQuery"
+  },
+  {
+    "id": 24,
+    "question": "Dopunite: Klasa u koju se čuvaju slogovi tabele nakon SELECT upita:\n\n________ rs = stmt.executeQuery(upit);",
+    "answers": [],
+    "correctAnswer": "ResultSet"
+  },
+  {
+    "id": 25,
+    "question": "Dopunite: Dve komponente potrebne za povezivanje Java programa sa bazom su JDBC API i ________",
+    "answers": [],
+    "correctAnswer": "drajver"
+  },
+  {
+    "id": 26,
+    "question": "Popunite: API koji omogućava povezivanje Java programa sa bazom podataka se zove:\n\n________",
+    "answers": [],
+    "correctAnswer": "JDBC"
+  },
+  {
+    "id": 27,
+    "question": "Dopunite kod: Kreiranje ThreadGroup objekta:\n\nThreadGroup grupa = new ________(\"imeGrupe\");",
+    "answers": [],
+    "correctAnswer": "ThreadGroup"
+  },
+  {
+    "id": 28,
+    "question": "Dopunite: Metoda koja vraća broj aktivnih niti u grupi:\n\ngrupa.________();",
+    "answers": [],
+    "correctAnswer": "activeCount"
+  },
+  {
+    "id": 29,
+    "question": "Popunite: Klase za komunikaciju između niti su PipedInputStream i ________",
+    "answers": [],
+    "correctAnswer": "PipedOutputStream"
+  },
+  {
+    "id": 30,
+    "question": "Dopunite kod: Kreiranje pipe output stream-a:\n\n________ pos = new PipedOutputStream();",
+    "answers": [],
+    "correctAnswer": "PipedOutputStream"
+  },
+  {
+    "id": 31,
+    "question": "Dopunite: Kada nema podataka u pipe-u, PipedInputStream ________ čitanje.",
+    "answers": [],
+    "correctAnswer": "blokira"
+  },
+  {
+    "id": 32,
+    "question": "Popunite: Kada je bafer pipe-a pun, PipedOutputStream ________ pisanje.",
+    "answers": [],
+    "correctAnswer": "blokira"
+  },
+  {
+    "id": 33,
+    "question": "Dopunite: Razbijanje IP adrese po tačkama koristi metodu:\n\nString[] delovi = ipAdresa.________(\"\\\\.\");",
+    "answers": [],
+    "correctAnswer": "split"
+  },
+  {
+    "id": 34,
+    "question": "Popunite kod: Konverzija String-a u int:\n\nint broj = Integer.________(\"147\");",
+    "answers": [],
+    "correctAnswer": "parseInt"
+  },
+  {
+    "id": 35,
+    "question": "Dopunite: U kom stanju je nit nakon što se završi run() metoda?\n\n________ (DEAD)",
+    "answers": [],
+    "correctAnswer": "DEAD"
+  },
+  {
+    "id": 36,
+    "question": "Popunite: Nit može biti u jednom od ________ stanja (broj).",
+    "answers": [],
+    "correctAnswer": "4"
+  },
+  {
+    "id": 37,
+    "question": "Dopunite: Stanje niti kada pozove sleep() ili wait() je:\n\n________",
+    "answers": [],
+    "correctAnswer": "BLOCKED"
+  },
+  {
+    "id": 38,
+    "question": "Popunite: Stanje niti nakon poziva start() metode je:\n\n________",
+    "answers": [],
+    "correctAnswer": "RUNNABLE"
+  },
+  {
+    "id": 39,
+    "question": "Dopunite: Metoda koja se automatski poziva nakon start() je:\n\n________",
+    "answers": [],
+    "correctAnswer": "run"
+  },
+  {
+    "id": 40,
+    "question": "Popunite: Koliko milisekundi ima u 5 sekundi?\n\n________ ms",
+    "answers": [],
+    "correctAnswer": "5000"
+  },
+  {
+    "id": 41,
+    "question": "Dopunite SQL upit: Promena naziva predmeta 'Softveri' u 'Projektovanje softvera':\n\nUPDATE Ispiti SET NazivPredmeta='Projektovanje softvera' WHERE NazivPredmeta='________';",
+    "answers": [],
+    "correctAnswer": "Softveri"
+  },
+  {
+    "id": 42,
+    "question": "Dopunite: Kada se konkurentnost po Dijkstri dešava?\n\nKada postoje dva ili više ________ koji mogu da se izvršavaju istovremeno.",
+    "answers": [],
+    "correctAnswer": "procesa"
+  },
+  {
+    "id": 43,
+    "question": "Popunite kod: Dobijanje lokalne IP adrese:\n\nInetAddress ip = InetAddress.________();",
+    "answers": [],
+    "correctAnswer": "getLocalHost"
+  },
+  {
+    "id": 44,
+    "question": "Dopunite: Java podržava ________ programiranje (višenitno/multithreading).",
+    "answers": [],
+    "correctAnswer": "višenitno"
+  },
+  {
+    "id": 45,
+    "question": "Popunite: Niti dele isti ________ prostor u okviru procesa.",
+    "answers": [],
+    "correctAnswer": "adresni"
+  },
+  {
+    "id": 46,
+    "question": "Dopunite definiciju: Nit predstavlja deo ________ koji može istovremeno da se izvršava sa drugim nitima.",
+    "answers": [],
+    "correctAnswer": "programa"
+  },
+  {
+    "id": 47,
+    "question": "Popunite: Koliko stanja može imati nit? ________",
+    "answers": [],
+    "correctAnswer": "4"
+  },
+  {
+    "id": 48,
+    "question": "Dopunite: Nit se može napraviti realizacijom interfejsa Runnable ili proširenjem klase ________",
+    "answers": [],
+    "correctAnswer": "Thread"
+  },
+  {
+    "id": 49,
+    "question": "Popunite: Nit je izvršena kada se ________ metoda izvrši.",
+    "answers": [],
+    "correctAnswer": "run"
+  },
+  {
+    "id": 50,
+    "question": "Dopunite: Metoda start() kreira novu nit i poziva ________ u posebnoj niti.",
+    "answers": [],
+    "correctAnswer": "run"
+  },
+  {
+    "id": 51,
+    "question": "Popunite: Dokle god signal = ________, nit se izvršava i dalje.",
+    "answers": [],
+    "correctAnswer": "true"
+  },
+  {
+    "id": 52,
+    "question": "Dopunite: Koliko niti se izvršava na serverskoj strani? Jedna glavna nit koja osluškuje sokete i po jedna za svakog ________",
+    "answers": [],
+    "correctAnswer": "klijenta"
+  },
+  {
+    "id": 53,
+    "question": "Popunite definiciju: Sinhronizacija je mehanizam koji sprečava da više niti istovremeno koriste isti zajednički ________",
+    "answers": [],
+    "correctAnswer": "resurs"
+  },
+  {
+    "id": 54,
+    "question": "Dopunite: Metoda getLocalHost() prikazuje internet adresu ________ mašine.",
+    "answers": [],
+    "correctAnswer": "lokalne"
+  },
+  {
+    "id": 55,
+    "question": "Popunite: Metoda getByName() prikazuje internet adresu ________ adrese.",
+    "answers": [],
+    "correctAnswer": "simboličke"
+  },
+  {
+    "id": 56,
+    "question": "Dopunite: Metoda getHostName() prikazuje ________ adresu.",
+    "answers": [],
+    "correctAnswer": "simboličku"
+  },
+  {
+    "id": 57,
+    "question": "Popunite: Metoda getHostAddress() prikazuje ________ adresu.",
+    "answers": [],
+    "correctAnswer": "IP"
+  },
+  {
+    "id": 58,
+    "question": "Dopunite: URL (Uniform Resource ________) adresa se koristi za pristup servisima i datotekama.",
+    "answers": [],
+    "correctAnswer": "Locator"
+  },
+  {
+    "id": 59,
+    "question": "Popunite: URL adresa se sastoji iz ________ dela (broj).",
+    "answers": [],
+    "correctAnswer": "4"
+  },
+  {
+    "id": 60,
+    "question": "Dopunite: Delovi URL adrese su: protokol, adresa računara, broj ________, i putanja do datoteke.",
+    "answers": [],
+    "correctAnswer": "porta"
+  },
+  {
+    "id": 61,
+    "question": "Popunite definiciju: Soket je mehanizam koji omogućava ________ između programa na različitim računarima u mreži.",
+    "answers": [],
+    "correctAnswer": "komunikaciju"
+  },
+  {
+    "id": 62,
+    "question": "Dopunite: Adresa soketa se sastoji od adrese računara i broja ________",
+    "answers": [],
+    "correctAnswer": "porta"
+  },
+  {
+    "id": 63,
+    "question": "Popunite: Kod povezivanja preko soketa, prvo treba pokrenuti ________ program.",
+    "answers": [],
+    "correctAnswer": "serverski"
+  },
+  {
+    "id": 64,
+    "question": "Dopunite: Konekcija između dva programa je ostvarena kada se uspostavi veza između njihovih ________",
+    "answers": [],
+    "correctAnswer": "soketa"
+  },
+  {
+    "id": 65,
+    "question": "Popunite: JDBC je skraćenica za Java Database ________",
+    "answers": [],
+    "correctAnswer": "Connectivity"
+  },
+  {
+    "id": 66,
+    "question": "Dopunite: Dve komponente za povezivanje baze i Java programa su: JDBC API i upravljački program (________)",
+    "answers": [],
+    "correctAnswer": "drajver"
+  },
+  {
+    "id": 67,
+    "question": "Popunite: Drajver je softverski modul koji omogućava ________ između aplikacije i baze podataka.",
+    "answers": [],
+    "correctAnswer": "komunikaciju"
+  },
+  {
+    "id": 68,
+    "question": "Dopunite: Drajver omogućava Java aplikaciji da se poveže sa bazom i šalje ________ upite.",
+    "answers": [],
+    "correctAnswer": "SQL"
+  },
+  {
+    "id": 69,
+    "question": "Popunite: Serijalizacija je proces prevođenja objekta u niz ________ kako bi mogao da se pošalje.",
+    "answers": [],
+    "correctAnswer": "bajtova"
+  },
+  {
+    "id": 70,
+    "question": "Dopunite holivudski princip: Ne zovi ti nas, mi ćemo ________ tebe.",
+    "answers": [],
+    "correctAnswer": "zvati"
+  },
+  {
+    "id": 71,
+    "question": "Popunite: Holivudski princip znači da predefinisane klase okvira ________ korisnički definisane klase.",
+    "answers": [],
+    "correctAnswer": "pozivaju"
+  },
+  {
+    "id": 72,
+    "question": "Dopunite: Paterni predstavljaju rešenja problema koja se mogu ________ iskoristiti.",
+    "answers": [],
+    "correctAnswer": "ponovo"
+  },
+  {
+    "id": 73,
+    "question": "Dopunite: MVC je skraćenica za Model-View-________",
+    "answers": [],
+    "correctAnswer": "Controller"
+  },
+  {
+    "id": 74,
+    "question": "Popunite: U MVC paternu, MODEL predstavlja ________ sistema.",
+    "answers": [],
+    "correctAnswer": "stanje"
+  },
+  {
+    "id": 75,
+    "question": "Dopunite: U MVC paternu, VIEW obezbeđuje korisniku ________ (ekransku formu).",
+    "answers": [],
+    "correctAnswer": "interfejs"
+  },
+  {
+    "id": 76,
+    "question": "Popunite: U MVC paternu, CONTROLLER ________ i prihvata zahtev od klijenta.",
+    "answers": [],
+    "correctAnswer": "osluškuje"
+  },
+  {
+    "id": 77,
+    "question": "Dopunite: Kada se run() metoda izvrši, nit prelazi u stanje ________",
+    "answers": [],
+    "correctAnswer": "TERMINATED"
+  },
+  {
+    "id": 78,
+    "question": "Popunite: Metoda interrupt() status niti postavlja na ________",
+    "answers": [],
+    "correctAnswer": "true"
+  },
+  {
+    "id": 79,
+    "question": "Dopunite: Template Method je primer dizajn ________",
+    "answers": [],
+    "correctAnswer": "paterna"
+  },
+  {
+    "id": 80,
+    "question": "Popunite: Niti dele isti ________ prostor (memorijski prostor).",
+    "answers": [],
+    "correctAnswer": "memorijski"
+  }
+]
