@@ -146,10 +146,10 @@
     "id": 14,
     "question": "Glass's law",
     "answers": [
-      "Boehm's first law: Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa.",
       "Nedostaci kod definisanja zahteva su osnovni razlog mogućeg neuspeha u razvoju projekta (programa).",
-      "Modul treba da bude otvoren za proširenje, ali zatvoren za modifikaciju. (Open for extension, closed for modification).",
-      "1. Moduli višeg nivoa ne treba da zavise od modula nižeg nivoa. Oba treba da zavise od apstrakcije. 2. Apstrakcije ne treba da zavise od detalja. Detalji treba da zavise od apstrakcije."
+      "Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa.",
+      "Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa.",
+      "Scenarija slučajeva korišćenja ne treba da budu u međussobnoj interakciji. Ona se treba definisati kao atomska, u smislу da se izvršavaju u potpunosti samostalno. Na taj način se olakšava njihov razvoj i održavanje."
     ],
     "correctAnswer": "Nedostaci kod definisanja zahteva su osnovni razlog mogućeg neuspeha u razvoju projekta (programa)."
   },
@@ -158,11 +158,14 @@
     "question": "Boehm's first and second law",
     "answers": [
       "Nedostaci kod definisanja zahteva su osnovni razlog mogućeg neuspeha u razvoju projekta (programa).",
-      "Boehm's first law: Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa. Boehm's second law: Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa.",
-      "Modul treba da bude otvoren za proširenje, ali zatvoren za modifikaciju. (Open for extension, closed for modification).",
-      "1. Moduli višeg nivoa ne treba da zavise od modula nižeg nivoa. Oba treba da zavise od apstrakcije. 2. Apstrakcije ne treba da zavise od detalja. Detalji treba da zavise od apstrakcije."
+      "Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa.",
+      "Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa.",
+      "Scenarija slučajeva korišćenja ne treba da budu u međussobnoj interakciji. Ona se treba definisati kao atomska, u smislу da se izvršavaju u potpunosti samostalno. Na taj način se olakšava njihov razvoj i održavanje."
     ],
-    "correctAnswer": "Boehm's first law: Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa. Boehm's second law: Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa."
+    "correctAnswer": [
+      "Ukoliko se ne uoče greške u toku definisanja zahteva, iste se veoma teško mogu ukloniti u kasnijim fazama razvoja programa.",
+      "Pravljenje prototipova značajno smanjuje moguće greške kod definisanja zahteva i njegovog razvoja, naročito kod definisanja korisničkog interfejsa."
+    ]
   },
   {
     "id": 16,
@@ -204,9 +207,9 @@
       "Sistemski dijagram sekvenci prikazuje, za izdvojeni scenario SK, događaje u određenom redosledu, koji uspostavljaju interakciju između aktora i softverskog sistema.",
       "Tekstualni opis SK ima strukturu: Naziv SK, Aktore SK, Učesnike SK, Preduslovi, Osnovni scenario, Postuslovi, Alternativna scenarija, Specijalni zahtevi, Tehnološki zahtevi, Otvorena pitanja.",
       "Dopustivi ulaz u softverski sistem je definisan potpisom (signaturom), koji sadrži naziv sistemske operacije koja se poziva i skupom ulaznih argumenata.",
-      "Ugovori opisuju šta operacija treba da radi. Sekcije: Operacija, Veza sa SK, Preduslov (stanje pre izvršenja), Postuslov (stanje posle izvršenja). Preduslovi ukazuju šta je trebalo da se desi da bi se SO izvršila. Postuslovi ukazuju šta treba da se desi nakon izvršenja SO."
+      "Ugovori se prave za sistemske operacije i oni opisuju njeno ponašanje. Ugovori opisuju šta operacija treba da radi, bez objašnjenja kako će to da radi. Jedan ugovor je vezan za jednu sistemsku operaciju. Sekcije: Operacija, Veza sa SK, Preduslov (stanje pre izvršenja), Postuslov (stanje posle izvršenja). Preduslovi ukazuju šta je trebalo da se desi da bi se SO izvršila. Postuslovi ukazuju šta treba da se desi nakon izvršenja SO."
     ],
-    "correctAnswer": "Ugovori opisuju šta operacija treba da radi. Sekcije: Operacija, Veza sa SK, Preduslov (stanje pre izvršenja), Postuslov (stanje posle izvršenja). Preduslovi ukazuju šta je trebalo da se desi da bi se SO izvršila. Postuslovi ukazuju šta treba da se desi nakon izvršenja SO."
+    "correctAnswer": "Ugovori se prave za sistemske operacije i oni opisuju njeno ponašanje. Ugovori opisuju šta operacija treba da radi, bez objašnjenja kako će to da radi. Jedan ugovor je vezan za jednu sistemsku operaciju. Sekcije: Operacija, Veza sa SK, Preduslov (stanje pre izvršenja), Postuslov (stanje posle izvršenja). Preduslovi ukazuju šta je trebalo da se desi da bi se SO izvršila. Postuslovi ukazuju šta treba da se desi nakon izvršenja SO."
   },
   {
     "id": 20,
@@ -259,7 +262,7 @@
       "Aplikaciona logika opisuje strukturu i ponašanje sistema. Sastoji se od kontrolera aplikacione logike, poslovne logike (domenske klase i sistemske operacije) i brokera baze podataka.",
       "Aplikacioni serveri su softverski okviri napravljeni na osnovu tronivojske arhitekture odgovorni da obezbede servise za realizaciju aplikacione logike. Sastoje se iz tri dela: dela za komunikaciju sa klijentom, dela za komunikaciju sa bazom i dela koji sadrži poslovnu logiku.",
       "To je makroarhitekturni patern koji deli softverski sistem na tri dela: Model (podaci/stanje), View (prikaz/ekranska forma) i Controller (upravljač koji prima zahteve i povezuje Model i View).",
-      "Sastoji se od: 1. Korisničkog interfejsa (UI), 2. Aplikacione logike (struktura i ponašanje), 3. Skladišta podataka (baza). Pravila: AL nezavisna od KI; AL može imati više KI; Model ne zna za View."
+      "Sastoji se od: 1. Korisničkog interfejsa (ulazno-izlazna reprezentacija sistema), 2. Aplikacione logike (struktura i ponašanje sistema), 3. Skladišta podataka (cuva stanje atributa sistema). Pravila: AL se projektuje nezavisno od KI i obrnuto; AL može imati razlicite KI; AL ne zna gde se nalazi KI."
     ],
     "correctAnswer": "Sastoji se od: 1. Korisničkog interfejsa (UI), 2. Aplikacione logike (struktura i ponašanje), 3. Skladišta podataka (baza). Pravila: AL nezavisna od KI; AL može imati više KI; Model ne zna za View."
   },
