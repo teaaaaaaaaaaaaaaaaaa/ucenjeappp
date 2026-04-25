@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import SessionCard from '../components/quiz/SessionCard';
 import Button from '../components/ui/Button';
 import useQuiz from '../hooks/useQuiz';
@@ -230,6 +230,29 @@ const Home: React.FC = () => {
           <h1 className="text-3xl font-bold text-[#111827] dark:text-white mb-2">Dobrodošli u Kviz Aplikaciju</h1>
           <p className="text-[#6B7280] dark:text-gray-300">Izaberite temu i započnite novi kviz ili nastavite sa postojećom sesijom.</p>
         </div>
+
+        {/* Predmeti banner */}
+        <Link
+          to="/predmeti"
+          className="group flex items-center justify-between bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 px-6 py-5 mb-8 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all"
+        >
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-2xl shadow flex-shrink-0">
+              📚
+            </div>
+            <div>
+              <div className="text-base font-semibold text-[#111827] dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                Predmeti — Survival Guides
+              </div>
+              <div className="text-sm text-[#6B7280] dark:text-gray-400">
+                NJT · OI2 · PJ · NA — sve fore i saveti iz grupe na jednom mestu
+              </div>
+            </div>
+          </div>
+          <svg className="w-5 h-5 text-gray-400 group-hover:text-blue-500 group-hover:translate-x-1 transition-all flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </Link>
 
         {/* Subject selection */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 overflow-hidden mb-12">

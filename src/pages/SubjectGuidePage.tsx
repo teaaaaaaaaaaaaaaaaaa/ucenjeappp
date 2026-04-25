@@ -44,7 +44,8 @@ const SubjectGuidePage: React.FC = () => {
   }, [meta]);
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-3xl">
+    <div className="w-full px-4 py-8">
+      <div className="max-w-[720px] mx-auto">
       <button
         onClick={() => navigate('/predmeti')}
         className="mb-6 flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -76,6 +77,7 @@ const SubjectGuidePage: React.FC = () => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       )}
+      </div>
     </div>
   );
 };

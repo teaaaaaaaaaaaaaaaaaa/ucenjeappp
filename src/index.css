@@ -148,6 +148,29 @@
   }
 }
 
+/* Guide content layout fixes */
+.guide-content .container {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 640px) {
+  .guide-content .points-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .guide-content .grade-row {
+    gap: 4px;
+  }
+  .guide-content .grade-pill {
+    min-width: 60px;
+    padding: 6px;
+  }
+  .guide-content .threshold-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* Custom Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
