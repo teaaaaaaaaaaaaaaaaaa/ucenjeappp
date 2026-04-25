@@ -6,6 +6,8 @@ import Quiz from '@/pages/Quiz';
 import NotFound from '@/pages/NotFound';
 import DynamicPage from '@/pages/DynamicPage';
 import SubjectStatsPage from '@/pages/SubjectStatsPage';
+import SubjectsPage from '@/pages/SubjectsPage';
+import SubjectGuidePage from '@/pages/SubjectGuidePage';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: 'stats/:subject',
         element: <SubjectStatsPage />,
+      },
+      {
+        path: 'predmeti',
+        element: <SubjectsPage />,
+      },
+      {
+        path: 'predmeti/:subject',
+        element: <SubjectGuidePage />,
       },
       {
         path: ':slug',

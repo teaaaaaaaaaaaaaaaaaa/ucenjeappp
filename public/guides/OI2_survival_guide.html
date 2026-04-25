@@ -1,0 +1,212 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); color: var(--color-text-primary); }
+  .container { max-width: 680px; padding: 1.5rem 0; }
+  
+  .hero { background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; border: 0.5px solid var(--color-border-tertiary); }
+  .hero h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .hero p { font-size: 13px; color: var(--color-text-secondary); }
+
+  .section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin: 1.5rem 0 0.75rem; }
+
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 0.75rem; }
+  .card-title { font-size: 15px; font-weight: 500; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px; }
+  .card p, .card li { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
+  .card ul { padding-left: 1.25rem; }
+  .card li { margin-bottom: 3px; }
+
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: var(--border-radius-md); }
+  .badge-warn { background: #FAEEDA; color: #854F0B; }
+  .badge-ok { background: #EAF3DE; color: #3B6D11; }
+  .badge-info { background: #E6F1FB; color: #185FA5; }
+  .badge-danger { background: #FCEBEB; color: #A32D2D; }
+
+  .points-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 1rem; }
+  .point-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem; text-align: center; }
+  .point-card .num { font-size: 22px; font-weight: 500; }
+  .point-card .lbl { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+  .point-card.blue .num { color: #185FA5; }
+  .point-card.green .num { color: #3B6D11; }
+  .point-card.amber .num { color: #854F0B; }
+
+  .grade-row { display: flex; gap: 6px; margin-bottom: 0.75rem; flex-wrap: wrap; }
+  .grade-pill { flex: 1; min-width: 80px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 8px; text-align: center; font-size: 13px; }
+  .grade-pill .score { font-weight: 500; font-size: 15px; }
+
+  .tip { display: flex; gap: 10px; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); align-items: flex-start; }
+  .tip:last-child { border-bottom: none; }
+  .tip-icon { font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+  .tip-text { font-size: 14px; color: var(--color-text-secondary); line-height: 1.55; }
+  .tip-text strong { color: var(--color-text-primary); font-weight: 500; }
+
+  .divider { height: 0.5px; background: var(--color-border-tertiary); margin: 1.5rem 0; }
+
+  @media (prefers-color-scheme: dark) {
+    .badge-warn { background: #412402; color: #FAC775; }
+    .badge-ok { background: #173404; color: #C0DD97; }
+    .badge-info { background: #042C53; color: #B5D4F4; }
+    .badge-danger { background: #501313; color: #F7C1C1; }
+  }
+</style>
+
+<div class="container">
+  <div class="hero">
+    <h1>OI2 — vodič za polaganje 2025/26</h1>
+    <p>Operaciona istraživanja 2 · Sve fore na jednom mestu · Fokus: 1. i 2. kolokvijum</p>
+  </div>
+
+  <div class="section-title">Sistem bodovanja — ukratko</div>
+  <div class="points-grid">
+    <div class="point-card blue">
+      <div class="num">30p</div>
+      <div class="lbl">Predispitne obaveze</div>
+    </div>
+    <div class="point-card amber">
+      <div class="num">30p</div>
+      <div class="lbl">Pismeni deo</div>
+    </div>
+    <div class="point-card green">
+      <div class="num">40p</div>
+      <div class="lbl">Teorijski deo</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Prelaz za položen ispit <span class="badge badge-danger">kritično</span></div>
+    <p>Minimum 15p na pismenom + minimum 20p na teorijskom (po 10p po delu). Ali to nije dovoljno! <strong>Ukupan zbir mora biti najmanje 51 poen</strong> da bi ispit bio položen.</p>
+  </div>
+
+  <div class="section-title">Predispitne obaveze (max 30p)</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text"><strong>Dinamičko programiranje (0–10p)</strong> — zadatak u I kolokvijumskoj nedelji. Spremi ga kao da je ispit, jer je to tvoj jedini šans ove godine.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text"><strong>Projektni zadatak u Excelu (0–10p)</strong> — radi se u II kolokvijumskoj nedelji. Tema: najverovanatnije upravljanje zalihama. Radi se u Excelu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text"><strong>Aktivnost na nastavi (0–10p)</strong> — poeni se skupljaju tokom semestra i kod Gordane i kod Pamučara. Kod Gordane: domaći koji se brane + testići. Poeni se sabiraju čak i ako ideš kod drugog profesora ponekad.</div>
+    </div>
+  </div>
+  <div class="card">
+    <p><span class="badge badge-warn">pazi</span>&nbsp; Ako ostvariš ijedan poen u 2025/26, <strong>poništavaju ti se svi prethodni poeni iz 2024/25</strong>. Pošto si prvi put na predmetu — ovo te ne tiče.</p>
+  </div>
+
+  <div class="section-title">1. kolokvijumska nedelja — fokus</div>
+  <div class="card">
+    <div class="card-title">Šta dolazi na 1. kolokvijum</div>
+    <ul>
+      <li>Zadatak iz <strong>dinamičkog programiranja</strong> (pismeni deo, 10p)</li>
+      <li>Teorijski deo — <strong>prve dve grupe ispitnih pitanja</strong></li>
+      <li>Teorija se polaže <strong>pismeno</strong> (kao na OI1) — potvrdio Pamučar, nije usmeno</li>
+      <li>Format: zatvorena pitanja + dopune + verovatno jedan otvoreni zadatak</li>
+      <li><strong>Prosta raspodela resursa ne dolazi</strong> na 1. kolokvijum</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-title">Redosled u kolokvijumskoj nedelji</div>
+    <p>Prvo se radi zadatak (pismeni deo), pa odmah za njim teorija — jedno za drugim, kao na OI1.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Šta smeš da nosiš <span class="badge badge-info">važno</span></div>
+    <p>Na zadatku i pismenom delu ispita dozvoljena je <strong>zvanična literatura</strong> (knjiga i zbirka od zvaničnog izdavača). Kopije, beleške i skripte su zabranjene.</p>
+  </div>
+
+  <div class="section-title">2. kolokvijumska nedelja</div>
+  <div class="card">
+    <ul>
+      <li>Projektni zadatak u Excelu (10p) — upravljanje zalihama</li>
+      <li>Teorijski deo: <strong>druge dve grupe pitanja</strong> (2. deo teorije)</li>
+      <li>U ispitnim rokovima može se polagati u bilo kom redosledu</li>
+    </ul>
+  </div>
+
+  <div class="section-title">Teorijski deo — kako funkcioniše</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text">Može se polagati <strong>parcijalno</strong> (1. deo + 2. deo posebno) ili <strong>ceo odjednom</strong> na ispitu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text">1. deo (grupe 1 i 2) može se položiti u I kolokvijumskoj nedelji ili na ispitu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text">Položen deo <strong>važi do kraja akademske godine</strong> — ne moraš ponovo u junskom ako si položio u kolokvijumskoj.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">4.</div>
+      <div class="tip-text"><strong>Kod usmenog odgovaranja</strong> — moraš odgovoriti na svako pitanje na cedulji. Jedno neodgovoreno = pao si.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">5.</div>
+      <div class="tip-text">Ispitna pitanja su objavljena na sajtu. Nekad se pitanja rotiraju između grupa, pa prati grupu na kojoj si.</div>
+    </div>
+  </div>
+
+  <div class="section-title">Odakle učiti</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text"><strong>Baza znanja</strong> — preporučena za teorijski deo (potvrđeno od strane studenata i profesora).</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text"><strong>Skripta</strong> — postoji za teorijski deo, pitaj u grupi ko je ima.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text"><strong>Zbirka</strong> (zvanična) — za zadatke, smije se nositi na pismeni. Provjeri u skriptarnici ima li je.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">4.</div>
+      <div class="tip-text"><strong>YouTube — Batinica kanal</strong> — preporučuju studenti za učenje gradiva.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">5.</div>
+      <div class="tip-text"><strong>Teorijska pitanja</strong> su na sajtu predmeta — ključni dokument za učenje usmenog dela.</div>
+    </div>
+  </div>
+
+  <div class="section-title">Sistem ocenjivanja</div>
+  <div class="grade-row">
+    <div class="grade-pill"><div class="score">51–60</div><div style="font-size:12px;color:var(--color-text-secondary);">ocena 6</div></div>
+    <div class="grade-pill"><div class="score">61–70</div><div style="font-size:12px;color:var(--color-text-secondary);">ocena 7</div></div>
+    <div class="grade-pill"><div class="score">71–80</div><div style="font-size:12px;color:var(--color-text-secondary);">ocena 8</div></div>
+    <div class="grade-pill"><div class="score">81–90</div><div style="font-size:12px;color:var(--color-text-secondary);">ocena 9</div></div>
+    <div class="grade-pill"><div class="score">91–100</div><div style="font-size:12px;color:var(--color-text-secondary);">ocena 10</div></div>
+  </div>
+
+  <div class="section-title">Fore i saveti iz grupe</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Aktivnost skupljaj od prvog dana</strong> — lako 10 poena koje ti drže ocenu. Idi redovno na vežbe.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Poeni od aktivnosti važe i ako ideš kod drugog profesora</strong> — fleksibilno, možeš kombinovati termine.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Teorija ne uslovljava pismeni i obrnuto</strong> — možeš polagati u bilo kom redosledu na ispitu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Projekat dolazi u 2. kolokvijumskoj</strong> — registracija projekta se traži posebno, prati sajtove/grupu za rokove.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Domaci zadaci se rade i brane</strong> na vežbama kod Gordane — nemoj ih preskakati, direktno su poeni.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Pitanja su rotirana između grupa</strong> — proveri tačno koje grupe pitanja dolaze na tvoj kolokvijum.</div>
+    </div>
+  </div>
+</div>

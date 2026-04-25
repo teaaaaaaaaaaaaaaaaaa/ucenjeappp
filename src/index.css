@@ -43,6 +43,16 @@
 
 :root {
   --radius: 0.625rem;
+  /* Survival guide CSS variable aliases */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Fira Code', 'Consolas', monospace;
+  --color-text-primary: oklch(0.145 0 0);
+  --color-text-secondary: oklch(0.45 0 0);
+  --color-background-primary: oklch(1 0 0);
+  --color-background-secondary: oklch(0.97 0 0);
+  --color-border-tertiary: oklch(0.88 0 0);
+  --border-radius-lg: 0.625rem;
+  --border-radius-md: 0.375rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -90,6 +100,12 @@
 
 .dark {
   --background: oklch(0.145 0 0);
+  /* Survival guide CSS variable aliases - dark mode */
+  --color-text-primary: oklch(0.985 0 0);
+  --color-text-secondary: oklch(0.708 0 0);
+  --color-background-primary: oklch(0.145 0 0);
+  --color-background-secondary: oklch(0.205 0 0);
+  --color-border-tertiary: oklch(1 0 0 / 12%);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
