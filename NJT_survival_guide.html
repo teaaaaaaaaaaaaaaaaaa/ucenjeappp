@@ -1,0 +1,177 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .container { max-width: 680px; padding: 1.5rem 0; font-family: var(--font-sans); color: var(--color-text-primary); }
+  .hero { background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; border: 0.5px solid var(--color-border-tertiary); }
+  .hero h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .hero p { font-size: 13px; color: var(--color-text-secondary); }
+  .section-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin: 1.5rem 0 0.75rem; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 0.75rem; }
+  .card-title { font-size: 15px; font-weight: 500; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .card p, .card li { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; }
+  .card ul { padding-left: 1.25rem; }
+  .card li { margin-bottom: 3px; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: var(--border-radius-md); }
+  .badge-warn { background: #FAEEDA; color: #854F0B; }
+  .badge-ok { background: #EAF3DE; color: #3B6D11; }
+  .badge-info { background: #E6F1FB; color: #185FA5; }
+  .badge-danger { background: #FCEBEB; color: #A32D2D; }
+  .points-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 1rem; }
+  .point-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem; text-align: center; }
+  .point-card .num { font-size: 22px; font-weight: 500; }
+  .point-card .lbl { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+  .point-card.blue .num { color: #185FA5; }
+  .point-card.amber .num { color: #854F0B; }
+  .tip { display: flex; gap: 10px; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); align-items: flex-start; }
+  .tip:last-child { border-bottom: none; }
+  .tip-icon { font-size: 14px; margin-top: 1px; flex-shrink: 0; min-width: 14px; }
+  .tip-text { font-size: 14px; color: var(--color-text-secondary); line-height: 1.55; }
+  .tip-text strong { color: var(--color-text-primary); font-weight: 500; }
+  @media (prefers-color-scheme: dark) {
+    .badge-warn { background: #412402; color: #FAC775; }
+    .badge-ok { background: #173404; color: #C0DD97; }
+    .badge-info { background: #042C53; color: #B5D4F4; }
+    .badge-danger { background: #501313; color: #F7C1C1; }
+  }
+</style>
+
+<div class="container">
+  <div class="hero">
+    <h1>Napredne Java tehnologije — vodič 2025/26</h1>
+    <p>Nova akreditacija · Kolokvijumi + projekat · Sve fore iz grupe na jednom mestu</p>
+  </div>
+
+  <div class="section-title">Sistem bodovanja (nova akred 2025/26)</div>
+  <div class="points-grid">
+    <div class="point-card blue">
+      <div class="num">70p</div>
+      <div class="lbl">2 kolokvijuma (na računaru)</div>
+    </div>
+    <div class="point-card amber">
+      <div class="num">30p</div>
+      <div class="lbl">Projekat</div>
+    </div>
+  </div>
+  <div class="card">
+    <p><span class="badge badge-info">napomena</span>&nbsp; Stara akreditacija (slušao pre 2025/26) — predmet se polaže samo kroz projekat, bez kolokvijuma. Odbrana je na konsultacijama, u dogovoru s mentorom, i mora biti pre junskog roka.</p>
+  </div>
+
+  <div class="section-title">Kolokvijumi</div>
+  <div class="card">
+    <div class="card-title">Šta znamo</div>
+    <ul>
+      <li>Rade se na računaru, ukupno nose 70 poena</li>
+      <li>Mogu se raditi i u ispitnom roku, ne samo u kolokvijumskim nedjeljama (potvrdi još jednom)</li>
+      <li>Format podseća na Softverske — pravi se nešto kao "Softveri v2, bez Sinišinog usmenog"</li>
+      <li>Ilija drži nastavu ovaj semestar — njega pitaj za sve detalje oko klk</li>
+    </ul>
+  </div>
+  <div class="card">
+    <p><span class="badge badge-warn">pazi</span>&nbsp; Detalji o bodovanju po kolokvijumu, termini i tačan format još nisu jasno potvrđeni u grupi. Obavezno proveri direktno kod Ilije.</p>
+  </div>
+
+  <div class="section-title">Projekat — kako funkcioniše</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text"><strong>Smisli temu i pošalji mentoru na odobrenje.</strong> Šalješ kratak opis teme + konceptualni model + odabrane tehnologije. Dule se čeka i do 3 meseca — idi kod Milosa ili Ilije.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text"><strong>Tema: poslovni sistem</strong> — slično kao PS. CRUD operacije, pretraga, sort i autentifikacija su prolazili. Može biti rent-a-car, iznajmljivanje knjiga, filmovi i sl.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text"><strong>Tehnologije:</strong> Spring Boot za backend je obavezan. Frontend — šta hoćeš (Angular, React, Vue...). Frontend nisu predavali, uči sam preko YouTubea i AI alata.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">4.</div>
+      <div class="tip-text"><strong>Šalješ rad u iteracijama</strong> mentoru, koji daje povratne informacije. Nekima su tražili i da okače na GitHub — ubaci link u dokumentaciju svakako.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">5.</div>
+      <div class="tip-text"><strong>Odbrana je kad ti odgovara</strong> — dogovoriš se s mentorom, ne mora da bude striktno u terminima iz rasporeda.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">6.</div>
+      <div class="tip-text"><strong>Grupni rad je moguć</strong> samo uz odobrenje nastavnika i jasnu podelu po funkcionalnostima (ne po tehnologijama).</div>
+    </div>
+  </div>
+
+  <div class="section-title">Struktura backend projekta</div>
+  <div class="card">
+    <p style="font-family: var(--font-mono); font-size: 13px; line-height: 1.8; color: var(--color-text-secondary);">
+      controller &nbsp;&nbsp;— REST kontroleri<br>
+      service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— biznis logika<br>
+      repository &nbsp;&nbsp;— JPA interfejsi<br>
+      model/entity — JPA entiteti (mapa na bazu)<br>
+      dto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— DTO objekti (API &lt;-&gt; klijent)<br>
+      mapper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— MapStruct ili ručno mapiranje<br>
+      connection &nbsp;&nbsp;— konekcija na bazu
+    </p>
+  </div>
+
+  <div class="section-title">Dokumentacija</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text"><strong>Manje obimna nego za PS</strong> — ali treba da postoji. Ilija je rekao da je minimum dijagram celokupne arhitekture sistema.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text"><strong>Šta su radili oni koji su prošli:</strong> verbalni opis, slučajevi korišćenja, opis tehnologija, konačni dijagram arhitekture, snimci ekrana sa objašnjenjem koda.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text"><strong>Milos nije ni pogledao dokumentaciju</strong> na odbrani — bukv kao da pokazuješ šta si pravio. Ali ipak je spremi, Ilija je gleda.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">4.</div>
+      <div class="tip-text">Možeš koristiti generator sa PS, pisati sopstvenu, ili GPT — svejedno je. Ubaci GitHub link u dokumentaciju.</div>
+    </div>
+  </div>
+
+  <div class="section-title">Odbrana — šta te čeka</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">1.</div>
+      <div class="tip-text"><strong>Pokazuješ live web app</strong> — testira se slanje zahteva od klijenta, potvrda od strane radnika i sl. Pripremi da sve radi.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">2.</div>
+      <div class="tip-text">Pitali su: <strong>gde su slike, jel generisan mapper u backu</strong>, pokazuješ service u backu i funkciju u frontu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">3.</div>
+      <div class="tip-text">Malo razgovora o korišćenim tehnologijama (Angular, JetBrains, Spring...) — znaj šta si koristio i zašto.</div>
+    </div>
+  </div>
+
+  <div class="section-title">Fore i saveti iz grupe</div>
+  <div class="card">
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Idi kod Milosa ili Ilije</strong> — Dule odgovara i za 3 meseca, što može da ti pokvari plan za odbranu.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Za AI alate koristi Google AI Studio</strong> (aistudio.google.com) umesto ChatGPT — preporučeno od strane studenta koji je dobio 10. Daleko bolje za programerske projekte.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Vreme izrade:</strong> realno oko 4–5 dana, po sat-dva dnevno + jedan duži dan za dokumentaciju. Projekat nije toliko obiman koliko izgleda.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Predavanja su ionako bila skoro nebitna</strong> za projekat — sve što treba naučiš kroz rad i YouTube.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Za bazu:</strong> koristi MySQL + SQLYog (ili Xampp koji već ima MySQL) za pravljenje baze i testiranje upita.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-icon">★</div>
+      <div class="tip-text"><strong>Prijava ispita u dodatnom roku</strong> — postoji mogućnost da ne moraš da prijaviš posebno ako braniš pre junskog, ali nije zvanično potvrđeno. Pitaj Iliju ili Duleta direktno.</div>
+    </div>
+  </div>
+</div>
