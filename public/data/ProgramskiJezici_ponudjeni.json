@@ -1,0 +1,360 @@
+[
+  {
+    "id": 1,
+    "question": "Koji od navedenih tipova nisu vrednosni tipovi?",
+    "answers": ["String", "Char", "Struct", "Enum", "Delegat", "Object"],
+    "correctAnswer": ["String", "Delegat", "Object"]
+  },
+  {
+    "id": 2,
+    "question": "Interna reprezentacija znakovnog(char) tipa moze biti preko?",
+    "answers": ["BCD koda", "ASCII", "UNICODE", "binarna", "mantise i eksponenta"],
+    "correctAnswer": ["BCD koda", "ASCII", "UNICODE"]
+  },
+  {
+    "id": 3,
+    "question": "UNICODE je?",
+    "answers": ["2-bitni", "4-bitni", "8-bitni", "16-bitni", "32-bitni"],
+    "correctAnswer": "16-bitni"
+  },
+  {
+    "id": 4,
+    "question": "BCD je?",
+    "answers": ["2-bitni", "4-bitni", "8-bitni", "16-bitni", "32-bitni"],
+    "correctAnswer": "4-bitni"
+  },
+  {
+    "id": 5,
+    "question": "ASCII je?",
+    "answers": ["2-bitni", "4-bitini", "8-bitni", "16-bitni", "32-bitni"],
+    "correctAnswer": "8-bitni"
+  },
+  {
+    "id": 7,
+    "question": "Koje od navedenih tvrdjenja je tacno?",
+    "answers": [
+      "L-value ukazuje na tekucu vrednost promenljive, a R-value na njenu adresu",
+      "L-value ukazuje na adresu promenljive, a R-value na njenu tekucu vrednost",
+      "R-value pointera je L-value druge promenljive",
+      "L-value pointera je R-value druge promenljive"
+    ],
+    "correctAnswer": [
+      "L-value ukazuje na adresu promenljive, a R-value na njenu tekucu vrednost",
+      "R-value pointera je L-value druge promenljive"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Najvaznije karakteristike apstraktnog tipa podataka je/su?",
+    "answers": ["Sakrivanje informacija", "Klasifikacija", "Polimorfizam", "Nasledjivanje", "Parametrizacija"],
+    "correctAnswer": "Sakrivanje informacija"
+  },
+  {
+    "id": 9,
+    "question": "Koja faza moze biti pretposlednja u procesu kompilacije?",
+    "answers": ["Generisanje koda", "Semanticka analiza", "Optimizacija koda", "Leksicka analiza", "Sintaksicka analiza"],
+    "correctAnswer": ["Semanticka analiza", "Optimizacija koda"]
+  },
+  {
+    "id": 10,
+    "question": "Tacna tvrdjenja za staticku promenljivu u C#?",
+    "answers": [
+      "Alocira se samo jednom",
+      "Lokalna promenljiva moze biti static",
+      "Zivotni vek trajanja staticke promenljive je jednak vremenu izvrsavanja programa",
+      "Ne moze se menjati vrednost static promenljive",
+      "Moze se menjati vrednost static promenljive"
+    ],
+    "correctAnswer": [
+      "Alocira se samo jednom",
+      "Zivotni vek trajanja staticke promenljive je jednak vremenu izvrsavanja programa",
+      "Moze se menjati vrednost static promenljive"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Koja su tacna tvrdjenja?",
+    "answers": [
+      "Zivotni vek promenljive je vreme vezivanja promenljive za neku memorijsku lokaciju",
+      "Kod statickog povezivanja tipa sa promenljivom u toku izvrsenja mogu se dodeljivati vrednosti razlicitog tipa promenljivoj",
+      "Kod dinamickog povezivanja tipa sa promenljivom ne zahteva se deklaracija tipa promenljive",
+      "Kod statickog povezivanja tipa sa promenljivom ne zahteva se deklaracija tipa promenljive"
+    ],
+    "correctAnswer": [
+      "Zivotni vek promenljive je vreme vezivanja promenljive za neku memorijsku lokaciju",
+      "Kod dinamickog povezivanja tipa sa promenljivom ne zahteva se deklaracija tipa promenljive"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Koju kategoriju promenljivih karakterise dinamicko povezivanje promenljive sa tipom?",
+    "answers": ["Stack-dinamicka", "Staticka", "Implicitna-heap dinamicka", "Eksplicitna-heap dinamicka"],
+    "correctAnswer": "Implicitna-heap dinamicka"
+  },
+  {
+    "id": 13,
+    "question": "Koja kategorija promenljive ne omogucava dinamicko povezivanje promenljive sa tipom?",
+    "answers": ["Stack-dinamicka", "Staticka", "Implicitna-heap dinamicka", "Eksplicitna-heap dinamicka"],
+    "correctAnswer": ["Stack-dinamicka", "Staticka", "Eksplicitna-heap dinamicka"]
+  },
+  {
+    "id": 14,
+    "question": "Vrednost staticke promenljive je?",
+    "answers": ["Nepromenljiva", "Perzistentna", "Reinicijalizuje se pri svakom pozivu funkcije"],
+    "correctAnswer": "Perzistentna"
+  },
+  {
+    "id": 15,
+    "question": "Heap-dinamicka promenljiva je?",
+    "answers": ["Perzistentna", "Reinicijalizuje se pri svakom pozivu funkcije"],
+    "correctAnswer": "Perzistentna"
+  },
+  {
+    "id": 16,
+    "question": "Programski jezici u kojima se heap-dinamicka promenljiva dealocira eksplicitno mogu dovesti do problema?",
+    "answers": ["Dangling reference", "Garbage reference"],
+    "correctAnswer": ["Dangling reference", "Garbage reference"]
+  },
+  {
+    "id": 17,
+    "question": "Koriscenje alijasa u jezicima koji zahtevaju eksplicitnu dealokaciju heap-dinamicke promenljive moze dovesti do problema?",
+    "answers": [
+      "Postoji alocirana heap-dinamicka promenljiva kojoj se ne moze pristupiti",
+      "Postoji pointer koji sadrzi adresu heap-dinamicke promenljive koja je dealocirana"
+    ],
+    "correctAnswer": "Postoji pointer koji sadrzi adresu heap-dinamicke promenljive koja je dealocirana"
+  },
+  {
+    "id": 18,
+    "question": "Metoda prenosa parametara pass by value?",
+    "answers": [
+      "vrednost argumenta kopira se u formalni parametar",
+      "vrednost formalnog parametra kopira se u odgovarajuci argument",
+      "adresa argumenta prenosi se na formalni parametar"
+    ],
+    "correctAnswer": "vrednost argumenta kopira se u formalni parametar"
+  },
+  {
+    "id": 19,
+    "question": "Common Intermediate Language (CIL) se?",
+    "answers": ["interpretira", "kompajlira", "direktno izvrsava"],
+    "correctAnswer": "kompajlira"
+  },
+  {
+    "id": 20,
+    "question": "Atributska gramatika se koristi za specifikaciju?",
+    "answers": ["sintakse", "staticke semantike", "dinamicke semantike"],
+    "correctAnswer": "staticke semantike"
+  },
+  {
+    "id": 21,
+    "question": "Unifikacija je kljucna operacija kojih jezika?",
+    "answers": ["Funkcionalnih", "Imperativnih", "Logickih", "Domensko-specificnih"],
+    "correctAnswer": "Logickih"
+  },
+  {
+    "id": 22,
+    "question": "Na kom matematickom formalizmu se zasniva PROLOG?",
+    "answers": ["Predikatski racun", "Lambda racun", "Horova logika", "Racun teorema"],
+    "correctAnswer": "Predikatski racun"
+  },
+  {
+    "id": 23,
+    "question": "Funkcionalni jezici se zasnivaju na?",
+    "answers": ["Lambda racunu", "Predikatskom racunu", "Von Neumanovoj arhitekturi"],
+    "correctAnswer": "Predikatskom racunu"
+  },
+  {
+    "id": 24,
+    "question": "Koji tipovi podataka su korisnicki definisani?",
+    "answers": ["Enum", "Struct", "String", "char", "Class", "Nizovi", "Delegati"],
+    "correctAnswer": ["Enum", "Struct", "Class", "Nizovi", "Delegati"]
+  },
+  {
+    "id": 25,
+    "question": "Kompajler vrsi translaciju C# programa u?",
+    "answers": ["masinski jezik", "bytecode", "IL (intermediate language)"],
+    "correctAnswer": "IL (intermediate language)"
+  },
+  {
+    "id": 26,
+    "question": "Program napisan u proceduralnom programskom jeziku sastoji se iz?",
+    "answers": ["funkcija", "niza instrukcija", "logickih pravila"],
+    "correctAnswer": "niza instrukcija"
+  },
+  {
+    "id": 27,
+    "question": "Imperativna paradigma podrzava?",
+    "answers": ["bazne apstrakcije", "apstrakciju podataka", "proceduralne apstrakcije", "strukturne apstrakcije"],
+    "correctAnswer": ["bazne apstrakcije", "proceduralne apstrakcije", "strukturne apstrakcije"]
+  },
+  {
+    "id": 28,
+    "question": "Specifikacija apstraktnog tipa podatka zadaje se preko?",
+    "answers": ["klase", "interfejsa", "package-a"],
+    "correctAnswer": "klase"
+  },
+  {
+    "id": 29,
+    "question": "Kljucna operacija imperativne paradigme je?",
+    "answers": ["prenosenje poruka", "unifikacija", "dodeljivanje", "prenos podataka"],
+    "correctAnswer": "dodeljivanje"
+  },
+  {
+    "id": 30,
+    "question": "Logicki jezici su deklarativni?",
+    "answers": ["DA", "NE"],
+    "correctAnswer": "DA"
+  },
+  {
+    "id": 31,
+    "question": "Imperativni jezici su deklarativni?",
+    "answers": ["DA", "NE"],
+    "correctAnswer": "NE"
+  },
+  {
+    "id": 32,
+    "question": "Objektno orjentisani jezici su deklarativni?",
+    "answers": ["DA", "NE"],
+    "correctAnswer": "NE"
+  },
+  {
+    "id": 33,
+    "question": "Koje su tacne karakteristike za ANTLR?",
+    "answers": [
+      "Redukcija izvodjenja sa leva",
+      "Redukcija izvodjenja sa desna",
+      "Redukcija izvodjenja odozgo",
+      "Redukcija izvodjenja odozdo"
+    ],
+    "correctAnswer": "Redukcija izvodjenja sa leva"
+  },
+  {
+    "id": 34,
+    "question": "LISP je?",
+    "answers": ["Logicki jezik", "Funkcionalni jezik", "Domensko-specificni jezik", "Objektno orjentisani jezik", "Imperativni jezik"],
+    "correctAnswer": "Funkcionalni jezik"
+  },
+  {
+    "id": 35,
+    "question": "Interna reprezentacija realnih vrednosti (realnog tipa)?",
+    "answers": ["preko binarnog zapisa", "preko BCD", "preko mantise i eksponenta", "preko UNICODE"],
+    "correctAnswer": "preko mantise i eksponenta"
+  },
+  {
+    "id": 37,
+    "question": "Karakteristike apstraktnog tipa podataka?",
+    "answers": ["Enkapsulacija (ucaurenje)", "Polimorfizam", "Nasledjivanje", "Sakrivanje informacija"],
+    "correctAnswer": ["Enkapsulacija (ucaurenje)", "Sakrivanje informacija"]
+  },
+  {
+    "id": 39,
+    "question": "Strukturne apstrakcije u PJ su?",
+    "answers": ["proceduralne", "strukturne", "upravljacke strukture", "apstrakcija podataka"],
+    "correctAnswer": ["strukturne", "upravljacke strukture"]
+  },
+  {
+    "id": 40,
+    "question": "Koji od navedenih mehanizama se koristi za sakrivanje info u C#?",
+    "answers": ["package", "public, private klauzula", "definisanje vrste pristupa"],
+    "correctAnswer": "definisanje vrste pristupa"
+  },
+  {
+    "id": 41,
+    "question": "Koji od navedenih tipova podataka su apstraktni tipovi?",
+    "answers": ["Stablo", "niz", "zapis", "graf"],
+    "correctAnswer": ["niz", "zapis"]
+  },
+  {
+    "id": 42,
+    "question": "Koji od navedenih tipova podataka su dinamicki tipovi?",
+    "answers": ["Stablo", "niz", "zapis", "graf", "liste"],
+    "correctAnswer": ["Stablo", "graf", "liste"]
+  },
+  {
+    "id": 43,
+    "question": "Vrednost lokalne staticke promenljive?",
+    "answers": [
+      "inicijalizuje se pri prvom pozivu f-je",
+      "inicijalizuje se nakon prvog poziva f-je",
+      "inicijalizuje se na pocetku, a zatim je nepromenljiva"
+    ],
+    "correctAnswer": "inicijalizuje se pri prvom pozivu f-je"
+  },
+  {
+    "id": 44,
+    "question": "Najvaznije karakteristike apstraktnog tipa?",
+    "answers": ["klasifikacija", "polimorfizam", "sakrivanje podataka", "nasledjivanje", "parametrizacija"],
+    "correctAnswer": "sakrivanje podataka"
+  },
+  {
+    "id": 45,
+    "question": "Metoda za prenos parametra pass by result?",
+    "answers": [
+      "prenos vrednosti argumenta u formalni parametar",
+      "prenos vrednosti formalnog parametra u argument",
+      "prenos adrese argumenta u formalni parametar"
+    ],
+    "correctAnswer": "prenos vrednosti formalnog parametra u argument"
+  },
+  {
+    "id": 46,
+    "question": "Koji od navedenih pristupa se koristi za opis formalne semantike PJ?",
+    "answers": ["denotacioni", "translacioni", "operacioni", "aksiomatski"],
+    "correctAnswer": ["denotacioni", "translacioni", "aksiomatski"]
+  },
+  {
+    "id": 47,
+    "question": "Bazne apstrakcije u PJ?",
+    "answers": ["instrukcije dodeljivanja", "predefinisani tipovi podataka", "strukture podataka", "proceduralne apstrakcije"],
+    "correctAnswer": ["instrukcije dodeljivanja", "predefinisani tipovi podataka"]
+  },
+  {
+    "id": 48,
+    "question": "Programske paradigme obezbedjuju model projektovanja imperativnih sistema?",
+    "answers": ["DA", "NE"],
+    "correctAnswer": "DA"
+  },
+  {
+    "id": 49,
+    "question": "Odvajanje apstraktnog tipa podataka od implementacije je?",
+    "answers": ["proceduralna apstrakcija", "sakrivanje info", "enkapsulacija"],
+    "correctAnswer": "enkapsulacija"
+  },
+  {
+    "id": 50,
+    "question": "Schema element ukazuje na definiciju/deklaraciju?",
+    "answers": ["atributa", "elementa", "XML scheme"],
+    "correctAnswer": "XML scheme"
+  },
+  {
+    "id": 51,
+    "question": "XML Reader je koji tip parsera?",
+    "answers": ["Pull model", "Push model", "SAX", "DOM"],
+    "correctAnswer": "Pull model"
+  },
+  {
+    "id": 53,
+    "question": "Kljucna operacija objektno orjentisanog programiranja?",
+    "answers": ["Dodela vrednosti", "Apstrakcija", "Prenosenje poruke (podataka)", "Ucaurenje"],
+    "correctAnswer": "Prenosenje poruke (podataka)"
+  },
+  {
+    "id": 54,
+    "question": "Koji jezici apstrahuju Von Neumanovu arhitekturu?",
+    "answers": ["Logicki", "OO", "Funkcionalni", "Imperativni"],
+    "correctAnswer": "Imperativni"
+  },
+  {
+    "id": 55,
+    "question": "Za leksicku specifikaciju u programu koriste se?",
+    "answers": ["Tokeni", "Promenljive", "Regularni izrazi", "Funkcije"],
+    "correctAnswer": "Regularni izrazi"
+  },
+  {
+    "id": 56,
+    "question": "Za formalan opis sintakse programskih jezika?",
+    "answers": ["Regularne gramatike", "Konteksno-slobodne gramatike"],
+    "correctAnswer": ["Regularne gramatike", "Konteksno-slobodne gramatike"]
+  }
+]

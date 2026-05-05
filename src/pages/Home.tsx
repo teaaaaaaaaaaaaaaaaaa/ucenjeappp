@@ -129,6 +129,8 @@ const Home: React.FC = () => {
         return '📚';
       case 'RMT_sa_modlla_dva':
         return '🌍';
+      case 'ProgramskiJezici_ponudjeni':
+        return '💻';
       default:
         return '🧠';
     }
@@ -195,6 +197,8 @@ const Home: React.FC = () => {
         return 'RMT - Prepravljeno TEA';
       case 'RMT_sa_modlla_dva':
         return 'RMT - Sa moodla 2';
+      case 'ProgramskiJezici_ponudjeni':
+        return 'Programski Jezici - Ponuđeni';
       default:
         return subject;
     }

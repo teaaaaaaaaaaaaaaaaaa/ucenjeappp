@@ -35,6 +35,7 @@ const SUBJECT_FILES: Record<string, string> = {
   'RMT_prepravljeno_TEA': '/data/RMT_prepravljeno_TEA.json',
   'RMT_sa_modlla_dva': '/data/RMT_sa_modlla_dva.json',
   'PIS_na_dopunu': '/data/PIS_na_dopunu.json',
+  'ProgramskiJezici_ponudjeni': '/data/ProgramskiJezici_ponudjeni.json',
 };
 
 /**
@@ -91,6 +92,7 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'RMT_prepravljeno_TEA',
       'RMT_sa_modlla_dva',
       'PIS_na_dopunu',
+      'ProgramskiJezici_ponudjeni',
     ];
     return Promise.resolve(subjects);
   } catch (error) {
