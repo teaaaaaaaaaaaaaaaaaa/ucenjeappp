@@ -356,5 +356,812 @@
     "question": "Za formalan opis sintakse programskih jezika?",
     "answers": ["Regularne gramatike", "Konteksno-slobodne gramatike"],
     "correctAnswer": ["Regularne gramatike", "Konteksno-slobodne gramatike"]
+  },
+  {
+    "id": 57,
+    "question": "Java kod se?",
+    "answers": ["kompajlira (tačno)", "interpretira (tačno)", "izvršava (tačno)"],
+    "correctAnswer": ["kompajlira (tačno)", "interpretira (tačno)", "izvršava (tačno)"]
+  },
+  {
+    "id": 58,
+    "question": "Glavne karakteristike objektno orijentisanog programiranja:",
+    "answers": ["učaurenje (tačno)", "sakrivanje informacija (tačno)", "nasleđivanje (tačno)", "polimorfizam (tačno)"],
+    "correctAnswer": ["učaurenje (tačno)", "sakrivanje informacija (tačno)", "nasleđivanje (tačno)", "polimorfizam (tačno)"]
+  },
+  {
+    "id": 59,
+    "question": "Najvažnije karakteristike apstraktnog tipa podataka su:",
+    "answers": ["sakrivanje informacija (tačno)", "klasifikacija", "polimorfizam", "enkapsulacija (tačno)", "nasleđivanje"],
+    "correctAnswer": ["sakrivanje informacija (tačno)", "enkapsulacija (tačno)"]
+  },
+  {
+    "id": 60,
+    "question": "Mehanizam sakrivanja informacija u C#:",
+    "answers": ["package", "public klauzula, private klauzula", "za svaku članicu se definiše vrsta pristupa (tačno)"],
+    "correctAnswer": "za svaku članicu se definiše vrsta pristupa (tačno)"
+  },
+  {
+    "id": 61,
+    "question": "Gde se nalaze specijalizovane biblioteke?",
+    "answers": ["class libraries (tačno)", "framework", "package", "header"],
+    "correctAnswer": "class libraries (tačno)"
+  },
+  {
+    "id": 62,
+    "question": "Koja promenljiva ima identičan doseg kao x?\n\nKod:\nint x = 10; int a = 5;\nfor(int b = 0; b < 3; b++) { int c = 2; c++; }\nbool d = int.TryParse(\"1\", out int e);\ntry { int f = 5; }\ncatch(Exception) { Console.Write(\"1\"); }",
+    "answers": ["a (tačno)", "b", "c", "d (tačno)", "e (tačno)", "f"],
+    "correctAnswer": ["a (tačno)", "d (tačno)", "e (tačno)"]
+  },
+  {
+    "id": 63,
+    "question": "Odvajanje specifikacije ATP od njegove implementacije je:",
+    "answers": ["proceduralna apstrakcija", "sakrivanje informacija - korišćenje ATP bez poznavanja njegove implementacije (tačno)", "enkapsulacija"],
+    "correctAnswer": "sakrivanje informacija - korišćenje ATP bez poznavanja njegove implementacije (tačno)"
+  },
+  {
+    "id": 64,
+    "question": "Najvažniji deo .NET platforme?",
+    "answers": ["Framework (tačno)", "System.Object", "CIL", "CIS"],
+    "correctAnswer": "Framework (tačno)"
+  },
+  {
+    "id": 65,
+    "question": "Poslednja faza u procesu kompajliranja je?",
+    "answers": ["Leksička analiza", "Semantička analiza", "Optimizacija koda", "Generisanje koda (tačno)", "Sintaksna analiza"],
+    "correctAnswer": "Generisanje koda (tačno)"
+  },
+  {
+    "id": 66,
+    "question": "Assembly se definiše pri?",
+    "answers": ["kompajliranju (tačno)", "kreiranju", "izvršenju"],
+    "correctAnswer": "kompajliranju (tačno)"
+  },
+  {
+    "id": 67,
+    "question": "Koje su od navedenih imenovane enkapsulacije?",
+    "answers": ["Java packages (tačno)", "C# assemblies", "C# namespaces (tačno)"],
+    "correctAnswer": ["Java packages (tačno)", "C# namespaces (tačno)"]
+  },
+  {
+    "id": 68,
+    "question": "Bazne apstrakcije apstrahuju:",
+    "answers": [
+      "Internu reprezentaciju primitivnih tipova podataka (tačno)",
+      "Internu reprezentaciju strukturalnih tipova podataka",
+      "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tačno)",
+      "Memorijske ćelije (tačno)",
+      "Proces računanja i memorisanje sračunate vrednosti (tačno)",
+      "Sekvencu instrukcija"
+    ],
+    "correctAnswer": [
+      "Internu reprezentaciju primitivnih tipova podataka (tačno)",
+      "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tačno)",
+      "Memorijske ćelije (tačno)",
+      "Proces računanja i memorisanje sračunate vrednosti (tačno)"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "[NIJE SIGURNO] Šta od navedenog NE može uticati na smanjenje pouzdanosti programa?",
+    "answers": [
+      "Provera tipa u vreme kompajliranja programa (chatgpt tačno)",
+      "Korišćenje implicitnih heap-dinamičkih promenljivih (pdf tačno, chatgpt netačno)",
+      "Dinamičko povezivanje sa tipom",
+      "Ograničavanje alijasa (chatgpt tačno)",
+      "Obrada grešaka tokom izvršavanja (chatgpt tačno)",
+      "Implicitno deklarisanje tipa promenljive (tačno)"
+    ],
+    "correctAnswer": [
+      "Provera tipa u vreme kompajliranja programa (chatgpt tačno)",
+      "Ograničavanje alijasa (chatgpt tačno)",
+      "Obrada grešaka tokom izvršavanja (chatgpt tačno)",
+      "Implicitno deklarisanje tipa promenljive (tačno)"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "[NIJE SIGURNO] Koji od navedenih primera ilustruje dinamičko povezivanje i sa tipom i sa memorijskom lokacijom?",
+    "answers": [
+      "var x = 1; (C#)",
+      "dynamic x = 1; (C#) (pdf tačno, chatgpt netačno)",
+      "var x = 1; (JavaScript) (tačno)",
+      "x = 1; (FORTRAN)"
+    ],
+    "correctAnswer": "var x = 1; (JavaScript) (tačno)"
+  },
+  {
+    "id": 71,
+    "question": "Koji PJ podržavaju prenos preko reference?",
+    "answers": ["Pascal (tačno)", "Java", "C# (tačno)", "C++ (tačno)"],
+    "correctAnswer": ["Pascal (tačno)", "C# (tačno)", "C++ (tačno)"]
+  },
+  {
+    "id": 72,
+    "question": "Koja od faza može biti pretposlednja faza u procesu kompilacije?",
+    "answers": ["generisanje koda", "semantička analiza (chatgpt tačno)", "optimizacija koda (chatgpt tačno)", "leksička analiza", "sintaksička analiza"],
+    "correctAnswer": ["semantička analiza (chatgpt tačno)", "optimizacija koda (chatgpt tačno)"]
+  },
+  {
+    "id": 73,
+    "question": ".NET framework je?",
+    "answers": ["razvojno okruženje (chatgpt tačno)", "izvršno okruženje (chatgpt tačno)"],
+    "correctAnswer": ["razvojno okruženje (chatgpt tačno)", "izvršno okruženje (chatgpt tačno)"]
+  },
+  {
+    "id": 74,
+    "question": "[NIJE SIGURNO] Koja od navedenih promenljivih ima vrednost 0 na kraju Main metode?\n\nstatic void Main()\n{\n    int i; Tip t; Paket p;\n    Ugovor u = new Ugovor();\n}",
+    "answers": [
+      "i (pdf tačno, chatgpt netačno)",
+      "t (pdf tačno, chatgpt netačno)",
+      "p.kB",
+      "u.cena (tačno)",
+      "u.tip (tačno)",
+      "u.paket.kB (chatgpt tačno)"
+    ],
+    "correctAnswer": ["u.cena (tačno)", "u.tip (tačno)", "u.paket.kB (chatgpt tačno)"]
+  },
+  {
+    "id": 75,
+    "question": "Kog tipa može biti promenljiva y da bi navedena naredba bila ispravna?\nX je instanca klase Ugovor\n\ny = x?.tip.ToString()[0];",
+    "answers": ["Object (tačno)", "Var (tačno)", "Int", "Char? (tačno)", "Nijedan", "Kod nije ispravan"],
+    "correctAnswer": ["Object (tačno)", "Var (tačno)", "Char? (tačno)"]
+  },
+  {
+    "id": 76,
+    "question": "Sta od navedenog nema uticaja na smanjenje citljivosti programa?",
+    "answers": [
+      "postojanje kljucnih reci koje nisu rezervisane reci",
+      "postojanje rezervisanih reci koje nisu kljucne (tacno)",
+      "implicitno deklarisanje tipa koriscenjem konvencije o imenovanju",
+      "manja ortogonalnost programskog jezika",
+      "koriscenje alijasa (chatgpt tacno)",
+      "odsustvo podrske za logicki tip podatka u PJ"
+    ],
+    "correctAnswer": ["postojanje rezervisanih reci koje nisu kljucne (tacno)", "koriscenje alijasa (chatgpt tacno)"]
+  },
+  {
+    "id": 77,
+    "question": "[NIJE SIGURNO] Bazne apstrakcije apstrahuju",
+    "answers": [
+      "Von Neumann arhitekturu",
+      "Memorijske celije (tacno)",
+      "Sekvencu instrukcija",
+      "...",
+      "...."
+    ],
+    "correctAnswer": "Memorijske celije (tacno)"
+  },
+  {
+    "id": 78,
+    "question": "Koje je, od navedenih, tvrdjenja tacno za sledeci kod u C-u?\n\nint a = 0;\nint b = a;\nint *p = &a;",
+    "answers": [
+      "l-value od a je 0.",
+      "r-value od a je ista kao i r-value od b. (tacno)",
+      "l-value od a je ista kao i l-value od b.",
+      "r-value od p je 0.",
+      "r-value od p je ista kao i r-value od b.",
+      "r-value od p je ista kao i l-value od a. (tacno)"
+    ],
+    "correctAnswer": ["r-value od a je ista kao i r-value od b. (tacno)", "r-value od p je ista kao i l-value od a. (tacno)"]
+  },
+  {
+    "id": 79,
+    "question": "[NIJE SIGURNO] Koji od navedenih C++ kodova ilustruje koncept garbage promenljive?",
+    "answers": [
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2; (tacno)",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np2 = p1;\ndelete p1;",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2; (tacno)",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Nakon izvrsavanja kog segmenta programskog koda ce se na ekranu ispisati 2?",
+    "answers": [
+      "C++:\nint x = 1;\nif (x < 10)\n{\n    int x = 2;\n    cout << x;\n} \n(chatgpt tacno)",
+      "C#:\nvar x = 1;\nx++;\nvar x = 2;\nConsole.Write(x);",
+      "Java:\nvoid M(int x)\n{\n    int x = 2;\n    System.out.println(x);\n}",
+      "JavaScript:\nvar x = 2;\nconsole.log(x); (tacno)",
+      "JavaScript:\nlet x = 1;\n{\n    let x = 2;\n}\nconsole.log(x);"
+    ],
+    "correctAnswer": [
+      "C++:\nint x = 1;\nif (x < 10)\n{\n    int x = 2;\n    cout << x;\n} \n(chatgpt tacno)",
+      "JavaScript:\nvar x = 2;\nconsole.log(x); (tacno)"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "[NIJE SIGURNO] Koja kategorija promenljivih je pokrivena sledecim kodom u C++-u?\n\nint x = 2;\nint main() {\n    int y = 1;\n    int* z;\n    *z = new int;\n    delete z;\n    return 0;\n}",
+    "answers": [
+      "globalna (tacno)",
+      "Staticka (tacno)",
+      "Eksplicitna heap-dinamicka (tacno)",
+      "anonimna",
+      "Implicitna heap-dinamicka"
+    ],
+    "correctAnswer": ["globalna (tacno)", "Staticka (tacno)", "Eksplicitna heap-dinamicka (tacno)"]
+  },
+  {
+    "id": 82,
+    "question": "Koji od sledecih segmenata NISU ispravni?",
+    "answers": [
+      "int? a1 = null; int a2 = 1; int a = a1 ?? a2",
+      "int? b1 = null; int? b2 = 1; int b = b1 ?? b2; (tacno)",
+      "bool c1 = true; long c2 = 1; int c = (c1) ? 5 : c2; (tacno)",
+      "bool d1 = true; short d2 = 1; int d = (d1) ? 5 : d2;",
+      "Ugovor e1 = null; Tip? e2 = e1?.tip;",
+      "int? f1 = null; int f2 = (int)f1; (tacno)"
+    ],
+    "correctAnswer": [
+      "int? b1 = null; int? b2 = 1; int b = b1 ?? b2; (tacno)",
+      "bool c1 = true; long c2 = 1; int c = (c1) ? 5 : c2; (tacno)",
+      "int? f1 = null; int f2 = (int)f1; (tacno)"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Koja od navedenih naredbi bi se mogla navesti na mestu koje je oznaceno komentarom?\n\nstatic (decimal, double) Metoda()\n{\n    // definicija promenljive x\n    return (x, 2);\n}\npublic static void Main()\n{\n    Metoda();\n}",
+    "answers": [
+      "int? x = 5;",
+      "double x = 2;",
+      "char x = '#'; (tacno)",
+      "dynamic x = \"1\";",
+      "Tip x = Tip.Biznis;"
+    ],
+    "correctAnswer": "char x = '#'; (tacno)"
+  },
+  {
+    "id": 84,
+    "question": "[NIJE SIGURNO] Koji od sledecih segmenata NISU ispravni pri cemu ce se detektovati greska prilikom izvrsavanja?",
+    "answers": [
+      "float a = 5.2; a++;",
+      "dynamic b = (int)\"2\"; (chatgpt netacno)",
+      "var c1 = 5.3; dynamic c2 = 1.7m; c1 = c2; (tacno)",
+      "byte d = 0; checked { d--; } (tacno)",
+      "bool e1 = true; int e2 = (int)e1;",
+      "int? f1 = null; int f2 = (int)f1; (tacno)"
+    ],
+    "correctAnswer": [
+      "var c1 = 5.3; dynamic c2 = 1.7m; c1 = c2; (tacno)",
+      "byte d = 0; checked { d--; } (tacno)",
+      "int? f1 = null; int f2 = (int)f1; (tacno)"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "[NIJE SIGURNO] Koji od sledecih segmenata koda NISU ispravni?",
+    "answers": [
+      "Tip[][] a = new Tip[3][2]; Console.WriteLine(a[0][0]); (tacno)",
+      "char[,] b = new char[3, 2]; Console.WriteLine(b[2,1]);",
+      "Paket[] c = new Paket[3]; Console.WriteLine(c[2].kB);",
+      "Ugovor[] d = new Ugovor[3]; Console.WriteLine(d[0].cena); (tacno)",
+      "List<string> e = new List<string>(); e.Add(\"123\"); Console.WriteLine(e[0][0]);",
+      "ArrayList f = new ArrayList(); f.Add(new Paket()); (chatgpt netacno)"
+    ],
+    "correctAnswer": [
+      "Tip[][] a = new Tip[3][2]; Console.WriteLine(a[0][0]); (tacno)",
+      "Ugovor[] d = new Ugovor[3]; Console.WriteLine(d[0].cena); (tacno)"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "[NIJE SIGURNO] Koji od sledecih segmenata koda nisu ispravni?",
+    "answers": [
+      "class A { public void M1() { } public void M2() { this.M1(); } }",
+      "class B { public static void M1() { } public void M2() { M1(); } }",
+      "class C { public static void M1() { M2(); } public void M2() { M1(); } } (tacno)",
+      "class D { public static int x; public void M() { this.x = 5; } } (tacno)",
+      "class E1 { public static int x; } class E2 { void M() { E1 e = new E1(); e.x = 5; } } (tacno)",
+      "class F1 { public static int x; } class F2 { void M() { F1.x = 5; } } (chatgpt netacno)"
+    ],
+    "correctAnswer": [
+      "class C { public static void M1() { M2(); } public void M2() { M1(); } } (tacno)",
+      "class D { public static int x; public void M() { this.x = 5; } } (tacno)",
+      "class E1 { public static int x; } class E2 { void M() { E1 e = new E1(); e.x = 5; } } (tacno)"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Koji PJ eksplicitno podrzavaju procedure?",
+    "answers": ["Ada (tacno)", "Java", "C", "C#"],
+    "correctAnswer": "Ada (tacno)"
+  },
+  {
+    "id": 88,
+    "question": "Koje su od navedenih naredbi ispravne?\n\nstatic class P { public static double uMB(this int kB) => kB / 1000; }",
+    "answers": [
+      "5.uMB(); (tacno)",
+      "5.0.uMB();",
+      "'#'.uMB();",
+      "P.uMB(5); (tacno)",
+      "new Paket().poruka.uMB(); (tacno)",
+      "Tip.Biznis.uMB();"
+    ],
+    "correctAnswer": ["5.uMB(); (tacno)", "P.uMB(5); (tacno)", "new Paket().poruka.uMB(); (tacno)"]
+  },
+  {
+    "id": 89,
+    "question": "[NIJE SIGURNO] Koji property tipa Paket je ispravno definisan?",
+    "answers": [
+      "internal int X => kB * 100; (tacno)",
+      "public int KB(int value) => kB = value; (pdf tacno, chatgpt netacno)",
+      "internal int KB { public get => kB; set => kB = value; }",
+      "public int KB { get => kB; internal set => kB = value; } (tacno)",
+      "public double MB { set { kB = value / 1000; } }",
+      "public string K { set { int.TryParse(value, out kB); } } (tacno)"
+    ],
+    "correctAnswer": [
+      "internal int X => kB * 100; (tacno)",
+      "public int KB { get => kB; internal set => kB = value; } (tacno)",
+      "public string K { set { int.TryParse(value, out kB); } } (tacno)"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Koja od navedenih metoda ne bi mogla da se doda u tip Paket?",
+    "answers": [
+      "void A() => this.poruka = 100;",
+      "static void B(Paket p) => p.poruka = 100;",
+      "static void C(out Paket p) => p.poruka = 100; (tacno)",
+      "static void D(in Paket p) => p.poruka = 100; (tacno)",
+      "void E(byte poruka) => poruka = -1; (tacno)",
+      "void F(in Paket p) => poruka = 100;"
+    ],
+    "correctAnswer": [
+      "static void C(out Paket p) => p.poruka = 100; (tacno)",
+      "static void D(in Paket p) => p.poruka = 100; (tacno)",
+      "void E(byte poruka) => poruka = -1; (tacno)"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Ugovor?",
+    "answers": [
+      "public void A(Tip tip) { tip = this.tip; } (tacno)",
+      "public static void B(Tip tip) { tip = 0; } (tacno)",
+      "public void C(ref Tip tip) { tip = tip; } (tacno)",
+      "public void D(out Tip tip) { this.tip = this.tip; }",
+      "public void E(in Tip tip) { tip = this.tip; }"
+    ],
+    "correctAnswer": [
+      "public void A(Tip tip) { tip = this.tip; } (tacno)",
+      "public static void B(Tip tip) { tip = 0; } (tacno)",
+      "public void C(ref Tip tip) { tip = tip; } (tacno)"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "[NIJE SIGURNO] Koji od navedenih poziva je ispravan?\n\nstatic void M1(int a, params int[] b) { }\nstatic void M2(int c = 5, int d = 10) { }",
+    "answers": [
+      "M1(1, b: 5); (pdf tacno, chatgpt netacno)",
+      "M1(5, 6, 7, 8); (chatgpt tacno)",
+      "M1(a: 5); (chatgpt tacno)",
+      "M2(5, d: 6); (tacno)",
+      "M2(d: 5); (tacno)",
+      "M2(d: 5, c: 6); (tacno)"
+    ],
+    "correctAnswer": [
+      "M1(5, 6, 7, 8); (chatgpt tacno)",
+      "M1(a: 5); (chatgpt tacno)",
+      "M2(5, d: 6); (tacno)",
+      "M2(d: 5); (tacno)",
+      "M2(d: 5, c: 6); (tacno)"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Ako je definisana sledeca metoda, koja od navedenih bi mogle da se definisu u datoj klasi?\n\nvoid M(Tip t, ref int i, short s) => i = 0;",
+    "answers": [
+      "int M(Tip t, ref int i, short s) => 0;",
+      "int M(Tip t, ref int i, short s, int d = 5) => 0; (tacno)",
+      "int M(Tip t, in byte i, short s) => 0; (tacno)",
+      "int M(Tip t, out int i, short s) => 0;",
+      "static int M(Tip t, ref int i, short s) => 0;",
+      "public int M(Tip t, ref int i, long s) => 0; (tacno)",
+      "void M(Tip t, ref int i, short s) => 0;"
+    ],
+    "correctAnswer": [
+      "int M(Tip t, ref int i, short s, int d = 5) => 0; (tacno)",
+      "int M(Tip t, in byte i, short s) => 0; (tacno)",
+      "public int M(Tip t, ref int i, long s) => 0; (tacno)"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "[NIJE SIGURNO] Ako je definisana sledeca metoda, koji od navedenih poziva ove metode su ispravni?\n\nstatic int Metoda(long a, in int b, Tip c = Tip.Biznis)\n{\n    short d = 1; int e = 2;\n    if (a > b) return d; else return e;\n}\n\nlong x = 1; int y = 0; Tip z = Tip.Privatni;",
+    "answers": [
+      "long pa = Metoda(x, ref x, z); (pdf tacno, chatgpt netacno)",
+      "short pb = Metoda((byte)z, in y, z);",
+      "float pc = Metoda(z, in (int)x, z);",
+      "Metoda(y, in y); (chatgpt tacno)",
+      "int? pe = Metoda(c: (Tip)y, a: y, b: in y); (tacno)",
+      "x = (short)Metoda(x, c: z, b: in y); (tacno)"
+    ],
+    "correctAnswer": [
+      "Metoda(y, in y); (chatgpt tacno)",
+      "int? pe = Metoda(c: (Tip)y, a: y, b: in y); (tacno)",
+      "x = (short)Metoda(x, c: z, b: in y); (tacno)"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Koje su od navedenih naredbi ispravne?\n\npublic class Broj\n{\n    public int broj;\n    public Broj(int b) { broj = b; }\n    public static Broj operator +(Broj b, int a) { b.broj += a; return b; }\n}\n\npublic class Podatak\n{\n    public Broj vrednost;\n    public Podatak(int v) { vrednost = new Broj(v); }\n    public static Podatak operator +(int a, Podatak p)\n    {\n        p.vrednost += a; return p;\n    }\n}\n\nBroj x = new Broj(5); Podatak y = new Podatak(10); int z = 1;",
+    "answers": [
+      "z += (z + '1'); (tacno)",
+      "z += x.broj + \"AB\";",
+      "x += y.vrednost;",
+      "y.vrednost = x + z; (tacno)",
+      "z = x.broj + y.vrednost.broj; (tacno)",
+      "x.broj = y.vrednost + z;"
+    ],
+    "correctAnswer": [
+      "z += (z + '1'); (tacno)",
+      "y.vrednost = x + z; (tacno)",
+      "z = x.broj + y.vrednost.broj; (tacno)"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Bazne apstrakcije apstrahuju",
+    "answers": [
+      "Internu reprezentaciju primitivnih tipova podataka (tacno)",
+      "Internu reprezentaciju strukturalnih tipova podataka",
+      "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tacno)",
+      "Memorijske ćelije (tacno)",
+      "Proces računanja i memorisanje sračunate vrednosti (tacno)",
+      "Sekvencu instrukcija"
+    ],
+    "correctAnswer": [
+      "Internu reprezentaciju primitivnih tipova podataka (tacno)",
+      "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tacno)",
+      "Memorijske ćelije (tacno)",
+      "Proces računanja i memorisanje sračunate vrednosti (tacno)"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Šta doprinosi pouzdanosti programa?",
+    "answers": [
+      "Provera tipa u vreme kompajliranja programa (tacno)",
+      "Korišćenje implicitnih heap-dinamičkih promenljivih",
+      "Dinamičko povezivanje sa tipom",
+      "Ograničavanje alijasa (tacno)",
+      "Obrada grešaka tokom izvršavanja (tacno)",
+      "Implicitno deklarisanje tipa promenljive"
+    ],
+    "correctAnswer": [
+      "Provera tipa u vreme kompajliranja programa (tacno)",
+      "Ograničavanje alijasa (tacno)",
+      "Obrada grešaka tokom izvršavanja (tacno)"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Koji je koncept ilustrovan sledećim kodom?\n\nint* p1;\np1 = new int;\n*p1 = 1;\nint* p2;\np2 = p1;\ndelete p1;",
+    "answers": [
+      "Globalna promenljiva",
+      "Dangling referenca (tacno)",
+      "Garbage promenljiva"
+    ],
+    "correctAnswer": "Dangling referenca (tacno)"
+  },
+  {
+    "id": 99,
+    "question": "Koje od navedenih tvrđenja je tačno za sledeći kod u C-u?\n\nint a = -4;\nint b = -4;\nint *p = &a;",
+    "answers": [
+      "l-value od a je -4.",
+      "l-value od b je 0x7ffe82a23c58.",
+      "r-value od p je ista kao i l-value od a. (chatgpt tacno)",
+      "l-value od p je 0x7ffe82a23c58.",
+      "l-value od a je ista kao i l-value od b.",
+      "r-value od a je ista kao i r-value od b. (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "r-value od p je ista kao i l-value od a. (chatgpt tacno)",
+      "r-value od a je ista kao i r-value od b. (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Koja tvrđenja nisu tačna?",
+    "answers": [
+      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (tacno)",
+      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (chatgpt tacno)",
+      "Mesto deklaracije promenljive u program nikada ne može uticati na dozvoljeni naziv promenljive (tacno)",
+      "Ključna reč ne može da se iskoristi kao identifikator"
+    ],
+    "correctAnswer": [
+      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (tacno)",
+      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (chatgpt tacno)",
+      "Mesto deklaracije promenljive u program nikada ne može uticati na dozvoljeni naziv promenljive (tacno)"
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Koje tvrđenje je tačno?\n\nclass Klasa\n{\n    int x;\n    public static int Metoda(int a) { return ++a; }\n    static void Main()\n    {\n        var b = 5; Metoda(b);\n    }\n}",
+    "answers": [
+      "a je statička promenljiva.",
+      "a je stack-dinamička promenljiva. (chatgpt tacno)",
+      "a je heap-dinamička promenljiva.",
+      "x je globalna promenljiva.",
+      "b je globalna promenljiva.",
+      "b je heap-dinamička promenljiva."
+    ],
+    "correctAnswer": "a je stack-dinamička promenljiva. (chatgpt tacno)"
+  },
+  {
+    "id": 102,
+    "question": "Koju promenljivu karakteriše statičko povezivanje sa tipom, a dinamičko sa memorijskom lokacijom?\n\npublic class K\n{\n    static int a;\n    static void Main()\n    {\n        int b = 0;\n        dynamic c = 0;\n        var d = 0;\n        object e = new K();\n    }\n}",
+    "answers": [
+      "a",
+      "b (chatgpt tacno)",
+      "c (chatgpt tacno)",
+      "d (chatgpt tacno)",
+      "e (chatgpt tacno)"
+    ],
+    "correctAnswer": ["b (chatgpt tacno)", "c (chatgpt tacno)", "d (chatgpt tacno)", "e (chatgpt tacno)"]
+  },
+  {
+    "id": 103,
+    "question": "Koja kategorija promenljivih je pokrivena sledećim kodom u C++-u?\n\nint main(){ int *k; int k = new int; *k = 99; delete k; return 0; }",
+    "answers": [
+      "Statička",
+      "Implicitna heap dinamička",
+      "Eksplicitna heap-dinamička (tacno)",
+      "Stack-dinamička (tacno)"
+    ],
+    "correctAnswer": ["Eksplicitna heap-dinamička (tacno)", "Stack-dinamička (tacno)"]
+  },
+  {
+    "id": 104,
+    "question": "U kojim PJ je navedeni kod ispravan?\n\nint i = 10;\nif(i < 0){\n    int k = i + 2;\n    k++;\n}\nint k = 5;",
+    "answers": ["C (tacno)", "Java (tacno)", "C#", "Ni u jednom"],
+    "correctAnswer": ["C (tacno)", "Java (tacno)"]
+  },
+  {
+    "id": 105,
+    "question": "U kojim PJ je navedeni segment koda ispravan?\n\nvar z = 1;\n{\n    var z = 2;\n    z = z + 3;\n}\nz = z + 4",
+    "answers": ["JavaScript (tacno)", "C#", "Ni u jednom"],
+    "correctAnswer": "JavaScript (tacno)"
+  },
+  {
+    "id": 106,
+    "question": "Da li sledeći kod u C-u proizvodi bočne efekte?\n\nint i = 1;\nint f(int x) { i = i * 2; return i * x; }\nint g(int x) { i = i * 2; return i * x; }\nint main()\n{\n    int y = 2;\n    f(y) + g(y);\n    g(y) + f(y);\n    return 0;\n}",
+    "answers": ["DA (tacno)", "NE"],
+    "correctAnswer": "DA (tacno)"
+  },
+  {
+    "id": 107,
+    "question": "U kojim slučajevima je navedena naredba ispravna?\n\nint? x = null;\nint y = x ?? z;",
+    "answers": [
+      "double z = 1;",
+      "dynamic z = 1; (tacno)",
+      "long z = 1;",
+      "int? z = 1;",
+      "char z = '@'; (tacno)",
+      "var z = new Paket().minuta; (tacno)"
+    ],
+    "correctAnswer": ["dynamic z = 1; (tacno)", "char z = '@'; (tacno)", "var z = new Paket().minuta; (tacno)"]
+  },
+  {
+    "id": 108,
+    "question": "Koji od sledećih segmenata koda nisu ispravni, pri čemu se detektuje greška u vreme izvršavanja?",
+    "answers": [
+      "dynamic a = 1; a += new Ugovor(); (chatgpt tacno)",
+      "var b1 = 5.3; dynamic b2 = 1.7m; b1 = b2; (chatgpt tacno)",
+      "bool c1 = true; int c2 = (int)c1;",
+      "float d = 5.2; d++;",
+      "byte e = 0; checked { e--; } (chatgpt tacno)",
+      "int f = (int)Tip.Biznis;"
+    ],
+    "correctAnswer": [
+      "dynamic a = 1; a += new Ugovor(); (chatgpt tacno)",
+      "var b1 = 5.3; dynamic b2 = 1.7m; b1 = b2; (chatgpt tacno)",
+      "byte e = 0; checked { e--; } (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Koji od sledećih segmenata koda NISU ispravni?",
+    "answers": [
+      "Paket[] a = new Paket[3]; Console.Write(a[0].kB);",
+      "Tip[,] b = new Tip[3,2]; Console.Write(b[2,0]);",
+      "Ugovor[] c = new Ugovor[3]; Console.Write(c[0].cena); (chatgpt tacno)",
+      "List<Tip> d = new List<Tip>(); Console.Write(d[0]); (chatgpt tacno)",
+      "string[][] e = new string[3][2]; Console.Write(e[0][0]); (chatgpt tacno)",
+      "ArrayList f = new ArrayList(); f.Add(new Paket()); Console.Write(f[0].kB); (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "Ugovor[] c = new Ugovor[3]; Console.Write(c[0].cena); (chatgpt tacno)",
+      "List<Tip> d = new List<Tip>(); Console.Write(d[0]); (chatgpt tacno)",
+      "string[][] e = new string[3][2]; Console.Write(e[0][0]); (chatgpt tacno)",
+      "ArrayList f = new ArrayList(); f.Add(new Paket()); Console.Write(f[0].kB); (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "[NIJE SIGURNO] Koju od ponuđenih naredbi je ispravno navesti u nastavku Main metode?\n\nint? i; string s; Tip t; Paket p;\nUgovor u = new Ugovor();\n...",
+    "answers": [
+      "p.kB = i;",
+      "i = u.paket.kB; (tacno)",
+      "s = u.broj; (tacno)",
+      "t = u.tip++; (tacno)",
+      "u.paket.kB += 2; (tacno)",
+      "u.paket.kB = p.kB; (pdf tacno, chatgpt netacno)"
+    ],
+    "correctAnswer": [
+      "i = u.paket.kB; (tacno)",
+      "s = u.broj; (tacno)",
+      "t = u.tip++; (tacno)",
+      "u.paket.kB += 2; (tacno)"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Koji od sledećih segmenata koda NISU ispravni?",
+    "answers": [
+      "class A\n{\n    public void M1(){}\n    public void M2(){ M1(); }\n}",
+      "class B\n{\n    public void M1(){}\n    public static void M2(){ M1(); }\n}\n(chatgpt tacno)",
+      "class C\n{\n    public static void M1(){}\n    public void M2(){ M1(); }\n}",
+      "class D\n{\n    public void M1(){}\n    public static void M2(){ this.M1(); }\n}\n(chatgpt tacno)",
+      "class E1 { static void M1(){} }\nclass E2 { public void M2(){ A.M1(); } }\n(chatgpt tacno)",
+      "class F1 { public static void M1(){} }\nclass F2 { public static void M2(){ M1(); } }\n(chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "class B\n{\n    public void M1(){}\n    public static void M2(){ M1(); }\n}\n(chatgpt tacno)",
+      "class D\n{\n    public void M1(){}\n    public static void M2(){ this.M1(); }\n}\n(chatgpt tacno)",
+      "class E1 { static void M1(){} }\nclass E2 { public void M2(){ A.M1(); } }\n(chatgpt tacno)",
+      "class F1 { public static void M1(){} }\nclass F2 { public static void M2(){ M1(); } }\n(chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Koju vrstu prenosa parametara karakteriše to da se prenosi sadržaj argumenta stvarnog parametra u formalni parametar?",
+    "answers": ["Pass by value (tacno)", "Pass by value result (tacno)", "Pass by result", "Pass by reference"],
+    "correctAnswer": ["Pass by value (tacno)", "Pass by value result (tacno)"]
+  },
+  {
+    "id": 113,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Paket?",
+    "answers": [
+      "static void A(Paket p) { p = new Paket(); p.poruka = 100; } (chatgpt tacno)",
+      "static void B(Paket p) => p.poruka = 100; (chatgpt tacno)",
+      "static void C(out Paket p) => p.poruka = 100;",
+      "static void D(in Paket p) => p.poruka = 100;",
+      "void E(in Paket p) => poruka = 100; (chatgpt tacno)",
+      "void F(byte poruka) => poruka = 100; (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "static void A(Paket p) { p = new Paket(); p.poruka = 100; } (chatgpt tacno)",
+      "static void B(Paket p) => p.poruka = 100; (chatgpt tacno)",
+      "void E(in Paket p) => poruka = 100; (chatgpt tacno)",
+      "void F(byte poruka) => poruka = 100; (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Ugovor?",
+    "answers": [
+      "public void A(int broj) { broj += this.broj; }",
+      "public void B(ref int broj) { broj += broj; } (tacno)",
+      "public void C(in int broj) { this.broj = this.broj; } (tacno)",
+      "public void D(out int broj) { broj = this.broj; }",
+      "public static void E(int broj) { this.broj += broj; }"
+    ],
+    "correctAnswer": [
+      "public void B(ref int broj) { broj += broj; } (tacno)",
+      "public void C(in int broj) { this.broj = this.broj; } (tacno)"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Koja od navedenih metoda bi mogla da se pozove na sledeći način?\n\nM(2, y:5)",
+    "answers": [
+      "static void M(int x, double y) { } (tacno)",
+      "static void M(int x, int y, params int[] z) { } (tacno)",
+      "static void M(int x, params int[] y) { } (tacno)",
+      "static void M(int x = 0, int y) { }",
+      "static void M(int x = 5, int y = 10, int z = 20) { } (tacno)",
+      "poziv nije ispravan"
+    ],
+    "correctAnswer": [
+      "static void M(int x, double y) { } (tacno)",
+      "static void M(int x, int y, params int[] z) { } (tacno)",
+      "static void M(int x, params int[] y) { } (tacno)",
+      "static void M(int x = 5, int y = 10, int z = 20) { } (tacno)"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Koji property klase Ugovor je ispravno definisan?",
+    "answers": [
+      "public double Cena => cena; (tacno)",
+      "public double Cena { get { cena; } }",
+      "public double Cena { get => return cena; }",
+      "public double Cena { get => (int)cena; } (chatgpt tacno)",
+      "public double Cena => return cena;",
+      "public string Ispis { get { return $\"{cena}\"; } } (tacno)"
+    ],
+    "correctAnswer": [
+      "public double Cena => cena; (tacno)",
+      "public double Cena { get => (int)cena; } (chatgpt tacno)",
+      "public string Ispis { get { return $\"{cena}\"; } } (tacno)"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Ako je definisana sledeća metoda, koja od navedenih NE bi mogle da se definišu u datoj klasi?\n\nvoid M(Tip t, ref int i, short s) => i = 0;",
+    "answers": [
+      "void M(Tip t, out int i, short s) => i = 0; (chatgpt tacno)",
+      "public void M(Tip t, ref int i, short s) => i = 0; (chatgpt tacno)",
+      "void M(Tip t, ref int i, byte s) => i = 0;",
+      "static void M(Tip t, ref int i, short s) => i = 0; (chatgpt tacno)",
+      "int M(Tip t, ref int i, short s, int d = 5) => i;",
+      "void M(Tip t, in int i, short s) => s = (short)i; (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "void M(Tip t, out int i, short s) => i = 0; (chatgpt tacno)",
+      "public void M(Tip t, ref int i, short s) => i = 0; (chatgpt tacno)",
+      "static void M(Tip t, ref int i, short s) => i = 0; (chatgpt tacno)",
+      "void M(Tip t, in int i, short s) => s = (short)i; (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Ako je definisana sledeća metoda, koji od navedenih poziva ove metode su ispravni?\n\nfloat Metoda(long a, ref int b, Tip c = Tip.Biznis)\n{\n    float f = 1; int d = 2;\n    if(a > b) return f; else return d;\n}\n\nlong x = 1; int y = 0; Tip z = Tip.Privatni;",
+    "answers": [
+      "float pa = Metoda(x, ref x, z);",
+      "float pb = Metoda((byte)z, ref y, z); (chatgpt tacno)",
+      "float pc = Metoda(z, ref (int)x, z);",
+      "Metoda(c:(Tip)y, a:y, b:ref y); (chatgpt tacno)",
+      "double? pe = Metoda(x, ref y); (chatgpt tacno)",
+      "int pf = (short)Metoda(x, c:z, b:ref y); (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "float pb = Metoda((byte)z, ref y, z); (chatgpt tacno)",
+      "Metoda(c:(Tip)y, a:y, b:ref y); (chatgpt tacno)",
+      "double? pe = Metoda(x, ref y); (chatgpt tacno)",
+      "int pf = (short)Metoda(x, c:z, b:ref y); (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Koje su od navedenih naredbi ispravne?\n\npublic class Broj\n{\n    public int broj;\n    public Broj(int b) { broj = b; }\n    public static Broj operator +(Broj b, int a)\n    { b.broj += a; return b; }\n}\n\npublic class Podatak\n{\n    public Broj vrednost;\n    public Podatak(int v) { vrednost = new Broj(v); }\n    public static Podatak operator +(Podatak p, int a)\n    { p.vrednost += a; return p; }\n}\n\nBroj x = new Broj(5); Podatak y = new Podatak(10); int z = 1;",
+    "answers": [
+      "y += z; (chatgpt tacno)",
+      "z += x;",
+      "x += z; (chatgpt tacno)",
+      "y.vrednost = x + z; (chatgpt tacno)",
+      "x.broj = y + z;",
+      "y.vrednost.broj = z + x.broj; (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "y += z; (chatgpt tacno)",
+      "x += z; (chatgpt tacno)",
+      "y.vrednost = x + z; (chatgpt tacno)",
+      "y.vrednost.broj = z + x.broj; (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Koje su od navedenih naredbi ispravne?\n\nstatic class P\n{\n    public static double uMB(this int kB) => kB / 1000;\n}",
+    "answers": [
+      "P.uMB(5); (chatgpt tacno)",
+      "5.uMB(); (chatgpt tacno)",
+      "5.0.uMB();",
+      "((int)'#').uMB(); (chatgpt tacno)",
+      "new Paket().uMB(5);",
+      "new Paket().kB.uMB(); (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "P.uMB(5); (chatgpt tacno)",
+      "5.uMB(); (chatgpt tacno)",
+      "((int)'#').uMB(); (chatgpt tacno)",
+      "new Paket().kB.uMB(); (chatgpt tacno)"
+    ]
   }
 ]
