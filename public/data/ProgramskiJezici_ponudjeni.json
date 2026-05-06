@@ -1163,5 +1163,689 @@
       "((int)'#').uMB(); (chatgpt tacno)",
       "new Paket().kB.uMB(); (chatgpt tacno)"
     ]
+  },
+  {
+    "id": 121,
+    "question": "Šta, od navedenog, može uticati na smanjenje pouzdanosti programa? [JUL 2025]",
+    "answers": ["kasno (late) povezivanje (chatgpt tacno)", "implicitna konverzija promenljive (chatgpt tacno)", "pisanje programa u jeziku sa dinamičkim dosegom (chatgpt tacno)", "odsustvo podrške za korisnički-definisane tipove podataka (chatgpt tacno)", "neograničavanje aliasa (chatgpt tacno)", "odsustvo ortogonalnosti (chatgpt tacno)"],
+    "correctAnswer": ["kasno (late) povezivanje (chatgpt tacno)", "implicitna konverzija promenljive (chatgpt tacno)", "pisanje programa u jeziku sa dinamičkim dosegom (chatgpt tacno)", "odsustvo podrške za korisnički-definisane tipove podataka (chatgpt tacno)", "neograničavanje aliasa (chatgpt tacno)", "odsustvo ortogonalnosti (chatgpt tacno)"]
+  },
+  {
+    "id": 122,
+    "question": "Šta od navedenog nema uticaja na smanjenje čitljivosti programa? [Februar 2025]",
+    "answers": ["Postojanje rezervisanih reči koje nisu ključne (chatgpt tacno)", "Mogućnost implicitnog deklarisanja tipa promenljive", "Velika ortogonalnost (tacno)", "Mogućnost dinamičkog povezivanja sa tipom", "Case sensitivity", "Odsustvo podrške za logički tip podakta"],
+    "correctAnswer": ["Postojanje rezervisanih reči koje nisu ključne (chatgpt tacno)", "Velika ortogonalnost (tacno)"]
+  },
+  {
+    "id": 123,
+    "question": "Šta od navedenog doprinosi pouzdanosti programa [Januar 2025]",
+    "answers": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Neograničavanje resursa", "Obrada grešaka samo pre izvršavanja programa"],
+    "correctAnswer": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)"]
+  },
+  {
+    "id": 124,
+    "question": "Šta od navedenog nema uticaja na smanjenje čitljivosti programa? [Kolokvijum 2022]",
+    "answers": ["postojanje ključnih reči koje nisu rezervisane reči", "postojanje rezervisanih reči koje nisu ključne (chatgpt tacno)", "implicitno deklarisanje tipa korišćenjem konvencije o imenovanju", "manja ortogonalnost programskog jezika", "korišćenje alijasa (tacno)", "odsustvo podrške za logički tip podatka u PJ"],
+    "correctAnswer": ["postojanje rezervisanih reči koje nisu ključne (chatgpt tacno)", "korišćenje alijasa (tacno)"]
+  },
+  {
+    "id": 125,
+    "question": "Šta od navedenog NE moze uticati na smanjenje pouzdanosti programa? [Oktobar 2022]",
+    "answers": ["Provera tipa u vreme kompajliranja programa (tacno)", "Korišćenje implicitnih heap-dinamičkih promenljivih", "Dinamičko povezivanje sa tipom", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)", "Implicitno deklarisanje tipa promenljive (chatgpt tacno)"],
+    "correctAnswer": ["Provera tipa u vreme kompajliranja programa (tacno)", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)", "Implicitno deklarisanje tipa promenljive (chatgpt tacno)"]
+  },
+  {
+    "id": 126,
+    "question": "Šta, od navedenog, može uticati na smanjenje čitljivosti programa? [JUL 2022]",
+    "answers": ["Postojanje ključnih reči koje nisu rezervisane reči (tacno)", "Postojanje rezervnih reči koje nisu ključne reči", "Implicitno deklarisanje tipa korišćenjem konvencije o imenovanju (tacno)", "Korišćenje alijasa", "Odsustvo podrške za logistički tip podataka (Boolean) u programskom jeziku (tacno)"],
+    "correctAnswer": ["Postojanje ključnih reči koje nisu rezervisane reči (tacno)", "Implicitno deklarisanje tipa korišćenjem konvencije o imenovanju (tacno)", "Odsustvo podrške za logistički tip podataka (Boolean) u programskom jeziku (tacno)"]
+  },
+  {
+    "id": 127,
+    "question": "Šta, od navedenog, doprinosi fleksibilnosti programa? [Jul 2022]",
+    "answers": ["provera tipa u vreme kompajliranja programa", "Korišćenje implicitnih heap-dinamičkih promenljivih (tacno)", "dinamičko povezivanje sa tipom (tacno)", "korišćenje alijasa", "obrada grešaka tokom izvršavanja (Exception handing)", "eksplicitno eklarisanje tipa promenljive"],
+    "correctAnswer": ["Korišćenje implicitnih heap-dinamičkih promenljivih (tacno)", "dinamičko povezivanje sa tipom (tacno)"]
+  },
+  {
+    "id": 128,
+    "question": "Šta, od navedenog, doprinosi pouzdanosti programa? [Jul 2024]",
+    "answers": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Velika ortogonalnost programskog jezika (tacno)", "Neograničavanje resursa", "Obrada grešaka samo pre izvršavanja programa", "Podrška za logički tip u pogramskom jeziku (chatgpt tacno)"],
+    "correctAnswer": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Velika ortogonalnost programskog jezika (tacno)", "Podrška za logički tip u pogramskom jeziku (chatgpt tacno)"]
+  },
+  {
+    "id": 129,
+    "question": "Šta, od navedenog, doprinosi efikasnosti programa? [Jul 2024, JUN 2025]",
+    "answers": ["Dinamička provera tipa", "Korišćenje implicitnih heap-dinamičkih promenljivih", "Korišćenje statičkih promenljivih (tacno)", "Prenos parametara putem reference (tacno)", "Eksplicitno deklarisanje tipa promenljive (chatgpt tacno)"],
+    "correctAnswer": ["Korišćenje statičkih promenljivih (tacno)", "Prenos parametara putem reference (tacno)", "Eksplicitno deklarisanje tipa promenljive (chatgpt tacno)"]
+  },
+  {
+    "id": 130,
+    "question": "Interna reprezentacija znakovnog tipa može biti: [JUL 2025]",
+    "answers": ["preko BCD koda (tacno)", "preko ASCII koda (tacno)", "preko Unicode-a (tacno)", "preko byte koda", "preko mantise i eksponenta", "direktna – bez koda"],
+    "correctAnswer": ["preko BCD koda (tacno)", "preko ASCII koda (tacno)", "preko Unicode-a (tacno)"]
+  },
+  {
+    "id": 131,
+    "question": "Koja od navedenih tvrdnji NISU tačna? [JUL 2025]",
+    "answers": ["Doseg promenljive je vremenska osobina promenljive. (tacno)", "Povezivanje statičkih promenljivih sa memorijskom lokacijom dešava se u vreme izvršavanja programa. (chatgpt tacno)", "U jeziku sa dinamičkim povezivanjem tipa sa promenljivom, greške tipa detektuju se u vreme punjenja (load) programa. (tacno)", "Kod statičkog povezivanja tipa sa promenljivom zahteva se eksplicitna deklaracija tipa promenljive. (chatgpt tacno)", "Svaka promenljiva mora imati ime. (tacno)", "Vrednost statičke promenljive se ne može menjati tokom izvršavanja programa. (tacno)"],
+    "correctAnswer": ["Doseg promenljive je vremenska osobina promenljive. (tacno)", "Povezivanje statičkih promenljivih sa memorijskom lokacijom dešava se u vreme izvršavanja programa. (chatgpt tacno)", "U jeziku sa dinamičkim povezivanjem tipa sa promenljivom, greške tipa detektuju se u vreme punjenja (load) programa. (tacno)", "Kod statičkog povezivanja tipa sa promenljivom zahteva se eksplicitna deklaracija tipa promenljive. (chatgpt tacno)", "Svaka promenljiva mora imati ime. (tacno)", "Vrednost statičke promenljive se ne može menjati tokom izvršavanja programa. (tacno)"]
+  },
+  {
+    "id": 132,
+    "question": "Koji od navedenih koncepata spadaju u bazne apstrakcije? [JUN 2025]",
+    "answers": ["Promenljive (tacno)", "Procedure", "Instrukcija dodeljivanja (tacno)", "Upravljačke strukture", "Klase", "Struktuirani tipovi podataka"],
+    "correctAnswer": ["Promenljive (tacno)", "Instrukcija dodeljivanja (tacno)"]
+  },
+  {
+    "id": 133,
+    "question": "Implementaciju operacija nad vrednostima primitivnih tipova podataka apstrahuju: [Jul 2022]",
+    "answers": ["Bazne apstrakcije (tacno)", "strukturne apstrakcije", "apstrakcije podataka"],
+    "correctAnswer": "Bazne apstrakcije (tacno)"
+  },
+  {
+    "id": 134,
+    "question": "Bazne apstrakcije apstrahuju [Oktobar 2022]",
+    "answers": ["Von Neumann arhitekturu", "Memorijske ćelije (tacno)", "Sekvencu instrukcija"],
+    "correctAnswer": "Memorijske ćelije (tacno)"
+  },
+  {
+    "id": 135,
+    "question": "Bazne apstrakcije apstrahuju: [Kolokvijum 2024]",
+    "answers": ["Internu reprezentaciju primitivnih tipova podataka (tacno)", "Internu reprezentaciju struktuiranih tipova podataka", "Implementaciju operacija nad vrednosnima primitivnih tipova podataka (tacno)", "Memorijske ćelije (tacno)", "proces računanja i memorisanje sračunate vrednosti (tacno)", "Sekvencu instrukcija"],
+    "correctAnswer": ["Internu reprezentaciju primitivnih tipova podataka (tacno)", "Implementaciju operacija nad vrednosnima primitivnih tipova podataka (tacno)", "Memorijske ćelije (tacno)", "proces računanja i memorisanje sračunate vrednosti (tacno)"]
+  },
+  {
+    "id": 136,
+    "question": "Implementaciju primitivnih tipova podataka apstrahuju [JUN 2025]",
+    "answers": ["bazne apstrakcije (tacno)", "strukturne apstrakcije", "proceduralne apstrakcije", "apstrakcije podataka"],
+    "correctAnswer": "bazne apstrakcije (tacno)"
+  },
+  {
+    "id": 137,
+    "question": "Koje stukturne apstrakcije podržava programski jezik C? [Februar 2025]",
+    "answers": ["Niz (tacno)", "Zapis (tacno)", "Klasa", "Promenljiva", "Selekcija (tacno)", "Procedura"],
+    "correctAnswer": ["Niz (tacno)", "Zapis (tacno)", "Selekcija (tacno)"]
+  },
+  {
+    "id": 138,
+    "question": "Koji od navedenih su atributi promenljive? [Februar 2025]",
+    "answers": ["Doseg (tacno)", "Ortogonalnost", "Povratna vrednost", "Adresa (tacno)", "Životni vek (tacno)"],
+    "correctAnswer": ["Doseg (tacno)", "Adresa (tacno)", "Životni vek (tacno)"]
+  },
+  {
+    "id": 139,
+    "question": "Koja od navedenih tvrđenja su tačna za sledeći kod u C? [Kolokvijum 2023]\n\nint a=0;\nint b=a;\nint *p=&a;",
+    "answers": ["R-value od a je 0 (tacno)", "L value od a je ista kao I r-value od p (tacno)", "R-value od p je 0", "R-value od p je ista kao I r-value od p (chatgpt tacno)", "L-value od p je ista kao I r-value od a"],
+    "correctAnswer": ["R-value od a je 0 (tacno)", "L value od a je ista kao I r-value od p (tacno)", "R-value od p je ista kao I r-value od p (chatgpt tacno)"]
+  },
+  {
+    "id": 140,
+    "question": "Koji od navedenih primera ilustruje dinamičko povezivanje i sa tipom i sa memorijskom lokacijom? [Februar 2025]",
+    "answers": ["var x = 1; (C#)", "Object x = 1; (Java)", "var x = 1 (JS) (tacno)", "IX = 1; (FORTRAN)"],
+    "correctAnswer": "var x = 1 (JS) (tacno)"
+  },
+  {
+    "id": 141,
+    "question": "Koji od navedenih primera ilustruje implicitno deklarisanje tipa promenljive [Januar 2025]",
+    "answers": ["var x = 1; (C#) (tacno)", "Object x = 1; (Java)", "IX = 1; (FORTRAN) (tacno)", "REAL = 1; (FORTRAN)", "let x = 1; (JavaScript) (tacno)"],
+    "correctAnswer": ["var x = 1; (C#) (tacno)", "IX = 1; (FORTRAN) (tacno)", "let x = 1; (JavaScript) (tacno)"]
+  },
+  {
+    "id": 142,
+    "question": "Koji od navedenih primera ilustruje eksplicitno deklarisanje tipa promenljive? [Jul 2024]",
+    "answers": ["var x = 1; (C#)", "object x = 1; (Java) (tacno)", "x = 1; (Python)", "REAL :: x = 1; (FORTRAN) (tacno)", "let x = 1; (JavaScript)"],
+    "correctAnswer": ["object x = 1; (Java) (tacno)", "REAL :: x = 1; (FORTRAN) (tacno)"]
+  },
+  {
+    "id": 143,
+    "question": "Koju promenljivu karakteriše statičko povezivanje sa tipom a dinamičko povezivanje sa memorijskom lokacijom? [Kolokvijum 2023]\n\npublic class K {\n    static int a;\n    static void Main() {\n        int b = 0;\n        dynamic c = 0;\n        var d = 0;\n        object e = new K();\n    }\n}",
+    "answers": ["a", "b (chatgpt tacno)", "c", "d (chatgpt tacno)", "e (chatgpt tacno)"],
+    "correctAnswer": ["b (chatgpt tacno)", "d (chatgpt tacno)", "e (chatgpt tacno)"]
+  },
+  {
+    "id": 144,
+    "question": "Koju promenljivu karakteriše statičko povezivanje sa tipom, dinamičko sa memorijskom lokacijom? [Kolokvijum 2024]\n\nclass K {\n    static int a;\n    static void M() { int b = 0; var c = 0; dynamic d = 0; object e = new K(); }\n    static void Main() { M(); }\n}",
+    "answers": ["a", "b (chatgpt tacno)", "c (chatgpt tacno)", "d", "e (chatgpt tacno)"],
+    "correctAnswer": ["b (chatgpt tacno)", "c (chatgpt tacno)", "e (chatgpt tacno)"]
+  },
+  {
+    "id": 145,
+    "question": "Koji od navedenih tipova omogućava da se tokom izvršavanja programa jednoj promenljivoj dodele vrednosti različitih tipova? [Jun 2024, JUN 2025]",
+    "answers": ["union u C-u (tacno)", "var u JavaScript-u (tacno)", "var u C#-u", "dynamic u C#-u (tacno)", "Object u Javi (chatgpt tacno)"],
+    "correctAnswer": ["union u C-u (tacno)", "var u JavaScript-u (tacno)", "dynamic u C#-u (tacno)", "Object u Javi (chatgpt tacno)"]
+  },
+  {
+    "id": 146,
+    "question": "[NIJE SIGURNO] Koja tvrđenja nisu tačna? [Kolokvijum 2022]",
+    "answers": ["Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (tacno)", "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (tacno)", "Mesto deklaracije promenljive u program nikada ne može uticati na dozvoljeni naziv promenljive (tacno)", "Ključna reč ne može da se iskoristi kao identifikator (pdf tacno, chatgpt netacno)"],
+    "correctAnswer": ["Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (tacno)", "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (tacno)", "Mesto deklaracije promenljive u program nikada ne može uticati na dozvoljeni naziv promenljive (tacno)"]
+  },
+  {
+    "id": 147,
+    "question": "Koje promenljive imaju identičan doseg kao promenljiva x [Januar 2025, Jul 2024]\n\nvar a = 5;\nif (a is int b)\n{\n    int c = b; c += 1;\n    for (int d = 0; d < 3; d++)\n    {\n        bool e = int.TryParse(\"1\", out int f);\n        if (a is int x) { a += 1; }\n    }\n}",
+    "answers": ["b", "c", "d", "e", "f", "Nijedna (tacno)"],
+    "correctAnswer": "Nijedna (tacno)"
+  },
+  {
+    "id": 148,
+    "question": "Koja kategorija promenljivih je pokrivena sledećim kodom u C++-u? [Kolokvijum 2022]\n\nint main(){ int *k; k= new int; *k=99; delete k;return 0;}",
+    "answers": ["Statička", "Implicitna heap dinamička", "Eksplicitna heap-dinamička (tacno)", "Stack-dinamička (tacno)", "Anonimna (tacno)"],
+    "correctAnswer": ["Eksplicitna heap-dinamička (tacno)", "Stack-dinamička (tacno)", "Anonimna (tacno)"]
+  },
+  {
+    "id": 149,
+    "question": "[NIJE SIGURNO] Koja kategorija promenljivih je pokrivena sledećim kodom u C++-u? [Oktobar 2022]\n\nint x = 2;\nint main() {\n    int y = 1; int* z; *z = new int; delete z; return 0;\n}\nNapomena: Kod je verovatno loše prepisan; trebalo bi da bude z = new int, a ne *z = new int.",
+    "answers": ["globalna (tacno)", "Staticka", "Eksplicitna heap-dinamicka (tacno)", "anonimna (tacno)", "Implicitna heap-dinamicka"],
+    "correctAnswer": ["globalna (tacno)", "Eksplicitna heap-dinamicka (tacno)", "anonimna (tacno)"]
+  },
+  {
+    "id": 150,
+    "question": "Koja kategorija promenljivih je pokrivena sledećim kodom u C-u? [JUL 2023]\n\nint i=1;\nvoid A(){static int x=0; x++;}\nvoid B(){int y=5; int *z=&y;}",
+    "answers": ["Globalna (tacno)", "Statička (tacno)", "Implicitna heap-dinamička", "Anonimna", "Stack-dinamička (tacno)", "Eksplicitna heap-dinamička"],
+    "correctAnswer": ["Globalna (tacno)", "Statička (tacno)", "Stack-dinamička (tacno)"]
+  },
+  {
+    "id": 151,
+    "question": "Koja vrsta promenljivih NIJE pokrivena sledecim kodom u C++? [JUL 2024]\n\nint i = 1;\nvoid A(int x){ int *a; a = &x; *a += 1; }\nvoid B() { int b = 5; int* c = new int; *c = 1; }",
+    "answers": ["globalna", "statička (tacno)", "implicitna heap-dinamička (tacno)", "anonimna", "stack-dinamička", "eksplicitna heap-dinamička"],
+    "correctAnswer": ["statička (tacno)", "implicitna heap-dinamička (tacno)"]
+  },
+  {
+    "id": 152,
+    "question": "Koji od navedenih PJ podrzava staticke lokalne promenljive?",
+    "answers": ["C (tacno)", "Java", "C#", "C++ (tacno)", "FORTRAN (tacno)"],
+    "correctAnswer": ["C (tacno)", "C++ (tacno)", "FORTRAN (tacno)"]
+  },
+  {
+    "id": 153,
+    "question": "Koji od navedenih programskih jezika NE podržava statičke lokalne promenljive [Januar 2025]",
+    "answers": ["C", "C++", "C# (tacno)", "Java (tacno)", "FORTRAN"],
+    "correctAnswer": ["C# (tacno)", "Java (tacno)"]
+  },
+  {
+    "id": 154,
+    "question": "Koja vrsta promenljivih je pokrivena sledećim kodom u C++? [JUN 2024]\n\nint i = 1;\nvoid A(int x) { int *a; a = &x; *a += 1; }\nvoid B() { int b = 5; int *c = new int; *c = 1; }",
+    "answers": ["globalna (tacno)", "statička", "implicitna heap-dinamička", "anonimna (tacno)", "stack-dinamička (tacno)", "eksplicitna heap-dinamičke (tacno)"],
+    "correctAnswer": ["globalna (tacno)", "anonimna (tacno)", "stack-dinamička (tacno)", "eksplicitna heap-dinamičke (tacno)"]
+  },
+  {
+    "id": 155,
+    "question": "Kod kog semantičkog modela za prenos parametra se može prenositi sadržaj formalnog parametra u argument? [JUL 2025]",
+    "answers": ["pass-by-value", "pass-by-value-result (chatgpt tacno)", "pass-by-reference (chatgpt tacno)", "in", "out (chatgpt tacno)", "in-out (chatgpt tacno)"],
+    "correctAnswer": ["pass-by-value-result (chatgpt tacno)", "pass-by-reference (chatgpt tacno)", "out (chatgpt tacno)", "in-out (chatgpt tacno)"]
+  },
+  {
+    "id": 156,
+    "question": "Koja implementaciona metoda za prenos parametara je podržana u programskom jeziku Java? [JUN 2025]",
+    "answers": ["pass-by-value (tacno)", "pass-by-value-result", "pass-by-reference", "in", "out", "in-out"],
+    "correctAnswer": "pass-by-value (tacno)"
+  },
+  {
+    "id": 157,
+    "question": "Koju vrstu prenosa parametara karakteriše to da se prenosi sadržaj argumenta u formalni parametar [Januar 2025, Kolokvijum 2023]",
+    "answers": ["Pass by-value (tacno)", "Pass by value-result (chatgpt tacno)", "Pass by result", "Pass by reference"],
+    "correctAnswer": ["Pass by-value (tacno)", "Pass by value-result (chatgpt tacno)"]
+  },
+  {
+    "id": 158,
+    "question": "Koja implementaciona metoda za prenos parametara može dovesti do kreiranja alijasa? [JUL 2024]",
+    "answers": ["In", "Out", "In-out", "Pass-by-value", "Pass-by-reference (tacno)", "pass-by-result"],
+    "correctAnswer": "Pass-by-reference (tacno)"
+  },
+  {
+    "id": 159,
+    "question": "Koja implementaciona metoda za prenos parametara se može koristiti ako je potrebno da se osigura da potprogram može da vrati informacije pozivaocu? [Kolokvijum 2024, Februar 2025]",
+    "answers": ["In", "Out", "In-out", "Pass-by-value", "Pass-by-reference (tacno)", "Pass-by-result (tacno)"],
+    "correctAnswer": ["Pass-by-reference (tacno)", "Pass-by-result (tacno)"]
+  },
+  {
+    "id": 160,
+    "question": "Koji od navedenih PJ omogućava da metoda uvek može putem parametra vratiti informacija pozivaocu? [Jul 2023]",
+    "answers": ["C# (tacno)", "Java", "C++ (tacno)", "C", "Algol (tacno)", "Nijedan od ponuđenih"],
+    "correctAnswer": ["C# (tacno)", "C++ (tacno)", "Algol (tacno)"]
+  },
+  {
+    "id": 161,
+    "question": "Koja implementaciona metoda za prenos parametara se može koristiti ukoliko je potrebno da se prenese sadržaj formalnog parametra u argument?",
+    "answers": ["Pass by value", "in", "Pass by result (tacno)", "Pass by reference (chatgpt tacno)", "out (chatgpt tacno)", "in-out (chatgpt tacno)"],
+    "correctAnswer": ["Pass by result (tacno)", "Pass by reference (chatgpt tacno)", "out (chatgpt tacno)", "in-out (chatgpt tacno)"]
+  },
+  {
+    "id": 162,
+    "question": "Koji semantički model za prenos parametara je podržan u programskom jeziku C# [JUL 2022]",
+    "answers": ["pass by value", "pass by value result", "pass by reference", "in (tacno)", "Out (tacno)", "In-out (tacno)"],
+    "correctAnswer": ["in (tacno)", "Out (tacno)", "In-out (tacno)"]
+  },
+  {
+    "id": 163,
+    "question": "U kojim programskim jezicima je podržano povezivanje parametara na osnovu imena? [Kolokvijum 2024]",
+    "answers": ["C", "Java", "JavaScript (tacno)", "Python (tacno)", "C# (tacno)"],
+    "correctAnswer": ["JavaScript (tacno)", "Python (tacno)", "C# (tacno)"]
+  },
+  {
+    "id": 164,
+    "question": "U programskom jeziku C++ se u implementacionoj datoteci obično nalaze: [JUL 2025]",
+    "answers": ["implementacija funkcija klase (tacno)", "prototipovi funkcija klase", "interna reprezentacija klase", "međukôd"],
+    "correctAnswer": "implementacija funkcija klase (tacno)"
+  },
+  {
+    "id": 165,
+    "question": "[NIJE SIGURNO] U programskom jeziku C++ se u header datoteci obično nalaze: [JUN 2025]",
+    "answers": ["Implementacija funkcija klase", "Prototipovi funkcija klase (tacno)", "Interna reprezentacija klase (tacno)", "Međukôd (pdf tacno, chatgpt netacno)"],
+    "correctAnswer": ["Prototipovi funkcija klase (tacno)", "Interna reprezentacija klase (tacno)"]
+  },
+  {
+    "id": 166,
+    "question": "Enkapsulaciona konstrukcija u programskom jeziku C# je [Januar 2025, JUN 2023]",
+    "answers": ["Package", "Klasa", "Assembly (tacno)", "Namespace", "Header file"],
+    "correctAnswer": "Assembly (tacno)"
+  },
+  {
+    "id": 167,
+    "question": "Koje od navedenih enkapsulacionih konstrukcija omogućavaju da se enkapsulira više apstraktnih tipova podataka [Kolokvijum 2024]",
+    "answers": ["C++ implementaciona datoteka (tacno)", "C implementaciona datoteka (tacno)", "C# assembly (tacno)", "Ada package (tacno)", "C++ namespace", "C# namespace"],
+    "correctAnswer": ["C++ implementaciona datoteka (tacno)", "C implementaciona datoteka (tacno)", "C# assembly (tacno)", "Ada package (tacno)"]
+  },
+  {
+    "id": 168,
+    "question": "Enkapsulaciona konstrukcija assembly u C# se kreira u vreme",
+    "answers": ["Izvrsenja", "Punjenja (loading)", "Kompajliranja (tacno)", "Povezivanja (linking)", "interpretiranja"],
+    "correctAnswer": "Kompajliranja (tacno)"
+  },
+  {
+    "id": 169,
+    "question": "Najvažnije karakteristike apstraktnog tipa podatka su [JUN 2024, JUL 2022, KLK 2023]",
+    "answers": ["Skrivanje informacija (tacno)", "Parametrizacija", "Polimorfzam", "Nasleđivanje", "Enkapsulacija (tacno)"],
+    "correctAnswer": ["Skrivanje informacija (tacno)", "Enkapsulacija (tacno)"]
+  },
+  {
+    "id": 170,
+    "question": "Da bi se korisnički definisani tip podatka mogao posmatrati kao Apstraktni tip podatka potrebno je da se [JUN 2024, Februar 2025]",
+    "answers": ["Obezbede operacije (tacno)", "Obezbedi vidljivost strukture tipa", "Obezbedi vidljivost implementacije operacija", "Omogući pristup svim članovima"],
+    "correctAnswer": "Obezbede operacije (tacno)"
+  },
+  {
+    "id": 171,
+    "question": "Koji su od navedenih enkapsulaciona imena [JUN 2024]",
+    "answers": ["Header datoteka I implementaciona datoteka u C++", "Package u Java (tacno)", "Assembly u C#", "Package u Ada (tacno)", "Namespace u C# (tacno)"],
+    "correctAnswer": ["Package u Java (tacno)", "Package u Ada (tacno)", "Namespace u C# (tacno)"]
+  },
+  {
+    "id": 172,
+    "question": "Enkapsulaciona konstrukcija u programskom jeziku C je: [Jul 2022]",
+    "answers": ["Package", "Klasa", "Assembly", "Namespace", "Header file (tacno)"],
+    "correctAnswer": "Header file (tacno)"
+  },
+  {
+    "id": 173,
+    "question": "Koja su, od navedenih, enkapsulaciona imena? [JUL 2023]",
+    "answers": ["Header datoteka", "Package u Java (tacno)", "Assembly u C#", "Namespace u C# (tacno)"],
+    "correctAnswer": ["Package u Java (tacno)", "Namespace u C# (tacno)"]
+  },
+  {
+    "id": 174,
+    "question": "U PJ Ada, eliminisanje potrebe za eksplicitnom kvalifikacijom referenci na imena obezbeđuje se: [JUN 2023]",
+    "answers": ["include kaluzulom", "import kaluzulom", "with kaluzulom", "use kaluzulom (tacno)", "using kaluzulom"],
+    "correctAnswer": "use kaluzulom (tacno)"
+  },
+  {
+    "id": 175,
+    "question": "Metoda koja obezbeđuje vidljivost interfejsa ATP u C++ je [Kolokvijum 2023]",
+    "answers": ["Implementaciona datoteka", "Specification package", "Public modifikator pristupa", "Public klauzula (tacno)", "Ništa od navedenog"],
+    "correctAnswer": "Public klauzula (tacno)"
+  },
+  {
+    "id": 176,
+    "question": "Koji od navedenih koncepata predstavljaju enkapsulacione konstrukcije",
+    "answers": ["Package u Javi (chatgpt tacno)", "Klasa (chatgpt tacno)", "Assembly (tacno)", "Namespace u C# (chatgpt tacno)", "Header file (tacno)"],
+    "correctAnswer": ["Package u Javi (chatgpt tacno)", "Klasa (chatgpt tacno)", "Assembly (tacno)", "Namespace u C# (chatgpt tacno)", "Header file (tacno)"]
+  },
+  {
+    "id": 177,
+    "question": "Koja od navedenih vrsta PJ pripada klasi deklarativnih PJ [Januar 2025]",
+    "answers": ["Funkcionalni jezici (tacno)", "Logički jezici (tacno)", "Imperativni jezici", "Objektno orijentisani jezici"],
+    "correctAnswer": ["Funkcionalni jezici (tacno)", "Logički jezici (tacno)"]
+  },
+  {
+    "id": 178,
+    "question": "Kljucna operacija u logičkom programskom jeziku je",
+    "answers": ["Primena funkcija", "Unifikacija (tacno)", "dodeljivanje"],
+    "correctAnswer": "Unifikacija (tacno)"
+  },
+  {
+    "id": 179,
+    "question": "Koji od navedenih PJ NE pripada klasi deklarativnih jezika [Jun 2024, Februar 2025]",
+    "answers": ["LISP", "FORTRAN (tacno)", "Haskell", "Ada (tacno)", "Prolog", "Simula (tacno)"],
+    "correctAnswer": ["FORTRAN (tacno)", "Ada (tacno)", "Simula (tacno)"]
+  },
+  {
+    "id": 180,
+    "question": "Na kom matematičkom formalizmu od navedenih se zasniva programski jezik PROLOG [Jun 2024, Februar 2025]",
+    "answers": ["Horova logika", "Lambda račun", "Račun teorema", "Predikatski račun (tacno)"],
+    "correctAnswer": "Predikatski račun (tacno)"
+  },
+  {
+    "id": 181,
+    "question": "Lambda izraz predstavlja: [JUN 2023, JUN 2025]",
+    "answers": ["tip promenljive", "Apstraktnu klasu", "Funkciju (tacno)", "Selekciju", "Činjenicu"],
+    "correctAnswer": "Funkciju (tacno)"
+  },
+  {
+    "id": 182,
+    "question": "Koje koncepte podržava PJ Scala?",
+    "answers": ["Dodeljivanje (tacno)", "Primena funkcija (tacno)", "Unifikacija", "Razmena poruka (tacno)", "Selekcija (tacno)", "Promenljive (tacno)"],
+    "correctAnswer": ["Dodeljivanje (tacno)", "Primena funkcija (tacno)", "Razmena poruka (tacno)", "Selekcija (tacno)", "Promenljive (tacno)"]
+  },
+  {
+    "id": 183,
+    "question": "Koje koncepte pogržava PJ Prolog? [Kolokvijum 2023]",
+    "answers": ["Dodeljivanje", "Primena funkcija", "Unifikacija (tacno)", "Razmena poruka", "Selekcija", "Promenljive (tacno)"],
+    "correctAnswer": ["Unifikacija (tacno)", "Promenljive (tacno)"]
+  },
+  {
+    "id": 184,
+    "question": "Koje koncepte podržava programski jezik Prolog: [JUN 2025]",
+    "answers": ["dodeljivanje", "funkcionalne forme", "unifikacija (tacno)", "razmena poruka", "nasleđivanje", "promenljive (tacno)"],
+    "correctAnswer": ["unifikacija (tacno)", "promenljive (tacno)"]
+  },
+  {
+    "id": 185,
+    "question": "Koje koncepte podržava programski jezik Python: [JUL 2025]",
+    "answers": ["dodeljivanje (tacno)", "primena funkcija (tacno)", "unifikacija", "razmena poruka", "iteracija (tacno)", "promenljive (tacno)"],
+    "correctAnswer": ["dodeljivanje (tacno)", "primena funkcija (tacno)", "iteracija (tacno)", "promenljive (tacno)"]
+  },
+  {
+    "id": 186,
+    "question": "U kojim od navedenih PJ je podržana razmena poruka [Kolokvijum 2024]",
+    "answers": ["LISP", "C", "Python (tacno)", "C++ (tacno)", "Prolog", "Scala (tacno)"],
+    "correctAnswer": ["Python (tacno)", "C++ (tacno)", "Scala (tacno)"]
+  },
+  {
+    "id": 187,
+    "question": "Na koji način se u programskom jeziku LISP zapisuje primena funkcije + na parametre a i b [JUL 2025]",
+    "answers": ["a+b", "(a+b)", "+(a b)", "+ a b", "(+ a b) (tacno)"],
+    "correctAnswer": "(+ a b) (tacno)"
+  },
+  {
+    "id": 188,
+    "question": "Na koji način se u programskom jeziku LISP zapisuje primena funkcije c na parametre a i b [JUL 2022]",
+    "answers": ["a c b", "ne vidi se", "a b c", "c (a b)", "c a b", "(c a b) (tacno)"],
+    "correctAnswer": "(c a b) (tacno)"
+  },
+  {
+    "id": 189,
+    "question": "Koliko elemenata sadrži sledeća lista definisana u PJ LISP [JUN 2023]\n\n((1(2 3)) 4 5(6(7 8)9))",
+    "answers": ["9", "7", "5", "4 (tacno)", "3", "1"],
+    "correctAnswer": "4 (tacno)"
+  },
+  {
+    "id": 190,
+    "question": "Šta predsavlja sledeći kod u PJ LISP (a b c) [KLK 2023]",
+    "answers": ["Atom", "Promenljivu", "Prostu listu", "Ugnježdenu listu", "Definiciju funkcije", "Primenu funkcije (tacno)"],
+    "correctAnswer": "Primenu funkcije (tacno)"
+  },
+  {
+    "id": 191,
+    "question": "Koje koncepte podržava programski jezik ML: [JUL 2022]",
+    "answers": ["dodeljivanje", "primena funkcije (tacno)", "unifikacija", "promenljive (tacno)"],
+    "correctAnswer": ["primena funkcije (tacno)", "promenljive (tacno)"]
+  },
+  {
+    "id": 192,
+    "question": "Koji, od navedenih, predstavljaju izraze(expression) [JUL 2022]",
+    "answers": ["(x > 0) ? x : 0 (tacno)", "100 (tacno)", "x??y (tacno)", "x> {0}/ [0]", "Nijedan"],
+    "correctAnswer": ["(x > 0) ? x : 0 (tacno)", "100 (tacno)", "x??y (tacno)"]
+  },
+  {
+    "id": 193,
+    "question": "Koji od navedenih predstavlja izraze (expression) [KLK 2023]",
+    "answers": ["(x>0)?x", "100 (tacno)", "x??y (tacno)", "(x>0)?x:0 (tacno)", "Nijedan"],
+    "correctAnswer": ["100 (tacno)", "x??y (tacno)", "(x>0)?x:0 (tacno)"]
+  },
+  {
+    "id": 194,
+    "question": "Koja su od navedenih tvrđenja tačna? [JUL 2025]",
+    "answers": ["Regularni izraz je šablon za prepoznavanje tokena. (tacno)", "Token uvek predstavlja tačno jedan leksem.", "BNF gramatika se koristi za opis semantike jezika.", "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila. (tacno)", "Parser prevodi niz tokena u parsno stablo. (tacno)", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."],
+    "correctAnswer": ["Regularni izraz je šablon za prepoznavanje tokena. (tacno)", "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila. (tacno)", "Parser prevodi niz tokena u parsno stablo. (tacno)"]
+  },
+  {
+    "id": 195,
+    "question": "Dato je produkciono pravilo sa dve pridružene semantičke akcije. Koji su od navedenih trvrđenja tačni\n\nL -> L1 B\nL1.x <- L.x + 1\nL.y <- L1.x + B.y",
+    "answers": ["x je nasleđeni atribut (tacno)", "x je sintetizovani atribut", "y je nasleđeni atribut", "y je sintetizovani atribut (tacno)", "Nijedno"],
+    "correctAnswer": ["x je nasleđeni atribut (tacno)", "y je sintetizovani atribut (tacno)"]
+  },
+  {
+    "id": 196,
+    "question": "Poslednja faza procesa kompilacije je: [Januar 2025]",
+    "answers": ["Leksička analiza", "Generisanje međukoda", "Optimizacija koda", "Semantička analiza", "Nijedna od navedenih (tacno)"],
+    "correctAnswer": "Nijedna od navedenih (tacno)"
+  },
+  {
+    "id": 197,
+    "question": "[NIJE SIGURNO] Koji je mogući redosled faza u procesu prevođenja programa [Jun 2024]\n\n1. Generisanje koda\n2. Semantička analiza\n3. Optimizacija koda\n4. Leksička analiza\n5. Sintaksna analiza\n6. interpretiranje",
+    "answers": ["1 3 5 4 2", "4 5 2 6 (tacno)", "5 4 2 1 3", "2 3 6 1 3", "4 2 5 1", "1 5 4 2 (pdf tacno, chatgpt netacno)"],
+    "correctAnswer": "4 5 2 6 (tacno)"
+  },
+  {
+    "id": 198,
+    "question": "U kojoj fazi procesa kompilacije se generise tablica simbola: [Jul 2022, JUN 2023]",
+    "answers": ["Generisanje koda", "Leksicka analiza (tacno)", "Semanticka analiza", "sintaksna analiza", "Optimizacija koda"],
+    "correctAnswer": "Leksicka analiza (tacno)"
+  },
+  {
+    "id": 199,
+    "question": "U kojoj fazi kompilacije se generiše međukod [KLK 2022, FEBRUAR 2025]",
+    "answers": ["Generisanje koda", "Leksička analiza", "Semantička analiza (tacno)", "Sintaksna analiza", "Optimizacija koda"],
+    "correctAnswer": "Semantička analiza (tacno)"
+  },
+  {
+    "id": 200,
+    "question": "Koje od navedenih NISU karakteristike LL parsera [KLK 2023]",
+    "answers": ["Ulazni niz tokena procesira se sleva na desno", "Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)", "Grade parsno stablo od korena prema listovima", "Generišu se pomoću Bison sotftverskog alata (tacno)"],
+    "correctAnswer": ["Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)", "Generišu se pomoću Bison sotftverskog alata (tacno)"]
+  },
+  {
+    "id": 201,
+    "question": "Koji softverski alat omogućava generisanje LR parsera? [KLK 2023]",
+    "answers": ["Lex", "Yacc (tacno)", "Bison (tacno)", "ANTLR"],
+    "correctAnswer": ["Yacc (tacno)", "Bison (tacno)"]
+  },
+  {
+    "id": 202,
+    "question": "Koje od navedenih NISU karakteristike LL parsera? [JUN 2023]",
+    "answers": ["Ulazni niz tokena procesira se sdesna na levo (tacno)", "Koriste se nasleđeni atributi", "Grade parsno stablo od korena prema listovima"],
+    "correctAnswer": "Ulazni niz tokena procesira se sdesna na levo (tacno)"
+  },
+  {
+    "id": 203,
+    "question": "Koje su, od navedenih, karakteristike LR parsera [JUL 2022]",
+    "answers": ["Ulazni niz tokena procesira se sleva na desno (tacno)", "Koristi postupak redukcije koji je inverzan postupaku desne derivacije (tacno)", "Podrzavaju samo S-atributske gramatike (tacno)", "Grade parsno stablo od korena prema listovima"],
+    "correctAnswer": ["Ulazni niz tokena procesira se sleva na desno (tacno)", "Koristi postupak redukcije koji je inverzan postupaku desne derivacije (tacno)", "Podrzavaju samo S-atributske gramatike (tacno)"]
+  },
+  {
+    "id": 204,
+    "question": "[NIJE SIGURNO] Koje od navedenih nisu karakteristike LL parsera [JUN 2024]",
+    "answers": ["Koristi postupak redukcije koji je inverzan postupku leve derivacije (tacno)", "Podržavaju samo S atributske gramatike (chatgpt tacno)", "Mogu se generisati pomoću ANTLR alata (pdf tacno, chatgpt netacno)"],
+    "correctAnswer": ["Koristi postupak redukcije koji je inverzan postupku leve derivacije (tacno)", "Podržavaju samo S atributske gramatike (chatgpt tacno)"]
+  },
+  {
+    "id": 205,
+    "question": "Koje od navedenih NISU karakteristike LL parsera [KLK 2024]",
+    "answers": ["Koristi postupak redukcije (tacno)", "Grade parsno stablo od listova prema korenu (tacno)", "Ulazni niz tokena se procesira sdesna na levo (chatgpt tacno)"],
+    "correctAnswer": ["Koristi postupak redukcije (tacno)", "Grade parsno stablo od listova prema korenu (tacno)", "Ulazni niz tokena se procesira sdesna na levo (chatgpt tacno)"]
+  },
+  {
+    "id": 206,
+    "question": "Koje, od navedenih, karakteristike S-atributske gramatike? [JUN 2023, KLK 2023]",
+    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla (tacno)", "Koriste se samo nasleđeni atributi", "Koriste se samo sintetizovani atributi (tacno)", "Semantička analiza ne može da se izvršava za vreme parsiranja", "Podržane su u LL parserima"],
+    "correctAnswer": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla (tacno)", "Koriste se samo sintetizovani atributi (tacno)"]
+  },
+  {
+    "id": 207,
+    "question": "Koje su od navedenih karakteristike S-atributske gramatike [JUN 2024]",
+    "answers": ["Atributi se evaluiraju u breadth-first redosledu obilaska parsnog stable", "Koriste se nasleđeni atributi", "Semantička analiza ne može da se izvršava u vreme parsiranja", "Tok evaluacije atributa je od dna ka vrhu parsnog stabla (bottom up) (tacno)"],
+    "correctAnswer": "Tok evaluacije atributa je od dna ka vrhu parsnog stabla (bottom up) (tacno)"
+  },
+  {
+    "id": 208,
+    "question": "Koje su, od navedenih, karakteristike L-atributske gramatike: [JUL 2022]",
+    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla", "Koriste se nasledjeni atributi (tacno)", "Koriste se sintetizovani atributi (tacno)", "Semanticka analiza moze da se izvrsava za vreme parsiranja (tacno)"],
+    "correctAnswer": ["Koriste se nasledjeni atributi (tacno)", "Koriste se sintetizovani atributi (tacno)", "Semanticka analiza moze da se izvrsava za vreme parsiranja (tacno)"]
+  },
+  {
+    "id": 209,
+    "question": "Common intermediate language (CIL) se [Jun 2024, JUL 2022]",
+    "answers": ["Kompajlira (tacno)", "Interpretira", "Direktno izvršava"],
+    "correctAnswer": "Kompajlira (tacno)"
+  },
+  {
+    "id": 210,
+    "question": "Šta se dešava u fazi semantičke analize [Kolokvijum 2024]",
+    "answers": ["Ažurira se tablica simbola (tacno)", "Generiše se parsno stablo", "Generiše se međukod (tacno)", "Generiše se izvršni kod", "Vrši se statička provera tipa (tacno)"],
+    "correctAnswer": ["Ažurira se tablica simbola (tacno)", "Generiše se međukod (tacno)", "Vrši se statička provera tipa (tacno)"]
+  },
+  {
+    "id": 211,
+    "question": "Koje aktivnosti se izvršavaju kod hibrinih implementacionih sistema",
+    "answers": ["Generisanje koda (tacno)", "Optimizacija koda", "Semantička analiza (tacno)", "Sintaksna analiza (tacno)", "Leksička analiza (tacno)", "interpretiranje (tacno)"],
+    "correctAnswer": ["Generisanje koda (tacno)", "Semantička analiza (tacno)", "Sintaksna analiza (tacno)", "Leksička analiza (tacno)", "interpretiranje (tacno)"]
+  },
+  {
+    "id": 212,
+    "question": "Koja trvrđenja su tačna [KLK 2024]",
+    "answers": ["Atributska gramatika je ekstenzija BNF gramatike (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija", "U atributskoj gramatici, terminali mogu imati samo sintetizovane attribute (chatgpt tacno)", "Lekser prevodi tekst programa u AST"],
+    "correctAnswer": ["Atributska gramatika je ekstenzija BNF gramatike (tacno)", "U atributskoj gramatici, terminali mogu imati samo sintetizovane attribute (chatgpt tacno)"]
+  },
+  {
+    "id": 213,
+    "question": "Koja od navedenih NISU tačna tvrđenja?",
+    "answers": ["Leksem predstavlja grupu tokena (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom (tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom (tacno)"],
+    "correctAnswer": ["Leksem predstavlja grupu tokena (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom (tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom (tacno)"]
+  },
+  {
+    "id": 214,
+    "question": "Koja od navedenih NISU tačna tvrđenja?",
+    "answers": ["Token uvek predstavlja tačno jedan leksem (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Sintaksna struktura jezika određuje da li su leksemi u skladu sa sintaksom (chatgpt tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom (tacno)"],
+    "correctAnswer": ["Token uvek predstavlja tačno jedan leksem (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Sintaksna struktura jezika određuje da li su leksemi u skladu sa sintaksom (chatgpt tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom (tacno)"]
+  },
+  {
+    "id": 215,
+    "question": "Koja trvrđenja NISU tačna [JUN 2024]",
+    "answers": ["Terminali u BNF gramatici su tokeni", "Leva strana BNF produkcionog pravila može da sadrži terminale (tacno)", "Atributska gramatika koristi se za specifikaciju sintakse jezika (tacno)", "Svi čvorovi parsnog stabka mogu sadržati I terminale I neterminale (tacno)"],
+    "correctAnswer": ["Leva strana BNF produkcionog pravila može da sadrži terminale (tacno)", "Atributska gramatika koristi se za specifikaciju sintakse jezika (tacno)", "Svi čvorovi parsnog stabka mogu sadržati I terminale I neterminale (tacno)"]
+  },
+  {
+    "id": 216,
+    "question": "Članice bez modifikatora pristupa u PJ Java vidljive su [KLK 2024, JUL 2022, KLK 2023]",
+    "answers": ["Za članice date klase (tacno)", "Za članice svih izvedenih klasa", "Za članice friend klase", "Za članice drugih klasa u istom paketu (tacno)", "Za sve klase"],
+    "correctAnswer": ["Za članice date klase (tacno)", "Za članice drugih klasa u istom paketu (tacno)"]
+  },
+  {
+    "id": 217,
+    "question": "Entiteti označeni private klauzulom u C++ vidljivi su [KLK 2024, JUL 2022, KLK 2023]",
+    "answers": ["Za članice date klase (tacno)", "Za članice svih izvedenih klasa", "Za članice friend klase (tacno)", "Za friend funkcije (tacno)", "Za sve funkcije"],
+    "correctAnswer": ["Za članice date klase (tacno)", "Za članice friend klase (tacno)", "Za friend funkcije (tacno)"]
+  },
+  {
+    "id": 218,
+    "question": "[NIJE SIGURNO] Koji modifikator pristupa bi se mogao navesti ispred članice Java klase da bi se obezbedilo da ona bude vidljiva za sve klase u istom paketu [JUN 2024]\nNapomena: Ako se traži najprecizniji package-private pristup, onda je F. Ako se pita \"može biti vidljivo za klase u istom paketu\", protected takođe važi u Javi.",
+    "answers": ["Public", "Protected (chatgpt tacno)", "Private", "Internal", "Friend", "Modifikator pristupa bi se mogao izostaviti (tacno)"],
+    "correctAnswer": ["Protected (chatgpt tacno)", "Modifikator pristupa bi se mogao izostaviti (tacno)"]
+  },
+  {
+    "id": 219,
+    "question": "Java kod se: [JUN 2023]",
+    "answers": ["Kompajlira (tacno)", "Interpretira (tacno)", "Direktno izvršava"],
+    "correctAnswer": ["Kompajlira (tacno)", "Interpretira (tacno)"]
+  },
+  {
+    "id": 220,
+    "question": "Koji vrstu prenosa parametra karakteriše prenos sadržaja sa stvarnog parametra na formalni parametar?",
+    "answers": [
+      "Pass by value (tacno)",
+      "Pass by value-result (tacno)",
+      "Pass by reference",
+      "Pass by result",
+      "in",
+      "out"
+    ],
+    "correctAnswer": ["Pass by value (tacno)", "Pass by value-result (tacno)"]
+  },
+  {
+    "id": 221,
+    "question": "Koji vrstu prenosa parametra karakteriše SAMO prenos sadržaja argumenta na formalni parametar?",
+    "answers": [
+      "Pass by value (tacno)",
+      "Pass by value-result",
+      "Pass by reference",
+      "Pass by result",
+      "in",
+      "out"
+    ],
+    "correctAnswer": "Pass by value (tacno)"
+  },
+  {
+    "id": 222,
+    "question": "Koji vrstu prenosa parametra karakteriše prenos adrese argumenta na formalni parametar?",
+    "answers": [
+      "Pass by value",
+      "Pass by value-result",
+      "Pass by reference (tacno)",
+      "Pass by result",
+      "in",
+      "out"
+    ],
+    "correctAnswer": "Pass by reference (tacno)"
+  },
+  {
+    "id": 223,
+    "question": "Koji od navedenih PJ omogućava da se prenese sadržaj argumenta na formalni parametar?",
+    "answers": [
+      "C# (tacno)",
+      "C (tacno)",
+      "C++ (tacno)",
+      "Java (tacno)",
+      "Prolog",
+      "Python"
+    ],
+    "correctAnswer": ["C# (tacno)", "C (tacno)", "C++ (tacno)", "Java (tacno)"]
+  },
+  {
+    "id": 224,
+    "question": "Koja implementaciona metoda za prenos parametara se može koristiti ukoliko je potrebno da metoda vrati informacije pozivaocu?",
+    "answers": [
+      "Pass by value",
+      "Pass by value-result",
+      "Pass by reference (tacno)",
+      "Pass by result (tacno)",
+      "in",
+      "out"
+    ],
+    "correctAnswer": ["Pass by reference (tacno)", "Pass by result (tacno)"]
+  },
+  {
+    "id": 225,
+    "question": "Koja implementaciona metoda za prenos parametara se može koristiti ukoliko je potrebno da se prenese sadržaj formalnog parametra u argument?",
+    "answers": [
+      "Pass by value",
+      "Pass by value-result",
+      "Pass by reference",
+      "Pass by result (tacno)",
+      "in",
+      "out"
+    ],
+    "correctAnswer": "Pass by result (tacno)"
+  },
+  {
+    "id": 226,
+    "question": "Koji od navedenih programskih jezika omogućava da metoda uvek može putem parametra vratiti informaciju pozivaocu?",
+    "answers": [
+      "C# (tacno)",
+      "Java",
+      "C++ (tacno)",
+      "C",
+      "Algol (tacno)"
+    ],
+    "correctAnswer": ["C# (tacno)", "C++ (tacno)", "Algol (tacno)"]
   }
 ]
