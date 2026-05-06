@@ -36,6 +36,9 @@ const SUBJECT_FILES: Record<string, string> = {
   'RMT_sa_modlla_dva': '/data/RMT_sa_modlla_dva.json',
   'PIS_na_dopunu': '/data/PIS_na_dopunu.json',
   'ProgramskiJezici_ponudjeni': '/data/ProgramskiJezici_ponudjeni.json',
+  'ProgramskiJezici_unos': '/data/ProgramskiJezici_unos.json',
+  'PJ_entryLEVEL_ponudjeni': '/data/PJ_entryLEVEL_ponudjeni.json',
+  'PJ_entryLEVEL_unos': '/data/PJ_entryLEVEL_unos.json',
 };
 
 /**
@@ -93,6 +96,9 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'RMT_sa_modlla_dva',
       'PIS_na_dopunu',
       'ProgramskiJezici_ponudjeni',
+      'ProgramskiJezici_unos',
+      'PJ_entryLEVEL_ponudjeni',
+      'PJ_entryLEVEL_unos',
     ];
     return Promise.resolve(subjects);
   } catch (error) {

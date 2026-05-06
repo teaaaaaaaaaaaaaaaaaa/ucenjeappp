@@ -131,6 +131,12 @@ const Home: React.FC = () => {
         return '🌍';
       case 'ProgramskiJezici_ponudjeni':
         return '💻';
+      case 'ProgramskiJezici_unos':
+        return '✍️';
+      case 'PJ_entryLEVEL_ponudjeni':
+        return '🎯';
+      case 'PJ_entryLEVEL_unos':
+        return '📝';
       default:
         return '🧠';
     }
@@ -199,6 +205,12 @@ const Home: React.FC = () => {
         return 'RMT - Sa moodla 2';
       case 'ProgramskiJezici_ponudjeni':
         return 'Programski Jezici - Ponuđeni';
+      case 'ProgramskiJezici_unos':
+        return 'Programski Jezici - Unos odgovora';
+      case 'PJ_entryLEVEL_ponudjeni':
+        return 'PJ Entry Level - Ponuđeni';
+      case 'PJ_entryLEVEL_unos':
+        return 'PJ Entry Level - Unos odgovora';
       default:
         return subject;
     }

@@ -1,0 +1,603 @@
+[
+  {
+    "id": 1,
+    "question": "Šta od navedenog nema uticaja na smanjenje čitljivosti programa?",
+    "answers": ["postojanje ključnih reči koje nisu rezervisane reči", "postojanje rezervisanih reči koje nisu ključne (tacno)", "implicitno deklarisanje tipa korišćenjem konvencije o imenovanju", "manja ortogonalnost programskog jezika", "korišćenje alijasa", "odsustvo podrške za logički tip podatka u PJ"],
+    "correctAnswer": "postojanje rezervisanih reči koje nisu ključne (tacno)"
+  },
+  {
+    "id": 2,
+    "question": "Šta od navedenog nema uticaja na smanjenje čitljivosti programa?",
+    "answers": ["postojanje ključnih reči koje nisu rezervisane reči", "postojanje rezervisanih reči koje nisu ključne (tacno)", "implicitno deklarisanje tipa korišćenjem konvencije o imenovanju", "manja ortogonalnost programskog jezika", "korišćenje alijasa (tacno)", "odsustvo podrške za logički tip podatka u PJ"],
+    "correctAnswer": ["postojanje rezervisanih reči koje nisu ključne (tacno)", "korišćenje alijasa (tacno)"]
+  },
+  {
+    "id": 3,
+    "question": "Šta od navedenog nema uticaja na smanjenje čitljivosti programa? [Februar 2025]",
+    "answers": ["Postojanje rezervisanih reči koje nisu ključne (tacno)", "Mogućnost implicitnog deklarisanja tipa promenljive", "Velika ortogonalnost (tacno)", "Mogućnost dinamičkog povezivanja sa tipom", "Case sensitivity", "Odsustvo podrške za logički tip podatka"],
+    "correctAnswer": ["Postojanje rezervisanih reči koje nisu ključne (tacno)", "Velika ortogonalnost (tacno)"]
+  },
+  {
+    "id": 4,
+    "question": "Šta, od navedenog, može uticati na smanjenje čitljivosti programa?",
+    "answers": ["Postojanje ključnih reči koje nisu rezervisane reči (tacno)", "Postojanje rezervnih reči koje nisu ključne reči", "Implicitno deklarisanje tipa korišćenjem konvencije o imenovanju (tacno)", "Korišćenje alijasa (tacno)", "Odsustvo podrške za logički tip podataka / Boolean (tacno)"],
+    "correctAnswer": ["Postojanje ključnih reči koje nisu rezervisane reči (tacno)", "Implicitno deklarisanje tipa korišćenjem konvencije o imenovanju (tacno)", "Korišćenje alijasa (tacno)", "Odsustvo podrške za logički tip podataka / Boolean (tacno)"]
+  },
+  {
+    "id": 5,
+    "question": "Šta doprinosi pouzdanosti programa?",
+    "answers": ["Provera tipa u vreme kompajliranja programa (tacno)", "Korišćenje implicitnih heap-dinamičkih promenljivih", "Dinamičko povezivanje sa tipom", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)", "Implicitno deklarisanje tipa promenljive"],
+    "correctAnswer": ["Provera tipa u vreme kompajliranja programa (tacno)", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)"]
+  },
+  {
+    "id": 6,
+    "question": "Šta od navedenog NE može uticati na smanjenje pouzdanosti programa?",
+    "answers": ["Provera tipa u vreme kompajliranja programa (tacno)", "Korišćenje implicitnih heap-dinamičkih promenljivih", "Dinamičko povezivanje sa tipom", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)", "Implicitno deklarisanje tipa promenljive (tacno)"],
+    "correctAnswer": ["Provera tipa u vreme kompajliranja programa (tacno)", "Ograničavanje alijasa (tacno)", "Obrada grešaka tokom izvršavanja (tacno)", "Implicitno deklarisanje tipa promenljive (tacno)"]
+  },
+  {
+    "id": 7,
+    "question": "Šta, od navedenog, doprinosi pouzdanosti programa? [Jul 2024]",
+    "answers": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Velika ortogonalnost programskog jezika (tacno)", "Neograničavanje resursa", "Obrada grešaka samo pre izvršavanja programa", "Podrška za logički tip u programskom jeziku (tacno)"],
+    "correctAnswer": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Velika ortogonalnost programskog jezika (tacno)", "Podrška za logički tip u programskom jeziku (tacno)"]
+  },
+  {
+    "id": 8,
+    "question": "Šta, od navedenog, doprinosi pouzdanosti programa? [Januar 2025]",
+    "answers": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)", "Neograničavanje resursa", "Obrada grešaka samo pre izvršavanja programa"],
+    "correctAnswer": ["Provera tipa u vreme izvršavanja programa (tacno)", "Podrška za apstrakcije podataka u PJ (tacno)"]
+  },
+  {
+    "id": 9,
+    "question": "Šta, od navedenog, može uticati na smanjenje pouzdanosti programa? [JUL 2025]",
+    "answers": ["kasno / late povezivanje (tacno)", "implicitna konverzija promenljive (tacno)", "pisanje programa u jeziku sa dinamičkim dosegom (tacno)", "odsustvo podrške za korisnički-definisane tipove podataka (tacno)", "neograničavanje aliasa (tacno)", "odsustvo ortogonalnosti (tacno)"],
+    "correctAnswer": ["kasno / late povezivanje (tacno)", "implicitna konverzija promenljive (tacno)", "pisanje programa u jeziku sa dinamičkim dosegom (tacno)", "odsustvo podrške za korisnički-definisane tipove podataka (tacno)", "neograničavanje aliasa (tacno)", "odsustvo ortogonalnosti (tacno)"]
+  },
+  {
+    "id": 10,
+    "question": "Bazne apstrakcije apstrahuju:",
+    "answers": ["Internu reprezentaciju primitivnih tipova podataka (tacno)", "Internu reprezentaciju struktuiranih tipova podataka", "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tacno)", "Memorijske ćelije (tacno)", "Proces računanja i memorisanje sračunate vrednosti (tacno)", "Sekvencu instrukcija"],
+    "correctAnswer": ["Internu reprezentaciju primitivnih tipova podataka (tacno)", "Implementaciju operacija nad vrednostima primitivnih tipova podataka (tacno)", "Memorijske ćelije (tacno)", "Proces računanja i memorisanje sračunate vrednosti (tacno)"]
+  },
+  {
+    "id": 11,
+    "question": "Bazne apstrakcije apstrahuju: [Oktobar 2022]",
+    "answers": ["Von Neumann arhitekturu", "Memorijske ćelije (tacno)", "Sekvencu instrukcija"],
+    "correctAnswer": "Memorijske ćelije (tacno)"
+  },
+  {
+    "id": 12,
+    "question": "Koji od navedenih koncepata spadaju u bazne apstrakcije?",
+    "answers": ["Promenljive (tacno)", "Procedure", "Instrukcija dodeljivanja (tacno)", "Upravljačke strukture", "Klase", "Struktuirani tipovi podataka"],
+    "correctAnswer": ["Promenljive (tacno)", "Instrukcija dodeljivanja (tacno)"]
+  },
+  {
+    "id": 13,
+    "question": "Implementaciju operacija nad vrednostima primitivnih tipova podataka apstrahuju:",
+    "answers": ["Bazne apstrakcije (tacno)", "Strukturne apstrakcije", "Apstrakcije podataka"],
+    "correctAnswer": "Bazne apstrakcije (tacno)"
+  },
+  {
+    "id": 14,
+    "question": "Implementaciju primitivnih tipova podataka apstrahuju:",
+    "answers": ["Bazne apstrakcije (tacno)", "Strukturne apstrakcije", "Proceduralne apstrakcije", "Apstrakcije podataka"],
+    "correctAnswer": "Bazne apstrakcije (tacno)"
+  },
+  {
+    "id": 15,
+    "question": "Koja od navedenih tvrđenja su tačna za sledeći kod u C?\n\nint a = 0;\nint b = a;\nint *p = &a;",
+    "answers": ["R-value od a je 0 (tacno)", "L-value od a je ista kao i r-value od p (tacno)", "R-value od p je 0", "R-value od p je ista kao i r-value od p", "L-value od p je ista kao i r-value od a"],
+    "correctAnswer": ["R-value od a je 0 (tacno)", "L-value od a je ista kao i r-value od p (tacno)"]
+  },
+  {
+    "id": 16,
+    "question": "Koje od navedenih tvrđenja je tačno za sledeći kod u C-u?\n\nint a = -4;\nint b = -4;\nint *p = &a;",
+    "answers": ["l-value od a je -4", "l-value od b je neka adresa", "r-value od p je ista kao i l-value od a (tacno)", "l-value od p je neka adresa (tacno)", "l-value od a je ista kao i l-value od b", "r-value od a je ista kao i r-value od b (tacno)"],
+    "correctAnswer": ["r-value od p je ista kao i l-value od a (tacno)", "l-value od p je neka adresa (tacno)", "r-value od a je ista kao i r-value od b (tacno)"]
+  },
+  {
+    "id": 17,
+    "question": "[NIJE SIGURNO] Koji od navedenih primera ilustruje dinamičko povezivanje i sa tipom i sa memorijskom lokacijom?",
+    "answers": ["var x = 1; (C#)", "dynamic x = 1; (C#) (pdf tacno, chatgpt netacno)", "var x = 1; (JavaScript) (tacno)", "x = 1; (FORTRAN)"],
+    "correctAnswer": "var x = 1; (JavaScript) (tacno)"
+  },
+  {
+    "id": 18,
+    "question": "Koji od navedenih primera ilustruje dinamičko povezivanje i sa tipom i sa memorijskom lokacijom?",
+    "answers": ["var x = 1; (C#)", "Object x = 1; (Java)", "var x = 1; (JavaScript) (tacno)", "IX = 1; (FORTRAN)"],
+    "correctAnswer": "var x = 1; (JavaScript) (tacno)"
+  },
+  {
+    "id": 19,
+    "question": "Koji od navedenih primera ilustruje implicitno deklarisanje tipa promenljive?",
+    "answers": ["var x = 1; (C#) (tacno)", "Object x = 1; (Java)", "IX = 1; (FORTRAN) (tacno)", "REAL = 1; (FORTRAN) (tacno)", "let x = 1; (JavaScript)"],
+    "correctAnswer": ["var x = 1; (C#) (tacno)", "IX = 1; (FORTRAN) (tacno)", "REAL = 1; (FORTRAN) (tacno)"]
+  },
+  {
+    "id": 20,
+    "question": "Koji od navedenih primera ilustruje eksplicitno deklarisanje tipa promenljive?",
+    "answers": ["var x = 1; (C#)", "object x = 1; (Java) (tacno)", "x = 1; (Python)", "REAL :: x = 1; (FORTRAN) (tacno)", "let x = 1; (JavaScript)"],
+    "correctAnswer": ["object x = 1; (Java) (tacno)", "REAL :: x = 1; (FORTRAN) (tacno)"]
+  },
+  {
+    "id": 21,
+    "question": "Koju promenljivu karakteriše statičko povezivanje sa tipom, a dinamičko sa memorijskom lokacijom?\n\npublic class K {\n    static int a;\n    static void Main() {\n        int b = 0;\n        dynamic c = 0;\n        var d = 0;\n        object e = new K();\n    }\n}",
+    "answers": ["a", "b (tacno)", "c", "d (tacno)", "e (tacno)", "Nijedna"],
+    "correctAnswer": ["b (tacno)", "d (tacno)", "e (tacno)"]
+  },
+  {
+    "id": 22,
+    "question": "Koju promenljivu karakteriše statičko povezivanje sa tipom, a dinamičko sa memorijskom lokacijom?\n\nclass K {\n    static int a;\n    static void M() { int b = 0; var c = 0; dynamic d = 0; object e = new K(); }\n    static void Main() { M(); }\n}",
+    "answers": ["a", "b (tacno)", "c (tacno)", "d", "e (tacno)"],
+    "correctAnswer": ["b (tacno)", "c (tacno)", "e (tacno)"]
+  },
+  {
+    "id": 23,
+    "question": "[NIJE SIGURNO] Koja tvrđenja nisu tačna?",
+    "answers": ["Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (ovo)", "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (ovo)", "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive (ovo)", "Ključna reč ne može da se iskoristi kao identifikator (pdf tacno, chatgpt netacno)"],
+    "correctAnswer": ["Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (ovo)", "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (ovo)", "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive (ovo)"]
+  },
+  {
+    "id": 24,
+    "question": "Koja od navedenih tvrdnji NISU tačna? [JUL 2025]",
+    "answers": ["Doseg promenljive je vremenska osobina promenljive. (tacno)", "Povezivanje statičkih promenljivih sa memorijskom lokacijom dešava se u vreme izvršavanja programa. (tacno)", "U jeziku sa dinamičkim povezivanjem tipa sa promenljivom, greške tipa detektuju se u vreme punjenja (load) programa. (tacno)", "Kod statičkog povezivanja tipa sa promenljivom zahteva se eksplicitna deklaracija tipa promenljive. (tacno)", "Svaka promenljiva mora imati ime. (tacno)", "Vrednost statičke promenljive se ne može menjati tokom izvršavanja programa. (tacno)"],
+    "correctAnswer": ["Doseg promenljive je vremenska osobina promenljive. (tacno)", "Povezivanje statičkih promenljivih sa memorijskom lokacijom dešava se u vreme izvršavanja programa. (tacno)", "U jeziku sa dinamičkim povezivanjem tipa sa promenljivom, greške tipa detektuju se u vreme punjenja (load) programa. (tacno)", "Kod statičkog povezivanja tipa sa promenljivom zahteva se eksplicitna deklaracija tipa promenljive. (tacno)", "Svaka promenljiva mora imati ime. (tacno)", "Vrednost statičke promenljive se ne može menjati tokom izvršavanja programa. (tacno)"]
+  },
+  {
+    "id": 25,
+    "question": "Koji je koncept ilustrovan sledećim kodom?\n\nint* p1;\np1 = new int;\n*p1 = 1;\nint* p2;\np2 = p1;\ndelete p1;",
+    "answers": ["Globalna promenljiva", "Dangling referenca (tacno)", "Garbage promenljiva"],
+    "correctAnswer": "Dangling referenca (tacno)"
+  },
+  {
+    "id": 26,
+    "question": "[NIJE SIGURNO] Koji od navedenih C++ kodova ilustruje koncept garbage promenljive?",
+    "answers": [
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2; (tacno)",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np2 = p1;\ndelete p1;",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)"
+    ],
+    "correctAnswer": [
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2; (tacno)",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Koje promenljive imaju identičan doseg kao promenljiva x?\n\nvar a = 5;\nif (a is int b)\n{\n    int c = b; c += 1;\n    for (int d = 0; d < 3; d++)\n    {\n        bool e = int.TryParse(\"1\", out int f);\n        if (a is int x) { a += 1; }\n    }\n}",
+    "answers": ["b", "c", "d", "e", "f", "Nijedna (tacno)"],
+    "correctAnswer": "Nijedna (tacno)"
+  },
+  {
+    "id": 28,
+    "question": "Koja promenljiva ima najkraći životni vek?\n\nint a = 1;\nvoid A(int b) {\n    int *c = &b;\n    float d = 5;\n    static int e = 0;\n    printf(\"%d\", ++e);\n    printf(\"%f\", ++d);\n}",
+    "answers": ["a", "b (tacno)", "c (tacno)", "d (tacno)", "e"],
+    "correctAnswer": ["b (tacno)", "c (tacno)", "d (tacno)"]
+  },
+  {
+    "id": 29,
+    "question": "Koja kategorija promenljivih je pokrivena sledećim kodom u C++-u?\n\nint main(){\n    int *k;\n    k = new int;\n    *k = 99;\n    delete k;\n    return 0;\n}",
+    "answers": ["Statička", "Implicitna heap-dinamička", "Eksplicitna heap-dinamička (tacno)", "Stack-dinamička (tacno)", "Anonimna (tacno)"],
+    "correctAnswer": ["Eksplicitna heap-dinamička (tacno)", "Stack-dinamička (tacno)", "Anonimna (tacno)"]
+  },
+  {
+    "id": 30,
+    "question": "[NIJE SIGURNO] Koja kategorija promenljivih je pokrivena sledećim kodom u C++-u?\n\nint x = 2;\nint main() {\n    int y = 1; int* z; *z = new int; delete z; return 0;\n}\nNapomena: Kod je verovatno loše prepisan; trebalo bi z = new int umesto *z = new int.",
+    "answers": ["globalna (tacno)", "Staticka", "Eksplicitna heap-dinamicka (tacno)", "anonimna (tacno)", "Implicitna heap-dinamicka"],
+    "correctAnswer": ["globalna (tacno)", "Eksplicitna heap-dinamicka (tacno)", "anonimna (tacno)"]
+  },
+  {
+    "id": 31,
+    "question": "Koja kategorija promenljivih je pokrivena sledećim kodom u C-u?\n\nint i = 1;\nvoid A(){ static int x = 0; x++; }\nvoid B(){ int y = 5; int *z = &y; }",
+    "answers": ["Globalna (tacno)", "Statička (tacno)", "Implicitna heap-dinamička", "Anonimna", "Stack-dinamička (tacno)", "Eksplicitna heap-dinamička"],
+    "correctAnswer": ["Globalna (tacno)", "Statička (tacno)", "Stack-dinamička (tacno)"]
+  },
+  {
+    "id": 32,
+    "question": "Koji od navedenih PJ podržava statičke lokalne promenljive?",
+    "answers": ["C (tacno)", "Java", "C#", "C++ (tacno)", "FORTRAN (tacno)"],
+    "correctAnswer": ["C (tacno)", "C++ (tacno)", "FORTRAN (tacno)"]
+  },
+  {
+    "id": 33,
+    "question": "Koji od navedenih programskih jezika NE podržava statičke lokalne promenljive?",
+    "answers": ["C", "C++", "C# (tacno)", "Java (tacno)", "FORTRAN"],
+    "correctAnswer": ["C# (tacno)", "Java (tacno)"]
+  },
+  {
+    "id": 34,
+    "question": "Koji kod u C-u proizvodi bočne efekte?\n\nint i = 1;\nint A(int x) { x = x * i; return x; }\nint B(int x) { i = x * 2; return x; }\nint C(int x) { return x + 2; }\nint D(int x) { i = 2; return 0; }\nvoid E(int x) { x = 5; }",
+    "answers": ["A", "B (tacno)", "C", "D (tacno)", "E"],
+    "correctAnswer": ["B (tacno)", "D (tacno)"]
+  },
+  {
+    "id": 35,
+    "question": "Da li sledeći kod u C proizvodi bočne efekte?\n\nint i = 1;\nint f(int x) { i = i * 2; return i * x; }\nint g(int x) { i = i * 2; return i * x; }\nint main() {\n    int y = 2;\n    f(y) + g(y);\n    g(y) + f(y);\n    return 0;\n}",
+    "answers": ["DA (tacno)", "NE"],
+    "correctAnswer": "DA (tacno)"
+  },
+  {
+    "id": 36,
+    "question": "Koju vrstu prenosa parametara karakteriše to da se prenosi sadržaj argumenta u formalni parametar?",
+    "answers": ["Pass by value (tacno)", "Pass by value-result", "Pass by result", "Pass by reference"],
+    "correctAnswer": "Pass by value (tacno)"
+  },
+  {
+    "id": 37,
+    "question": "Kod kog semantičkog modela za prenos parametra se može prenositi sadržaj formalnog parametra u argument?",
+    "answers": ["pass-by-value", "pass-by-value-result (tacno)", "pass-by-reference (tacno)", "in", "out (tacno)", "in-out (tacno)"],
+    "correctAnswer": ["pass-by-value-result (tacno)", "pass-by-reference (tacno)", "out (tacno)", "in-out (tacno)"]
+  },
+  {
+    "id": 38,
+    "question": "Koja implementaciona metoda za prenos parametara može dovesti do kreiranja alijasa?",
+    "answers": ["In", "Out", "In-out", "Pass-by-value", "Pass-by-reference (tacno)", "Pass-by-result"],
+    "correctAnswer": "Pass-by-reference (tacno)"
+  },
+  {
+    "id": 39,
+    "question": "Koja implementaciona metoda za prenos parametara se može koristiti ako je potrebno da se osigura da potprogram može da vrati informacije pozivaocu?",
+    "answers": ["In", "Out (tacno)", "In-out (tacno)", "Pass-by-value", "Pass-by-reference (tacno)", "Pass-by-result (tacno)"],
+    "correctAnswer": ["Out (tacno)", "In-out (tacno)", "Pass-by-reference (tacno)", "Pass-by-result (tacno)"]
+  },
+  {
+    "id": 40,
+    "question": "Koja implementaciona metoda za prenos parametara je podržana u programskom jeziku Java?",
+    "answers": ["pass-by-value (tacno)", "pass-by-value-result", "pass-by-reference", "in", "out", "in-out"],
+    "correctAnswer": "pass-by-value (tacno)"
+  },
+  {
+    "id": 41,
+    "question": "Koji PJ podržavaju prenos preko reference?",
+    "answers": ["Pascal (tacno)", "Java", "C# (tacno)", "C++ (tacno)"],
+    "correctAnswer": ["Pascal (tacno)", "C# (tacno)", "C++ (tacno)"]
+  },
+  {
+    "id": 42,
+    "question": "Koji PJ eksplicitno podržavaju procedure?",
+    "answers": ["Ada (tacno)", "Java", "C", "C#"],
+    "correctAnswer": "Ada (tacno)"
+  },
+  {
+    "id": 43,
+    "question": "U kojim programskim jezicima je podržano povezivanje parametara na osnovu imena?",
+    "answers": ["C", "Java", "JavaScript (tacno)", "Python (tacno)", "C# (tacno)"],
+    "correctAnswer": ["JavaScript (tacno)", "Python (tacno)", "C# (tacno)"]
+  },
+  {
+    "id": 44,
+    "question": "Najvažnije karakteristike apstraktnog tipa podatka su:",
+    "answers": ["Skrivanje informacija (tacno)", "Parametrizacija", "Polimorfizam", "Nasleđivanje", "Enkapsulacija (tacno)"],
+    "correctAnswer": ["Skrivanje informacija (tacno)", "Enkapsulacija (tacno)"]
+  },
+  {
+    "id": 45,
+    "question": "Da bi se korisnički definisani tip podatka mogao posmatrati kao apstraktni tip podatka potrebno je da se:",
+    "answers": ["Obezbede operacije (tacno)", "Obezbedi vidljivost strukture tipa", "Obezbedi vidljivost implementacije operacija", "Omogući pristup svim članovima"],
+    "correctAnswer": "Obezbede operacije (tacno)"
+  },
+  {
+    "id": 46,
+    "question": "Enkapsulaciona konstrukcija u programskom jeziku C# je:",
+    "answers": ["Package", "Klasa (tacno)", "Assembly (tacno)", "Namespace", "Header file"],
+    "correctAnswer": ["Klasa (tacno)", "Assembly (tacno)"]
+  },
+  {
+    "id": 47,
+    "question": "Enkapsulaciona konstrukcija assembly u C# se kreira u vreme:",
+    "answers": ["Izvršenja", "Punjenja / loading", "Kompajliranja (tacno)", "Povezivanja / linking", "Interpretiranja"],
+    "correctAnswer": "Kompajliranja (tacno)"
+  },
+  {
+    "id": 48,
+    "question": "Koje od navedenih enkapsulacionih konstrukcija omogućavaju da se enkapsulira više apstraktnih tipova podataka?",
+    "answers": ["C++ implementaciona datoteka", "C implementaciona datoteka", "C# assembly (tacno)", "Ada package (tacno)", "C++ namespace", "C# namespace"],
+    "correctAnswer": ["C# assembly (tacno)", "Ada package (tacno)"]
+  },
+  {
+    "id": 49,
+    "question": "Koja su od navedenih enkapsulaciona imena?",
+    "answers": ["Header datoteka i implementaciona datoteka u C++", "Package u Java (tacno)", "Assembly u C#", "Package u Ada (tacno)", "Namespace u C# (tacno)"],
+    "correctAnswer": ["Package u Java (tacno)", "Package u Ada (tacno)", "Namespace u C# (tacno)"]
+  },
+  {
+    "id": 50,
+    "question": "U programskom jeziku C++ se u header datoteci obično nalaze:",
+    "answers": ["Implementacija funkcija klase", "Prototipovi funkcija klase (tacno)", "Interna reprezentacija klase (tacno)", "Međukôd"],
+    "correctAnswer": ["Prototipovi funkcija klase (tacno)", "Interna reprezentacija klase (tacno)"]
+  },
+  {
+    "id": 51,
+    "question": "U programskom jeziku C++ se u implementacionoj datoteci obično nalaze:",
+    "answers": ["Implementacija funkcija klase (tacno)", "Prototipovi funkcija klase", "Interna reprezentacija klase", "Međukôd"],
+    "correctAnswer": "Implementacija funkcija klase (tacno)"
+  },
+  {
+    "id": 52,
+    "question": "Koja od navedenih vrsta PJ pripada klasi deklarativnih PJ?",
+    "answers": ["Funkcionalni jezici (tacno)", "Logički jezici (tacno)", "Imperativni jezici", "Objektno orijentisani jezici"],
+    "correctAnswer": ["Funkcionalni jezici (tacno)", "Logički jezici (tacno)"]
+  },
+  {
+    "id": 53,
+    "question": "Koji od navedenih PJ NE pripada klasi deklarativnih jezika?",
+    "answers": ["LISP", "FORTRAN (tacno)", "Haskell", "Ada (tacno)", "Prolog", "Simula (tacno)"],
+    "correctAnswer": ["FORTRAN (tacno)", "Ada (tacno)", "Simula (tacno)"]
+  },
+  {
+    "id": 54,
+    "question": "Ključna operacija u logičkom programskom jeziku je:",
+    "answers": ["Primena funkcija", "Unifikacija (tacno)", "Dodeljivanje"],
+    "correctAnswer": "Unifikacija (tacno)"
+  },
+  {
+    "id": 55,
+    "question": "Na kom matematičkom formalizmu se zasniva programski jezik PROLOG?",
+    "answers": ["Horova logika", "Lambda račun", "Račun teorema", "Predikatski račun (tacno)"],
+    "correctAnswer": "Predikatski račun (tacno)"
+  },
+  {
+    "id": 56,
+    "question": "Lambda izraz predstavlja:",
+    "answers": ["tip promenljive", "Apstraktnu klasu", "Funkciju (tacno)", "Selekciju", "Činjenicu"],
+    "correctAnswer": "Funkciju (tacno)"
+  },
+  {
+    "id": 57,
+    "question": "Koje koncepte podržava programski jezik Prolog?",
+    "answers": ["dodeljivanje", "funkcionalne forme", "unifikacija (tacno)", "razmena poruka", "nasleđivanje", "promenljive (tacno)"],
+    "correctAnswer": ["unifikacija (tacno)", "promenljive (tacno)"]
+  },
+  {
+    "id": 58,
+    "question": "Koje koncepte podržava programski jezik Python?",
+    "answers": ["dodeljivanje (tacno)", "primena funkcija (tacno)", "unifikacija", "razmena poruka (tacno)", "iteracija (tacno)", "promenljive (tacno)"],
+    "correctAnswer": ["dodeljivanje (tacno)", "primena funkcija (tacno)", "razmena poruka (tacno)", "iteracija (tacno)", "promenljive (tacno)"]
+  },
+  {
+    "id": 59,
+    "question": "U kojim od navedenih PJ je podržana razmena poruka?",
+    "answers": ["LISP", "C", "Python (tacno)", "C++ (tacno)", "Prolog", "Scala (tacno)"],
+    "correctAnswer": ["Python (tacno)", "C++ (tacno)", "Scala (tacno)"]
+  },
+  {
+    "id": 60,
+    "question": "Na koji način se u programskom jeziku LISP zapisuje primena funkcije + na parametre a i b?",
+    "answers": ["a+b", "(a+b)", "+(a b)", "+ a b", "(+ a b) (tacno)"],
+    "correctAnswer": "(+ a b) (tacno)"
+  },
+  {
+    "id": 61,
+    "question": "Na koji način se u programskom jeziku LISP zapisuje primena funkcije c na parametre a i b?",
+    "answers": ["a c b", "ne vidi se", "a b c", "c (a b)", "c a b", "(c a b) (tacno)"],
+    "correctAnswer": "(c a b) (tacno)"
+  },
+  {
+    "id": 62,
+    "question": "Koliko elemenata sadrži sledeća lista u PJ LISP?\n\n((1(2 3)) 4 5(6(7 8)9))",
+    "answers": ["9", "7", "5", "4 (tacno)", "3", "1"],
+    "correctAnswer": "4 (tacno)"
+  },
+  {
+    "id": 63,
+    "question": "[NIJE SIGURNO] Šta predstavlja sledeći kod u PJ LISP?\n\n(a b c)",
+    "answers": ["Atom", "Promenljivu", "Prostu listu", "Ugnježdenu listu", "Definiciju funkcije", "Primenu funkcije (tacno)"],
+    "correctAnswer": "Primenu funkcije (tacno)"
+  },
+  {
+    "id": 64,
+    "question": "Koji od navedenih predstavljaju izraze (expression)?",
+    "answers": ["(x > 0) ? x : 0 (tacno)", "100 (tacno)", "x ?? y (tacno)", "x > {0}/[0]", "Nijedan"],
+    "correctAnswer": ["(x > 0) ? x : 0 (tacno)", "100 (tacno)", "x ?? y (tacno)"]
+  },
+  {
+    "id": 65,
+    "question": "Koji od navedenih predstavljaju izraze (expression)?",
+    "answers": ["(x > 0) ? x", "100 (tacno)", "x ?? y (tacno)", "(x > 0) ? x : 0 (tacno)", "Nijedan"],
+    "correctAnswer": ["100 (tacno)", "x ?? y (tacno)", "(x > 0) ? x : 0 (tacno)"]
+  },
+  {
+    "id": 66,
+    "question": "Poslednja faza procesa kompilacije je:",
+    "answers": ["Leksička analiza", "Generisanje međukoda", "Optimizacija koda", "Semantička analiza", "Nijedna od navedenih (tacno)"],
+    "correctAnswer": "Nijedna od navedenih (tacno)"
+  },
+  {
+    "id": 67,
+    "question": "U kojoj fazi procesa kompilacije se generiše tablica simbola?",
+    "answers": ["Generisanje koda", "Leksička analiza (tacno)", "Semantička analiza", "Sintaksna analiza", "Optimizacija koda"],
+    "correctAnswer": "Leksička analiza (tacno)"
+  },
+  {
+    "id": 68,
+    "question": "U kojoj fazi kompilacije se generiše međukod?",
+    "answers": ["Generisanje koda", "Leksička analiza", "Semantička analiza (tacno)", "Sintaksna analiza", "Optimizacija koda"],
+    "correctAnswer": "Semantička analiza (tacno)"
+  },
+  {
+    "id": 69,
+    "question": "Šta se dešava u fazi semantičke analize?",
+    "answers": ["Ažurira se tablica simbola (tacno)", "Generiše se parsno stablo", "Generiše se međukod (tacno)", "Generiše se izvršni kod", "Vrši se statička provera tipa (tacno)"],
+    "correctAnswer": ["Ažurira se tablica simbola (tacno)", "Generiše se međukod (tacno)", "Vrši se statička provera tipa (tacno)"]
+  },
+  {
+    "id": 70,
+    "question": "Koje aktivnosti se izvršavaju kod hibridnih implementacionih sistema?",
+    "answers": ["Generisanje koda", "Optimizacija koda", "Semantička analiza (tacno)", "Sintaksna analiza (tacno)", "Leksička analiza (tacno)", "Interpretiranje (tacno)"],
+    "correctAnswer": ["Semantička analiza (tacno)", "Sintaksna analiza (tacno)", "Leksička analiza (tacno)", "Interpretiranje (tacno)"]
+  },
+  {
+    "id": 71,
+    "question": "Common Intermediate Language / CIL se:",
+    "answers": ["Kompajlira (tacno)", "Interpretira", "Direktno izvršava"],
+    "correctAnswer": "Kompajlira (tacno)"
+  },
+  {
+    "id": 72,
+    "question": "Java kod se:",
+    "answers": ["Kompajlira (tacno)", "Interpretira (tacno)", "Direktno izvršava"],
+    "correctAnswer": ["Kompajlira (tacno)", "Interpretira (tacno)"]
+  },
+  {
+    "id": 73,
+    "question": "Koja su od navedenih tvrđenja tačna?",
+    "answers": ["Regularni izraz je šablon za prepoznavanje tokena. (tacno)", "Token uvek predstavlja tačno jedan leksem.", "BNF gramatika se koristi za opis semantike jezika.", "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila. (tacno)", "Parser prevodi niz tokena u parsno stablo. (tacno)", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."],
+    "correctAnswer": ["Regularni izraz je šablon za prepoznavanje tokena. (tacno)", "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila. (tacno)", "Parser prevodi niz tokena u parsno stablo. (tacno)"]
+  },
+  {
+    "id": 74,
+    "question": "Koja od navedenih NISU tačna tvrđenja?",
+    "answers": ["Leksem predstavlja grupu tokena (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom (tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"],
+    "correctAnswer": ["Leksem predstavlja grupu tokena (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom (tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)"]
+  },
+  {
+    "id": 75,
+    "question": "Koja od navedenih NISU tačna tvrđenja?",
+    "answers": ["Token uvek predstavlja tačno jedan leksem (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Sintaksna struktura jezika određuje da li su leksemi u skladu sa sintaksom", "Skener prevodi tekst programa u parsno stablo (tacno)", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"],
+    "correctAnswer": ["Token uvek predstavlja tačno jedan leksem (tacno)", "Semantika određuje validnost strukture jezičkih konstrukcija (tacno)", "Skener prevodi tekst programa u parsno stablo (tacno)"]
+  },
+  {
+    "id": 76,
+    "question": "Koje od navedenih NISU karakteristike LL parsera?",
+    "answers": ["Ulazni niz tokena procesira se sleva na desno", "Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)", "Grade parsno stablo od korena prema listovima", "Generišu se pomoću Bison softverskog alata (tacno)"],
+    "correctAnswer": ["Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)", "Generišu se pomoću Bison softverskog alata (tacno)"]
+  },
+  {
+    "id": 77,
+    "question": "Koji softverski alat omogućava generisanje LR parsera?",
+    "answers": ["Lex", "Yacc (tacno)", "Bison (tacno)", "ANTLR"],
+    "correctAnswer": ["Yacc (tacno)", "Bison (tacno)"]
+  },
+  {
+    "id": 78,
+    "question": "Koje su karakteristike LR parsera?",
+    "answers": ["Ulazni niz tokena procesira se sleva na desno (tacno)", "Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)", "Grade parsno stablo od korena prema listovima"],
+    "correctAnswer": ["Ulazni niz tokena procesira se sleva na desno (tacno)", "Koristi postupak redukcije koji je inverzan postupku desne derivacije (tacno)", "Podržavaju samo S-atributske gramatike (tacno)"]
+  },
+  {
+    "id": 79,
+    "question": "Koje su karakteristike S-atributske gramatike?",
+    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla (tacno)", "Koriste se samo nasleđeni atributi", "Koriste se samo sintetizovani atributi (tacno)", "Semantička analiza ne može da se izvršava za vreme parsiranja", "Podržane su u LL parserima"],
+    "correctAnswer": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla (tacno)", "Koriste se samo sintetizovani atributi (tacno)"]
+  },
+  {
+    "id": 80,
+    "question": "Koje su karakteristike S-atributske gramatike?",
+    "answers": ["Atributi se evaluiraju u breadth-first redosledu obilaska parsnog stabla", "Koriste se nasleđeni atributi", "Semantička analiza ne može da se izvršava u vreme parsiranja", "Tok evaluacije atributa je od dna ka vrhu parsnog stabla / bottom-up (tacno)"],
+    "correctAnswer": "Tok evaluacije atributa je od dna ka vrhu parsnog stabla / bottom-up (tacno)"
+  },
+  {
+    "id": 81,
+    "question": "Koje su karakteristike L-atributske gramatike?",
+    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla", "Koriste se nasleđeni atributi (tacno)", "Koriste se sintetizovani atributi (tacno)", "Semantička analiza može da se izvršava za vreme parsiranja (tacno)"],
+    "correctAnswer": ["Koriste se nasleđeni atributi (tacno)", "Koriste se sintetizovani atributi (tacno)", "Semantička analiza može da se izvršava za vreme parsiranja (tacno)"]
+  },
+  {
+    "id": 82,
+    "question": "Dato je produkciono pravilo sa dve semantičke akcije. Koja tvrđenja su tačna?\n\nL -> L1 B\nL1.x <- L.x + 1\nL.y <- L1.x + B.y",
+    "answers": ["x je nasleđeni atribut (tacno)", "x je sintetizovani atribut", "y je nasleđeni atribut", "y je sintetizovani atribut (tacno)", "Nijedno"],
+    "correctAnswer": ["x je nasleđeni atribut (tacno)", "y je sintetizovani atribut (tacno)"]
+  },
+  {
+    "id": 83,
+    "question": "Članice bez modifikatora pristupa u PJ Java vidljive su:",
+    "answers": ["Za članice date klase (tacno)", "Za članice svih izvedenih klasa", "Za članice friend klase", "Za članice drugih klasa u istom paketu (tacno)", "Za sve klase"],
+    "correctAnswer": ["Za članice date klase (tacno)", "Za članice drugih klasa u istom paketu (tacno)"]
+  },
+  {
+    "id": 84,
+    "question": "Entiteti označeni private klauzulom u C++ vidljivi su:",
+    "answers": ["Za članice date klase (tacno)", "Za članice svih izvedenih klasa", "Za članice friend klase (tacno)", "Za friend funkcije (tacno)", "Za sve funkcije"],
+    "correctAnswer": ["Za članice date klase (tacno)", "Za članice friend klase (tacno)", "Za friend funkcije (tacno)"]
+  },
+  {
+    "id": 85,
+    "question": "Koji modifikator pristupa bi se mogao navesti ispred članice Java klase da bi se obezbedilo da ona bude vidljiva za sve klase u istom paketu?",
+    "answers": ["Public (tacno)", "Protected (tacno)", "Private", "Internal", "Friend", "Modifikator pristupa bi se mogao izostaviti (tacno)"],
+    "correctAnswer": ["Public (tacno)", "Protected (tacno)", "Modifikator pristupa bi se mogao izostaviti (tacno)"]
+  },
+  {
+    "id": 86,
+    "question": "Koje su od navedenih naredbi ispravne?\n\nstatic class P\n{\n    public static double uMB(this int kB) => kB / 1000;\n}",
+    "answers": ["P.uMB(5); (tacno)", "5.uMB(); (tacno)", "5.0.uMB();", "((int)'#').uMB(); (tacno)", "new Paket().uMB(5);", "new Paket().kB.uMB(); (tacno)"],
+    "correctAnswer": ["P.uMB(5); (tacno)", "5.uMB(); (tacno)", "((int)'#').uMB(); (tacno)", "new Paket().kB.uMB(); (tacno)"]
+  },
+  {
+    "id": 87,
+    "question": "Koje su od navedenih naredbi ispravne?\n\nstatic class P { public static double uMB(this int kB) => kB / 1000; }",
+    "answers": ["5.uMB(); (tacno)", "5.0.uMB();", "'#'.uMB();", "P.uMB(5); (tacno)", "new Paket().poruka.uMB(); (tacno)", "Tip.Biznis.uMB();"],
+    "correctAnswer": ["5.uMB(); (tacno)", "P.uMB(5); (tacno)", "new Paket().poruka.uMB(); (tacno)"]
+  },
+  {
+    "id": 88,
+    "question": "Koji property klase Ugovor je ispravno definisan?",
+    "answers": ["public double Cena => cena; (tacno)", "public double Cena { get { cena; } }", "public double Cena { get => return cena; }", "public double Cena { get => (int)cena; } (tacno)", "public double Cena => return cena;", "public string Ispis { get { return $\"{cena}\"; } } (tacno)"],
+    "correctAnswer": ["public double Cena => cena; (tacno)", "public double Cena { get => (int)cena; } (tacno)", "public string Ispis { get { return $\"{cena}\"; } } (tacno)"]
+  },
+  {
+    "id": 89,
+    "question": "[NIJE SIGURNO] Koji property tipa Paket je ispravno definisan?",
+    "answers": ["internal int X => kB * 100; (tacno)", "public int KB(int value) => kB = value; (pdf tacno, chatgpt netacno)", "internal int KB { public get => kB; set => kB = value; }", "public int KB { get => kB; internal set => kB = value; } (tacno)", "public double MB { set { kB = value / 1000; } }", "public string K { set { int.TryParse(value, out kB); } } (tacno)"],
+    "correctAnswer": ["internal int X => kB * 100; (tacno)", "public int KB { get => kB; internal set => kB = value; } (tacno)", "public string K { set { int.TryParse(value, out kB); } } (tacno)"]
+  },
+  {
+    "id": 90,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Paket?",
+    "answers": ["static void A(Paket p) { p = new Paket(); p.poruka = 100; } (tacno)", "static void B(Paket p) => p.poruka = 100; (tacno)", "static void C(out Paket p) => p.poruka = 100;", "static void D(in Paket p) => p.poruka = 100;", "void E(in Paket p) => poruka = 100; (tacno)", "void F(byte poruka) => poruka = 100; (tacno)"],
+    "correctAnswer": ["static void A(Paket p) { p = new Paket(); p.poruka = 100; } (tacno)", "static void B(Paket p) => p.poruka = 100; (tacno)", "void E(in Paket p) => poruka = 100; (tacno)", "void F(byte poruka) => poruka = 100; (tacno)"]
+  },
+  {
+    "id": 91,
+    "question": "Koja od navedenih metoda ne bi mogla da se doda u tip Paket?",
+    "answers": ["void A() => this.poruka = 100;", "static void B(Paket p) => p.poruka = 100;", "static void C(out Paket p) => p.poruka = 100; (tacno)", "static void D(in Paket p) => p.poruka = 100; (tacno)", "void E(byte poruka) => poruka = -1; (tacno)", "void F(in Paket p) => poruka = 100;"],
+    "correctAnswer": ["static void C(out Paket p) => p.poruka = 100; (tacno)", "static void D(in Paket p) => p.poruka = 100; (tacno)", "void E(byte poruka) => poruka = -1; (tacno)"]
+  },
+  {
+    "id": 92,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Ugovor?",
+    "answers": ["public void A(int broj) { broj += this.broj; }", "public void B(ref int broj) { broj += broj; } (tacno)", "public void C(in int broj) { this.broj = this.broj; } (tacno)", "public void D(out int broj) { broj = this.broj; }", "public static void E(int broj) { this.broj += broj; }"],
+    "correctAnswer": ["public void B(ref int broj) { broj += broj; } (tacno)", "public void C(in int broj) { this.broj = this.broj; } (tacno)"]
+  },
+  {
+    "id": 93,
+    "question": "Koja od navedenih metoda bi se mogla dodati u tip Ugovor?",
+    "answers": ["public void A(Tip tip) { tip = this.tip; } (tacno)", "public static void B(Tip tip) { tip = 0; } (tacno)", "public void C(ref Tip tip) { tip = tip; } (tacno)", "public void D(out Tip tip) { this.tip = this.tip; }", "public void E(in Tip tip) { tip = this.tip; }"],
+    "correctAnswer": ["public void A(Tip tip) { tip = this.tip; } (tacno)", "public static void B(Tip tip) { tip = 0; } (tacno)", "public void C(ref Tip tip) { tip = tip; } (tacno)"]
+  },
+  {
+    "id": 94,
+    "question": "Koja od navedenih metoda bi mogla da se pozove na sledeći način?\n\nM(2, y:5)",
+    "answers": ["static void M(int x, double y) { } (tacno)", "static void M(int x, int y, params int[] z) { } (tacno)", "static void M(int x, params int[] y) { } (tacno)", "static void M(int x = 0, int y) { }", "static void M(int x = 5, int y = 10, int z = 20) { } (tacno)", "poziv nije ispravan"],
+    "correctAnswer": ["static void M(int x, double y) { } (tacno)", "static void M(int x, int y, params int[] z) { } (tacno)", "static void M(int x, params int[] y) { } (tacno)", "static void M(int x = 5, int y = 10, int z = 20) { } (tacno)"]
+  },
+  {
+    "id": 95,
+    "question": "[NIJE SIGURNO] Koji od navedenih poziva je ispravan?\n\nstatic void M1(int a, params int[] b) { }\nstatic void M2(int c = 5, int d = 10) { }",
+    "answers": ["M1(1, b: 5); (pdf tacno, chatgpt netacno)", "M1(5, 6, 7, 8); (tacno)", "M1(a: 5); (tacno)", "M2(5, d: 6); (tacno)", "M2(d: 5); (tacno)", "M2(d: 5, c: 6); (tacno)"],
+    "correctAnswer": ["M1(5, 6, 7, 8); (tacno)", "M1(a: 5); (tacno)", "M2(5, d: 6); (tacno)", "M2(d: 5); (tacno)", "M2(d: 5, c: 6); (tacno)"]
+  },
+  {
+    "id": 96,
+    "question": "Ako je definisana sledeća metoda, koja od navedenih NE bi mogle da se definišu u datoj klasi?\n\nvoid M(Tip t, ref int i, short s) => i = 0;",
+    "answers": ["void M(Tip t, out int i, short s) => i = 0; (tacno)", "public void M(Tip t, ref int i, short s) => i = 0; (tacno)", "void M(Tip t, ref int i, byte s) => i = 0;", "static void M(Tip t, ref int i, short s) => i = 0; (tacno)", "int M(Tip t, ref int i, short s, int d = 5) => i;", "void M(Tip t, in int i, short s) => s = (short)i; (tacno)"],
+    "correctAnswer": ["void M(Tip t, out int i, short s) => i = 0; (tacno)", "public void M(Tip t, ref int i, short s) => i = 0; (tacno)", "static void M(Tip t, ref int i, short s) => i = 0; (tacno)", "void M(Tip t, in int i, short s) => s = (short)i; (tacno)"]
+  },
+  {
+    "id": 97,
+    "question": "Ako je definisana sledeća metoda, koja od navedenih bi mogle da se definišu u datoj klasi?\n\nvoid M(Tip t, ref int i, short s) => i = 0;",
+    "answers": ["int M(Tip t, ref int i, short s) => 0;", "int M(Tip t, ref int i, short s, int d = 5) => 0; (tacno)", "int M(Tip t, in byte i, short s) => 0; (tacno)", "int M(Tip t, out int i, short s) => 0;", "static int M(Tip t, ref int i, short s) => 0;", "public int M(Tip t, ref int i, long s) => 0; (tacno)", "void M(Tip t, ref int i, short s) => 0;"],
+    "correctAnswer": ["int M(Tip t, ref int i, short s, int d = 5) => 0; (tacno)", "int M(Tip t, in byte i, short s) => 0; (tacno)", "public int M(Tip t, ref int i, long s) => 0; (tacno)"]
+  },
+  {
+    "id": 98,
+    "question": "Koje su od navedenih naredbi ispravne?\n\npublic class Broj\n{\n    public int broj;\n    public Broj(int b) { broj = b; }\n    public static Broj operator +(Broj b, int a) { b.broj += a; return b; }\n}\npublic class Podatak\n{\n    public Broj vrednost;\n    public Podatak(int v) { vrednost = new Broj(v); }\n    public static Podatak operator +(Podatak p, int a)\n    { p.vrednost += a; return p; }\n}\nBroj x = new Broj(5); Podatak y = new Podatak(10); int z = 1;",
+    "answers": ["y += z; (tacno)", "z += x;", "x += z; (tacno)", "y.vrednost = x + z; (tacno)", "x.broj = y + z;", "y.vrednost.broj = z + x.broj; (tacno)"],
+    "correctAnswer": ["y += z; (tacno)", "x += z; (tacno)", "y.vrednost = x + z; (tacno)", "y.vrednost.broj = z + x.broj; (tacno)"]
+  },
+  {
+    "id": 99,
+    "question": "Koje su od navedenih naredbi ispravne?\n\npublic class Broj\n{\n    public int broj;\n    public Broj(int b) { broj = b; }\n    public static Broj operator +(Broj b, int a) { b.broj += a; return b; }\n}\npublic class Podatak\n{\n    public Broj vrednost;\n    public Podatak(int v) { vrednost = new Broj(v); }\n    public static Podatak operator +(int a, Podatak p)\n    { p.vrednost += a; return p; }\n}\nBroj x = new Broj(5); Podatak y = new Podatak(10); int z = 1;",
+    "answers": ["z += (z + '1'); (tacno)", "z += x.broj + \"AB\";", "x += y.vrednost;", "y.vrednost = x + z; (tacno)", "z = x.broj + y.vrednost.broj; (tacno)", "x.broj = y.vrednost + z;"],
+    "correctAnswer": ["z += (z + '1'); (tacno)", "y.vrednost = x + z; (tacno)", "z = x.broj + y.vrednost.broj; (tacno)"]
+  }
+]
