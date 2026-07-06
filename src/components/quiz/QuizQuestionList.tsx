@@ -128,7 +128,7 @@ const QuizQuestionList: React.FC<QuizQuestionListProps> = ({ questions, onJumpTo
                     </div>
                     <div>
                       <div 
-                        className="text-[#111827] dark:text-white font-medium mb-2"
+                        className="text-[#111827] dark:text-white font-medium mb-2 whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
                       />
                       <div className="flex items-center">
@@ -179,7 +179,7 @@ const QuizQuestionList: React.FC<QuizQuestionListProps> = ({ questions, onJumpTo
                     </div>
                     <div className="flex-1">
                       <div 
-                        className="text-[#111827] dark:text-white font-medium mb-2"
+                        className="text-[#111827] dark:text-white font-medium mb-2 whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
                       />
                       <div className="flex flex-col space-y-2">
@@ -232,7 +232,7 @@ const QuizQuestionList: React.FC<QuizQuestionListProps> = ({ questions, onJumpTo
                     </div>
                     <div className="flex-1">
                       <div 
-                        className="text-[#111827] dark:text-white font-medium mb-2"
+                        className="text-[#111827] dark:text-white font-medium mb-2 whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
                       />
                       <div className="flex flex-col space-y-2">
@@ -285,7 +285,7 @@ const QuizQuestionList: React.FC<QuizQuestionListProps> = ({ questions, onJumpTo
                     </div>
                     <div>
                       <div 
-                        className="text-[#111827] dark:text-white font-medium mb-2"
+                        className="text-[#111827] dark:text-white font-medium mb-2 whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
                       />
                       <div className="flex items-center">
@@ -334,7 +334,7 @@ const QuizQuestionList: React.FC<QuizQuestionListProps> = ({ questions, onJumpTo
                     </div>
                     <div>
                       <div 
-                        className="text-[#111827] dark:text-white font-medium mb-2"
+                        className="text-[#111827] dark:text-white font-medium mb-2 whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
                       />
                       <div className="flex flex-col space-y-2">

@@ -87,7 +87,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
         <div className="p-8">
           <div className="mb-8">
             <div 
-              className="text-xl font-medium text-[#111827] dark:text-white mb-2"
+              className="text-xl font-medium text-[#111827] dark:text-white mb-2 whitespace-pre-wrap"
               dangerouslySetInnerHTML={{ __html: sanitizeHtml(question.question) }}
             />
           </div>

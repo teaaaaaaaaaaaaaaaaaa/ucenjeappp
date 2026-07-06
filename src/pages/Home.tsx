@@ -137,6 +137,8 @@ const Home: React.FC = () => {
         return '🎯';
       case 'PJ_entryLEVEL_unos':
         return '📝';
+      case 'ProgramskiJeziciDrugiDeo':
+        return '🧩';
       default:
         return '🧠';
     }
@@ -211,6 +213,8 @@ const Home: React.FC = () => {
         return 'PJ Entry Level - Ponuđeni';
       case 'PJ_entryLEVEL_unos':
         return 'PJ Entry Level - Unos odgovora';
+      case 'ProgramskiJeziciDrugiDeo':
+        return 'Programski Jezici - Drugi Deo';
       default:
         return subject;
     }

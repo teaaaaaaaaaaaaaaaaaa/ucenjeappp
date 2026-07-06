@@ -39,6 +39,7 @@ const SUBJECT_FILES: Record<string, string> = {
   'ProgramskiJezici_unos': '/data/ProgramskiJezici_unos.json',
   'PJ_entryLEVEL_ponudjeni': '/data/PJ_entryLEVEL_ponudjeni.json',
   'PJ_entryLEVEL_unos': '/data/PJ_entryLEVEL_unos.json',
+  'ProgramskiJeziciDrugiDeo': '/data/ProgramskiJeziciDrugiDeo.json',
 };
 
 /**
@@ -99,6 +100,7 @@ export const getAvailableSubjects = async (): Promise<string[]> => {
       'ProgramskiJezici_unos',
       'PJ_entryLEVEL_ponudjeni',
       'PJ_entryLEVEL_unos',
+      'ProgramskiJeziciDrugiDeo',
     ];
     return Promise.resolve(subjects);
   } catch (error) {

@@ -109,7 +109,7 @@ const McqView: React.FC<McqViewProps> = ({ question, onAnswer, onSkip }) => {
                   )}
                 </div>
                 <div
-                  className="flex-1"
+                  className="flex-1 whitespace-pre-wrap"
                   dangerouslySetInnerHTML={{ __html: sanitizeHtml(answer) }}
                 />
               </div>
