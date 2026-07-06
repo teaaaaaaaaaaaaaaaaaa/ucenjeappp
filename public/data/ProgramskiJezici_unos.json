@@ -208,5 +208,59 @@
     "question": "Šta se ispisuje, ako jezik prikazan niže podržava statički doseg?\n\nprogram Test;\nvar a: integer;\n\nprocedure Povecaj;\nbegin\n    a := a + 1;\nend;\n\nprocedure Print;\nbegin\n    a := a + 2; write(a);\nend;\n\nprocedure Prva;\nbegin\n    a := a + 3; Povecaj; Print;\nend;\n\nprocedure Druga;\nvar a: integer;\nbegin\n    a := 4; Povecaj; Print;\nend;\n\nbegin\n    a := 2; Povecaj; Prva; Print; Druga; Print;\nend.",
     "answers": [],
     "correctAnswer": "9111416"
+  },
+  {
+    "id": 225,
+    "question": "[NIJE SIGURNO] Zadatak na slici [JUL 2022]\nNapomena: pitanje je u slici; tekst nije dovoljno izvučen, proveriti originalnu sliku.",
+    "answers": [],
+    "correctAnswer": "Pitanje nije dostupno - proveriti originalnu sliku."
+  },
+  {
+    "id": 226,
+    "question": "[NIJE SIGURNO] Koje od navedenih tvrđenje je tačno za sledeći kod u C-u? [Kolokvijum 2022]\nNapomena: pitanje je u slici; u PDF-u je zaokružen odgovor C i F.",
+    "answers": [],
+    "correctAnswer": "C, F (iz slike)"
+  },
+  {
+    "id": 227,
+    "question": "Koje tvrđenje je tačno? [Kolokvijum 2022]\nNapomena: pitanje je u slici; u PDF-u je zaokruženo B.",
+    "answers": [],
+    "correctAnswer": "B. a je stack-dinamička promenljiva. (tacno)"
+  },
+  {
+    "id": 228,
+    "question": "Koji od navedenih primera ilustruje dinamičko povezivanje sa memorijskom lokacijom? [Kolokvijum 2024]\nNapomena: pitanje je u slici; u PDF-u su zaokruženi E i F.",
+    "answers": [],
+    "correctAnswer": "E, F (iz slike)"
+  },
+  {
+    "id": 229,
+    "question": "[NIJE SIGURNO] Koji od navedenih C++ kodova dovodi do garbage promenljive, a koji do dangling reference [Kolokvijum 2024]\nNapomena: pitanje je u slici. PDF rukom označava: prvi kod = dangling, drugi kod = garbage, treći kod = garbage.",
+    "answers": [],
+    "correctAnswer": "Prvi kod = dangling reference; Drugi kod = garbage promenljiva; Treći kod = garbage promenljiva"
+  },
+  {
+    "id": 230,
+    "question": "[NIJE SIGURNO] Koji od navedenih C++ kodova NE dovodi do dangling reference [Jul 2024]\nNapomena: tekst pitanja nije izvučen iz slike. Potrebno proveriti originalnu sliku.",
+    "answers": [],
+    "correctAnswer": "Odgovor nije dostupan - proveriti originalnu sliku."
+  },
+  {
+    "id": 231,
+    "question": "Koja promenljiva ima najkraći životni vek? [Jun 2024]\n\nint a = 1;\nvoid A(int b) {\n    int *c = &b;\n    float d = 5;\n    static int e = 0;\n    printf(\"%d\", ++e);\n    printf(\"%f\", ++d);\n}",
+    "answers": [],
+    "correctAnswer": "b, c, d (chatgpt tacno)"
+  },
+  {
+    "id": 232,
+    "question": "Da li sledeći kod u C proizvodi bočne efekte? [Kolokvijum 2022]\nNapomena: u izvučenom tekstu nema konkretnog koda, već samo teorija o prenosu parametara. Potrebno proveriti originalnu sliku.",
+    "answers": [],
+    "correctAnswer": "Odgovor nije dostupan - proveriti originalnu sliku."
+  },
+  {
+    "id": 233,
+    "question": "Koja su od navedenih tvrđenja tačna? [JUN 2025]\n\nA. Leksem predstavlja grupu tokena.\nB. Semantika određuje validnost strukture jezičkih konstrukcija.\nC. Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.\nD. Skener prevodi tekst programa u parsno stablo.\nE. Listovi parsnog stabla sadrže i terminale i neterminale.\nF. Desna strana produkcionog pravila u BNF gramatici sadrži isključivo terminale.",
+    "answers": [],
+    "correctAnswer": "nijedno (chatgpt tacno)"
   }
 ]

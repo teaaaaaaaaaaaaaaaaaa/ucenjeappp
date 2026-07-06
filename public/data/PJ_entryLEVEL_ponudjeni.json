@@ -23,10 +23,7 @@
       "korišćenje alijasa",
       "odsustvo podrške za logički tip podatka u PJ"
     ],
-    "correctAnswer": [
-      "postojanje rezervisanih reči koje nisu ključne",
-      "korišćenje alijasa"
-    ]
+    "correctAnswer": "postojanje rezervisanih reči koje nisu ključne"
   },
   {
     "id": 3,
@@ -92,8 +89,7 @@
     "correctAnswer": [
       "Provera tipa u vreme kompajliranja programa",
       "Ograničavanje alijasa",
-      "Obrada grešaka tokom izvršavanja",
-      "Implicitno deklarisanje tipa promenljive"
+      "Obrada grešaka tokom izvršavanja"
     ]
   },
   {
@@ -250,11 +246,14 @@
     "question": "[NIJE SIGURNO] Koji od navedenih primera ilustruje dinamičko povezivanje i sa tipom i sa memorijskom lokacijom?",
     "answers": [
       "var x = 1; (C#)",
-      "dynamic x = 1; (C#) (pdf tacno, chatgpt netacno)",
+      "dynamic x = 1; (C#)",
       "var x = 1; (JavaScript)",
       "x = 1; (FORTRAN)"
     ],
-    "correctAnswer": "var x = 1; (JavaScript)"
+    "correctAnswer": [
+      "var x = 1; (JavaScript)",
+      "dynamic x = 1; (C#)"
+    ]
   },
   {
     "id": 18,
@@ -280,7 +279,8 @@
     "correctAnswer": [
       "var x = 1; (C#)",
       "IX = 1; (FORTRAN)",
-      "REAL = 1; (FORTRAN)"
+      "REAL = 1; (FORTRAN)",
+      "let x = 1; (JavaScript)"
     ]
   },
   {
@@ -335,15 +335,16 @@
     "id": 23,
     "question": "[NIJE SIGURNO] Koja tvrđenja nisu tačna?",
     "answers": [
-      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (ovo)",
-      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (ovo)",
-      "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive (ovo)",
-      "Ključna reč ne može da se iskoristi kao identifikator (pdf tacno, chatgpt netacno)"
+      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa",
+      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa",
+      "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive",
+      "Ključna reč ne može da se iskoristi kao identifikator"
     ],
     "correctAnswer": [
-      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa (ovo)",
-      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa (ovo)",
-      "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive (ovo)"
+      "Povezivanje svih promenljivih sa memorijskim lokacijama odvija se u vreme izvršavanja programa",
+      "Kod statičkog povezivanja sa memorijskom lokacijom vrednost promenljive se ne menja u toku izvršenja programa",
+      "Mesto deklaracije promenljive u programu nikada ne može uticati na dozvoljeni naziv promenljive",
+      "Ključna reč ne može da se iskoristi kao identifikator"
     ]
   },
   {
@@ -386,7 +387,8 @@
     ],
     "correctAnswer": [
       "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;",
-      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)"
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np1 = p2;\ndelete p1; (chatgpt tacno)",
+      "int *p1;\np1 = new int;\n*p1 = 1;\nint *p2;\np2 = new int;\np2 = p1;\ndelete p1;"
     ]
   },
   {
@@ -675,7 +677,7 @@
     ],
     "correctAnswer": [
       "Klasa",
-      "Assembly"
+      "Namespace"
     ]
   },
   {
