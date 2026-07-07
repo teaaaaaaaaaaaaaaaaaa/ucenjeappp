@@ -2,386 +2,914 @@
   {
     "id": 1,
     "question": "Specifikacija elementarnog tipa podatka NE obuhvata:",
-    "answers": ["naziv", "reprezentaciju", "operacije", "implementaciju operacija"],
-    "correctAnswer": ["reprezentaciju", "implementaciju operacija"]
+    "answers": [
+      "naziv",
+      "reprezentaciju",
+      "operacije",
+      "implementaciju operacija"
+    ],
+    "correctAnswer": [
+      "reprezentaciju",
+      "implementaciju operacija"
+    ]
   },
   {
     "id": 2,
     "question": "Enkapsulaciona konstrukcija u programskom jeziku C++ je:",
-    "answers": ["Klasa", "package", "namespace", "Assembly", "Header datoteka i implementaciona datoteka"],
-    "correctAnswer": ["Klasa", "Header datoteka i implementaciona datoteka"]
+    "answers": [
+      "Klasa",
+      "package",
+      "namespace",
+      "Assembly",
+      "Header datoteka i implementaciona datoteka"
+    ],
+    "correctAnswer": [
+      "Klasa",
+      "Header datoteka i implementaciona datoteka"
+    ]
   },
   {
     "id": 3,
     "question": "Enkapsulacija imena u programskom jeziku C++ je:",
-    "answers": ["Klasa", "package", "namespace", "Assembly", "Header datoteka i implementaciona datoteka"],
+    "answers": [
+      "Klasa",
+      "package",
+      "namespace",
+      "Assembly",
+      "Header datoteka i implementaciona datoteka"
+    ],
     "correctAnswer": "namespace"
   },
   {
     "id": 4,
     "question": "U programskom jeziku Ada vidljivost imena definisanog u eksternim paketima se obezbeđuje:",
-    "answers": ["include klauzulom", "import klauzulom", "with klauzulom", "use klauzulom", "using klauzulom"],
+    "answers": [
+      "include klauzulom",
+      "import klauzulom",
+      "with klauzulom",
+      "use klauzulom",
+      "using klauzulom"
+    ],
     "correctAnswer": "with klauzulom"
   },
   {
     "id": 5,
     "question": "Koji, od navedenih programskih jezika, koristi imenovanu enkapsulaciju package?",
-    "answers": ["C++", "Java", "Ada", "C#"],
-    "correctAnswer": ["Java", "Ada"]
+    "answers": [
+      "C++",
+      "Java",
+      "Ada",
+      "C#"
+    ],
+    "correctAnswer": [
+      "Java",
+      "Ada"
+    ]
   },
   {
     "id": 6,
     "question": "Koji, od navedenih programskih jezika, koristi imenovanu enkapsulaciju namespace?",
-    "answers": ["C++", "Java", "Ada", "C#"],
-    "correctAnswer": ["C++", "C#"]
+    "answers": [
+      "C++",
+      "Java",
+      "Ada",
+      "C#"
+    ],
+    "correctAnswer": [
+      "C++",
+      "C#"
+    ]
   },
   {
     "id": 7,
     "question": "U kojim, od navedenih jezika, postoji koncept promenljive?",
-    "answers": ["Lisp", "Haskell", "Python", "Scala", "Prolog", "ML"],
-    "correctAnswer": ["Python", "Scala", "Prolog", "ML"]
+    "answers": [
+      "Lisp",
+      "Haskell",
+      "Python",
+      "Scala",
+      "Prolog",
+      "ML"
+    ],
+    "correctAnswer": [
+      "Python",
+      "Scala",
+      "Prolog",
+      "ML"
+    ]
   },
   {
     "id": 8,
     "question": "Koja vrsta programskog jezika pripada klasi deklarativnih jezika?",
-    "answers": ["funkcionalni", "imperativni", "logički", "objektno-orijentisani"],
-    "correctAnswer": ["funkcionalni", "logički"]
+    "answers": [
+      "funkcionalni",
+      "imperativni",
+      "logički",
+      "objektno-orijentisani"
+    ],
+    "correctAnswer": [
+      "funkcionalni",
+      "logički"
+    ]
   },
   {
     "id": 9,
     "question": "Koja faza može biti pretposlednja u fazi kompilacije?",
-    "answers": ["Generisanje koda", "Sintaksna analiza", "Optimizacija koda", "Leksička analiza", "Semantička analiza"],
-    "correctAnswer": ["Optimizacija koda", "Semantička analiza"]
+    "answers": [
+      "Generisanje koda",
+      "Sintaksna analiza",
+      "Optimizacija koda",
+      "Leksička analiza",
+      "Semantička analiza"
+    ],
+    "correctAnswer": [
+      "Optimizacija koda",
+      "Semantička analiza"
+    ]
   },
   {
     "id": 10,
     "question": "Koje su karakteristike L-atributske gramatike?",
-    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla", "Koriste se nasleđeni atributi", "Koriste se sintetizovani atributi", "Semantička analiza može da se izvršava za vreme parsiranja"],
-    "correctAnswer": ["Koriste se nasleđeni atributi", "Koriste se sintetizovani atributi"]
+    "answers": [
+      "Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla",
+      "Koriste se nasleđeni atributi",
+      "Koriste se sintetizovani atributi",
+      "Semantička analiza može da se izvršava za vreme parsiranja"
+    ],
+    "correctAnswer": [
+      "Koriste se nasleđeni atributi",
+      "Koriste se sintetizovani atributi"
+    ]
   },
   {
     "id": 11,
     "question": "Koje su karakteristike LR parsera?",
-    "answers": ["Ulazni niz tokena procesira se sa desna na levo", "Grade parsno stablo od korena prema listovima", "Podržavaju samo S-atributske gramatike", "Koristi postupak redukcije koji je inverzan postupku desne derivacije"],
-    "correctAnswer": ["Podržavaju samo S-atributske gramatike", "Koristi postupak redukcije koji je inverzan postupku desne derivacije"]
+    "answers": [
+      "Ulazni niz tokena procesira se sa desna na levo",
+      "Grade parsno stablo od korena prema listovima",
+      "Podržavaju samo S-atributske gramatike",
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije"
+    ],
+    "correctAnswer": [
+      "Podržavaju samo S-atributske gramatike",
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije"
+    ]
   },
   {
     "id": 12,
     "question": "Common Intermediate Language (CIL) se:",
-    "answers": ["Interpretira", "Kompajlira", "Direktno izvršava"],
+    "answers": [
+      "Interpretira",
+      "Kompajlira",
+      "Direktno izvršava"
+    ],
     "correctAnswer": "Kompajlira"
   },
   {
     "id": 13,
     "question": "Koje su, od navedenih, karakteristike LR parsera?",
-    "answers": ["Ulazni niz tokena procesuira se sleva na desno", "Koristi postupak redukcije koji je inverzan postupku desne derivacije", "Podržavaju samo S-atributske gramatike", "Grade parsno stablo od korena prema listovima"],
-    "correctAnswer": ["Ulazni niz tokena procesuira se sleva na desno", "Koristi postupak redukcije koji je inverzan postupku desne derivacije", "Podržavaju samo S-atributske gramatike"]
+    "answers": [
+      "Ulazni niz tokena procesuira se sleva na desno",
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije",
+      "Podržavaju samo S-atributske gramatike",
+      "Grade parsno stablo od korena prema listovima"
+    ],
+    "correctAnswer": [
+      "Ulazni niz tokena procesuira se sleva na desno",
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije",
+      "Podržavaju samo S-atributske gramatike"
+    ]
   },
   {
     "id": 14,
     "question": "Koja su od navedenih tvrđenja tačna?",
-    "answers": ["Regularni izraz je šablon za prepoznavanje tokena.", "Token uvek predstavlja tačno jedan leksem.", "BNF gramatika se koristi za opis semantike jezika.", "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila.", "Parser prevodi niz tokena u parsno stablo.", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."],
-    "correctAnswer": ["Regularni izraz je šablon za prepoznavanje tokena.", "Parser prevodi niz tokena u parsno stablo."]
+    "answers": [
+      "Regularni izraz je šablon za prepoznavanje tokena.",
+      "Token uvek predstavlja tačno jedan leksem.",
+      "BNF gramatika se koristi za opis semantike jezika.",
+      "U BNF gramatici terminali se uvek nalaze na desnoj strani pravila.",
+      "Parser prevodi niz tokena u parsno stablo.",
+      "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."
+    ],
+    "correctAnswer": [
+      "Regularni izraz je šablon za prepoznavanje tokena.",
+      "Parser prevodi niz tokena u parsno stablo."
+    ]
   },
   {
     "id": 15,
     "question": "Enkapsulaciona konstrukcija u programskom jeziku C je:",
-    "answers": ["Package", "Klasa", "Assembly", "Namespace", "Header file"],
+    "answers": [
+      "Package",
+      "Klasa",
+      "Assembly",
+      "Namespace",
+      "Header file"
+    ],
     "correctAnswer": "Header file"
   },
   {
     "id": 16,
     "question": "Karakteristika apstraktnog tipa podataka koja omogućava:",
-    "answers": ["Skrivanje informacija", "Parametrizacija", "Polimorfizam", "Nasleđivanje", "Enkapsulacija"],
-    "correctAnswer": ["Skrivanje informacija", "Enkapsulacija"]
+    "answers": [
+      "Skrivanje informacija",
+      "Parametrizacija",
+      "Polimorfizam",
+      "Nasleđivanje",
+      "Enkapsulacija"
+    ],
+    "correctAnswer": [
+      "Skrivanje informacija",
+      "Enkapsulacija"
+    ]
   },
   {
     "id": 17,
     "question": "Članice klase u Java paketu (package) koje nemaju modifikator pristupa vidljive su:",
-    "answers": ["za klase van tog paketa", "za druge klase u tom paketu", "za članice date klase"],
-    "correctAnswer": ["za druge klase u tom paketu", "za članice date klase"]
+    "answers": [
+      "za klase van tog paketa",
+      "za druge klase u tom paketu",
+      "za članice date klase"
+    ],
+    "correctAnswer": [
+      "za druge klase u tom paketu",
+      "za članice date klase"
+    ]
   },
   {
     "id": 18,
     "question": "Program napisan u programskom jeziku Haskell sastoji se od:",
-    "answers": ["Sekvence instrukcija", "Skupa činjenica i pravila izvođenja", "Kompozicije primene funkcija", "Skupa objekata koji razmenjuju poruke"],
+    "answers": [
+      "Sekvence instrukcija",
+      "Skupa činjenica i pravila izvođenja",
+      "Kompozicije primene funkcija",
+      "Skupa objekata koji razmenjuju poruke"
+    ],
     "correctAnswer": "Kompozicije primene funkcija"
   },
   {
     "id": 19,
     "question": "Lambda izraz predstavlja:",
-    "answers": ["Tip promenljive", "Apstraktnu klasu", "Selekciju", "funkciju", "Činjenicu"],
+    "answers": [
+      "Tip promenljive",
+      "Apstraktnu klasu",
+      "Selekciju",
+      "funkciju",
+      "Činjenicu"
+    ],
     "correctAnswer": "funkciju"
   },
   {
     "id": 20,
     "question": "Koje koncepte podržava programski jezik ML?",
-    "answers": ["dodeljivanje", "primena funkcije", "unifikacija", "promenljive"],
-    "correctAnswer": ["dodeljivanje", "primena funkcije", "promenljive"]
+    "answers": [
+      "dodeljivanje",
+      "primena funkcije",
+      "unifikacija",
+      "promenljive"
+    ],
+    "correctAnswer": [
+      "dodeljivanje",
+      "primena funkcije",
+      "promenljive"
+    ]
   },
   {
     "id": 21,
     "question": "U kojoj fazi procesa kompilacije se generiše tablica simbola?",
-    "answers": ["Generisanje koda", "Leksička analiza", "Semantička analiza", "Sintaksna analiza", "Optimizacija koda"],
+    "answers": [
+      "Generisanje koda",
+      "Leksička analiza",
+      "Semantička analiza",
+      "Sintaksna analiza",
+      "Optimizacija koda"
+    ],
     "correctAnswer": "Leksička analiza"
   },
   {
     "id": 22,
     "question": "Koje su od navedenih karakteristike S-atributske gramatike?",
-    "answers": ["Atributi se evaluiraju u breadth-first redosledu obilaska parsnog stabla.", "Koriste se nasleđeni atributi.", "Semantička analiza ne može da se izvršava u vreme parsiranja.", "Tok evaluacije atributa je od dna ka vrhu parsnog stabla (bottom up)."],
+    "answers": [
+      "Atributi se evaluiraju u breadth-first redosledu obilaska parsnog stabla.",
+      "Koriste se nasleđeni atributi.",
+      "Semantička analiza ne može da se izvršava u vreme parsiranja.",
+      "Tok evaluacije atributa je od dna ka vrhu parsnog stabla (bottom up)."
+    ],
     "correctAnswer": "Tok evaluacije atributa je od dna ka vrhu parsnog stabla (bottom up)."
   },
   {
     "id": 23,
     "question": "Metoda koja obezbeđuje vidljivost interfejsa ATP u C++ je:",
-    "answers": ["Implementaciona datoteka", "Specification package", "Public modifikator pristupa", "Public klauzula", "Ništa od navedenog"],
+    "answers": [
+      "Implementaciona datoteka",
+      "Specification package",
+      "Public modifikator pristupa",
+      "Public klauzula",
+      "Ništa od navedenog"
+    ],
     "correctAnswer": "Public klauzula"
   },
   {
     "id": 24,
     "question": "Koje koncepte podržava programski jezik Python?",
-    "answers": ["dodeljivanje", "primena funkcija", "unifikacija", "razmena poruka", "iteracija", "promenljive"],
-    "correctAnswer": ["dodeljivanje", "primena funkcija", "razmena poruka", "iteracija", "promenljive"]
+    "answers": [
+      "dodeljivanje",
+      "primena funkcija",
+      "unifikacija",
+      "razmena poruka",
+      "iteracija",
+      "promenljive"
+    ],
+    "correctAnswer": [
+      "dodeljivanje",
+      "primena funkcija",
+      "razmena poruka",
+      "iteracija",
+      "promenljive"
+    ]
   },
   {
     "id": 25,
     "question": "Koji od navedenih koncepata predstavljaju enkapsulacione konstrukcije?",
-    "answers": ["Package", "Klasa", "Assembly", "Namespace", "Header file"],
-    "correctAnswer": ["Package", "Assembly", "Namespace", "Header file"]
+    "answers": [
+      "Package",
+      "Klasa",
+      "Assembly",
+      "Namespace",
+      "Header file"
+    ],
+    "correctAnswer": [
+      "Package",
+      "Assembly",
+      "Namespace",
+      "Header file"
+    ]
   },
   {
     "id": 26,
     "question": "Koje koncepte podržava programski jezik Prolog?",
-    "answers": ["Dodeljivanje", "Primena funkcija", "Unifikacija", "Razmena poruka", "Selekcija", "Promenljive"],
-    "correctAnswer": ["Unifikacija", "Promenljive"]
+    "answers": [
+      "Dodeljivanje",
+      "Primena funkcija",
+      "Unifikacija",
+      "Razmena poruka",
+      "Selekcija",
+      "Promenljive"
+    ],
+    "correctAnswer": [
+      "Unifikacija",
+      "Promenljive"
+    ]
   },
   {
     "id": 27,
     "question": "Šta predstavlja sledeći kod u programskom jeziku LISP? (a b c)",
-    "answers": ["Atom", "Promenljivu", "Prostu listu", "Ugnježdenu listu", "Definiciju funkcije", "Primenu funkcije"],
-    "correctAnswer": ["Prostu listu", "Primenu funkcije"]
+    "answers": [
+      "Atom",
+      "Promenljivu",
+      "Prostu listu",
+      "Ugnježdenu listu",
+      "Definiciju funkcije",
+      "Primenu funkcije"
+    ],
+    "correctAnswer": [
+      "Prostu listu",
+      "Primenu funkcije"
+    ]
   },
   {
     "id": 28,
     "question": "U kojoj fazi kompilacije se generiše međukod?",
-    "answers": ["Generisanje koda", "Leksička analiza", "Semantička analiza", "Sintaksna analiza", "Optimizacija koda"],
+    "answers": [
+      "Generisanje koda",
+      "Leksička analiza",
+      "Semantička analiza",
+      "Sintaksna analiza",
+      "Optimizacija koda"
+    ],
     "correctAnswer": "Semantička analiza"
   },
   {
     "id": 29,
     "question": "Koji softverski alat omogućava generisanje LR parsera?",
-    "answers": ["Lex", "Yacc", "Bison", "ANTLR"],
-    "correctAnswer": ["Yacc", "Bison"]
+    "answers": [
+      "Lex",
+      "Yacc",
+      "Bison",
+      "ANTLR"
+    ],
+    "correctAnswer": [
+      "Yacc",
+      "Bison"
+    ]
   },
   {
     "id": 30,
     "question": "Koje od navedenih NISU karakteristike S-atributske gramatike?",
-    "answers": ["Koriste se sintetizovani atributi", "Koriste se nasleđeni atributi", "Semantička analiza može da se izvršava za vreme parsiranja"],
+    "answers": [
+      "Koriste se sintetizovani atributi",
+      "Koriste se nasleđeni atributi",
+      "Semantička analiza može da se izvršava za vreme parsiranja"
+    ],
     "correctAnswer": "Koriste se nasleđeni atributi"
   },
   {
     "id": 31,
     "question": "Koja od navedenih NISU tačna tvrđenja?",
-    "answers": ["Leksem predstavlja grupu tokena.", "Semantika određuje validnost strukture jezičkih konstrukcija.", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.", "Skener prevodi tekst programa u parsno stablo.", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom."],
-    "correctAnswer": ["Leksem predstavlja grupu tokena.", "Semantika određuje validnost strukture jezičkih konstrukcija.", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.", "Skener prevodi tekst programa u parsno stablo.", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom."]
+    "answers": [
+      "Leksem predstavlja grupu tokena.",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.",
+      "Skener prevodi tekst programa u parsno stablo.",
+      "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom."
+    ],
+    "correctAnswer": [
+      "Leksem predstavlja grupu tokena.",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.",
+      "Skener prevodi tekst programa u parsno stablo.",
+      "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom."
+    ]
   },
   {
     "id": 32,
     "question": "Koje od navedenih NISU karakteristike LL parsera?",
-    "answers": ["Ulazni niz tokena procesira se sleva na desno", "Koristi postupak redukcije koji je inverzan postupku desne derivacije", "Podržavaju samo S-atributske gramatike", "Grade parsno stablo od korena prema listovima", "Generišu se pomoću Bison softverskog alata"],
-    "correctAnswer": ["Koristi postupak redukcije koji je inverzan postupku desne derivacije", "Podržavaju samo S-atributske gramatike", "Generišu se pomoću Bison softverskog alata"]
+    "answers": [
+      "Ulazni niz tokena procesira se sleva na desno",
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije",
+      "Podržavaju samo S-atributske gramatike",
+      "Grade parsno stablo od korena prema listovima",
+      "Generišu se pomoću Bison softverskog alata"
+    ],
+    "correctAnswer": [
+      "Koristi postupak redukcije koji je inverzan postupku desne derivacije",
+      "Podržavaju samo S-atributske gramatike",
+      "Generišu se pomoću Bison softverskog alata"
+    ]
   },
   {
     "id": 33,
     "question": "Korisniku apstraktnog tipa podataka NISU vidljivi:",
-    "answers": ["naziv tipa", "reprezentacija tipa", "operacije", "implementacija operacije"],
-    "correctAnswer": ["reprezentacija tipa", "implementacija operacije"]
+    "answers": [
+      "naziv tipa",
+      "reprezentacija tipa",
+      "operacije",
+      "implementacija operacije"
+    ],
+    "correctAnswer": [
+      "reprezentacija tipa",
+      "implementacija operacije"
+    ]
   },
   {
     "id": 34,
     "question": "U programskom jeziku Ada, eliminisanje potrebe za eksplicitnom kvalifikacijom referenci na imena definisana u paketu obezbeđuje se:",
-    "answers": ["include klauzulom", "import klauzulom", "with klauzulom", "use klauzulom", "using klauzulom"],
+    "answers": [
+      "include klauzulom",
+      "import klauzulom",
+      "with klauzulom",
+      "use klauzulom",
+      "using klauzulom"
+    ],
     "correctAnswer": "use klauzulom"
   },
   {
     "id": 35,
     "question": "Enkapsulaciona konstrukcija u programskom jeziku C# je:",
-    "answers": ["Klasa", "Package", "Assembly", "Namespace", "Header datoteka (implementaciona datoteka)"],
+    "answers": [
+      "Klasa",
+      "Package",
+      "Assembly",
+      "Namespace",
+      "Header datoteka (implementaciona datoteka)"
+    ],
     "correctAnswer": "Assembly"
   },
   {
     "id": 36,
     "question": "Koja su, od navedenih, enkapsulaciona imena?",
-    "answers": ["Header datoteka (implementaciona datoteka u C++)", "Package u Java", "Assembly (sklop) u C#", "Namespace u C#"],
-    "correctAnswer": ["Package u Java", "Namespace u C#"]
+    "answers": [
+      "Header datoteka (implementaciona datoteka u C++)",
+      "Package u Java",
+      "Assembly (sklop) u C#",
+      "Namespace u C#"
+    ],
+    "correctAnswer": [
+      "Package u Java",
+      "Namespace u C#"
+    ]
   },
   {
     "id": 37,
     "question": "Interna reprezentacija znakovnog tipa može biti:",
-    "answers": ["preko BCD kôda", "preko ASCII kôda", "preko Unicode-a", "preko byte kôda", "preko mantise i eksponenta", "direktna – bez kôda"],
-    "correctAnswer": ["preko BCD kôda", "preko ASCII kôda", "preko Unicode-a"]
+    "answers": [
+      "preko BCD kôda",
+      "preko ASCII kôda",
+      "preko Unicode-a",
+      "preko byte kôda",
+      "preko mantise i eksponenta",
+      "direktna – bez kôda"
+    ],
+    "correctAnswer": [
+      "preko BCD kôda",
+      "preko ASCII kôda",
+      "preko Unicode-a"
+    ]
   },
   {
     "id": 38,
     "question": "Koje koncepte podržava programski jezik Scala?",
-    "answers": ["Dodeljivanje", "Primena funkcija", "Unifikacija", "Razmena poruka", "Selekcija", "Promenljive"],
-    "correctAnswer": ["Dodeljivanje", "Primena funkcija", "Razmena poruka", "Promenljive"]
+    "answers": [
+      "Dodeljivanje",
+      "Primena funkcija",
+      "Unifikacija",
+      "Razmena poruka",
+      "Selekcija",
+      "Promenljive"
+    ],
+    "correctAnswer": [
+      "Dodeljivanje",
+      "Primena funkcija",
+      "Razmena poruka",
+      "Promenljive"
+    ]
   },
   {
     "id": 39,
     "question": "Koliko elemenata sadrži sledeća lista (definisana u LISP-u): ((1 (2 3)) 4 5 (6 (7 8) 9))",
-    "answers": ["9", "7", "5", "4", "3", "1"],
+    "answers": [
+      "9",
+      "7",
+      "5",
+      "4",
+      "3",
+      "1"
+    ],
     "correctAnswer": "4"
   },
   {
     "id": 40,
     "question": "U programskom jeziku C++ se u implementacionoj datoteci obično nalaze:",
-    "answers": ["implementacija funkcija klase", "prototipovi funkcija klase", "interna reprezentacija klase", "međukod"],
+    "answers": [
+      "implementacija funkcija klase",
+      "prototipovi funkcija klase",
+      "interna reprezentacija klase",
+      "međukod"
+    ],
     "correctAnswer": "implementacija funkcija klase"
   },
   {
     "id": 41,
     "question": "Java kod se:",
-    "answers": ["Kompajlira", "Interpretira", "Direktno izvršava"],
-    "correctAnswer": "Kompajlira"
+    "answers": [
+      "Kompajlira",
+      "Interpretira",
+      "Direktno izvršava"
+    ],
+    "correctAnswer": [
+      "Kompajlira",
+      "Interpretira"
+    ]
   },
   {
     "id": 42,
     "question": "Koje od navedenih NISU karakteristike LL parsera?",
-    "answers": ["Ulazni niz tokena procesira se s desna na levo", "Koriste se nasleđeni atributi", "Grade parsno stablo od korena prema listovima"],
+    "answers": [
+      "Ulazni niz tokena procesira se s desna na levo",
+      "Koriste se nasleđeni atributi",
+      "Grade parsno stablo od korena prema listovima"
+    ],
     "correctAnswer": "Ulazni niz tokena procesira se s desna na levo"
   },
   {
     "id": 43,
     "question": "Koja od navedenih NISU tačna tvrđenja?",
-    "answers": ["Token uvek predstavlja tačno jedan leksem", "Semantika određuje validnost strukture jezičkih konstrukcija", "Sintaksna struktura jezika određuje da li su leksemi u skladu sa sintaksom", "Skener prevodi tekst programa u parsno stablo", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"],
-    "correctAnswer": ["Token uvek predstavlja tačno jedan leksem", "Semantika određuje validnost strukture jezičkih konstrukcija", "Skener prevodi tekst programa u parsno stablo", "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"]
+    "answers": [
+      "Token uvek predstavlja tačno jedan leksem",
+      "Semantika određuje validnost strukture jezičkih konstrukcija",
+      "Sintaksna struktura jezika određuje da li su leksemi u skladu sa sintaksom",
+      "Skener prevodi tekst programa u parsno stablo",
+      "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"
+    ],
+    "correctAnswer": [
+      "Token uvek predstavlja tačno jedan leksem",
+      "Semantika određuje validnost strukture jezičkih konstrukcija",
+      "Skener prevodi tekst programa u parsno stablo",
+      "Jezik definisan regularnim izrazom ne može se uvek izraziti BNF gramatikom"
+    ]
   },
   {
     "id": 44,
     "question": "Koje su, od navedenih, karakteristike S-atributske gramatike?",
-    "answers": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla", "Koriste se samo nasleđeni atributi", "Koriste se samo sintetizovani atributi", "Semantička analiza ne može da se izvršava za vreme parsiranja", "Podržane su u LL parserima"],
-    "correctAnswer": ["Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla", "Koriste se samo sintetizovani atributi", "Podržane su u LL parserima"]
+    "answers": [
+      "Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla",
+      "Koriste se samo nasleđeni atributi",
+      "Koriste se samo sintetizovani atributi",
+      "Semantička analiza ne može da se izvršava za vreme parsiranja",
+      "Podržane su u LL parserima"
+    ],
+    "correctAnswer": [
+      "Atributi se evaluiraju u postorder redosledu obilaska parsnog stabla",
+      "Koriste se samo sintetizovani atributi",
+      "Podržane su u LL parserima"
+    ]
   },
   {
     "id": 45,
     "question": "Koji od navedenih programskih jezika NE pripada klasi deklarativnih jezika?",
-    "answers": ["LISP", "FORTRAN", "Haskell", "Ada", "Prolog", "Simula"],
-    "correctAnswer": ["FORTRAN", "Ada", "Simula"]
+    "answers": [
+      "LISP",
+      "FORTRAN",
+      "Haskell",
+      "Ada",
+      "Prolog",
+      "Simula"
+    ],
+    "correctAnswer": [
+      "FORTRAN",
+      "Ada",
+      "Simula"
+    ]
   },
   {
     "id": 46,
     "question": "Na kom matematičkom formalizmu, od navedenih, se zasniva programski jezik PROLOG?",
-    "answers": ["Horova logika", "Lambda račun", "Račun teorema", "Predikatski račun"],
+    "answers": [
+      "Horova logika",
+      "Lambda račun",
+      "Račun teorema",
+      "Predikatski račun"
+    ],
     "correctAnswer": "Predikatski račun"
   },
   {
     "id": 47,
     "question": "Koja tvrđenja NISU tačna?",
-    "answers": ["Terminali u BNF gramatici su tokeni", "Leva strana BNF produkcionog pravila može da sadrži terminale", "Atributska gramatika koristi se za specifikaciju sintakse jezika", "Svi čvorovi parsnog stabla mogu sadržati i terminale i neterminale"],
-    "correctAnswer": ["Leva strana BNF produkcionog pravila može da sadrži terminale", "Atributska gramatika koristi se za specifikaciju sintakse jezika", "Svi čvorovi parsnog stabla mogu sadržati i terminale i neterminale"]
+    "answers": [
+      "Terminali u BNF gramatici su tokeni",
+      "Leva strana BNF produkcionog pravila može da sadrži terminale",
+      "Atributska gramatika koristi se za specifikaciju sintakse jezika",
+      "Svi čvorovi parsnog stabla mogu sadržati i terminale i neterminale"
+    ],
+    "correctAnswer": [
+      "Leva strana BNF produkcionog pravila može da sadrži terminale",
+      "Atributska gramatika koristi se za specifikaciju sintakse jezika",
+      "Svi čvorovi parsnog stabla mogu sadržati i terminale i neterminale"
+    ]
   },
   {
     "id": 48,
     "question": "Da bi se korisnički definisani tip podatka mogao posmatrati kao apstraktni tip podatka, potrebno je da se:",
-    "answers": ["Obezbede operacije", "Obezbedi vidljivost strukture tipa", "Obezbedi vidljivost implementacije operacija (ako postoje)", "Omogući pristup svim članovima"],
-    "correctAnswer": ["Obezbede operacije", "Obezbedi vidljivost strukture tipa"]
+    "answers": [
+      "Obezbede operacije",
+      "Obezbedi vidljivost strukture tipa",
+      "Obezbedi vidljivost implementacije operacija (ako postoje)",
+      "Omogući pristup svim članovima"
+    ],
+    "correctAnswer": [
+      "Obezbede operacije",
+      "Obezbedi vidljivost strukture tipa"
+    ]
   },
   {
     "id": 49,
     "question": "Koje od navedenih enkapsulacionih konstrukcija omogućavaju da se enkapsulira više apstraktnih tipova podataka?",
-    "answers": ["C++ implementaciona datoteka", "C implementaciona datoteka", "C# assembly", "Ada package", "C++ namespace", "C# namespace"],
-    "correctAnswer": "Ada package"
+    "answers": [
+      "C++ implementaciona datoteka",
+      "C implementaciona datoteka",
+      "C# assembly",
+      "Ada package",
+      "C++ namespace",
+      "C# namespace"
+    ],
+    "correctAnswer": [
+      "Ada package",
+      "C# assembly"
+    ]
   },
   {
     "id": 50,
     "question": "Enkapsulaciona konstrukcija assembly u C# se kreira u vreme:",
-    "answers": ["Izvršenja", "Punjenja (loading)", "Kompajliranja", "Povezivanja (linking)", "Interpretiranja"],
+    "answers": [
+      "Izvršenja",
+      "Punjenja (loading)",
+      "Kompajliranja",
+      "Povezivanja (linking)",
+      "Interpretiranja"
+    ],
     "correctAnswer": "Kompajliranja"
   },
   {
     "id": 51,
     "question": "Koji modifikator pristupa bi se mogao navesti ispred članice Java klase da bi se obezbedilo da ona bude vidljiva za sve klase u istom paketu?",
-    "answers": ["Public", "Protected", "Private", "Internal (C#)", "Friend", "Modifikator pristupa bi se mogao izostaviti"],
-    "correctAnswer": ["Public", "Protected", "Modifikator pristupa bi se mogao izostaviti"]
+    "answers": [
+      "Public",
+      "Protected",
+      "Private",
+      "Internal (C#)",
+      "Friend",
+      "Modifikator pristupa bi se mogao izostaviti"
+    ],
+    "correctAnswer": [
+      "Public",
+      "Protected",
+      "Modifikator pristupa bi se mogao izostaviti"
+    ]
   },
   {
     "id": 52,
     "question": "Koja od navedenih tvrđenja NISU tačna?",
-    "answers": ["Regularni izraz je šablon za prepoznavanje tokena.", "Listovi parsnog stabla sadrže i terminale i neterminale", "Atributska gramatika se koristi za opis dinamičke semantike jezika.", "U BNF gramatici neterminali se uvek nalaze samo na levoj strani pravila.", "Parser prevodi niz tokena u parsno stablo.", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."],
-    "correctAnswer": ["Listovi parsnog stabla sadrže i terminale i neterminale", "Atributska gramatika se koristi za opis dinamičke semantike jezika.", "U BNF gramatici neterminali se uvek nalaze samo na levoj strani pravila.", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."]
+    "answers": [
+      "Regularni izraz je šablon za prepoznavanje tokena.",
+      "Listovi parsnog stabla sadrže i terminale i neterminale",
+      "Atributska gramatika se koristi za opis dinamičke semantike jezika.",
+      "U BNF gramatici neterminali se uvek nalaze samo na levoj strani pravila.",
+      "Parser prevodi niz tokena u parsno stablo.",
+      "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."
+    ],
+    "correctAnswer": [
+      "Listovi parsnog stabla sadrže i terminale i neterminale",
+      "Atributska gramatika se koristi za opis dinamičke semantike jezika.",
+      "U BNF gramatici neterminali se uvek nalaze samo na levoj strani pravila.",
+      "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."
+    ]
   },
   {
     "id": 53,
     "question": "Koji je mogući redosled faza u procesu prevođenja programa?\n1. Generisanje koda\n2. Semantička analiza\n3. Optimizacija koda\n4. Leksička analiza\n5. Sintaksna analiza\n6. Interpretiranje",
-    "answers": ["2-5-4-3-1", "5-4-2-3", "5-4-2-1-3", "4-5-1-6-2", "1-5-4-2", "4-5-2-6"],
+    "answers": [
+      "2-5-4-3-1",
+      "5-4-2-3",
+      "5-4-2-1-3",
+      "4-5-1-6-2",
+      "1-5-4-2",
+      "4-5-2-6"
+    ],
     "correctAnswer": "4-5-2-6"
   },
   {
     "id": 54,
     "question": "Koja su od navedenih tvrđenja tačna?",
-    "answers": ["Leksem predstavlja grupu tokena.", "Semantika određuje validnost strukture jezičkih konstrukcija.", "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.", "Skener prevodi tekst programa u parsno stablo.", "Listovi parsnog stabla sadrže i terminale i neterminale.", "Desna strana produkcionog pravila u BNF gramatici sadrži isključivo terminale.", "Nijedno od navedenog"],
+    "answers": [
+      "Leksem predstavlja grupu tokena.",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "Leksička struktura jezika određuje da li su leksemi u skladu sa sintaksom.",
+      "Skener prevodi tekst programa u parsno stablo.",
+      "Listovi parsnog stabla sadrže i terminale i neterminale.",
+      "Desna strana produkcionog pravila u BNF gramatici sadrži isključivo terminale.",
+      "Nijedno od navedenog"
+    ],
     "correctAnswer": "Nijedno od navedenog"
   },
   {
     "id": 55,
     "question": "U programskom jeziku C++ se u header datoteci obično nalaze:",
-    "answers": ["implementacija funkcija klase", "prototipovi funkcija klase", "interna reprezentacija klase", "međukod"],
-    "correctAnswer": "prototipovi funkcija klase"
+    "answers": [
+      "implementacija funkcija klase",
+      "prototipovi funkcija klase",
+      "interna reprezentacija klase",
+      "međukod"
+    ],
+    "correctAnswer": [
+      "prototipovi funkcija klase",
+      "interna reprezentacija klase"
+    ]
   },
   {
     "id": 56,
     "question": "Program napisan u programskom jeziku JavaScript sastoji se od:",
-    "answers": ["Sekvence instrukcija", "Skupa činjenica i pravila izvođenja", "Kompozicije primene funkcija", "Skupa objekata koji razmenjuju poruke"],
+    "answers": [
+      "Sekvence instrukcija",
+      "Skupa činjenica i pravila izvođenja",
+      "Kompozicije primene funkcija",
+      "Skupa objekata koji razmenjuju poruke"
+    ],
     "correctAnswer": "Sekvence instrukcija"
   },
   {
     "id": 57,
     "question": "Koja od navedenih tvrđenja NISU tačna?",
-    "answers": ["Atributska gramatika je šablon za prepoznavanje tokena.", "Semantika određuje validnost strukture jezičkih konstrukcija.", "BNF gramatika se koristi za opis statičke semantike jezika.", "U atributskoj gramatici terminali se uvek nalaze samo na desnoj strani pravila.", "Lekser formira tablicu simbola.", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."],
-    "correctAnswer": ["Atributska gramatika je šablon za prepoznavanje tokena.", "Semantika određuje validnost strukture jezičkih konstrukcija.", "BNF gramatika se koristi za opis statičke semantike jezika.", "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."]
+    "answers": [
+      "Atributska gramatika je šablon za prepoznavanje tokena.",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "BNF gramatika se koristi za opis statičke semantike jezika.",
+      "U atributskoj gramatici terminali se uvek nalaze samo na desnoj strani pravila.",
+      "Lekser formira tablicu simbola.",
+      "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."
+    ],
+    "correctAnswer": [
+      "Atributska gramatika je šablon za prepoznavanje tokena.",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "BNF gramatika se koristi za opis statičke semantike jezika.",
+      "Sintaksna struktura programskog jezika određuje kako se prepoznaju reči u tekstu izvornog programa."
+    ]
   },
   {
     "id": 58,
     "question": "Front-end kompajlera je zadužen za:",
-    "answers": ["Proveru tipova i konverzija tipova.", "Proveru sintaksne ispravnosti programa.", "Proveru leksičke ispravnosti programa.", "Proveru ispravnosti dinamičke semantike programa.", "Generisanje međukoda.", "Optimizaciju koda."],
-    "correctAnswer": ["Proveru tipova i konverzija tipova.", "Proveru sintaksne ispravnosti programa.", "Proveru leksičke ispravnosti programa.", "Generisanje međukoda."]
+    "answers": [
+      "Proveru tipova i konverzija tipova.",
+      "Proveru sintaksne ispravnosti programa.",
+      "Proveru leksičke ispravnosti programa.",
+      "Proveru ispravnosti dinamičke semantike programa.",
+      "Generisanje međukoda.",
+      "Optimizaciju koda."
+    ],
+    "correctAnswer": [
+      "Proveru tipova i konverzija tipova.",
+      "Proveru sintaksne ispravnosti programa.",
+      "Proveru leksičke ispravnosti programa.",
+      "Generisanje međukoda."
+    ]
   },
   {
     "id": 59,
     "question": "Mehanizam koji obezbeđuje enkapsulaciju u C#-u je:",
-    "answers": ["parcijalna klasa", "public klauzula", "struktura", "specification package", "ništa od navedenog"],
+    "answers": [
+      "parcijalna klasa",
+      "public klauzula",
+      "struktura",
+      "specification package",
+      "ništa od navedenog"
+    ],
     "correctAnswer": "struktura"
   },
   {
     "id": 60,
     "question": "Koji, od navedenih koncepata, omogućava da se definiše doseg naziva određenih programskih entiteta?",
-    "answers": ["Java package", "C header datoteka", "C# klasa", "Ada package", "C++ namespace", "JavaScript modul"],
-    "correctAnswer": ["Java package", "Ada package", "C++ namespace"]
+    "answers": [
+      "Java package",
+      "C header datoteka",
+      "C# klasa",
+      "Ada package",
+      "C++ namespace",
+      "JavaScript modul"
+    ],
+    "correctAnswer": [
+      "Java package",
+      "Ada package",
+      "C++ namespace",
+      "JavaScript modul"
+    ]
   },
   {
     "id": 61,
     "question": "U kojim programskim jezicima je paket minimalna enkapsulacija?",
-    "answers": ["Python", "C#", "C", "Java", "Ada"],
+    "answers": [
+      "Python",
+      "C#",
+      "C",
+      "Java",
+      "Ada"
+    ],
     "correctAnswer": "Ada"
   },
   {
     "id": 62,
     "question": "Koji od navedenih koncepata bi se mogao iskoristiti da se postigne sličan efekat kao i kada se ispred članice Java klase NE navede modifikator pristupa?",
-    "answers": ["protected internal (C#)", "private protected (C#)", "private (C)", "paket (Ada)", "friend (C++)", "private (C++)"],
+    "answers": [
+      "protected internal (C#)",
+      "private protected (C#)",
+      "private (C)",
+      "paket (Ada)",
+      "friend (C++)",
+      "private (C++)"
+    ],
     "correctAnswer": "paket (Ada)"
   },
   {
     "id": 63,
     "question": "Koji od navedenih programskih jezika NE pripada klasi proceduralnih jezika?",
-    "answers": ["Lisp", "FORTRAN", "Haskell", "C++", "Prolog", "C"],
-    "correctAnswer": ["Lisp", "Haskell", "Prolog"]
+    "answers": [
+      "Lisp",
+      "FORTRAN",
+      "Haskell",
+      "C++",
+      "Prolog",
+      "C"
+    ],
+    "correctAnswer": [
+      "Lisp",
+      "Haskell",
+      "Prolog"
+    ]
   },
   {
     "id": 64,
     "question": "U kojim, od navedenih programskih jezika, NIJE podržano nasleđivanje?",
-    "answers": ["Lisp", "C", "Python", "C++", "Prolog", "Scala"],
-    "correctAnswer": ["Lisp", "C", "Prolog"]
+    "answers": [
+      "Lisp",
+      "C",
+      "Python",
+      "C++",
+      "Prolog",
+      "Scala"
+    ],
+    "correctAnswer": [
+      "Lisp",
+      "C",
+      "Prolog"
+    ]
   },
   {
     "id": 65,
@@ -402,31 +930,78 @@
   {
     "id": 66,
     "question": "Koje aktivnosti se izvršavaju kod hibridnih implementacionih sistema koji obuhvataju virtuelnu mašinu?",
-    "answers": ["Generisanje koda", "Optimizacija koda", "Semantička analiza", "Sintaksna analiza", "Leksička analiza", "Interpretiranje"],
-    "correctAnswer": ["Generisanje koda", "Semantička analiza", "Sintaksna analiza", "Leksička analiza", "Interpretiranje"]
+    "answers": [
+      "Generisanje koda",
+      "Optimizacija koda",
+      "Semantička analiza",
+      "Sintaksna analiza",
+      "Leksička analiza",
+      "Interpretiranje"
+    ],
+    "correctAnswer": [
+      "Semantička analiza",
+      "Sintaksna analiza",
+      "Leksička analiza",
+      "Interpretiranje"
+    ]
   },
   {
     "id": 67,
     "question": "U kojoj fazi procesa prevođenja programa se može vršiti statička provera da li su sve promenljive u programu deklarisane pre korišćenja?",
-    "answers": ["Generisanje koda", "Optimizacija koda", "Semantička analiza", "Sintaksna analiza", "Leksička analiza", "Interpretiranje"],
+    "answers": [
+      "Generisanje koda",
+      "Optimizacija koda",
+      "Semantička analiza",
+      "Sintaksna analiza",
+      "Leksička analiza",
+      "Interpretiranje"
+    ],
     "correctAnswer": "Semantička analiza"
   },
   {
     "id": 68,
     "question": "Koje su, od navedenih, semantičke akcije ispravne ako je dato sledeće produkciono pravilo: L -> T L1 (svim neterminalima pridruženi su atributi n — nasleđeni i s — sintetizovani)?",
-    "answers": ["L.n = T.n", "L1.n = T.n + 3", "L.s = T.n", "L.s = L1.s", "T.n = L1.n", "T.s = L.s"],
-    "correctAnswer": ["L1.n = T.n + 3", "L.s = T.n", "L.s = L1.s"]
+    "answers": [
+      "L.n = T.n",
+      "L1.n = T.n + 3",
+      "L.s = T.n",
+      "L.s = L1.s",
+      "T.n = L1.n",
+      "T.s = L.s"
+    ],
+    "correctAnswer": [
+      "L1.n = T.n + 3",
+      "L.s = T.n",
+      "L.s = L1.s"
+    ]
   },
   {
     "id": 69,
     "question": "Koja, od navedenih, tvrđenja NISU tačna?",
-    "answers": ["Regularna gramatika je ekstenzija BNF gramatike", "Semantika određuje validnost strukture jezičkih konstrukcija.", "U atributskoj gramatici terminali mogu imati samo sintetizovane atribute.", "Lekser prevodi tekst programa u AST.", "Leva strana BNF produkcionog pravila može da sadrži terminale."],
-    "correctAnswer": ["Regularna gramatika je ekstenzija BNF gramatike", "Semantika određuje validnost strukture jezičkih konstrukcija.", "Lekser prevodi tekst programa u AST.", "Leva strana BNF produkcionog pravila može da sadrži terminale."]
+    "answers": [
+      "Regularna gramatika je ekstenzija BNF gramatike",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "U atributskoj gramatici terminali mogu imati samo sintetizovane atribute.",
+      "Lekser prevodi tekst programa u AST.",
+      "Leva strana BNF produkcionog pravila može da sadrži terminale."
+    ],
+    "correctAnswer": [
+      "Regularna gramatika je ekstenzija BNF gramatike",
+      "Semantika određuje validnost strukture jezičkih konstrukcija.",
+      "Lekser prevodi tekst programa u AST.",
+      "Leva strana BNF produkcionog pravila može da sadrži terminale."
+    ]
   },
   {
     "id": 70,
     "question": "Koje su, od navedenih, karakteristike L-atributske gramatike?",
-    "answers": ["Tok evaluacije svih atributa je od dna ka vrhu parsnog stabla (bottom-up).", "Koriste se samo nasleđeni atributi.", "Koriste se samo sintetizovani atributi.", "Semantička analiza može da se izvrši za vreme parsiranja.", "Podržane su u LL parserima."],
+    "answers": [
+      "Tok evaluacije svih atributa je od dna ka vrhu parsnog stabla (bottom-up).",
+      "Koriste se samo nasleđeni atributi.",
+      "Koriste se samo sintetizovani atributi.",
+      "Semantička analiza može da se izvrši za vreme parsiranja.",
+      "Podržane su u LL parserima."
+    ],
     "correctAnswer": "Podržane su u LL parserima."
   }
 ]
